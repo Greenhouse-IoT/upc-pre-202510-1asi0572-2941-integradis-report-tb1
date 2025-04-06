@@ -195,11 +195,10 @@
 
 |                             |                                                              |
 |-----------------------------|--------------------------------------------------------------|
-| **JHERSON DAVID ASTUYAURI CALDERÓN** | <img src="https://drive.google.com/uc?export=view&id=1d_vrqkdeuvBMu-GFH6E8L_2a1jEz45o0" alt="Jherson Astuyauri" width="100"/> |                                                 |
+| **JHERSON DAVID ASTUYAURI CALDERÓN** | <img src="https://drive.google.com/uc?export=view&id=1d_vrqkdeuvBMu-GFH6E8L_2a1jEz45o0" alt="Jherson Astuyauri" width="700" height="140"/> |                                                 |
 | **INGENIERIA DE SOFTWARE**  |                                                              |
 | **U202218451**              |                                                              |
-| Hola, soy Jherson Astuyauri. Tengo 20 años y actualmente curso el séptimo ciclo de la carrera de Ingeniería de Software. Elegí esta carrera porque me apasiona la tecnología y su impacto en la evolución del mundo, así como en la mejora de la calidad de vida de las personas. Actualmente, me interesan especialmente las áreas de inteligencia artificial y ciberseguridad.
-Puedo aportar al equipo con los conocimientos técnicos que he adquirido a lo largo de los cursos previos, además de mi capacidad para trabajar en equipo de manera efectiva, con una actitud proactiva y responsabilidad. | 
+| Hola, soy Jherson Astuyauri. Tengo 20 años y actualmente curso el séptimo ciclo de la carrera de Ingeniería de Software. Elegí esta carrera porque me apasiona la tecnología y su impacto en la evolución del mundo, así como en la mejora de la calidad de vida de las personas. Actualmente, me interesan especialmente las áreas de inteligencia artificial y ciberseguridad. Puedo aportar al equipo con los conocimientos técnicos que he adquirido a lo largo de los cursos previos, además de mi capacidad para trabajar en equipo de manera efectiva, con una actitud proactiva y responsabilidad. | 
 
 
 <h2 id='1.2.'>Solution Profile</h2>
