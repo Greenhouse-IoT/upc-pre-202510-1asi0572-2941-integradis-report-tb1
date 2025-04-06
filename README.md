@@ -6,7 +6,7 @@
 <h3 align="center">Startup: Integradis</h3>
 <h3 align="center">Producto: Greenhouse</h3>
 
-<table align="center" border="1" cellpadding="5" cellspacing="0">
+<table align="center" cellpadding="5" cellspacing="0">
   <thead>
     <tr>
       <th>Nombre</th>
@@ -14,6 +14,11 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>Astuyari Calderon, Jherson David</td>
+      <td>U202218451</td>
+    </tr>
+    <tr>
     <tr>
       <td>Espinoza Rodriguez, Nicolas Antonio</td>
       <td>U202110278</td>
@@ -47,6 +52,7 @@
 
 | Integrante                          | Tareas Asignadas |
 | ----------------------------------- | ---------------- |
+| Astuyari Calderon, Jherson David    |                  |
 | Espinoza Rodriguez, Nicolas Antonio |                  |
 | Galavis Du Bois, Alan Enrique       |                  |
 | Seminario Garbin, Carlo Luca        |                  |
@@ -126,3 +132,71 @@
 5.4.3. [Applications Mock-ups.](#4.4.3.)<br>
 5.4.4. [Applications User Flow Diagrams.](#4.4.4.)<br>
 5.5. [Applications Prototyping.](#4.5.)<br>
+
+# Student Outcome
+
+<table cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
+      <td>
+      <i>TB1</i><br/>
+      <b>Astuyari Calderon, Jherson David:</b>
+      <br/>
+      <i>TB1</i><br/>
+      <b>Espinoza Rodriguez, Nicolas Antonio:</b>
+      <br/>
+      <i>TB1</i><br/>
+      <b>Galavis Du Bois, Alan Enrique:</b>
+      <br/>
+      <i>TB1</i><br/>
+      <b>Seminario Garbin, Carlo Luca:</b>
+      <br/>
+      <i>TB1</i><br/>
+      <b>Soto Kong Requena, Andres Eduardo:</b>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+    <tr>
+      <td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. </td>
+      <td>
+      <i>TB1</i><br/>
+      <b>Astuyari Calderon, Jherson David:</b>
+      <br/>
+      <i>TB1</i><br/>
+      <b>Espinoza Rodriguez, Nicolas Antonio:</b>
+      <br/>
+      <i>TB1</i><br/>
+      <b>Galavis Du Bois, Alan Enrique:</b>
+      <br/>
+      <i>TB1</i><br/>
+      <b>Seminario Garbin, Carlo Luca:</b>
+      <br/>
+      <i>TB1</i><br/>
+      <b>Soto Kong Requena, Andres Eduardo:</b>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id='1.'>Capítulo I: Introducción</h1>
+<h2 id='1.1.'>Descripción de la Startup</h2>
+<h3 id='1.1.1.'>Descripción de la Startup</h3>
+<h3 id='1.1.2.'>Perfiles de integrantes del equipo</h3>
+<h2 id='1.2.'>Solution Profile</h2>
+<h3 id='1.2.1.'>Antecedentes y problemática</h3>
+<h3 id='1.2.2.'>Lean UX Process</h3>
+<h4 id='1.2.2.1.'>Lean UX Problem Statements</h4>
+<h4 id='1.2.2.2.'>Lean UX Assumptions</h4>
+<h4 id='1.2.2.3.'>Lean UX Hypothesis Statements</h4>
+<h4 id='1.2.2.4.'>Lean UX Canvas</h4>
+<h2 id='1.3.'>Segmentos objetivo</h2>
