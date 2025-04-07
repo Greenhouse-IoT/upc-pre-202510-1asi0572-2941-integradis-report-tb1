@@ -15,12 +15,12 @@
   </thead>
   <tbody>
     <tr>
-      <td>Astuyari Calderon, Jherson David</td>
+      <td>Astuyauri Calderon, Jherson David</td>
       <td>U202218451</td>
     </tr>
     <tr>
     <tr>
-      <td>Espinoza Rodriguez, Nicolas Antonio</td>
+      <td>Espinoza Rodríguez, Nicolás Antonio</td>
       <td>U202110278</td>
     </tr>
     <tr>
@@ -32,7 +32,7 @@
       <td>U20211A475</td>
     </tr>
     <tr>
-      <td>Soto Kong Requena, Andres Eduardo</td>
+      <td>Soto Kong Requena, Andrés Eduardo</td>
       <td>U202116113</td>
     </tr>
   </tbody>
@@ -52,11 +52,11 @@
 
 | Integrante                          | Tareas Asignadas |
 | ----------------------------------- | ---------------- |
-| Astuyari Calderon, Jherson David    |                  |
-| Espinoza Rodriguez, Nicolas Antonio |                  |
+| Astuyauri Calderon, Jherson David    |                  |
+| Espinoza Rodríguez, Nicolás Antonio |                  |
 | Galavis Du Bois, Alan Enrique       |                  |
 | Seminario Garbin, Carlo Luca        |                  |
-| Soto Kong Requena, Andres Eduardo   |                  |
+| Soto Kong Requena, Andrés Eduardo   |                  |
 
 # Contenido
 1. [**Capítulo I: Introducción.**](#1.) <br>
@@ -148,19 +148,19 @@
       <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
       <td>
       <i>TB1</i><br/>
-      <b>Astuyari Calderon, Jherson David:</b>
+      <b>Astuyauri Calderón, Jherson David:</b>
       <br/>
       <i>TB1</i><br/>
-      <b>Espinoza Rodriguez, Nicolas Antonio:</b>
+      <b>Espinoza Rodríguez, Nicolás Antonio:</b>
       <br/>
       <i>TB1</i><br/>
       <b>Galavis Du Bois, Alan Enrique:</b>
       <br/>
       <i>TB1</i><br/>
-      <b>Seminario Garbin, Carlo Luca:</b>
+      <b>Seminario Garbín, Carlo Luca:</b>
       <br/>
       <i>TB1</i><br/>
-      <b>Soto Kong Requena, Andres Eduardo:</b>
+      <b>Soto Kong Requena, Andrés Eduardo:</b>
       </td>
       <td></td>
     </tr>
@@ -169,19 +169,19 @@
       <td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. </td>
       <td>
       <i>TB1</i><br/>
-      <b>Astuyari Calderon, Jherson David:</b>
+      <b>Astuyauri Calderón, Jherson David:</b>
       <br/>
       <i>TB1</i><br/>
-      <b>Espinoza Rodriguez, Nicolas Antonio:</b>
+      <b>Espinoza Rodríguez, Nicolás Antonio:</b>
       <br/>
       <i>TB1</i><br/>
       <b>Galavis Du Bois, Alan Enrique:</b>
       <br/>
       <i>TB1</i><br/>
-      <b>Seminario Garbin, Carlo Luca:</b>
+      <b>Seminario Garbín, Carlo Luca:</b>
       <br/>
       <i>TB1</i><br/>
-      <b>Soto Kong Requena, Andres Eduardo:</b>
+      <b>Soto Kong Requena, Andrés Eduardo:</b>
       </td>
       <td></td>
     </tr>
@@ -189,20 +189,61 @@
 </table>
 
 <h1 id='1.'>Capítulo I: Introducción</h1>
-<h2 id='1.1.'>Descripción de la Startup</h2>
+<h2 id='1.1.'>Startup Profile</h2>
+En esta sección se presenta la descripción del startup y los perfiles de los miembros del equipo.
 <h3 id='1.1.1.'>Descripción de la Startup</h3>
+Integradis es una startup que busca modernizar el proceso de documentación de actividades y automatizar la medición de parámetros ambientales en las fábricas productoras de champiñones del Perú. El equipo identificó que el uso de sensores manuales y mantener una documentación escrita en la industria actual no solo es arcaico e ineficiente, sino que puede llevar a mediciones imprecisas, lo cual impacta directamente en la calidad y cantidad de la producción final. Bajo este contexto, el equipo identificó una oportunidad para brindar una solución IoT que permita llevar un mejor control sobre estos procesos, con el fin de mitigar los errores asociados al factor humano, y de fomentar el registro digital de procesos.
+Misión: Agilizar e impulsar la digitalización de la documentación y monitoreo de los principales procesos de las fábricas productoras de champiñones del Perú.
+Visión: Dentro de los próximos 6 años, ser reconocidos como un modelo de negocio sostenible, líder en el desarrollo de plataformas que modernicen la cadena de producción de champiñones a nivel nacional.
+Valores:
+
+- Adaptabilidad: Estamos siempre dispuestos a adaptarnos a las necesidades de nuestros usuarios, a los cambios del mercado y las nuevas tendencias en el sector de agricultura.
+- Confianza: Trabajamos de manera constante para generar confianza y seguridad en todas nuestras actividades.
+- Constancia: Nos esforzamos por mantener una constante mejora en la calidad de nuestros servicios.
+- Disponibilidad: Contamos con un equipo disponible gran parte del día para atender todas las necesidades, dudas o problemas que tengan nuestros usuarios en los diferentes productos o servicios que ofrecemos.
+
 <h3 id='1.1.2.'>Perfiles de integrantes del equipo</h3>
 
-|                             |                                                              |
-|-----------------------------|--------------------------------------------------------------|
-| **JHERSON DAVID ASTUYAURI CALDERÓN** | <img src="https://drive.google.com/uc?export=view&id=1d_vrqkdeuvBMu-GFH6E8L_2a1jEz45o0" alt="Jherson Astuyauri" width="700" height="140"/> |                                                 |
-| **INGENIERIA DE SOFTWARE**  |                                                              |
-| **U202218451**              |                                                              |
-| Hola, soy Jherson Astuyauri. Tengo 20 años y actualmente curso el séptimo ciclo de la carrera de Ingeniería de Software. Elegí esta carrera porque me apasiona la tecnología y su impacto en la evolución del mundo, así como en la mejora de la calidad de vida de las personas. Actualmente, me interesan especialmente las áreas de inteligencia artificial y ciberseguridad. Puedo aportar al equipo con los conocimientos técnicos que he adquirido a lo largo de los cursos previos, además de mi capacidad para trabajar en equipo de manera efectiva, con una actitud proactiva y responsabilidad. | 
-
+| Foto | Nombres y apellidos | Código de alumno | Carrera | Descripción |
+|----- | --------------------|------------------| --------| ------------|
+| <img src="https://drive.google.com/uc?export=view&id=1d_vrqkdeuvBMu-GFH6E8L_2a1jEz45o0" alt="Jherson Astuyauri" width="700" height="140"/> | **Jherson David Astuyauri Calderón** | U202218451 | Ingeniería de Software | Hola, soy Jherson Astuyauri. Tengo 20 años y actualmente curso el séptimo ciclo de la carrera de Ingeniería de Software. Elegí esta carrera porque me apasiona la tecnología y su impacto en la evolución del mundo, así como en la mejora de la calidad de vida de las personas. Actualmente, me interesan especialmente las áreas de inteligencia artificial y ciberseguridad. Puedo aportar al equipo con los conocimientos técnicos que he adquirido a lo largo de los cursos previos, además de mi capacidad para trabajar en equipo de manera efectiva, con una actitud proactiva y responsabilidad. |
+| | **Nicolás Antonio Espinoza Rodríguez** | U202110278 | Ingeniería de Software | |
+| | **Alan Enrique Galavís Du Bois** | U202110223 | Ingeniería de Software | Mi nombre es Alan Galavis, tengo 21 años y actualmente curso el noveno ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Mi formación académica se ha centrado en el diseño y desarrollo de proyectos de alta calidad, desde simples landing pages hasta aplicaciones web y móviles con RESTful APIs. Para este proyecto puedo aportar con mi capacidad de crear un software eficiente y escalable que brinda las mejores experiencias de usuario. Mi compromiso y conocimientos en gestión de proyectos ágiles me permiten colaborar de manera exitosa en equipos de trabajo. |
+| | **Carlo Luca Seminario Garbín** | U20211A475 | Ingeniería de Software | |
+| | **Andrés Eduardo Soto Kong Requena** | U202116113 | Ingeniería de Software | |
 
 <h2 id='1.2.'>Solution Profile</h2>
 <h3 id='1.2.1.'>Antecedentes y problemática</h3>
+A continuación, se presentan las secciones de Antecedentes y Problemática, y Lean UX Process. La primera consta del enunciado de problema y una descripción de los puntos más importantes que debe resolver la solución, del mismo modo se presentan los objetivos y restricciones que delimitan el alcance del proyecto. La segunda sección es el resultado de la ejecución del Lean UX Process sobre el dominio del problema.
+
+#### **What? (¿Qué?)**
+
+**¿Cuál es el problema?**
+
+#### **When? (¿Cuándo?)**
+
+**¿Cuándo sucede el problema?**
+
+#### **Where? (¿Dónde?)**
+
+**¿Dónde surge el problema?**
+
+#### **Who? (¿Quién?)**
+
+**¿Quiénes están involucrados? ¿Quién lo utilizará?**
+
+#### **Why? (¿Por qué?)**
+
+**¿Cuál es la causa del problema?**
+
+#### **How? (¿Cómo?)**
+
+**¿Cómo se utilizará el producto?**
+
+#### **How much? (Cuánto)**
+
+**¿Cuál es la magnitud del problema?**
+
 <h3 id='1.2.2.'>Lean UX Process</h3>
 <h4 id='1.2.2.1.'>Lean UX Problem Statements</h4>
 <h4 id='1.2.2.2.'>Lean UX Assumptions</h4>
