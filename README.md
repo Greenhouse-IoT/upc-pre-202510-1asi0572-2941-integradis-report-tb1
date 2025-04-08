@@ -1,4 +1,7 @@
 <h3 align="center">Universidad Peruana de Ciencias Aplicadas - Ingeniería de Software - 2025-10</h3>
+<div align="center">
+  <img width=140 src="https://seeklogo.com/images/U/universidad-peruana-de-ciencias-aplicadas-upc-logo-B98C3A365C-seeklogo.com.png"/>
+</div>
 <h3 align="center">1ASI0572 - Desarrollo de Soluciones IOT</h3>
 <h3 align="center">NRC: 2941</h3>
 <h3 align="center">Profesor: Leon Baca, Marco Antonio</h3>
@@ -206,9 +209,9 @@ Valores:
 
 | Foto | Nombres y apellidos | Código de alumno | Carrera | Descripción |
 |----- | --------------------|------------------| --------| ------------|
-| <img src="https://drive.google.com/uc?export=view&id=1d_vrqkdeuvBMu-GFH6E8L_2a1jEz45o0" alt="Jherson Astuyauri" width="700" height="140"/> | **Jherson David Astuyauri Calderón** | U202218451 | Ingeniería de Software | Hola, soy Jherson Astuyauri. Tengo 20 años y actualmente curso el séptimo ciclo de la carrera de Ingeniería de Software. Elegí esta carrera porque me apasiona la tecnología y su impacto en la evolución del mundo, así como en la mejora de la calidad de vida de las personas. Actualmente, me interesan especialmente las áreas de inteligencia artificial y ciberseguridad. Puedo aportar al equipo con los conocimientos técnicos que he adquirido a lo largo de los cursos previos, además de mi capacidad para trabajar en equipo de manera efectiva, con una actitud proactiva y responsabilidad. |
+| <img src="assets/images/chapter_1/team_members/JhersonAstuyauri.jpg" alt="Jherson Astuyauri" width="700" /> | **Jherson David Astuyauri Calderón** | U202218451 | Ingeniería de Software | Hola, soy Jherson Astuyauri. Tengo 20 años y actualmente curso el séptimo ciclo de la carrera de Ingeniería de Software. Elegí esta carrera porque me apasiona la tecnología y su impacto en la evolución del mundo, así como en la mejora de la calidad de vida de las personas. Actualmente, me interesan especialmente las áreas de inteligencia artificial y ciberseguridad. Puedo aportar al equipo con los conocimientos técnicos que he adquirido a lo largo de los cursos previos, además de mi capacidad para trabajar en equipo de manera efectiva, con una actitud proactiva y responsabilidad. |
 | | **Nicolás Antonio Espinoza Rodríguez** | U202110278 | Ingeniería de Software | |
-| | **Alan Enrique Galavís Du Bois** | U202110223 | Ingeniería de Software | Mi nombre es Alan Galavis, tengo 21 años y actualmente curso el noveno ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Mi formación académica se ha centrado en el diseño y desarrollo de proyectos de alta calidad, desde simples landing pages hasta aplicaciones web y móviles con RESTful APIs. Para este proyecto puedo aportar con mi capacidad de crear un software eficiente y escalable que brinda las mejores experiencias de usuario. Mi compromiso y conocimientos en gestión de proyectos ágiles me permiten colaborar de manera exitosa en equipos de trabajo. |
+| <img src="assets/images/chapter_1/team_members/AlanGalavis.jpg" alt="Alan Galavis" width="700" /> | **Alan Enrique Galavís Du Bois** | U202110223 | Ingeniería de Software | Mi nombre es Alan Galavis, tengo 21 años y actualmente curso el noveno ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Mi formación académica se ha centrado en el diseño y desarrollo de proyectos de alta calidad, desde simples landing pages hasta aplicaciones web y móviles con RESTful APIs. Para este proyecto puedo aportar con mi capacidad de crear un software eficiente y escalable que brinda las mejores experiencias de usuario. Mi compromiso y conocimientos en gestión de proyectos ágiles me permiten colaborar de manera exitosa en equipos de trabajo. |
 | | **Carlo Luca Seminario Garbín** | U20211A475 | Ingeniería de Software | |
 | | **Andrés Eduardo Soto Kong Requena** | U202116113 | Ingeniería de Software | |
 
