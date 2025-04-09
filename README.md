@@ -257,29 +257,36 @@ A continuación, se presentan las secciones de Antecedentes y Problemática, y L
 <h1 id='2.'>Capítulo II: Requirements Elicitation & Analysis</h1>
 
 <h2 id='2.1.'>2.1. Competidores</h2>
+
+Crear una plataforma de registro de procesos para fábricas productoras de alimentos no es una idea nueva, por lo tanto, existen competidores potenciales en el mercado. Identificar sus fortalezas y debilidades permite proponer una solución más eficiente. Entre los principales competidores cabe destacar: 
+
+- Agroptima  
+Es un software para la gestión agrícola. Permite controlar la evolución de los cultivos desde una plataforma digital.
+
+- Agro Software  
+Es una aplicación web basada en Microsoft Dynamics que permite a las empresas almacenar en la nube los registros de sus cultivos.
+
+- AgroBit  
+Una plataforma que permite calcular la rentabilidad de los cultivos por medio de tecnología de *Machine Learning* y *Big Data*.
+
+
 <h3 id='2.1.1.'>2.1.1. Análisis competitivo</h3>
 
 
 <table><tr><th colspan="6" valign="top"><b>Competitive Analysis Landscape</b></th><th colspan="1"></th><th colspan="1"></th></tr>
-<tr><td colspan="3" valign="top">¿Por qué llevar a cabo este análisis?  </td><td colspan="3" valign="top"> El análisis de la competencia perteneciente al mercado permite comprender el entorno 
-competitivo en el que operará nuestro producto. Ello proporciona una visión detallada de 
-quienes son nuestros competidores directos e indirectos, trazar estrategia a través de 
-información recopilada sobre su posicionamiento actual en el mercado. </td><td colspan="1"></td><td colspan="1"></td></tr>
+<tr><td colspan="3" valign="top">¿Por qué llevar a cabo este análisis?  </td><td colspan="3" valign="top"> El análisis de la competencia perteneciente al mercado permite comprender el entorno competitivo en el que operará nuestro producto. Ello proporciona una visión detallada de quienes son nuestros competidores directos e indirectos, trazar estrategia a través de información recopilada sobre su posicionamiento actual en el mercado. </td><td colspan="1"></td><td colspan="1"></td></tr>
 <tr><td colspan="2" valign="top"><b>Nombre</b></td><td colspan="1" valign="top"><b>Greenhouse</b></td><td colspan="1" valign="top"><b>Agroptima</b></td><td colspan="1" valign="top"><b>Agrio Software</b></td><td colspan="1" valign="top"><b>AgroBit</b></td><td colspan="1"></td><td colspan="1"></td></tr>
 
-<tr><td colspan="1" rowspan="4" valign="top"><b>Perfil</b></td><td colspan="1" rowspan="2" valign="top"><b>Overview</b></td><td colspan="1" rowspan="2" valign="top">Plataforma direccionada al registro y monitoreo de procesos productivos involucrados en los 
-cultivos de las industrias de champiñones.  La plataforma permite la visibilidad de registro de datos históricos y actuales para un análisis exhaustivo lo que 
-culmina en la toma de decisiones conscientes para las agroempresas. </td><td colspan="1" rowspan="2" valign="top"> --- </td><td colspan="1" rowspan="2" valign="top">  --- </td><td colspan="1" rowspan="2" valign="top">---</td><td colspan="1"></td><td colspan="1"></td></tr>
+<tr><td colspan="1" rowspan="4" valign="top"><b>Perfil</b></td><td colspan="1" rowspan="2" valign="top"><b>Overview</b></td><td colspan="1" rowspan="2" valign="top"> <p>Plataforma direccionada al registro y monitoreo de procesos productivos involucrados en los 
+cultivos de las industrias de champiñones.</p> <p>La plataforma permite la visibilidad de registro de datos históricos y actuales para un análisis exhaustivo lo que culmina en la toma de decisiones conscientes para las agroempresas.</p> </td><td colspan="1" rowspan="2" valign="top"> --- </td><td colspan="1" rowspan="2" valign="top">  --- </td><td colspan="1" rowspan="2" valign="top">---</td><td colspan="1"></td><td colspan="1"></td></tr>
 <tr><td colspan="1"></td><td colspan="1"></td></tr>
-<tr><td colspan="1" rowspan="2" valign="top"><b>Ventaja competitiva ¿Qué valor ofrece a los clientes?</b></td><td colspan="1" rowspan="2" valign="top"><p>Permite el registro de procesos productivos a partir de fases involucradas en la gestión de cultivos de champiñones. </p><p></p><p></p><p></p><p></p></td><td colspan="1" rowspan="2" valign="top">---</td><td colspan="1" rowspan="2" valign="top">---.</td><td colspan="1" rowspan="2" valign="top">---</td><td colspan="1"></td><td colspan="1"></td></tr>
+<tr><td colspan="1" rowspan="2" valign="top"><b>Ventaja competitiva ¿Qué valor ofrece a los clientes?</b></td><td colspan="1" rowspan="2" valign="top"><p>Permite el registro de procesos productivos a partir de fases involucradas en la gestión de cultivos de champiñones. </p></td><td colspan="1" rowspan="2" valign="top">---</td><td colspan="1" rowspan="2" valign="top">---.</td><td colspan="1" rowspan="2" valign="top">---</td><td colspan="1"></td><td colspan="1"></td></tr>
 <tr><td colspan="1"></td><td colspan="1"></td></tr>
-<tr><td colspan="1" rowspan="2" valign="top"><b>Perfil de Marketing</b></td><td colspan="1" valign="top"><b>Mercado objetivo</b></td><td colspan="1" valign="top">PPersonal técnico supervisor de las fábricas champiñoneras del Perú. 
-Personal administrativo de las empresas champiñoneras del Perú. </td><td colspan="1" valign="top">---</td><td colspan="1" valign="top">---</td><td colspan="1" valign="top">----</td><td colspan="1"></td><td colspan="1"></td></tr>
-<tr><td colspan="1" valign="top"><b>Estrategias de Marketing</b></td><td colspan="1" valign="top">Colaboración con expertos en agronomía y agroempresas para respaldar la eficacia del sistema. 
-Ofrecer una prueba gratuita a los usuarios (estrategias de retención). </td><td colspan="1" valign="top">---</td><td colspan="1" valign="top">---</td><td colspan="1" valign="top">----</td><td colspan="1"></td><td colspan="1"></td></tr>
-<tr><td colspan="1" rowspan="3" valign="top"><b>Perfil de producto</b></td><td colspan="1" valign="top"><b>Productos y Servicios</b></td><td colspan="1" valign="top">Plataforma móvil para el registro y monitoreo de procesos productivos involucrados en los cultivos de la industria champiñonera. </td><td colspan="1" valign="top">.....</td><td colspan="1" valign="top">.....</td><td colspan="1" valign="top">........</td><td colspan="1"></td><td colspan="1"></td></tr>
+<tr><td colspan="1" rowspan="2" valign="top"><b>Perfil de Marketing</b></td><td colspan="1" valign="top"><b>Mercado objetivo</b></td><td colspan="1" valign="top"> <p>Personal técnico supervisor de las fábricas champiñoneras del Perú.</p> <p>Personal administrativo de las empresas champiñoneras del Perú.</p> </td><td colspan="1" valign="top">---</td><td colspan="1" valign="top">---</td><td colspan="1" valign="top">----</td><td colspan="1"></td><td colspan="1"></td></tr>
+<tr><td colspan="1" valign="top"><b>Estrategias de Marketing</b></td><td colspan="1" valign="top"> <p>Colaboración con expertos en agronomía y agroempresas para respaldar la eficacia del sistema.</p> <p>Ofrecer una prueba gratuita a los usuarios (estrategias de retención). </p></td><td colspan="1" valign="top">---</td><td colspan="1" valign="top">---</td><td colspan="1" valign="top">----</td><td colspan="1"></td><td colspan="1"></td></tr>
+<tr><td colspan="1" rowspan="3" valign="top"><b>Perfil de producto</b></td><td colspan="1" valign="top"><b>Productos y Servicios</b></td><td colspan="1" valign="top"> Plataforma móvil para el registro y monitoreo de procesos productivos involucrados en los cultivos de la industria champiñonera. </td><td colspan="1" valign="top">.....</td><td colspan="1" valign="top">.....</td><td colspan="1" valign="top">........</td><td colspan="1"></td><td colspan="1"></td></tr>
 <tr><td colspan="1" valign="top"><b>Precios y Costos</b></td><td colspan="1" valign="top">Venta de espacios publicitarios dentro de la plataforma Suscripción gratuita por un rango de 15 días, luego el costo será proporcional al tamaño de la agroempresa. Si la agroempresa registra de entre 100 a 500 usuarios, se considera un monto de $6.75 por usuario; de 500 a más, el costo oscila en $4.45. </td><td colspan="1" valign="top">.....</td><td colspan="1" valign="top">.....</td><td colspan="1" valign="top">.......</td><td colspan="1"></td><td colspan="1"></td></tr>
-<tr><td colspan="1" valign="top"><b>Canales de distribución</b></td><td colspan="1" valign="top"><p>El servicio se brindará en plataforma móvil nativa y por el navegador web </p><p>.....</p></td><td colspan="1" valign="top"><p>-....</p><p>......</p></td><td colspan="1" valign="top"><p>......</p><p>-......</p></td><td colspan="1" valign="top"><p>.....</p><p>.......</p></td><td colspan="1"></td><td colspan="1"></td></tr>
+<tr><td colspan="1" valign="top"><b>Canales de distribución</b></td><td colspan="1" valign="top"><p>El servicio se brindará en plataforma móvil nativa y por el navegador web </p></td><td colspan="1" valign="top"><p>-....</p><p>......</p></td><td colspan="1" valign="top"><p>......</p></td><td colspan="1" valign="top"><p>.....</p><p>.......</p></td><td colspan="1"></td><td colspan="1"></td></tr>
 <tr><td colspan="1" rowspan="4" valign="top"><b>Análisis FODA</b></td><td colspan="1" valign="top"><b>Fortalezas</b></td><td colspan="1" valign="top"><p>Comunicación flexible entre el personal supervisor y administrativo de las plantas agrícolas. 
 Registro y monitoreo eficiente de los procesos productivos de los cultivos de champiñones.</p></td><td colspan="1" valign="top"><p>--------</p></td><td colspan="1" valign="top"><p>-----</p></td><td colspan="1" valign="top"><p>----------</p></td><td colspan="1"></td><td colspan="1"></td></tr>
 <tr><td colspan="1" valign="top"><b>Debilidades</b></td><td colspan="1" valign="top"><p> Desconocimiento de las tendencias en el sector agrícola y productivo del cultivo de champiñones .</p></td><td colspan="1" valign="top"><p>.......</p></td><td colspan="1" valign="top"><p>........</p></td><td colspan="1" valign="top"><p>..........</p></td><td colspan="1"></td><td colspan="1"></td></tr>
