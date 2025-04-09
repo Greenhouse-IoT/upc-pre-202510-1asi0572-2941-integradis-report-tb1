@@ -321,3 +321,114 @@ El lenguaje ubicuo permite que las personas del negocio, incluso aquellas sin co
 - IoT: concepto que describe la interconexión de dispositivos físicos a través de internet, permitiendo que recopilen, compartan y procesen datos de forma automática.
 - Sensor: dispositivo que recopila datos del entorno, como temperatura, humedad, entre otros, y los transmite a través de una red para ser procesados o analizados por otros dispositivos o sistemas.
 - Actuador: Dispositivo que recibe señales o comandos de un sistema y realiza una acción física en el entorno, como encender un motor, abrir una válvula o ajustar la temperatura, como respuesta a los datos procesados por sensores u otros dispositivos.
+
+<h1 id='4.'>4. Capítulo IV: Solution Software Design</h1>
+<h2 id='4.1.'>4.1. Strategic-Level Domain-Driven Design.<br>
+<h3 id='4.1.1.'>4.1.1. EventStorming.<br>
+<h4 id='4.1.1.1.'>4.1.1.1. Candidate Context Discovery.<br>
+<h4 id='4.1.1.2.'>4.1.1.2. Domain Message Flows Modeling.<br>
+<h4 id='4.1.1.3.'>4.1.1.3. Bounded Context Canvases.<br>
+<h3 id='4.1.2.'>4.1.2. Context Mapping.</h3>
+<h3 id='4.1.3.'>4.1.3. Software Architecture.</h3>
+<h4 id='4.1.3.1.'>4.1.3.1. Software Architecture System Landscape Diagram.</h4>
+<h4 id='4.1.3.2.'>4.1.3.2. Software Architecture Context Level Diagrams.</h4>
+<h4 id='4.1.3.3.'>4.1.3.3. Software Architecture Container Level Diagrams.</h4>
+<h4 id='4.1.3.4.'>4.1.3.4. Software Architecture Deployment Diagrams.</h4>
+<h2 id='4.2.'>4.2. Tactical-Level Domain-Driven Design.</h2>
+<h3 id='4.2.2.'>4.2.2. Bounded Context: IAM</h3>
+Este bounded context se enfoca en las clases y capas relacionadas con los usuarios de la aplicación, sus roles y sus credenciales. A continuación, se detallan los principales componentes de este contexto.
+<h4 id='4.2.2.1.'>4.2.2.1. Domain Layer.<h4>
+- Users: Esta Clase representa un usuario, registrado en greenhouse. Contiene los atributos rol, username y password.
+
+<h4 id='4.2.2.2.'>4.2.2.2. Interface Layer.<h4>
+Controller:
+- Users: Define un controlador `UsersController` en NestJS que gestiona las operaciones de usuario. Utiliza un servicio `UserService` para manejar comandos de creación, actualización, eliminación y búsqueda de usuarios. Los métodos del controlador transforman los DTOs recibidos en comandos y devuelven resultados apropiados, como listas de usuarios o detalles de un usuario específico.
+
+<h4 id='4.2.2.3.'>4.2.2.3. Application Layer.<h4>
+
+**Command Handlers:**
+
+- create-user: Define una clase que implementa 'ICommandHandler<CreateUserCommand>', con un constructor que inyecta dependencias para crear y guardar usuarios. El método 'execute' verifica si ya existe un usuario con el nombre de usuario proporcionado y, si no, crea un nuevo usuario usando una fábrica y lo guarda en el repositorio.
+- delete-user: Define una clase que implementa 'ICommandHandler<DeleteUserCommand>', con un constructor que inyecta repositorios para buscar y eliminar usuarios. El método 'execute' busca un usuario por nombre de usuario, lanza una excepción si no existe y, si lo encuentra, lo elimina usando el repositorio correspondiente.
+- update-user: Define una clase que implementa 'CommandHandler<UpdateUserCommand>', con un constructor que inyecta repositorios para buscar y guardar usuarios. El método 'execute' busca un usuario por nombre de usuario, lanza excepciones si no existe o si el rol es inválido, y actualiza el rol y la contraseña del usuario antes de guardarlo.
+
+**Facades:**
+
+- user-facade: Define un servicio 'UsersFacadeService' en NestJS que utiliza el patrón CQRS, inyectando 'CommandBus' y 'QueryBus'. Proporciona métodos para crear un usuario, comparar una contraseña con un nombre de usuario, y obtener el rol e ID de un usuario por su nombre de usuario, utilizando comandos y consultas para manejar la lógica.
+Ports:
+- create-user: Define una clase abstracta 'CreateUserRepository' que especifica un método 'save', el cual debe ser implementado por las clases concretas para guardar un objeto 'User' y devolverlo como una promesa.
+- find-user: Define una clase abstracta 'FindUsersRepository' que especifica métodos para buscar usuarios: 'findAll', que devuelve una lista de usuarios, y 'findByUsername', que busca un usuario por su nombre de usuario y devuelve el usuario o 'undefined'.
+- remove-user: Define una clase abstracta 'RemoveUserRepository' que especifica un método 'remove', el cual debe ser implementado por las clases concretas para eliminar un objeto User' y devolverlo como una promesa.
+- save-user: Define una clase abstracta 'SaveUserRepository' que especifica un método 'save, el cual debe ser implementado por las clases concretas para guardar un objeto 'User' y devolverlo como una promesa.
+
+**Queries Handler:**
+
+- compare-password: Define un manejador de consulta 'ComparePasswordForUsernameQueryHandler' que implementa 'IQueryHandler'. Inyecta repositorios para buscar usuarios y un servicio de hashing. El método 'execute' busca un usuario por nombre de usuario y compara la contraseña proporcionada con la almacenada, devolviendo 'true' o 'false' según el resultado.
+
+- get-user-by-username: Define un manejador de consulta 'GetUserByUsernameQueryHandler' que implementa 'IQueryHandler'. Inyecta un repositorio para buscar usuarios y su método 'execute' busca un usuario por nombre de usuario, lanzando una excepción si no existe, y devolviendo el objeto 'User' encontrado.
+- get-users: Define un manejador de consulta 'GetUsersQueryHandler' que implementa 'IQueryHandler'. Inyecta un repositorio para buscar usuarios y su método 'execute' devuelve una lista de todos los usuarios al llamar a 'findAll' en el repositorio.
+
+<h4 id='4.2.2.4.'>4.2.2.4. Infrastructure Layer.<h4>
+
+**Entities:**
+
+- User: Define una entidad 'UserEntity' para la tabla 'users' en TypeORM, con propiedades para ID, nombre de usuario (único y en minúsculas), contraseña y rol (con un valor por defecto).
+Enums:
+- Role: Define un enum Role con dos posibles valores: Regular y Admin, representando los roles de usuario en la aplicación.
+Mapper:
+- User: Define una clase 'UserMapper' que convierte entre una entidad de usuario ('UserEntity') y un objeto de dominio ('User'), proporcionando métodos para mapear hacia el dominio y hacia la persistencia en la base de datos.
+Repositories:
+- create-user: Define un constructor que inyecta un repositorio de 'UserEntity', y un método 'save' que convierte un objeto de dominio 'User' a una entidad, la guarda en la base de datos y devuelve el objeto de dominio correspondiente.
+- find-user: Define un constructor que inyecta un repositorio de 'UserEntity' y dos métodos: 'findAll', que recupera todos los usuarios de la base de datos y los convierte a objetos de dominio, y 'findByUsername', que busca un usuario por su nombre de usuario y lo convierte a un objeto de dominio si existe.
+- remove-user: Define un constructor que inyecta un repositorio de 'UserEntity' y un método 'remove' que convierte un objeto de dominio 'User' a una entidad, la elimina de la base de datos y devuelve el objeto de dominio correspondiente.
+- save-user: Define un constructor que inyecta un repositorio de 'UserEntity' y un método 'save' que convierte un objeto de dominio 'User' a una entidad, la guarda en la base de datos y devuelve el objeto de dominio resultante.
+
+<h4 id='4.2.2.5.'>4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.<h4>
+
+A continuación, se presenta el diagrama de componentes asociado al bounded context IAM
+
+<img src='assets/images/chapter_4/iam/iam_component_diagram.png' alt='IAM Component Level Diagram' />
+
+<h4 id='4.2.2.6.'>4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.<h4>
+
+<h5 id='4.2.2.6.1.'>4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.<h5>
+
+A continuación, se presenta el diagrama de clases asociado al bounded context Usuario, el cual incluye las entidades User, Role y UserFactory, así como los manejadores de comandos para la creación, actualización y eliminación de usuarios. Este diagrama resulta de utilidad para expresar visualmente la estructura del sistema en cuanto a clases, atributos, métodos y relaciones.
+
+<img src='assets/images/chapter_4/iam/iam_class_diagram.png' alt='IAM Class Diagram' />
+
+<h5 id='4.2.2.6.2.'>4.2.2.6.2. Bounded Context Database Design Diagram.</h5>
+
+<img src='assets/images/chapter_4/iam/iam_database_diagram.png' alt='IAM Database Diagram' />
+
+<table cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nombre del atributo</th>
+      <th>Descripción del atributo</th>
+      <th>Tipo de dato del atributo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>Identificador del usuario, UUID, primary key</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>username</td>
+      <td>Apodo o nombre con el cual el usuario ingresará a la aplicación</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>password</td>
+      <td>Contraseña del usuario</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>role</td>
+      <td>Rol del usuario dentro de la aplicación</td>
+      <td>varchar(255)</td>
+    </tr>
+  <tbody>
+</table>
