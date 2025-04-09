@@ -273,7 +273,7 @@ Una plataforma que permite calcular la rentabilidad de los cultivos por medio de
 <h3 id='2.1.1.'>2.1.1. Análisis competitivo</h3>
 
 
-<table><tr><th colspan="6" valign="top"><b>Competitive Analysis Landscape</b></th><th colspan="1"></th><th colspan="1"></th></tr>
+<table><tr><th colspan="6" valign="top"><b>Competitive Analysis Landscape</b></th></tr>
 <tr><td colspan="3" valign="top">¿Por qué llevar a cabo este análisis?  </td><td colspan="3" valign="top"> El análisis de la competencia perteneciente al mercado permite comprender el entorno competitivo en el que operará nuestro producto. Ello proporciona una visión detallada de quienes son nuestros competidores directos e indirectos, trazar estrategia a través de información recopilada sobre su posicionamiento actual en el mercado. </td><td colspan="1"></td><td colspan="1"></td></tr>
 <tr><td colspan="2" valign="top"><b>Nombre</b></td><td colspan="1" valign="top"><b>Greenhouse</b></td><td colspan="1" valign="top"><b>Agroptima</b></td><td colspan="1" valign="top"><b>Agrio Software</b></td><td colspan="1" valign="top"><b>AgroBit</b></td><td colspan="1"></td><td colspan="1"></td></tr>
 
