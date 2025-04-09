@@ -253,3 +253,31 @@ A continuación, se presentan las secciones de Antecedentes y Problemática, y L
 <h4 id='1.2.2.3.'>Lean UX Hypothesis Statements</h4>
 <h4 id='1.2.2.4.'>Lean UX Canvas</h4>
 <h2 id='1.3.'>Segmentos objetivo</h2>
+
+<h1 id='2.'>Capítulo II: Requirements Elicitation & Analysis</h1>
+
+<h2 id='2.1.'>2.1. Competidores</h2>
+<h3 id='2.1.1.'>2.1.1. Análisis competitivo</h3>
+<h3 id='2.1.2.'>2.1.2. Estrategias y tácticas frente a competidores</h3>
+
+<h2 id='2.2.'>2.2. Entrevistas</h2>
+<h3 id='2.2.1.'>2.2.1. Diseño de entrevistas</h3>
+<h3 id='2.2.2.'>2.2.2. Registro de entrevistas</h3>
+<h3 id='2.2.3.'>2.2.3. Análisis de entrevistas</h3>
+
+<h2 id='2.3.'>2.3. Needfinding</h2>
+<h3 id='2.3.1.'>2.3.1. User Personas</h3>
+<h3 id='2.3.2.'>2.3.2. User Task Matrix</h3>
+<h3 id='2.3.3.'>2.3.3. User Journey Mapping</h3>
+<h3 id='2.3.4.'>2.3.4. Empathy Mapping</h3>
+<h3 id='2.3.5.'>2.3.5. As-is Scenario Mapping</h3>
+
+<h2 id='2.4.'>2.4. Ubiquitous Language</h2>
+
+<h1 id='3.'>Capítulo III: Requirements Specification</h1>
+
+<h2 id='3.1.'>3.1. To-Be Scenario Mapping</h2>
+<h2 id='3.2.'>3.2. User Stories</h2>
+<h2 id='3.3.'>3.3. Impact Mapping</h2>
+<h2 id='3.4.'>3.4. Product Backlog</h2>
+
