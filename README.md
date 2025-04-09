@@ -280,3 +280,44 @@ El sistema puede ser utilizado por múltiples técnicos, supervisores y administ
 <h4 id='1.2.2.3.'>Lean UX Hypothesis Statements</h4>
 <h4 id='1.2.2.4.'>Lean UX Canvas</h4>
 <h2 id='1.3.'>Segmentos objetivo</h2>
+
+<h1 id='2.'>2. Capítulo II: Requirements Elicitation & Analysis.</h1>
+<h2 id='2.1.'>2.1. Competidores.</h2>
+<h3 id='2.1.1.'>2.1.1. Análisis competitivo.</h3>
+<h3 id='2.1.2.'>2.1.2. Estrategias y tácticas frente a competidores.</h3>
+<h2 id='2.2.'>2.2. Entrevistas.</h2>
+<h3 id='2.2.1.'>2.2.1. Diseño de entrevistas.</h3>
+<h3 id='2.2.2.'>2.2.2. Registro de entrevistas.</h3>
+<h3 id='2.2.3.'>2.2.3. Análisis de entrevistas.</h3>
+<h2 id='2.3.'>2.3. Needfinding.</h2>
+<h3 id='2.3.1.'>2.3.1. User Personas.</h3>
+<h3 id='2.3.2.'>2.3.2. User Task Matrix.</h3>
+<h3 id='2.3.3.'>2.3.3. User Journey Mapping.</h3>
+<h3 id='2.3.4.'>2.3.4. Empathy Mapping.</h3>
+<h3 id='2.3.5.'>2.3.5. As-is Scenario Mapping.</h3>
+<h2 id='2.4.'>2.4. Ubiqutous Language.</h2>
+El lenguaje ubicuo permite que las personas del negocio, incluso aquellas sin conocimientos técnicos, comprendan mejor la plataforma Greenhouse. Por ello, a continuación, se presentan una serie de términos en inglés frecuentemente utilizados en la aplicación, junto con sus definiciones en castellano. 
+
+- Company/Compañía: Empresa registrada en la plataforma greenhouse que tiene asociado a su información a los siguientes tipos de usuarios:
+  - Factory Administrator/Administrador de la fábrica: Encargado de supervisar a los Técnicos Supervisores y evaluar las estadísticas de la empresa.
+  - Technician/Técnico supervisor: Empleado encargado de supervisar el proceso de cultivo de champiñones y escribir los registros
+- Crop/Cultivo: Conglomerado de récords y fases que componen a un cultivo específico
+  - Crop ID/Cultivo ID: Identificador único de un cultivo.
+- Logs: Conjunto de registros realizados para un determinado cultivo en una determinada fase
+- Membership/Plan de suscripción: Suscripción que da acceso a la plataforma Greenhouse.
+- Phase/Fase: Etapas del proceso del cultivado de un cultivo, las cuales son los siguientes
+  - Formula/Insumos: Primera fase de un cultivo
+  - Preparation area/Patio: Segunda fase de un cultivo
+  - Bunker/Búnker: Tercera fase de un cultivo
+  - Tunnel/Túnel: Cuarta fase de un cultivo
+  - Incubation/Incubación: Quinta fase de un cultivo
+  - Casing/Cobertura: Sexta fase de un cultivo
+  -	Induction/Inducción: Séptima fase de un cultivo
+  -	Harvest/Cosecha: Octava fase de un cultivo
+  -	Author/Autor: Usuario que realizó el registro
+  - Grow Room/Nave: Estructuras industriales similares a un invernadero donde se cultivan champiñones
+- Record/Registro: Entrada de datos en determinado momento durante una fase de un cultivo
+  - Record ID/Registro ID: Identificador único de un registro
+- IoT: concepto que describe la interconexión de dispositivos físicos a través de internet, permitiendo que recopilen, compartan y procesen datos de forma automática.
+- Sensor: dispositivo que recopila datos del entorno, como temperatura, humedad, entre otros, y los transmite a través de una red para ser procesados o analizados por otros dispositivos o sistemas.
+- Actuador: Dispositivo que recibe señales o comandos de un sistema y realiza una acción física en el entorno, como encender un motor, abrir una válvula o ajustar la temperatura, como respuesta a los datos procesados por sensores u otros dispositivos.
