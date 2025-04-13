@@ -284,22 +284,22 @@ Una plataforma que permite calcular la rentabilidad de los cultivos por medio de
   <td colspan="2" valign="top"><b>Nombre</b></td>
 
   <td valign="top" align="center">
-    <img src="assent/greenhouse.png" alt="Greenhouse" width="50"><br>
+    <img src="assets/images/chapter_2/competitive_analysis/greenhouse.png" alt="Greenhouse" width="50"><br>
     <b>Greenhouse</b>
   </td>
 
   <td valign="top" align="center">
-    <img src="assent/agroptima.png" alt="Agroptima" width="50"><br>
+    <img src="assets/images/chapter_2/competitive_analysis/agroptima.png" alt="Agroptima" width="50"><br>
     <b>Agroptima</b>
   </td>
 
   <td valign="top" align="center">
-    <img src="assent/agriosoftware.png" alt="Agrio Software" width="50"><br>
+    <img src="assets/images/chapter_2/competitive_analysis/agriosoftware.png" alt="Agrio Software" width="50"><br>
     <b>Agrio Software</b>
   </td>
 
   <td valign="top" align="center">
-    <img src="assent/agrobit.png" alt="AgroBit" width="50"><br>
+    <img src="assets/images/chapter_2/competitive_analysis/agrobit.png" alt="AgroBit" width="50"><br>
     <b>AgroBit</b>
   </td>
 </tr>
