@@ -574,10 +574,127 @@ recolección de información en base a entrevistas.
 
 <h3 id='2.2.2.'>2.2.2. Registro de entrevistas</h3>
 
+# Entrevista a técnicos supervisores
+
+|| **Entrevistado 1** |
+|--------------------|--------------------|
+| **Nombre**         | Elías Almenara     |
+| **Edad**           | 52                 |
+| **Distrito**       | Chilca             |
+| <img src="assets/images/chapter_2/interviews/entrevistado1.png" width="200"/> |  Cuenta con 17 años trabajando en plantas de cultivo de champiñones, actualmente es el técnico de producción en Perú Agro. Las funciones que desempeña son aquellas relacionadas a los procesos de las naves. Tiene un conocimiento muy claro del proceso y todo lo que este involucra como lo son los tiempos, condiciones de temperatura, CO2, Humedad. Trabaja en el turno de día y realiza un registro cada 4 horas. Se evidencia que no es una persona muy familiarizada con el entorno digital, ya que ciertas preguntas relacionadas al tema le costaban comprenderlas. No considera tedioso el tener que hacer los registros manualmente, pero si considera que el proceso se podría agilizar mediante la implementación de una aplicación móvil. |
+| **Timing: 0:07–15:15** | [upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1](upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1) |
+
+<br>
+<br>
+<br>
+
+|| **Entrevistado 2** |
+|--------------------|--------------------|
+| **Nombre**         | Kevin Urbano    |
+| **Edad**           | 32                 |
+| **Distrito**       | Chilca             |
+|  <img src="assets/images/chapter_2/interviews/entrevistado2.png" width="200"/> |   Cuenta con 2 años y 3 meses trabajando en plantas de cultivo de champiñones, actualmente es el técnico de pasteurización y búnker en Perú Agro. Las funciones que desempeña son las relacionadas a los procesos previos a las naves,como lo son los bunkers y la pasteurización. Comenta que las cantidades para las mezclas se manejan con un excel del encargado. Trabaja en el turno de día y realiza un registro cada hora u hora y media. Comenta que se tienen registros tanto por WhatsApp como por informes manuales que se envían a oficina. Considera que una aplicación para el registro brindaría mayor organización puesto que todo estaría en la computadora. Comenta la posibilidad de añadir el seguimiento de las mejores naves. |
+| **Timing: 15:15 -27:45** | [upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1](upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1) |
+
+<br>
+<br>
+<br>
+
+|| **Entrevistado 3** |
+|--------------------|--------------------|
+| **Nombre**         | Danny Martinez     |
+| **Edad**           | 33                 |
+| **Distrito**       | Chilca             |
+|  <img src="assets/images/chapter_2/interviews/entrevistado3.png" width="200"/> |    El entrevistado posee un año y seis meses trabajando en la planta de cultivo dechampiñones, y, actualmente está encargado de la coordinación general de los procesos productivos, ventas, cosecha. Se encarga de que todos los procesos se cumplan a cabalidad. Menciona que el registro de temperatura es diario y en algunas áreas se manejan por horas. Comenta que se tienen registros tanto por WhatsApp como por informes manuales que se envían a oficina. Considera que una aplicación para el registro brindaría mayor organización puesto que es a tiempo real de manera digital a diferencia de por escrito. Menciona la posibilidad de implementar una base de datos. Considera que el uso de la aplicación tendría como mayor problema capacitar al personal. |
+| **Timing: 27:45-35:46** | [upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1](upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1) |
+<br>
+
+# Entrevista a Administradores
+
+
+|| **Entrevistado 1** |
+|--------------------|--------------------|
+| **Nombre**         | Frank Alexander Du Bois Luna    |
+| **Edad**           | 42                 |
+| **Distrito**       | Miraflores             |
+| <img src="assets/images/chapter_2/interviews/entrevistadoadmin1.png" width="200"/> |   Cuenta con 5 años en el rubro, con una trayectoria previa en la industria de la construcción. Actualmente se encarga principalmente de labores administrativas dentro de la fábrica. Posee profundos conocimientos de todas las etapas de producción, y comenta que para realizar champiñones se requiere de un estricto control. Con respecto al sistema de registro, el entrevistado señala que documentar manualmente los procesos puede resultar complicado debido a la potencial acumulación de errores con el tiempo. Uno de los problemas que encuentra es que en caso de equivocación, ninguno de los técnicos asume la responsabilidad de sus actos. Adicionalmente, asegura apoyarse de una hoja de cálculo en Excel para tener una métrica de trazabilidad de la producción diaria para cada nave. Desde su perspectiva, la facilidad de uso es un aspecto muy importante que la aplicación debe cumplir. |
+| **Timing: 35:54-59:29** | [upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1](upc-pre-202402-si728-SW81-Integradis
+needfinding-sprint-1) |
+
+<br>
+<br>
+<br>
+
+|| **Entrevistado 2** |
+|--------------------|--------------------|
+| **Nombre**         | Rosalyn Perez Clemente    |
+| **Edad**           | 41                 |
+| **Distrito**       | Chilca             |
+| <img src="assets/images/chapter_2/interviews/entrevistadoadmin2.png" width="200"/>  |    Trabaja en la planta de producción de champiñones desde agosto de 2018 y actualmente ocupa una posición en el área administrativa. Se encarga de la gestión de pagos, trámites y la administración de documentación relacionada con las operaciones internas. Lleva la documentación de los registros de los procesos y las producciones por naves. Rosalyn recibe informes de registros en un promedio de cinco ocasiones mensuales, lo cual concuerda con la frecuencia de las siembras realizadas en ese periodo específico. Sin embargo, sugiere que existe la posibilidad de enfrentar retrasos en la entrega de la documentación, un aspecto que podría afectar la capacidad de toma de decisiones oportunas por parte de la empresa. Opina que una aplicación sería de utilidad para agilizar la comunicación, y que el mayor inconveniente de esta misma sería la necesidad de proporcionar capacitación adecuada al personal, con el objetivo de garantizar un uso efectivo de la aplicación. |
+| **Timing: 59:30-1:03:30** | [upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1](upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1) |
+
+<br>
+<br>
+<br>
+
+|| **Entrevistado 3** |
+|--------------------|--------------------|
+| **Nombre**         | Julio Victor Du Bois Yabar    |
+| **Edad**           | 78                 |
+| **Distrito**       | San Borja             |
+|<img src="assets/images/chapter_2/interviews/entrevistadoadmin3.png" width="200"/>  |    Gerente de la fábrica de champiñones de la marca Campo Alegre. Lleva 5 años en el cargo y se encarga principalmente de la parte financiera, estructural. Recibe a menudo reportes y hace las anotaciones y correcciones correspondientes según el caso. Comenta que recibe los reportes por teléfono y tiene una constancia del registro a mano. Cuenta con los conocimientos técnicos referentes al cultivo de champiñones adquiridos a través de los años de experiencia. Menciona que aún no cuentan con la tecnología necesaria en la mayoría de procesos, y que buscan la integración de esta misma. |
+| **Timing: 1:03:31-1:22:35** | [ upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1]( upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1) |
+<br>
+
 <h3 id='2.2.3.'>2.2.3. Análisis de entrevistas</h3>
+
+### Análisis del segmento de técnicos supervisores 
+
+En primer lugar, el 100% de los entrevistados tiene una edad superior a 30 años, de los cuáles el 
+66% se encuentra entre los 30 y 40 años de edad. Asimismo, un 66% de los entrevistados 
+considera un proceso tedioso el tener que realizar los registros, puesto que pueden estar 
+ocupados con otra tarea y tienen que ir a cumplir con esta labor. Además, el 66% de los 
+entrevistados nos habló del grupo de WhatsApp además de los registros que llevan manualmente, 
+en el cuál comunican los registros de forma que los administradores y demás técnicos pueden 
+tener conocimiento de los procesos. A su vez, el 100% cuenta con más de año y medio de 
+experiencia en la planta de champiñones, de los cuáles el 66% cuenta con más de 5 años de 
+experiencia. De igual manera, el 100% de los entrevistados mencionan que los registros se hacen 
+diarios y cada uno de ellos maneja diferentes horas según su área. Por otra parte, la totalidad de 
+los entrevistados afirman que ha habido errores en el registro de los datos, ya sea que alguien se 
+olvidó de hacerlo (principalmente en el turno noche mencionan) o que al hacer el registro puede 
+haber un fallo al trasladar los datos al papel. Igualmente, el 66% considera que un problema sería 
+la capacitación del personal, a lo cual podemos añadir que un 33% parecía costarle entender las 
+preguntas y la solución propuesta. El 100% de los entrevistados asegura utilizar principalmente el 
+browser Google Chrome. Finalmente, el 100% de los entrevistados considera que hacer el 
+seguimiento al proceso del champiñón y registrarlo es clave para lograr un producto de calidad y 
+poder aplicar una mejora continua. 
+
+
+### Análisis del segmento de administradores 
+
+En primer lugar, el 33% de los entrevistados pertenece al sector de adultos mayores mientras que 
+el resto es mayor de ronda los 40 años. A su vez, todos los entrevistados trabajan en la 
+champiñonera desde su apertura hace 5 años. De igual forma, el 100% menciona que el registro 
+se realiza en papel y que esté luego es archivado por si se necesitan en un futuro, además 
+mencionan que tienen un grupo de WhatsApp como un canal no oficial dónde también se 
+comparten los registros. Asimismo, el 66% de los entrevistados cuenta con conocimientos técnicos 
+del proceso productivo del champiñón, mientras que el 33% se dedica únicamente a actividades 
+administrativas. Por otra parte, el 66% comenta que para recibir ciertos registros pueden haber 
+demoras debido a que aún no los tienen en la oficina o que se tiene que buscar entre todos los 
+registros archivados. Además, el 100% menciona que la tecnología se utiliza principalmente en las 
+máquinas de mediciones y que para la comunicación y registro de los datos únicamente se cuenta 
+con los registros manuales en papel y un grupo de WhatsApp. Por otro lado, el 33% de los 
+entrevistados maneja un documento excel como herramienta tecnológica que utiliza para el 
+control de inventarios y tener una trazabilidad de la producción. También, en su totalidad 
+consideran que implementar una aplicación para registrar las mediciones y optimizar otros 
+procesos agilizaría el trabajo y sería útil para tener una visión más general del proceso productivo 
+y en cuáles aspectos mejorar. El 75% de los entrevistados afirma utilizar el browser Safari, mientras 
+que el 25% restante utiliza Chrome. Finalmente, todos los entrevistados consideran que el mayor 
+problema sería la capacitación de los trabajadores para utilizar nuevas herramientas tecnológicas. 
 
 <h2 id='2.3.'>2.3. Needfinding</h2>
 <h3 id='2.3.1.'>2.3.1. User Personas</h3>
+
 <h3 id='2.3.2.'>2.3.2. User Task Matrix</h3>
 <h3 id='2.3.3.'>2.3.3. User Journey Mapping</h3>
 <h3 id='2.3.4.'>2.3.4. Empathy Mapping</h3>
