@@ -707,5 +707,9 @@ problema sería la capacitación de los trabajadores para utilizar nuevas herram
 <h2 id='3.1.'>3.1. To-Be Scenario Mapping</h2>
 <h2 id='3.2.'>3.2. User Stories</h2>
 <h2 id='3.3.'>3.3. Impact Mapping</h2>
+<img src="assets/images/chapter_3/impact_mapping/impact_map.png" alt="impact map"/>
+
+Enlace ara acceder a la imagen en
+<a href="https://drive.google.com/file/d/1yVWGNyuPBc9qrRnP36r73_fm8HVVXRoA/view">drive</a>
 <h2 id='3.4.'>3.4. Product Backlog</h2>
 
