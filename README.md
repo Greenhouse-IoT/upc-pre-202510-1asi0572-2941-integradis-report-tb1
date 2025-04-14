@@ -281,21 +281,454 @@ El sistema puede ser utilizado por múltiples técnicos, supervisores y administ
 <h4 id='1.2.2.4.'>Lean UX Canvas</h4>
 <h2 id='1.3.'>Segmentos objetivo</h2>
 
-<h1 id='2.'>2. Capítulo II: Requirements Elicitation & Analysis.</h1>
-<h2 id='2.1.'>2.1. Competidores.</h2>
-<h3 id='2.1.1.'>2.1.1. Análisis competitivo.</h3>
-<h3 id='2.1.2.'>2.1.2. Estrategias y tácticas frente a competidores.</h3>
-<h2 id='2.2.'>2.2. Entrevistas.</h2>
-<h3 id='2.2.1.'>2.2.1. Diseño de entrevistas.</h3>
-<h3 id='2.2.2.'>2.2.2. Registro de entrevistas.</h3>
-<h3 id='2.2.3.'>2.2.3. Análisis de entrevistas.</h3>
-<h2 id='2.3.'>2.3. Needfinding.</h2>
-<h3 id='2.3.1.'>2.3.1. User Personas.</h3>
-<h3 id='2.3.2.'>2.3.2. User Task Matrix.</h3>
-<h3 id='2.3.3.'>2.3.3. User Journey Mapping.</h3>
-<h3 id='2.3.4.'>2.3.4. Empathy Mapping.</h3>
-<h3 id='2.3.5.'>2.3.5. As-is Scenario Mapping.</h3>
-<h2 id='2.4.'>2.4. Ubiqutous Language.</h2>
+<h1 id='2.'>Capítulo II: Requirements Elicitation & Analysis</h1>
+
+<h2 id='2.1.'>2.1. Competidores</h2>
+
+Crear una plataforma de registro de procesos para fábricas productoras de alimentos no es una idea nueva, por lo tanto, existen competidores potenciales en el mercado. Identificar sus fortalezas y debilidades permite proponer una solución más eficiente. Entre los principales competidores cabe destacar: 
+
+- Agroptima  
+Es un software para la gestión agrícola. Permite controlar la evolución de los cultivos desde una plataforma digital.
+
+- Agro Software  
+Es una aplicación web basada en Microsoft Dynamics que permite a las empresas almacenar en la nube los registros de sus cultivos.
+
+- AgroBit  
+Una plataforma que permite calcular la rentabilidad de los cultivos por medio de tecnología de *Machine Learning* y *Big Data*.
+
+
+<h3 id='2.1.1.'>2.1.1. Análisis competitivo</h3>
+
+<table>
+  <tr>
+    <th colspan="6" valign="top"><b>Competitive Analysis Landscape</b></th>
+  </tr>
+  <tr>
+    <td colspan="3" valign="top">¿Por qué llevar a cabo este análisis? </td>
+    <td colspan="3" valign="top"> El análisis de la competencia perteneciente al mercado permite comprender el entorno competitivo en el que operará nuestro producto. Ello proporciona una visión detallada de quienes son nuestros competidores directos e indirectos, trazar estrategia a través de información recopilada sobre su posicionamiento actual en el mercado. </td>
+  </tr>
+  <tr>
+  <td colspan="2" valign="top"><b>Nombre</b></td>
+
+  <td valign="top" align="center">
+    <img src="assets/images/chapter_2/competitive_analysis/greenhouse.png" alt="Greenhouse" width="50"><br>
+    <b>Greenhouse</b>
+  </td>
+
+  <td valign="top" align="center">
+    <img src="assets/images/chapter_2/competitive_analysis/agroptima.png" alt="Agroptima" width="50"><br>
+    <b>Agroptima</b>
+  </td>
+
+  <td valign="top" align="center">
+    <img src="assets/images/chapter_2/competitive_analysis/agriosoftware.png" alt="Agrio Software" width="50"><br>
+    <b>Agrio Software</b>
+  </td>
+
+  <td valign="top" align="center">
+    <img src="assets/images/chapter_2/competitive_analysis/agrobit.png" alt="AgroBit" width="50"><br>
+    <b>AgroBit</b>
+  </td>
+</tr>
+
+  <tr>
+    <td colspan="1" rowspan="4" valign="top"><b>Perfil</b></td>
+    <td colspan="1" rowspan="2" valign="top"><b>Overview</b></td>
+    <td colspan="1" rowspan="2" valign="top"> 
+      <p>Plataforma direccionada al registro y monitoreo de procesos productivos involucrados en los cultivos de las industrias de champiñones.</p> 
+      <p>La plataforma permite la visibilidad de registro de datos históricos y actuales para un análisis exhaustivo lo que culmina en la toma de decisiones conscientes para las agroempresas.</p> 
+    </td>
+    <td colspan="1" rowspan="2" valign="top"> Es un software de gestión agrícola ágil e intuitivo para el control y registro de explotaciones agrarias. </td>
+    <td colspan="1" rowspan="2" valign="top"> Plataforma web dirigida a empresas que comercializan y producen papas, cebollas y hortalizas integrales. </td>
+    <td colspan="1" rowspan="2" valign="top"> Plataforma para las empresas de agronegocios que buscan una gestión empresarial de agricultura y ganadería inteligente en la nube, que combina datos agropecuarios y financieros en un mismo lugar.  </td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td colspan="1" rowspan="2" valign="top"><b>Ventaja competitiva ¿Qué valor ofrece a los clientes?</b></td>
+    <td colspan="1" rowspan="2" valign="top">
+      <p>Permite el registro de procesos productivos a partir de fases involucradas en la gestión de cultivos de champiñones. </p>
+    </td>
+    <td colspan="1" rowspan="2" valign="top"><p>Se adapta a cualquier tipo de sector agrícola (cultivo).</p> <p>Muestra una precisión de los cultivos desde una vista satelital.</p> <p>Conecta a la administración, la gerencia y el técnico cultivo de la agroempresa. </p><p>La aplicación móvil puede trabajar sin hacer uso de conexión inalámbrica</p> </td>
+    <td colspan="1" rowspan="2" valign="top"> <p> Integra software de Microsoft Dynamics y Microsoft Azure (software cloud). </p><p>Puede acceder a todas las herramientas de la pila de Microsoft 365. </p><p>Ofrece almacenamiento de datos propio en la plataforma.</p></td>
+    <td colspan="1" rowspan="2" valign="top"> <p>Combina datos agropecuarios y financieros en un mismo lugar. </p> <p>Permite trabajar con contratos, aplicaciones, liquidaciones, operaciones empresariales, de logística y de inventarios. </p> <p>Muestra disponibilidad en Microsoft AppSource y PlayStore.</p> </td>
+  </tr>
+    <tr></tr>
+  <tr>
+    <td colspan="1" rowspan="2" valign="top"><b>Perfil de Marketing</b></td>
+    <td colspan="1" valign="top"><b>Mercado objetivo</b></td>
+    <td colspan="1" valign="top"> 
+      <p>Personal técnico supervisor de las fábricas champiñoneras del Perú.</p> 
+      <p>Personal administrativo de las empresas champiñoneras del Perú.</p> 
+    </td>
+    <td colspan="1" valign="top">Personal de gerencia, administración y técnico cultivo pertenecientes a las agroempresas </td>
+    <td colspan="1" valign="top">Dirigido a empresas que comercializan y procesan patatas, cebollas y hortalizas integrales.</td>
+    <td colspan="1" valign="top">Empresas de agronegocios que buscan una gestión empresarial de agricultura y ganadería inteligente en la nube. </td>
+  </tr>
+  <tr>
+    <td colspan="1" valign="top"><b>Estrategias de Marketing</b></td>
+    <td colspan="1" valign="top"> 
+      <p>Colaboración con expertos en agronomía y agroempresas para respaldar la eficacia del sistema.</p> 
+      <p>Ofrecer una prueba gratuita a los usuarios (estrategias de retención). </p>
+    </td>
+    <td colspan="1" valign="top"> <p>Prueba gratuita de 15 días (estrategia de retención). </p><p>Inserción de videos tutoriales.</p></td>
+    <td colspan="1" valign="top"><p> Establecer en un espacio dentro de la página, las empresas que ya han implementado el uso de la plataforma. </p> <p>Entablar vínculos a los canales de comunicación personales de la startup.</p></td>
+    <td colspan="1" valign="top"><p>Colocar de forma estratégica en la página los logros alcanzados por la empresa y los clientes que ya han implementado este software. </p><p>Ofrecer espacios publicitarios en redes sociales.</p> </td>
+  </tr>
+  <tr>
+    <td colspan="1" rowspan="3" valign="top"><b>Perfil de producto</b></td>
+    <td colspan="1" valign="top"><b>Productos y Servicios</b></td>
+    <td colspan="1" valign="top"> Plataforma móvil para el registro y monitoreo de procesos productivos involucrados en los cultivos de la industria champiñonera. </td>
+    <td colspan="1" valign="top">Software de gestión agrícola y registro de campos, personal, productos, clientes.</td>
+    <td colspan="1" valign="top">Plataforma web de control agrícola direccionada a agroempresas enfocadas en cultivos de hortalizas</td>
+    <td colspan="1" valign="top">Plataforma que desarrolla soluciones a medida para que cooperativas, bancos, gobierno, proveedores, fabricantes de agroinsumos y comunidades agrícolas puedan brindarles a sus clientes o asociados tecnología mediante sólo una herramienta de innovación. La aplicación permite tener cosechas más productivas, sustentables y con un manejo adecuado para la preservación del medio ambiente.</td>
+  </tr>
+  <tr>
+    <td colspan="1" valign="top"><b>Precios y Costos</b></td>
+    <td colspan="1" valign="top">Venta de espacios publicitarios dentro de la plataforma Suscripción gratuita por un rango de 15 días, luego el costo será proporcional al tamaño de la agroempresa. Si la agroempresa registra de entre 100 a 500 usuarios, se considera un monto de $6.75 por usuario; de 500 a más, el costo oscila en $4.45. </td>
+    <td colspan="1" valign="top"> Prueba de 15 días, luego los costos se clasifican en tres planes: plan Basic, plan Pro y plan Premium, en dependencia de las funcionalidades que se desean adquirir.</td>
+    <td colspan="1" valign="top"> A tratar en mutuo acuerdo con la agroempresa. </td>
+    <td colspan="1" valign="top"> A tratar en acuerdo con la empresa agropecuaria </td>
+  </tr>
+  <tr>
+    <td colspan="1" valign="top"><b>Canales de distribución</b></td>
+    <td colspan="1" valign="top"><p>El servicio se brindará en plataforma móvil nativa y por el navegador web </p></td>
+    <td colspan="1" valign="top"><p>Dispone de plataforma web y aplicación móvil </p></td>
+    <td colspan="1" valign="top"><p>Solo plataforma web</p></td>
+    <td colspan="1" valign="top"><p> Plataforma web y aplicación móvil </p></td>
+  </tr>
+  <tr>
+    <td colspan="1" rowspan="4" valign="top"><b>Análisis FODA</b></td>
+    <td colspan="1" valign="top"><b>Fortalezas</b></td>
+    <td colspan="1" valign="top"><p>Comunicación flexible entre el personal supervisor y administrativo de las plantas agrícolas. Registro y monitoreo eficiente de los procesos productivos de los cultivos de champiñones.</p></td>
+    <td colspan="1" valign="top"><p>Brinda control de ingresos y egresos de cada actividad agrícola involucrada en el tipo de cultivo (gestión de costos). </p><p>La vista satelital muestra a tiempo real una mejor percepción de los campos agrícolas, lo que garantiza una adecuada supervisión para el personal técnico. </p></td>
+    <td colspan="1" valign="top"><p>Portal ágil para consumidores y productores. </p> <p> Cálculos estables basados en herramientas de Microsoft. </p><p>Muestra proyecciones generales a partir de los cálculos registrados.</p></td>
+    <td colspan="1" valign="top"><p>Planifica en base a la <p>simulación de escenarios productivos. </p> <p>Combina datos agropecuarios y financieros en un mismo lugar. </p><p>Reduce riesgos e impacto ambiental.</p></td></p>
+  </tr>
+  <tr>
+    <td colspan="1" valign="top"><b>Debilidades</b></td>
+    <td colspan="1" valign="top"><p> Desconocimiento de las tendencias en el sector agrícola y productivo del cultivo de champiñones .</p></td>
+    <td colspan="1" valign="top"><p> Errores en la recepción de información para la creación de cuenta del usuario (interfaz). </p> </td>
+    <td colspan="1" valign="top"><p>Solo se encuentra disponible en países de Europa, aún no se ha internacionalizado ni intentó lanzarse al mercado norteamericano. </p></td>
+    <td colspan="1" valign="top"><p>Errores en el formulario de registro de información para entrar en contacto con la empresa </p></td>
+  </tr>
+  <tr>
+    <td colspan="1" valign="top"><b>Oportunidades</b></td>
+    <td colspan="1" valign="top"><p> Mejora de las funcionalidades deficientes de nuestros competidores en el mercado.</p> <p>Baja presencia de competidores en el mercado.</p> <p> Alta demanda en exportaciones peruanas de cultivos de champiñones hacia el exterior.</p></td>
+    <td colspan="1" valign="top"><p> Implementación de una interfaz agradable y visual para el usuario.</p></td>
+    <td colspan="1" valign="top"><p> Administración y planificación visual del departamento de producción de cultivos. </p></td>
+    <td colspan="1" valign="top"><p>Combina inteligencia artificial e IoT para mitigar el cambio climático y gestionar cultivos agrícolas </p></td>
+  </tr>
+  <tr>
+    <td colspan="1" valign="top"><b>Amenazas</b></td>
+    <td colspan="1" valign="top"><p>Diferencias entre metodologías y datos de medición entre las fábricas champiñoneras. </p></td>
+    <td colspan="1" valign="top"><p>La interfaz no puede centralizarse en el desarrollo de procesos productivos para solo un tipo de cultivos. Es decir, la interfaz ha sido creada de forma generalizada. </p></td>
+    <td colspan="1" valign="top"><p>Bajas demandas al ser un startup reciente y no contar con una aplicación móvil</p></td>
+    <td colspan="1" valign="top"><p>Dilema del cambio climático en continuo agudizamiento 
+</p></td>
+  </tr>
+</table>
+
+
+
+
+<h3 id='2.1.2.'>2.1.2. Estrategias y tácticas frente a competidores</h3>
+
+En base al análisis competitivo efectuado anticipadamente, se logró identificar con exactitud las fortalezas, oportunidades, debilidades y amenazas destacadas de los competidores. Dicha información resulta ser clave para trazar estrategias y tácticas de superación hacia la competencia, cuando el servicio entre al mercado (lanzamiento rentable). A continuación, se brindará una serie de estrategias y tácticas trazadas para alcanzar esta meta:
+
+## Afrontando las fortalezas de nuestros competidores:
+
+- Gestión de costos por cada actividad agrícola involucrada en diferentes tipos de cultivo.  
+- Adecuada supervisión para el personal técnico a través de una vista satelital que muestra a tiempo real una mejor percepción de los campos agrícolas.  
+- Cálculos estables basados en herramientas de Microsoft.  
+- Permite trabajar con contratos, aplicaciones, liquidaciones, operaciones empresariales, de logística y de inventarios.  
+
+**Comprendemos que nuestras fortalezas son:**
+
+- Comunicación flexible entre el personal supervisor y administrativo de las plantas agrícolas.  
+- Registro y monitoreo eficiente de los procesos productivos de los cultivos de champiñones.  
+
+**Entonces, podemos aplicar las siguientes estrategias y tácticas:**
+
+### Estrategias
+
+- Brindar al cliente un enfoque logístico de los registros realizados dentro de la plataforma.  
+
+### Tácticas
+
+- Incluir herramientas avanzadas de análisis de costos, perceptibles a la vista y comprensibles como gráficos, informes y comparaciones históricas.
+
+---
+
+## Afrontando las debilidades de nuestros competidores:
+
+- Errores en la recepción de información para la creación de cuenta del usuario (interfaz).  
+- Errores en el formulario de registro de información para entrar en contacto con la empresa.  
+- Algunas aplicaciones web y móviles aún no se internacionalizaron ni se insertaron al mercado norteamericano.  
+
+**Comprendemos que nuestras debilidades son:**
+
+- Desconocimiento del sector agrícola y productivo del cultivo de champiñones.  
+
+**Entonces, podemos aplicar las siguientes estrategias y tácticas:**
+
+### Estrategias
+
+- Mantener constantes actualizaciones y verificación de errores dentro de la plataforma.  
+
+### Tácticas
+
+- Implementar un agente de soporte en donde el usuario registre alguna falla de la plataforma.  
+- Realizar constantes actualizaciones de las funcionalidades dentro de la plataforma en paralelo con los procesos productivos dentro de las fases de cultivo de los champiñones.  
+- Proporcionar tutoriales sobre cómo utilizar la aplicación móvil como herramienta de interacción para nuestros usuarios.  
+
+---
+
+## Afrontando las oportunidades de nuestros competidores:
+
+- Implementación de una interfaz agradable y visual para el usuario  
+- Administración y planificación visual del departamento de producción de cultivos  
+- Combinar inteligencia artificial e IoT para mitigar el cambio climático y gestionar cultivos agrícolas de una manera más precisa.  
+
+**Comprendemos que nuestras oportunidades son:**
+
+- Mejorar las funcionalidades deficientes de nuestros competidores en el mercado.  
+- Baja presencia de competidores en el mercado.  
+- Alta demanda en exportaciones peruanas de cultivos de champiñones hacia el exterior.  
+
+**Entonces, podemos aplicar las siguientes estrategias y tácticas:**
+
+### Estrategias
+
+- Desarrollar la interfaz de la plataforma en base a una experiencia de usuario acogedora y sostenible.  
+
+### Tácticas
+
+- Aplicar los conceptos de psicología del color para la selección y diseño de la interfaz de usuario de la plataforma.  
+- Aplicar pruebas de usabilidad y recolección de comentarios para garantizar la atracción hacia la plataforma.  
+- Implementar una sección de información al usuario sobre el impacto ambiental y mitigación al cambio climático.  
+
+---
+
+## Afrontando las amenazas de nuestros competidores:
+
+- La interfaz no puede centralizarse en el desarrollo de procesos productivos para solo un tipo de cultivos. Es decir, la interfaz ha sido creada de forma generalizada.  
+- Bajas demandas al no contar con una aplicación móvil.  
+- El dilema del cambio climático está en continuo agudizamiento.  
+
+**Comprendemos que nuestras amenazas son:**
+
+- Las diferencias entre metodologías y datos de medición entre las fábricas champiñoneras.  
+
+**Entonces, podemos aplicar las siguientes estrategias y tácticas:**
+
+### Estrategias
+
+- Potenciar las funcionalidades de la aplicación móvil para adaptarse al proceso real usado por las empresas  
+- Mantener actualizaciones continuas de la plataforma y agilizar la atención al registro de errores por los usuarios.  
+
+### Tácticas
+
+- Desarrollar webinars para destacar la facilidad de planificación y administración visual para optimizar operaciones que ofrece nuestra plataforma (demostraciones prácticas).  
+- Encuestar a empresas del sector y averiguar la importancia de los datos que registran durante los cultivos.  
+- Incluir en la aplicación registros para los procesos que se identifican como importantes en la mayoría de empresas y añadir progresivamente los otros tipos de registros vía actualizaciones de la app.
+
+
+<h2 id='2.2.'>2.2. Entrevistas</h2>
+
+ La sección abarca el proceso de investigación de nuestros segmentos objetivos mediante la 
+recolección de información en base a entrevistas.
+
+<h3 id='2.2.1.'>2.2.1. Diseño de entrevistas</h3>
+
+## Preguntas dirigidas al personal técnico supervisor de las fábricas de champiñones
+
+### Preguntas introductorias
+
+**i.** ¿Podrías proporcionarnos tu nombre completo y edad?  
+**ii.** ¿Cuánto tiempo de experiencia posee en la industria de producción de champiñones y qué rol desempeña en la fábrica?  
+**iii.** ¿Qué actividades desempeña dentro de la fábrica?
+
+### Preguntas principales
+
+**i.** ¿Cómo es el proceso de cultivo de champiñones en las naves?  
+**ii.** ¿Cuáles son los procesos que supervisa personalmente en la fábrica?  
+**iii.** ¿Con qué frecuencia recibes un reporte relacionado con los procesos y el estado actual de la fábrica? ¿Para qué utilizas esta información?  
+**iv.** ¿Han habido casos de confusiones, imprecisiones o fallos en la comunicación al momento de reportar de los procesos de la fábrica? ¿Cómo intentaron solucionar estos inconvenientes?  
+**v.** ¿Cuáles son los principales problemas reportados por los trabajadores que están bajo su administración?  
+**vi.** ¿Cómo se registra la información proveniente de los procesos realizados durante el cultivo y la pasteurización?  
+**vii.** Dentro de la fábrica, ¿Cuentan con algún tipo de análisis estadístico u otra manera de visualizar la producción dentro de la fábrica y su trayectoria a través del tiempo?  
+**viii.** ¿En qué medida se utiliza la tecnología y automatización en el proceso de cultivo?  
+**ix.** ¿Qué tecnologías se han considerado implementar para automatizar el registro de procesos dentro de la fábrica?  
+**x.** ¿Qué funcionalidades considera que debe tener una aplicación móvil para ayudar con el registro de información proveniente de la fábrica?  
+**xi.** ¿Cuál de estas características cree que es más importante en la aplicación móvil: velocidad, facilidad de uso o una interfaz amplia?  
+**xii.** ¿Cuáles problemas cree que podrían surgir del uso de dicha aplicación?
+
+### Preguntas complementarias
+
+**i.** ¿Qué le inspira a trabajar en la administración de las naves de los champiñones?  
+**ii.** ¿Cómo se lleva un registro del inventario de champiñones producidos?
+
+---
+
+## Preguntas dirigidas a los administradores de las fábricas de champiñones
+
+### Preguntas introductorias
+
+**i.** ¿Podrías proporcionarnos tu nombre completo y edad?  
+**ii.** ¿Cuánto tiempo de experiencia posee en la industria de producción de champiñones y qué rol desempeña en la fábrica?  
+**iii.** ¿Qué actividades desempeña dentro de la fábrica?
+
+### Preguntas principales
+
+**i.** ¿Cómo es el proceso de cultivo de champiñones en las naves?  
+**ii.** ¿Cuáles son los procesos que supervisa personalmente en la fábrica?  
+**iii.** ¿Con qué frecuencia recibes un reporte relacionado con los procesos y el estado actual de la fábrica? ¿Para qué utilizas esta información?  
+**iv.** ¿Han habido casos de confusiones, imprecisiones o fallos en la comunicación al momento de reportar de los procesos de la fábrica? ¿Cómo intentaron solucionar estos inconvenientes?  
+**v.** ¿Cuáles son los principales problemas reportados por los trabajadores que están bajo su administración?  
+**vi.** ¿Cómo se registra la información proveniente de los procesos realizados durante el cultivo y la pasteurización?  
+**vii.** Dentro de la fábrica, ¿Cuentan con algún tipo de análisis estadístico u otra manera de visualizar la producción dentro de la fábrica y su trayectoria a través del tiempo?  
+**viii.** ¿En qué medida se utiliza la tecnología y automatización en el proceso de cultivo?  
+**ix.** ¿Qué tecnologías se han considerado implementar para automatizar el registro de procesos dentro de la fábrica?  
+**x.** ¿Qué funcionalidades considera que debe tener una aplicación móvil para ayudar con el registro de información proveniente de la fábrica?  
+**xi.** ¿Cuál de estas características cree que es más importante en la aplicación móvil: velocidad, facilidad de uso o una interfaz amplia?  
+**xii.** ¿Cuáles problemas cree que podrían surgir del uso de esta aplicación?
+
+### Preguntas complementarias
+
+**i.** ¿Qué le inspira a trabajar en la administración de las naves de los champiñones?  
+**ii.** ¿Cómo se lleva un registro del inventario de champiñones producidos?
+
+
+<h3 id='2.2.2.'>2.2.2. Registro de entrevistas</h3>
+
+# Entrevista a técnicos supervisores
+
+|| **Entrevistado 1** |
+|--------------------|--------------------|
+| **Nombre**         | Elías Almenara     |
+| **Edad**           | 52                 |
+| **Distrito**       | Chilca             |
+| <img src="assets/images/chapter_2/interviews/entrevistado1.png" width="2000"/> |  Cuenta con 17 años trabajando en plantas de cultivo de champiñones, actualmente es el técnico de producción en Perú Agro. Las funciones que desempeña son aquellas relacionadas a los procesos de las naves. Tiene un conocimiento muy claro del proceso y todo lo que este involucra como lo son los tiempos, condiciones de temperatura, CO2, Humedad. Trabaja en el turno de día y realiza un registro cada 4 horas. Se evidencia que no es una persona muy familiarizada con el entorno digital, ya que ciertas preguntas relacionadas al tema le costaban comprenderlas. No considera tedioso el tener que hacer los registros manualmente, pero si considera que el proceso se podría agilizar mediante la implementación de una aplicación móvil. |
+| **Timing: 0:07–15:15** | [upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1](upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1) |
+
+<br>
+<br>
+<br>
+
+|| **Entrevistado 2** |
+|--------------------|--------------------|
+| **Nombre**         | Kevin Urbano    |
+| **Edad**           | 32                 |
+| **Distrito**       | Chilca             |
+|  <img src="assets/images/chapter_2/interviews/entrevistado2.png" width="2000"/> |   Cuenta con 2 años y 3 meses trabajando en plantas de cultivo de champiñones, actualmente es el técnico de pasteurización y búnker en Perú Agro. Las funciones que desempeña son las relacionadas a los procesos previos a las naves,como lo son los bunkers y la pasteurización. Comenta que las cantidades para las mezclas se manejan con un excel del encargado. Trabaja en el turno de día y realiza un registro cada hora u hora y media. Comenta que se tienen registros tanto por WhatsApp como por informes manuales que se envían a oficina. Considera que una aplicación para el registro brindaría mayor organización puesto que todo estaría en la computadora. Comenta la posibilidad de añadir el seguimiento de las mejores naves. |
+| **Timing: 15:15 -27:45** | [upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1](upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1) |
+
+<br>
+<br>
+<br>
+
+|| **Entrevistado 3** |
+|--------------------|--------------------|
+| **Nombre**         | Danny Martinez     |
+| **Edad**           | 33                 |
+| **Distrito**       | Chilca             |
+|  <img src="assets/images/chapter_2/interviews/entrevistado3.png" width="2000"/> |    El entrevistado posee un año y seis meses trabajando en la planta de cultivo dechampiñones, y, actualmente está encargado de la coordinación general de los procesos productivos, ventas, cosecha. Se encarga de que todos los procesos se cumplan a cabalidad. Menciona que el registro de temperatura es diario y en algunas áreas se manejan por horas. Comenta que se tienen registros tanto por WhatsApp como por informes manuales que se envían a oficina. Considera que una aplicación para el registro brindaría mayor organización puesto que es a tiempo real de manera digital a diferencia de por escrito. Menciona la posibilidad de implementar una base de datos. Considera que el uso de la aplicación tendría como mayor problema capacitar al personal. |
+| **Timing: 27:45-35:46** | [upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1](upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1) |
+<br>
+
+# Entrevista a Administradores
+
+
+|| **Entrevistado 1** |
+|--------------------|--------------------|
+| **Nombre**         | Frank Alexander Du Bois Luna    |
+| **Edad**           | 42                 |
+| **Distrito**       | Miraflores             |
+| <img src="assets/images/chapter_2/interviews/entrevistadoadmin1.png" width="2000"/> |   Cuenta con 5 años en el rubro, con una trayectoria previa en la industria de la construcción. Actualmente se encarga principalmente de labores administrativas dentro de la fábrica. Posee profundos conocimientos de todas las etapas de producción, y comenta que para realizar champiñones se requiere de un estricto control. Con respecto al sistema de registro, el entrevistado señala que documentar manualmente los procesos puede resultar complicado debido a la potencial acumulación de errores con el tiempo. Uno de los problemas que encuentra es que en caso de equivocación, ninguno de los técnicos asume la responsabilidad de sus actos. Adicionalmente, asegura apoyarse de una hoja de cálculo en Excel para tener una métrica de trazabilidad de la producción diaria para cada nave. Desde su perspectiva, la facilidad de uso es un aspecto muy importante que la aplicación debe cumplir. |
+| **Timing: 35:54-59:29** | [upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1](upc-pre-202402-si728-SW81-Integradis
+needfinding-sprint-1) |
+
+<br>
+<br>
+<br>
+
+|| **Entrevistado 2** |
+|--------------------|--------------------|
+| **Nombre**         | Rosalyn Perez Clemente    |
+| **Edad**           | 41                 |
+| **Distrito**       | Chilca             |
+| <img src="assets/images/chapter_2/interviews/entrevistadoadmin2.png" width="2000"/>  |    Trabaja en la planta de producción de champiñones desde agosto de 2018 y actualmente ocupa una posición en el área administrativa. Se encarga de la gestión de pagos, trámites y la administración de documentación relacionada con las operaciones internas. Lleva la documentación de los registros de los procesos y las producciones por naves. Rosalyn recibe informes de registros en un promedio de cinco ocasiones mensuales, lo cual concuerda con la frecuencia de las siembras realizadas en ese periodo específico. Sin embargo, sugiere que existe la posibilidad de enfrentar retrasos en la entrega de la documentación, un aspecto que podría afectar la capacidad de toma de decisiones oportunas por parte de la empresa. Opina que una aplicación sería de utilidad para agilizar la comunicación, y que el mayor inconveniente de esta misma sería la necesidad de proporcionar capacitación adecuada al personal, con el objetivo de garantizar un uso efectivo de la aplicación. |
+| **Timing: 59:30-1:03:30** | [upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1](upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1) |
+
+<br>
+<br>
+<br>
+
+|| **Entrevistado 3** |
+|--------------------|--------------------|
+| **Nombre**         | Julio Victor Du Bois Yabar    |
+| **Edad**           | 78                 |
+| **Distrito**       | San Borja             |
+|<img src="assets/images/chapter_2/interviews/entrevistadoadmin3.png" width="2000"/>  |    Gerente de la fábrica de champiñones de la marca Campo Alegre. Lleva 5 años en el cargo y se encarga principalmente de la parte financiera, estructural. Recibe a menudo reportes y hace las anotaciones y correcciones correspondientes según el caso. Comenta que recibe los reportes por teléfono y tiene una constancia del registro a mano. Cuenta con los conocimientos técnicos referentes al cultivo de champiñones adquiridos a través de los años de experiencia. Menciona que aún no cuentan con la tecnología necesaria en la mayoría de procesos, y que buscan la integración de esta misma. |
+| **Timing: 1:03:31-1:22:35** | [ upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1]( upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1) |
+<br>
+
+<h3 id='2.2.3.'>2.2.3. Análisis de entrevistas</h3>
+
+### Análisis del segmento de técnicos supervisores 
+
+En primer lugar, el 100% de los entrevistados tiene una edad superior a 30 años, de los cuáles el 
+66% se encuentra entre los 30 y 40 años de edad. Asimismo, un 66% de los entrevistados 
+considera un proceso tedioso el tener que realizar los registros, puesto que pueden estar 
+ocupados con otra tarea y tienen que ir a cumplir con esta labor. Además, el 66% de los 
+entrevistados nos habló del grupo de WhatsApp además de los registros que llevan manualmente, 
+en el cuál comunican los registros de forma que los administradores y demás técnicos pueden 
+tener conocimiento de los procesos. A su vez, el 100% cuenta con más de año y medio de 
+experiencia en la planta de champiñones, de los cuáles el 66% cuenta con más de 5 años de 
+experiencia. De igual manera, el 100% de los entrevistados mencionan que los registros se hacen 
+diarios y cada uno de ellos maneja diferentes horas según su área. Por otra parte, la totalidad de 
+los entrevistados afirman que ha habido errores en el registro de los datos, ya sea que alguien se 
+olvidó de hacerlo (principalmente en el turno noche mencionan) o que al hacer el registro puede 
+haber un fallo al trasladar los datos al papel. Igualmente, el 66% considera que un problema sería 
+la capacitación del personal, a lo cual podemos añadir que un 33% parecía costarle entender las 
+preguntas y la solución propuesta. El 100% de los entrevistados asegura utilizar principalmente el 
+browser Google Chrome. Finalmente, el 100% de los entrevistados considera que hacer el 
+seguimiento al proceso del champiñón y registrarlo es clave para lograr un producto de calidad y 
+poder aplicar una mejora continua. 
+
+
+### Análisis del segmento de administradores 
+
+En primer lugar, el 33% de los entrevistados pertenece al sector de adultos mayores mientras que 
+el resto es mayor de ronda los 40 años. A su vez, todos los entrevistados trabajan en la 
+champiñonera desde su apertura hace 5 años. De igual forma, el 100% menciona que el registro 
+se realiza en papel y que esté luego es archivado por si se necesitan en un futuro, además 
+mencionan que tienen un grupo de WhatsApp como un canal no oficial dónde también se 
+comparten los registros. Asimismo, el 66% de los entrevistados cuenta con conocimientos técnicos 
+del proceso productivo del champiñón, mientras que el 33% se dedica únicamente a actividades 
+administrativas. Por otra parte, el 66% comenta que para recibir ciertos registros pueden haber 
+demoras debido a que aún no los tienen en la oficina o que se tiene que buscar entre todos los 
+registros archivados. Además, el 100% menciona que la tecnología se utiliza principalmente en las 
+máquinas de mediciones y que para la comunicación y registro de los datos únicamente se cuenta 
+con los registros manuales en papel y un grupo de WhatsApp. Por otro lado, el 33% de los 
+entrevistados maneja un documento excel como herramienta tecnológica que utiliza para el 
+control de inventarios y tener una trazabilidad de la producción. También, en su totalidad 
+consideran que implementar una aplicación para registrar las mediciones y optimizar otros 
+procesos agilizaría el trabajo y sería útil para tener una visión más general del proceso productivo 
+y en cuáles aspectos mejorar. El 75% de los entrevistados afirma utilizar el browser Safari, mientras 
+que el 25% restante utiliza Chrome. Finalmente, todos los entrevistados consideran que el mayor 
+problema sería la capacitación de los trabajadores para utilizar nuevas herramientas tecnológicas. 
+
+<h2 id='2.3.'>2.3. Needfinding</h2>
+<h3 id='2.3.1.'>2.3.1. User Personas</h3>
+
+<h3 id='2.3.2.'>2.3.2. User Task Matrix</h3>
+<h3 id='2.3.3.'>2.3.3. User Journey Mapping</h3>
+<h3 id='2.3.4.'>2.3.4. Empathy Mapping</h3>
+<h3 id='2.3.5.'>2.3.5. As-is Scenario Mapping</h3>
+
+<h2 id='2.4.'>2.4. Ubiquitous Language</h2>
+
 El lenguaje ubicuo permite que las personas del negocio, incluso aquellas sin conocimientos técnicos, comprendan mejor la plataforma Greenhouse. Por ello, a continuación, se presentan una serie de términos en inglés frecuentemente utilizados en la aplicación, junto con sus definiciones en castellano. 
 
 - Company/Compañía: Empresa registrada en la plataforma greenhouse que tiene asociado a su información a los siguientes tipos de usuarios:
@@ -321,3 +754,16 @@ El lenguaje ubicuo permite que las personas del negocio, incluso aquellas sin co
 - IoT: concepto que describe la interconexión de dispositivos físicos a través de internet, permitiendo que recopilen, compartan y procesen datos de forma automática.
 - Sensor: dispositivo que recopila datos del entorno, como temperatura, humedad, entre otros, y los transmite a través de una red para ser procesados o analizados por otros dispositivos o sistemas.
 - Actuador: Dispositivo que recibe señales o comandos de un sistema y realiza una acción física en el entorno, como encender un motor, abrir una válvula o ajustar la temperatura, como respuesta a los datos procesados por sensores u otros dispositivos.
+
+<h1 id='3.'>Capítulo III: Requirements Specification</h1>
+
+<h2 id='3.1.'>3.1. To-Be Scenario Mapping</h2>
+<h2 id='3.2.'>3.2. User Stories</h2>
+<h2 id='3.3.'>3.3. Impact Mapping</h2>
+<img src="assets/images/chapter_3/impact_mapping/impact_map.png" alt="impact map"/>
+
+Enlace ara acceder a la imagen en
+<a href="https://drive.google.com/file/d/1yVWGNyuPBc9qrRnP36r73_fm8HVVXRoA/view">drive</a>
+<h2 id='3.4.'>3.4. Product Backlog</h2>
+
+
