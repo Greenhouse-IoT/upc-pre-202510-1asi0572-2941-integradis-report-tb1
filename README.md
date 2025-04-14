@@ -383,11 +383,13 @@ El diagrama de contenedores presentado a continuación representa cómo interact
 <h3 id='4.2.2.'>4.2.2. Bounded Context: IAM</h3>
 Este bounded context se enfoca en las clases y capas relacionadas con los usuarios de la aplicación, sus roles y sus credenciales. A continuación, se detallan los principales componentes de este contexto.
 <h4 id='4.2.2.1.'>4.2.2.1. Domain Layer.<h4>
+
 - Users: Esta Clase representa un usuario, registrado en greenhouse. Contiene los atributos rol, username y password.
 
 <h4 id='4.2.2.2.'>4.2.2.2. Interface Layer.<h4>
 Controller:
-- Users: Define un controlador `UsersController` en NestJS que gestiona las operaciones de usuario. Utiliza un servicio `UserService` para manejar comandos de creación, actualización, eliminación y búsqueda de usuarios. Los métodos del controlador transforman los DTOs recibidos en comandos y devuelven resultados apropiados, como listas de usuarios o detalles de un usuario específico.
+
+- Users: Define un controlador 'UsersController' en NestJS que gestiona las operaciones de usuario. Utiliza un servicio 'UserService' para manejar comandos de creación, actualización, eliminación y búsqueda de usuarios. Los métodos del controlador transforman los DTOs recibidos en comandos y devuelven resultados apropiados, como listas de usuarios o detalles de un usuario específico.
 
 <h4 id='4.2.2.3.'>4.2.2.3. Application Layer.<h4>
 
@@ -400,7 +402,9 @@ Controller:
 **Facades:**
 
 - user-facade: Define un servicio 'UsersFacadeService' en NestJS que utiliza el patrón CQRS, inyectando 'CommandBus' y 'QueryBus'. Proporciona métodos para crear un usuario, comparar una contraseña con un nombre de usuario, y obtener el rol e ID de un usuario por su nombre de usuario, utilizando comandos y consultas para manejar la lógica.
-Ports:
+
+**Ports:**
+
 - create-user: Define una clase abstracta 'CreateUserRepository' que especifica un método 'save', el cual debe ser implementado por las clases concretas para guardar un objeto 'User' y devolverlo como una promesa.
 - find-user: Define una clase abstracta 'FindUsersRepository' que especifica métodos para buscar usuarios: 'findAll', que devuelve una lista de usuarios, y 'findByUsername', que busca un usuario por su nombre de usuario y devuelve el usuario o 'undefined'.
 - remove-user: Define una clase abstracta 'RemoveUserRepository' que especifica un método 'remove', el cual debe ser implementado por las clases concretas para eliminar un objeto User' y devolverlo como una promesa.
