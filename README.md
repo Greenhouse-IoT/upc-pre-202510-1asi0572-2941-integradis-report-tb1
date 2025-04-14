@@ -477,3 +477,180 @@ A continuación, se presenta el diagrama de clases asociado al bounded context U
     </tr>
   <tbody>
 </table>
+
+<h3 id='4.2.3.'>4.2.3. Bounded Context: Mailling</h3>
+Este bounded context se enfoca en las clases y capas relacionadas con el envío de correos de notificación sobre algún evento importante de notificar relacionado con el proceso de los cultivos de champiñones mediante el uso del servicio externo de Resend AutoML de Azure. A continuación, se detallan los principales componentes de este contexto.
+
+<h4 id='4.2.3.1.'>4.2.3.1. Domain Layer.<h4>
+
+- MaIl: Esta clase representa el correo electrónico que pertenece a un usuario y contiene atributos como id, userId, userHandle, address y domain. Asimismo, cuenta con el método toString que permite unir el address y domain para obtener el correo formateado. 
+  
+- MailTemplate<T:>: Esta clase genérica representa una plantilla de correo electrónico que contiene como atributos id, title, body, y dispone un método que permite obtener el template dado un payload del tipo T el cuál permitirá personalizar más la información que se utilizará.
+  
+- SendEvent: Esta clase representa el evento de envío de correo electrónico que contiene atributos como id, mail, template, createdAt y name.
+
+
+<h4 id='4.2.3.2.'>4.2.3.2. Interface Layer.<h4>
+EmailController: Maneja las solicitudes relacionadas con el envío de correos y la gestión de plantilla y dispone de los siguientes métodos:
+
+- createMail(userHandle: string, address: string, domain: string): Mail
+- createTemplate(id: string, title: string, body: string): MailTemplate
+- sendMail(mail: Mail, template: MailTemplate): SendEvent
+- getMailHistory(userId: string): SendEvent[]
+
+
+<h4 id='4.2.3.3.'>4.2.3.3. Application Layer.<h4>
+
+**Command Handlers:**
+
+Command Handlers:
+-	create-mail: Crea una nueva instancia de Mail.
+- create-template: Crea una nueva instancia de MailTemplate.
+-	send-mail: Utiliza ResendFacade para enviar un correo y crea un nuevo SendEvent.
+
+**Queries Handler:**
+
+-	get-mail-by-id: Obtiene un Mail específico por su ID.
+-	get-template-by-id: Obtiene un MailTemplate específico por su ID.
+-	get-send-events-by-user: Obtiene un array de SendEvent para un usuario específico.
+
+<h4 id='4.2.3.4.'>4.2.3.4. Infrastructure Layer.<h4>
+
+**Repositories:**
+
+-	create-mail: Persiste una nueva instancia de Mail en la base de datos.
+-	create-template: Persiste una nueva instancia de MailTemplate en la base de datos.
+-	create-send-event: Persiste un nuevo SendEvent en la base de datos.
+-	find-mail: Busca y devuelve instancias de Mail basadas en diversos criterios.
+-	find-template: Busca y devuelve instancias de MailTemplate basadas en diversos criterios.
+-	find-send-events: Busca y devuelve SendEvents basados en diversos criterios.
+
+**Services:**
+
+-	ResendFacade: Interactúa con el servicio externo de Resend para gestionar el envío de correos.
+
+**Mappers:**
+
+-	mail-mapper: Convierte entre objetos de dominio Mail y su representación en la capa de persistencia.
+-	template-mapper: Realiza el mapeo entre objetos de dominio MailTemplate y su versión persistente.
+-	send-event-mapper: Mapea objetos SendEvent entre la capa de dominio y la de persistencia.
+
+
+<h4 id='4.2.4.5.'>4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.<h4>
+
+A continuación, se presenta el diagrama de componentes asociado al bounded context Mailling
+
+<img src='assets/images/chapter_4/mailing/mailling_component_diagram.png' alt='Mailling Component Level Diagram' />
+
+<h4 id='4.2.4.6.'>4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.<h4>
+
+<h5 id='4.2.4.6.1.'>4.2.2.4.1. Bounded Context Domain Layer Class Diagrams.<h5>
+
+A continuación, se presenta el diagrama de clases del microservicio encargado de la gestión de notificaciones por correo electrónico. Este diseño incluye las entidades Mail y MailTemplate, las cuales son procesadas a través de la fachada (ResendFacade), que abstrae la interacción con el servicio de Resend, encargado de ejecutar la lógica de envío de correos. Además, se ha implementado un mecanismo para registrar los eventos asociados al envío de correos, con el fin de garantizar una trazabilidad completa, permitiendo un monitoreo detallado del estado de los envíos y de los destinatarios involucrados, optimizando así el seguimiento y análisis del flujo de notificaciones.
+
+<img src='assets/images/chapter_4/mailing/mailling_class_diagram.png' alt='Mailling Class Diagram' />
+
+<h5 id='4.2.4.6.2.'>4.2.4.6.2. Bounded Context Database Design Diagram.</h5>
+
+<img src='assets/images/chapter_4/mailing/mailling_database_diagram.png' alt='Mailling Database Diagram' />
+
+<table cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nombre del atributo</th>
+      <th>Descripción del atributo</th>
+      <th>Tipo de dato del atributo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>Identificador del mail, UUID, primary key</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>user_id</td>
+      <td>Identificador del usuario, UUID</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>user_handle</td>
+      <td>Apodo preferido para el usuario a usar en los correos</td>
+      <td>varchar(32)</td>
+    </tr>
+    <tr>
+      <td>address</td>
+      <td>Dirección del correo electrónico</td>
+      <td>varchar(24)</td>
+    </tr>
+    <tr>
+      <td>domain</td>
+      <td>Dominio del correo electrónico</td>
+      <td>varchar(24)</td>
+    </tr>
+  </tbody>
+</table>
+
+<table cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nombre del atributo</th>
+      <th>Descripción del atributo</th>
+      <th>Tipo de dato del atributo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>Identificador del template, UUID, primary key</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>title</td>
+      <td>Título o asunto que tendrá el correo</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>body</td>
+      <td>Cuerpo del correo que tendrá todo el contenido base que se enviará al usuario</td>
+      <td>varchar(32)</td>
+    </tr>
+  </tbody>
+</table>
+
+<table cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nombre del atributo</th>
+      <th>Descripción del atributo</th>
+      <th>Tipo de dato del atributo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>Identificador del evento de envío de mail, UUID, primary key</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>mail_id</td>
+      <td>Identificador del mail, UUID, foreign key</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>mail_template_id</td>
+      <td>Identificador del template, UUID, foreign key</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td>Nombre personalizado que se le puede dar al evento</td>
+      <td>varchar(32)</td>
+    </tr>
+    <tr>
+      <td>created_at</td>
+      <td>Timestamp del momento en el que el evento fue creado</td>
+      <td>timestamp</td>
+    </tr>
+  </tbody>
+</table>
