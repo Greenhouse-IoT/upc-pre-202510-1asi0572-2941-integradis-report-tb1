@@ -818,8 +818,8 @@ uno de los segmentos objetivo y así tener un mejor conocimiento del flujo de tr
 
 Enlace para acceder a la imagen en 
 <a href="https://drive.google.com/file/d/1yVWGNyuPBc9qrRnP36r73_fm8HVVXRoA/view">drive</a>
-
 <br>
+
 ### Administrador: 
 <img src="assets/images/chapter_2/needfinding/asisadministrador.png" alt="As-is Scenario Mapping administrador"><br>
 
