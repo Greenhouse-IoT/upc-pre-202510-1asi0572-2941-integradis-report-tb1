@@ -535,68 +535,68 @@ En base al análisis competitivo efectuado anticipadamente, se logró identifica
 
 <h2 id='2.2.'>2.2. Entrevistas</h2>
 
- La sección abarca el proceso de investigación de nuestros segmentos objetivos mediante la 
+La sección abarca el proceso de investigación de nuestros segmentos objetivos mediante la 
 recolección de información en base a entrevistas.
 
 <h3 id='2.2.1.'>2.2.1. Diseño de entrevistas</h3>
 
-## Preguntas dirigidas al personal técnico supervisor de las fábricas de champiñones
+### Preguntas dirigidas al personal técnico supervisor de las fábricas de champiñones
 
-### Preguntas introductorias
+#### Preguntas introductorias
 
-**i.** ¿Podrías proporcionarnos tu nombre completo y edad?  
-**ii.** ¿Cuánto tiempo de experiencia posee en la industria de producción de champiñones y qué rol desempeña en la fábrica?  
-**iii.** ¿Qué actividades desempeña dentro de la fábrica?
+**i.** ¿Podrías proporcionarnos tu nombre completo y edad?  <br>
+**ii.** ¿Cuánto tiempo de experiencia posee en la industria de producción de champiñones y qué rol desempeña en la fábrica?  <br>
+**iii.** ¿Qué actividades desempeña dentro de la fábrica?<br>
 
-### Preguntas principales
+#### Preguntas principales
 
-**i.** ¿Cómo es el proceso de cultivo de champiñones en las naves?  
-**ii.** ¿Cuáles son los procesos que supervisa personalmente en la fábrica?  
-**iii.** ¿Con qué frecuencia recibes un reporte relacionado con los procesos y el estado actual de la fábrica? ¿Para qué utilizas esta información?  
-**iv.** ¿Han habido casos de confusiones, imprecisiones o fallos en la comunicación al momento de reportar de los procesos de la fábrica? ¿Cómo intentaron solucionar estos inconvenientes?  
-**v.** ¿Cuáles son los principales problemas reportados por los trabajadores que están bajo su administración?  
-**vi.** ¿Cómo se registra la información proveniente de los procesos realizados durante el cultivo y la pasteurización?  
-**vii.** Dentro de la fábrica, ¿Cuentan con algún tipo de análisis estadístico u otra manera de visualizar la producción dentro de la fábrica y su trayectoria a través del tiempo?  
-**viii.** ¿En qué medida se utiliza la tecnología y automatización en el proceso de cultivo?  
-**ix.** ¿Qué tecnologías se han considerado implementar para automatizar el registro de procesos dentro de la fábrica?  
-**x.** ¿Qué funcionalidades considera que debe tener una aplicación móvil para ayudar con el registro de información proveniente de la fábrica?  
-**xi.** ¿Cuál de estas características cree que es más importante en la aplicación móvil: velocidad, facilidad de uso o una interfaz amplia?  
-**xii.** ¿Cuáles problemas cree que podrían surgir del uso de dicha aplicación?
+**i.** ¿Cómo es el proceso de cultivo de champiñones en las naves?  <br>
+**ii.** ¿Cuáles son los procesos que supervisa personalmente en la fábrica?  <br>
+**iii.** ¿Con qué frecuencia recibes un reporte relacionado con los procesos y el estado actual de la fábrica? ¿Para qué utilizas esta información?  <br>
+**iv.** ¿Han habido casos de confusiones, imprecisiones o fallos en la comunicación al momento de reportar de los procesos de la fábrica? ¿Cómo intentaron solucionar estos inconvenientes?  <br>
+**v.** ¿Cuáles son los principales problemas reportados por los trabajadores que están bajo su administración?  <br>
+**vi.** ¿Cómo se registra la información proveniente de los procesos realizados durante el cultivo y la pasteurización?  <br>
+**vii.** Dentro de la fábrica, ¿Cuentan con algún tipo de análisis estadístico u otra manera de visualizar la producción dentro de la fábrica y su trayectoria a través del tiempo?  <br>
+**viii.** ¿En qué medida se utiliza la tecnología y automatización en el proceso de cultivo?  <br>
+**ix.** ¿Qué tecnologías se han considerado implementar para automatizar el registro de procesos dentro de la fábrica?  <br>
+**x.** ¿Qué funcionalidades considera que debe tener una aplicación móvil para ayudar con el registro de información proveniente de la fábrica?  <br>
+**xi.** ¿Cuál de estas características cree que es más importante en la aplicación móvil: velocidad, facilidad de uso o una interfaz amplia?  <br>
+**xii.** ¿Cuáles problemas cree que podrían surgir del uso de dicha aplicación?<br>
 
-### Preguntas complementarias
+#### Preguntas complementarias
 
-**i.** ¿Qué le inspira a trabajar en la administración de las naves de los champiñones?  
-**ii.** ¿Cómo se lleva un registro del inventario de champiñones producidos?
+**i.** ¿Qué le inspira a trabajar en la administración de las naves de los champiñones?  <br>
+**ii.** ¿Cómo se lleva un registro del inventario de champiñones producidos?<br>
 
 ---
 
-## Preguntas dirigidas a los administradores de las fábricas de champiñones
+### Preguntas dirigidas a los administradores de las fábricas de champiñones
 
-### Preguntas introductorias
+#### Preguntas introductorias
 
-**i.** ¿Podrías proporcionarnos tu nombre completo y edad?  
-**ii.** ¿Cuánto tiempo de experiencia posee en la industria de producción de champiñones y qué rol desempeña en la fábrica?  
-**iii.** ¿Qué actividades desempeña dentro de la fábrica?
+**i.** ¿Podrías proporcionarnos tu nombre completo y edad?  <br>
+**ii.** ¿Cuánto tiempo de experiencia posee en la industria de producción de champiñones y qué rol desempeña en la fábrica?  <br>
+**iii.** ¿Qué actividades desempeña dentro de la fábrica?<br>
 
-### Preguntas principales
+#### Preguntas principales
 
-**i.** ¿Cómo es el proceso de cultivo de champiñones en las naves?  
-**ii.** ¿Cuáles son los procesos que supervisa personalmente en la fábrica?  
-**iii.** ¿Con qué frecuencia recibes un reporte relacionado con los procesos y el estado actual de la fábrica? ¿Para qué utilizas esta información?  
-**iv.** ¿Han habido casos de confusiones, imprecisiones o fallos en la comunicación al momento de reportar de los procesos de la fábrica? ¿Cómo intentaron solucionar estos inconvenientes?  
-**v.** ¿Cuáles son los principales problemas reportados por los trabajadores que están bajo su administración?  
-**vi.** ¿Cómo se registra la información proveniente de los procesos realizados durante el cultivo y la pasteurización?  
-**vii.** Dentro de la fábrica, ¿Cuentan con algún tipo de análisis estadístico u otra manera de visualizar la producción dentro de la fábrica y su trayectoria a través del tiempo?  
-**viii.** ¿En qué medida se utiliza la tecnología y automatización en el proceso de cultivo?  
-**ix.** ¿Qué tecnologías se han considerado implementar para automatizar el registro de procesos dentro de la fábrica?  
-**x.** ¿Qué funcionalidades considera que debe tener una aplicación móvil para ayudar con el registro de información proveniente de la fábrica?  
-**xi.** ¿Cuál de estas características cree que es más importante en la aplicación móvil: velocidad, facilidad de uso o una interfaz amplia?  
-**xii.** ¿Cuáles problemas cree que podrían surgir del uso de esta aplicación?
+**i.** ¿Cómo es el proceso de cultivo de champiñones en las naves?  <br>
+**ii.** ¿Cuáles son los procesos que supervisa personalmente en la fábrica?  <br>
+**iii.** ¿Con qué frecuencia recibes un reporte relacionado con los procesos y el estado actual de la fábrica? ¿Para qué utilizas esta información?  <br>
+**iv.** ¿Han habido casos de confusiones, imprecisiones o fallos en la comunicación al momento de reportar de los procesos de la fábrica? ¿Cómo intentaron solucionar estos inconvenientes?  <br>
+**v.** ¿Cuáles son los principales problemas reportados por los trabajadores que están bajo su administración?<br>  
+**vi.** ¿Cómo se registra la información proveniente de los procesos realizados durante el cultivo y la pasteurización?  <br>
+**vii.** Dentro de la fábrica, ¿Cuentan con algún tipo de análisis estadístico u otra manera de visualizar la producción dentro de la fábrica y su trayectoria a través del tiempo?  <br>
+**viii.** ¿En qué medida se utiliza la tecnología y automatización en el proceso de cultivo?  <br>
+**ix.** ¿Qué tecnologías se han considerado implementar para automatizar el registro de procesos dentro de la fábrica?  <br>
+**x.** ¿Qué funcionalidades considera que debe tener una aplicación móvil para ayudar con el registro de información proveniente de la fábrica?  <br>
+**xi.** ¿Cuál de estas características cree que es más importante en la aplicación móvil: velocidad, facilidad de uso o una interfaz amplia?  <br>
+**xii.** ¿Cuáles problemas cree que podrían surgir del uso de esta aplicación?<br>
 
-### Preguntas complementarias
+#### Preguntas complementarias
 
-**i.** ¿Qué le inspira a trabajar en la administración de las naves de los champiñones?  
-**ii.** ¿Cómo se lleva un registro del inventario de champiñones producidos?
+**i.** ¿Qué le inspira a trabajar en la administración de las naves de los champiñones?  <br>
+**ii.** ¿Cómo se lleva un registro del inventario de champiñones producidos?<br>
 
 
 <h3 id='2.2.2.'>2.2.2. Registro de entrevistas</h3>
