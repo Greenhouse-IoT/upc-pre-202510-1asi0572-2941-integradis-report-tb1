@@ -720,12 +720,111 @@ que el 25% restante utiliza Chrome. Finalmente, todos los entrevistados consider
 problema sería la capacitación de los trabajadores para utilizar nuevas herramientas tecnológicas. 
 
 <h2 id='2.3.'>2.3. Needfinding</h2>
+
 <h3 id='2.3.1.'>2.3.1. User Personas</h3>
 
+### User persona técnico supervisor 
+
+<img src="assets/images/chapter_2/needfinding/userpersona_luisflores.png" alt="user persona Luis"><br>
+  
+### User persona administrador 
+
+  <img src="assets/images/chapter_2/needfinding/userpersona_alvaro.png" alt="user persona Alvaro"><br>
+   
 <h3 id='2.3.2.'>2.3.2. User Task Matrix</h3>
+
+Se presentan los User Task Matrix, diagramas que contienen las tareas realizadas por los segmentos objetivos de los técnicos supervisores y los administradores.
+
+| TASK                          | FREQUENCY                    | IMPORTANCE                    | FREQUENCY                  | IMPORTANCE                 |
+|------------------------------|-------------------------------|-------------------------------|----------------------------|----------------------------|
+| Monitorear los procesos      | Always                        | High                          | Often                      | Medium                     |
+| Utilizar los grupos de WhatsApp | Always                     | Medium                        | Always                     | High                       |
+| Supervisar los registros     | Sometimes                     | High                          | Always                     | High                       |
+| Registrar temperatura del compost | Always                   | High                          | Never                      | Low                        |
+| Registrar temperatura del aire | Always                      | High                          | Never                      | Low                        |
+| Registrar CO2                | Always                        | High                          | Never                      | Low                        |
+| Registrar Humedad            | Always                        | High                          | Never                      | Low                        |
+| Registrar Setting            | Always                        | High                          | Never                      | Low                        |
+| Control de Calidad           | Always                        | High                          | Sometimes                  | High                       |
+| Pesado de insumos            | Always                        | High                          | Never                      | Low                        |
+| Mezclado de insumos          | Always                        | Medium                        | Never                      | Low                        |
+| Remojar la paja              | Always                        | Medium                        | Never                      | Low                        |
+| Regado del compost           | Always                        | Medium                        | Never                      | Low                        |
+| Regado de las naves          | Always                        | Medium                        | Never                      | Low                        |
+| Traslados entre fases        | Always                        | Medium                        | Sometimes                  | Medium                     |
+| Comprar insumos a proveedores| Never                         | High                          | Often                      | High                       |
+| Seguimiento de fallos        | Sometimes                     | Medium                        | Often                      | High                       |
+| Modificación de fórmulas     | Never                         | High                          | Sometimes                  | High                       |
+| Uso de gráficos estadísticos | Always                        | Medium                        | Sometimes                  | Medium                     |
+| Manejo de Excel de la producción   | Rarely                  | Medium                        | Often                      | High                       |
+| Buscar registros antiguos    | Rarely                        | Medium                        | Sometimes                  | Medium                     |
+
+<br>
+
+Las tareas que tienen mayor frecuencia son aquellas que realizan los técnicos supervisores debido 
+a que tienen que estar supervisando constantemente el proceso del champiñón. Tienen que 
+monitorear, realizar los registros y hacer sus tareas de forma constante de modo que el champiñón 
+producido cuente con los estándares de calidad. Por otro lado, los administradores tienen tareas 
+que realizan de forma continua tales como verificar o supervisar los registros de la producción y 
+estar en constante comunicación con el personal. Por otro lado, cuentan también con otras tareas 
+que son de menor importancia y que realizan esporádicamente, dichas tareas están relacionadas 
+principalmente al proceso de mejora continua en la producción.
+
 <h3 id='2.3.3.'>2.3.3. User Journey Mapping</h3>
+
+En la presente sección se ilustra el end-to-end journey de la aplicación Greenhouse para los 
+segmentos objetivos, Técnicos Supervisores y Administradores. El User Journey Mapping empieza 
+desde el momento en el que el cliente adquiere conocimiento de la aplicación pasando por el 
+proceso de tomar la decisión de usarlo, registrarse, hacer uso de este mismo y finalmente la 
+posibilidad de que deje de hacer uso de este mismo.
+
+### Técnico Supervisor: 
+<img src="assets/images/chapter_2/needfinding/userjourneymappingtecnico.png" alt="user journey mapping supervisor"><br>
+
+Enlace para acceder a la imagen en 
+<a href="https://drive.google.com/file/d/1yVWGNyuPBc9qrRnP36r73_fm8HVVXRoA/view">drive</a>
+
+### Administrador: 
+<img src="assets/images/chapter_2/needfinding/userjourneymappingadministrador.png" alt="user journey mapping administrador"><br>
+
+Enlace para acceder a la imagen en 
+<a href="https://drive.google.com/file/d/1yVWGNyuPBc9qrRnP36r73_fm8HVVXRoA/view">drive</a>
+
 <h3 id='2.3.4.'>2.3.4. Empathy Mapping</h3>
+
+### Técnico Supervisor: 
+<img src="assets/images/chapter_2/needfinding/empathymappingsupervisor.png" alt="empathy mapping supervisor"><br>
+
+Enlace para acceder a la imagen en 
+<a href="https://drive.google.com/file/d/1yVWGNyuPBc9qrRnP36r73_fm8HVVXRoA/view">drive</a>
+
+
+### Administrador: 
+<img src="assets/images/chapter_2/needfinding/empathymappingadministrador.png" alt="empathy mapping administrador"><br>
+
+Enlace para acceder a la imagen en 
+<a href="https://drive.google.com/file/d/1yVWGNyuPBc9qrRnP36r73_fm8HVVXRoA/view">drive</a>
+
+
 <h3 id='2.3.5.'>2.3.5. As-is Scenario Mapping</h3>
+
+Para realizar el As-is Scenario Mapping el equipo realizó el proceso de needfinding para así 
+tener una mayor dominio sobre el negocio y poder determinar la situación actual de las plantas 
+champiñoneras. Este proceso permitió conocer las diferentes fases que corresponden para cada 
+uno de los segmentos objetivo y así tener un mejor conocimiento del flujo de trabajo.
+<br>
+### Técnico Supervisor: 
+<img src="assets/images/chapter_2/needfinding/asissupervisor.png" alt="As-is Scenario Mapping supervisor"><br>
+
+Enlace para acceder a la imagen en 
+<a href="https://drive.google.com/file/d/1yVWGNyuPBc9qrRnP36r73_fm8HVVXRoA/view">drive</a>
+
+<br>
+### Administrador: 
+<img src="assets/images/chapter_2/needfinding/asisadministrador.png" alt="As-is Scenario Mapping administrador"><br>
+
+Enlace para acceder a la imagen en 
+<a href="https://drive.google.com/file/d/1yVWGNyuPBc9qrRnP36r73_fm8HVVXRoA/view">drive</a>
 
 <h2 id='2.4.'>2.4. Ubiquitous Language</h2>
 
