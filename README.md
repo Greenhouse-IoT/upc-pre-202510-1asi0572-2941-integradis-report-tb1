@@ -740,18 +740,19 @@ Mappers:
 - MembershipLevelDao: Realiza el mapeo o conversión entre el objeto de beneficios de la membresía del dominio y el objeto que representa los datos ingresados a la persistencia.  
 - MembershipPaymentDao: Realiza la conversión entre el objeto de pago de membresía del dominio y el objeto persistence que ingresa la información a la base de datos.  
 
-
 <h4 id='4.2.4.5.'>4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.<h4>
 
-A continuación, se presenta el diagrama de componentes asociado al bounded context Mailling
+A continuación, se presenta el diagrama de componentes asociado al bounded context Memberships
 
 <img src='assets/images/chapter_4/mailing/mailling_component_diagram.png' alt='Mailling Component Level Diagram' />
 
 <h4 id='4.2.4.6.'>4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.<h4>
 
+En esta sección se exponen los diagramas que muestran en un mayor detalle las clases del contenedor Memberships presentado.
+
 <h5 id='4.2.4.6.1.'>4.2.2.4.1. Bounded Context Domain Layer Class Diagrams.<h5>
 
-A continuación, se presenta el diagrama de clases del microservicio encargado de la gestión de notificaciones por correo electrónico. Este diseño incluye las entidades Mail y MailTemplate, las cuales son procesadas a través de la fachada (ResendFacade), que abstrae la interacción con el servicio de Resend, encargado de ejecutar la lógica de envío de correos. Además, se ha implementado un mecanismo para registrar los eventos asociados al envío de correos, con el fin de garantizar una trazabilidad completa, permitiendo un monitoreo detallado del estado de los envíos y de los destinatarios involucrados, optimizando así el seguimiento y análisis del flujo de notificaciones.
+Se muestra el diagrama de clases con las clases y métodos explicados en las anteriores secciones.
 
 <img src='assets/images/chapter_4/mailing/mailling_class_diagram.png' alt='Mailling Class Diagram' />
 
@@ -770,28 +771,23 @@ A continuación, se presenta el diagrama de clases del microservicio encargado d
   <tbody>
     <tr>
       <td>id</td>
-      <td>Identificador del mail, UUID, primary key</td>
+      <td>Identificador de la membresía de la fábrica champiñonera, primary key</td>
       <td>varchar(255)</td>
     </tr>
     <tr>
-      <td>user_id</td>
-      <td>Identificador del usuario, UUID</td>
+      <td>start_date</td>
+      <td>Fecha de inicio de la membresía</td>
+      <td>date</td>
+    </tr>
+    <tr>
+      <td>end_date</td>
+      <td>Fecha de fin de la membresía</td>
+      <td>date</td>
+    </tr>
+    <tr>
+      <td>company_id</td>
+      <td>Id de la fábrica champiñonera que adquiere la membresía</td>
       <td>varchar(255)</td>
-    </tr>
-    <tr>
-      <td>user_handle</td>
-      <td>Apodo preferido para el usuario a usar en los correos</td>
-      <td>varchar(32)</td>
-    </tr>
-    <tr>
-      <td>address</td>
-      <td>Dirección del correo electrónico</td>
-      <td>varchar(24)</td>
-    </tr>
-    <tr>
-      <td>domain</td>
-      <td>Dominio del correo electrónico</td>
-      <td>varchar(24)</td>
     </tr>
   </tbody>
 </table>
@@ -807,56 +803,74 @@ A continuación, se presenta el diagrama de clases del microservicio encargado d
   <tbody>
     <tr>
       <td>id</td>
-      <td>Identificador del template, UUID, primary key</td>
-      <td>varchar(255)</td>
-    </tr>
-    <tr>
-      <td>title</td>
-      <td>Título o asunto que tendrá el correo</td>
-      <td>varchar(255)</td>
-    </tr>
-    <tr>
-      <td>body</td>
-      <td>Cuerpo del correo que tendrá todo el contenido base que se enviará al usuario</td>
-      <td>varchar(32)</td>
-    </tr>
-  </tbody>
-</table>
-
-<table cellpadding="5" cellspacing="0">
-  <thead>
-    <tr>
-      <th>Nombre del atributo</th>
-      <th>Descripción del atributo</th>
-      <th>Tipo de dato del atributo</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>id</td>
-      <td>Identificador del evento de envío de mail, UUID, primary key</td>
-      <td>varchar(255)</td>
-    </tr>
-    <tr>
-      <td>mail_id</td>
-      <td>Identificador del mail, UUID, foreign key</td>
-      <td>varchar(255)</td>
-    </tr>
-    <tr>
-      <td>mail_template_id</td>
-      <td>Identificador del template, UUID, foreign key</td>
+      <td>Identificador del nivel de membresía, primary key</td>
       <td>varchar(255)</td>
     </tr>
     <tr>
       <td>name</td>
-      <td>Nombre personalizado que se le puede dar al evento</td>
-      <td>varchar(32)</td>
+      <td>Nombre del nivel de la membresía</td>
+      <td>varchar(255)</td>
     </tr>
     <tr>
-      <td>created_at</td>
-      <td>Timestamp del momento en el que el evento fue creado</td>
-      <td>timestamp</td>
+      <td>amount</td>
+      <td>Precio de adquisición del nivel de membresía</td>
+      <td>decimal(4,2)</td>
     </tr>
   </tbody>
 </table>
+
+<table cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nombre del atributo</th>
+      <th>Descripción del atributo</th>
+      <th>Tipo de dato del atributo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>Identificador del beneficio asociado a una membresía, primary key</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td>Nombre del beneficio asociado a una membresía</td>
+      <td>varchar(255)</td>
+    </tr>
+  </tbody>
+</table>
+
+<table cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nombre del atributo</th>
+      <th>Descripción del atributo</th>
+      <th>Tipo de dato del atributo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>Identificador de la solicitud para adquirir membresía, primary key</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>amount</td>
+      <td>Precio de adquisición final de la membresía ya adquirida</td>
+      <td>decimal(4,2)</td>
+    </tr>
+    <tr>
+      <td>payment_date</td>
+      <td>Fecha de la transacción de adquisición de membresía</td>
+      <td>date</td>
+    </tr>
+    <tr>
+      <td>payment_method</td>
+      <td>Método de pago utilizado para la compra</td>
+      <td>varchar(255)</td>
+    </tr>
+  </tbody>
+</table>
+
 
