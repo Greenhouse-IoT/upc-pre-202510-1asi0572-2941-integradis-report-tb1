@@ -658,3 +658,205 @@ A continuación, se presenta el diagrama de clases del microservicio encargado d
     </tr>
   </tbody>
 </table>
+
+<h3 id='4.2.4.'>4.2.3. Bounded Context: Memberships</h3>
+En esta sección, el equipo presenta las clases identificadas y las detalla a manera de diccionario
+A continuación, se presentan las clases identificadas
+
+- **Memberships:** <br> **Propósito:** Esta clase representa a una membresía ligada a un empresa en el sistema. Incluye detalles del nivel de la membresía, su vigencia y detalles de su estado. <br> Atributos: <br> - **id:** string, Identificador único de la membresía <br> -**companyId:** string, Identificador único de la empresa que posee la membresía <br> - **membershipLevel:** MembershipLevel, Objeto con el detalle del nivel de la membresía <br> - **membershipPayment:** MembershipPayment, Objeto con el detalle de la transacción con la cual se adquirió la membresía <br> - **startDate:** DateTime, Fecha y hora de inicio de la membresía <br> - **endDate:** DateTime, Fecha y hora de expiración de la membresía <br> - **status:** string, Estado actual de la membresía (active, inactive, expired)
+
+- **Métodos:** <br> - **activate():** void, Activa la membresía <br> - **renew(newEndDate: DateTime):** void, Renueva la membresía extendiendo su vigencia. <br> - **expire():** void, Marca la membresía como expirada
+
+- **Relaciones:** <br> - **MembershipLevel:** La clase Memberships utiliza la clase MembershipLevel para la renovación y expiración de membresías, dado que la vigencia de la membresía varía según su grado. <br> -  **MembershipPayment:**  La clase Memberships utiliza la clase MembershipPayment para verificar el estado de las transacciones que conciernen a las membresías, además de efectuar el cobro de renovaciones.
+
+- **MembershipLevel:** <br> - **Propósito:** Define los distintos niveles de membresía, asimismo los permisos y beneficios que estas otorgan. <br> - **Atributos:** <br> -**id:** string, Identificador único del nivel de membresía <br> - **name:** string, Nombre del nivel de membresía <br> - **benefits:** string[], Lista de beneficios asociados al nivel de la membresía <br> - **privileges:** string[], Lista de privilegios asociados al nivel de la membresía <br> - **Métodos:** <br> - **getBenefit(benefit: string):** string, Devuelve la información o grado de un beneficio <br> - **updateBenefits(newBenefits: string[]):** void, Actualiza los beneficios del nivel de membresía <br> - **isPrivilegeAssigned(privilege: string):** bool, Verifica si el nivel de membresía contiene el privilegio consultado <br> - **Relaciones:** <br> - **Memberships:** La clase Memberships utiliza la clase MembershipLevel para la renovación y expiración de membresías, dado que la vigencia de la membresía varía según su grado.
+
+- **MembershipPayment:** <br> - **Propósito:** Registra las transacciones relacionadas a adquisiciones de membresías. <br> - **Atributos:** <br> - **id:** string, Identificador único del pago <br> - **membershipId:** string, Identificador de la membresía asociada <br> - **amount:** number, Monto del pago asociado a la transacción <br> - **paymentDate:** Date, Fecha del pago <br> - **paymentMethod:** string, Método de pago <br> - **Métodos:** <br> - **registerPayment(amount: number, method: string):** void, Registra un nuevo pago para una membresía <br> - **Relaciones:** <br> - **Memberships:** La clase Memberships utiliza la clase MembershipPayment para verificar el estado de las transacciones que conciernen a las membresías, además de efectuar el cobro de renovaciones.
+
+<h4 id='4.2.4.1.'>4.2.4.1. Domain Layer.<h4>
+
+La clase Memberships representa una parte importante del core de la aplicación. El grado de esta membresía condiciona los límites de uso de las empresas que utilizan el software mediante la cantidad de cultivos activos a la vez, los permisos que tienen sus administradores y el nivel de control sobre sus empleados que podrán mantener dentro de la plataforma.
+
+- Una empresa puede adquirir una única membresía durante su vigencia, la cual puede aumentar o disminuir de grado según sus necesidades.
+- Los permisos de membresía de todos los empleados trabajando bajo una empresa son los mismos sin importar su rol o distinción en la aplicación.
+- La empresa obtiene 5 días de prórroga de una membresía expirada para gestionar adecuadamente la extensión o fin del término de los permisos correspondientes.
+
+- **MembershipsPayment**: El pago de la membresía y recibo existe independientemente de la vigencia de la propia membresía. Esto es importante de considerar cuando surge la necesidad del administrador de revisar el historial de adquisiciones de una determinada empresa.
+
+- **MembershipLevel**: Cada membresía tiene un grado o nivel de beneficios que esta confiere a la empresa beneficiada. Este nivel está ligado a la entidad de membresía y es consultado cuando algún usuario de la aplicación, perteneciente a una empresa, realiza ciertas acciones.
+
+- **Memberships**: Se considera a una membresía como un aggregate debido a la relación que mantiene con las clases que conciernen el nivel de membresía y su pago. La membresía se encarga de verificar su propio tiempo de vigencia, otorgar beneficios y orquestar eventos según los privilegios de la empresa favorecida.
+
+- **MembershipsPaymentFactory**: Abstrae la complejidad y la lógica de creación de pagos o recibos de las transacciones de membresías.
+
+- **BillingService**: Servicio encargado de conectarse con el sistema externo de pagos, el cual tiene la función de cobrar el precio de la membresía mediante el método de pago especificado por la empresa.
+
+- **MembershipsRepository**: Interfaz que define los métodos a utilizar para la conexión a la base de datos.
+
+<h4 id='4.2.4.2.'>4.2.4.2. Interface Layer.<h4>
+En esta sección se presentan las clases que forman parte de la capa de interfaz/presentación para el bounded context de membresías.
+  
+**Controllers:**
+- **MembershipsController:** Maneja la creación, eliminación, búsqueda de permisos y actualización de estados de las membresías al nivel de la API. Es el método llamado cuando se realizan las consultas al microservicio de memberships.
+
+<h4 id='4.2.4.3.'>4.2.4.3. Application Layer.<h4>
+
+En esta sección se presentan las clases que manejan los flujos del proceso de membresías en el negocio.  
+
+CommandHandlers: 
+
+- create-membership: Clase encargada de crear una nueva membresía.  
+- renew-membership: Clase encargada de actualizar el tiempo de expiración de una membresía  
+- expire-membership: Actualiza el estado de una membresía a expirada.  
+- update-benefit: Actualiza algún beneficio de un determinado nivel de membresía.  
+- create-payment: Crea un nuevo registro de pago de membresía  
+
+QueryHandlers:  
+
+- get-membership-benefits-by-level: Obtiene todos los beneficios de un determinado nivel de membresía  
+- get-membership-by-company-id: Obtiene detalles de la membresía adquirida por una determinada empresa.  
+
+
+<h4 id='4.2.4.4.'>4.2.4.4. Infrastructure Layer.<h4>
+
+En esta sección se presentan las clases que acceden a servicios externos en el bounded context de membresías. 
+
+Repositories (Class):
+
+MembershipRepository:
+- create-membership: Crea una nueva membresía asignada a una empresa en la base de datos.  
+- update-membership: Actualiza los detalles respecto a una membresía dentro de la base de datos.  
+- get-membership-by-company-id: Obtiene una membresía de la base de datos según el id de la compañía.  
+
+MembershipLevelRepository:
+- update-benefit: Actualiza la lista de beneficios de un determinado nivel de membresía.  
+- get-membership-benefits-by-level: Obtiene la lista de beneficios para el nivel de membresía.  
+
+MembershipPaymentRepository:
+- create-payment: Crea un nuevo pago en la base de datos correspondiente a una adquisición de membresía.  
+
+Mappers:
+- MembershipDao: Realiza el mapeo o conversión entre el objeto de membresía del dominio y el objeto que representa los datos ingresados a la persistencia.  
+- MembershipLevelDao: Realiza el mapeo o conversión entre el objeto de beneficios de la membresía del dominio y el objeto que representa los datos ingresados a la persistencia.  
+- MembershipPaymentDao: Realiza la conversión entre el objeto de pago de membresía del dominio y el objeto persistence que ingresa la información a la base de datos.  
+
+
+<h4 id='4.2.4.5.'>4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.<h4>
+
+A continuación, se presenta el diagrama de componentes asociado al bounded context Mailling
+
+<img src='assets/images/chapter_4/mailing/mailling_component_diagram.png' alt='Mailling Component Level Diagram' />
+
+<h4 id='4.2.4.6.'>4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.<h4>
+
+<h5 id='4.2.4.6.1.'>4.2.2.4.1. Bounded Context Domain Layer Class Diagrams.<h5>
+
+A continuación, se presenta el diagrama de clases del microservicio encargado de la gestión de notificaciones por correo electrónico. Este diseño incluye las entidades Mail y MailTemplate, las cuales son procesadas a través de la fachada (ResendFacade), que abstrae la interacción con el servicio de Resend, encargado de ejecutar la lógica de envío de correos. Además, se ha implementado un mecanismo para registrar los eventos asociados al envío de correos, con el fin de garantizar una trazabilidad completa, permitiendo un monitoreo detallado del estado de los envíos y de los destinatarios involucrados, optimizando así el seguimiento y análisis del flujo de notificaciones.
+
+<img src='assets/images/chapter_4/mailing/mailling_class_diagram.png' alt='Mailling Class Diagram' />
+
+<h5 id='4.2.4.6.2.'>4.2.4.6.2. Bounded Context Database Design Diagram.</h5>
+
+<img src='assets/images/chapter_4/mailing/mailling_database_diagram.png' alt='Mailling Database Diagram' />
+
+<table cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nombre del atributo</th>
+      <th>Descripción del atributo</th>
+      <th>Tipo de dato del atributo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>Identificador del mail, UUID, primary key</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>user_id</td>
+      <td>Identificador del usuario, UUID</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>user_handle</td>
+      <td>Apodo preferido para el usuario a usar en los correos</td>
+      <td>varchar(32)</td>
+    </tr>
+    <tr>
+      <td>address</td>
+      <td>Dirección del correo electrónico</td>
+      <td>varchar(24)</td>
+    </tr>
+    <tr>
+      <td>domain</td>
+      <td>Dominio del correo electrónico</td>
+      <td>varchar(24)</td>
+    </tr>
+  </tbody>
+</table>
+
+<table cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nombre del atributo</th>
+      <th>Descripción del atributo</th>
+      <th>Tipo de dato del atributo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>Identificador del template, UUID, primary key</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>title</td>
+      <td>Título o asunto que tendrá el correo</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>body</td>
+      <td>Cuerpo del correo que tendrá todo el contenido base que se enviará al usuario</td>
+      <td>varchar(32)</td>
+    </tr>
+  </tbody>
+</table>
+
+<table cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nombre del atributo</th>
+      <th>Descripción del atributo</th>
+      <th>Tipo de dato del atributo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>Identificador del evento de envío de mail, UUID, primary key</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>mail_id</td>
+      <td>Identificador del mail, UUID, foreign key</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>mail_template_id</td>
+      <td>Identificador del template, UUID, foreign key</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td>Nombre personalizado que se le puede dar al evento</td>
+      <td>varchar(32)</td>
+    </tr>
+    <tr>
+      <td>created_at</td>
+      <td>Timestamp del momento en el que el evento fue creado</td>
+      <td>timestamp</td>
+    </tr>
+  </tbody>
+</table>
+
