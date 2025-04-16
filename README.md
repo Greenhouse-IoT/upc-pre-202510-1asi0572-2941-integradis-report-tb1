@@ -744,7 +744,7 @@ Mappers:
 
 A continuación, se presenta el diagrama de componentes asociado al bounded context Memberships
 
-<img src='assets/images/chapter_4/mailing/mailling_component_diagram.png' alt='Mailling Component Level Diagram' />
+<img src='assets/images/chapter_4/memberships/architecture.png' alt='Mailling Component Level Diagram' />
 
 <h4 id='4.2.4.6.'>4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.<h4>
 
@@ -754,11 +754,11 @@ En esta sección se exponen los diagramas que muestran en un mayor detalle las c
 
 Se muestra el diagrama de clases con las clases y métodos explicados en las anteriores secciones.
 
-<img src='assets/images/chapter_4/mailing/mailling_class_diagram.png' alt='Mailling Class Diagram' />
+<img src='assets/images/chapter_4/memberships/class.png' alt='Mailling Class Diagram' />
 
 <h5 id='4.2.4.6.2.'>4.2.4.6.2. Bounded Context Database Design Diagram.</h5>
 
-<img src='assets/images/chapter_4/mailing/mailling_database_diagram.png' alt='Mailling Database Diagram' />
+<img src='assets/images/chapter_4/memberships/design.png' alt='Mailling Database Diagram' />
 
 <table cellpadding="5" cellspacing="0">
   <thead>
