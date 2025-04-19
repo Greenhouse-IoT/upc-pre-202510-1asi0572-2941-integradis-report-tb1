@@ -1,6 +1,6 @@
 <h3 align="center">Universidad Peruana de Ciencias Aplicadas - Ingeniería de Software - 2025-10</h3>
 <div align="center">
-  <img width=140 src="https://seeklogo.com/images/U/universidad-peruana-de-ciencias-aplicadas-upc-logo-B98C3A365C-seeklogo.com.png"/>
+  <img width=140 src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"/>
 </div>
 <h3 align="center">1ASI0572 - Desarrollo de Soluciones IOT</h3>
 <h3 align="center">NRC: 2941</h3>
