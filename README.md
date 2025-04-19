@@ -1015,8 +1015,9 @@ El lenguaje ubicuo permite que las personas del negocio, incluso aquellas sin co
 <h2 id='3.3.'>3.3. Impact Mapping</h2>
 <img src="assets/images/chapter_3/impact_mapping/impact_map.png" alt="impact map"/>
 
-Enlace ara acceder a la imagen en
+Enlace para acceder a la imagen en
 <a href="https://drive.google.com/file/d/1yVWGNyuPBc9qrRnP36r73_fm8HVVXRoA/view">drive</a>
+
 <h2 id='3.4.'>3.4. Product Backlog</h2>
 
 
