@@ -274,8 +274,8 @@ De acuerdo con The Yield Lab (2019), el reto para los startups de la industria a
 
 El sistema puede ser utilizado por múltiples técnicos, supervisores y administradores, quiénes incorporan al personal de las fábricas dedicadas a la producción de champiñones. No hay un límite preciso en cuanto al número de usuarios; sin embargo, se estima que alrededor del 35% de usuarios dentro de este sector se verán beneficiados de la implementación de la aplicación.
 
-<h3 id='1.2.2.'>Lean UX Process</h3>
-<h4 id='1.2.2.1.'>Lean UX Problem Statements</h4>
+<h3 id='1.2.2.'>1.2.2. Lean UX Process</h3>
+<h4 id='1.2.2.1.'>1.2.2.1. Lean UX Problem Statements</h4>
 
 El propósito de Greenhouse es proporcionar a las fábricas champiñoneras del Perú un sistema de monitoreo de cultivos. Técnicos supervisores y administradores del personal trabajador contarán con la capacidad de registrar los procesos productivos implicados en la producción de champiñones.
 El problema está presente al momento de realizar el registro de procesos que se llevan a cabo durante el cultivo de champiñones, dado que actualmente las fábricas champiñoneras llevan un registro manual y físico. La ineficiencia del registro y la dependencia del personal técnico y de supervisión a los métodos manuales, como registros en papel y hojas de cálculo digitales, involucra un índice de ocurrencia significativo de omisiones, errores de transcripción y falta de consistencia en la información relevante para la gestión de las fases posteriores de cultivo.
@@ -283,7 +283,7 @@ Hemos observado que la falta de precisión en la recopilación y supervisión de
 A partir de lo anterior, resulta posible plantear la principal interrogante que el proyecto propone resolver:
 **¿Cómo podríamos impulsar la digitalización del registro y monitoreo de la información proveniente de los procesos implicados en la producción de champiñones?**
 
-<h4 id='1.2.2.2.'>Lean UX Assumptions</h4>
+<h4 id='1.2.2.2.'>1.2.2.2. Lean UX Assumptions</h4>
 
 **Business Assumptions:**
 
@@ -293,7 +293,7 @@ A partir de lo anterior, resulta posible plantear la principal interrogante que 
 
 **El valor #1 que mi cliente quiere de mi servicio es** registrar los insumos relevantes involucrados en cada fase productiva dentro del cultivo de champiñones y visualizar los datos relacionados a los procesos registrados a lo largo del tiempo.
 
-**El cliente también puede obtener beneficios adicionales como** retroceder la fase de un cultivo en progreso y que se muestre la información registrada (Administradores y técnicos). Poder modificar los registros (Administradores). Modificar la fase de un cultivo en progreso (Administradores. Notificar el cambio de fase (Administradores). Mostrar un gráfico comparativo al finalizar cada fase.
+**El cliente también puede obtener beneficios adicionales como** retroceder la fase de un cultivo en progreso y que se muestre la información registrada (Administradores y técnicos). Poder modificar los registros (Administradores). Modificar la fase de un cultivo en progreso (Administradores). Notificar el cambio de fase (Administradores). Mostrar un gráfico comparativo al finalizar cada fase.
 
 **Voy a adquirir la mayoría de mis clientes** mediante publicidad en redes sociales y campañas de retención en las fábricas del sector productivo de champiñones en el Perú. Así como promociones y muestras gratuitas.
 
@@ -330,12 +330,13 @@ El producto debe verse como la primera opción de registro digital para procesos
 Adicionalmente, la aplicación debe de contar con una interfaz sencilla, con un diseño llamativo y capaz de otorgar una buena experiencia de usuario. En cuanto al comportamiento, debe de encargarse de maximizar la conexión entre todo el personal de la fábrica, sin generar retrasos ni deficiencia comunicativa.
 
 **Feature Assumptions:**
+
 **Creemos que** nuestros clientes necesitan una aplicación con una interfaz de usuario intuitiva y fácil de usar que permita a los técnicos supervisores y administradores adaptarse a su uso sin dificultad.
 **Creemos que** el programa debe proporcionar notificaciones y alertas que mantendrán a los usuarios administradores informados de manera oportuna sobre los eventos y procesos críticos en la fábrica champiñonera.
 **Creemos que** la aplicación debe de tener la capacidad de integrarse con los sistemas de gestión de recursos y producción existentes en la fábrica, lo que facilitará la recopilación y análisis de datos en tiempo real.
 **Creemos que** el programa debe incluir herramientas de generación de informes y gráficos que permitirán a los usuarios visualizar fácilmente los datos de producción y tomar decisiones basadas en información visualmente clara.
 
-<h4 id='1.2.2.3.'>Lean UX Hypothesis Statements</h4>
+<h4 id='1.2.2.3.'>1.2.2.3. Lean UX Hypothesis Statements</h4>
 
 **Hypothesis Statement 01:**
 
@@ -369,7 +370,7 @@ Adicionalmente, la aplicación debe de contar con una interfaz sencilla, con un 
 
 **Cuando** se perciba una reducción del 50% en el margen de error de registro de datos de procesos productivos dentro de la plataforma.
 
-<h4 id='1.2.2.4.'>Lean UX Canvas</h4>
+<h4 id='1.2.2.4.'>1.2.2.4. Lean UX Canvas</h4>
 
 El Lean UX Canvas es una herramienta utilizada en el campo del diseño centrado en el usuario (UX) y la metodología Lean para crear y desarrollar productos de manera más eficiente y efectiva. Su objetivo es proporcionar un marco estructurado para la colaboración entre equipos multidisciplinarios.
 
@@ -379,11 +380,11 @@ El Lean UX Canvas es una herramienta utilizada en el campo del diseño centrado 
 | **3. Usuarios y Clientes:** Personal administrativo y técnicos supervisores de las empresas de champiñones en el Perú. | | **4. Beneficios del usuario:** Minimizar el margen de error en el registro de datos con el propósito de garantizar una mayor precisión en la información registrada. Evitar la necesidad de recibir fotografías de los registros a través de plataformas como WhatsApp u otros servicios de mensajería, además de posibilitar el monitoreo en tiempo real de los mismos. Eliminar la exigencia de una búsqueda física en las instalaciones de la planta para acceder a los registros de cultivos previos. Disponer de la capacidad de visualizar estadísticas que proporcionen una evaluación de la calidad del cultivo de manera sencilla. |
 | **6. Hipótesis:** <br> - Creemos que los usuarios objetivo hallarán útil la aplicación y estarán dispuestos a adoptarla para llevar a cabo un registro digital de los procesos productivos involucrados en el cultivo de champiñones. Sabremos que hemos tenido éxito cuando, dentro del primer trimestre de lanzamiento se visualiza que más del 80% de opiniones totales sobre la aplicación en redes sociales son positivas. <br> - Creemos que la aplicación facilitará a los usuarios la gestión y seguimiento de los eventos y procesos críticos de su fábrica. Sabremos que hemos tenido éxito cuando las opiniones que expresen los usuarios sobre las notificaciones sean en más del 85% positivas en las redes sociales. <br> - Creemos que la disponibilidad de datos en tiempo real y reportes estadísticos a través de la aplicación permitirá a los administradores tomar decisiones más informadas y estratégicas sobre la asignación de recursos y mejoras en la producción. Sabremos que hemos tenido éxito cuando durante el primer semestre del lanzamiento los reportes de errores y opiniones negativas sean menos del 10% del total de opiniones. <br> - Creemos que la aplicación web mejorará la calidad de los datos de producción al reducir errores en los datos de entrada y registros inconsistentes en comparación con métodos manuales. Sabremos que hemos tenido éxito cuando se perciba una reducción del 50% en el margen de error de registro de datos de procesos productivos dentro de la plataforma. | **7. ¿Qué es lo más importante que debemos aprender primero?** Aprender sobre los procesos de producción involucrados en los cultivos de champiñones. Conocer qué mediciones son necesarias en cada fase del proceso de producción y cómo es que estás son llevadas a cabo, es decir cada cuanto tiempo. Adquirir conocimientos sobre los estándares de calidad en el proceso de producción. Además, es crucial entender cuáles son los aspectos principales para el cliente, lo que implica conocer sus preferencias, necesidades y expectativas en relación con el producto final. | **8. ¿Cuál es la menor cantidad de trabajo que necesitamos para resolver las dudas y para hacer lo siguiente más importante?** Contactar con los stakeholders tanto el segmento de administradores como el de técnicos supervisores para llevar a cabo entrevistas que nos faciliten el levantamiento de los requisitos. Para así poder definir el alcance y planificar nuestras historias de usuarios de acuerdo a las prioridades del cliente. |
 
-<h2 id='1.3.'>Segmentos objetivo</h2>
+<h2 id='1.3.'>1.3. Segmentos objetivo</h2>
 
 En esta sección se incluye la descripción de los segmentos asociados al dominio del problema, para lo cual se incluyen características demográficas e información estadística como sustento.
 
-<h3 id='1.3.1'>Stakeholders</h3>
+<h3 id='1.3.1'>1.3.1 Stakeholders</h3>
 
 - **Stakeholder Internos:** El equipo Integradis y resto de integrantes del equipo de desarrollo.
 - **Stakelholder Externos:** Personal técnico supervisor y administrador de las industrias enfocadas en el cultivo de champiñones, estudiantes y/o profesionales en carreras involucradas en agronomía, personal de gerencia en agroempresas comerciales.
@@ -392,7 +393,7 @@ En esta sección se incluye la descripción de los segmentos asociados al domini
     <img src="assets/images/chapter_2/stakeholder/stakeholers.png" alt="Stakeholder"><br>
   </td>
 
-<h3 id='1.3.1'>Segmento objetivo</h3>
+<h3 id='1.3.2'>1.3.2 Segmento objetivo</h3>
 
 La industria de producción y comercialización de champiñones comestibles en Perú es relativamente nueva. A pesar de la ausencia de fuentes que proporcionen cifras exactas sobre el número de fábricas de hongos en el país, se reconoce la presencia en el mercado de importantes empresas, tales como Paccu, Chipola, Micoti, Don Hongo, entre otras.
 
