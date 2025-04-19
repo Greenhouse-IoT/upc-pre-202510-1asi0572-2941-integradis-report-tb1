@@ -55,7 +55,7 @@
 
 | Integrante                          | Tareas Asignadas |
 | ----------------------------------- | ---------------- |
-| Astuyauri Calderon, Jherson David    |                  |
+| Astuyauri Calderon, Jherson David    | <p> - Desarrollo del Capítulo II: Requirements Elicitation & Analysis. </p> <p> - Student Outcome del TB1. </p>          |
 | Espinoza Rodríguez, Nicolás Antonio |                  |
 | Galavis Du Bois, Alan Enrique       |                  |
 | Seminario Garbin, Carlo Luca        |                  |
@@ -150,10 +150,9 @@
     <tr>
       <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
       <td>
-      <i>TB1</i><br/>
       <b>Astuyauri Calderón, Jherson David:</b>
       <br/>
-      <i>TB1</i><br/>
+      <i>TB1: Lideré la elaboración del Capítulo II: Requirements Elicitation & Analysis, incluyendo el análisis competitivo, diseño de entrevistas y herramientas UX como User Personas y Empathy Mapping. Guié al equipo hacia decisiones centradas en el usuario,   fomentando el liderazgo compartido y el consenso en todo momento.</i><br/><br/>
       <b>Espinoza Rodríguez, Nicolás Antonio:</b>
       <br/>
       <i>TB1</i><br/>
@@ -171,10 +170,9 @@
     <tr>
       <td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. </td>
       <td>
-      <i>TB1</i><br/>
       <b>Astuyauri Calderón, Jherson David:</b>
       <br/>
-      <i>TB1</i><br/>
+      <i>TB1: Desarrollé y estructuré gran parte del Capítulo II, gestionando tareas como el As-is Scenario Mapping y la planificación del análisis de entrevistas. Promoví un entorno inclusivo con metas claras y coordinación efectiva para cumplir los objetivos del equipo.</i><br/><br/>
       <b>Espinoza Rodríguez, Nicolás Antonio:</b>
       <br/>
       <i>TB1</i><br/>
