@@ -459,31 +459,31 @@ Insertar Imagen Actualizada
 
 En este Bounded Context de IAM, se puede visualizar que para la autenticación y registro de nuestros usuarios hemos hecho un desarrollo propio (custom built), el cual se relaciona con los Bounded Context de Personas, Memberships y Crops que hacen uso del Auth Token para que el usuario pueda hacer uso de sus respectivos servicios.
 
-<img src="assets/images/chapter_4/iam_canvas.png"/>
+<img src="assets/images/chapter_4/bounded_context_canvases/iam_canvas.png"/>
 
 <b>Personas</b>
 
 El Bounded Context de Personas se encarga de manejar los perfiles de los usuarios y compañía a la que pertenezcan. Además de contar con la autorización del Bounded Context IAM para el uso de los endpoints y se relaciona con los Bounded Context de Membership para seleccionar su tipo de membresía y crops para tener el encargado que realizó el registro de la información del cultivo.
 
-<img src="assets/images/chapter_4/personas_canvas.png"/>
+<img src="assets/images/chapter_4/bounded_context_canvases/personas_canvas.png"/>
 
 <b>Memberships</b>
 
 El Bounded Context de Memberships se encarga de manejar las suscripciones de las compañías. Además de contar con la autorización del Bounded Context IAM para el uso de los endpoints y se relaciona con los Bounded Context de Personas para saber si quién es el encargado y crops para saber qué funcionalidades tiene disponibles con el plan elegido.
 
-<img src="assets/images/chapter_4/memberships_canvas.png"/>
+<img src="assets/images/chapter_4/bounded_context_canvases/memberships_canvas.png"/>
 
 <b>Crops</b>
 
-El Bounded Context de Crops se encarga de manejar los cultivos y sus registros, para darles un seguimiento adecuado durante el ciclo de vida del cultivo. Además de contar con la autorización del Bounded Context IAM para el uso de los endpoints y se relaciona con los Bounded Context de Personas para saber si quién es el encargado y memberships para saber qué funcionalidades tiene disponibles con el plan vigente. Además de contar con la funcionalidad de subir imágenes para que estas, sean evaluadas por un modelo de computer vision y de como resultado la calidad del cultivo. Mientras que, por otra parte, si lo registros pasan de ciertos umbrales se envían correos de alerta.
+El Bounded Context de Crops se encarga de manejar los cultivos y sus registros, para darles un seguimiento adecuado durante el ciclo de vida del cultivo. Además de contar con la autorización del Bounded Context IAM para el uso de los endpoints y se relaciona con los Bounded Context de Personas para saber si quién es el encargado y memberships para saber qué funcionalidades tiene disponibles con el plan vigente. Además de contar con la funcionalidad de subir imágenes para que estas, sean evaluadas por un modelo de computer vision y de como resultado la calidad del cultivo. Mientras que, por otra parte, si los registros pasan de ciertos umbrales se envían correos de alerta.
 
-<img src="assets/images/chapter_4/crops_canvas.png"/>
+<img src="assets/images/chapter_4/bounded_context_canvases/crops_canvas.png"/>
 
 <b>Mails</b>
 
 Este Bounded Context se encarga del envío de correos para permitir lograr que el usuario tenga una mejor noción del estado del cultivo. Los correos se envían cuando un valor registrado se encuentra fuera de los umbrales para cumplir con los estándares y calidad del cultivo, en caso sea una diferencia poco notable no se enviará, sino que se almacenará para un reporte semanal, en caso si sea un desfase considerable se deberá de enviar la notificación de forma inmediata.
 
-<img src="assets/images/chapter_4/mails_canvas.png"/>
+<img src="assets/images/chapter_4/bounded_context_canvases/mails_canvas.png"/>
 
 <h3 id='4.1.2.'>4.1.2. Context Mapping</h4>
 
@@ -608,29 +608,30 @@ Este bounded context se enfoca en las clases y capas relacionadas con el cultivo
   - record: Realiza el mapeo entre la representación de dominio de un registro (record) y su versión de persistencia (RecordEntity). Permite transformar los registros entre las capas de aplicación y persistencia.
 
 <h4 id='4.2.1.5.'>4.2.1.5. Bounded Context Software Architecture Component Level Diagrams</h4>
-Diagrama de componentes del API Gateway:
+
+<b>Diagrama de componentes del API Gateway:</b>
 
 Insertar imagen actualizada
 
-Diagrama de componentes del Servicio Mail:
+<b>Diagrama de componentes del Servicio Mail:</b>
+
+<img src='assets/images/chapter_4/crops/component_diagram_mail.png' alt='Mail Service Component Diagram'/>
+
+<b>Diagrama de componentes del Servicio Crops:</b>
 
 Insertar imagen actualizada
 
-Diagrama de componentes del Servicio Crops:
+<b>Diagrama de componentes del Servicio Memberships:</b>
 
-Insertar imagen actualizada
+<img src='assets/images/chapter_4/crops/component_diagram_memberships.png' alt='Memberships Service Component Diagram'/>
 
-Diagrama de componentes del Servicio Memberships:
+<b>Diagrama de componentes del Servicio Personas:</b>
 
-Insertar imagen actualizada
+<img src='assets/images/chapter_4/crops/component_diagram_personas.png' alt='Personas Service Component Diagram'/>
 
-Diagrama de componentes del Servicio Personas:
+<b>Diagrama de componentes del servicio IAM:</b>
 
-Insertar imagen actualizada
-
-Diagrama de componentes del servicio IAM:
-
-Insertar imagen actualizada
+<img src='assets/images/chapter_4/crops/component_diagram_iam.png' alt='Personas Service Component Diagram'/>
 
 <h4 id='4.2.1.6.'>4.2.1.6. Bounded Context Software Architecture Code Level Diagrams</h4>
 
@@ -640,8 +641,7 @@ Insertar Imagen Actualizada
 
 <h5 id='4.2.1.6.2.'>4.2.1.6.2. Bounded Context Database Design Diagram</h5>
 
-Insertar Imagen Actualizada
-
+<img src='assets/images/chapter_4/crops/crops_database_diagram.png' alt='Crops Database Design Diagram'/>
 
 ### Tabla: crops
 |Nombre del atributo|Descripción del atributo| Tipo de dato del atributo |
