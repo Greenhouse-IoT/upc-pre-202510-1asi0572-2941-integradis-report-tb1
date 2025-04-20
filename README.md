@@ -55,7 +55,7 @@
 
 | Integrante                          | Tareas Asignadas |
 | ----------------------------------- | ---------------- |
-| Astuyauri Calderon, Jherson David    |                  |
+| Astuyauri Calderon, Jherson David   |                  |
 | Espinoza Rodríguez, Nicolás Antonio |                  |
 | Galavis Du Bois, Alan Enrique       |                  |
 | Seminario Garbin, Carlo Luca        |                  |
@@ -152,12 +152,14 @@
       <td>
       <i>TB1</i><br/>
       <b>Astuyauri Calderón, Jherson David:</b>
+      Lideré la elaboración del Capítulo II: Requirements Elicitation & Analysis, incluyendo el análisis competitivo, diseño de entrevistas y herramientas UX como User Personas y Empathy Mapping. Guié al equipo hacia decisiones centradas en el usuario,   fomentando el liderazgo compartido y el consenso en todo momento<br>
       <br/>
       <i>TB1</i><br/>
       <b>Espinoza Rodríguez, Nicolás Antonio:</b>
       <br/>
       <i>TB1</i><br/>
       <b>Galavis Du Bois, Alan Enrique:</b>
+      Durante el desarrollo del proyecto, me aseguré de comunicar y orientar a mis compañeros de equipo el alcance, restricciones y objetivos del trabajo, con la finalidad de proponer un proyecto que responda al problema definido.<br/>
       <br/>
       <i>TB1</i><br/>
       <b>Seminario Garbín, Carlo Luca:</b>
@@ -173,12 +175,14 @@
       <td>
       <i>TB1</i><br/>
       <b>Astuyauri Calderón, Jherson David:</b>
+      Desarrollé y estructuré gran parte del Capítulo II, gestionando tareas como el As-is Scenario Mapping y la planificación del análisis de entrevistas. Promoví un entorno inclusivo con metas claras y coordinación efectiva para cumplir los objetivos del equipo<br>
       <br/>
       <i>TB1</i><br/>
       <b>Espinoza Rodríguez, Nicolás Antonio:</b>
       <br/>
       <i>TB1</i><br/>
       <b>Galavis Du Bois, Alan Enrique:</b>
+      Me aseguré de repartir el trabajo de manera equitativa y de acuerdo al perfil de cada integrante del equipo, de forma que todos los miembros puedan cumplir con sus tareas con éxito<br/>
       <br/>
       <i>TB1</i><br/>
       <b>Seminario Garbín, Carlo Luca:</b>
@@ -1018,7 +1022,7 @@ El lenguaje ubicuo permite que las personas del negocio, incluso aquellas sin co
 <img src="assets/images/chapter_3/impact_mapping/impact_map.png" alt="impact map"/>
 
 Enlace para acceder a la imagen en
-<a href="https://drive.google.com/file/d/1yVWGNyuPBc9qrRnP36r73_fm8HVVXRoA/view">drive</a>
+<a href="https://drive.google.com/file/d/1yVWGNyuPBc9qrRnP36r73_fm8HVVXRoA/view">Drive</a>
 
 <h2 id='3.4.'>3.4. Product Backlog</h2>
 
@@ -1044,3 +1048,5 @@ Enlace para acceder a la imagen en
 | 18       | US08          | Iniciar Sesión | Como usuario, Quiero iniciar sesión en la plataforma, Para poder acceder a los beneficios que ofrece el uso de la aplicación Greenhouse. | 1 |
 | 19      | US20           | Descripción de la aplicación | Como visitante de la landing page Quiero visualizar una descripción del producto ofrecido Para conocer los beneficios que puedo adquirir mediante el uso de la aplicación | 2 |
 | 20       | US19          | Acceder a la aplicación desde la landing page | Como visitante de la landing page Quiero poder acceder a la aplicación Greenhouse desde la landing page Para comenzar a utilizar las funcionalidades ofrecidas | 1 |
+
+Enlace para acceder al Product Backlog en [Trello](https://trello.com/invite/b/680458f732fb8376199d70f1/ATTI91f99d2ae223a0cac5a64b9f414206ea0E469BA9/integradis-iot)
