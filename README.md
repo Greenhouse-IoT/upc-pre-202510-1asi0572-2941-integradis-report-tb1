@@ -1104,12 +1104,187 @@ Enlace para acceder a la imagen en
 | 20       | US19          | Acceder a la aplicación desde la landing page | Como visitante de la landing page Quiero poder acceder a la aplicación Greenhouse desde la landing page Para comenzar a utilizar las funcionalidades ofrecidas | 1 |
 
 <h1 id='4.'>4. Capítulo IV: Solution Software Design</h1>
-<h2 id='4.1.'>4.1. Strategic-Level Domain-Driven Design.<br>
-<h3 id='4.1.1.'>4.1.1. EventStorming.<br>
-<h4 id='4.1.1.1.'>4.1.1.1. Candidate Context Discovery.<br>
-<h4 id='4.1.1.2.'>4.1.1.2. Domain Message Flows Modeling.<br>
-<h4 id='4.1.1.3.'>4.1.1.3. Bounded Context Canvases.<br>
-<h3 id='4.1.2.'>4.1.2. Context Mapping.</h3>
+<h2 id='4.1.'>4.1. Strategic-Level Domain-Driven Design.<br> </h2>
+Hola Placeholder
+<h3 id='4.1.1.'>4.1.1. EventStorming.<br></h3>
+Se adoptó un enfoque colaborativo y visual para modelar el contexto del dominio. El Event Storming es una técnica que permite a los equipos explorar y mapear eventos clave dentro de un sistema. En este proceso, trabajamos con tres etapas fundamentales: el Descubrimiento de Contextos Candidatos (Candidate Context Discovery), el Modelado de Flujos de Mensajes del Dominio (Domain Message Flows Modeling) y la creación de Canvas de Contextos Delimitados (Bounded Context Canvases). Estas fases proporcionan una comprensión clara y compartida de cómo los eventos, comandos y políticas interactúan en el sistema. 
+
+<b>Unstructured Exploration</b>
+La primera fase consistió en una exploración abierta y sin estructura rígida. Durante esta etapa, el equipo compartió conocimientos, ideas y supuestos sobre el dominio del negocio. Se realizaron sesiones de brainstorming para identificar eventos clave, flujos de trabajo y dependencias. Esta exploración inicial sirvió como base para los siguientes pasos de modelado, permitiendo un entendimiento más profundo del sistema y sus necesidades antes de pasar a etapas más formales y detalladas del diseño.
+
+Insertar Imagen Actualizada
+
+<b>Pain Points</b>
+Durante el Event Storming, se identificaron varias áreas problemáticas o "puntos de dolor" que afectan el flujo de trabajo y la eficiencia del sistema. Estos puntos de dolor, como cuellos de botella en procesos clave, dependencias excesivas entre servicios, o dificultades en la escalabilidad, fueron discutidos para proponer soluciones. La identificación temprana de estos problemas permitió enfocar los esfuerzos en la optimización y mejora de los aspectos más críticos para el negocio.
+
+Insertar Imagen Actualizada
+
+<b>Timelines</b>
+Para garantizar una coordinación adecuada de las actividades y hitos clave, se implementaron múltiples líneas de tiempo (timelines). Estas líneas permitieron a los equipos visualizar de forma clara las fechas importantes y los entregables en cada fase del proyecto. Cada línea de tiempo se utilizó como una herramienta para alinear a los equipos en cuanto a las expectativas de plazos, asegurando que todas las partes involucradas comprendieran las prioridades y el ritmo del trabajo. También fueron esenciales para detectar desviaciones y tomar medidas correctivas en caso de retrasos.
+
+Insertar Imagen Actualizada
+
+<b>Pivotal Points</b>
+A lo largo del proyecto, identificamos varios puntos decisivos (pivotal points), que son momentos clave en los que se requiere tomar decisiones importantes para ajustar la dirección del proyecto. Estos puntos incluyen decisiones sobre la arquitectura, el manejo de dependencias críticas, la selección de tecnologías y la definición de estrategias para mitigar riesgos. Estos momentos fueron vitales para mantener el proyecto en curso, asegurando que las decisiones estratégicas se alinearan con los objetivos generales y que se minimizará el impacto de posibles riesgos a largo plazo. 
+
+Insertar Imagen Actualizada
+
+<b>Commands</b>
+Los comandos fueron definidos como las acciones que desencadenan cambios dentro del sistema. Cada comando representa una intención específica del usuario o del sistema para modificar el estado. Por ejemplo, la creación de un nuevo pedido o la actualización de un perfil de cliente. Estos comandos jugaron un papel crucial en la implementación de funcionalidades clave, permitiendo una gestión controlada y eficiente de las acciones que afectan al sistema, manteniendo la integridad de los datos y las operaciones.
+
+Insertar Imagen Actualizada
+
+<b>Policies</b>
+Se diseñaron políticas como reglas o restricciones que deben cumplirse antes de que se ejecute un comando o evento en el sistema. Estas políticas fueron fundamentales para garantizar la seguridad, consistencia y cumplimiento normativo dentro del flujo de trabajo. Las políticas también ayudaron a estandarizar decisiones, reduciendo la probabilidad de errores humanos y automatizando las decisiones repetitivas en el sistema. Por ejemplo, las políticas determinaron quién podía ejecutar ciertos comandos y bajo qué condiciones.
+
+Insertar Imagen Actualizada
+
+<b>Read Models</b>
+Los modelos de lectura son representaciones optimizadas de los datos del sistema, diseñadas específicamente para consultas rápidas y eficientes. A diferencia de los modelos transaccionales, que están diseñados para almacenar y modificar datos, los modelos de lectura están organizados para responder a preguntas y proporcionar vistas instantáneas del estado del sistema. En este caso, gestionamos varios modelos de lectura para proporcionar a los usuarios las vistas más relevantes de la información, lo que permitió consultas rápidas y precisas, sin afectar las operaciones críticas del sistema.
+
+Insertar Imagen Actualizada
+
+<b>External Systems</b>
+Como parte de la implementación, se identificaron y modelaron las interacciones con sistemas externos que proporcionarán datos o servicios esenciales para el proyecto. Estos sistemas externos pueden incluir proveedores de servicios en la nube, APIs de terceros, o sistemas heredados que necesitan ser integrados. La correcta identificación y modelado de estos sistemas externos fue crucial para garantizar una integración sin problemas, minimizando riesgos y asegurando la interoperabilidad entre todos los componentes del sistema.
+
+Insertar Imagen Actualizada
+
+<b>Aggregates</b>
+Los agregados representan entidades clave dentro del sistema que encapsulan un conjunto de datos y comportamientos relacionados en torno a un único concepto del dominio. Cada agregado define límites claros sobre lo que puede o no puede ser modificado, protegiendo la consistencia y coherencia del estado. Durante el proceso, se analizaron los agregados relevantes para el dominio, asegurándonos de que cada entidad clave estuviera correctamente definida y alineada con las reglas del negocio.
+
+Insertar Imagen Actualizada
+
+<b>Bounded Contexts</b>
+Identificamos varios contextos delimitados (bounded contexts) para organizar las áreas funcionales del sistema. Cada contexto delimitado define los límites dentro de los cuales ciertos términos y conceptos tienen un significado claro y consistente. Esto permite segmentar el sistema en componentes manejables, donde cada equipo o módulo tiene responsabilidades bien definidas. Esta separación facilita la escalabilidad y la evolución del sistema, al mismo tiempo que evita problemas de ambigüedad y solapamiento en las funciones del sistema.
+
+Insertar Imagen Actualizada
+
+Enlace al Miro: <a>https://miro.com/app/board/uXjVKhDrVvw=/?share_link_id=611418680068</a>
+
+<h4 id='4.1.1.1.'>Candidate Context Discovery</h4>
+Utilizando la metodología de Event Storming, y aplicando la técnica de "start-with-simple", se inició el proceso con una visión simplificada del dominio. A partir de esta perspectiva inicial, se emplearon líneas de tiempo para mapear eventos clave y actividades dentro del sistema, lo que permitió identificar áreas de interés para la creación de contextos delimitados. Este enfoque ayudó a destacar las interacciones y relaciones críticas dentro del dominio, revelando contextos candidatos que podrían evolucionar en Bounded Contexts claramente definidos. Los contextos identificados fueron los siguientes:  
+
+<b>IAM (Identity and Access Management) subdomain:</b> 
+Este subdominio va a ser el encargado de gestionar todo lo relacionado con la autenticación y autorización de usuarios.
+
+<b>Personas subdomain:</b>
+Este subdominio es el encargado de controlar los perfiles personales de las cuentas creadas y los perfiles de las compañías productoras de champiñones. 
+
+<b>Crops subdomain:</b>
+Maneja todo lo correspondiente con el proceso de los cultivos de champiñones que tiene la empresa. 
+
+<b>Memberships subdomain:</b>
+Se enfoca en la gestión de cómo las compañías obtienen una mejor suscripción para poder gozar de mayores beneficios al emplear nuestra solución de software.
+
+<b>Mailing subdomain:</b>
+Este subdominio se encarga de gestionar el servicio de notificaciones y alertas por correo electrónico para los usuarios.
+
+Añadir subdominio IoT
+
+<h4 id='4.1.1.2.'>Domain Message Flows Modeling</h4>
+El proceso de Domain Message Flow Modeling permite identificar las interacciones entre los bounded context previamente definidos. Esto se realiza mediante el modelamiento del flujo de mensajes entre actores, sistemas y bounded contexts en los escenarios propuestos para la aplicación.
+
+<b>1. Scenario: Factory Owner creates an account</b>
+
+El siguiente flujo evidencia el proceso que atraviesan los usuarios administradores de las fábricas al crear una cuenta dentro de la aplicación Greenhouse. En primer lugar, los usuarios acceden a la aplicación web o mobile para ingresar sus datos personales, la información de la empresa que desean registrar y seleccionan la subscripción que desean. A continuación, el sistema registrará las credenciales del usuario, creará una nueva cuenta de administrador y una subscripción vinculada a la cuenta.
+
+Insertar Imagen Actualizada
+
+<b>2. Scenario: Factory owner creates an employee account</b>
+
+La imagen presentada a continuación evidencia el flujo que atraviesan los mensajes cuando el administrador de la fábrica crea una cuenta de usuario para uno de sus trabajadores. En primer lugar, el administrador ingresa a la aplicación web o móvil e ingresa las credenciales del trabajador que desea crear. Finalmente, la aplicación registra las información ingresada y crea la cuenta del nuevo trabajador.
+
+Insertar Imagen Actualizada
+
+<b>3. Scenario: Technician starts a new crop </b>
+
+El escenario presentado a continuación muestra el flujo de los mensajes al momento de iniciar un nuevo cultivo en Greenhouse. En primer lugar, los técnicos supervisores ingresan a la aplicación web o mobile, y realizan una solicitud de creación de cultivo. A continuación, el sistema asigna la información necesaria (Como un ID único, fecha de inicio, y fase actual), lo almacena en la base de datos, y firma con esa misma información el contrato inteligente.
+
+Insertar Imagen Actualizada
+
+<b>4. Scenario: Technician registers a new record </b>
+
+El escenario presentado a continuación muestra el flujo de los mensajes al momento de agregar un nuevo registro a un cultivo existente en Greenhouse. En primer lugar, los técnicos supervisores ingresan a la aplicación web o mobile, y realizan una solicitud de registro de información. A continuación, el sistema asigna la información necesaria (Como un ID único, fecha del registro, autor), le concatena la información escrita por el usuario (parámetros ambientales, actividades o comentarios) finalmente, lo almacena en la base de datos, y firma con esa misma información el contrato inteligente.
+
+Insertar Imagen Actualizada
+
+<h4 id='4.1.1.3.'>Bounded Context Canvases</h4>
+<b>Identity and Access Management</b>
+
+En este Bounded Context de IAM, se puede visualizar que para la autenticación y registro de nuestros usuarios hemos hecho un desarrollo propio (custom built), el cual se relaciona con los Bounded Context de Personas, Memberships y Crops que hacen uso del Auth Token para que el usuario pueda hacer uso de sus respectivos servicios.
+
+<img src="assets/images/chapter_4/bounded_context_canvases/iam_canvas.png"/>
+
+<b>Personas</b>
+
+El Bounded Context de Personas se encarga de manejar los perfiles de los usuarios y compañía a la que pertenezcan. Además de contar con la autorización del Bounded Context IAM para el uso de los endpoints y se relaciona con los Bounded Context de Membership para seleccionar su tipo de membresía y crops para tener el encargado que realizó el registro de la información del cultivo.
+
+<img src="assets/images/chapter_4/bounded_context_canvases/personas_canvas.png"/>
+
+<b>Memberships</b>
+
+El Bounded Context de Memberships se encarga de manejar las suscripciones de las compañías. Además de contar con la autorización del Bounded Context IAM para el uso de los endpoints y se relaciona con los Bounded Context de Personas para saber si quién es el encargado y crops para saber qué funcionalidades tiene disponibles con el plan elegido.
+
+<img src="assets/images/chapter_4/bounded_context_canvases/memberships_canvas.png"/>
+
+<b>Crops</b>
+
+El Bounded Context de Crops se encarga de manejar los cultivos y sus registros, para darles un seguimiento adecuado durante el ciclo de vida del cultivo. Además de contar con la autorización del Bounded Context IAM para el uso de los endpoints y se relaciona con los Bounded Context de Personas para saber si quién es el encargado y memberships para saber qué funcionalidades tiene disponibles con el plan vigente. Además de contar con la funcionalidad de subir imágenes para que estas, sean evaluadas por un modelo de computer vision y de como resultado la calidad del cultivo. Mientras que, por otra parte, si los registros pasan de ciertos umbrales se envían correos de alerta.
+
+<img src="assets/images/chapter_4/bounded_context_canvases/crops_canvas.png"/>
+
+<b>Mails</b>
+
+Este Bounded Context se encarga del envío de correos para permitir lograr que el usuario tenga una mejor noción del estado del cultivo. Los correos se envían cuando un valor registrado se encuentra fuera de los umbrales para cumplir con los estándares y calidad del cultivo, en caso sea una diferencia poco notable no se enviará, sino que se almacenará para un reporte semanal, en caso si sea un desfase considerable se deberá de enviar la notificación de forma inmediata.
+
+<img src="assets/images/chapter_4/bounded_context_canvases/mails_canvas.png"/>
+
+<h3 id='4.1.2.'>4.1.2. Context Mapping</h4>
+
+Después de obtener cuáles serían nuestros Bounded Contexts, se realizó la elaboración de las relaciones estructurales entre estos. Para ello, se tomó en cuenta posibles diseños candidatos para el Context Mapping, planteados previamente en el Candidate Content Discovery, se desarrolló considerando los patrones de relaciones entre Bounden Contexts establecidos en Domain-Driven Desgin, los cuales pueden ser Conformist, Customer/Supplier, Partnership o Shared Kernel. Se utilizó la herramienta online DomoRoboto para elaborar el Context Mapping de la siguiente imagen: 
+
+Insertar Imagen Actualizada
+
+1. Identity and Access Management (IAM) ↔ Personas
+
+- <b>Patrón: Upstream/Downstream (U SUPP)</b>
+- <b>Explicación:</b> El contexto de IAM es proveedor de información de autenticación y autorización para <strong>Personas</strong>. La Personas consume los datos y las funcionalidades del contexto IAM para gestionar usuarios y sus perfiles. IAM se considera <strong>Upstream</strong> (proveedor) porque controla la autenticación y autorización, mientras que <strong>Personas</strong> es <strong>Downstream</strong> (consumidor), ya que depende de IAM para validar el acceso.
+
+2. Identity and Access Management (IAM) ↔ Memberships
+
+- <b>Patrón: Upstream/Downstream (U SUPP)</b>
+- <b>Explicación:</b> <strong>Memberships</strong> consume los servicios de IAM para gestionar el acceso de los usuarios a las funcionalidades relacionadas con sus membresías. IAM es el proveedor de las reglas de acceso y autenticación, y <strong>Memberships</strong> depende de ello para permitir que los usuarios accedan o gestionen sus membresías.
+
+3. Identity and Access Management (IAM) ↔ Crops
+
+- <b>Patrón: Upstream/Downstream (U SUPP)</b>
+- <b>Explicación:</b> El contexto de <strong>Crops</strong> también consume los servicios de IAM para la gestión de acceso de los usuarios que trabajan con los cultivos. <strong>IAM</strong> es el proveedor de los datos de autenticación y autorización, y <strong>Crops</strong> depende de ello para otorgar permisos o registrar acciones.
+
+4. Personas ↔ Crops
+
+- <b>Patrón: Customer/Supplier (D CUST)</b>
+- <b>Explicación</b>: En este caso, el <strong>Bounded Context Crops</strong> es el <strong>cliente</strong> (Customer) de <strong>Personas</strong>, porque depende de la información de <strong>Personas</strong> para registrar quién ha realizado las mediciones de los cultivos. <strong>Personas</strong> es el <strong>proveedor</strong> (Supplier) de esta información. Este patrón refleja la dependencia de <strong>Crops</strong> en obtener información de las personas que interactúan con los cultivos.
+
+5. Personas ↔ Memberships
+
+- <b>Patrón: Partner (PTNR)</b>
+- <b>Explicación:</b> En este caso, <strong>Personas</strong> y <strong>Memberships</strong> tienen una relación de <strong>Partner</strong> (socio). Ambos contextos colaboran estrechamente porque <strong>Memberships</strong> necesita los perfiles gestionados en <strong>Personas</strong> para aplicar políticas de suscripción o acceso. Al ser socios, ambos contextos comparten información y colaboran sin una clara relación de proveedor/cliente.
+  
+6. Memberships ↔ Crops
+
+- <b>Patrón: Customer/Supplier (D CUST)</b>
+- <b>Explicación:</b> <strong>Crops</strong> consume los servicios de <strong>Memberships</strong> para validar si una compañía o un usuario tiene acceso a beneficios avanzados relacionados con los cultivos, basados en su nivel de membresía. Aquí <strong>Memberships</strong> es el proveedor de esa información, y <strong>Crops</strong> es el cliente que lo utiliza
+
+7. Personas ↔ Memberships
+
+- <b>Patrón: Upstream/Downstream (U SUPP)</b>
+- <b>Explicación:</b> <strong>Memberships</strong> depende de los datos personales de los usuarios proporcionados por <strong>Personas</strong> para gestionar las membresías. <strong>Personas</strong> es el proveedor y <strong>Memberships</strong> es el consumidor de estos datos.
+
+8. Crops ↔ Mails
+
+- <b>Patrón: Customer/Supplier (D CUST)</b>
+- <b>Explicación:</b> El contexto de <strong>"Crops"</strong> actúa como cliente (Customer) del contexto <strong>"Mails"</strong>, ya que depende de éste para enviar notificaciones por correo electrónico cuando se detectan registros que están fuera de los umbrales establecidos. <strong>"Mails"</strong> es el proveedor (Supplier) de la funcionalidad de envío de correos electrónicos, asegurándose de que los usuarios pertinentes sean notificados en tiempo real sobre los cultivos.
+
 <h3 id='4.1.3.'>4.1.3. Software Architecture.</h3>
 <h4 id='4.1.3.1.'>4.1.3.1. Software Architecture System Landscape Diagram.</h4>
 
@@ -1134,18 +1309,141 @@ El diagrama de contenedores presentado a continuación representa cómo interact
 <img src='assets/images/chapter_4/strategic_ddd/deployment_diagram.png' alt='Software Architecture Context Level Diagrams' />
 
 <h2 id='4.2.'>4.2. Tactical-Level Domain-Driven Design.</h2>
+
+<h3 id='4.2.1.'>4.2.1. Bounded Context: Crops</h3>
+Este bounded context se enfoca en las clases y capas relacionadas con el cultivo y sus registros correspondientes a cada una de las fases del cultivo. A continuación, se detallan los principales componentes de este contexto.
+
+<h4 id='4.2.1.1.'>4.2.1.1. Domain Layer</h4>
+
+- <b>Crop:</b> Esta clase representa a un cultivo de champiñones. Contiene atributos como nombre, autor, fase, fecha de inicio, fecha, estado y records. 
+
+- <b>Records:</b> Esta clase representa a los registros que se realizan para un cultivo de champiñón. Contiene atributos tales como autor, fase, payload (son los datos que registran para la fase del cultivo es un formato json debido a que cambia por cada fase lo que se debe registrar), crop (cultivo sobre el cual se hacen los registros), created date, updated date.
+- <b>Enum:</b>
+  - <b>CropPhase:</b> Este enum define las diferentes etapas que tiene el cultivo de champiñones los cuales siguen un orden secuencial: Formula, Preparation Area, Bunker, Tunnel, Incubation, Casing, Induction, Harvest
+
+<h4 id='4.2.1.2.'>4.2.1.2. Interface Layer</h4>
+
+- <b>CropsController:</b> Maneja las solicitudes relacionadas a los cultivos de champiñones. Permite crear, eliminar y actualizar el estado de los cultivos. Además de obtener todos los cultivos, los cultivos por su estado ya sea un cultivo finalizado o un cultivo activo.
+ 
+- <b>RecordsController:</b> Maneja las solicitudes relacionadas a los registros de los cultivos de champiñones. Permite crear, actualizar y eliminar los registros de los cultivos. Además de poder obtener todos los registros, un registro en específico por su ID o todos los registros correspondientes a la fase de un crop en específico.
+  
+- <b>CropVisionFacade:</b> Encapsula la lógica de análisis de calidad de los cultivos de champiñones a través de imágenes. Permite enviar una imagen asociada a un cultivo a un servicio de AutoML para recibir un análisis de calidad del champiñón, devolviendo una evaluación con un puntaje de calidad.
+
+<h4 id='4.2.1.3.'>4.2.1.3. Application Layer</h4>
+
+- <b>Command Handlers:</b> 
+  - create-crop: Crea un nuevo cultivo el cuál siempre empieza en la fase Formula.
+  - create-record: Crea un registro a un cultivo asociado, el cuál puede ser para cada una de las diferentes fases y el cuál tienen un autor.
+  - delete-crop: Elimina un cultivo existente por su id.  
+  - delete-record: Elimina un registro existente por su id.
+  - update-crop: Actualiza la fase del cultivo y el estado de un cultivo. 
+  - update-record: Actualiza el registro de un cultivo.
+- <b>Query Handlers:</b>
+  - get-crop-by-id: Obtiene la información de un cultivo en base a su id.
+  - get-crops-by-state: Obtiene un array de todos los cultivos de una fase en específico.
+  - get-crops: Obtienen un array con la información de todos los cultivos.
+  - get-record-by-id: Obtiene la información de un registro en base a su id.
+  - get-records-by-crop-and-phase: Obtiene un array de todos los registros asociados a un cultivo y a una fase en específico.
+  - get-records: Obtiene un array con la información de todos los registros de cultivos.
+
+<h4 id='4.2.1.4.'>4.2.1.4. Infrastructure Layer</h4>
+
+- <b>Repositories:</b> 
+  - create-crop: Se encarga de crear un nuevo cultivo (crop) en la base de datos o sistema de persistencia. Recibe una entidad de dominio y la convierte en su equivalente persistente.
+  - create-record: Similar a create-crop, pero se enfoca en crear un nuevo registro (record), como por ejemplo una entrada de datos relacionada con el cultivo.
+  - find-crops: Se encarga de buscar y devolver un cultivo ya sea en base a su Id, a su estado  o todos los cultivos almacenados en el sistema. Puede aceptar filtros para encontrar cultivos específicos.
+  - find-records: Busca y devuelve registros relacionados con cultivos, mediante su id, su fase, o todos los cultivos, desde el sistema de persistencia.
+  - remove-crop: Elimina un cultivo específico del sistema de persistencia,  utilizando su ID o alguna clave única.
+  - remove-record: Elimina un registro específico asociado a un cultivo del sistema de persistencia, usando un identificador único.
+  - save-crop: Guarda o actualiza un registro en el sistema de persistencia.
+  - save-record: Guarda o actualiza un registro en el sistema de persistencia.
+
+- <b>Mappers:</b>
+  - crop: Convierte un objeto de dominio Crop en un objeto de persistencia CropEntity y viceversa. Esto permite que los datos pasen de la capa de dominio (negocio) a la de persistencia (base de datos) y al revés.
+  - record: Realiza el mapeo entre la representación de dominio de un registro (record) y su versión de persistencia (RecordEntity). Permite transformar los registros entre las capas de aplicación y persistencia.
+
+<h4 id='4.2.1.5.'>4.2.1.5. Bounded Context Software Architecture Component Level Diagrams</h4>
+
+<b>Diagrama de componentes del API Gateway:</b>
+
+Insertar imagen actualizada
+
+<b>Diagrama de componentes del Servicio Mail:</b>
+
+<img src='assets/images/chapter_4/crops/component_diagram_mail.png' alt='Mail Service Component Diagram'/>
+
+<b>Diagrama de componentes del Servicio Crops:</b>
+
+Insertar imagen actualizada
+
+<b>Diagrama de componentes del Servicio Memberships:</b>
+
+<img src='assets/images/chapter_4/crops/component_diagram_memberships.png' alt='Memberships Service Component Diagram'/>
+
+<b>Diagrama de componentes del Servicio Personas:</b>
+
+<img src='assets/images/chapter_4/crops/component_diagram_personas.png' alt='Personas Service Component Diagram'/>
+
+<b>Diagrama de componentes del servicio IAM:</b>
+
+<img src='assets/images/chapter_4/crops/component_diagram_iam.png' alt='Personas Service Component Diagram'/>
+
+<h4 id='4.2.1.6.'>4.2.1.6. Bounded Context Software Architecture Code Level Diagrams</h4>
+
+<h5 id='4.2.1.6.1.'>4.2.1.6.1. Bounded Context Domain Layer Class Diagrams</h5>
+
+Insertar Imagen Actualizada
+
+<h5 id='4.2.1.6.2.'>4.2.1.6.2. Bounded Context Database Design Diagram</h5>
+
+<img src='assets/images/chapter_4/crops/crops_database_diagram.png' alt='Crops Database Design Diagram'/>
+
+### Tabla: crops
+|Nombre del atributo|Descripción del atributo| Tipo de dato del atributo |
+|---------------------|---------------------------------------------------------------------------|---------------------------|
+|id|Identificador del cultivo de champiñones, primary key|varchar(255)|
+|name|Título del cultivo de la fábrica champiñonera|varchar(255)|
+|created_by|Identificador del trabajador de la fábrica de champiñones responsable de la creación del cultivo|varchar(255)|
+|created_at|Fecha de creación del cultivo de champiñones|timestamp|
+
+### Tabla: phases
+|Nombre del atributo|Descripción del atributo| Tipo de dato del atributo |
+|---------------------|---------------------------------------------------------------------------|---------------------------|
+|id|Identificador de la fase del cultivo de champiñones, primary key|varchar(255)|
+|name|Nombre de la fase en la que se encuentra el cultivo de champiñones|varchar(255)|
+
+### Tabla: records
+|Nombre del atributo| Descripción del atributo| Tipo de dato del atributo |
+|---------------------|---------------------------------------------------------------------------|---------------------------|
+|id|Identificador del registro de información, primary key|varchar(255)|
+|payload|Archivo json con la información registrada|json|
+|created_at|Fecha en la que se registró la información|timestamp|
+|updated_at|Fecha en la que se actualizó la información registrada|timestamp|
+|phase_id|Identificador de la fase a la que pertenece la información registrada, foreign key|varchar(255)|
+|crop_id|Identificador del cultivo al que pertenece la información registrada, foreign key|varchar(255)|
+
+### Tabla: analysis_requests
+|Nombre del atributo|Descripción del atributo| Tipo de dato del atributo |
+|---------------------|---------------------------------------------------------------------------|---------------------------|
+|id|Identificador del request, primary key|varchar(255)|
+|image_url|Enlace al archivo json con la información registrada|varchar(255)|
+|created_by|Identificador del trabajador de la fábrica de champiñones responsable de la creación del cultivo|varchar(255)|
+|created_at|Fecha en la que se registró la información|timestamp|
+|analysis_result|Archivo json con la información que se obtiene del análisis en AutoML|json|
+|crop_id|Identificador del cultivo al que pertenece la información registrada, foreign key|varchar(255)|
+
 <h3 id='4.2.2.'>4.2.2. Bounded Context: IAM</h3>
 Este bounded context se enfoca en las clases y capas relacionadas con los usuarios de la aplicación, sus roles y sus credenciales. A continuación, se detallan los principales componentes de este contexto.
-<h4 id='4.2.2.1.'>4.2.2.1. Domain Layer.<h4>
+<h4 id='4.2.2.1.'>4.2.2.1. Domain Layer</h4>
 
 - Users: Esta Clase representa un usuario, registrado en greenhouse. Contiene los atributos rol, username y password.
 
-<h4 id='4.2.2.2.'>4.2.2.2. Interface Layer.<h4>
+<h4 id='4.2.2.2.'>4.2.2.2. Interface Layer</h4>
 Controller:
 
 - Users: Define un controlador 'UsersController' en NestJS que gestiona las operaciones de usuario. Utiliza un servicio 'UserService' para manejar comandos de creación, actualización, eliminación y búsqueda de usuarios. Los métodos del controlador transforman los DTOs recibidos en comandos y devuelven resultados apropiados, como listas de usuarios o detalles de un usuario específico.
 
-<h4 id='4.2.2.3.'>4.2.2.3. Application Layer.<h4>
+<h4 id='4.2.2.3.'>4.2.2.3. Application Layer.</h4>
 
 **Command Handlers:**
 
@@ -1172,6 +1470,7 @@ Controller:
 - get-users: Define un manejador de consulta 'GetUsersQueryHandler' que implementa 'IQueryHandler'. Inyecta un repositorio para buscar usuarios y su método 'execute' devuelve una lista de todos los usuarios al llamar a 'findAll' en el repositorio.
 
 <h4 id='4.2.2.4.'>4.2.2.4. Infrastructure Layer.<h4>
+
 
 **Entities:**
 
@@ -1247,7 +1546,6 @@ Este bounded context se enfoca en las clases y capas relacionadas con el envío 
   
 - SendEvent: Esta clase representa el evento de envío de correo electrónico que contiene atributos como id, mail, template, createdAt y name.
 
-
 <h4 id='4.2.3.2.'>4.2.3.2. Interface Layer.<h4>
 EmailController: Maneja las solicitudes relacionadas con el envío de correos y la gestión de plantilla y dispone de los siguientes métodos:
 
@@ -1256,9 +1554,7 @@ EmailController: Maneja las solicitudes relacionadas con el envío de correos y 
 - sendMail(mail: Mail, template: MailTemplate): SendEvent
 - getMailHistory(userId: string): SendEvent[]
 
-
-<h4 id='4.2.3.3.'>4.2.3.3. Application Layer.<h4>
-
+<h4 id='4.2.3.3.'>4.2.3.3. Application Layer.<h>
 **Command Handlers:**
 
 Command Handlers:
@@ -1294,21 +1590,21 @@ Command Handlers:
 -	send-event-mapper: Mapea objetos SendEvent entre la capa de dominio y la de persistencia.
 
 
-<h4 id='4.2.4.5.'>4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.<h4>
+<h4 id='4.2.3.5.'>4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.<h4>
 
 A continuación, se presenta el diagrama de componentes asociado al bounded context Mailling
 
 <img src='assets/images/chapter_4/mailing/mailling_component_diagram.png' alt='Mailling Component Level Diagram' />
 
-<h4 id='4.2.4.6.'>4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.<h4>
+<h4 id='4.2.3.6.'>4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.<h4>
 
-<h5 id='4.2.4.6.1.'>4.2.2.4.1. Bounded Context Domain Layer Class Diagrams.<h5>
+<h5 id='4.2.3.6.1.'>4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.<h5>
 
 A continuación, se presenta el diagrama de clases del microservicio encargado de la gestión de notificaciones por correo electrónico. Este diseño incluye las entidades Mail y MailTemplate, las cuales son procesadas a través de la fachada (ResendFacade), que abstrae la interacción con el servicio de Resend, encargado de ejecutar la lógica de envío de correos. Además, se ha implementado un mecanismo para registrar los eventos asociados al envío de correos, con el fin de garantizar una trazabilidad completa, permitiendo un monitoreo detallado del estado de los envíos y de los destinatarios involucrados, optimizando así el seguimiento y análisis del flujo de notificaciones.
 
 <img src='assets/images/chapter_4/mailing/mailling_class_diagram.png' alt='Mailling Class Diagram' />
 
-<h5 id='4.2.4.6.2.'>4.2.4.6.2. Bounded Context Database Design Diagram.</h5>
+<h5 id='4.2.3.6.2.'>4.2.3.6.2. Bounded Context Database Design Diagram.</h5>
 
 <img src='assets/images/chapter_4/mailing/mailling_database_diagram.png' alt='Mailling Database Diagram' />
 
@@ -1409,6 +1705,219 @@ A continuación, se presenta el diagrama de clases del microservicio encargado d
       <td>created_at</td>
       <td>Timestamp del momento en el que el evento fue creado</td>
       <td>timestamp</td>
+    </tr>
+ </table>
+
+<h3 id='4.2.4.'>4.2.4. Bounded Context: Memberships</h3>
+En esta sección, el equipo presenta las clases identificadas y las detalla a manera de diccionario
+A continuación, se presentan las clases identificadas
+
+- **Memberships:** <br> **Propósito:** Esta clase representa a una membresía ligada a un empresa en el sistema. Incluye detalles del nivel de la membresía, su vigencia y detalles de su estado. <br> Atributos: <br> - **id:** string, Identificador único de la membresía <br> -**companyId:** string, Identificador único de la empresa que posee la membresía <br> - **membershipLevel:** MembershipLevel, Objeto con el detalle del nivel de la membresía <br> - **membershipPayment:** MembershipPayment, Objeto con el detalle de la transacción con la cual se adquirió la membresía <br> - **startDate:** DateTime, Fecha y hora de inicio de la membresía <br> - **endDate:** DateTime, Fecha y hora de expiración de la membresía <br> - **status:** string, Estado actual de la membresía (active, inactive, expired)
+
+- **Métodos:** <br> - **activate():** void, Activa la membresía <br> - **renew(newEndDate: DateTime):** void, Renueva la membresía extendiendo su vigencia. <br> - **expire():** void, Marca la membresía como expirada
+
+- **Relaciones:** <br> - **MembershipLevel:** La clase Memberships utiliza la clase MembershipLevel para la renovación y expiración de membresías, dado que la vigencia de la membresía varía según su grado. <br> -  **MembershipPayment:**  La clase Memberships utiliza la clase MembershipPayment para verificar el estado de las transacciones que conciernen a las membresías, además de efectuar el cobro de renovaciones.
+
+- **MembershipLevel:** <br> - **Propósito:** Define los distintos niveles de membresía, asimismo los permisos y beneficios que estas otorgan. <br> - **Atributos:** <br> -**id:** string, Identificador único del nivel de membresía <br> - **name:** string, Nombre del nivel de membresía <br> - **benefits:** string[], Lista de beneficios asociados al nivel de la membresía <br> - **privileges:** string[], Lista de privilegios asociados al nivel de la membresía <br> - **Métodos:** <br> - **getBenefit(benefit: string):** string, Devuelve la información o grado de un beneficio <br> - **updateBenefits(newBenefits: string[]):** void, Actualiza los beneficios del nivel de membresía <br> - **isPrivilegeAssigned(privilege: string):** bool, Verifica si el nivel de membresía contiene el privilegio consultado <br> - **Relaciones:** <br> - **Memberships:** La clase Memberships utiliza la clase MembershipLevel para la renovación y expiración de membresías, dado que la vigencia de la membresía varía según su grado.
+
+- **MembershipPayment:** <br> - **Propósito:** Registra las transacciones relacionadas a adquisiciones de membresías. <br> - **Atributos:** <br> - **id:** string, Identificador único del pago <br> - **membershipId:** string, Identificador de la membresía asociada <br> - **amount:** number, Monto del pago asociado a la transacción <br> - **paymentDate:** Date, Fecha del pago <br> - **paymentMethod:** string, Método de pago <br> - **Métodos:** <br> - **registerPayment(amount: number, method: string):** void, Registra un nuevo pago para una membresía <br> - **Relaciones:** <br> - **Memberships:** La clase Memberships utiliza la clase MembershipPayment para verificar el estado de las transacciones que conciernen a las membresías, además de efectuar el cobro de renovaciones.
+
+<h4 id='4.2.4.1.'>4.2.4.1. Domain Layer.<h4>
+
+La clase Memberships representa una parte importante del core de la aplicación. El grado de esta membresía condiciona los límites de uso de las empresas que utilizan el software mediante la cantidad de cultivos activos a la vez, los permisos que tienen sus administradores y el nivel de control sobre sus empleados que podrán mantener dentro de la plataforma.
+
+- Una empresa puede adquirir una única membresía durante su vigencia, la cual puede aumentar o disminuir de grado según sus necesidades.
+- Los permisos de membresía de todos los empleados trabajando bajo una empresa son los mismos sin importar su rol o distinción en la aplicación.
+- La empresa obtiene 5 días de prórroga de una membresía expirada para gestionar adecuadamente la extensión o fin del término de los permisos correspondientes.
+
+- **MembershipsPayment**: El pago de la membresía y recibo existe independientemente de la vigencia de la propia membresía. Esto es importante de considerar cuando surge la necesidad del administrador de revisar el historial de adquisiciones de una determinada empresa.
+
+- **MembershipLevel**: Cada membresía tiene un grado o nivel de beneficios que esta confiere a la empresa beneficiada. Este nivel está ligado a la entidad de membresía y es consultado cuando algún usuario de la aplicación, perteneciente a una empresa, realiza ciertas acciones.
+
+- **Memberships**: Se considera a una membresía como un aggregate debido a la relación que mantiene con las clases que conciernen el nivel de membresía y su pago. La membresía se encarga de verificar su propio tiempo de vigencia, otorgar beneficios y orquestar eventos según los privilegios de la empresa favorecida.
+
+- **MembershipsPaymentFactory**: Abstrae la complejidad y la lógica de creación de pagos o recibos de las transacciones de membresías.
+
+- **BillingService**: Servicio encargado de conectarse con el sistema externo de pagos, el cual tiene la función de cobrar el precio de la membresía mediante el método de pago especificado por la empresa.
+
+- **MembershipsRepository**: Interfaz que define los métodos a utilizar para la conexión a la base de datos.
+
+<h4 id='4.2.4.2.'>4.2.4.2. Interface Layer.<h4>
+En esta sección se presentan las clases que forman parte de la capa de interfaz/presentación para el bounded context de membresías.
+  
+**Controllers:**
+- **MembershipsController:** Maneja la creación, eliminación, búsqueda de permisos y actualización de estados de las membresías al nivel de la API. Es el método llamado cuando se realizan las consultas al microservicio de memberships.
+
+<h4 id='4.2.4.3.'>4.2.4.3. Application Layer.<h4>
+
+En esta sección se presentan las clases que manejan los flujos del proceso de membresías en el negocio.  
+
+CommandHandlers: 
+
+- create-membership: Clase encargada de crear una nueva membresía.  
+- renew-membership: Clase encargada de actualizar el tiempo de expiración de una membresía  
+- expire-membership: Actualiza el estado de una membresía a expirada.  
+- update-benefit: Actualiza algún beneficio de un determinado nivel de membresía.  
+- create-payment: Crea un nuevo registro de pago de membresía  
+
+QueryHandlers:  
+
+- get-membership-benefits-by-level: Obtiene todos los beneficios de un determinado nivel de membresía  
+- get-membership-by-company-id: Obtiene detalles de la membresía adquirida por una determinada empresa.  
+
+
+<h4 id='4.2.4.4.'>4.2.4.4. Infrastructure Layer.<h4>
+
+En esta sección se presentan las clases que acceden a servicios externos en el bounded context de membresías. 
+
+Repositories (Class):
+
+MembershipRepository:
+- create-membership: Crea una nueva membresía asignada a una empresa en la base de datos.  
+- update-membership: Actualiza los detalles respecto a una membresía dentro de la base de datos.  
+- get-membership-by-company-id: Obtiene una membresía de la base de datos según el id de la compañía.  
+
+MembershipLevelRepository:
+- update-benefit: Actualiza la lista de beneficios de un determinado nivel de membresía.  
+- get-membership-benefits-by-level: Obtiene la lista de beneficios para el nivel de membresía.  
+
+MembershipPaymentRepository:
+- create-payment: Crea un nuevo pago en la base de datos correspondiente a una adquisición de membresía.  
+
+Mappers:
+- MembershipDao: Realiza el mapeo o conversión entre el objeto de membresía del dominio y el objeto que representa los datos ingresados a la persistencia.  
+- MembershipLevelDao: Realiza el mapeo o conversión entre el objeto de beneficios de la membresía del dominio y el objeto que representa los datos ingresados a la persistencia.  
+- MembershipPaymentDao: Realiza la conversión entre el objeto de pago de membresía del dominio y el objeto persistence que ingresa la información a la base de datos.  
+
+<h4 id='4.2.4.5.'>4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.<h4>
+
+A continuación, se presenta el diagrama de componentes asociado al bounded context Memberships
+
+<img src='assets/images/chapter_4/memberships/architecture.png' alt='Mailling Component Level Diagram' />
+
+<h4 id='4.2.4.6.'>4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.<h4>
+
+En esta sección se exponen los diagramas que muestran en un mayor detalle las clases del contenedor Memberships presentado.
+
+<h5 id='4.2.4.6.1.'>4.2.2.4.1. Bounded Context Domain Layer Class Diagrams.<h5>
+
+Se muestra el diagrama de clases con las clases y métodos explicados en las anteriores secciones.
+
+<img src='assets/images/chapter_4/memberships/class.png' alt='Mailling Class Diagram' />
+
+<h5 id='4.2.4.6.2.'>4.2.4.6.2. Bounded Context Database Design Diagram.</h5>
+
+<img src='assets/images/chapter_4/memberships/design.png' alt='Mailling Database Diagram' />
+
+<table cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nombre del atributo</th>
+      <th>Descripción del atributo</th>
+      <th>Tipo de dato del atributo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>Identificador de la membresía de la fábrica champiñonera, primary key</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>start_date</td>
+      <td>Fecha de inicio de la membresía</td>
+      <td>date</td>
+    </tr>
+    <tr>
+      <td>end_date</td>
+      <td>Fecha de fin de la membresía</td>
+      <td>date</td>
+    </tr>
+    <tr>
+      <td>company_id</td>
+      <td>Id de la fábrica champiñonera que adquiere la membresía</td>
+      <td>varchar(255)</td>
+    </tr>
+  </tbody>
+</table>
+
+<table cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nombre del atributo</th>
+      <th>Descripción del atributo</th>
+      <th>Tipo de dato del atributo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>Identificador del nivel de membresía, primary key</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td>Nombre del nivel de la membresía</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>amount</td>
+      <td>Precio de adquisición del nivel de membresía</td>
+      <td>decimal(4,2)</td>
+    </tr>
+  </tbody>
+</table>
+
+<table cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nombre del atributo</th>
+      <th>Descripción del atributo</th>
+      <th>Tipo de dato del atributo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>Identificador del beneficio asociado a una membresía, primary key</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td>Nombre del beneficio asociado a una membresía</td>
+      <td>varchar(255)</td>
+    </tr>
+  </tbody>
+</table>
+
+<table cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nombre del atributo</th>
+      <th>Descripción del atributo</th>
+      <th>Tipo de dato del atributo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>Identificador de la solicitud para adquirir membresía, primary key</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>amount</td>
+      <td>Precio de adquisición final de la membresía ya adquirida</td>
+      <td>decimal(4,2)</td>
+    </tr>
+    <tr>
+      <td>payment_date</td>
+      <td>Fecha de la transacción de adquisición de membresía</td>
+      <td>date</td>
+    </tr>
+    <tr>
+      <td>payment_method</td>
+      <td>Método de pago utilizado para la compra</td>
+      <td>varchar(255)</td>
     </tr>
   </tbody>
 </table>
