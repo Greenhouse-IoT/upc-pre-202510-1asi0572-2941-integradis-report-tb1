@@ -45,9 +45,14 @@
 
 # Registro de versiones del Informe
 
-| Versión | Fecha | Autor | Descripción de modificación |
-| ------- | ----- | ----- | --------------------------- |
-| 1.0     |       |       |                             |
+| Versión |   Fecha   | Autor | Descripción de modificación |
+| ------- | --------- | ----- | --------------------------- |
+| 1.0     | 3/04/2025 | Galavis Du Bois, Alan Enrique | Creación del informe y del índice |
+| 1.1     | 5/04/2025 | Galavis Du Bois, Alan Enrique | Redacción de perfil de integrante del equipo |
+| 1.2     | 6/04/2025 | Galavis Du Bois, Alan Enrique <br> Astuyauri Calderon, Jherson David | Redacción de perfil de integrantes del equipo y del startup |
+| 1.3     | 6/04/2025 | Galavis Du Bois, Alan Enrique | Redacción de solution profile, antecedentes y problemática |
+| 1.4    | 8/04/2025 | Galavis Du Bois, Alan Enrique | Redacción de ubiqutous language y bounded context IAM |
+| 1.5    | 13/04/2025 | Seminario Garbín, Carlo Luca | Redacción de perfil de integrante del equipo, software architecture diagrams y bounded context mailing |
 
 # Project Report Collaboration Insights
 
@@ -55,11 +60,11 @@
 
 | Integrante                          | Tareas Asignadas |
 | ----------------------------------- | ---------------- |
-| Astuyauri Calderon, Jherson David    |                  |
-| Espinoza Rodríguez, Nicolás Antonio |                  |
-| Galavis Du Bois, Alan Enrique       |                  |
-| Seminario Garbin, Carlo Luca        |                  |
-| Soto Kong Requena, Andrés Eduardo   |                  |
+| Astuyauri Calderon, Jherson David   | Redacción de perfil de integrante del equipo, competidores, análisis competitivo, estrategias y tácticas frente a competidores, entrevistas, user personas, user task matrix, user journey mapping, empathy mapping, as-is scenario mapping, to-be scenario mapping |
+| Espinoza Rodríguez, Nicolás Antonio | Redacción de perfil de integrante del equipo, Strategic-Level Domain-Driven Design, EventStorming, Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases, Context Mapping, Bounded Context Crops |
+| Galavis Du Bois, Alan Enrique       | Redacción de perfil de integrante del equipo, descripción del startup, solution profile, antecedentes y problemática, ubiqutous language, user stories, product backlog, bouded context IAM |
+| Seminario Garbin, Carlo Luca        | Redacción de perfil de integrante del equipo, impact mapping, software architechture system landscape diagram, software architecture context level diagrams, software architecture container level diagrams, software architecture deployment diagrams, bounded context mailing |
+| Soto Kong Requena, Andrés Eduardo   | Redacción de perfil de integrante del equipo, lean UX problem statements, lean UX assumptions, lean UX hypothesis statements, lean UX, segmentos objetivo, bounded context memberships |
 
 # Contenido
 1. [**Capítulo I: Introducción.**](#1.) <br>
@@ -107,7 +112,7 @@
 4.1.3.3. [**Software Architecture Container Level Diagrams.**](#4.1.3.3.)<br>
 4.1.3.4. [**Software Architecture Deployment Diagrams.**](#4.1.3.4.)<br>
 4.2. [**Tactical-Level Domain-Driven Design.**](#4.2.)<br>
-4.2.1. [**Bounded Context: **](#4.2.1.)<br>
+4.2.1. [**Bounded Context: Crops**](#4.2.1.)<br>
 4.2.1.1. [**Domain Layer.**](#4.2.1.1.)<br>
 4.2.1.2. [**Interface Layer.**](#4.2.1.2.)<br>
 4.2.1.3. [**Application Layer.**](#4.2.1.3.)<br>
@@ -116,6 +121,33 @@
 4.2.1.6. [**Bounded Context Software Architecture Code Level Diagrams.**](#4.2.1.6.)<br>
 4.2.1.6.1. [**Bounded Context Domain Layer Class Diagrams.**](#4.2.1.6.1.)<br>
 4.2.1.6.2. [**Bounded Context Database Design Diagram.**](#4.2.1.6.1.)<br>
+4.2.2. [**Bounded Context: IAM**](#4.2.2.)<br>
+4.2.2.1. [**Domain Layer.**](#4.2.2.1.)<br>
+4.2.2.2. [**Interface Layer.**](#4.2.2.2.)<br>
+4.2.2.3. [**Application Layer.**](#4.2.2.3.)<br>
+4.2.2.4. [**Infrastructure Layer.**](#4.2.2.4.)<br>
+4.2.2.5. [**Bounded Context Software Architecture Component Level Diagrams.**](#4.2.2.5.)<br>
+4.2.2.6. [**Bounded Context Software Architecture Code Level Diagrams.**](#4.2.2.6.)<br>
+4.2.2.6.1. [**Bounded Context Domain Layer Class Diagrams.**](#4.2.2.6.1.)<br>
+4.2.2.6.2. [**Bounded Context Database Design Diagram.**](#4.2.2.6.2.)<br>
+4.2.3. [**Bounded Context: Mailling**](#4.2.3.)<br>
+4.2.3.1. [**Domain Layer.**](#4.2.3.1.)<br>
+4.2.3.2. [**Interface Layer.**](#4.2.3.2.)<br>
+4.2.3.3. [**Application Layer.**](#4.2.3.3.)<br>
+4.2.3.4. [**Infrastructure Layer.**](#4.2.3.4.)<br>
+4.2.3.5. [**Bounded Context Software Architecture Component Level Diagrams.**](#4.2.3.5.)<br>
+4.2.3.6. [**Bounded Context Software Architecture Code Level Diagrams.**](#4.2.3.6.)<br>
+4.2.3.6.1. [**Bounded Context Domain Layer Class Diagrams.**](#4.2.3.6.1.)<br>
+4.2.3.6.2. [**Bounded Context Database Design Diagram.**](#4.2.3.6.2.)<br>
+4.2.4. [**Bounded Context: Memberships**](#4.2.4.)<br>
+4.2.4.1. [**Domain Layer.**](#4.2.4.1.)<br>
+4.2.4.2. [**Interface Layer.**](#4.2.4.2.)<br>
+4.2.4.3. [**Application Layer.**](#4.2.4.3.)<br>
+4.2.4.4. [**Infrastructure Layer.**](#4.2.4.4.)<br>
+4.2.4.5. [**Bounded Context Software Architecture Component Level Diagrams.**](#4.2.4.5.)<br>
+4.2.4.6. [**Bounded Context Software Architecture Code Level Diagrams.**](#4.2.4.6.)<br>
+4.2.4.6.1. [**Bounded Context Domain Layer Class Diagrams.**](#4.2.4.6.1.)<br>
+4.2.4.6.2. [**Bounded Context Database Design Diagram.**](#4.2.4.6.2.)<br>
 5. [**Capítulo V: Solution UI/UX Design.**](#5.)<br>
 5.1. [Style Guidelines.](#4.1.)<br>
 5.1.1. [General Style Guidelines.](#4.1.1.)<br>
@@ -191,10 +223,10 @@
   </tbody>
 </table>
 
-<h1 id='1.'>Capítulo I: Introducción</h1>
-<h2 id='1.1.'>Startup Profile</h2>
+<h1 id='1.'>1. Capítulo I: Introducción</h1>
+<h2 id='1.1.'>1.1. Startup Profile</h2>
 En esta sección se presenta la descripción del startup y los perfiles de los miembros del equipo.
-<h3 id='1.1.1.'>Descripción de la Startup</h3>
+<h3 id='1.1.1.'>1.1.1. Descripción de la Startup</h3>
 Integradis es una startup que busca modernizar el proceso de documentación de actividades y automatizar la medición de parámetros ambientales en las fábricas productoras de champiñones del Perú. El equipo identificó que el uso de sensores manuales y mantener una documentación escrita en la industria actual no solo es arcaico e ineficiente, sino que puede llevar a mediciones imprecisas, lo cual impacta directamente en la calidad y cantidad de la producción final. Bajo este contexto, el equipo identificó una oportunidad para brindar una solución IoT que permita llevar un mejor control sobre estos procesos, con el fin de mitigar los errores asociados al factor humano, y de fomentar el registro digital de procesos.
 Misión: Agilizar e impulsar la digitalización de la documentación y monitoreo de los principales procesos de las fábricas productoras de champiñones del Perú.
 Visión: Dentro de los próximos 6 años, ser reconocidos como un modelo de negocio sostenible, líder en el desarrollo de plataformas que modernicen la cadena de producción de champiñones a nivel nacional.
@@ -205,7 +237,7 @@ Valores:
 - Constancia: Nos esforzamos por mantener una constante mejora en la calidad de nuestros servicios.
 - Disponibilidad: Contamos con un equipo disponible gran parte del día para atender todas las necesidades, dudas o problemas que tengan nuestros usuarios en los diferentes productos o servicios que ofrecemos.
 
-<h3 id='1.1.2.'>Perfiles de integrantes del equipo</h3>
+<h3 id='1.1.2.'>1.1.2. Perfiles de integrantes del equipo</h3>
 
 | Foto | Nombres y apellidos | Código de alumno | Carrera | Descripción |
 |----- | --------------------|------------------| --------| ------------|
@@ -215,8 +247,8 @@ Valores:
 | | **Carlo Luca Seminario Garbín** | U20211A475 | Ingeniería de Software | |
 | | **Andrés Eduardo Soto Kong Requena** | U202116113 | Ingeniería de Software | |
 
-<h2 id='1.2.'>Solution Profile</h2>
-<h3 id='1.2.1.'>Antecedentes y problemática</h3>
+<h2 id='1.2.'>1.2. Solution Profile</h2>
+<h3 id='1.2.1.'>1.2.1. Antecedentes y problemática</h3>
 A continuación, se presentan las secciones de Antecedentes y Problemática, y Lean UX Process. La primera consta del enunciado de problema y una descripción de los puntos más importantes que debe resolver la solución, del mismo modo se presentan los objetivos y restricciones que delimitan el alcance del proyecto. La segunda sección es el resultado de la ejecución del Lean UX Process sobre el dominio del problema.
 
 #### **What? (¿Qué?)**
@@ -951,6 +983,32 @@ Enlace para acceder a la imagen en
 <a href="https://drive.google.com/file/d/1yVWGNyuPBc9qrRnP36r73_fm8HVVXRoA/view">drive</a>
 
 <h2 id='2.4.'>2.4. Ubiquitous Language</h2>
+El lenguaje ubicuo permite que las personas del negocio, incluso aquellas sin conocimientos técnicos, comprendan mejor la plataforma Greenhouse. Por ello, a continuación, se presentan una serie de términos en inglés frecuentemente utilizados en la aplicación, junto con sus definiciones en castellano. 
+
+- Company/Compañía: Empresa registrada en la plataforma greenhouse que tiene asociado a su información a los siguientes tipos de usuarios:
+  - Factory Administrator/Administrador de la fábrica: Encargado de supervisar a los Técnicos Supervisores y evaluar las estadísticas de la empresa.
+  - Technician/Técnico supervisor: Empleado encargado de supervisar el proceso de cultivo de champiñones y escribir los registros
+- Crop/Cultivo: Conglomerado de récords y fases que componen a un cultivo específico
+  - Crop ID/Cultivo ID: Identificador único de un cultivo.
+- Logs: Conjunto de registros realizados para un determinado cultivo en una determinada fase
+- Membership/Plan de suscripción: Suscripción que da acceso a la plataforma Greenhouse.
+- Phase/Fase: Etapas del proceso del cultivado de un cultivo, las cuales son los siguientes
+  - Formula/Insumos: Primera fase de un cultivo
+  - Preparation area/Patio: Segunda fase de un cultivo
+  - Bunker/Búnker: Tercera fase de un cultivo
+  - Tunnel/Túnel: Cuarta fase de un cultivo
+  - Incubation/Incubación: Quinta fase de un cultivo
+  - Casing/Cobertura: Sexta fase de un cultivo
+  -	Induction/Inducción: Séptima fase de un cultivo
+  -	Harvest/Cosecha: Octava fase de un cultivo
+  -	Author/Autor: Usuario que realizó el registro
+  - Grow Room/Nave: Estructuras industriales similares a un invernadero donde se cultivan champiñones
+- Record/Registro: Entrada de datos en determinado momento durante una fase de un cultivo
+  - Record ID/Registro ID: Identificador único de un registro
+- IoT: concepto que describe la interconexión de dispositivos físicos a través de internet, permitiendo que recopilen, compartan y procesen datos de forma automática.
+- Sensor: dispositivo que recopila datos del entorno, como temperatura, humedad, entre otros, y los transmite a través de una red para ser procesados o analizados por otros dispositivos o sistemas.
+- Actuador: Dispositivo que recibe señales o comandos de un sistema y realiza una acción física en el entorno, como encender un motor, abrir una válvula o ajustar la temperatura, como respuesta a los datos procesados por sensores u otros dispositivos.
+
 
 El lenguaje ubicuo permite que las personas del negocio, incluso aquellas sin conocimientos técnicos, comprendan mejor la plataforma Greenhouse. Por ello, a continuación, se presentan una serie de términos en inglés frecuentemente utilizados en la aplicación, junto con sus definiciones en castellano. 
 
@@ -1044,3 +1102,313 @@ Enlace para acceder a la imagen en
 | 18       | US08          | Iniciar Sesión | Como usuario, Quiero iniciar sesión en la plataforma, Para poder acceder a los beneficios que ofrece el uso de la aplicación Greenhouse. | 1 |
 | 19      | US20           | Descripción de la aplicación | Como visitante de la landing page Quiero visualizar una descripción del producto ofrecido Para conocer los beneficios que puedo adquirir mediante el uso de la aplicación | 2 |
 | 20       | US19          | Acceder a la aplicación desde la landing page | Como visitante de la landing page Quiero poder acceder a la aplicación Greenhouse desde la landing page Para comenzar a utilizar las funcionalidades ofrecidas | 1 |
+
+<h1 id='4.'>4. Capítulo IV: Solution Software Design</h1>
+<h2 id='4.1.'>4.1. Strategic-Level Domain-Driven Design.<br>
+<h3 id='4.1.1.'>4.1.1. EventStorming.<br>
+<h4 id='4.1.1.1.'>4.1.1.1. Candidate Context Discovery.<br>
+<h4 id='4.1.1.2.'>4.1.1.2. Domain Message Flows Modeling.<br>
+<h4 id='4.1.1.3.'>4.1.1.3. Bounded Context Canvases.<br>
+<h3 id='4.1.2.'>4.1.2. Context Mapping.</h3>
+<h3 id='4.1.3.'>4.1.3. Software Architecture.</h3>
+<h4 id='4.1.3.1.'>4.1.3.1. Software Architecture System Landscape Diagram.</h4>
+
+El diagrama de landscape es útil para identificar los usuarios y sistemas que interactúan con el programa propuesto, además de proporcionar una visión general de los servicios involucrados. Sin embargo, debido a su enfoque en la arquitectura general, no muestra con detalle las diferencias específicas entre una arquitectura basada en microservicios y una arquitectura monolítica.
+
+<img src='assets/images/chapter_4/strategic_ddd/system_landscape_diagram.png' alt='Software Architecture System Landscape Diagram' />
+
+<h4 id='4.1.3.2.'>4.1.3.2. Software Architecture Context Level Diagrams.</h4>
+
+El diagrama de contexto es de utilidad para identificar los usuarios y sistemas que interactúan con el programa propuesto, sin embargo, debido al poco detalle que presenta, no muestra ninguna diferencia de una arquitectura basada en microservicios con una arquitectura monolítica.
+
+<img src='assets/images/chapter_4/strategic_ddd/context_diagram.png' alt='Software Architecture Context Level Diagrams' />
+
+<h4 id='4.1.3.3.'>4.1.3.3. Software Architecture Container Level Diagrams.</h4>
+
+El diagrama de contenedores presentado a continuación representa cómo interactúan los usuarios y sistemas con los principales componentes del sistema “Greenhouse”, entre los cuales cabe destacar el API gateway, el Identity and Access Management, y los servicios de personas, cultivos, membresías y un servicio por separado para manejar la parte IoT. La separación de estos servicios, cada uno con sus bases de datos independientes, evidencian la intención de desarrollar un producto basado en microservicios.
+
+<img src='assets/images/chapter_4/strategic_ddd/container_diagram.png' alt='Software Architecture Context Level Diagrams' />
+
+<h4 id='4.1.3.4.'>4.1.3.4. Software Architecture Deployment Diagrams.</h4>
+
+<img src='assets/images/chapter_4/strategic_ddd/deployment_diagram.png' alt='Software Architecture Context Level Diagrams' />
+
+<h2 id='4.2.'>4.2. Tactical-Level Domain-Driven Design.</h2>
+<h3 id='4.2.2.'>4.2.2. Bounded Context: IAM</h3>
+Este bounded context se enfoca en las clases y capas relacionadas con los usuarios de la aplicación, sus roles y sus credenciales. A continuación, se detallan los principales componentes de este contexto.
+<h4 id='4.2.2.1.'>4.2.2.1. Domain Layer.<h4>
+
+- Users: Esta Clase representa un usuario, registrado en greenhouse. Contiene los atributos rol, username y password.
+
+<h4 id='4.2.2.2.'>4.2.2.2. Interface Layer.<h4>
+Controller:
+
+- Users: Define un controlador 'UsersController' en NestJS que gestiona las operaciones de usuario. Utiliza un servicio 'UserService' para manejar comandos de creación, actualización, eliminación y búsqueda de usuarios. Los métodos del controlador transforman los DTOs recibidos en comandos y devuelven resultados apropiados, como listas de usuarios o detalles de un usuario específico.
+
+<h4 id='4.2.2.3.'>4.2.2.3. Application Layer.<h4>
+
+**Command Handlers:**
+
+- create-user: Define una clase que implementa 'ICommandHandler<CreateUserCommand>', con un constructor que inyecta dependencias para crear y guardar usuarios. El método 'execute' verifica si ya existe un usuario con el nombre de usuario proporcionado y, si no, crea un nuevo usuario usando una fábrica y lo guarda en el repositorio.
+- delete-user: Define una clase que implementa 'ICommandHandler<DeleteUserCommand>', con un constructor que inyecta repositorios para buscar y eliminar usuarios. El método 'execute' busca un usuario por nombre de usuario, lanza una excepción si no existe y, si lo encuentra, lo elimina usando el repositorio correspondiente.
+- update-user: Define una clase que implementa 'CommandHandler<UpdateUserCommand>', con un constructor que inyecta repositorios para buscar y guardar usuarios. El método 'execute' busca un usuario por nombre de usuario, lanza excepciones si no existe o si el rol es inválido, y actualiza el rol y la contraseña del usuario antes de guardarlo.
+
+**Facades:**
+
+- user-facade: Define un servicio 'UsersFacadeService' en NestJS que utiliza el patrón CQRS, inyectando 'CommandBus' y 'QueryBus'. Proporciona métodos para crear un usuario, comparar una contraseña con un nombre de usuario, y obtener el rol e ID de un usuario por su nombre de usuario, utilizando comandos y consultas para manejar la lógica.
+
+**Ports:**
+
+- create-user: Define una clase abstracta 'CreateUserRepository' que especifica un método 'save', el cual debe ser implementado por las clases concretas para guardar un objeto 'User' y devolverlo como una promesa.
+- find-user: Define una clase abstracta 'FindUsersRepository' que especifica métodos para buscar usuarios: 'findAll', que devuelve una lista de usuarios, y 'findByUsername', que busca un usuario por su nombre de usuario y devuelve el usuario o 'undefined'.
+- remove-user: Define una clase abstracta 'RemoveUserRepository' que especifica un método 'remove', el cual debe ser implementado por las clases concretas para eliminar un objeto User' y devolverlo como una promesa.
+- save-user: Define una clase abstracta 'SaveUserRepository' que especifica un método 'save, el cual debe ser implementado por las clases concretas para guardar un objeto 'User' y devolverlo como una promesa.
+
+**Queries Handler:**
+
+- compare-password: Define un manejador de consulta 'ComparePasswordForUsernameQueryHandler' que implementa 'IQueryHandler'. Inyecta repositorios para buscar usuarios y un servicio de hashing. El método 'execute' busca un usuario por nombre de usuario y compara la contraseña proporcionada con la almacenada, devolviendo 'true' o 'false' según el resultado.
+
+- get-user-by-username: Define un manejador de consulta 'GetUserByUsernameQueryHandler' que implementa 'IQueryHandler'. Inyecta un repositorio para buscar usuarios y su método 'execute' busca un usuario por nombre de usuario, lanzando una excepción si no existe, y devolviendo el objeto 'User' encontrado.
+- get-users: Define un manejador de consulta 'GetUsersQueryHandler' que implementa 'IQueryHandler'. Inyecta un repositorio para buscar usuarios y su método 'execute' devuelve una lista de todos los usuarios al llamar a 'findAll' en el repositorio.
+
+<h4 id='4.2.2.4.'>4.2.2.4. Infrastructure Layer.<h4>
+
+**Entities:**
+
+- User: Define una entidad 'UserEntity' para la tabla 'users' en TypeORM, con propiedades para ID, nombre de usuario (único y en minúsculas), contraseña y rol (con un valor por defecto).
+Enums:
+- Role: Define un enum Role con dos posibles valores: Regular y Admin, representando los roles de usuario en la aplicación.
+Mapper:
+- User: Define una clase 'UserMapper' que convierte entre una entidad de usuario ('UserEntity') y un objeto de dominio ('User'), proporcionando métodos para mapear hacia el dominio y hacia la persistencia en la base de datos.
+Repositories:
+- create-user: Define un constructor que inyecta un repositorio de 'UserEntity', y un método 'save' que convierte un objeto de dominio 'User' a una entidad, la guarda en la base de datos y devuelve el objeto de dominio correspondiente.
+- find-user: Define un constructor que inyecta un repositorio de 'UserEntity' y dos métodos: 'findAll', que recupera todos los usuarios de la base de datos y los convierte a objetos de dominio, y 'findByUsername', que busca un usuario por su nombre de usuario y lo convierte a un objeto de dominio si existe.
+- remove-user: Define un constructor que inyecta un repositorio de 'UserEntity' y un método 'remove' que convierte un objeto de dominio 'User' a una entidad, la elimina de la base de datos y devuelve el objeto de dominio correspondiente.
+- save-user: Define un constructor que inyecta un repositorio de 'UserEntity' y un método 'save' que convierte un objeto de dominio 'User' a una entidad, la guarda en la base de datos y devuelve el objeto de dominio resultante.
+
+<h4 id='4.2.2.5.'>4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.<h4>
+
+A continuación, se presenta el diagrama de componentes asociado al bounded context IAM
+
+<img src='assets/images/chapter_4/iam/iam_component_diagram.png' alt='IAM Component Level Diagram' />
+
+<h4 id='4.2.2.6.'>4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.<h4>
+
+<h5 id='4.2.2.6.1.'>4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.<h5>
+
+A continuación, se presenta el diagrama de clases asociado al bounded context Usuario, el cual incluye las entidades User, Role y UserFactory, así como los manejadores de comandos para la creación, actualización y eliminación de usuarios. Este diagrama resulta de utilidad para expresar visualmente la estructura del sistema en cuanto a clases, atributos, métodos y relaciones.
+
+<img src='assets/images/chapter_4/iam/iam_class_diagram.png' alt='IAM Class Diagram' />
+
+<h5 id='4.2.2.6.2.'>4.2.2.6.2. Bounded Context Database Design Diagram.</h5>
+
+<img src='assets/images/chapter_4/iam/iam_database_diagram.png' alt='IAM Database Diagram' />
+
+<table cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nombre del atributo</th>
+      <th>Descripción del atributo</th>
+      <th>Tipo de dato del atributo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>Identificador del usuario, UUID, primary key</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>username</td>
+      <td>Apodo o nombre con el cual el usuario ingresará a la aplicación</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>password</td>
+      <td>Contraseña del usuario</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>role</td>
+      <td>Rol del usuario dentro de la aplicación</td>
+      <td>varchar(255)</td>
+    </tr>
+  <tbody>
+</table>
+
+<h3 id='4.2.3.'>4.2.3. Bounded Context: Mailling</h3>
+Este bounded context se enfoca en las clases y capas relacionadas con el envío de correos de notificación sobre algún evento importante de notificar relacionado con el proceso de los cultivos de champiñones mediante el uso del servicio externo de Resend AutoML de Azure. A continuación, se detallan los principales componentes de este contexto.
+
+<h4 id='4.2.3.1.'>4.2.3.1. Domain Layer.<h4>
+
+- MaIl: Esta clase representa el correo electrónico que pertenece a un usuario y contiene atributos como id, userId, userHandle, address y domain. Asimismo, cuenta con el método toString que permite unir el address y domain para obtener el correo formateado. 
+  
+- MailTemplate<T:>: Esta clase genérica representa una plantilla de correo electrónico que contiene como atributos id, title, body, y dispone un método que permite obtener el template dado un payload del tipo T el cuál permitirá personalizar más la información que se utilizará.
+  
+- SendEvent: Esta clase representa el evento de envío de correo electrónico que contiene atributos como id, mail, template, createdAt y name.
+
+
+<h4 id='4.2.3.2.'>4.2.3.2. Interface Layer.<h4>
+EmailController: Maneja las solicitudes relacionadas con el envío de correos y la gestión de plantilla y dispone de los siguientes métodos:
+
+- createMail(userHandle: string, address: string, domain: string): Mail
+- createTemplate(id: string, title: string, body: string): MailTemplate
+- sendMail(mail: Mail, template: MailTemplate): SendEvent
+- getMailHistory(userId: string): SendEvent[]
+
+
+<h4 id='4.2.3.3.'>4.2.3.3. Application Layer.<h4>
+
+**Command Handlers:**
+
+Command Handlers:
+-	create-mail: Crea una nueva instancia de Mail.
+- create-template: Crea una nueva instancia de MailTemplate.
+-	send-mail: Utiliza ResendFacade para enviar un correo y crea un nuevo SendEvent.
+
+**Queries Handler:**
+
+-	get-mail-by-id: Obtiene un Mail específico por su ID.
+-	get-template-by-id: Obtiene un MailTemplate específico por su ID.
+-	get-send-events-by-user: Obtiene un array de SendEvent para un usuario específico.
+
+<h4 id='4.2.3.4.'>4.2.3.4. Infrastructure Layer.<h4>
+
+**Repositories:**
+
+-	create-mail: Persiste una nueva instancia de Mail en la base de datos.
+-	create-template: Persiste una nueva instancia de MailTemplate en la base de datos.
+-	create-send-event: Persiste un nuevo SendEvent en la base de datos.
+-	find-mail: Busca y devuelve instancias de Mail basadas en diversos criterios.
+-	find-template: Busca y devuelve instancias de MailTemplate basadas en diversos criterios.
+-	find-send-events: Busca y devuelve SendEvents basados en diversos criterios.
+
+**Services:**
+
+-	ResendFacade: Interactúa con el servicio externo de Resend para gestionar el envío de correos.
+
+**Mappers:**
+
+-	mail-mapper: Convierte entre objetos de dominio Mail y su representación en la capa de persistencia.
+-	template-mapper: Realiza el mapeo entre objetos de dominio MailTemplate y su versión persistente.
+-	send-event-mapper: Mapea objetos SendEvent entre la capa de dominio y la de persistencia.
+
+
+<h4 id='4.2.4.5.'>4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.<h4>
+
+A continuación, se presenta el diagrama de componentes asociado al bounded context Mailling
+
+<img src='assets/images/chapter_4/mailing/mailling_component_diagram.png' alt='Mailling Component Level Diagram' />
+
+<h4 id='4.2.4.6.'>4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.<h4>
+
+<h5 id='4.2.4.6.1.'>4.2.2.4.1. Bounded Context Domain Layer Class Diagrams.<h5>
+
+A continuación, se presenta el diagrama de clases del microservicio encargado de la gestión de notificaciones por correo electrónico. Este diseño incluye las entidades Mail y MailTemplate, las cuales son procesadas a través de la fachada (ResendFacade), que abstrae la interacción con el servicio de Resend, encargado de ejecutar la lógica de envío de correos. Además, se ha implementado un mecanismo para registrar los eventos asociados al envío de correos, con el fin de garantizar una trazabilidad completa, permitiendo un monitoreo detallado del estado de los envíos y de los destinatarios involucrados, optimizando así el seguimiento y análisis del flujo de notificaciones.
+
+<img src='assets/images/chapter_4/mailing/mailling_class_diagram.png' alt='Mailling Class Diagram' />
+
+<h5 id='4.2.4.6.2.'>4.2.4.6.2. Bounded Context Database Design Diagram.</h5>
+
+<img src='assets/images/chapter_4/mailing/mailling_database_diagram.png' alt='Mailling Database Diagram' />
+
+<table cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nombre del atributo</th>
+      <th>Descripción del atributo</th>
+      <th>Tipo de dato del atributo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>Identificador del mail, UUID, primary key</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>user_id</td>
+      <td>Identificador del usuario, UUID</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>user_handle</td>
+      <td>Apodo preferido para el usuario a usar en los correos</td>
+      <td>varchar(32)</td>
+    </tr>
+    <tr>
+      <td>address</td>
+      <td>Dirección del correo electrónico</td>
+      <td>varchar(24)</td>
+    </tr>
+    <tr>
+      <td>domain</td>
+      <td>Dominio del correo electrónico</td>
+      <td>varchar(24)</td>
+    </tr>
+  </tbody>
+</table>
+
+<table cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nombre del atributo</th>
+      <th>Descripción del atributo</th>
+      <th>Tipo de dato del atributo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>Identificador del template, UUID, primary key</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>title</td>
+      <td>Título o asunto que tendrá el correo</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>body</td>
+      <td>Cuerpo del correo que tendrá todo el contenido base que se enviará al usuario</td>
+      <td>varchar(32)</td>
+    </tr>
+  </tbody>
+</table>
+
+<table cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nombre del atributo</th>
+      <th>Descripción del atributo</th>
+      <th>Tipo de dato del atributo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>Identificador del evento de envío de mail, UUID, primary key</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>mail_id</td>
+      <td>Identificador del mail, UUID, foreign key</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>mail_template_id</td>
+      <td>Identificador del template, UUID, foreign key</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td>Nombre personalizado que se le puede dar al evento</td>
+      <td>varchar(32)</td>
+    </tr>
+    <tr>
+      <td>created_at</td>
+      <td>Timestamp del momento en el que el evento fue creado</td>
+      <td>timestamp</td>
+    </tr>
+  </tbody>
+</table>
