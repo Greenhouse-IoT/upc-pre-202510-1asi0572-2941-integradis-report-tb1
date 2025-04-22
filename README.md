@@ -1039,6 +1039,25 @@ El lenguaje ubicuo permite que las personas del negocio, incluso aquellas sin co
 <h1 id='3.'>Capítulo III: Requirements Specification</h1>
 
 <h2 id='3.1.'>3.1. To-Be Scenario Mapping</h2>
+
+Para realizar el To-be Scenario Mapping el equipo determinó cómo se vería el flujo de trabajo 
+luego de que nuestra solución, Greenhouse, haya sido implementada para ambos segmentos 
+objetivos. El objetivo del presente artefacto es comparar y mejorar los aspectos negativos 
+identificados en el As-is Scenario.
+<br>
+### Técnico Supervisor: 
+<img src="assets/images/chapter_3/to_be/tobesupervisor.png" alt="As-is Scenario Mapping supervisor"><br>
+
+Enlace para acceder a la imagen en 
+<a href="https://drive.google.com/file/d/1yVWGNyuPBc9qrRnP36r73_fm8HVVXRoA/view">drive</a>
+<br>
+
+### Administrador: 
+<img src="assets/images/chapter_3/to_be/tobeadmin.png" alt="As-is Scenario Mapping administrador"><br>
+
+Enlace para acceder a la imagen en 
+<a href="https://drive.google.com/file/d/1yVWGNyuPBc9qrRnP36r73_fm8HVVXRoA/view">drive</a>
+
 <h2 id='3.2.'>3.2. User Stories</h2>
 
 | Código | Título | Descripción | Criterios de aceptacion | Epic Relacionada |
