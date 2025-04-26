@@ -1181,6 +1181,31 @@ El escenario presentado a continuación muestra el flujo de los mensajes al mome
 
 <h4 id='4.1.1.3.'>4.1.1.3. Bounded Context Canvases.</h4>
 
+El proceso seguido para elaborar los bounded context canvases fue el siguiente:
+
+1. Definición del Bounded Context
+El primer paso es identificar y delimitar los diferentes Bounded Contexts en el sistema. Estos contextos representan áreas específicas donde los conceptos, reglas y entidades son consistentes. Ejemplos en nuestro sistema incluyen IAM, Personas, Memberships, Crops y Mails.
+
+2. Identificación de Entidades y Agregados
+Dentro de cada contexto, se identifican las entidades y agregados principales. Las entidades son objetos con identidad propia, y los agregados agrupan entidades relacionadas bajo una misma regla de negocio. En Crops, por ejemplo, las entidades incluyen "Cultivo" y "Registro de Cultivo".
+
+3. Relaciones entre Contextos
+Se identifican las relaciones clave entre los diferentes Bounded Contexts, ya sea mediante APIs, eventos o comandos. Por ejemplo, IAM se encarga de la autenticación de los usuarios y es utilizado por los contextos de Personas, Memberships y Crops para autorizar el acceso.
+
+4. Definición de Interfaces de Comunicación
+Las interfaces que permiten la interacción entre los contextos se definen, como APIs o eventos. Por ejemplo, Personas puede emitir un evento cuando se registra un nuevo perfil de usuario, lo cual impacta en IAM para autenticar al usuario.
+
+5. Ubiquitous Language
+Se define un lenguaje común y coherente dentro de cada contexto para asegurar que todos los miembros del equipo compartan los mismos términos y definiciones, como "cultivo" o "calidad del cultivo" en el contexto de Crops.
+
+6. Reglas de Negocio
+Cada contexto tiene reglas que rigen su funcionamiento. Por ejemplo, en Crops, las reglas de negocio incluyen la validación de la calidad del cultivo y el envío de alertas cuando los registros superan umbrales predefinidos.
+
+7. Visualización del Canvas
+Finalmente, toda esta información se representa gráficamente en el Bounded Context Canvas, que incluye el nombre del contexto, las entidades, las relaciones, interfaces, el Ubiquitous Language, las reglas de negocio y los modelos de datos. Esto ayuda a facilitar la comprensión y la comunicación entre los equipos de desarrollo.
+
+A continuación se presentan los bounded context identificados:
+
 <b>Identity and Access Management</b>
 
 En este Bounded Context de IAM, se puede visualizar que para la autenticación y registro de nuestros usuarios hemos hecho un desarrollo propio (custom built), el cual se relaciona con los Bounded Context de Personas, Memberships y Crops que hacen uso del Auth Token para que el usuario pueda hacer uso de sus respectivos servicios.
