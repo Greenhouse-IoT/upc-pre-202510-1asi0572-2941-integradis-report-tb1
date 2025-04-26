@@ -109,87 +109,99 @@ explican las ramas más prominentes:
 
 # Contenido
 1. [**Capítulo I: Introducción.**](#1.) <br>
-1.1. [Startup Profile.](#1.1.) <br>
-1.1.1. [Descripción del startup.](#1.1.1.)<br>
-1.1.2.[Perfiles de los integrantes del equipo.](#1.1.2.)<br>
-1.2. [Solution Profile.](#1.2.)<br>
-1.2.1. [Antecedentes y Problemática.](#1.2.1.)<br>
-1.2.2. [Lean UX Process.](#1.2.2.)<br>
-1.2.2.1. [Lean UX Problem Statements.](#1.2.2.1.)<br>
-1.2.2.2. [Lean UX Assumptions.](#1.2.2.2.)<br>
-1.2.2.3. [Lean UX Hypothesis Statements.](#1.2.2.3.)<br>
-1.2.2.4. [Lean UX Canvas.](#1.2.2.4.)<br>
-1.3. [Segmentos objetivo.](#1.3.)<br>
+- 1.1. [Startup Profile.](#1.1.) <br>
+    - 1.1.1. [Descripción del startup.](#1.1.1.)<br>
+    - 1.1.2.[Perfiles de los integrantes del equipo.](#1.1.2.)<br>
+- 1.2. [Solution Profile.](#1.2.)<br>
+    - 1.2.1. [Antecedentes y Problemática.](#1.2.1.)<br>
+    - 1.2.2. [Lean UX Process.](#1.2.2.)<br>
+        - 1.2.2.1. [Lean UX Problem Statements.](#1.2.2.1.)<br>
+        - 1.2.2.2. [Lean UX Assumptions.](#1.2.2.2.)<br>
+        - 1.2.2.3. [Lean UX Hypothesis Statements.](#1.2.2.3.)<br>
+        - 1.2.2.4. [Lean UX Canvas.](#1.2.2.4.)<br>
+- 1.3. [Segmentos objetivo.](#1.3.)<br>
 2. [**Capítulo II: Requirements Elicitation & Analysis.**](#2.)<br>
-2.1. [Competidores.](#2.1.)<br>
-2.1.1. [Análisis competitivo.](#2.1.1.)<br>
-2.1.2. [Estrategias y tácticas frente a competidores.](#2.1.2.)<br>
-2.2. [Entrevistas.](#2.2.)<br>
-2.2.1. [Diseño de entrevistas.](#2.2.1.)<br>
-2.2.2. [Registro de entrevistas.](#2.2.2.)<br>
-2.2.3. [Análisis de entrevistas.](#2.2.3.)<br>
-2.3. [Needfinding.](#2.3.)<br>
-2.3.1. [User Personas.](#2.3.1.)<br>
-2.3.2. [User Task Matrix.](#2.3.2.)<br>
-2.3.3. [User Journey Mapping.](#2.3.3.)<br>
-2.3.4. [Empathy Mapping.](#2.3.4.)<br>
-2.3.5. [As-is Scenario Mapping.](#2.3.5.)<br>
-2.4. [Ubiqutous Language.](#2.4.)<br>
+- 2.1. [Competidores.](#2.1.)<br>
+    - 2.1.1. [Análisis competitivo.](#2.1.1.)<br>
+    - 2.1.2. [Estrategias y tácticas frente a competidores.](#2.1.2.)<br>
+- 2.2. [Entrevistas.](#2.2.)<br>
+    - 2.2.1. [Diseño de entrevistas.](#2.2.1.)<br>
+    - 2.2.2. [Registro de entrevistas.](#2.2.2.)<br>
+    - 2.2.3. [Análisis de entrevistas.](#2.2.3.)<br>
+- 2.3. [Needfinding.](#2.3.)<br>
+    - 2.3.1. [User Personas.](#2.3.1.)<br>
+    - 2.3.2. [User Task Matrix.](#2.3.2.)<br>
+    - 2.3.3. [User Journey Mapping.](#2.3.3.)<br>
+    - 2.3.4. [Empathy Mapping.](#2.3.4.)<br>
+    - 2.3.5. [As-is Scenario Mapping.](#2.3.5.)<br>
+- 2.4. [Ubiqutous Language.](#2.4.)<br>
 3. [**Capítulo III: Requirements Specification.**](#3.)<br>
-3.1. [To-Be Scenario Mapping.](#3.1.)<br>
-3.2. [User Stories.](#3.2.)<br>
-3.3. [Impact Mapping.](#3.3.)<br>
-3.4. [Product Backlog.](#3.4.)<br>
+- 3.1. [To-Be Scenario Mapping.](#3.1.)<br>
+- 3.2. [User Stories.](#3.2.)<br>
+- 3.3. [Impact Mapping.](#3.3.)<br>
+- 3.4. [Product Backlog.](#3.4.)<br>
 4. [**Capítulo IV: Solution Software Design.**](#4.)<br>
-4.1. [Strategic-Level Domain-Driven Design.](#4.1.)<br>
-4.1.1. [EventStorming.](#4.1.1.)<br>
-4.1.1.1. [Candidate Context Discovery.](#4.1.1.1.)<br>
-4.1.1.2. [Domain Message Flows Modeling.](#4.1.1.2.)<br>
-4.1.1.3. [Bounded Context Canvases.](#4.1.1.3.)<br>
-4.1.2. [Context Mapping.**](#4.1.2.)<br>
-4.1.3. [Software Architecture.](#4.1.3.)<br>
-4.1.3.1. [Software Architecture System Landscape Diagram.](#4.1.3.1.)<br>
-4.1.3.2. [Software Architecture Context Level Diagrams.](#4.1.3.2.)<br>
-4.1.3.3. [Software Architecture Container Level Diagrams.](#4.1.3.3.)<br>
-4.1.3.4. [Software Architecture Deployment Diagrams.](#4.1.3.4.)<br>
-4.2. [Tactical-Level Domain-Driven Design.](#4.2.)<br>
-4.2.1. [Bounded Context: Crops](#4.2.1.)<br>
-4.2.1.1. [Domain Layer.](#4.2.1.1.)<br>
-4.2.1.2. [Interface Layer.](#4.2.1.2.)<br>
-4.2.1.3. [Application Layer.](#4.2.1.3.)<br>
-4.2.1.4. [Infrastructure Layer.](#4.2.1.4.)<br>
-4.2.1.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.1.5.)<br>
-4.2.1.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.1.6.)<br>
-4.2.1.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.1.6.1.)<br>
-4.2.1.6.2. [Bounded Context Database Design Diagram.](#4.2.1.6.1.)<br>
-4.2.2. [Bounded Context: IAM](#4.2.2.)<br>
-4.2.2.1. [Domain Layer.](#4.2.2.1.)<br>
-4.2.2.2. [Interface Layer.](#4.2.2.2.)<br>
-4.2.2.3. [Application Layer.](#4.2.2.3.)<br>
-4.2.2.4. [Infrastructure Layer.](#4.2.2.4.)<br>
-4.2.2.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.2.5.)<br>
-4.2.2.6. [Bounded Context Software Architecture Code Level Diagrams.**](#4.2.2.6.)<br>
-4.2.2.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.2.6.1.)<br>
-4.2.2.6.2. [Bounded Context Database Design Diagram.](#4.2.2.6.2.)<br>
-4.2.3. [Bounded Context: Mailling**](#4.2.3.)<br>
-4.2.3.1. [Domain Layer.**](#4.2.3.1.)<br>
-4.2.3.2. [Interface Layer.**](#4.2.3.2.)<br>
-4.2.3.3. [Application Layer.**](#4.2.3.3.)<br>
-4.2.3.4. [Infrastructure Layer.**](#4.2.3.4.)<br>
-4.2.3.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.3.5.)<br>
-4.2.3.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.3.6.)<br>
-4.2.3.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.3.6.1.)<br>
-4.2.3.6.2. [Bounded Context Database Design Diagram.](#4.2.3.6.2.)<br>
-4.2.4. [Bounded Context: Memberships](#4.2.4.)<br>
-4.2.4.1. [Domain Layer.](#4.2.4.1.)<br>
-4.2.4.2. [Interface Layer.](#4.2.4.2.)<br>
-4.2.4.3. [Application Layer.](#4.2.4.3.)<br>
-4.2.4.4. [Infrastructure Layer.](#4.2.4.4.)<br>
-4.2.4.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.4.5.)<br>
-4.2.4.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.4.6.)<br>
-4.2.4.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.4.6.1.)<br>
-4.2.4.6.2. [Bounded Context Database Design Diagram.](#4.2.4.6.2.)<br>
+- 4.1. [Strategic-Level Domain-Driven Design.](#4.1.)<br>
+    - 4.1.1. [EventStorming.](#4.1.1.)<br>
+        - 4.1.1.1. [Candidate Context Discovery.](#4.1.1.1.)<br>
+        - 4.1.1.2. [Domain Message Flows Modeling.](#4.1.1.2.)<br>
+        - 4.1.1.3. [Bounded Context Canvases.](#4.1.1.3.)<br>
+    - 4.1.2. [Context Mapping.](#4.1.2.)<br>
+    - 4.1.3. [Software Architecture.](#4.1.3.)<br>
+        - 4.1.3.1. [Software Architecture System Landscape Diagram.](#4.1.3.1.)<br>
+        - 4.1.3.2. [Software Architecture Context Level Diagrams.](#4.1.3.2.)<br>
+        - 4.1.3.3. [Software Architecture Container Level Diagrams.](#4.1.3.3.)<br>
+        - 4.1.3.4. [Software Architecture Deployment Diagrams.](#4.1.3.4.)<br>
+- 4.2. [Tactical-Level Domain-Driven Design.](#4.2.)<br>
+    - 4.2.1. [Bounded Context: Crops](#4.2.1.)<br>
+        - 4.2.1.1. [Domain Layer.](#4.2.1.1.)<br>
+        - 4.2.1.2. [Interface Layer.](#4.2.1.2.)<br>
+        - 4.2.1.3. [Application Layer.](#4.2.1.3.)<br>
+        - 4.2.1.4. [Infrastructure Layer.](#4.2.1.4.)<br>
+        - 4.2.1.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.1.5.)<br>
+        - 4.2.1.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.1.6.)<br>
+            - 4.2.1.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.1.6.1.)<br>
+            - 4.2.1.6.2. [Bounded Context Database Design Diagram.](#4.2.1.6.1.)<br>
+    - 4.2.2. [Bounded Context: IAM](#4.2.2.)<br>
+        - 4.2.2.1. [Domain Layer.](#4.2.2.1.)<br>
+        - 4.2.2.2. [Interface Layer.](#4.2.2.2.)<br>
+        - 4.2.2.3. [Application Layer.](#4.2.2.3.)<br>
+        - 4.2.2.4. [Infrastructure Layer.](#4.2.2.4.)<br>
+        - 4.2.2.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.2.5.)<br>
+        - 4.2.2.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.2.6.)<br>
+            - 4.2.2.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.2.6.1.)<br>
+            - 4.2.2.6.2. [Bounded Context Database Design Diagram.](#4.2.2.6.2.)<br>
+    - 4.2.3. [Bounded Context: Mailling](#4.2.3.)<br>
+        - 4.2.3.1. [Domain Layer.](#4.2.3.1.)<br>
+        - 4.2.3.2. [Interface Layer.](#4.2.3.2.)<br>
+        - 4.2.3.3. [Application Layer.](#4.2.3.3.)<br>
+        - 4.2.3.4. [Infrastructure Layer.](#4.2.3.4.)<br>
+        - 4.2.3.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.3.5.)<br>
+        - 4.2.3.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.3.6.)<br>
+            - 4.2.3.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.3.6.1.)<br>
+            - 4.2.3.6.2. [Bounded Context Database Design Diagram.](#4.2.3.6.2.)<br>
+    - 4.2.4. [Bounded Context: Memberships](#4.2.4.)<br>
+        - 4.2.4.1. [Domain Layer.](#4.2.4.1.)<br>
+        - 4.2.4.2. [Interface Layer.](#4.2.4.2.)<br>
+        - 4.2.4.3. [Application Layer.](#4.2.4.3.)<br>
+        - 4.2.4.4. [Infrastructure Layer.](#4.2.4.4.)<br>
+        - 4.2.4.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.4.5.)<br>
+        - 4.2.4.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.4.6.)<br>
+          - 4.2.4.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.4.6.1.)<br>
+          - 4.2.4.6.2. [Bounded Context Database Design Diagram.](#4.2.4.6.2.)<br>
+    - 4.2.5. [Bounded Context: IoT](#4.2.5.)<br>
+        - 4.2.5.1. [Domain Layer.](#4.2.5.1.)<br>
+        - 4.2.5.2. [Interface Layer.](#4.2.5.2.)<br>
+        - 4.2.5.3. [Application Layer.](#4.2.5.3.)<br>
+        - 4.2.5.4. [Infrastructure Layer.](#4.2.5.4.)<br>
+        - 4.2.5.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.5.5.)<br>
+        - 4.2.5.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.5.6.)<br>
+          - 4.2.5.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.5.6.1.)<br>
+          - 4.2.5.6.2. [Bounded Context Database Design Diagram.](#4.2.5.6.2.)<br>
 
+[**Conclusiones.**](#conclusiones)<br>
+[**Bibliografía.**](#referencias)<br>
+[**Anexos.**](#referencias)<br>
 
 # Student Outcome
 
@@ -2242,3 +2254,5 @@ Chakraborty, A., Bhattacharjee, A., Ghadge, H. L., Mawley, D., Paulzagde, A., & 
 Kusuma, M., Rifani, A. H., & Sugiantoro, B. (2023). Comparison analysis of Jetpack Compose and Flutter in Android-based application development using Technical Domain. In Eighth International Conference on Informatics and Computing (ICIC) (pp. 1-5). Manado, Indonesia. https://ieeexplore.ieee.org/document/10381987 
 
 Wangereka, H. (2024). Mastering Kotlin for Android 14: Build powerful Android apps from scratch using Jetpack libraries and Jetpack Compose. Packt Publishing. https://ieeexplore.ieee.org/document/10522576 
+
+<h1 id='anexos'>Anexos</h1>
