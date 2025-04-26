@@ -315,19 +315,19 @@ A partir de lo anterior, resulta posible plantear la principal interrogante que 
 
 **Creemos que** nuestros usuarios necesitan una forma más eficiente de registrar y monitorear los procesos productivos implicados en el cultivo industrial de champiñones.
 
-**Estas necesidades se pueden resolver con** el desarrollo de una plataforma móvil que permitirá el acceso oportuno y confiable a los datos registrados por el personal técnico y administrativo de las fábricas champiñoneras del Perú.
+**Estas necesidades se pueden resolver con** el desarrollo de una plataforma móvil y web que integre tecnologías IoT y que permita el acceso oportuno y confiable a la documentación de procesos en las fábricas champiñoneras del Perú.
 
-**El valor #1 que mi cliente quiere de mi servicio es** registrar los insumos relevantes involucrados en cada fase productiva dentro del cultivo de champiñones y visualizar los datos relacionados a los procesos registrados a lo largo del tiempo.
+**El valor #1 que mi cliente quiere de mi servicio es** registrar las actividades y medición de parámetros involucrados en cada fase productiva dentro del cultivo de champiñones y visualizar los datos relacionados a los procesos registrados a lo largo del tiempo.
 
-**El cliente también puede obtener beneficios adicionales como** retroceder la fase de un cultivo en progreso y que se muestre la información registrada (Administradores y técnicos). Poder modificar los registros (Administradores). Modificar la fase de un cultivo en progreso (Administradores). Notificar el cambio de fase (Administradores). Mostrar un gráfico comparativo al finalizar cada fase.
+**El cliente también puede obtener beneficios adicionales como** disminuir la intervención humana en la medición de parámetros ambientales en cuartos de cultivo. Notificar a los administradores en caso de que los trabajadores deseen realizar cambios o correcciones a la información documentada.
 
-**Voy a adquirir la mayoría de mis clientes** mediante publicidad en redes sociales y campañas de retención en las fábricas del sector productivo de champiñones en el Perú. Así como promociones y muestras gratuitas.
+**Voy a adquirir la mayoría de mis clientes** mediante publicidad en redes sociales y campañas de retención en las fábricas del sector productivo de champiñones en el Perú.
 
 **Haré dinero a través de** un modelo de suscripción de diferentes categorías para el uso de la aplicación por parte de las empresas.
 
 **Mi competencia principal en el mercado serán** las plataformas propias de agroempresas direccionadas al monitoreo o control de cultivos agrícolas.
 
-**Los venceremos debido a** que nuestra plataforma incluye el registro de procesos productivos de cultivos a partir de la segmentación de fases involucradas en el desarrollo exclusivamente de la industria de champiñones.
+**Los venceremos debido a** que nuestra plataforma incluye el registro de procesos productivos de cultivos a partir de la segmentación de fases involucradas en el desarrollo exclusivamente de la industria de champiñones, y a través de la automatización del monitoreo de parámetros ambientales a través de tecnología IoT.
 
 **El mayor riesgo es** que el segmento objetivo no se muestre dispuesto e interesado en automatizar los procesos productivos de cultivo. Las razones vendrían a ser de un contexto interno social: problemas de adaptación, pensamiento estático y dificultad en el manejo de herramientas tecnológicas.
 
