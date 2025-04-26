@@ -53,6 +53,10 @@
 | 1.3     | 6/04/2025 | Galavis Du Bois, Alan Enrique | Redacción de solution profile, antecedentes y problemática |
 | 1.4    | 8/04/2025 | Galavis Du Bois, Alan Enrique | Redacción de ubiqutous language y bounded context IAM |
 | 1.5    | 13/04/2025 | Seminario Garbín, Carlo Luca | Redacción de perfil de integrante del equipo, software architecture diagrams y bounded context mailing |
+| 1.6    | 15/04/2025 | Soto Kong Requena, Andrés Eduardo | Elaboración de lean UX problem statements, lean UX assumptions, lean UX hypothesis statements y software architecture diagrams y bounded context mailing |
+| 1.7    | 20/04/2025 | Espinoza Rodríguez Nicolas Antonio | Elaboración de software architechture diagrams y bounded context crops |
+| 1.8    | 25/04/2025 | Seminario Garbín, Carlo Luca <br> Espinoza Rodríguez Nicolas Antonio | Elaboración de software architechture diagrams y bounded context IoT |
+| 1.9    | 26/04/2025 | Galavis Du Bois, Alan Enrique <br> | Redacción de Project Report Collaboration Insights, redacción de Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases, Context Mapping |
 
 # Project Report Collaboration Insights
 
@@ -67,8 +71,8 @@ Link para acceder al repositorio en GitHub: [https://github.com/Greenhouse-IoT/u
 | ----------------------------------- | ---------------- |
 | Astuyauri Calderon, Jherson David   | Redacción de perfil de integrante del equipo, competidores, análisis competitivo, estrategias y tácticas frente a competidores, entrevistas, user personas, user task matrix, user journey mapping, empathy mapping, as-is scenario mapping, to-be scenario mapping |
 | Espinoza Rodríguez, Nicolás Antonio | Redacción de perfil de integrante del equipo, Strategic-Level Domain-Driven Design, EventStorming, Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases, Context Mapping, Bounded Context Crops |
-| Galavis Du Bois, Alan Enrique       | Redacción de perfil de integrante del equipo, descripción del startup, solution profile, antecedentes y problemática, ubiqutous language, user stories, product backlog, bouded context IAM |
-| Seminario Garbin, Carlo Luca        | Redacción de perfil de integrante del equipo, impact mapping, software architechture system landscape diagram, software architecture context level diagrams, software architecture container level diagrams, software architecture deployment diagrams, bounded context mailing |
+| Galavis Du Bois, Alan Enrique       | Redacción de perfil de integrante del equipo, descripción del startup, solution profile, antecedentes y problemática, ubiqutous language, user stories, product backlog, bouded context IAM e IoT |
+| Seminario Garbin, Carlo Luca        | Redacción de perfil de integrante del equipo, impact mapping, software architechture system landscape diagram, software architecture context level diagrams, software architecture container level diagrams, software architecture deployment diagrams, bounded context mailing e IoT |
 | Soto Kong Requena, Andrés Eduardo   | Redacción de perfil de integrante del equipo, lean UX problem statements, lean UX assumptions, lean UX hypothesis statements, lean UX, segmentos objetivo, bounded context memberships |
 
 ## GitHub Collaboration Insights
@@ -79,8 +83,16 @@ GitHub Collaboration proporciona analíticas de los commits realizados por las c
 - CarloLSG (Carlo Seminario)
 - asotito231 (Andrés Soto)
 
+A continuación, se presentan evidencias de la colaboración de los integrantes a partir de los gráficos otorgados por GitHub Collaboration.
+
+**TB1:**
+
+<img src="assets/images/collaboration_insights/tb1/collaboration_graph_tb1.png" alt="TB1 collaboration graph" />
+
+<img src="assets/images/collaboration_insights/tb1/contributors_graph_tb1.png" alt="TB1 contributors graph" />
+
 Adicionalmente, GitHub presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las ramas se
-crearon tomando en cuenta el diseño de GitFlow para una buena organización cuando se usa un soware de control de versiones. Se
+crearon tomando en cuenta el diseño de GitFlow para una buena organización cuando se usa un software de control de versiones. Se
 explican las ramas más prominentes:
 
 - main: Es representada por el color negro. Se trata de la rama principal del proyecto y se actualiza para cada entregable.
@@ -90,9 +102,10 @@ explican las ramas más prominentes:
 - capitulo-3: Incluye el contenido del capítulo 3 del informe.
 - capitulo-4: Incluye el contenido del capítulo 4 del informe.
 
-A continuación, se presentan evidencias de la colaboración de los integrantes a partir de los gráficos otorgados por GitHub Collaboration.
-
 **TB1:**
+
+<img src="assets/images/collaboration_insights/tb1/network_graph_tb1.png" alt="TB1 network graph" />
+
 
 # Contenido
 1. [**Capítulo I: Introducción.**](#1.) <br>
