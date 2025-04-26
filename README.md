@@ -1211,7 +1211,11 @@ Este Bounded Context se encarga del envío de correos para permitir lograr que e
 
 <img src="assets/images/chapter_4/bounded_context_canvases/mails_canvas.png"/>
 
-iot
+<b>IoT</b>
+
+Este Bounded Context se encarga de recopilar la información de los sensores mediante dispositivos IoT para así luego determinar las acciones de los actuadores y a su vez enviar la información a la base de datos para su monitoreo logrando así automatizar el registro manual de dichos cultivos.
+
+<img src="assets/images/chapter_4/bounded_context_canvases/iot_canvas.png"/>
 
 <h3 id='4.1.2.'>4.1.2. Context Mapping.</h3>
 
