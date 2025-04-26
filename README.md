@@ -56,6 +56,11 @@
 
 # Project Report Collaboration Insights
 
+
+El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización Integradis.
+
+Link para acceder al repositorio en GitHub: [https://github.com/Greenhouse-IoT/upc-pre-202510-1asi0572-2941-integradis-report-tb1](https://github.com/Greenhouse-IoT/upc-pre-202510-1asi0572-2941-integradis-report-tb1)
+
 ### TB1
 
 | Integrante                          | Tareas Asignadas |
@@ -65,6 +70,29 @@
 | Galavis Du Bois, Alan Enrique       | Redacción de perfil de integrante del equipo, descripción del startup, solution profile, antecedentes y problemática, ubiqutous language, user stories, product backlog, bouded context IAM |
 | Seminario Garbin, Carlo Luca        | Redacción de perfil de integrante del equipo, impact mapping, software architechture system landscape diagram, software architecture context level diagrams, software architecture container level diagrams, software architecture deployment diagrams, bounded context mailing |
 | Soto Kong Requena, Andrés Eduardo   | Redacción de perfil de integrante del equipo, lean UX problem statements, lean UX assumptions, lean UX hypothesis statements, lean UX, segmentos objetivo, bounded context memberships |
+
+## GitHub Collaboration Insights
+GitHub Collaboration proporciona analíticas de los commits realizados por las cuentas de los integrantes del equipo. Estas cuentas son:
+- JHS-Sama24 (Jherson Astuyauri)
+- trabajosUPC-AlanGalavis (Alan Galavis)
+- EspinozaNaer (Nicolás Espinoza)
+- CarloLSG (Carlo Seminario)
+- asotito231 (Andrés Soto)
+
+Adicionalmente, GitHub presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las ramas se
+crearon tomando en cuenta el diseño de GitFlow para una buena organización cuando se usa un soware de control de versiones. Se
+explican las ramas más prominentes:
+
+- main: Es representada por el color negro. Se trata de la rama principal del proyecto y se actualiza para cada entregable.
+- develop: Se trata de la rama principal para el proceso del desarrollo del proyecto. Sobre esta rama se hace merge de todos los capítulos, se resuelven conflictos y se corrobora que no haya ningún error.
+- capitulo-1: Incluye el contenido del capítulo 1 del informe.
+- capitulo-2: Incluye el contenido del capítulo 2 del informe.
+- capitulo-3: Incluye el contenido del capítulo 3 del informe.
+- capitulo-4: Incluye el contenido del capítulo 4 del informe.
+
+A continuación, se presentan evidencias de la colaboración de los integrantes a partir de los gráficos otorgados por GitHub Collaboration.
+
+**TB1:**
 
 # Contenido
 1. [**Capítulo I: Introducción.**](#1.) <br>
