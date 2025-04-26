@@ -1153,25 +1153,31 @@ El proceso de Domain Message Flow Modeling permite identificar las interacciones
 
 El siguiente flujo evidencia el proceso que atraviesan los usuarios administradores de las fábricas al crear una cuenta dentro de la aplicación Greenhouse. En primer lugar, los usuarios acceden a la aplicación web o mobile para ingresar sus datos personales, la información de la empresa que desean registrar y seleccionan la subscripción que desean. A continuación, el sistema registrará las credenciales del usuario, creará una nueva cuenta de administrador y una subscripción vinculada a la cuenta.
 
-Insertar Imagen Actualizada
+<img src="assets/images/chapter_4/domain_message_flows_modeling/scenario1.png" alt="Scenario: Factory Owner creates an account"/>
 
 <b>2. Scenario: Factory owner creates an employee account</b>
 
 La imagen presentada a continuación evidencia el flujo que atraviesan los mensajes cuando el administrador de la fábrica crea una cuenta de usuario para uno de sus trabajadores. En primer lugar, el administrador ingresa a la aplicación web o móvil e ingresa las credenciales del trabajador que desea crear. Finalmente, la aplicación registra las información ingresada y crea la cuenta del nuevo trabajador.
 
-Insertar Imagen Actualizada
+<img src="assets/images/chapter_4/domain_message_flows_modeling/scenario2.png" alt="Factory owner creates an employee account"/>
 
 <b>3. Scenario: Technician starts a new crop </b>
 
-El escenario presentado a continuación muestra el flujo de los mensajes al momento de iniciar un nuevo cultivo en Greenhouse. En primer lugar, los técnicos supervisores ingresan a la aplicación web o mobile, y realizan una solicitud de creación de cultivo. A continuación, el sistema asigna la información necesaria (Como un ID único, fecha de inicio, y fase actual), lo almacena en la base de datos, y firma con esa misma información el contrato inteligente.
+El escenario presentado a continuación muestra el flujo de los mensajes al momento de iniciar un nuevo cultivo en Greenhouse. En primer lugar, los técnicos supervisores ingresan a la aplicación web o mobile, y realizan una solicitud de creación de cultivo. A continuación, el sistema asigna la información necesaria (Como un ID único, fecha de inicio, y fase actual), lo almacena en la base de datos.
 
-Insertar Imagen Actualizada
+<img src="assets/images/chapter_4/domain_message_flows_modeling/scenario3.png" alt="Technician starts a new crop"/>
 
 <b>4. Scenario: Technician registers a new record </b>
 
-El escenario presentado a continuación muestra el flujo de los mensajes al momento de agregar un nuevo registro a un cultivo existente en Greenhouse. En primer lugar, los técnicos supervisores ingresan a la aplicación web o mobile, y realizan una solicitud de registro de información. A continuación, el sistema asigna la información necesaria (Como un ID único, fecha del registro, autor), le concatena la información escrita por el usuario (parámetros ambientales, actividades o comentarios) finalmente, lo almacena en la base de datos, y firma con esa misma información el contrato inteligente.
+El escenario presentado a continuación muestra el flujo de los mensajes al momento de agregar un nuevo registro a un cultivo existente en Greenhouse. En primer lugar, los técnicos supervisores ingresan a la aplicación web o mobile, y realizan una solicitud de registro de información. A continuación, el sistema asigna la información necesaria (Como un ID único, fecha del registro, autor), le concatena la información escrita por el usuario (parámetros ambientales, actividades o comentarios) finalmente, lo almacena en la base de datos.
 
-Insertar Imagen Actualizada
+<img src="assets/images/chapter_4/domain_message_flows_modeling/scenario4.png" alt="Scenario: Technician registers a new record"/>
+
+<b>5. Scenario: IoT device registers a new record </b>
+
+El escenario presentado a continuación muestra el flujo de los mensajes al momento de agregar un nuevo registro a un cultivo existente en Greenhouse mediante el dispositivo IoT. En primer lugar, los sensores obtienen las información necesaria (Como un ID único, fecha del registro, autor), le concatena la información escrita por el usuario (parámetros ambientales, actividades o comentarios) para luego pasarla al servicio de IoT y así registrarlo finalmente en crops, lo almacena en la base de datos.
+
+<img src="assets/images/chapter_4/domain_message_flows_modeling/scenario5.png" alt="Scenario: IoT device registers a new record"/>
 
 <h4 id='4.1.1.3.'>4.1.1.3. Bounded Context Canvases.</h4>
 
