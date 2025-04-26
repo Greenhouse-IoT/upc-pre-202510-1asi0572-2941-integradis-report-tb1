@@ -1,6 +1,6 @@
 <h3 align="center">Universidad Peruana de Ciencias Aplicadas - Ingeniería de Software - 2025-10</h3>
 <div align="center">
-  <img width=140 src="https://seeklogo.com/images/U/universidad-peruana-de-ciencias-aplicadas-upc-logo-B98C3A365C-seeklogo.com.png"/>
+  <img width=140 src="assets/images/icons/upclogo.png"/>
 </div>
 <h3 align="center">1ASI0572 - Desarrollo de Soluciones IOT</h3>
 <h3 align="center">NRC: 2941</h3>
@@ -235,7 +235,7 @@ Valores:
 | Foto | Nombres y apellidos | Código de alumno | Carrera | Descripción |
 |----- | --------------------|------------------| --------| ------------|
 | <img src="assets/images/chapter_1/team_members/JhersonAstuyauri.jpg" alt="Jherson Astuyauri" width="700" /> | **Jherson David Astuyauri Calderón** | U202218451 | Ingeniería de Software | Hola, soy Jherson Astuyauri. Tengo 20 años y actualmente curso el séptimo ciclo de la carrera de Ingeniería de Software. Elegí esta carrera porque me apasiona la tecnología y su impacto en la evolución del mundo, así como en la mejora de la calidad de vida de las personas. Actualmente, me interesan especialmente las áreas de inteligencia artificial y ciberseguridad. Puedo aportar al equipo con los conocimientos técnicos que he adquirido a lo largo de los cursos previos, además de mi capacidad para trabajar en equipo de manera efectiva, con una actitud proactiva y responsabilidad. |
-| | **Nicolás Antonio Espinoza Rodríguez** | U202110278 | Ingeniería de Software |Mi nombre es Nicolás Espinoza. Tengo 20 años y estoy estudiando la carrera de ingeniería de software en la UPC desde el año 2021. Soy una persona creativa e imaginativa, lo que me ayuda a aportar soluciones para resolver los problemas en común. También, me considero empático y colaborativo, lo que facilita el trabajo en equipo con mis compañeros. Finalmente, me considero una persona ordenada y con ambición, lo que ayuda a trazar metas posibles y significativas para la solución que queremos presentar como equipo. Soy competente en los lenguajes de programación C++, Python y Javascript. Además, tengo conocimiento de tecnologías ágiles y software de control de versiones. |
+| <img src="assets/images/chapter_1/team_members/NicolasEspinoza.jpg" alt="Jherson Astuyauri" width="700" />  | **Nicolás Antonio Espinoza Rodríguez** | U202110278 | Ingeniería de Software |Mi nombre es Nicolás Espinoza. Tengo 21 años y estoy estudiando la carrera de ingeniería de software en la UPC desde el año 2021. Soy una persona creativa e imaginativa, lo que me ayuda a aportar soluciones para resolver los problemas en común. También, me considero empático y colaborativo, lo que facilita el trabajo en equipo con mis compañeros. Finalmente, me considero una persona ordenada y con ambición, lo que ayuda a trazar metas posibles y significativas para la solución que queremos presentar como equipo. Soy competente en los lenguajes de programación C++, Python y Javascript. Además, tengo conocimiento de tecnologías ágiles y software de control de versiones. |
 | <img src="assets/images/chapter_1/team_members/AlanGalavis.jpg" alt="Alan Galavis" width="700" /> | **Alan Enrique Galavís Du Bois** | U202110223 | Ingeniería de Software | Mi nombre es Alan Galavis, tengo 21 años y actualmente curso el noveno ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Mi formación académica se ha centrado en el diseño y desarrollo de proyectos de alta calidad, desde simples landing pages hasta aplicaciones web y móviles con RESTful APIs. Para este proyecto puedo aportar con mi capacidad de crear un software eficiente y escalable que brinda las mejores experiencias de usuario. Mi compromiso y conocimientos en gestión de proyectos ágiles me permiten colaborar de manera exitosa en equipos de trabajo. |
 | <img src="assets/images/chapter_1/team_members/CarloSeminario.jpg" alt="Carlo Seminario" width="700" /> | **Carlo Luca Seminario Garbín** | U20211A475 | Ingeniería de Software | Mi nombre es Carlo Luca Seminario, tengo 21 años de edad y actualmente curso el noveno ciclo de la carrera de ingeniería de software en la Universidad Peruana de Ciencias Aplicadas (UPC). Considero que soy una persona que es capaz de trabajar bajo presión, además de ser responsable y perseverante. En cuanto a cualidades para la realización del trabajo considero que soy bueno identificando problemáticas y buscando soluciones, a lo que le puedo sumar los conocimientos adquiridos en cursos de programación y prácticas|
 | | **Andrés Eduardo Soto Kong Requena** | U202116113 | Ingeniería de Software | Soy Andres Soto, tengo 21 años. Me encuentro cursando el 9no ciclo de la carrera de ingenieria de software en la Universidad Peruana de Ciencias Aplicadas (UPC). Adicionalmente me encuentro trabajando como desarrollador de componentes para una plataforma CRM. Considero que tengo habilidades de comunicacion y desarrollo de problemas. Por otro lado me gusta desarrollar aplicaciones web dentro de mi tiempo libre. |
@@ -315,19 +315,19 @@ A partir de lo anterior, resulta posible plantear la principal interrogante que 
 
 **Creemos que** nuestros usuarios necesitan una forma más eficiente de registrar y monitorear los procesos productivos implicados en el cultivo industrial de champiñones.
 
-**Estas necesidades se pueden resolver con** el desarrollo de una plataforma móvil que permitirá el acceso oportuno y confiable a los datos registrados por el personal técnico y administrativo de las fábricas champiñoneras del Perú.
+**Estas necesidades se pueden resolver con** el desarrollo de una plataforma móvil y web que integre tecnologías IoT y que permita el acceso oportuno y confiable a la documentación de procesos en las fábricas champiñoneras del Perú.
 
-**El valor #1 que mi cliente quiere de mi servicio es** registrar los insumos relevantes involucrados en cada fase productiva dentro del cultivo de champiñones y visualizar los datos relacionados a los procesos registrados a lo largo del tiempo.
+**El valor #1 que mi cliente quiere de mi servicio es** registrar las actividades y medición de parámetros involucrados en cada fase productiva dentro del cultivo de champiñones y visualizar los datos relacionados a los procesos registrados a lo largo del tiempo.
 
-**El cliente también puede obtener beneficios adicionales como** retroceder la fase de un cultivo en progreso y que se muestre la información registrada (Administradores y técnicos). Poder modificar los registros (Administradores). Modificar la fase de un cultivo en progreso (Administradores). Notificar el cambio de fase (Administradores). Mostrar un gráfico comparativo al finalizar cada fase.
+**El cliente también puede obtener beneficios adicionales como** disminuir la intervención humana en la medición de parámetros ambientales en cuartos de cultivo. Notificar a los administradores en caso de que los trabajadores deseen realizar cambios o correcciones a la información documentada.
 
-**Voy a adquirir la mayoría de mis clientes** mediante publicidad en redes sociales y campañas de retención en las fábricas del sector productivo de champiñones en el Perú. Así como promociones y muestras gratuitas.
+**Voy a adquirir la mayoría de mis clientes** mediante publicidad en redes sociales y campañas de retención en las fábricas del sector productivo de champiñones en el Perú.
 
 **Haré dinero a través de** un modelo de suscripción de diferentes categorías para el uso de la aplicación por parte de las empresas.
 
 **Mi competencia principal en el mercado serán** las plataformas propias de agroempresas direccionadas al monitoreo o control de cultivos agrícolas.
 
-**Los venceremos debido a** que nuestra plataforma incluye el registro de procesos productivos de cultivos a partir de la segmentación de fases involucradas en el desarrollo exclusivamente de la industria de champiñones.
+**Los venceremos debido a** que nuestra plataforma incluye el registro de procesos productivos de cultivos a partir de la segmentación de fases involucradas en el desarrollo exclusivamente de la industria de champiñones, y a través de la automatización del monitoreo de parámetros ambientales a través de tecnología IoT.
 
 **El mayor riesgo es** que el segmento objetivo no se muestre dispuesto e interesado en automatizar los procesos productivos de cultivo. Las razones vendrían a ser de un contexto interno social: problemas de adaptación, pensamiento estático y dificultad en el manejo de herramientas tecnológicas.
 
@@ -1898,3 +1898,25 @@ Se muestra el diagrama de clases con las clases y métodos explicados en las ant
   </tbody>
 </table>
 
+<h1 id='conclusiones'>Conclusiones</h1>
+El desarrollo de los problem statements y assumptions demostró aproximarse bastante al comportamiento de nuestros segmentos objetivos de arrendador y arrendatario. Esto se debió a un correcto análisis (previo a la realización de entrevistas) sobre cómo planteamos llevar a cabo el proceso de alquiler de bicicletas y qué es lo que esperan los ciclistas en general en base a nuestros propios conocimientos, experiencia e investigación.
+Nuestras aproximaciones planteadas en el anterior punto se vieron más detalladas una vez realizado el proceso de entrevistas de validación, donde se pudo confirmar de que la redacción planteada en un inicio (de los problem statements y assumptions) estuvieron satisfactoriamente alineados a lo que se especificó con anterioridad.
+
+Los hypotheses statements identificados en conjunto con los criterios de éxito (pertenecientes al proceso de Lean UX) tuvieron una aproximación a la realidad en las entrevistas de validación en su gran mayoría. El principal problema que se logró identificar fue que en algunos casos se plantearon hypotheses statements muy específicos que, a menos que se realicen preguntas igual de específicas, no podríamos validar. Además, en caso de realizar este tipo de preguntas, podría llegar a condicionar a nuestros entrevistados a hablar sobre un aspecto que a lo mejor no notaron, no recuerdan o desconocen al respecto. Por lo tanto, recomendamos de que para próximos trabajos se busque redactar hypothesis statements y criterios de éxito que no están tan centrados en features puntuales, sino más en cómo el usuario interactúa con las distintas aplicaciones.
+
+Consideramos fuertemente que las etapas más importantes de todo el proceso/roadmap de los productos digitales se encuentran en realizar buenas entrevistas para conocer a nuestros segmentos objetivos y para validar nuestro producto, Así como toda la parte que corresponde al diseño de la aplicación: mockups, wireframes, diagramas de clases y base de datos, etc. Ya que, estos forman parte del core del desarrollo del informe y proyecto para la parte de documentación e implementación correspondiente.
+
+<h1 id='referencias'>Referencias Bibliográficas</h1>
+Cajo Hernandez, J. A., & Rosales Caururu, A. N. (2022). Sistema de control y gestión para los cultivos agrícolas aplicando tecnologías emergentes en el Perú. [Tesis de licenciatura, Universidad Peruana de Ciencias Aplicadas]. Repositorio Académico UPC. https://repositorioacademico.upc.edu.pe/bitstream/handle/10757/660718/Cajo_HJ.pdf?sequence=3
+
+EmpresasRUC (2024). PACCU S A.  https://empresasruc.com/empresa/paccu-s-a---20100873924
+
+Tang, Y., & Chen, M. (2022). The impact of agricultural digitization on the high-quality development of agriculture: An empirical test based on provincial panel data. Land, 11(12), 2152. https://www.mdpi.com/2073-445X/11/12/2152 
+
+MacPherson, J., Voglhuber-Slavinsky, A., Olbrisch, M., Schöbel, P., Dönitz, E., Mouratiadou, I., & Helming, K. (2022). Future agricultural systems and the role of digitalization for achieving sustainability goals: A review. Agriculture and Human Values, 39(4), 825-837. https://link.springer.com/article/10.1007/s13593-022-00792-6 
+
+Chakraborty, A., Bhattacharjee, A., Ghadge, H. L., Mawley, D., Paulzagde, A., & Jaronde, P. (2024). A Synergistic Integration of IoT, Machine Learning, and Flutter Technology for Precise Crop Management. https://doi.org/10.1007/978-981-97-1329-5_24 
+
+Kusuma, M., Rifani, A. H., & Sugiantoro, B. (2023). Comparison analysis of Jetpack Compose and Flutter in Android-based application development using Technical Domain. In Eighth International Conference on Informatics and Computing (ICIC) (pp. 1-5). Manado, Indonesia. https://ieeexplore.ieee.org/document/10381987 
+
+Wangereka, H. (2024). Mastering Kotlin for Android 14: Build powerful Android apps from scratch using Jetpack libraries and Jetpack Compose. Packt Publishing. https://ieeexplore.ieee.org/document/10522576 
