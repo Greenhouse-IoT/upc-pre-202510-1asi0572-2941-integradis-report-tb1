@@ -178,6 +178,7 @@
       <br/>
       <i>TB1</i><br/>
       <b>Seminario Garbín, Carlo Luca:</b>
+      Se realizó un inicio de prototipo de dispositivos IoT para poder experimentar e iniciar el desarrollo del trabajo con tiempo.
       <br/>
       <i>TB1</i><br/>
       <b>Soto Kong Requena, Andrés Eduardo:</b>
@@ -201,6 +202,7 @@
       <br/>
       <i>TB1</i><br/>
       <b>Seminario Garbín, Carlo Luca:</b>
+      Colabaré con mis compañeros expresando las ideas colaborativas para la integración de IoT, de modo que podamos lograr una solución adecuada para el contexto.
       <br/>
       <i>TB1</i><br/>
       <b>Soto Kong Requena, Andrés Eduardo:</b>
@@ -234,7 +236,7 @@ Valores:
 | <img src="assets/images/chapter_1/team_members/JhersonAstuyauri.jpg" alt="Jherson Astuyauri" width="700" /> | **Jherson David Astuyauri Calderón** | U202218451 | Ingeniería de Software | Hola, soy Jherson Astuyauri. Tengo 20 años y actualmente curso el séptimo ciclo de la carrera de Ingeniería de Software. Elegí esta carrera porque me apasiona la tecnología y su impacto en la evolución del mundo, así como en la mejora de la calidad de vida de las personas. Actualmente, me interesan especialmente las áreas de inteligencia artificial y ciberseguridad. Puedo aportar al equipo con los conocimientos técnicos que he adquirido a lo largo de los cursos previos, además de mi capacidad para trabajar en equipo de manera efectiva, con una actitud proactiva y responsabilidad. |
 | | **Nicolás Antonio Espinoza Rodríguez** | U202110278 | Ingeniería de Software | |
 | <img src="assets/images/chapter_1/team_members/AlanGalavis.jpg" alt="Alan Galavis" width="700" /> | **Alan Enrique Galavís Du Bois** | U202110223 | Ingeniería de Software | Mi nombre es Alan Galavis, tengo 21 años y actualmente curso el noveno ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Mi formación académica se ha centrado en el diseño y desarrollo de proyectos de alta calidad, desde simples landing pages hasta aplicaciones web y móviles con RESTful APIs. Para este proyecto puedo aportar con mi capacidad de crear un software eficiente y escalable que brinda las mejores experiencias de usuario. Mi compromiso y conocimientos en gestión de proyectos ágiles me permiten colaborar de manera exitosa en equipos de trabajo. |
-| | **Carlo Luca Seminario Garbín** | U20211A475 | Ingeniería de Software | |
+| <img src="assets/images/chapter_1/team_members/CarloSeminario.jpg" alt="Carlo Seminario" width="700" /> | **Carlo Luca Seminario Garbín** | U20211A475 | Ingeniería de Software | Mi nombre es Carlo Luca Seminario, tengo 21 años de edad y actualmente curso el noveno ciclo de la carrera de ingeniería de software en la Universidad Peruana de Ciencias Aplicadas (UPC). Considero que soy una persona que es capaz de trabajar bajo presión, además de ser responsable y perseverante. En cuanto a cualidades para la realización del trabajo considero que soy bueno identificando problemáticas y buscando soluciones, a lo que le puedo sumar los conocimientos adquiridos en cursos de programación y prácticas|
 | | **Andrés Eduardo Soto Kong Requena** | U202116113 | Ingeniería de Software | |
 
 <h2 id='1.2.'>1.2. Solution Profile</h2>
