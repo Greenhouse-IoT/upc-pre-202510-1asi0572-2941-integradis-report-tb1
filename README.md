@@ -1263,6 +1263,11 @@ Después de obtener cuáles serían nuestros Bounded Contexts, se realizó la el
 - <b>Patrón: Customer/Supplier (D CUST)</b>
 - <b>Explicación:</b> El contexto de <strong>"Crops"</strong> actúa como cliente (Customer) del contexto <strong>"Mails"</strong>, ya que depende de éste para enviar notificaciones por correo electrónico cuando se detectan registros que están fuera de los umbrales establecidos. <strong>"Mails"</strong> es el proveedor (Supplier) de la funcionalidad de envío de correos electrónicos, asegurándose de que los usuarios pertinentes sean notificados en tiempo real sobre los cultivos.
 
+9. Crops ↔ IoT
+
+- <b>Patrón: Customer/Supplier (D CUST)</b>
+- <b>Explicación:</b> El contexto de <strong>"Crops"</strong> actúa como cliente (Customer) del contexto <strong>"IoT"</strong>, ya que depende de éste para realizar registros de los parámetros ambientales de forma automática. <strong>"IoT"</strong> es el proveedor (Supplier) de la funcionalidad registro de valores de parámetros ambientales, asegurandose de que la información se complete de forma automática.
+
 <h3 id='4.1.3.'>4.1.3. Software Architecture.</h3>
 <h4 id='4.1.3.1.'>4.1.3.1. Software Architecture System Landscape Diagram.</h4>
 
