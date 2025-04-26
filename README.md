@@ -1735,7 +1735,6 @@ QueryHandlers:
 - get-membership-benefits-by-level: Obtiene todos los beneficios de un determinado nivel de membresía  
 - get-membership-by-company-id: Obtiene detalles de la membresía adquirida por una determinada empresa.  
 
-
 <h4 id='4.2.5.4.'>4.2.5.4. Infrastructure Layer.</h4>
 
 En esta sección se presentan las clases que acceden a servicios externos en el bounded context de membresías. 
@@ -1759,17 +1758,17 @@ Mappers:
 - MembershipLevelDao: Realiza el mapeo o conversión entre el objeto de beneficios de la membresía del dominio y el objeto que representa los datos ingresados a la persistencia.  
 - MembershipPaymentDao: Realiza la conversión entre el objeto de pago de membresía del dominio y el objeto persistence que ingresa la información a la base de datos.  
 
-<h4 id='4.2.5.5.'>4.2.5.5. Bounded Context Software Architecture Component Level Diagrams.<h4>
+<h4 id='4.2.5.5.'>4.2.5.5. Bounded Context Software Architecture Component Level Diagrams.</h4>
 
 A continuación, se presenta el diagrama de componentes asociado al bounded context Memberships
 
 <img src='assets/images/chapter_4/memberships/architecture.png' alt='Mailling Component Level Diagram' />
 
-<h4 id='4.2.5.6.'>4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.<h4>
+<h4 id='4.2.5.6.'>4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.</h4>
 
 En esta sección se exponen los diagramas que muestran en un mayor detalle las clases del contenedor Memberships presentado.
 
-<h5 id='4.2.5.6.1.'>4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.<h5>
+<h5 id='4.2.5.6.1.'>4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.</h5>
 
 Se muestra el diagrama de clases con las clases y métodos explicados en las anteriores secciones.
 
@@ -1892,3 +1891,268 @@ Se muestra el diagrama de clases con las clases y métodos explicados en las ant
   </tbody>
 </table>
 
+<h3 id='4.2.6.'>4.2.6. Bounded Context: IoT</h3>
+En esta sección, el equipo presenta las clases identificadas y las detalla a manera de diccionario
+A continuación, se presentan las clases identificadas
+
+**IoTDataMeasurement**
+
+**Propósito:**  
+Representa la medición automática de temperatura y humedad capturada por el dispositivo IoT y enviada al sistema para su almacenamiento y análisis.
+
+**Atributos:**
+- `id`: string - Identificador único de la medición.
+- `device`: IoTDevice - Identificador del dispositivo IoT (ESP32) que realizó la medición.
+- `timestamp`: DateTime - Fecha y hora en que se tomó la medición.
+- `temperatureAir`: number - Temperatura del aire medida (°C).
+- `humidityAir`: number - Humedad relativa del aire medida (%).
+- `alertTriggered`: boolean - Indica si el LED de alerta fue activado durante la medición.
+
+**Métodos:**
+- `registerMeasurement(data: MeasurementDTO): void` - Registra una nueva medición en el sistema realizando llamadas a microservicio de Crops.
+- `validateThresholds(): boolean` - Verifica si los valores de temperatura o humedad exceden los umbrales de seguridad.
+- `triggerAlert(): void` - Activa el LED de alerta en caso de valores fuera de rango.
+
+**Relaciones:**
+- **IoTDevice:** La clase IoTDataManagement actúa en base a la clase IoTDevice, que representa el dispositivo específico que originó la medición.
+
+**IoTDevice**
+
+**Propósito:**  
+Representa un dispositivo IoT físico basado en ESP32, encargado de medir temperatura, humedad y activar una alerta visual en caso de condiciones ambientales no seguras en el cultivo de champiñones.
+
+**Atributos:**
+- `id`: string - Identificador único del dispositivo.
+- `serialNumber`: string - Número de serie del ESP32.
+- `status`: string - Estado actual del dispositivo (active, inactive, maintenance).
+- `lastSync`: DateTime - Última vez que el dispositivo sincronizó mediciones exitosamente.
+- `thresholdTemperature`: number - Umbral máximo permitido para la temperatura (°C).
+- `thresholdHumidity`: number - Umbral máximo permitido para la humedad (%).
+
+**Métodos:**
+- `sendMeasurement(data: MeasurementDTO): void` - Envía una medición al sistema.
+- `updateThresholds(tempThreshold: number, humidityThreshold: number): void` - Actualiza los umbrales de alerta del dispositivo.
+- `syncTime(): void` - Sincroniza la hora interna del dispositivo con el servidor.
+
+**Relaciones:**
+- **IoTDataMeasurement:** La clase IoTDevice se relaciona con instancias de IoTDataMeasurement, dado que puede generar múltiples registros de mediciones.
+- **DeviceSyncLog:** La clase IoTDevice se relaciona con la clase DeviceSyncLog, el dispositivo registra sus propios eventos de sincronización.
+
+**DeviceSyncLog**
+
+**Propósito:**  
+Registrar eventos de sincronización de los dispositivos IoT, ya sea exitosos o fallidos, para el control de integridad de los datos.
+
+**Atributos:**
+- `id`: string - Identificador único del evento de sincronización.
+- `device`: IoTDevice - Identificador del dispositivo que realizó la sincronización.
+- `syncTimestamp`: DateTime - Fecha y hora de la sincronización.
+- `syncStatus`: string - Estado de la sincronización (successful, failed).
+- `errorMessage`: string - Mensaje de error en caso de fallo.
+
+**Métodos:**
+- `registerSyncEvent(status: string, message?: string): void` — Registra un nuevo evento de sincronización.
+
+**Relaciones:**
+- **IoTDevice:** Cada clase IoTDevice, o dispositivo IoT, posee un gestor de eventos de sincronización.
+
+<h4 id='4.2.6.1.'>4.2.6.1. Domain Layer.</h4>
+
+La clase **IoTDevice** representa una parte importante del core de la aplicación, ya que permite la digitalización automática de los parámetros ambientales esenciales para el cultivo de champiñones. Cada dispositivo es responsable de medir y reportar las condiciones de temperatura y humedad en las naves, así como activar alertas locales mediante un LED cuando se superan los umbrales críticos.
+
+- Un dispositivo puede configurarse con distintos valores de umbrales de seguridad para temperatura y humedad según las necesidades de la planta.
+- Si los valores medidos superan los umbrales configurados, el LED de alerta en el dispositivo debe activarse para notificar visualmente el riesgo en el ambiente de cultivo.
+
+- **IoTDataMeasurement**: Representa cada conjunto de mediciones que el dispositivo IoT envía al sistema. Cada medición incluye la temperatura, la humedad y un indicador de si se activó el LED de alerta.
+
+- **DeviceSyncLog**: Registro independiente de los eventos de sincronización de cada dispositivo. Este historial es importante para detectar posibles desconexiones, fallos de comunicación o errores de medición.
+
+- **IoTDevice**: Se considera a un dispositivo como un aggregate debido a su responsabilidad de gestionar su estado, registrar sus propias mediciones, activar alertas locales y orquestar eventos de sincronización con el sistema.
+
+- **MeasurementFactory**: Abstrae la lógica de creación de objetos de medición (**IoTDataMeasurement**) a partir de los datos crudos enviados por los dispositivos. Facilita la validación, la conversión de formatos y el aseguramiento de integridad antes de almacenar las mediciones en el sistema.
+
+- **AlertService**: Servicio encargado de evaluar si una medición supera los umbrales configurados y, de ser así, activar el LED del dispositivo correspondiente. Este servicio separa la lógica de monitoreo de alertas de las funciones de captura de datos.
+
+- **IoTDeviceRepository**: Interfaz que define los métodos necesarios para la gestión de dispositivos, tales como registrar dispositivos, actualizar configuraciones, consultar estados y obtener registros de mediciones.
+
+<h4 id='4.2.6.2.'>4.2.6.2. Interface Layer.</h4>
+En esta sección se presentan las clases que forman parte de la capa de interfaz/presentación para el bounded context de IoT.
+  
+**Controllers:**
+- **IoTController:** Maneja las solicitudes que se hacen al microservicio de IoT, específicamente aquellas que están relacionadas con la medición de temperatura y humedad, así como la gestión de alertas al nivel de la API. Es el método llamado cuando se realizan las consultas al microservicio de IoT.
+
+<h4 id='4.2.6.3.'>4.2.6.3. Application Layer.</h4>
+
+CommandHandlers: 
+
+- create-iot-device: Clase encargada de crear un nuevo dispositivo IoT.  
+- create-processed-measurement: Clase encargada de crear un objeto record en base a una medición hecha por un dispositivo IoT.
+- create-alert: Crea una alerta cuando alguna medición supera los umbrales seguros.  
+- update-processed-measurement: Actualiza la información de una medición de algún dispositivo IoT.  
+
+QueryHandlers:  
+
+- get-measurements-by-grow-room: Obtiene el historial de mediciones de una nave específica
+- get-iot-devices-status: Obtiene el estado actual de los dispositivos IoT registrados.
+- get-active-alerts: Obtiene las alertas que se encuentran activas.  
+
+<h4 id='4.2.6.4.'>4.2.6.4. Infrastructure Layer.</h4>
+
+En esta sección se presentan las clases que acceden a servicios externos en el bounded context de IoT.
+
+**Repositories (Class):**
+IoTDeviceRepository:
+- `save-device`: Registra un nuevo dispositivo ESP32 en la base de datos.
+- `find-by-serial`: Obtiene un dispositivo por su número de serie.
+- `update-device-status`: Actualiza el estado (active/inactive) de un dispositivo.
+- `update-thresholds`: Modifica los umbrales de temperatura/humedad de un dispositivo.
+- `log-sync-event`: Registra un evento de sincronización del dispositivo.
+
+IoTDataMeasurementRepository:
+- `save-measurement`: Almacena una nueva medición de sensor en la base de datos.
+- `find-by-device`: Obtiene mediciones por dispositivo en un rango de tiempo.
+- `check-threshold-violations`: Verifica mediciones que exceden umbrales de seguridad.
+
+DeviceSyncLogRepository:
+- `save-sync-log`: Registra un evento de sincronización (éxito/fallo).
+- `find-last-sync`: Obtiene el último estado de sincronización de un dispositivo.
+
+**Mappers:**
+
+IoTDeviceDao: Realiza el mapeo entre la entidad `IoTDevice` (dominio) y su modelo de persistencia.
+
+IoTDataMeasurementDao: Realiza el mapeo entre la entidad `IoTDataMeasurementDao` (dominio) y su modelo de persistencia.
+
+DeviceSyncLogDao: Realiza el mapeo entre la entidad `DeviceSyncLog` (dominio) y su modelo de persistencia.
+
+<h4 id='4.2.6.5.'>4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.</h4>
+
+A continuación, se presenta el diagrama de componentes asociado al bounded context IoT
+<img src='' alt='IoT Component Level Diagram' />
+
+<h4 id='4.2.6.6.'>4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.</h4>
+
+En esta sección se exponen los diagramas que muestran en un mayor detalle las clases que conforman el diagrama de componentes presentado.
+
+<h5 id='4.2.6.6.1.'>4.2.6.6.1. Bounded Context Domain Layer Class Diagrams.</h5>
+
+Se muestra el diagrama de clases con las clases y métodos explicados en las anteriores secciones.
+
+<img src='' alt='IoT Class Diagram' />
+
+<h5 id='4.2.6.6.2.'>4.2.6.6.2. Bounded Context Database Design Diagram.</h5>
+
+<img src='' alt='IoT Database Diagram' />
+
+<table cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nombre del atributo</th>
+      <th>Descripción del atributo</th>
+      <th>Tipo de dato del atributo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>Identificador de la membresía de la fábrica champiñonera, primary key</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>start_date</td>
+      <td>Fecha de inicio de la membresía</td>
+      <td>date</td>
+    </tr>
+    <tr>
+      <td>end_date</td>
+      <td>Fecha de fin de la membresía</td>
+      <td>date</td>
+    </tr>
+    <tr>
+      <td>company_id</td>
+      <td>Id de la fábrica champiñonera que adquiere la membresía</td>
+      <td>varchar(255)</td>
+    </tr>
+  </tbody>
+</table>
+
+<table cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nombre del atributo</th>
+      <th>Descripción del atributo</th>
+      <th>Tipo de dato del atributo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>Identificador del nivel de membresía, primary key</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td>Nombre del nivel de la membresía</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>amount</td>
+      <td>Precio de adquisición del nivel de membresía</td>
+      <td>decimal(4,2)</td>
+    </tr>
+  </tbody>
+</table>
+
+<table cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nombre del atributo</th>
+      <th>Descripción del atributo</th>
+      <th>Tipo de dato del atributo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>Identificador del beneficio asociado a una membresía, primary key</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td>Nombre del beneficio asociado a una membresía</td>
+      <td>varchar(255)</td>
+    </tr>
+  </tbody>
+</table>
+
+<table cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nombre del atributo</th>
+      <th>Descripción del atributo</th>
+      <th>Tipo de dato del atributo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>Identificador de la solicitud para adquirir membresía, primary key</td>
+      <td>varchar(255)</td>
+    </tr>
+    <tr>
+      <td>amount</td>
+      <td>Precio de adquisición final de la membresía ya adquirida</td>
+      <td>decimal(4,2)</td>
+    </tr>
+    <tr>
+      <td>payment_date</td>
+      <td>Fecha de la transacción de adquisición de membresía</td>
+      <td>date</td>
+    </tr>
+    <tr>
+      <td>payment_method</td>
+      <td>Método de pago utilizado para la compra</td>
+      <td>varchar(255)</td>
+    </tr>
+  </tbody>
+</table>
