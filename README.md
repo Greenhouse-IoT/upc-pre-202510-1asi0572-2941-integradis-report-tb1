@@ -1246,7 +1246,7 @@ Este Bounded Context se encarga de recopilar la información de los sensores med
 
 Después de obtener cuáles serían nuestros Bounded Contexts, se realizó la elaboración de las relaciones estructurales entre estos. Para ello, se tomó en cuenta posibles diseños candidatos para el Context Mapping, planteados previamente en el Candidate Content Discovery, se desarrolló considerando los patrones de relaciones entre Bounden Contexts establecidos en Domain-Driven Desgin, los cuales pueden ser Conformist, Customer/Supplier, Partnership o Shared Kernel. Se utilizó la herramienta online DomoRoboto para elaborar el Context Mapping de la siguiente imagen: 
 
-Insertar Imagen Actualizada
+<img src="assets/images/chapter_4/context_mapping/context_mapping.png"/>
 
 1. Identity and Access Management (IAM) ↔ Personas
 
