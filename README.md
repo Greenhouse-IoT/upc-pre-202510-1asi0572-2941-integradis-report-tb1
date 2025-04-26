@@ -1373,7 +1373,7 @@ Este bounded context se enfoca en las clases y capas relacionadas con el cultivo
 
 <b>Diagrama de componentes del API Gateway:</b>
 
-Insertar imagen actualizada
+<img src='assets/images/chapter_4/api_gateway/component_diagram_api_gateway.png' alt='API Gateway Component Diagram'/>
 
 <b>Diagrama de componentes del Servicio Mail:</b>
 
@@ -1381,7 +1381,7 @@ Insertar imagen actualizada
 
 <b>Diagrama de componentes del Servicio Crops:</b>
 
-Insertar imagen actualizada
+<img src='assets/images/chapter_4/crops/component_diagram_crops.png' alt='Crops Component Diagram'/>
 
 <b>Diagrama de componentes del Servicio Memberships:</b>
 
