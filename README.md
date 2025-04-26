@@ -1,6 +1,6 @@
 <h3 align="center">Universidad Peruana de Ciencias Aplicadas - Ingeniería de Software - 2025-10</h3>
 <div align="center">
-  <img width=140 src="https://seeklogo.com/images/U/universidad-peruana-de-ciencias-aplicadas-upc-logo-B98C3A365C-seeklogo.com.png"/>
+  <img width=140 src="assets/images/icons/upclogo.png"/>
 </div>
 <h3 align="center">1ASI0572 - Desarrollo de Soluciones IOT</h3>
 <h3 align="center">NRC: 2941</h3>
@@ -235,7 +235,7 @@ Valores:
 | Foto | Nombres y apellidos | Código de alumno | Carrera | Descripción |
 |----- | --------------------|------------------| --------| ------------|
 | <img src="assets/images/chapter_1/team_members/JhersonAstuyauri.jpg" alt="Jherson Astuyauri" width="700" /> | **Jherson David Astuyauri Calderón** | U202218451 | Ingeniería de Software | Hola, soy Jherson Astuyauri. Tengo 20 años y actualmente curso el séptimo ciclo de la carrera de Ingeniería de Software. Elegí esta carrera porque me apasiona la tecnología y su impacto en la evolución del mundo, así como en la mejora de la calidad de vida de las personas. Actualmente, me interesan especialmente las áreas de inteligencia artificial y ciberseguridad. Puedo aportar al equipo con los conocimientos técnicos que he adquirido a lo largo de los cursos previos, además de mi capacidad para trabajar en equipo de manera efectiva, con una actitud proactiva y responsabilidad. |
-| | **Nicolás Antonio Espinoza Rodríguez** | U202110278 | Ingeniería de Software |Mi nombre es Nicolás Espinoza. Tengo 20 años y estoy estudiando la carrera de ingeniería de software en la UPC desde el año 2021. Soy una persona creativa e imaginativa, lo que me ayuda a aportar soluciones para resolver los problemas en común. También, me considero empático y colaborativo, lo que facilita el trabajo en equipo con mis compañeros. Finalmente, me considero una persona ordenada y con ambición, lo que ayuda a trazar metas posibles y significativas para la solución que queremos presentar como equipo. Soy competente en los lenguajes de programación C++, Python y Javascript. Además, tengo conocimiento de tecnologías ágiles y software de control de versiones. |
+| <img src="assets/images/chapter_1/team_members/NicolasEspinoza.jpg" alt="Jherson Astuyauri" width="700" />  | **Nicolás Antonio Espinoza Rodríguez** | U202110278 | Ingeniería de Software |Mi nombre es Nicolás Espinoza. Tengo 21 años y estoy estudiando la carrera de ingeniería de software en la UPC desde el año 2021. Soy una persona creativa e imaginativa, lo que me ayuda a aportar soluciones para resolver los problemas en común. También, me considero empático y colaborativo, lo que facilita el trabajo en equipo con mis compañeros. Finalmente, me considero una persona ordenada y con ambición, lo que ayuda a trazar metas posibles y significativas para la solución que queremos presentar como equipo. Soy competente en los lenguajes de programación C++, Python y Javascript. Además, tengo conocimiento de tecnologías ágiles y software de control de versiones. |
 | <img src="assets/images/chapter_1/team_members/AlanGalavis.jpg" alt="Alan Galavis" width="700" /> | **Alan Enrique Galavís Du Bois** | U202110223 | Ingeniería de Software | Mi nombre es Alan Galavis, tengo 21 años y actualmente curso el noveno ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Mi formación académica se ha centrado en el diseño y desarrollo de proyectos de alta calidad, desde simples landing pages hasta aplicaciones web y móviles con RESTful APIs. Para este proyecto puedo aportar con mi capacidad de crear un software eficiente y escalable que brinda las mejores experiencias de usuario. Mi compromiso y conocimientos en gestión de proyectos ágiles me permiten colaborar de manera exitosa en equipos de trabajo. |
 | <img src="assets/images/chapter_1/team_members/CarloSeminario.jpg" alt="Carlo Seminario" width="700" /> | **Carlo Luca Seminario Garbín** | U20211A475 | Ingeniería de Software | Mi nombre es Carlo Luca Seminario, tengo 21 años de edad y actualmente curso el noveno ciclo de la carrera de ingeniería de software en la Universidad Peruana de Ciencias Aplicadas (UPC). Considero que soy una persona que es capaz de trabajar bajo presión, además de ser responsable y perseverante. En cuanto a cualidades para la realización del trabajo considero que soy bueno identificando problemáticas y buscando soluciones, a lo que le puedo sumar los conocimientos adquiridos en cursos de programación y prácticas|
 | <img src="assets/images/chapter_1/team_members/Andres.png" alt="Andres Soto" width="700" /> | **Andrés Eduardo Soto Kong Requena** | U202116113 | Ingeniería de Software | Soy Andres Soto, tengo 21 años. Me encuentro cursando el 9no ciclo de la carrera de ingenieria de software en la Universidad Peruana de Ciencias Aplicadas (UPC). Adicionalmente me encuentro trabajando como desarrollador de componentes para una plataforma CRM. Considero que tengo habilidades de comunicacion y desarrollo de problemas. Por otro lado me gusta desarrollar aplicaciones web dentro de mi tiempo libre. |
@@ -315,19 +315,19 @@ A partir de lo anterior, resulta posible plantear la principal interrogante que 
 
 **Creemos que** nuestros usuarios necesitan una forma más eficiente de registrar y monitorear los procesos productivos implicados en el cultivo industrial de champiñones.
 
-**Estas necesidades se pueden resolver con** el desarrollo de una plataforma móvil que permitirá el acceso oportuno y confiable a los datos registrados por el personal técnico y administrativo de las fábricas champiñoneras del Perú.
+**Estas necesidades se pueden resolver con** el desarrollo de una plataforma móvil y web que integre tecnologías IoT y que permita el acceso oportuno y confiable a la documentación de procesos en las fábricas champiñoneras del Perú.
 
-**El valor #1 que mi cliente quiere de mi servicio es** registrar los insumos relevantes involucrados en cada fase productiva dentro del cultivo de champiñones y visualizar los datos relacionados a los procesos registrados a lo largo del tiempo.
+**El valor #1 que mi cliente quiere de mi servicio es** registrar las actividades y medición de parámetros involucrados en cada fase productiva dentro del cultivo de champiñones y visualizar los datos relacionados a los procesos registrados a lo largo del tiempo.
 
-**El cliente también puede obtener beneficios adicionales como** retroceder la fase de un cultivo en progreso y que se muestre la información registrada (Administradores y técnicos). Poder modificar los registros (Administradores). Modificar la fase de un cultivo en progreso (Administradores). Notificar el cambio de fase (Administradores). Mostrar un gráfico comparativo al finalizar cada fase.
+**El cliente también puede obtener beneficios adicionales como** disminuir la intervención humana en la medición de parámetros ambientales en cuartos de cultivo. Notificar a los administradores en caso de que los trabajadores deseen realizar cambios o correcciones a la información documentada.
 
-**Voy a adquirir la mayoría de mis clientes** mediante publicidad en redes sociales y campañas de retención en las fábricas del sector productivo de champiñones en el Perú. Así como promociones y muestras gratuitas.
+**Voy a adquirir la mayoría de mis clientes** mediante publicidad en redes sociales y campañas de retención en las fábricas del sector productivo de champiñones en el Perú.
 
 **Haré dinero a través de** un modelo de suscripción de diferentes categorías para el uso de la aplicación por parte de las empresas.
 
 **Mi competencia principal en el mercado serán** las plataformas propias de agroempresas direccionadas al monitoreo o control de cultivos agrícolas.
 
-**Los venceremos debido a** que nuestra plataforma incluye el registro de procesos productivos de cultivos a partir de la segmentación de fases involucradas en el desarrollo exclusivamente de la industria de champiñones.
+**Los venceremos debido a** que nuestra plataforma incluye el registro de procesos productivos de cultivos a partir de la segmentación de fases involucradas en el desarrollo exclusivamente de la industria de champiñones, y a través de la automatización del monitoreo de parámetros ambientales a través de tecnología IoT.
 
 **El mayor riesgo es** que el segmento objetivo no se muestre dispuesto e interesado en automatizar los procesos productivos de cultivo. Las razones vendrían a ser de un contexto interno social: problemas de adaptación, pensamiento estático y dificultad en el manejo de herramientas tecnológicas.
 
@@ -1153,27 +1153,58 @@ El proceso de Domain Message Flow Modeling permite identificar las interacciones
 
 El siguiente flujo evidencia el proceso que atraviesan los usuarios administradores de las fábricas al crear una cuenta dentro de la aplicación Greenhouse. En primer lugar, los usuarios acceden a la aplicación web o mobile para ingresar sus datos personales, la información de la empresa que desean registrar y seleccionan la subscripción que desean. A continuación, el sistema registrará las credenciales del usuario, creará una nueva cuenta de administrador y una subscripción vinculada a la cuenta.
 
-Insertar Imagen Actualizada
+<img src="assets/images/chapter_4/domain_message_flows_modeling/scenario1.png" alt="Scenario: Factory Owner creates an account"/>
 
 <b>2. Scenario: Factory owner creates an employee account</b>
 
 La imagen presentada a continuación evidencia el flujo que atraviesan los mensajes cuando el administrador de la fábrica crea una cuenta de usuario para uno de sus trabajadores. En primer lugar, el administrador ingresa a la aplicación web o móvil e ingresa las credenciales del trabajador que desea crear. Finalmente, la aplicación registra las información ingresada y crea la cuenta del nuevo trabajador.
 
-Insertar Imagen Actualizada
+<img src="assets/images/chapter_4/domain_message_flows_modeling/scenario2.png" alt="Factory owner creates an employee account"/>
 
 <b>3. Scenario: Technician starts a new crop </b>
 
-El escenario presentado a continuación muestra el flujo de los mensajes al momento de iniciar un nuevo cultivo en Greenhouse. En primer lugar, los técnicos supervisores ingresan a la aplicación web o mobile, y realizan una solicitud de creación de cultivo. A continuación, el sistema asigna la información necesaria (Como un ID único, fecha de inicio, y fase actual), lo almacena en la base de datos, y firma con esa misma información el contrato inteligente.
+El escenario presentado a continuación muestra el flujo de los mensajes al momento de iniciar un nuevo cultivo en Greenhouse. En primer lugar, los técnicos supervisores ingresan a la aplicación web o mobile, y realizan una solicitud de creación de cultivo. A continuación, el sistema asigna la información necesaria (Como un ID único, fecha de inicio, y fase actual), lo almacena en la base de datos.
 
-Insertar Imagen Actualizada
+<img src="assets/images/chapter_4/domain_message_flows_modeling/scenario3.png" alt="Technician starts a new crop"/>
 
 <b>4. Scenario: Technician registers a new record </b>
 
-El escenario presentado a continuación muestra el flujo de los mensajes al momento de agregar un nuevo registro a un cultivo existente en Greenhouse. En primer lugar, los técnicos supervisores ingresan a la aplicación web o mobile, y realizan una solicitud de registro de información. A continuación, el sistema asigna la información necesaria (Como un ID único, fecha del registro, autor), le concatena la información escrita por el usuario (parámetros ambientales, actividades o comentarios) finalmente, lo almacena en la base de datos, y firma con esa misma información el contrato inteligente.
+El escenario presentado a continuación muestra el flujo de los mensajes al momento de agregar un nuevo registro a un cultivo existente en Greenhouse. En primer lugar, los técnicos supervisores ingresan a la aplicación web o mobile, y realizan una solicitud de registro de información. A continuación, el sistema asigna la información necesaria (Como un ID único, fecha del registro, autor), le concatena la información escrita por el usuario (parámetros ambientales, actividades o comentarios) finalmente, lo almacena en la base de datos.
 
-Insertar Imagen Actualizada
+<img src="assets/images/chapter_4/domain_message_flows_modeling/scenario4.png" alt="Scenario: Technician registers a new record"/>
+
+<b>5. Scenario: IoT device registers a new record </b>
+
+El escenario presentado a continuación muestra el flujo de los mensajes al momento de agregar un nuevo registro a un cultivo existente en Greenhouse mediante el dispositivo IoT. En primer lugar, los sensores obtienen las información necesaria (Como un ID único, fecha del registro, autor), le concatena la información escrita por el usuario (parámetros ambientales, actividades o comentarios) para luego pasarla al servicio de IoT y así registrarlo finalmente en crops, lo almacena en la base de datos.
+
+<img src="assets/images/chapter_4/domain_message_flows_modeling/scenario5.png" alt="Scenario: IoT device registers a new record"/>
 
 <h4 id='4.1.1.3.'>4.1.1.3. Bounded Context Canvases.</h4>
+
+El proceso seguido para elaborar los bounded context canvases fue el siguiente:
+
+1. Definición del Bounded Context
+El primer paso es identificar y delimitar los diferentes Bounded Contexts en el sistema. Estos contextos representan áreas específicas donde los conceptos, reglas y entidades son consistentes. Ejemplos en nuestro sistema incluyen IAM, Personas, Memberships, Crops y Mails.
+
+2. Identificación de Entidades y Agregados
+Dentro de cada contexto, se identifican las entidades y agregados principales. Las entidades son objetos con identidad propia, y los agregados agrupan entidades relacionadas bajo una misma regla de negocio. En Crops, por ejemplo, las entidades incluyen "Cultivo" y "Registro de Cultivo".
+
+3. Relaciones entre Contextos
+Se identifican las relaciones clave entre los diferentes Bounded Contexts, ya sea mediante APIs, eventos o comandos. Por ejemplo, IAM se encarga de la autenticación de los usuarios y es utilizado por los contextos de Personas, Memberships y Crops para autorizar el acceso.
+
+4. Definición de Interfaces de Comunicación
+Las interfaces que permiten la interacción entre los contextos se definen, como APIs o eventos. Por ejemplo, Personas puede emitir un evento cuando se registra un nuevo perfil de usuario, lo cual impacta en IAM para autenticar al usuario.
+
+5. Ubiquitous Language
+Se define un lenguaje común y coherente dentro de cada contexto para asegurar que todos los miembros del equipo compartan los mismos términos y definiciones, como "cultivo" o "calidad del cultivo" en el contexto de Crops.
+
+6. Reglas de Negocio
+Cada contexto tiene reglas que rigen su funcionamiento. Por ejemplo, en Crops, las reglas de negocio incluyen la validación de la calidad del cultivo y el envío de alertas cuando los registros superan umbrales predefinidos.
+
+7. Visualización del Canvas
+Finalmente, toda esta información se representa gráficamente en el Bounded Context Canvas, que incluye el nombre del contexto, las entidades, las relaciones, interfaces, el Ubiquitous Language, las reglas de negocio y los modelos de datos. Esto ayuda a facilitar la comprensión y la comunicación entre los equipos de desarrollo.
+
+A continuación se presentan los bounded context identificados:
 
 <b>Identity and Access Management</b>
 
@@ -1205,13 +1236,17 @@ Este Bounded Context se encarga del envío de correos para permitir lograr que e
 
 <img src="assets/images/chapter_4/bounded_context_canvases/mails_canvas.png"/>
 
-iot
+<b>IoT</b>
+
+Este Bounded Context se encarga de recopilar la información de los sensores mediante dispositivos IoT para así luego determinar las acciones de los actuadores y a su vez enviar la información a la base de datos para su monitoreo logrando así automatizar el registro manual de dichos cultivos.
+
+<img src="assets/images/chapter_4/bounded_context_canvases/iot_canvas.png"/>
 
 <h3 id='4.1.2.'>4.1.2. Context Mapping.</h3>
 
 Después de obtener cuáles serían nuestros Bounded Contexts, se realizó la elaboración de las relaciones estructurales entre estos. Para ello, se tomó en cuenta posibles diseños candidatos para el Context Mapping, planteados previamente en el Candidate Content Discovery, se desarrolló considerando los patrones de relaciones entre Bounden Contexts establecidos en Domain-Driven Desgin, los cuales pueden ser Conformist, Customer/Supplier, Partnership o Shared Kernel. Se utilizó la herramienta online DomoRoboto para elaborar el Context Mapping de la siguiente imagen: 
 
-Insertar Imagen Actualizada
+<img src="assets/images/chapter_4/context_mapping/context_mapping.png"/>
 
 1. Identity and Access Management (IAM) ↔ Personas
 
@@ -1252,6 +1287,11 @@ Insertar Imagen Actualizada
 
 - <b>Patrón: Customer/Supplier (D CUST)</b>
 - <b>Explicación:</b> El contexto de <strong>"Crops"</strong> actúa como cliente (Customer) del contexto <strong>"Mails"</strong>, ya que depende de éste para enviar notificaciones por correo electrónico cuando se detectan registros que están fuera de los umbrales establecidos. <strong>"Mails"</strong> es el proveedor (Supplier) de la funcionalidad de envío de correos electrónicos, asegurándose de que los usuarios pertinentes sean notificados en tiempo real sobre los cultivos.
+
+9. Crops ↔ IoT
+
+- <b>Patrón: Customer/Supplier (D CUST)</b>
+- <b>Explicación:</b> El contexto de <strong>"Crops"</strong> actúa como cliente (Customer) del contexto <strong>"IoT"</strong>, ya que depende de éste para realizar registros de los parámetros ambientales de forma automática. <strong>"IoT"</strong> es el proveedor (Supplier) de la funcionalidad registro de valores de parámetros ambientales, asegurandose de que la información se complete de forma automática.
 
 <h3 id='4.1.3.'>4.1.3. Software Architecture.</h3>
 <h4 id='4.1.3.1.'>4.1.3.1. Software Architecture System Landscape Diagram.</h4>
@@ -1331,29 +1371,9 @@ Este bounded context se enfoca en las clases y capas relacionadas con el cultivo
 
 <h4 id='4.2.1.5.'>4.2.1.5. Bounded Context Software Architecture Component Level Diagrams</h4>
 
-<b>Diagrama de componentes del API Gateway:</b>
-
-Insertar imagen actualizada
-
-<b>Diagrama de componentes del Servicio Mail:</b>
-
-<img src='assets/images/chapter_4/crops/component_diagram_mail.png' alt='Mail Service Component Diagram'/>
-
 <b>Diagrama de componentes del Servicio Crops:</b>
 
-Insertar imagen actualizada
-
-<b>Diagrama de componentes del Servicio Memberships:</b>
-
-<img src='assets/images/chapter_4/crops/component_diagram_memberships.png' alt='Memberships Service Component Diagram'/>
-
-<b>Diagrama de componentes del Servicio Personas:</b>
-
-<img src='assets/images/chapter_4/crops/component_diagram_personas.png' alt='Personas Service Component Diagram'/>
-
-<b>Diagrama de componentes del servicio IAM:</b>
-
-<img src='assets/images/chapter_4/crops/component_diagram_iam.png' alt='Personas Service Component Diagram'/>
+<img src='assets/images/chapter_4/crops/component_diagram_crops.png' alt='Crops Component Diagram'/>
 
 <h4 id='4.2.1.6.'>4.2.1.6. Bounded Context Software Architecture Code Level Diagrams</h4>
 
@@ -1891,6 +1911,7 @@ Se muestra el diagrama de clases con las clases y métodos explicados en las ant
   </tbody>
 </table>
 
+
 <h3 id='4.2.6.'>4.2.6. Bounded Context: IoT</h3>
 En esta sección, el equipo presenta las clases identificadas y las detalla a manera de diccionario
 A continuación, se presentan las clases identificadas
@@ -2156,3 +2177,27 @@ Se muestra el diagrama de clases con las clases y métodos explicados en las ant
     </tr>
   </tbody>
 </table>
+
+  
+<h1 id='conclusiones'>Conclusiones</h1>
+El desarrollo de los problem statements y assumptions demostró aproximarse bastante al comportamiento de nuestros segmentos objetivos de arrendador y arrendatario. Esto se debió a un correcto análisis (previo a la realización de entrevistas) sobre cómo planteamos llevar a cabo el proceso de alquiler de bicicletas y qué es lo que esperan los ciclistas en general en base a nuestros propios conocimientos, experiencia e investigación.
+Nuestras aproximaciones planteadas en el anterior punto se vieron más detalladas una vez realizado el proceso de entrevistas de validación, donde se pudo confirmar de que la redacción planteada en un inicio (de los problem statements y assumptions) estuvieron satisfactoriamente alineados a lo que se especificó con anterioridad.
+
+Los hypotheses statements identificados en conjunto con los criterios de éxito (pertenecientes al proceso de Lean UX) tuvieron una aproximación a la realidad en las entrevistas de validación en su gran mayoría. El principal problema que se logró identificar fue que en algunos casos se plantearon hypotheses statements muy específicos que, a menos que se realicen preguntas igual de específicas, no podríamos validar. Además, en caso de realizar este tipo de preguntas, podría llegar a condicionar a nuestros entrevistados a hablar sobre un aspecto que a lo mejor no notaron, no recuerdan o desconocen al respecto. Por lo tanto, recomendamos de que para próximos trabajos se busque redactar hypothesis statements y criterios de éxito que no están tan centrados en features puntuales, sino más en cómo el usuario interactúa con las distintas aplicaciones.
+
+Consideramos fuertemente que las etapas más importantes de todo el proceso/roadmap de los productos digitales se encuentran en realizar buenas entrevistas para conocer a nuestros segmentos objetivos y para validar nuestro producto, Así como toda la parte que corresponde al diseño de la aplicación: mockups, wireframes, diagramas de clases y base de datos, etc. Ya que, estos forman parte del core del desarrollo del informe y proyecto para la parte de documentación e implementación correspondiente.
+
+<h1 id='referencias'>Referencias Bibliográficas</h1>
+Cajo Hernandez, J. A., & Rosales Caururu, A. N. (2022). Sistema de control y gestión para los cultivos agrícolas aplicando tecnologías emergentes en el Perú. [Tesis de licenciatura, Universidad Peruana de Ciencias Aplicadas]. Repositorio Académico UPC. https://repositorioacademico.upc.edu.pe/bitstream/handle/10757/660718/Cajo_HJ.pdf?sequence=3
+
+EmpresasRUC (2024). PACCU S A.  https://empresasruc.com/empresa/paccu-s-a---20100873924
+
+Tang, Y., & Chen, M. (2022). The impact of agricultural digitization on the high-quality development of agriculture: An empirical test based on provincial panel data. Land, 11(12), 2152. https://www.mdpi.com/2073-445X/11/12/2152 
+
+MacPherson, J., Voglhuber-Slavinsky, A., Olbrisch, M., Schöbel, P., Dönitz, E., Mouratiadou, I., & Helming, K. (2022). Future agricultural systems and the role of digitalization for achieving sustainability goals: A review. Agriculture and Human Values, 39(4), 825-837. https://link.springer.com/article/10.1007/s13593-022-00792-6 
+
+Chakraborty, A., Bhattacharjee, A., Ghadge, H. L., Mawley, D., Paulzagde, A., & Jaronde, P. (2024). A Synergistic Integration of IoT, Machine Learning, and Flutter Technology for Precise Crop Management. https://doi.org/10.1007/978-981-97-1329-5_24 
+
+Kusuma, M., Rifani, A. H., & Sugiantoro, B. (2023). Comparison analysis of Jetpack Compose and Flutter in Android-based application development using Technical Domain. In Eighth International Conference on Informatics and Computing (ICIC) (pp. 1-5). Manado, Indonesia. https://ieeexplore.ieee.org/document/10381987 
+
+Wangereka, H. (2024). Mastering Kotlin for Android 14: Build powerful Android apps from scratch using Jetpack libraries and Jetpack Compose. Packt Publishing. https://ieeexplore.ieee.org/document/10522576 
