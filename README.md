@@ -1371,29 +1371,9 @@ Este bounded context se enfoca en las clases y capas relacionadas con el cultivo
 
 <h4 id='4.2.1.5.'>4.2.1.5. Bounded Context Software Architecture Component Level Diagrams</h4>
 
-<b>Diagrama de componentes del API Gateway:</b>
-
-<img src='assets/images/chapter_4/api_gateway/component_diagram_api_gateway.png' alt='API Gateway Component Diagram'/>
-
-<b>Diagrama de componentes del Servicio Mail:</b>
-
-<img src='assets/images/chapter_4/crops/component_diagram_mail.png' alt='Mail Service Component Diagram'/>
-
 <b>Diagrama de componentes del Servicio Crops:</b>
 
 <img src='assets/images/chapter_4/crops/component_diagram_crops.png' alt='Crops Component Diagram'/>
-
-<b>Diagrama de componentes del Servicio Memberships:</b>
-
-<img src='assets/images/chapter_4/crops/component_diagram_memberships.png' alt='Memberships Service Component Diagram'/>
-
-<b>Diagrama de componentes del Servicio Personas:</b>
-
-<img src='assets/images/chapter_4/crops/component_diagram_personas.png' alt='Personas Service Component Diagram'/>
-
-<b>Diagrama de componentes del servicio IAM:</b>
-
-<img src='assets/images/chapter_4/crops/component_diagram_iam.png' alt='Personas Service Component Diagram'/>
 
 <h4 id='4.2.1.6.'>4.2.1.6. Bounded Context Software Architecture Code Level Diagrams</h4>
 
