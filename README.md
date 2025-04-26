@@ -1892,3 +1892,25 @@ Se muestra el diagrama de clases con las clases y métodos explicados en las ant
   </tbody>
 </table>
 
+<h1 id='conclusiones'>Conclusiones</h1>
+El desarrollo de los problem statements y assumptions demostró aproximarse bastante al comportamiento de nuestros segmentos objetivos de arrendador y arrendatario. Esto se debió a un correcto análisis (previo a la realización de entrevistas) sobre cómo planteamos llevar a cabo el proceso de alquiler de bicicletas y qué es lo que esperan los ciclistas en general en base a nuestros propios conocimientos, experiencia e investigación.
+Nuestras aproximaciones planteadas en el anterior punto se vieron más detalladas una vez realizado el proceso de entrevistas de validación, donde se pudo confirmar de que la redacción planteada en un inicio (de los problem statements y assumptions) estuvieron satisfactoriamente alineados a lo que se especificó con anterioridad.
+
+Los hypotheses statements identificados en conjunto con los criterios de éxito (pertenecientes al proceso de Lean UX) tuvieron una aproximación a la realidad en las entrevistas de validación en su gran mayoría. El principal problema que se logró identificar fue que en algunos casos se plantearon hypotheses statements muy específicos que, a menos que se realicen preguntas igual de específicas, no podríamos validar. Además, en caso de realizar este tipo de preguntas, podría llegar a condicionar a nuestros entrevistados a hablar sobre un aspecto que a lo mejor no notaron, no recuerdan o desconocen al respecto. Por lo tanto, recomendamos de que para próximos trabajos se busque redactar hypothesis statements y criterios de éxito que no están tan centrados en features puntuales, sino más en cómo el usuario interactúa con las distintas aplicaciones.
+
+Consideramos fuertemente que las etapas más importantes de todo el proceso/roadmap de los productos digitales se encuentran en realizar buenas entrevistas para conocer a nuestros segmentos objetivos y para validar nuestro producto, Así como toda la parte que corresponde al diseño de la aplicación: mockups, wireframes, diagramas de clases y base de datos, etc. Ya que, estos forman parte del core del desarrollo del informe y proyecto para la parte de documentación e implementación correspondiente.
+
+<h1 id='referencias'>Referencias Bibliográficas</h1>
+Cajo Hernandez, J. A., & Rosales Caururu, A. N. (2022). Sistema de control y gestión para los cultivos agrícolas aplicando tecnologías emergentes en el Perú. [Tesis de licenciatura, Universidad Peruana de Ciencias Aplicadas]. Repositorio Académico UPC. https://repositorioacademico.upc.edu.pe/bitstream/handle/10757/660718/Cajo_HJ.pdf?sequence=3
+
+EmpresasRUC (2024). PACCU S A.  https://empresasruc.com/empresa/paccu-s-a---20100873924
+
+Tang, Y., & Chen, M. (2022). The impact of agricultural digitization on the high-quality development of agriculture: An empirical test based on provincial panel data. Land, 11(12), 2152. https://www.mdpi.com/2073-445X/11/12/2152 
+
+MacPherson, J., Voglhuber-Slavinsky, A., Olbrisch, M., Schöbel, P., Dönitz, E., Mouratiadou, I., & Helming, K. (2022). Future agricultural systems and the role of digitalization for achieving sustainability goals: A review. Agriculture and Human Values, 39(4), 825-837. https://link.springer.com/article/10.1007/s13593-022-00792-6 
+
+Chakraborty, A., Bhattacharjee, A., Ghadge, H. L., Mawley, D., Paulzagde, A., & Jaronde, P. (2024). A Synergistic Integration of IoT, Machine Learning, and Flutter Technology for Precise Crop Management. https://doi.org/10.1007/978-981-97-1329-5_24 
+
+Kusuma, M., Rifani, A. H., & Sugiantoro, B. (2023). Comparison analysis of Jetpack Compose and Flutter in Android-based application development using Technical Domain. In Eighth International Conference on Informatics and Computing (ICIC) (pp. 1-5). Manado, Indonesia. https://ieeexplore.ieee.org/document/10381987 
+
+Wangereka, H. (2024). Mastering Kotlin for Android 14: Build powerful Android apps from scratch using Jetpack libraries and Jetpack Compose. Packt Publishing. https://ieeexplore.ieee.org/document/10522576 
