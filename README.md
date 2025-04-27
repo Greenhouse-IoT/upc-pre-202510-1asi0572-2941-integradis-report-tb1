@@ -1632,21 +1632,21 @@ Command Handlers:
 -	send-event-mapper: Mapea objetos SendEvent entre la capa de dominio y la de persistencia.
 
 
-<h4 id='4.2.4.5.'>4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.</h4>
+<h4 id='4.2.3.5.'>4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.</h4>
 
 A continuación, se presenta el diagrama de componentes asociado al bounded context Mailling
 
 <img src='assets/images/chapter_4/mailing/mailling_component_diagram.png' alt='Mailling Component Level Diagram' />
 
-<h4 id='4.2.4.6.'>4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.</h4>
+<h4 id='4.2.3.6.'>4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.</h4>
 
-<h5 id='4.2.4.6.1.'>4.2.4.6.1. Bounded Context Domain Layer Class Diagrams.</h5>
+<h5 id='4.2.3.6.1.'>4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.</h5>
 
 A continuación, se presenta el diagrama de clases del microservicio encargado de la gestión de notificaciones por correo electrónico. Este diseño incluye las entidades Mail y MailTemplate, las cuales son procesadas a través de la fachada (ResendFacade), que abstrae la interacción con el servicio de Resend, encargado de ejecutar la lógica de envío de correos. Además, se ha implementado un mecanismo para registrar los eventos asociados al envío de correos, con el fin de garantizar una trazabilidad completa, permitiendo un monitoreo detallado del estado de los envíos y de los destinatarios involucrados, optimizando así el seguimiento y análisis del flujo de notificaciones.
 
 <img src='assets/images/chapter_4/mailing/mailling_class_diagram.png' alt='Mailling Class Diagram' />
 
-<h5 id='4.2.4.6.2.'>4.2.4.6.2. Bounded Context Database Design Diagram.</h5>
+<h5 id='4.2.3.6.2.'>4.2.3.6.2. Bounded Context Database Design Diagram.</h5>
 
 <img src='assets/images/chapter_4/mailing/mailling_database_diagram.png' alt='Mailling Database Diagram' />
 
@@ -1751,7 +1751,7 @@ A continuación, se presenta el diagrama de clases del microservicio encargado d
   </tbody>
 </table>
 
-<h3 id='4.2.5.'>4.2.5. Bounded Context: Memberships</h3>
+<h3 id='4.2.4.'>4.2.4. Bounded Context: Memberships</h3>
 En esta sección, el equipo presenta las clases identificadas y las detalla a manera de diccionario
 A continuación, se presentan las clases identificadas
 
@@ -1765,7 +1765,7 @@ A continuación, se presentan las clases identificadas
 
 - **MembershipPayment:** <br> - **Propósito:** Registra las transacciones relacionadas a adquisiciones de membresías. <br> - **Atributos:** <br> - **id:** string, Identificador único del pago <br> - **membershipId:** string, Identificador de la membresía asociada <br> - **amount:** number, Monto del pago asociado a la transacción <br> - **paymentDate:** Date, Fecha del pago <br> - **paymentMethod:** string, Método de pago <br> - **Métodos:** <br> - **registerPayment(amount: number, method: string):** void, Registra un nuevo pago para una membresía <br> - **Relaciones:** <br> - **Memberships:** La clase Memberships utiliza la clase MembershipPayment para verificar el estado de las transacciones que conciernen a las membresías, además de efectuar el cobro de renovaciones.
 
-<h4 id='4.2.5.1.'>4.2.5.1. Domain Layer.</h4>
+<h4 id='4.2.4.1.'>4.2.4.1. Domain Layer.</h4>
 
 La clase Memberships representa una parte importante del core de la aplicación. El grado de esta membresía condiciona los límites de uso de las empresas que utilizan el software mediante la cantidad de cultivos activos a la vez, los permisos que tienen sus administradores y el nivel de control sobre sus empleados que podrán mantener dentro de la plataforma.
 
@@ -1785,13 +1785,13 @@ La clase Memberships representa una parte importante del core de la aplicación.
 
 - **MembershipsRepository**: Interfaz que define los métodos a utilizar para la conexión a la base de datos.
 
-<h4 id='4.2.5.2.'>4.2.5.2. Interface Layer.</h4>
+<h4 id='4.2.4.2.'>4.2.4.2. Interface Layer.</h4>
 En esta sección se presentan las clases que forman parte de la capa de interfaz/presentación para el bounded context de membresías.
   
 **Controllers:**
 - **MembershipsController:** Maneja la creación, eliminación, búsqueda de permisos y actualización de estados de las membresías al nivel de la API. Es el método llamado cuando se realizan las consultas al microservicio de memberships.
 
-<h4 id='4.2.5.3.'>4.2.5.3. Application Layer.</h4>
+<h4 id='4.2.4.3.'>4.2.4.3. Application Layer.</h4>
 
 En esta sección se presentan las clases que manejan los flujos del proceso de membresías en el negocio.  
 
@@ -1808,7 +1808,7 @@ QueryHandlers:
 - get-membership-benefits-by-level: Obtiene todos los beneficios de un determinado nivel de membresía  
 - get-membership-by-company-id: Obtiene detalles de la membresía adquirida por una determinada empresa.  
 
-<h4 id='4.2.5.4.'>4.2.5.4. Infrastructure Layer.</h4>
+<h4 id='4.2.4.4.'>4.2.4.4. Infrastructure Layer.</h4>
 
 En esta sección se presentan las clases que acceden a servicios externos en el bounded context de membresías. 
 
@@ -1831,23 +1831,23 @@ Mappers:
 - MembershipLevelDao: Realiza el mapeo o conversión entre el objeto de beneficios de la membresía del dominio y el objeto que representa los datos ingresados a la persistencia.  
 - MembershipPaymentDao: Realiza la conversión entre el objeto de pago de membresía del dominio y el objeto persistence que ingresa la información a la base de datos.  
 
-<h4 id='4.2.5.5.'>4.2.5.5. Bounded Context Software Architecture Component Level Diagrams.</h4>
+<h4 id='4.2.4.5.'>4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.</h4>
 
 A continuación, se presenta el diagrama de componentes asociado al bounded context Memberships
 
 <img src='assets/images/chapter_4/memberships/architecture.png' alt='Mailling Component Level Diagram' />
 
-<h4 id='4.2.5.6.'>4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.</h4>
+<h4 id='4.2.4.6.'>4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.</h4>
 
 En esta sección se exponen los diagramas que muestran en un mayor detalle las clases del contenedor Memberships presentado.
 
-<h5 id='4.2.5.6.1.'>4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.</h5>
+<h5 id='4.2.4.6.1.'>4.2.4.6.1. Bounded Context Domain Layer Class Diagrams.</h5>
 
 Se muestra el diagrama de clases con las clases y métodos explicados en las anteriores secciones.
 
 <img src='assets/images/chapter_4/memberships/class.png' alt='Mailing Class Diagram' />
 
-<h5 id='4.2.5.6.2.'>4.2.5.6.2. Bounded Context Database Design Diagram.</h5>
+<h5 id='4.2.4.6.2.'>4.2.4.6.2. Bounded Context Database Design Diagram.</h5>
 
 <img src='assets/images/chapter_4/memberships/design.png' alt='Mailing Database Diagram' />
 
@@ -1965,7 +1965,7 @@ Se muestra el diagrama de clases con las clases y métodos explicados en las ant
 </table>
 
 
-<h3 id='4.2.6.'>4.2.6. Bounded Context: IoT</h3>
+<h3 id='4.2.5.'>4.2.5. Bounded Context: IoT</h3>
 En esta sección, el equipo presenta las clases identificadas y las detalla a manera de diccionario
 A continuación, se presentan las clases identificadas
 
@@ -2030,7 +2030,7 @@ Registrar eventos de sincronización de los dispositivos IoT, ya sea exitosos o 
 **Relaciones:**
 - **IoTDevice:** Cada clase IoTDevice, o dispositivo IoT, posee un gestor de eventos de sincronización.
 
-<h4 id='4.2.6.1.'>4.2.6.1. Domain Layer.</h4>
+<h4 id='4.2.5.1.'>4.2.5.1. Domain Layer.</h4>
 
 La clase **IoTDevice** representa una parte importante del core de la aplicación, ya que permite la digitalización automática de los parámetros ambientales esenciales para el cultivo de champiñones. Cada dispositivo es responsable de medir y reportar las condiciones de temperatura y humedad en las naves, así como activar alertas locales mediante un LED cuando se superan los umbrales críticos.
 
@@ -2049,13 +2049,13 @@ La clase **IoTDevice** representa una parte importante del core de la aplicació
 
 - **IoTDeviceRepository**: Interfaz que define los métodos necesarios para la gestión de dispositivos, tales como registrar dispositivos, actualizar configuraciones, consultar estados y obtener registros de mediciones.
 
-<h4 id='4.2.6.2.'>4.2.6.2. Interface Layer.</h4>
+<h4 id='4.2.5.2.'>4.2.5.2. Interface Layer.</h4>
 En esta sección se presentan las clases que forman parte de la capa de interfaz/presentación para el bounded context de IoT.
   
 **Controllers:**
 - **IoTController:** Maneja las solicitudes que se hacen al microservicio de IoT, específicamente aquellas que están relacionadas con la medición de temperatura y humedad, así como la gestión de alertas al nivel de la API. Es el método llamado cuando se realizan las consultas al microservicio de IoT.
 
-<h4 id='4.2.6.3.'>4.2.6.3. Application Layer.</h4>
+<h4 id='4.2.5.3.'>4.2.5.3. Application Layer.</h4>
 
 CommandHandlers: 
 
@@ -2070,7 +2070,7 @@ QueryHandlers:
 - get-iot-devices-status: Obtiene el estado actual de los dispositivos IoT registrados.
 - get-active-alerts: Obtiene las alertas que se encuentran activas.  
 
-<h4 id='4.2.6.4.'>4.2.6.4. Infrastructure Layer.</h4>
+<h4 id='4.2.5.4.'>4.2.5.4. Infrastructure Layer.</h4>
 
 En esta sección se presentan las clases que acceden a servicios externos en el bounded context de IoT.
 
@@ -2099,23 +2099,23 @@ IoTDataMeasurementDao: Realiza el mapeo entre la entidad `IoTDataMeasurementDao`
 
 DeviceSyncLogDao: Realiza el mapeo entre la entidad `DeviceSyncLog` (dominio) y su modelo de persistencia.
 
-<h4 id='4.2.6.5.'>4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.</h4>
+<h4 id='4.2.5.5.'>4.2.5.5. Bounded Context Software Architecture Component Level Diagrams.</h4>
 
 A continuación, se presenta el diagrama de componentes asociado al bounded context IoT.
 <br/>
 <img src='assets/images/chapter_4/iot/architecture.png' alt='IoT Component Level Diagram' />
 
-<h4 id='4.2.6.6.'>4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.</h4>
+<h4 id='4.2.5.6.'>4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.</h4>
 
 En esta sección se exponen los diagramas que muestran en un mayor detalle las clases que conforman el diagrama de componentes presentado.
 
-<h5 id='4.2.6.6.1.'>4.2.6.6.1. Bounded Context Domain Layer Class Diagrams.</h5>
+<h5 id='4.2.5.6.1.'>4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.</h5>
 
 Se muestra el diagrama de clases con las clases y métodos explicados en las anteriores secciones.
 
 <img src='assets/images/chapter_4/iot/class.png' alt='IoT Class Diagram' />
 
-<h5 id='4.2.6.6.2.'>4.2.6.6.2. Bounded Context Database Design Diagram.</h5>
+<h5 id='4.2.5.6.2.'>4.2.5.6.2. Bounded Context Database Design Diagram.</h5>
 
 El presente bounded context no cuenta con una instancia en la base de datos, dado que no es su responsabilidad garantizar la presistencia de la información. Este bounded context hace uso de la instancia del bounded context crops para grabar las mediciones realizadas.
 
