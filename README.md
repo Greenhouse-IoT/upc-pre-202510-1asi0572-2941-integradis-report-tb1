@@ -1845,11 +1845,11 @@ En esta sección se exponen los diagramas que muestran en un mayor detalle las c
 
 Se muestra el diagrama de clases con las clases y métodos explicados en las anteriores secciones.
 
-<img src='assets/images/chapter_4/memberships/class.png' alt='Mailling Class Diagram' />
+<img src='assets/images/chapter_4/memberships/class.png' alt='Mailing Class Diagram' />
 
 <h5 id='4.2.5.6.2.'>4.2.5.6.2. Bounded Context Database Design Diagram.</h5>
 
-<img src='assets/images/chapter_4/memberships/design.png' alt='Mailling Database Diagram' />
+<img src='assets/images/chapter_4/memberships/design.png' alt='Mailing Database Diagram' />
 
 <table cellpadding="5" cellspacing="0">
   <thead>
@@ -2101,8 +2101,9 @@ DeviceSyncLogDao: Realiza el mapeo entre la entidad `DeviceSyncLog` (dominio) y 
 
 <h4 id='4.2.6.5.'>4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.</h4>
 
-A continuación, se presenta el diagrama de componentes asociado al bounded context IoT
-<img src='' alt='IoT Component Level Diagram' />
+A continuación, se presenta el diagrama de componentes asociado al bounded context IoT.
+<br/>
+<img src='assets/images/chapter_4/iot/architecture.png' alt='IoT Component Level Diagram' />
 
 <h4 id='4.2.6.6.'>4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.</h4>
 
@@ -2112,126 +2113,12 @@ En esta sección se exponen los diagramas que muestran en un mayor detalle las c
 
 Se muestra el diagrama de clases con las clases y métodos explicados en las anteriores secciones.
 
-<img src='' alt='IoT Class Diagram' />
+<img src='assets/images/chapter_4/iot/class.png' alt='IoT Class Diagram' />
 
 <h5 id='4.2.6.6.2.'>4.2.6.6.2. Bounded Context Database Design Diagram.</h5>
 
-<img src='' alt='IoT Database Diagram' />
+El presente bounded context no cuenta con una instancia en la base de datos, dado que no es su responsabilidad garantizar la presistencia de la información. Este bounded context hace uso de la instancia del bounded context crops para grabar las mediciones realizadas.
 
-<table cellpadding="5" cellspacing="0">
-  <thead>
-    <tr>
-      <th>Nombre del atributo</th>
-      <th>Descripción del atributo</th>
-      <th>Tipo de dato del atributo</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>id</td>
-      <td>Identificador de la membresía de la fábrica champiñonera, primary key</td>
-      <td>varchar(255)</td>
-    </tr>
-    <tr>
-      <td>start_date</td>
-      <td>Fecha de inicio de la membresía</td>
-      <td>date</td>
-    </tr>
-    <tr>
-      <td>end_date</td>
-      <td>Fecha de fin de la membresía</td>
-      <td>date</td>
-    </tr>
-    <tr>
-      <td>company_id</td>
-      <td>Id de la fábrica champiñonera que adquiere la membresía</td>
-      <td>varchar(255)</td>
-    </tr>
-  </tbody>
-</table>
-
-<table cellpadding="5" cellspacing="0">
-  <thead>
-    <tr>
-      <th>Nombre del atributo</th>
-      <th>Descripción del atributo</th>
-      <th>Tipo de dato del atributo</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>id</td>
-      <td>Identificador del nivel de membresía, primary key</td>
-      <td>varchar(255)</td>
-    </tr>
-    <tr>
-      <td>name</td>
-      <td>Nombre del nivel de la membresía</td>
-      <td>varchar(255)</td>
-    </tr>
-    <tr>
-      <td>amount</td>
-      <td>Precio de adquisición del nivel de membresía</td>
-      <td>decimal(4,2)</td>
-    </tr>
-  </tbody>
-</table>
-
-<table cellpadding="5" cellspacing="0">
-  <thead>
-    <tr>
-      <th>Nombre del atributo</th>
-      <th>Descripción del atributo</th>
-      <th>Tipo de dato del atributo</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>id</td>
-      <td>Identificador del beneficio asociado a una membresía, primary key</td>
-      <td>varchar(255)</td>
-    </tr>
-    <tr>
-      <td>name</td>
-      <td>Nombre del beneficio asociado a una membresía</td>
-      <td>varchar(255)</td>
-    </tr>
-  </tbody>
-</table>
-
-<table cellpadding="5" cellspacing="0">
-  <thead>
-    <tr>
-      <th>Nombre del atributo</th>
-      <th>Descripción del atributo</th>
-      <th>Tipo de dato del atributo</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>id</td>
-      <td>Identificador de la solicitud para adquirir membresía, primary key</td>
-      <td>varchar(255)</td>
-    </tr>
-    <tr>
-      <td>amount</td>
-      <td>Precio de adquisición final de la membresía ya adquirida</td>
-      <td>decimal(4,2)</td>
-    </tr>
-    <tr>
-      <td>payment_date</td>
-      <td>Fecha de la transacción de adquisición de membresía</td>
-      <td>date</td>
-    </tr>
-    <tr>
-      <td>payment_method</td>
-      <td>Método de pago utilizado para la compra</td>
-      <td>varchar(255)</td>
-    </tr>
-  </tbody>
-</table>
-
-  
 <h1 id='conclusiones'>Conclusiones</h1>
 El desarrollo de los problem statements y assumptions demostró aproximarse bastante al comportamiento de nuestros segmentos objetivos de arrendador y arrendatario. Esto se debió a un correcto análisis (previo a la realización de entrevistas) sobre cómo planteamos llevar a cabo el proceso de alquiler de bicicletas y qué es lo que esperan los ciclistas en general en base a nuestros propios conocimientos, experiencia e investigación.
 Nuestras aproximaciones planteadas en el anterior punto se vieron más detalladas una vez realizado el proceso de entrevistas de validación, donde se pudo confirmar de que la redacción planteada en un inicio (de los problem statements y assumptions) estuvieron satisfactoriamente alineados a lo que se especificó con anterioridad.
