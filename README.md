@@ -53,8 +53,17 @@
 | 1.3     | 6/04/2025 | Galavis Du Bois, Alan Enrique | Redacción de solution profile, antecedentes y problemática |
 | 1.4    | 8/04/2025 | Galavis Du Bois, Alan Enrique | Redacción de ubiqutous language y bounded context IAM |
 | 1.5    | 13/04/2025 | Seminario Garbín, Carlo Luca | Redacción de perfil de integrante del equipo, software architecture diagrams y bounded context mailing |
+| 1.6    | 15/04/2025 | Soto Kong Requena, Andrés Eduardo | Elaboración de lean UX problem statements, lean UX assumptions, lean UX hypothesis statements y software architecture diagrams y bounded context mailing |
+| 1.7    | 20/04/2025 | Espinoza Rodríguez Nicolas Antonio | Elaboración de software architechture diagrams y bounded context crops |
+| 1.8    | 25/04/2025 | Seminario Garbín, Carlo Luca <br> Espinoza Rodríguez Nicolas Antonio | Elaboración de software architechture diagrams y bounded context IoT |
+| 1.9    | 26/04/2025 | Galavis Du Bois, Alan Enrique <br> | Redacción de Project Report Collaboration Insights, redacción de Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases, Context Mapping |
 
 # Project Report Collaboration Insights
+
+
+El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización Integradis.
+
+Link para acceder al repositorio en GitHub: [https://github.com/Greenhouse-IoT/upc-pre-202510-1asi0572-2941-integradis-report-tb1](https://github.com/Greenhouse-IoT/upc-pre-202510-1asi0572-2941-integradis-report-tb1)
 
 ### TB1
 
@@ -62,93 +71,137 @@
 | ----------------------------------- | ---------------- |
 | Astuyauri Calderon, Jherson David   | Redacción de perfil de integrante del equipo, competidores, análisis competitivo, estrategias y tácticas frente a competidores, entrevistas, user personas, user task matrix, user journey mapping, empathy mapping, as-is scenario mapping, to-be scenario mapping |
 | Espinoza Rodríguez, Nicolás Antonio | Redacción de perfil de integrante del equipo, Strategic-Level Domain-Driven Design, EventStorming, Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases, Context Mapping, Bounded Context Crops |
-| Galavis Du Bois, Alan Enrique       | Redacción de perfil de integrante del equipo, descripción del startup, solution profile, antecedentes y problemática, ubiqutous language, user stories, product backlog, bouded context IAM |
-| Seminario Garbin, Carlo Luca        | Redacción de perfil de integrante del equipo, impact mapping, software architechture system landscape diagram, software architecture context level diagrams, software architecture container level diagrams, software architecture deployment diagrams, bounded context mailing |
+| Galavis Du Bois, Alan Enrique       | Redacción de perfil de integrante del equipo, descripción del startup, solution profile, antecedentes y problemática, ubiqutous language, user stories, product backlog, bouded context IAM e IoT |
+| Seminario Garbin, Carlo Luca        | Redacción de perfil de integrante del equipo, impact mapping, software architechture system landscape diagram, software architecture context level diagrams, software architecture container level diagrams, software architecture deployment diagrams, bounded context mailing e IoT |
 | Soto Kong Requena, Andrés Eduardo   | Redacción de perfil de integrante del equipo, lean UX problem statements, lean UX assumptions, lean UX hypothesis statements, lean UX, segmentos objetivo, bounded context memberships |
+
+## GitHub Collaboration Insights
+GitHub Collaboration proporciona analíticas de los commits realizados por las cuentas de los integrantes del equipo. Estas cuentas son:
+- JHS-Sama24 (Jherson Astuyauri)
+- trabajosUPC-AlanGalavis (Alan Galavis)
+- EspinozaNaer (Nicolás Espinoza)
+- CarloLSG (Carlo Seminario)
+- asotito231 (Andrés Soto)
+
+A continuación, se presentan evidencias de la colaboración de los integrantes a partir de los gráficos otorgados por GitHub Collaboration.
+
+**TB1:**
+
+<img src="assets/images/collaboration_insights/tb1/collaboration_graph_tb1.png" alt="TB1 collaboration graph" />
+
+<img src="assets/images/collaboration_insights/tb1/contributors_graph_tb1.png" alt="TB1 contributors graph" />
+
+Adicionalmente, GitHub presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las ramas se
+crearon tomando en cuenta el diseño de GitFlow para una buena organización cuando se usa un software de control de versiones. Se
+explican las ramas más prominentes:
+
+- main: Es representada por el color negro. Se trata de la rama principal del proyecto y se actualiza para cada entregable.
+- develop: Se trata de la rama principal para el proceso del desarrollo del proyecto. Sobre esta rama se hace merge de todos los capítulos, se resuelven conflictos y se corrobora que no haya ningún error.
+- capitulo-1: Incluye el contenido del capítulo 1 del informe.
+- capitulo-2: Incluye el contenido del capítulo 2 del informe.
+- capitulo-3: Incluye el contenido del capítulo 3 del informe.
+- capitulo-4: Incluye el contenido del capítulo 4 del informe.
+
+**TB1:**
+
+<img src="assets/images/collaboration_insights/tb1/network_graph_tb1.png" alt="TB1 network graph" />
+
 
 # Contenido
 1. [**Capítulo I: Introducción.**](#1.) <br>
-1.1. [Startup Profile.](#1.1.) <br>
-1.1.1. [Descripción del startup.](#1.1.1.)<br>
-1.1.2.[Perfiles de los integrantes del equipo.](#1.1.2.)<br>
-1.2. [Solution Profile.](#1.2.)<br>
-1.2.1. [Antecedentes y Problemática.](#1.2.1.)<br>
-1.2.2. [Lean UX Process.](#1.2.2.)<br>
-1.2.2.1. [Lean UX Problem Statements.](#1.2.2.1.)<br>
-1.2.2.2. [Lean UX Assumptions.](#1.2.2.2.)<br>
-1.2.2.3. [Lean UX Hypothesis Statements.](#1.2.2.3.)<br>
-1.2.2.4. [Lean UX Canvas.](#1.2.2.4.)<br>
-1.3. [Segmentos objetivo.](#1.3.)<br>
+- 1.1. [Startup Profile.](#1.1.) <br>
+    - 1.1.1. [Descripción del startup.](#1.1.1.)<br>
+    - 1.1.2.[Perfiles de los integrantes del equipo.](#1.1.2.)<br>
+- 1.2. [Solution Profile.](#1.2.)<br>
+    - 1.2.1. [Antecedentes y Problemática.](#1.2.1.)<br>
+    - 1.2.2. [Lean UX Process.](#1.2.2.)<br>
+        - 1.2.2.1. [Lean UX Problem Statements.](#1.2.2.1.)<br>
+        - 1.2.2.2. [Lean UX Assumptions.](#1.2.2.2.)<br>
+        - 1.2.2.3. [Lean UX Hypothesis Statements.](#1.2.2.3.)<br>
+        - 1.2.2.4. [Lean UX Canvas.](#1.2.2.4.)<br>
+- 1.3. [Segmentos objetivo.](#1.3.)<br>
 2. [**Capítulo II: Requirements Elicitation & Analysis.**](#2.)<br>
-2.1. [Competidores.](#2.1.)<br>
-2.1.1. [Análisis competitivo.](#2.1.1.)<br>
-2.1.2. [Estrategias y tácticas frente a competidores.](#2.1.2.)<br>
-2.2. [Entrevistas.](#2.2.)<br>
-2.2.1. [Diseño de entrevistas.](#2.2.1.)<br>
-2.2.2. [Registro de entrevistas.](#2.2.2.)<br>
-2.2.3. [Análisis de entrevistas.](#2.2.3.)<br>
-2.3. [Needfinding.](#2.3.)<br>
-2.3.1. [User Personas.](#2.3.1.)<br>
-2.3.2. [User Task Matrix.](#2.3.2.)<br>
-2.3.3. [User Journey Mapping.](#2.3.3.)<br>
-2.3.4. [Empathy Mapping.](#2.3.4.)<br>
-2.3.5. [As-is Scenario Mapping.](#2.3.5.)<br>
-2.4. [Ubiqutous Language.](#2.4.)<br>
+- 2.1. [Competidores.](#2.1.)<br>
+    - 2.1.1. [Análisis competitivo.](#2.1.1.)<br>
+    - 2.1.2. [Estrategias y tácticas frente a competidores.](#2.1.2.)<br>
+- 2.2. [Entrevistas.](#2.2.)<br>
+    - 2.2.1. [Diseño de entrevistas.](#2.2.1.)<br>
+    - 2.2.2. [Registro de entrevistas.](#2.2.2.)<br>
+    - 2.2.3. [Análisis de entrevistas.](#2.2.3.)<br>
+- 2.3. [Needfinding.](#2.3.)<br>
+    - 2.3.1. [User Personas.](#2.3.1.)<br>
+    - 2.3.2. [User Task Matrix.](#2.3.2.)<br>
+    - 2.3.3. [User Journey Mapping.](#2.3.3.)<br>
+    - 2.3.4. [Empathy Mapping.](#2.3.4.)<br>
+    - 2.3.5. [As-is Scenario Mapping.](#2.3.5.)<br>
+- 2.4. [Ubiqutous Language.](#2.4.)<br>
 3. [**Capítulo III: Requirements Specification.**](#3.)<br>
-3.1. [To-Be Scenario Mapping.](#3.1.)<br>
-3.2. [User Stories.](#3.2.)<br>
-3.3. [Impact Mapping.](#3.3.)<br>
-3.4. [Product Backlog.](#3.4.)<br>
+- 3.1. [To-Be Scenario Mapping.](#3.1.)<br>
+- 3.2. [User Stories.](#3.2.)<br>
+- 3.3. [Impact Mapping.](#3.3.)<br>
+- 3.4. [Product Backlog.](#3.4.)<br>
 4. [**Capítulo IV: Solution Software Design.**](#4.)<br>
-4.1. [Strategic-Level Domain-Driven Design.](#4.1.)<br>
-4.1.1. [EventStorming.](#4.1.1.)<br>
-4.1.1.1. [Candidate Context Discovery.](#4.1.1.1.)<br>
-4.1.1.2. [Domain Message Flows Modeling.](#4.1.1.2.)<br>
-4.1.1.3. [Bounded Context Canvases.](#4.1.1.3.)<br>
-4.1.2. [Context Mapping.**](#4.1.2.)<br>
-4.1.3. [Software Architecture.](#4.1.3.)<br>
-4.1.3.1. [Software Architecture System Landscape Diagram.](#4.1.3.1.)<br>
-4.1.3.2. [Software Architecture Context Level Diagrams.](#4.1.3.2.)<br>
-4.1.3.3. [Software Architecture Container Level Diagrams.](#4.1.3.3.)<br>
-4.1.3.4. [Software Architecture Deployment Diagrams.](#4.1.3.4.)<br>
-4.2. [Tactical-Level Domain-Driven Design.](#4.2.)<br>
-4.2.1. [Bounded Context: Crops](#4.2.1.)<br>
-4.2.1.1. [Domain Layer.](#4.2.1.1.)<br>
-4.2.1.2. [Interface Layer.](#4.2.1.2.)<br>
-4.2.1.3. [Application Layer.](#4.2.1.3.)<br>
-4.2.1.4. [Infrastructure Layer.](#4.2.1.4.)<br>
-4.2.1.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.1.5.)<br>
-4.2.1.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.1.6.)<br>
-4.2.1.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.1.6.1.)<br>
-4.2.1.6.2. [Bounded Context Database Design Diagram.](#4.2.1.6.1.)<br>
-4.2.2. [Bounded Context: IAM](#4.2.2.)<br>
-4.2.2.1. [Domain Layer.](#4.2.2.1.)<br>
-4.2.2.2. [Interface Layer.](#4.2.2.2.)<br>
-4.2.2.3. [Application Layer.](#4.2.2.3.)<br>
-4.2.2.4. [Infrastructure Layer.](#4.2.2.4.)<br>
-4.2.2.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.2.5.)<br>
-4.2.2.6. [Bounded Context Software Architecture Code Level Diagrams.**](#4.2.2.6.)<br>
-4.2.2.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.2.6.1.)<br>
-4.2.2.6.2. [Bounded Context Database Design Diagram.](#4.2.2.6.2.)<br>
-4.2.3. [Bounded Context: Mailling**](#4.2.3.)<br>
-4.2.3.1. [Domain Layer.**](#4.2.3.1.)<br>
-4.2.3.2. [Interface Layer.**](#4.2.3.2.)<br>
-4.2.3.3. [Application Layer.**](#4.2.3.3.)<br>
-4.2.3.4. [Infrastructure Layer.**](#4.2.3.4.)<br>
-4.2.3.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.3.5.)<br>
-4.2.3.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.3.6.)<br>
-4.2.3.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.3.6.1.)<br>
-4.2.3.6.2. [Bounded Context Database Design Diagram.](#4.2.3.6.2.)<br>
-4.2.4. [Bounded Context: Memberships](#4.2.4.)<br>
-4.2.4.1. [Domain Layer.](#4.2.4.1.)<br>
-4.2.4.2. [Interface Layer.](#4.2.4.2.)<br>
-4.2.4.3. [Application Layer.](#4.2.4.3.)<br>
-4.2.4.4. [Infrastructure Layer.](#4.2.4.4.)<br>
-4.2.4.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.4.5.)<br>
-4.2.4.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.4.6.)<br>
-4.2.4.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.4.6.1.)<br>
-4.2.4.6.2. [Bounded Context Database Design Diagram.](#4.2.4.6.2.)<br>
+- 4.1. [Strategic-Level Domain-Driven Design.](#4.1.)<br>
+    - 4.1.1. [EventStorming.](#4.1.1.)<br>
+        - 4.1.1.1. [Candidate Context Discovery.](#4.1.1.1.)<br>
+        - 4.1.1.2. [Domain Message Flows Modeling.](#4.1.1.2.)<br>
+        - 4.1.1.3. [Bounded Context Canvases.](#4.1.1.3.)<br>
+    - 4.1.2. [Context Mapping.](#4.1.2.)<br>
+    - 4.1.3. [Software Architecture.](#4.1.3.)<br>
+        - 4.1.3.1. [Software Architecture System Landscape Diagram.](#4.1.3.1.)<br>
+        - 4.1.3.2. [Software Architecture Context Level Diagrams.](#4.1.3.2.)<br>
+        - 4.1.3.3. [Software Architecture Container Level Diagrams.](#4.1.3.3.)<br>
+        - 4.1.3.4. [Software Architecture Deployment Diagrams.](#4.1.3.4.)<br>
+- 4.2. [Tactical-Level Domain-Driven Design.](#4.2.)<br>
+    - 4.2.1. [Bounded Context: Crops](#4.2.1.)<br>
+        - 4.2.1.1. [Domain Layer.](#4.2.1.1.)<br>
+        - 4.2.1.2. [Interface Layer.](#4.2.1.2.)<br>
+        - 4.2.1.3. [Application Layer.](#4.2.1.3.)<br>
+        - 4.2.1.4. [Infrastructure Layer.](#4.2.1.4.)<br>
+        - 4.2.1.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.1.5.)<br>
+        - 4.2.1.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.1.6.)<br>
+            - 4.2.1.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.1.6.1.)<br>
+            - 4.2.1.6.2. [Bounded Context Database Design Diagram.](#4.2.1.6.1.)<br>
+    - 4.2.2. [Bounded Context: IAM](#4.2.2.)<br>
+        - 4.2.2.1. [Domain Layer.](#4.2.2.1.)<br>
+        - 4.2.2.2. [Interface Layer.](#4.2.2.2.)<br>
+        - 4.2.2.3. [Application Layer.](#4.2.2.3.)<br>
+        - 4.2.2.4. [Infrastructure Layer.](#4.2.2.4.)<br>
+        - 4.2.2.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.2.5.)<br>
+        - 4.2.2.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.2.6.)<br>
+            - 4.2.2.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.2.6.1.)<br>
+            - 4.2.2.6.2. [Bounded Context Database Design Diagram.](#4.2.2.6.2.)<br>
+    - 4.2.3. [Bounded Context: Mailling](#4.2.3.)<br>
+        - 4.2.3.1. [Domain Layer.](#4.2.3.1.)<br>
+        - 4.2.3.2. [Interface Layer.](#4.2.3.2.)<br>
+        - 4.2.3.3. [Application Layer.](#4.2.3.3.)<br>
+        - 4.2.3.4. [Infrastructure Layer.](#4.2.3.4.)<br>
+        - 4.2.3.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.3.5.)<br>
+        - 4.2.3.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.3.6.)<br>
+            - 4.2.3.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.3.6.1.)<br>
+            - 4.2.3.6.2. [Bounded Context Database Design Diagram.](#4.2.3.6.2.)<br>
+    - 4.2.4. [Bounded Context: Memberships](#4.2.4.)<br>
+        - 4.2.4.1. [Domain Layer.](#4.2.4.1.)<br>
+        - 4.2.4.2. [Interface Layer.](#4.2.4.2.)<br>
+        - 4.2.4.3. [Application Layer.](#4.2.4.3.)<br>
+        - 4.2.4.4. [Infrastructure Layer.](#4.2.4.4.)<br>
+        - 4.2.4.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.4.5.)<br>
+        - 4.2.4.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.4.6.)<br>
+          - 4.2.4.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.4.6.1.)<br>
+          - 4.2.4.6.2. [Bounded Context Database Design Diagram.](#4.2.4.6.2.)<br>
+    - 4.2.5. [Bounded Context: IoT](#4.2.5.)<br>
+        - 4.2.5.1. [Domain Layer.](#4.2.5.1.)<br>
+        - 4.2.5.2. [Interface Layer.](#4.2.5.2.)<br>
+        - 4.2.5.3. [Application Layer.](#4.2.5.3.)<br>
+        - 4.2.5.4. [Infrastructure Layer.](#4.2.5.4.)<br>
+        - 4.2.5.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.5.5.)<br>
+        - 4.2.5.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.5.6.)<br>
+          - 4.2.5.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.5.6.1.)<br>
+          - 4.2.5.6.2. [Bounded Context Database Design Diagram.](#4.2.5.6.2.)<br>
 
+[**Conclusiones.**](#conclusiones)<br>
+[**Bibliografía.**](#referencias)<br>
+[**Anexos.**](#referencias)<br>
 
 # Student Outcome
 
@@ -181,9 +234,9 @@
       Se realizó un inicio de prototipo de dispositivos IoT para poder experimentar e iniciar el desarrollo del trabajo con tiempo.
       <br/>
       <i>TB1</i><br/>
-      <b>Soto Kong Requena, Andrés Eduardo:</b>
+      <b>Soto Kong Requena, Andrés Eduardo: Fui responsable de la definición y desarrollo de los bounded context correspondientes a los módulos de Mail y Memberships. A través de su enfoque en la estructuración de estos contextos, contribuyó significativamente a la organización y modularización de la aplicación, asegurando una integración coherente con los demás componentes del sistema.</b>
       </td>
-      <td></td>
+      <td>El equipo trabajó de manera colaborativa y eficiente, asumiendo roles clave en diversas áreas del proyecto. Se lideró el análisis de requisitos y la implementación de herramientas UX, mientras que se definieron y estructuraron los bounded contexts de la aplicación. Además, se orientó al equipo sobre los objetivos del proyecto, se desarrolló un prototipo de IoT de manera temprana y se aseguraron módulos integrados y coherentes para una solución efectiva. En conjunto, se logró una ejecución fluida y alineada con el problema a resolver.</td>
     </tr>
     <tr>
     <tr>
@@ -205,9 +258,9 @@
       Colabaré con mis compañeros expresando las ideas colaborativas para la integración de IoT, de modo que podamos lograr una solución adecuada para el contexto.
       <br/>
       <i>TB1</i><br/>
-      <b>Soto Kong Requena, Andrés Eduardo:</b>
+      <b>Soto Kong Requena, Andrés Eduardo: Colabore para obtener un entorno colaborativo e inclusivo, asegurándose de que todas las metas fueran claras y alcanzables. Se encargó de coordinar tareas clave en el proceso de planificación, estableciendo un flujo de trabajo organizado y apoyando al equipo en el cumplimiento de los objetivos establecidos.</b>
       </td>
-      <td></td>
+      <td>El equipo trabajó de manera colaborativa e inclusiva, estableciendo metas claras y alcanzables para cumplir los objetivos del proyecto. Se promovió un ambiente de trabajo organizado y se gestionaron tareas clave como la planificación de entrevistas, el desarrollo de artefactos de gestión y la estimación de historias de usuario. Además, se distribuyó el trabajo de manera equitativa según las habilidades de cada miembro, se propusieron ideas colaborativas para la integración de IoT, y se garantizó una coordinación efectiva para lograr una solución adecuada y alineada con los objetivos del equipo.</td>
     </tr>
   </tbody>
 </table>
@@ -1579,21 +1632,21 @@ Command Handlers:
 -	send-event-mapper: Mapea objetos SendEvent entre la capa de dominio y la de persistencia.
 
 
-<h4 id='4.2.4.5.'>4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.</h4>
+<h4 id='4.2.3.5.'>4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.</h4>
 
 A continuación, se presenta el diagrama de componentes asociado al bounded context Mailling
 
 <img src='assets/images/chapter_4/mailing/mailling_component_diagram.png' alt='Mailling Component Level Diagram' />
 
-<h4 id='4.2.4.6.'>4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.</h4>
+<h4 id='4.2.3.6.'>4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.</h4>
 
-<h5 id='4.2.4.6.1.'>4.2.4.6.1. Bounded Context Domain Layer Class Diagrams.</h5>
+<h5 id='4.2.3.6.1.'>4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.</h5>
 
 A continuación, se presenta el diagrama de clases del microservicio encargado de la gestión de notificaciones por correo electrónico. Este diseño incluye las entidades Mail y MailTemplate, las cuales son procesadas a través de la fachada (ResendFacade), que abstrae la interacción con el servicio de Resend, encargado de ejecutar la lógica de envío de correos. Además, se ha implementado un mecanismo para registrar los eventos asociados al envío de correos, con el fin de garantizar una trazabilidad completa, permitiendo un monitoreo detallado del estado de los envíos y de los destinatarios involucrados, optimizando así el seguimiento y análisis del flujo de notificaciones.
 
 <img src='assets/images/chapter_4/mailing/mailling_class_diagram.png' alt='Mailling Class Diagram' />
 
-<h5 id='4.2.4.6.2.'>4.2.4.6.2. Bounded Context Database Design Diagram.</h5>
+<h5 id='4.2.3.6.2.'>4.2.3.6.2. Bounded Context Database Design Diagram.</h5>
 
 <img src='assets/images/chapter_4/mailing/mailling_database_diagram.png' alt='Mailling Database Diagram' />
 
@@ -1698,7 +1751,7 @@ A continuación, se presenta el diagrama de clases del microservicio encargado d
   </tbody>
 </table>
 
-<h3 id='4.2.5.'>4.2.5. Bounded Context: Memberships</h3>
+<h3 id='4.2.4.'>4.2.4. Bounded Context: Memberships</h3>
 En esta sección, el equipo presenta las clases identificadas y las detalla a manera de diccionario
 A continuación, se presentan las clases identificadas
 
@@ -1712,7 +1765,7 @@ A continuación, se presentan las clases identificadas
 
 - **MembershipPayment:** <br> - **Propósito:** Registra las transacciones relacionadas a adquisiciones de membresías. <br> - **Atributos:** <br> - **id:** string, Identificador único del pago <br> - **membershipId:** string, Identificador de la membresía asociada <br> - **amount:** number, Monto del pago asociado a la transacción <br> - **paymentDate:** Date, Fecha del pago <br> - **paymentMethod:** string, Método de pago <br> - **Métodos:** <br> - **registerPayment(amount: number, method: string):** void, Registra un nuevo pago para una membresía <br> - **Relaciones:** <br> - **Memberships:** La clase Memberships utiliza la clase MembershipPayment para verificar el estado de las transacciones que conciernen a las membresías, además de efectuar el cobro de renovaciones.
 
-<h4 id='4.2.5.1.'>4.2.5.1. Domain Layer.</h4>
+<h4 id='4.2.4.1.'>4.2.4.1. Domain Layer.</h4>
 
 La clase Memberships representa una parte importante del core de la aplicación. El grado de esta membresía condiciona los límites de uso de las empresas que utilizan el software mediante la cantidad de cultivos activos a la vez, los permisos que tienen sus administradores y el nivel de control sobre sus empleados que podrán mantener dentro de la plataforma.
 
@@ -1732,13 +1785,13 @@ La clase Memberships representa una parte importante del core de la aplicación.
 
 - **MembershipsRepository**: Interfaz que define los métodos a utilizar para la conexión a la base de datos.
 
-<h4 id='4.2.5.2.'>4.2.5.2. Interface Layer.</h4>
+<h4 id='4.2.4.2.'>4.2.4.2. Interface Layer.</h4>
 En esta sección se presentan las clases que forman parte de la capa de interfaz/presentación para el bounded context de membresías.
   
 **Controllers:**
 - **MembershipsController:** Maneja la creación, eliminación, búsqueda de permisos y actualización de estados de las membresías al nivel de la API. Es el método llamado cuando se realizan las consultas al microservicio de memberships.
 
-<h4 id='4.2.5.3.'>4.2.5.3. Application Layer.</h4>
+<h4 id='4.2.4.3.'>4.2.4.3. Application Layer.</h4>
 
 En esta sección se presentan las clases que manejan los flujos del proceso de membresías en el negocio.  
 
@@ -1755,7 +1808,7 @@ QueryHandlers:
 - get-membership-benefits-by-level: Obtiene todos los beneficios de un determinado nivel de membresía  
 - get-membership-by-company-id: Obtiene detalles de la membresía adquirida por una determinada empresa.  
 
-<h4 id='4.2.5.4.'>4.2.5.4. Infrastructure Layer.</h4>
+<h4 id='4.2.4.4.'>4.2.4.4. Infrastructure Layer.</h4>
 
 En esta sección se presentan las clases que acceden a servicios externos en el bounded context de membresías. 
 
@@ -1778,25 +1831,25 @@ Mappers:
 - MembershipLevelDao: Realiza el mapeo o conversión entre el objeto de beneficios de la membresía del dominio y el objeto que representa los datos ingresados a la persistencia.  
 - MembershipPaymentDao: Realiza la conversión entre el objeto de pago de membresía del dominio y el objeto persistence que ingresa la información a la base de datos.  
 
-<h4 id='4.2.5.5.'>4.2.5.5. Bounded Context Software Architecture Component Level Diagrams.</h4>
+<h4 id='4.2.4.5.'>4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.</h4>
 
 A continuación, se presenta el diagrama de componentes asociado al bounded context Memberships
 
 <img src='assets/images/chapter_4/memberships/architecture.png' alt='Mailling Component Level Diagram' />
 
-<h4 id='4.2.5.6.'>4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.</h4>
+<h4 id='4.2.4.6.'>4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.</h4>
 
 En esta sección se exponen los diagramas que muestran en un mayor detalle las clases del contenedor Memberships presentado.
 
-<h5 id='4.2.5.6.1.'>4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.</h5>
+<h5 id='4.2.4.6.1.'>4.2.4.6.1. Bounded Context Domain Layer Class Diagrams.</h5>
 
 Se muestra el diagrama de clases con las clases y métodos explicados en las anteriores secciones.
 
-<img src='assets/images/chapter_4/memberships/class.png' alt='Mailling Class Diagram' />
+<img src='assets/images/chapter_4/memberships/class.png' alt='Mailing Class Diagram' />
 
-<h5 id='4.2.5.6.2.'>4.2.5.6.2. Bounded Context Database Design Diagram.</h5>
+<h5 id='4.2.4.6.2.'>4.2.4.6.2. Bounded Context Database Design Diagram.</h5>
 
-<img src='assets/images/chapter_4/memberships/design.png' alt='Mailling Database Diagram' />
+<img src='assets/images/chapter_4/memberships/design.png' alt='Mailing Database Diagram' />
 
 <table cellpadding="5" cellspacing="0">
   <thead>
@@ -1912,7 +1965,7 @@ Se muestra el diagrama de clases con las clases y métodos explicados en las ant
 </table>
 
 
-<h3 id='4.2.6.'>4.2.6. Bounded Context: IoT</h3>
+<h3 id='4.2.5.'>4.2.5. Bounded Context: IoT</h3>
 En esta sección, el equipo presenta las clases identificadas y las detalla a manera de diccionario
 A continuación, se presentan las clases identificadas
 
@@ -1977,7 +2030,7 @@ Registrar eventos de sincronización de los dispositivos IoT, ya sea exitosos o 
 **Relaciones:**
 - **IoTDevice:** Cada clase IoTDevice, o dispositivo IoT, posee un gestor de eventos de sincronización.
 
-<h4 id='4.2.6.1.'>4.2.6.1. Domain Layer.</h4>
+<h4 id='4.2.5.1.'>4.2.5.1. Domain Layer.</h4>
 
 La clase **IoTDevice** representa una parte importante del core de la aplicación, ya que permite la digitalización automática de los parámetros ambientales esenciales para el cultivo de champiñones. Cada dispositivo es responsable de medir y reportar las condiciones de temperatura y humedad en las naves, así como activar alertas locales mediante un LED cuando se superan los umbrales críticos.
 
@@ -1996,13 +2049,13 @@ La clase **IoTDevice** representa una parte importante del core de la aplicació
 
 - **IoTDeviceRepository**: Interfaz que define los métodos necesarios para la gestión de dispositivos, tales como registrar dispositivos, actualizar configuraciones, consultar estados y obtener registros de mediciones.
 
-<h4 id='4.2.6.2.'>4.2.6.2. Interface Layer.</h4>
+<h4 id='4.2.5.2.'>4.2.5.2. Interface Layer.</h4>
 En esta sección se presentan las clases que forman parte de la capa de interfaz/presentación para el bounded context de IoT.
   
 **Controllers:**
 - **IoTController:** Maneja las solicitudes que se hacen al microservicio de IoT, específicamente aquellas que están relacionadas con la medición de temperatura y humedad, así como la gestión de alertas al nivel de la API. Es el método llamado cuando se realizan las consultas al microservicio de IoT.
 
-<h4 id='4.2.6.3.'>4.2.6.3. Application Layer.</h4>
+<h4 id='4.2.5.3.'>4.2.5.3. Application Layer.</h4>
 
 CommandHandlers: 
 
@@ -2017,7 +2070,7 @@ QueryHandlers:
 - get-iot-devices-status: Obtiene el estado actual de los dispositivos IoT registrados.
 - get-active-alerts: Obtiene las alertas que se encuentran activas.  
 
-<h4 id='4.2.6.4.'>4.2.6.4. Infrastructure Layer.</h4>
+<h4 id='4.2.5.4.'>4.2.5.4. Infrastructure Layer.</h4>
 
 En esta sección se presentan las clases que acceden a servicios externos en el bounded context de IoT.
 
@@ -2046,139 +2099,26 @@ IoTDataMeasurementDao: Realiza el mapeo entre la entidad `IoTDataMeasurementDao`
 
 DeviceSyncLogDao: Realiza el mapeo entre la entidad `DeviceSyncLog` (dominio) y su modelo de persistencia.
 
-<h4 id='4.2.6.5.'>4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.</h4>
+<h4 id='4.2.5.5.'>4.2.5.5. Bounded Context Software Architecture Component Level Diagrams.</h4>
 
-A continuación, se presenta el diagrama de componentes asociado al bounded context IoT
-<img src='' alt='IoT Component Level Diagram' />
+A continuación, se presenta el diagrama de componentes asociado al bounded context IoT.
+<br/>
+<img src='assets/images/chapter_4/iot/architecture.png' alt='IoT Component Level Diagram' />
 
-<h4 id='4.2.6.6.'>4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.</h4>
+<h4 id='4.2.5.6.'>4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.</h4>
 
 En esta sección se exponen los diagramas que muestran en un mayor detalle las clases que conforman el diagrama de componentes presentado.
 
-<h5 id='4.2.6.6.1.'>4.2.6.6.1. Bounded Context Domain Layer Class Diagrams.</h5>
+<h5 id='4.2.5.6.1.'>4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.</h5>
 
 Se muestra el diagrama de clases con las clases y métodos explicados en las anteriores secciones.
 
-<img src='' alt='IoT Class Diagram' />
+<img src='assets/images/chapter_4/iot/class.png' alt='IoT Class Diagram' />
 
-<h5 id='4.2.6.6.2.'>4.2.6.6.2. Bounded Context Database Design Diagram.</h5>
+<h5 id='4.2.5.6.2.'>4.2.5.6.2. Bounded Context Database Design Diagram.</h5>
 
-<img src='' alt='IoT Database Diagram' />
+El presente bounded context no cuenta con una instancia en la base de datos, dado que no es su responsabilidad garantizar la presistencia de la información. Este bounded context hace uso de la instancia del bounded context crops para grabar las mediciones realizadas.
 
-<table cellpadding="5" cellspacing="0">
-  <thead>
-    <tr>
-      <th>Nombre del atributo</th>
-      <th>Descripción del atributo</th>
-      <th>Tipo de dato del atributo</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>id</td>
-      <td>Identificador de la membresía de la fábrica champiñonera, primary key</td>
-      <td>varchar(255)</td>
-    </tr>
-    <tr>
-      <td>start_date</td>
-      <td>Fecha de inicio de la membresía</td>
-      <td>date</td>
-    </tr>
-    <tr>
-      <td>end_date</td>
-      <td>Fecha de fin de la membresía</td>
-      <td>date</td>
-    </tr>
-    <tr>
-      <td>company_id</td>
-      <td>Id de la fábrica champiñonera que adquiere la membresía</td>
-      <td>varchar(255)</td>
-    </tr>
-  </tbody>
-</table>
-
-<table cellpadding="5" cellspacing="0">
-  <thead>
-    <tr>
-      <th>Nombre del atributo</th>
-      <th>Descripción del atributo</th>
-      <th>Tipo de dato del atributo</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>id</td>
-      <td>Identificador del nivel de membresía, primary key</td>
-      <td>varchar(255)</td>
-    </tr>
-    <tr>
-      <td>name</td>
-      <td>Nombre del nivel de la membresía</td>
-      <td>varchar(255)</td>
-    </tr>
-    <tr>
-      <td>amount</td>
-      <td>Precio de adquisición del nivel de membresía</td>
-      <td>decimal(4,2)</td>
-    </tr>
-  </tbody>
-</table>
-
-<table cellpadding="5" cellspacing="0">
-  <thead>
-    <tr>
-      <th>Nombre del atributo</th>
-      <th>Descripción del atributo</th>
-      <th>Tipo de dato del atributo</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>id</td>
-      <td>Identificador del beneficio asociado a una membresía, primary key</td>
-      <td>varchar(255)</td>
-    </tr>
-    <tr>
-      <td>name</td>
-      <td>Nombre del beneficio asociado a una membresía</td>
-      <td>varchar(255)</td>
-    </tr>
-  </tbody>
-</table>
-
-<table cellpadding="5" cellspacing="0">
-  <thead>
-    <tr>
-      <th>Nombre del atributo</th>
-      <th>Descripción del atributo</th>
-      <th>Tipo de dato del atributo</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>id</td>
-      <td>Identificador de la solicitud para adquirir membresía, primary key</td>
-      <td>varchar(255)</td>
-    </tr>
-    <tr>
-      <td>amount</td>
-      <td>Precio de adquisición final de la membresía ya adquirida</td>
-      <td>decimal(4,2)</td>
-    </tr>
-    <tr>
-      <td>payment_date</td>
-      <td>Fecha de la transacción de adquisición de membresía</td>
-      <td>date</td>
-    </tr>
-    <tr>
-      <td>payment_method</td>
-      <td>Método de pago utilizado para la compra</td>
-      <td>varchar(255)</td>
-    </tr>
-  </tbody>
-</table>
-
-  
 <h1 id='conclusiones'>Conclusiones</h1>
 El desarrollo de los problem statements y assumptions demostró aproximarse bastante al comportamiento de nuestros segmentos objetivos de arrendador y arrendatario. Esto se debió a un correcto análisis (previo a la realización de entrevistas) sobre cómo planteamos llevar a cabo el proceso de alquiler de bicicletas y qué es lo que esperan los ciclistas en general en base a nuestros propios conocimientos, experiencia e investigación.
 Nuestras aproximaciones planteadas en el anterior punto se vieron más detalladas una vez realizado el proceso de entrevistas de validación, donde se pudo confirmar de que la redacción planteada en un inicio (de los problem statements y assumptions) estuvieron satisfactoriamente alineados a lo que se especificó con anterioridad.
@@ -2201,3 +2141,5 @@ Chakraborty, A., Bhattacharjee, A., Ghadge, H. L., Mawley, D., Paulzagde, A., & 
 Kusuma, M., Rifani, A. H., & Sugiantoro, B. (2023). Comparison analysis of Jetpack Compose and Flutter in Android-based application development using Technical Domain. In Eighth International Conference on Informatics and Computing (ICIC) (pp. 1-5). Manado, Indonesia. https://ieeexplore.ieee.org/document/10381987 
 
 Wangereka, H. (2024). Mastering Kotlin for Android 14: Build powerful Android apps from scratch using Jetpack libraries and Jetpack Compose. Packt Publishing. https://ieeexplore.ieee.org/document/10522576 
+
+<h1 id='anexos'>Anexos</h1>
