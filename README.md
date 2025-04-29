@@ -1432,7 +1432,7 @@ Este bounded context se enfoca en las clases y capas relacionadas con el cultivo
 
 <h5 id='4.2.1.6.1.'>4.2.1.6.1. Bounded Context Domain Layer Class Diagrams</h5>
 
-Insertar Imagen Actualizada
+<img src='assets/images/chapter_4/crops/crops_class_diagram.png' alt='Crops Class Diagram'/>
 
 <h5 id='4.2.1.6.2.'>4.2.1.6.2. Bounded Context Database Design Diagram</h5>
 
