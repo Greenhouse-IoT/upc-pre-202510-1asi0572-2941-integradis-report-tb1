@@ -2135,6 +2135,24 @@ Los hypotheses statements identificados en conjunto con los criterios de éxito 
 
 Consideramos fuertemente que las etapas más importantes de todo el proceso/roadmap de los productos digitales se encuentran en realizar buenas entrevistas para conocer a nuestros segmentos objetivos y para validar nuestro producto, Así como toda la parte que corresponde al diseño de la aplicación: mockups, wireframes, diagramas de clases y base de datos, etc. Ya que, estos forman parte del core del desarrollo del informe y proyecto para la parte de documentación e implementación correspondiente.
 
+<h1 id='6.'>6. Capítulo VI: Product Implementation, Validation & Deployment </h1>
+<h2 id='6.1.'>6.1. Software Configuration Management.</h2>
+<h3 id='6.1.1.'>6.1.1. Software Development Environment Configuration.</h3>
+<h3 id='6.1.2.'>6.1.2. Source Code Management.</h3>
+<h3 id='6.1.3.'>6.1.3. Source Code Style Guide & Conventions.</h3>
+<h3 id='6.1.4.'>6.1.4. Software Deployment Configuration.</h3>
+<h2 id='6.2.'>6.2. Landing Page, Services & Applications Implementation.</h2>
+<h3 id='6.2.1.'>6.2.1. Sprint 1.</h3>
+<h4 id='6.2.1.1.'>6.2.1.1. Sprint Planning 1.</h4>
+<h4 id='6.2.1.2.'>6.2.1.2. Aspect Leaders and Collaborators.</h4>
+<h4 id='6.2.1.3.'>6.2.1.3. Sprint Backlog 1.</h4>
+<h4 id='6.2.1.4.'>6.2.1.4. Development Evidence for Sprint Review.</h4>
+<h4 id='6.2.1.5.'>6.2.1.5. Testing Suite Evidence for Sprint Review.</h4>
+<h4 id='6.2.1.6.'>6.2.1.6. Execution Evidence for Sprint Review.</h4>
+<h4 id='6.2.1.7.'>6.2.1.7. Services Documentation Evidence for Sprint Review.</h4>
+<h4 id='6.2.1.8.'>6.2.1.8. Software Deployment Evidence for Sprint Review.</h4>
+<h4 id='6.2.1.9.'>6.2.1.9. Team Collaboration Insights during Sprint.</h4>
+
 <h1 id='referencias'>Referencias Bibliográficas</h1>
 Cajo Hernandez, J. A., & Rosales Caururu, A. N. (2022). Sistema de control y gestión para los cultivos agrícolas aplicando tecnologías emergentes en el Perú. [Tesis de licenciatura, Universidad Peruana de Ciencias Aplicadas]. Repositorio Académico UPC. https://repositorioacademico.upc.edu.pe/bitstream/handle/10757/660718/Cajo_HJ.pdf?sequence=3
 
