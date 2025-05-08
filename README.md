@@ -2146,8 +2146,38 @@ El presente bounded context no cuenta con una instancia en la base de datos, dad
 
 <h1 id='5.'>5. Capítulo V: Solution UI/UX Design</h1>
 <h2 id='5.1.'>5.1. Style Guidelines</h2>
+
+En la siguiente sección, se presentan las especificaciones de diseño de interfaz de usuario asociadas al proyecto Greenhouse. Enlace para acceder al [Figma](https://www.figma.com/design/wPpvosGW28c7blfOfbBo2n/Integradis---Wireframes-Greenhouse---Emergentes?node-id=115-172&t=NhQBBIFdnfNgF1z4-1)
+
 <h3 id='5.1.1.'>5.1.1. General Style Guidelines</h3>
+
+Un "style guideline" o guía de estilo es un conjunto de reglas y pautas que establecen la forma en que se deben escribir, diseñar o presentar documentos, contenido web, software, o cualquier otro tipo de trabajo creativo. A continuación, se presentan los parámetros implementados en la estructura del proyecto.
+
+<img src="assets/images/chapter_5/style_guidelines/general_style_guide.jpg" alt="Greenhouse General Style Guidelines">
+
+<br/>
+
+- **Colores:** Los colores toman protagonismo de la primera percepción visual de los usuarios. Es así que, guiados por los principios de la psicología del color, se destinó al color verde como tonalidad principal de la paleta cromática en la implementación de la plataforma. El verde simboliza balance, crecimiento y prestigio, uno de los alcances de la startup. Por otra parte, el pigmento verde se asocia con la agricultura, el rubro al que se direcciona la plataforma; y, al concepto de armonía, lo cual se busca ofrecer al usuario dentro de la interacción en el servicio. Como tonalidades secundarias se tienen a: variedades cromáticas del color blanco y azul.
+
+  <img src="assets/images/chapter_5/style_guidelines/general_color_guide.jpg" alt="Greenhouse General Color Guidelines">
+
+- **Tipografía:** La tipografía establece jerarquía entre los diversos grupos de contenido de la página. Asimismo, cumple un rol importante al momento de guiar al usuario a través de la interfaz. En relación al proyecto, la fuente seleccionada fue "Inria Sans" en estilos Light, Medium, Regular, Semibold y Bold para los títulos, y "Noto Sans" para los párrafos.
+
+  <img src="assets/images/chapter_5/style_guidelines/general_typography_guide.jpg" alt="Greenhouse General Typography Guidelines">
+
 <h3 id='5.1.2.'>5.1.2. Web, Mobile and IoT Style Guidelines</h3>
+
+El enfoque de Greenhouse para la aplicación web y mobile consiste en transmitir una interfaz limpia y sencilla, a partir de la cual los usuarios podrán realizar sus objetivos con eficiencia.
+
+- **Tarjetas:** Se hace uso del componente "card" para agrupar los principales componentes de la aplicación. Las tarjetas incluyen un título, un subtítulo, un párrafo descriptivo y representarán un hipervínculo para la obtención de más información.
+
+- **Imágenes:** En el diseño de la aplicación, se incluirán imágenes tanto descriptivas como ornamentales. En primer lugar, la imagen de perfil del usuario y de la empresa en la cual está registrado dentro de la aplicación se encontrarán en todo momento en la parte superior derecha (En el caso de la aplicación web), y en la barra de navegación inferior (En el caso de la aplicación móvil). Esto con el objetivo de ayudar al usuario a identificar la sesión en la que se encuentra y ayudarlo a navegar rápidamente a su perfil. Adicionalmente, se contará con imágenes decorativas en las pantalla de inicio de sesión y creación de cuenta, únicamente con el propósito de captar la atención del usuario.
+
+- **Campo de entrada de texto:** Se hace uso de cuadros de  escritura con la finalidad de que el usuario introduzca información de diversos tipos, como por ejemplo, sus credenciales en el apartado de creación de cuenta o inicio de sesión, nombres/ID de cultivos en la sección cultivos en progreso o archivo de cultivos, nombres de trabajadores en la sección del directorio de empleados, etc. Estos campos de entrada deben ser lo suficientemente anchos como para encajar la mayor cantidad de texto esperada por el usuario, estableciendo como tamaño mínimo 10 caracteres.
+
+- **Botones:** En la aplicación web, se suelen encontrar en la parte inferior de las tarjetas o al extremo derecho de los cuadros de escritura. Estos botones permiten al usuario realizar acciones tales como cambiar de página, abrir un diálogo, editar un campo, etc. Adicionalmente, se deben mostrar botones de confirmación para las acciones que involucren agregar o eliminar información de la base de datos. En general, todos los botones cuentan con un estilo distintivo y un alto contraste con los colores del resto de la aplicación. Se utiliza la teoría del color en los botones de color rojo para representar acciones que eliminen procesos o los den por finalizados.
+
+- **Diálogos/Modales:** Los diálogos o modales son ventanas secundarias que tienen el objetivo de confirmar acciones clave para el funcionamiento del negocio y con gran repercusión en el mismo. Los diálogos cuentan con colores con un valor de matiz mayor que sus contrapartes pasteles del resto de la aplicación web. Además, su aparición oscurece el resto de la pantalla para generar un efecto de contraste. Este efecto busca transmitir la importancia de la resolución del asunto de la pantalla emergente antes de que el usuario continúe con la navegación en la app.
 
 <h2 id='5.2.'>5.2. Information Architecture</h2>
 <h3 id='5.2.1.'>5.2.1. Organization Systems</h3>
