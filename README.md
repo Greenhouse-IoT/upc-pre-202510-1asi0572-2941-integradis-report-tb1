@@ -2144,7 +2144,114 @@ Consideramos fuertemente que las etapas más importantes de todo el proceso/road
 <h2 id='6.2.'>6.2. Landing Page, Services & Applications Implementation.</h2>
 <h3 id='6.2.1.'>6.2.1. Sprint 1.</h3>
 <h4 id='6.2.1.1.'>6.2.1.1. Sprint Planning 1.</h4>
+
+<h4 id='6.2.1.1.'>6.2.1.1. Sprint Planning 1.</h4>
+
+<table border="1">
+  <tr>
+    <th>Sprint #</th>
+    <td>1</td>
+  </tr>
+  <tr>
+    <th colspan="2">Sprint Planning Background</th>
+  </tr>
+  <tr>
+    <th>Date</th>
+    <td>2025-05-05</td>
+  </tr>
+  <tr>
+    <th>Time</th>
+    <td>20:00 PM</td>
+  </tr>
+  <tr>
+    <th>Location</th>
+    <td>Reunión virtual mediante la aplicación Discord</td>
+  </tr>
+  <tr>
+    <th>Prepared By</th>
+    <td>Nicolas Espinoza</td>
+  </tr>
+  <tr>
+    <th>Attendees (to planning meeting)</th>
+    <td>Astuyauri, Jherson <br/> Espinoza, Nicolás <br/> Galavis, Alan <br/> Seminario, Carlo <br/> Soto, Andrés</td>
+  </tr>
+  <tr>
+    <th>Sprint n – 1 Review Summary</th>
+    <td>No corresponde</td>
+  </tr>
+  <tr>
+    <th>Sprint n – 1 Retrospective Summary</th>
+    <td>No corresponde</td>
+  </tr>
+  <tr>
+    <th colspan="2">Sprint Goal & User Stories</th>
+  </tr>
+  <tr>
+    <th>Sprint 1 Goal</th>
+    <td>
+Our focus is on creating a fully functional and informative landing page for the Greenhouse application.
+We believe it delivers clear communication and attracts potential users by showcasing the key benefits of the platform.
+This will be confirmed when visitors can access the landing page, understand the value of the application, and navigate to the sign-up page for further engagement.</td>
+  </tr>
+  <tr>
+    <th>Sprint 1 Velocity</th>
+    <td>Para este sprint, se consideró aceptar como máximo N story points.</td>
+  </tr>
+  <tr>
+    <th>Sum of Story Points</th>
+    <td>N</td>
+  </tr>
+</table>
+
 <h4 id='6.2.1.2.'>6.2.1.2. Aspect Leaders and Collaborators.</h4>
+
+<table border="1">
+  <tr>
+    <th>Team Member (Last Name, First Name)</th>
+    <th>GitHub Username</th>
+    <th>Diseño visual de la landing page Leader (L) / Collaborator (C)</th>
+    <th>Desarrollo de la estructura de la landing page Leader (L) / Collaborator (C)</th>
+    <th>Redacción del Contenido textual y descriptivo (L) / Collaborator (C)</th>
+  </tr>
+  <tr>
+    <td>Astuyauri Calderon, Jherson David</td>
+    <td>JHS-Sama24</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Espinoza Rodríguez, Nicolás Antonio</td>
+    <td>EspinozaNaer</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+    <tr>
+    <td>Galavis Du Bois, Alan Enrique</td>
+    <td>TrabajosUPC-AlanGalavis</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  </tr>
+    <tr>
+    <td>Seminario Garbín, Carlo Luca</td>
+    <td>CarloLSG</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+    </tr>
+    <tr>
+    <td>Soto Kong Requena, Andrés Eduardo</td>
+    <td>asotito231</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+  </tr>
+</table>
+
 <h4 id='6.2.1.3.'>6.2.1.3. Sprint Backlog 1.</h4>
 <h4 id='6.2.1.4.'>6.2.1.4. Development Evidence for Sprint Review.</h4>
 <h4 id='6.2.1.5.'>6.2.1.5. Testing Suite Evidence for Sprint Review.</h4>
