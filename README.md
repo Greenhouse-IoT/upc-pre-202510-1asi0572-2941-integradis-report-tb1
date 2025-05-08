@@ -199,6 +199,31 @@ explican las ramas más prominentes:
           - 4.2.5.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.5.6.1.)<br>
           - 4.2.5.6.2. [Bounded Context Database Design Diagram.](#4.2.5.6.2.)<br>
 
+- 5. [**Capítulo V: Solution UI/UX Design.**](#5.)<br>
+    - 5.1. [Style Guidelines.](#5.1.)<br>
+        - 5.1.1. [General Style Guidelines.](#5.1.1.)<br>
+        - 5.1.2. [Web, Mobile and IoT Style Guidelines.](#5.1.2.)<br>
+    - 5.2. [Information Architecture.](#5.2.)<br>
+        - 5.2.1. [Organization Systems.](#5.2.1.)<br>
+        - 5.2.2. [Labeling Systems.](#5.2.2.)<br>
+        - 5.2.3. [SEO Tags and Meta Tags.](#5.2.3.)<br>
+        - 5.2.4. [Searching Systems.](#5.2.4.)<br>
+        - 5.2.5. [Navigation Systems.](#5.2.5.)<br>
+    - 5.3. [Landing Page UI Design.](#5.3.)<br>
+        - 5.3.1. [Landing Page Wireframe.](#5.3.1.)<br>
+        - 5.3.2. [Landing Page Mock-up.](#5.3.2.)<br>
+    - 5.4. [Applications UX/UI Design.](#5.4.)<br>
+        - 5.4.1. [Applications Wireframes.](#5.4.1.)<br>
+        - 5.4.2. [Applications Wireflow Diagrams.](#5.4.2.)<br>
+        - 5.4.3. [Applications Mock-ups.](#5.4.3.)<br>
+        - 5.4.4. [Applications User Flow Diagrams.](#5.4.4.)<br>
+    - 5.5. [Applications Prototyping.](#5.5.)<br>
+
+
+
+
+          
+
 [**Conclusiones.**](#conclusiones)<br>
 [**Bibliografía.**](#referencias)<br>
 [**Anexos.**](#referencias)<br>
@@ -2118,6 +2143,31 @@ Se muestra el diagrama de clases con las clases y métodos explicados en las ant
 <h5 id='4.2.5.6.2.'>4.2.5.6.2. Bounded Context Database Design Diagram.</h5>
 
 El presente bounded context no cuenta con una instancia en la base de datos, dado que no es su responsabilidad garantizar la presistencia de la información. Este bounded context hace uso de la instancia del bounded context crops para grabar las mediciones realizadas.
+
+<h1 id='5.'>5. Capítulo V: Solution UI/UX Design</h1>
+<h2 id='5.1.'>5.1. Style Guidelines</h2>
+<h3 id='5.1.1.'>5.1.1. General Style Guidelines</h3>
+<h3 id='5.1.2.'>5.1.2. Web, Mobile and IoT Style Guidelines</h3>
+
+<h2 id='5.2.'>5.2. Information Architecture</h2>
+<h3 id='5.2.1.'>5.2.1. Organization Systems</h3>
+<h3 id='5.2.2.'>5.2.2. Labeling Systems</h3>
+<h3 id='5.2.3.'>5.2.3. SEO Tags and Meta Tags</h3>
+<h3 id='5.2.4.'>5.2.4. Searching Systems</h3>
+<h3 id='5.2.5.'>5.2.5. Navigation Systems</h3>
+
+<h2 id='5.3.'>5.3. Landing Page UI Design</h2>
+<h3 id='5.3.1.'>5.3.1. Landing Page Wireframe</h3>
+<h3 id='5.3.2.'>5.3.2. Landing Page Mock-up</h3>
+
+<h2 id='5.4.'>5.4. Applications UX/UI Design</h2>
+<h3 id='5.4.1.'>5.4.1. Applications Wireframes</h3>
+<h3 id='5.4.2.'>5.4.2. Applications Wireflow Diagrams</h3>
+<h3 id='5.4.3.'>5.4.3. Applications Mock-ups</h3>
+<h3 id='5.4.4.'>5.4.4. Applications User Flow Diagrams</h3>
+
+<h2 id='5.5.'>5.5. Applications Prototyping</h2>
+
 
 <h1 id='conclusiones'>Conclusiones</h1>
 El desarrollo de los problem statements y assumptions demostró aproximarse bastante al comportamiento de nuestros segmentos objetivos de arrendador y arrendatario. Esto se debió a un correcto análisis (previo a la realización de entrevistas) sobre cómo planteamos llevar a cabo el proceso de alquiler de bicicletas y qué es lo que esperan los ciclistas en general en base a nuestros propios conocimientos, experiencia e investigación.
