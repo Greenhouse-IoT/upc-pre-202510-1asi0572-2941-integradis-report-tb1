@@ -246,6 +246,10 @@ explican las ramas más prominentes:
       <b>Astuyauri Calderón, Jherson David:</b>
       Lideré la elaboración del Capítulo II: Requirements Elicitation & Analysis, incluyendo el análisis competitivo, diseño de entrevistas y herramientas UX como User Personas y Empathy Mapping. Guié al equipo hacia decisiones centradas en el usuario,   fomentando el liderazgo compartido y el consenso en todo momento<br>
       <br/>
+      <i>TB2</i><br/>
+      <b>Astuyauri Calderón, Jherson David:</b>
+       Apoyé en el diseño de los wireflows y userflows tanto de la aplicación web como móvil. Participé activamente en la organización de las ideas del equipo y en el levantamiento de flujos centrados en la experiencia de usuario.<br>
+      <br/>
       <i>TB1</i><br/>
       <b>Espinoza Rodríguez, Nicolás Antonio:</b>
       Durante el presente trabajo se colaboró en equipo para la definición de los bounded context que conforman la totalidad de la aplicación. Los diagramas se realizaron en conjunto y combinando la experiencia anterior de los miembros del equipo.<br/>
@@ -270,6 +274,10 @@ explican las ramas más prominentes:
       <i>TB1</i><br/>
       <b>Astuyauri Calderón, Jherson David:</b>
       Desarrollé y estructuré gran parte del Capítulo II, gestionando tareas como el As-is Scenario Mapping y la planificación del análisis de entrevistas. Promoví un entorno inclusivo con metas claras y coordinación efectiva para cumplir los objetivos del equipo<br>
+      <br/>
+      <i>TB2</i><br/>
+      <b>Astuyauri Calderón, Jherson David:</b>
+      Apoyé en la elaboración de los wireflows y userflows de ambas aplicaciones, organizando tareas por prioridad y asegurando entregables claros.<br>
       <br/>
       <i>TB1</i><br/>
       <b>Espinoza Rodríguez, Nicolás Antonio:</b>
