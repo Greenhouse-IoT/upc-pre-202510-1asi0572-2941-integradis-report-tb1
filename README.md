@@ -2424,7 +2424,7 @@ El usuario debe presionar el botón “Perfil” ubicado en el toolbar inferior.
 ### User Goal: Filtrar cultivos por fecha  
 **User persona:** Administrador y Técnicos supervisores  
 **Explicación del flujo:**  
-En la vista de cultivos en progreso o registros de información, al presionar el botón de filtrado (parte superior derecha), se mostrará un calendario donde el usuario podrá aplicar filtros por fecha.
+Dado que el usuario se encuentre en la vista de cultivos en progreso o de registros de información, luego de que oprima sobre el botón de filtrado situado en la parte superior derecha de la pantalla, se mostrará un dialog con un calendario. En este último, el usuario podrá filtrar la información presentada según su fecha.
 
 ![User Flow - Filtrar por fecha](assets/images/chapter_5/userflows/userflowmobile4.png)
 
@@ -2433,7 +2433,7 @@ En la vista de cultivos en progreso o registros de información, al presionar el
 ### User Goal: Cambiar contraseña  
 **User persona:** Administrador y Técnicos supervisores  
 **Explicación del flujo:**  
-Desde su perfil, el usuario debe presionar el botón “Forgot your password?” en el toolbar inferior. Esto lo llevará a una vista con un formulario para ingresar la nueva contraseña y confirmarla. Si se acepta, vuelve a la vista anterior; si se cancela, también vuelve, pero sin procesar el cambio.
+Cuando el usuario ingrese a su perfil, desde el toolbar situado en la parte inferior de la pantalla, y oprima sobre el botón “Forgot your password?”, será redirigido a una vista desde la cual podrá llenar un formulario que le solicita ingresar la nueva contraseña y confirmar su decisión de cambio. En caso de que la acepte, será redirigido a la vista anterior. Caso contrario, sucederá lo mismo pero la operación solicitada no será procesada por el sistema.
 
 ![User Flow - Cambiar contraseña](assets/images/chapter_5/userflows/userflowmobile5.png)
 
@@ -2442,7 +2442,7 @@ Desde su perfil, el usuario debe presionar el botón “Forgot your password?”
 ### User Goal: Registrar información  
 **User persona:** Técnico Supervisor  
 **Explicación del flujo:**  
-El técnico supervisor debe acceder a la sección de cultivos en progreso, luego al *stepper*, seleccionar una fase y presionar el botón flotante inferior derecho para agregar un registro. Para eliminar información, puede deslizar a la izquierda u oprimir el botón respectivo, lo que generará una solicitud para los administradores.
+El técnico supervisor es el encargado de registrar información de las actividades realizadas y del estado de los cultivos por medio de la aplicación Greenhouse. Para cumplir este objetivo, el técnico debe de acceder a la sección de cultivos en progreso, para luego dirigirse al stepper, elegir una fase y finalmente oprimir sobre el botón flotante situado en la esquina inferior derecha para agregar un registro. En caso de que desee eliminar información, bien sea un cultivo entero, o un registro en particular, deberá de deslizar hacia la izquierda u oprimir sobre el botón indicado. Esto abrirá una solicitud que será enviada a los administradores para su posterior confirmación.
 
 ![User Flow - Registrar información](assets/images/chapter_5/userflows/userflowmobile6.png)
 
@@ -2451,7 +2451,7 @@ El técnico supervisor debe acceder a la sección de cultivos en progreso, luego
 ### User Goal: Ver registros archivados  
 **User persona:** Técnico supervisor  
 **Explicación del flujo:**  
-El técnico supervisor accede a la sección “Crops Archive” desde la vista principal. Allí selecciona un cultivo archivado, lo que lo redirige al *stepper*. Desde allí puede ver la duración del cultivo y sus fases. Al elegir una fase, puede revisar los registros hechos en esa etapa.
+En primer lugar, el técnico supervisor debe de acceder a la sección de “Crops Archive”, la cual está disponible desde la vista principal “Home”. Dentro de crops archive, el usuario deberá elegir alguno de los cultivos archivados, y tras oprimirlo, será redirigido al stepper. Dentro del stepper podrá visualizar la fecha de inicio y fin del cultivo, y las diversas fases que atravesó. Al elegir una fase en concreto, podrá visualizar todos los registros realizados en dicha etapa.
 
 ![User Flow - Ver registros archivados](assets/images/chapter_5/userflows/userflowmobile7.png)
 
@@ -2460,8 +2460,7 @@ El técnico supervisor accede a la sección “Crops Archive” desde la vista p
 ### User Goal: Atender solicitudes de eliminación o edición  
 **User persona:** Administrador  
 **Explicación del flujo:**  
-El administrador es responsable de verificar las solicitudes de edición o eliminación enviadas por los técnicos supervisores. Este flujo representa dicho proceso de validación dentro de la aplicación Greenhouse.
-
+El administrador es el encargado de la verificación de la información ingresada a la aplicación Greenhouse. Para cumplir este objetivo el administrador realiza el siguiente flujo, el cual representa el proceso de atender las solicitudes de edición o eliminación generadas por los técnicos supervisores.
 ![User Flow - Atender solicitudes](assets/images/chapter_5/userflows/userflowmobile8.png)
 
 
