@@ -758,8 +758,14 @@ En base al análisis competitivo efectuado anticipadamente, se logró identifica
 
 <h2 id='2.2.'>2.2. Entrevistas</h2>
 
-La sección abarca el proceso de investigación de nuestros segmentos objetivos mediante la 
-recolección de información en base a entrevistas.
+La sección abarca el proceso de investigación de nuestros segmentos objetivos mediante la recolección de información en base a entrevistas. Las entrevistas fueron diseñadas para obtener información crucial sobre el proceso de cultivo de champiñones y los desafíos asociados con el registro de datos dentro de la fábrica.
+
+Objetivo de las entrevistas:
+- **Técnicos supervisores:**
+El objetivo de las entrevistas a los técnicos supervisores es obtener información sobre el proceso de cultivo de champiñones, los métodos actuales de registro de datos, los desafíos enfrentados en la comunicación de procesos y la viabilidad de implementar una aplicación móvil que agilice estos registros. Se busca comprender la frecuencia de los registros, las herramientas que utilizan, y las dificultades que enfrentan al manejar grandes volúmenes de información manualmente.
+
+- **Administradores:**
+Las entrevistas a los administradores tienen como objetivo identificar las dificultades y limitaciones que enfrentan al recibir los registros de la producción y cómo la implementación de una herramienta tecnológica podría mejorar la eficiencia operativa. A través de sus respuestas, se busca entender cómo la administración gestiona los datos, el impacto de las demoras en la toma de decisiones y la percepción sobre la tecnología en los procesos de cultivo de champiñones.
 
 <h3 id='2.2.1.'>2.2.1. Diseño de entrevistas</h3>
 
@@ -897,6 +903,8 @@ needfinding-sprint-1) |
 <br>
 
 <h3 id='2.2.3.'>2.2.3. Análisis de entrevistas</h3>
+
+Esta sección tiene como objetivo identificar patrones comunes entre las respuestas de los técnicos supervisores y administradores, analizando los problemas, desafíos y oportunidades que surgieron durante las entrevistas, para establecer recomendaciones basadas en las evidencias recolectadas.
 
 ### Análisis del segmento de técnicos supervisores 
 
