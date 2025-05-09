@@ -2171,6 +2171,217 @@ El presente bounded context no cuenta con una instancia en la base de datos, dad
 <h2 id='5.4.'>5.4. Applications UX/UI Design</h2>
 <h3 id='5.4.1.'>5.4.1. Applications Wireframes</h3>
 <h3 id='5.4.2.'>5.4.2. Applications Wireflow Diagrams</h3>
+
+### 6.4.2 Wireflow Diagrams
+
+A continuación se presentarán los wireflow diagrams con el objetivo de proporcionar una visión general de cómo se conectan las diversas pantallas de las dos aplicación móviles para visualizar la experiencia del usuario de principio a fin. De esta forma, estos diagramas ayudan a identificar posibles problemas de usabilidad.  
+
+🔗 **[Enlace para acceder al Lucidchart](https://lucid.app/lucidchart/3044ab2c-ab1e-4e74-9655-08e3d050b2cc/edit?viewport_loc=-14929%2C-2432%2C37223%2C18249%2C0_0&invitationId=inv_94ff9667-e3e2-450a-8592-b35aa3336db1)**
+
+---
+
+#### Web Application Wireflow Diagrams
+
+---
+
+##### **User Goal: Registrar empresa**  
+**User persona:** Administradores  
+**Explicación del flujo:**  
+En primer lugar, los administradores deberán ingresar a la aplicación web. A continuación, deberán dirigirse al apartado de "Sign up", dentro del cual se mostrará un formulario que solicitará ingresar información relevante para la creación de la cuenta, como, por ejemplo, razón social, RUC, nombre del registrante y contraseña de la cuenta. Posteriormente, se mostrarán dos botones, uno que representa la confirmación del usuario de haber leído los términos y condiciones de uso, y otro que confirma su intención de crear una cuenta. Una vez confirmada la intención de crear una cuenta, se redirigirá al usuario a la vista principal.
+
+![Wireflow - Registrar empresa](assets/images/chapter_5/wireflows/wireflowimg1.png)
+
+---
+
+##### **User Goal: Iniciar sesión**  
+**User persona:** Administradores y técnicos supervisores  
+**Explicación del flujo:**  
+En primer lugar, el usuario deberá de acceder a la aplicación web. Posteriormente, visualizará en pantalla un formulario que solicitará sus datos de inicio de sesión, en este caso, correo usuario y contraseña. En caso de que estos sean validados, el sistema redirigirá al usuario al menú principal. Caso contrario, se mantendrá en la pestaña de inicio de sesión y se le solicitará introducir sus credenciales.
+
+![Wireflow - Iniciar sesión](assets/images/chapter_5/wireflows/wireflowimg2.png)
+
+---
+
+##### **User Goal: Navegar por el menú principal**  
+**User persona:** Administradores  
+**Explicación del flujo:**  
+Una vez que el usuario inicie sesión, será redirigido al menú principal, en donde visualizará una serie de opciones. La primera, llamada "Crops in progress", permitirá al administrador revisar los cultivos en progreso y sus respectivos registros. La segunda, denominada "Crops Archive", redirigirá al usuario a la sección homónima, desde la cual podrá visualizar el historial de cultivos finalizados. En tercer lugar se encuentra la opción "Statistical reports", la cual mostrará reportes estadísticos de valor para el usuario, como son el estado de las naves, número de registros por cultivo en progreso, insumos utilizados dentro de los cultivos, etc. Finalmente, la sección “My company” permitirá a los usuarios acceder al perfil de su empresa.
+
+![Wireflow - Menú principal](assets/images/chapter_5/wireflows/wireflowimg3.png)
+
+---
+
+##### **User Goal: Iniciar un nuevo cultivo**  
+**User persona:** Técnicos supervisores  
+**Explicación del flujo:**  
+En primer lugar el usuario debe de acceder a la sección "Crops in progress", dentro de la cual podrá encontrar una lista de registros de cultivos creados y catalogados como "En proceso". Cuando el usuario presione el botón ubicado en la parte inferior de la pantalla, se desplegará un mensaje emergente que solicitará confirmar su intención de crear una nueva cosecha. En caso de ser confirmada, se redireccionará al usuario a la nueva siembra creada.
+
+![Wireflow - Nuevo cultivo](assets/images/chapter_5/wireflows/wireflowimg4.png)
+
+---
+
+##### **User Goal: Registrar progreso de cultivo**  
+**User persona:** Técnicos supervisores  
+**Explicación del flujo:**  
+En primer lugar, el usuario debe presionar el botón situado en la parte inferior de la tabla de registros de un cultivo. A continuación, se redirigirá al usuario a una sección con un formulario, dentro de las cuales los usuarios podrán registrar la información necesaria. Cabe destacar que el presente flujo sienta las bases del registro de procesos en cada una de las 8 fases existentes.
+
+![Wireflow - Progreso de cultivo](assets/images/chapter_5/wireflows/wireflowimg5.png)
+
+---
+
+##### **User Goal: Ver registro pasado en cultivo finalizado**  
+**User persona:** Administradores y técnicos supervisores  
+**Explicación del flujo:**  
+En primer lugar, el usuario debe de presionar sobre el botón “Crops archive”, el cual está situado en el menú principal. A continuación, visualizará una tabla con todos los cultivos finalizados. Posteriormente, podrá presionar sobre alguno de los cultivos para revisar los registros asociados al mismo.
+
+![Wireflow - Cultivo finalizado](assets/images/chapter_5/wireflows/wireflowimg6.png)
+
+### 6.4.2. Applications Wireflow Diagrams
+
+A continuación se presentarán los wireflow diagrams con el objetivo de proporcionar una visión general de cómo se conectan las diversas pantallas de las dos aplicación móviles para visualizar la experiencia del usuario de principio a fin. De esta forma, estos diagramas ayudan a identificar posibles problemas de usabilidad.
+
+**Enlace para acceder al Lucid Chart**  
+[Lucidchart - Wireflows](https://lucid.app/lucidchart/3044ab2c-ab1e-4e74-9655-08e3d050b2cc/edit?viewport_loc=-14929%2C-2432%2C37223%2C18249%2C0_0&invitationId=inv_94ff9667-e3e2-450a-8592-b35aa3336db1)
+
+---
+
+#### 6.4.2.1 Web Application Wireflow Diagrams
+
+**User Goal:** Registrar empresa  
+**User persona:** Administradores  
+**Explicación del flujo:**  
+El administrador accede a la web y se dirige a la opción de "Sign up", donde rellena un formulario con razón social, RUC, nombre del registrante y contraseña. Luego, acepta los términos y condiciones y confirma su intención de registrarse. Finalmente, es redirigido a la vista principal.  
+
+![Wireflow](assets/images/chapter_5/wireflows/wireflowmobile1.png)
+
+---
+
+**User Goal:** Iniciar sesión  
+**User persona:** Administradores y técnicos supervisores  
+**Explicación del flujo:**  
+El usuario accede a la web, ingresa correo y contraseña. Si son válidos, accede al menú principal; si no, permanece en la misma pantalla.
+
+![Wireflow](assets/images/chapter_5/wireflows/wireflowmobile2.png)
+
+---
+
+**User Goal:** Navegar por el menú principal  
+**User persona:** Administradores  
+**Explicación del flujo:**  
+Tras iniciar sesión, el administrador accede al menú principal con las opciones: "Crops in progress", "Crops Archive", "Statistical reports" y "My company".
+
+![Wireflow](assets/images/chapter_5/wireflows/wireflowmobile3.png)
+
+---
+
+**User Goal:** Iniciar un nuevo cultivo  
+**User persona:** Técnicos supervisores  
+**Explicación del flujo:**  
+Desde "Crops in progress", el usuario presiona un botón para crear una nueva cosecha y es redirigido a la siembra creada.
+
+![Wireflow](assets/images/chapter_5/wireflows/wireflowmobile4.png)
+
+---
+
+**User Goal:** Registrar progreso de cultivo  
+**User persona:** Técnicos supervisores  
+**Explicación del flujo:**  
+Presiona un botón en la tabla de registros, accede a un formulario para registrar datos según las 8 fases de cultivo.
+
+![Wireflow](assets/images/chapter_5/wireflows/wireflowmobile5.png)
+
+---
+
+**User Goal:** Ver registro pasado en cultivo finalizado  
+**User persona:** Administradores y técnicos supervisores  
+**Explicación del flujo:**  
+Accede a "Crops archive", visualiza una tabla de cultivos finalizados y puede consultar los registros.
+
+![Wireflow](assets/images/chapter_5/wireflows/wireflowmobile6.png)
+
+---
+
+#### Mobile Application Wireflow Diagrams
+
+**User Goal:** Registrar empresa  
+**User persona:** Administradores  
+**Explicación del flujo:**  
+El administrador abre la app, accede a "Sign up", completa un formulario con razón social, RUC, nombre y contraseña, acepta términos y se registra.
+
+![Wireflow](assets/images/chapter_5/wireflows/wireflowmobile7.png)
+
+---
+
+**User Goal:** Iniciar sesión  
+**User persona:** Administradores y técnicos supervisores  
+**Explicación del flujo:**  
+El usuario ingresa a la app, introduce correo y contraseña. Si son correctos, accede al menú principal; si no, se mantiene en la misma pantalla.
+
+![Wireflow](assets/images/chapter_5/wireflows/wireflowmobile8.png)
+
+---
+
+**User Goal:** Navegar por el menú principal  
+**User persona:** Administradores  
+**Explicación del flujo:**  
+Una vez dentro, el menú ofrece: "Crops in progress", "Crops Archive", "Statistical reports" y “Recent records”.
+
+![Wireflow](assets/images/chapter_5/wireflows/wireflowmobile9.png)
+
+---
+
+**User Goal:** Iniciar un nuevo cultivo  
+**User persona:** Técnicos supervisores  
+**Explicación del flujo:**  
+Desde "Crops in progress", presiona un botón flotante para confirmar la creación de una nueva siembra.
+
+![Wireflow](assets/images/chapter_5/wireflows/wireflowmobile10.png)
+
+---
+
+**User Goal:** Registrar progreso de cultivo  
+**User persona:** Técnicos supervisores  
+**Explicación del flujo:**  
+Presiona el botón flotante y se le muestra un formulario para registrar datos por fases del cultivo.
+
+![Wireflow](assets/images/chapter_5/wireflows/wireflowmobile11.png)
+
+---
+
+**User Goal:** Ver registro pasado en cultivo finalizado  
+**User persona:** Administradores y técnicos supervisores  
+**Explicación del flujo:**  
+Accede a "Crops archive", visualiza una lista de cultivos terminados y consulta los registros asociados.
+
+![Wireflow](assets/images/chapter_5/wireflows/wireflowmobile12.png)
+
+---
+
+**User Goal:** Editar registro  
+**User persona:** Técnicos supervisores  
+**Explicación del flujo:**  
+Presiona "Editar" en una tarjeta, modifica los datos y envía la solicitud para ser aprobada por un administrador.
+
+![Wireflow](assets/images/chapter_5/wireflows/wireflowmobile13.png)
+
+---
+
+**User Goal:** Editar perfil  
+**User persona:** Administrador y técnicos supervisores  
+**Explicación del flujo:**  
+Desde el botón "Perfil", puede modificar su información personal y acceder a la opción para cambiar la contraseña.
+
+![Wireflow](assets/images/chapter_5/wireflows/wireflowmobile14.png)
+
+---
+
+**User Goal:** Invitar a un trabajador a la empresa en Greenhouse  
+**User persona:** Administrador  
+**Explicación del flujo:**  
+Desde "Perfil", accede a “Company” y luego a “Invite employees” para completar el formulario con los datos del nuevo usuario.
+
+![Wireflow](assets/images/chapter_5/wireflows/wireflowmobile15.png)
+
 <h3 id='5.4.3.'>5.4.3. Applications Mock-ups</h3>
 <h3 id='5.4.4.'>5.4.4. Applications User Flow Diagrams</h3>
 
