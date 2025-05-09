@@ -2170,9 +2170,8 @@ El presente bounded context no cuenta con una instancia en la base de datos, dad
 
 <h2 id='5.4.'>5.4. Applications UX/UI Design</h2>
 <h3 id='5.4.1.'>5.4.1. Applications Wireframes</h3>
-<h3 id='5.4.2.'>5.4.2. Applications Wireflow Diagrams</h3>
 
-### 6.4.2 Wireflow Diagrams
+<h3 id='5.4.2.'>5.4.2. Applications Wireflow Diagrams</h3>
 
 A continuación se presentarán los wireflow diagrams con el objetivo de proporcionar una visión general de cómo se conectan las diversas pantallas de las dos aplicación móviles para visualizar la experiencia del usuario de principio a fin. De esta forma, estos diagramas ayudan a identificar posibles problemas de usabilidad.  
 
