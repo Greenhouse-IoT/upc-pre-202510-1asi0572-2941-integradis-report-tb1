@@ -2319,7 +2319,152 @@ En primer lugar, el usuario debe de presionar sobre el botón “Perfil”, el c
 
 
 <h3 id='5.4.3.'>5.4.3. Applications Mock-ups</h3>
+
 <h3 id='5.4.4.'>5.4.4. Applications User Flow Diagrams</h3>
+
+A continuación se mostrarán los user flow diagrams, los cuales permiten visualizar el recorrido completo que el usuario sigue dentro de la aplicación para alcanzar un objetivo específico (*user goal*). Desde el inicio hasta la finalización de la tarea, los *user flow diagrams* muestran las acciones y decisiones que los usuarios toman en cada paso, así como las pantallas y funcionalidades involucradas en el proceso.
+
+### Web Application User Flow Diagrams
+
+#### **User Goal:** Crear cuenta e Iniciar sesión  
+**User Persona:** Administrador  
+
+**Explicación del flujo:**  
+En primer lugar, los administradores deberán ingresar a la aplicación móvil. A continuación, deberán dirigirse al apartado de *Sign up*, dentro del cual se mostrará un formulario que solicitará ingresar información relevante para la creación de la cuenta, como, por ejemplo, razón social, RUC, nombre del registrante y contraseña de la cuenta. Seguidamente, se mostrarán dos botones, uno que representa la confirmación del usuario de haber leído los términos y condiciones de uso, y otro que confirma su intención de crear una cuenta. Una vez confirmada la intención de crear una cuenta, se redirigirá al usuario a la vista principal.
+
+Por otro lado, en caso de que el usuario haya creado previamente una cuenta en Greenhouse, y desee iniciar sesión, deberá completar el formulario que le solicita su usuario y contraseña. En caso de que estos sean validados, el sistema redirigirá al usuario al menú principal. Caso contrario, se mantendrá en la pestaña de inicio de sesión y se le solicitará introducir sus credenciales. En caso de que rechace cualquiera de estas dos operaciones, el usuario será redirigido a la vista inicial de bienvenida.
+
+![Userflow Crear cuenta e Iniciar sesión](assets/images/chapter_5/userflows/userflowweb1.png)
+
+---
+
+#### **User Goal:** Iniciar sesión  
+**User Persona:** Administrador  
+
+**Explicación del flujo:**  
+En primer lugar, los administradores deberán ingresar a la aplicación web. En caso de que el usuario haya creado previamente una cuenta en Greenhouse, y desee iniciar sesión, deberá completar el formulario que le solicita su usuario y contraseña. En caso de que estos sean validados, el sistema redirigirá al usuario al menú principal. Caso contrario, se mantendrá en la pestaña de inicio de sesión y se le solicitará introducir sus credenciales. En caso de que rechace cualquiera de estas dos operaciones, el usuario será redirigido a la vista inicial.
+
+![Userflow Iniciar sesión](assets/images/chapter_5/userflows/userflowweb2.png)
+
+---
+
+#### **User Goal:** Ver y editar perfil de usuario  
+**User Persona:** Administrador y Técnicos supervisores  
+
+**Explicación del flujo:**  
+En primer lugar, el usuario debe de presionar sobre el botón *Perfil*, el cual está situado en el *toolbar* superior de la aplicación. A continuación, visualizará una sección desde la cual podrá modificar la información asociada a su perfil personal. Adicionalmente, encontrará un botón que indica *Reset your password*, el cual luego de ser presionado, redirigirá al usuario a una vista desde la cual podrá cambiar su contraseña.
+
+![Userflow Ver y editar perfil](assets/images/chapter_5/userflows/userflowweb3.png)
+
+---
+
+#### **User Goal:** Cambiar contraseña  
+**User Persona:** Administrador y Técnicos supervisores  
+
+**Explicación del flujo:**  
+Cuando el usuario ingrese a su perfil, desde el *toolbar* situado en la parte superior derecha de la pantalla, y oprima sobre el botón *Forgot your password?*, será redirigido a una vista desde la cual podrá llenar un formulario que le solicita ingresar la nueva contraseña y confirmar su decisión de cambio. En caso de que la acepte, será redirigido a la vista anterior. Caso contrario, sucederá lo mismo, pero la operación solicitada no será procesada por el sistema.
+
+![Userflow Cambiar contraseña](assets/images/chapter_5/userflows/userflowweb4.png)
+
+---
+
+#### **User Goal:** Registrar información  
+**User Persona:** Técnico Supervisor  
+
+**Explicación del flujo:**  
+El técnico supervisor es el encargado de registrar información de las actividades realizadas y del estado de los cultivos por medio de la aplicación Greenhouse. Para cumplir este objetivo, el técnico debe de acceder a la sección de cultivos en progreso, para luego dirigirse al *stepper*, y finalmente oprimir sobre el botón situado en la esquina inferior izquierda para agregar un registro.
+
+![Userflow Registrar información](assets/images/chapter_5/userflows/userflowweb5.png)
+
+---
+
+#### **User Goal:** Ver registros archivados  
+**User Persona:** Técnico Supervisor  
+
+**Explicación del flujo:**  
+En primer lugar, el técnico supervisor debe de acceder a la sección de *Crops Archive*, la cual está disponible desde la vista principal *Home*. Dentro de *Crops Archive*, el usuario deberá elegir alguno de los cultivos archivados, y tras oprimirlo, será redirigido al *stepper*. Dentro del *stepper* podrá visualizar la fecha de inicio y fin del cultivo, y las diversas fases que atravesó.
+
+![Userflow Ver registros archivados](assets/images/chapter_5/userflows/userflowweb6.png)
+
+## Mobile Application User Flow Diagrams
+
+Los *user flow diagrams* son representaciones visuales del flujo que atraviesa un usuario para cumplir con un objetivo en específico dentro de la aplicación. A continuación, se presentan los user flow diagramas asociados a la aplicación móvil.
+
+---
+
+### User Goal: Iniciar sesión y crear cuenta  
+**User persona:** Administrador  
+**Explicación del flujo:**  
+En primer lugar, los administradores deberán ingresar a la aplicación móvil. A continuación, deberán dirigirse al apartado de "Sign up", dentro del cual se mostrará un formulario que solicitará ingresar información relevante para la creación de la cuenta, como razón social, RUC, nombre del registrante y contraseña. Luego se mostrarán dos botones: uno para confirmar que se han leído los términos y condiciones, y otro para confirmar la creación de la cuenta. Una vez confirmado, se redirige al usuario a la vista principal.
+
+Por otro lado, si el usuario ya tiene una cuenta, debe llenar el formulario de inicio de sesión con su usuario y contraseña. Si son válidos, será redirigido al menú principal. Si no, permanecerá en la pestaña de inicio de sesión para reingresar las credenciales. Si rechaza ambas operaciones, será redirigido a la vista inicial de bienvenida.
+
+![User Flow - Iniciar sesión y crear cuenta](assets/images/chapter_5/userflows/userflowmobile1.png)
+
+---
+
+### User Goal: Iniciar sesión  
+**User persona:** Técnico supervisor  
+**Explicación del flujo:**  
+El técnico supervisor debe ingresar a la aplicación móvil y completar el formulario de inicio de sesión con su usuario y contraseña. Si son validados, será dirigido al menú principal. Si no, se quedará en la pestaña de inicio de sesión para reintentar. Si se rechaza la operación, será redirigido a la vista inicial de bienvenida.
+
+![User Flow - Iniciar sesión](assets/images/chapter_5/userflows/userflowmobile2.png)
+
+---
+
+### User Goal: Ver y editar perfil de usuario  
+**User persona:** Administrador y Técnicos supervisores  
+**Explicación del flujo:**  
+El usuario debe presionar el botón “Perfil” ubicado en el toolbar inferior. Desde allí, podrá modificar su información personal y acceder a la opción "Reset your password", la cual lo llevará a una vista donde podrá cambiar su contraseña.
+
+![User Flow - Ver y editar perfil](assets/images/chapter_5/userflows/userflowmobile3.png)
+
+---
+
+### User Goal: Filtrar cultivos por fecha  
+**User persona:** Administrador y Técnicos supervisores  
+**Explicación del flujo:**  
+En la vista de cultivos en progreso o registros de información, al presionar el botón de filtrado (parte superior derecha), se mostrará un calendario donde el usuario podrá aplicar filtros por fecha.
+
+![User Flow - Filtrar por fecha](assets/images/chapter_5/userflows/userflowmobile4.png)
+
+---
+
+### User Goal: Cambiar contraseña  
+**User persona:** Administrador y Técnicos supervisores  
+**Explicación del flujo:**  
+Desde su perfil, el usuario debe presionar el botón “Forgot your password?” en el toolbar inferior. Esto lo llevará a una vista con un formulario para ingresar la nueva contraseña y confirmarla. Si se acepta, vuelve a la vista anterior; si se cancela, también vuelve, pero sin procesar el cambio.
+
+![User Flow - Cambiar contraseña](assets/images/chapter_5/userflows/userflowmobile5.png)
+
+---
+
+### User Goal: Registrar información  
+**User persona:** Técnico Supervisor  
+**Explicación del flujo:**  
+El técnico supervisor debe acceder a la sección de cultivos en progreso, luego al *stepper*, seleccionar una fase y presionar el botón flotante inferior derecho para agregar un registro. Para eliminar información, puede deslizar a la izquierda u oprimir el botón respectivo, lo que generará una solicitud para los administradores.
+
+![User Flow - Registrar información](assets/images/chapter_5/userflows/userflowmobile6.png)
+
+---
+
+### User Goal: Ver registros archivados  
+**User persona:** Técnico supervisor  
+**Explicación del flujo:**  
+El técnico supervisor accede a la sección “Crops Archive” desde la vista principal. Allí selecciona un cultivo archivado, lo que lo redirige al *stepper*. Desde allí puede ver la duración del cultivo y sus fases. Al elegir una fase, puede revisar los registros hechos en esa etapa.
+
+![User Flow - Ver registros archivados](assets/images/chapter_5/userflows/userflowmobile7.png)
+
+---
+
+### User Goal: Atender solicitudes de eliminación o edición  
+**User persona:** Administrador  
+**Explicación del flujo:**  
+El administrador es responsable de verificar las solicitudes de edición o eliminación enviadas por los técnicos supervisores. Este flujo representa dicho proceso de validación dentro de la aplicación Greenhouse.
+
+![User Flow - Atender solicitudes](assets/images/chapter_5/userflows/userflowmobile8.png)
+
+
 
 <h2 id='5.5.'>5.5. Applications Prototyping</h2>
 
