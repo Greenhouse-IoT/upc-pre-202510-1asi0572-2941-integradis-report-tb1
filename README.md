@@ -2252,6 +2252,7 @@ El proyecto seguirá las convenciones de flujo de trabajo establecidas por el mo
 git commit \-m "\<type\>\[optional scope\]:\<title\>" \-m"\<description"\>
 
 <h3 id='6.1.3.'>6.1.3. Source Code Style Guide & Conventions.</h3>
+
 **HTML:** Algunas de las prácticas que deben de seguirse para alcanzar un código coherente, sostenible y ordenado son las siguientes:
 
 1. Cerrar todos los elementos HTML: Por ejemplo, \<p\>Esto es un párrafo.\</p\>  
@@ -2269,6 +2270,529 @@ git commit \-m "\<type\>\[optional scope\]:\<title\>" \-m"\<description"\>
 **Gherkin:** Es un lenguaje de dominio específico, el cual busca solucionar un problema concreto, la comunicación entre los negocios y la parte técnica al trabajar con Behavior Driven Development, abreviado por sus siglas en inglés como BBD. En busca de una buena práctica, se ocuparon los saltos de línea para mejorar el orden de los diversos tipos de escenarios y diferenciarlos de forma más óptima. Adicionalmente, se utilizaron las palabras clave "Given", "When", "Then" y "And" para estructurar los escenarios.
 
 <h3 id='6.1.4.'>6.1.4. Software Deployment Configuration.</h3>
+
+**Web App:**
+
+Para la aplicación web se realizó el despliegue mediante Netlify. Este se vincula con el repositorio de Github y a partir de allí es que se realiza un despliegue continuo a partir de la rama que se selecciona.
+
+Como un segundo paso se tiene que realizar la creación de un archivo \_redirects dentro de la carpeta public para que este se encargue de que la navegación funcione correctamente, el contenido de dicho archivo es el siguiente:  
+/\* /index.html 200
+
+**Mobile App:**
+
+Para Mobile App se realizó se realizará el despliegue para Android de la siguiente manera:
+
+En la carpeta del proyecto se ingresa al terminal y se tiene que ejecutar el comando:
+
+- flutter build apk \--release  
+
+En el cual se genera el archivo resultante en:
+
+- Built build/app/outputs/flutter-apk/app-release.apk (28.0MB)
+
+Luego de ello se sube el archivo a Google Drive y se genera un código QR con el enlace del archivo de Google Drive.
+
+Se utiliza una instancia de Amazon EC2 free tier con Amazon Linux 2023\. En ella se almacenan un Dockerfile y un docker-compose.yml.
+
+<img src='assets/images/chapter_6/software_deployment_configuration/vm_connection.png' alt='AWS VM Connection' />
+
+
+El Dockerfile es el siguiente:
+
+\# Use the Alpine base image
+
+FROM alpine:latest
+
+\# Install required packages
+
+RUN apk update && \\
+
+	apk add \--no-cache git nodejs npm docker docker-compose
+
+\# Initialize Git repository
+
+RUN git init
+
+\# Clone the application repository
+
+RUN git clone https://github.com/re-greenhouse/backend-gh.git
+
+\# Set working directory
+
+WORKDIR /backend-gh
+
+\# Checkout the desired branch
+
+RUN git checkout feature/env
+
+\# Install npm dependencies
+
+RUN npm install
+
+\# Copy the environment file
+
+RUN cp .env.example .env
+
+\#Update the .env file with resend api
+
+RUN sed \-i 's/RESEND\_API\_KEY=.\*/RESEND\_API\_KEY=***ColocarAcáElApiKey***/' .env
+
+\# Install PM2 globally
+
+RUN npm install pm2 \-g
+
+\# Build the application
+
+RUN npm run build api-gateway && \\
+
+	npm run build iam && \\
+
+	npm run build personas && \\
+
+	npm run build crops && \\
+
+    	npm run build mailing && \\
+
+	npm run build memberships
+
+\# Expose the ports
+
+EXPOSE 3000
+
+\# Start the PM2 processes using the configuration file
+
+CMD \["pm2-runtime", "start", "pm2.config.js"\]
+
+Básicamente se levanta todo el proyecto en una imagen de docker de alpine. Cabe destacar el archivo pm2.config.js el cuál corresponde a la configuración con la cuál se van a ejecutar los microservicios en diferentes procesos mediante PM2:
+
+module.exports \= {
+
+  apps: \[
+
+	{
+
+  	name: "api-gateway",
+
+  	script: "dist/apps/api-gateway/src/main.js",
+
+  	instances: 1,
+
+  	autorestart: true,
+
+  	watch: false,
+
+  	max\_memory\_restart: '1G',
+
+  	env: {
+
+    	NODE\_ENV: 'production',
+
+    	PORT: 3000
+
+  	}
+
+	},
+
+	{
+
+  	name: "api-gateway-2",
+
+  	script: "dist/apps/api-gateway/src/main.js",
+
+  	instances: 1,
+
+  	autorestart: true,
+
+  	watch: false,
+
+  	max\_memory\_restart: '1G',
+
+  	env: {
+
+    	NODE\_ENV: 'production',
+
+    	PORT: 3010
+
+  	}
+
+	},
+
+	{
+
+  	name: "iam",
+
+  	script: "dist/apps/iam/src/main.js",
+
+  	instances: 1,
+
+  	autorestart: true,
+
+  	watch: false,
+
+  	max\_memory\_restart: '1G',
+
+  	env: {
+
+    	NODE\_ENV: 'production'
+
+  	}
+
+	},
+
+	{
+
+  	name: "personas",
+
+  	script: "dist/apps/personas/src/main.js",
+
+  	instances: 1,
+
+  	autorestart: true,
+
+  	watch: false,
+
+  	max\_memory\_restart: '1G',
+
+  	env: {
+
+    	NODE\_ENV: 'production'
+
+  	}
+
+	},
+
+	{
+
+  	name: "crops",
+
+  	script: "dist/apps/crops/src/main.js",
+
+  	instances: 1,
+
+  	autorestart: true,
+
+  	watch: false,
+
+  	max\_memory\_restart: '1G',
+
+  	env: {
+
+    	NODE\_ENV: 'production'
+
+  	}
+
+	}
+
+  \]
+
+};
+
+Como se puede observar se levantan todos los microservicios y para lograr alta disponibilidad se está levantando un segundo api-gateway en un puerto diferente que más adelante veremos cómo es utilizado con Nginx.
+
+Tras esto se tiene el archivo docker-compose.yml, en el que podemos observar que se está levantando una base de datos de postgres por cada microservicio, y además se está levantando la imagen del backend con los microservicios en monorepo y con los puertos 3000 y 3010 (correspondientes a API-Gateway expuestos), cabe destacar que para realizar la conexión a la base de datos desde los microservicios se utilizó un custom network de modo que cuando se levante el docker-compose las bd tengan una IPV4 estática y se pueda realizar la conexión satisfactoriamente:
+
+version: "3.9"
+
+services:
+
+  pg-iam:
+
+	image: postgres
+
+	restart: always
+
+	environment:
+
+  	POSTGRES\_PASSWORD: pass123
+
+	networks:
+
+  	custom\_network:
+
+    	ipv4\_address: 172.16.238.10
+
+  pg-personas:
+
+	image: postgres
+
+	restart: always
+
+	environment:
+
+  	POSTGRES\_PASSWORD: pass123
+
+	networks:
+
+  	custom\_network:
+
+    	ipv4\_address: 172.16.238.11
+
+  pg-crops:
+
+	image: postgres
+
+	restart: always
+
+	environment:
+
+  	POSTGRES\_PASSWORD: pass123
+
+	networks:
+
+  	custom\_network:
+
+    	ipv4\_address: 172.16.238.12
+
+  pg-mailing:
+
+	image: postgres
+
+	restart: always
+
+	environment:
+
+  	POSTGRES\_PASSWORD: pass123
+
+	networks:
+
+  	custom\_network:
+
+    	ipv4\_address: 172.16.238.13
+
+   	 
+
+  pg-memberships:
+
+	image: postgres
+
+	restart: always
+
+	ports:
+
+  	\- "5436:5432"
+
+	environment:
+
+  	POSTGRES\_PASSWORD: pass123
+
+	networks:
+
+  	custom\_network:
+
+    	ipv4\_address: 172.16.238.14
+
+  backend-gh:
+
+	image: backend:latest
+
+	restart: always
+
+	ports:
+
+  	\- "3000:3000"
+
+	depends\_on:
+
+  	\- pg-iam
+
+  	\- pg-personas
+
+  	\- pg-crops
+
+  	\- pg-mailing
+
+  	\- pg-memberships
+
+	networks:
+
+  	custom\_network:
+
+    	ipv4\_address: 172.16.238.15
+
+  backend-gh-2:
+
+	build:
+
+  	context: .
+
+  	dockerfile: Dockerfile
+
+	restart: always
+
+	ports:
+
+  	\- "3010:3000"
+
+	depends\_on:
+
+  	\- pg-iam
+
+  	\- pg-personas
+
+  	\- pg-crops
+
+  	\- pg-mailing
+
+  	\- pg-memberships
+
+	networks:
+
+  	custom\_network:
+
+    	ipv4\_address: 172.16.238.16
+
+networks:
+
+  custom\_network:
+
+	driver: bridge
+
+	ipam:
+
+  	config:
+
+    	\- subnet: 172.16.238.0/24
+
+Com estos dos archivos se levantan con los siguientes comandos:
+
+$ docker build \-t backend:latest
+
+$ docker compose up \-d
+
+Con ello nuestro backend estaría levantado sin embargo se decidió usar nginx para realizar un reverse proxy a la vez que un balanceador de carga y así al ejecutarse en el puerto 80 tener salida a internet desde la VM.
+
+Para Nginx se optó descarglo en la VM en lugar del container de docker. Se ejecutaron los siguientes comandos:
+
+$ sudo yum install nginx
+
+$ sudo systemctl enable nginx && sudo systemctl start nginx
+
+$ sudo nano /etc/nginx/nginx.conf
+
+En este último se realizaron los cambios en la configuración de Nginx para que se adapte a nuestras necesidades, en este caso tener un upstream con ambos api-gateway de modo que distribuya la carga entre ambos procesos, y en caso se caiga uno siga ejecutándose en el otro. Este es la configuración que se colocó:
+
+upstream api\_gateway\_upstream {
+
+    	server 127.31.44.186:3000;
+
+    	server 127.31.44.186:3010;
+
+	}
+
+	server {
+
+	listen 80;
+
+	listen \[::\]:80;
+
+	server\_name ec2-18-119-14-190.us-east-2.compute.amazonaws.com;
+
+	location / {
+
+    	proxy\_pass http://api\_gateway\_upstream;
+
+    	proxy\_set\_header Host $host;
+
+    	proxy\_set\_header X-Real-IP $remote\_addr;
+
+    	proxy\_set\_header X-Forwarded-For $proxy\_add\_x\_forwarded\_for;
+
+    	proxy\_set\_header X-Forwarded-Proto $scheme;
+
+	}
+
+De este modo quedaría corriendo Ngnix como reverse proxy y mostrando desde el puerto 80 nuestro backend. Luego se ejecuta lo siguiente:
+
+$ sudo nginx \-t
+
+$ sudo systemctl restart nginx
+
+Para automatizar este proceso de despliegue igualmente se realizaron scripts que actualicen el despliegue tras luego correrlos, el primero un script the bash que detiene el docker compose, luego elimina el container e imagen del backend, y vuelve a crear la imagen y correr el docker compose con la nueva imagen. Mientras que a su vez se utilizó un github actions workflow para que cuando detecté que hay un push a la branch correspondiente, se conecte al servidore y ejecute el comando update.sh.
+
+- update.sh:
+
+  \#\!/bin/bash
+
+
+  \# Stop Docker containers
+
+  docker-compose stop
+
+
+  \# Delete the container (if it exists)
+
+  docker rm \-f ec2-user-backend-gh-1
+
+  docker rm \-f ec2-user-backend-gh-2-1
+
+
+  \# Delete the existing Docker image (if it exists)
+
+  docker rmi \-f backend:latest
+
+
+  \# Build the Docker image
+
+  docker build \--no-cache \-t backend:latest .
+
+
+  \# Start Docker containers
+
+  docker-compose up \-d
+
+
+- Github Actions Workflow:
+
+name: Deploy on Push
+
+on:
+
+  push:
+
+	branches:
+
+  	\- feature/deploy  \# Specify your deployment branch here
+
+jobs:
+
+  deploy:
+
+	runs-on: ubuntu-latest
+
+	steps:
+
+	\- name: Checkout code
+
+  	uses: actions/checkout@v2
+
+	\- name: Set up SSH
+
+  	uses: webfactory/ssh-agent@v0.5.3
+
+  	with:
+
+    	ssh-private-key: ${{ secrets.SSH\_PRIVATE\_KEY }}
+
+	\- name: Copy SSH key
+
+  	run: |
+
+    	mkdir \-p \~/.ssh
+
+    	echo "${{ secrets.SSH\_PRIVATE\_KEY }}" \> \~/.ssh/gh.pem
+
+    	chmod 600 \~/.ssh/gh.pem
+
+	\- name: Execute update script on server
+
+  	run: |
+
+    	ssh \-o StrictHostKeyChecking=no \-i \~/.ssh/gh.pem ec2-user@ec2-18-119-14-190.us-east-2.compute.amazonaws.com 'bash \-c "/home/ec2-user/[update.sh](http://update.sh)"'
+
+**Embedded App:**
+
+Para el caso de la aplicación Iot embebida está será instalada mediante Arduino Ide y una conexión usb, a la cuál se le subirá el código al microcontrolador ESP32.
+
 <h2 id='6.2.'>6.2. Landing Page, Services & Applications Implementation.</h2>
 <h3 id='6.2.1.'>6.2.1. Sprint 1.</h3>
 <h4 id='6.2.1.1.'>6.2.1.1. Sprint Planning 1.</h4>
