@@ -198,8 +198,7 @@ explican las ramas más prominentes:
         - 4.2.5.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.5.6.)<br>
           - 4.2.5.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.5.6.1.)<br>
           - 4.2.5.6.2. [Bounded Context Database Design Diagram.](#4.2.5.6.2.)<br>
-
-- 5. [**Capítulo V: Solution UI/UX Design.**](#5.)<br>
+5. [**Capítulo V: Solution UI/UX Design.**](#5.)<br>
     - 5.1. [Style Guidelines.](#5.1.)<br>
         - 5.1.1. [General Style Guidelines.](#5.1.1.)<br>
         - 5.1.2. [Web, Mobile and IoT Style Guidelines.](#5.1.2.)<br>
@@ -246,7 +245,7 @@ explican las ramas más prominentes:
       <b>Astuyauri Calderón, Jherson David:</b>
       Lideré la elaboración del Capítulo II: Requirements Elicitation & Analysis, incluyendo el análisis competitivo, diseño de entrevistas y herramientas UX como User Personas y Empathy Mapping. Guié al equipo hacia decisiones centradas en el usuario,   fomentando el liderazgo compartido y el consenso en todo momento<br>
       <br/>
-      <i>TB2</i><br/>
+      <i>TP1</i><br/>
       <b>Astuyauri Calderón, Jherson David:</b>
        Apoyé en el diseño de los wireflows y userflows tanto de la aplicación web como móvil. Participé activamente en la organización de las ideas del equipo y en el levantamiento de flujos centrados en la experiencia de usuario.<br>
       <br/>
@@ -262,6 +261,10 @@ explican las ramas más prominentes:
       <b>Seminario Garbín, Carlo Luca:</b>
       Se realizó un inicio de prototipo de dispositivos IoT para poder experimentar e iniciar el desarrollo del trabajo con tiempo.
       <br/>
+      <i>TP1</i><br/>
+      <b>Seminario Garbín, Carlo Luca:</b>
+      Se realizó el despliegue del backend para que mis compañeros puedan hacer uso de las funcionalidades y hacer un flujo de trabajo más óptimo, comunicando bugs o caídas para poder darles mantenimiento.
+      <br/>
       <i>TB1</i><br/>
       <b>Soto Kong Requena, Andrés Eduardo: Fui responsable de la definición y desarrollo de los bounded context correspondientes a los módulos de Mail y Memberships. A través de su enfoque en la estructuración de estos contextos, contribuyó significativamente a la organización y modularización de la aplicación, asegurando una integración coherente con los demás componentes del sistema.</b>
       </td>
@@ -275,7 +278,7 @@ explican las ramas más prominentes:
       <b>Astuyauri Calderón, Jherson David:</b>
       Desarrollé y estructuré gran parte del Capítulo II, gestionando tareas como el As-is Scenario Mapping y la planificación del análisis de entrevistas. Promoví un entorno inclusivo con metas claras y coordinación efectiva para cumplir los objetivos del equipo<br>
       <br/>
-      <i>TB2</i><br/>
+      <i>TP1</i><br/>
       <b>Astuyauri Calderón, Jherson David:</b>
       Apoyé en la elaboración de los wireflows y userflows de ambas aplicaciones, organizando tareas por prioridad y asegurando entregables claros.<br>
       <br/>
@@ -289,6 +292,10 @@ explican las ramas más prominentes:
       <i>TB1</i><br/>
       <b>Seminario Garbín, Carlo Luca:</b>
       Colabaré con mis compañeros expresando las ideas colaborativas para la integración de IoT, de modo que podamos lograr una solución adecuada para el contexto.
+      <br/>
+      <i>TP1</i><br/>
+      <b>Seminario Garbín, Carlo Luca:</b>
+      Apoyé distribuyendo el trabajo entre el equipo escuchando propuestas y aportando ideas para avanzar de forma colaborativa en base a metas y objetivos.
       <br/>
       <i>TB1</i><br/>
       <b>Soto Kong Requena, Andrés Eduardo: Colabore para obtener un entorno colaborativo e inclusivo, asegurándose de que todas las metas fueran claras y alcanzables. Se encargó de coordinar tareas clave en el proceso de planificación, estableciendo un flujo de trabajo organizado y apoyando al equipo en el cumplimiento de los objetivos establecidos.</b>
