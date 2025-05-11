@@ -2225,6 +2225,33 @@ Consideramos fuertemente que las etapas más importantes de todo el proceso/road
 
 
 <h3 id='6.1.1.'>6.1.1. Software Development Environment Configuration.</h3>
+El proyecto seguirá las convenciones de flujo de trabajo establecidas por el modelo GitFlow para el control de versiones, utilizando GitHub como plataforma y sistema de control de versiones. A continuación, se detallará cómo se implementará GitFlow como Workflow de control de versiones, además de proporcionar los URL de los repositorios de GitHub para cada producto: Landing Page, Web Services y Frontend Web Applications.
+
+**Repositorio de GitHub:** Enlace para acceder a la organización en GitHub Enlace para acceder al repositorio de la Landing Page Enlace para acceder al repositorio del Frontend Web Application
+
+**Flujo de trabajo GitFlow:** El flujo de trabajo a utilizar para el desarrollo del proyecto fue el planteado por Vincent Driessen en "A successful Git branching model".
+
+<img src='assets/images/chapter_6/software_development_envirioment_configuration/GitFlow.png' alt='Git Flow' />
+
+**Estructura de branches (Ramas):**
+
+**Master branch** (Rama principal): Esta rama será considerada como la principal para la aplicación, y contendrá versiones estables y finales del desarrollo. Solo se permitirán cambios que hayan sido previamente probados y verificados en otras ramas de prueba.
+
+**Develop branch** (Rama de desarrollo): El propósito de esta rama es llevar a cabo los avances del proyecto en equipo y de mantener los archivos centrales del desarrollo continuo.
+
+**Feature branches** (Ramas de funcionalidad): Cada funcionalidad desarrollada por el equipo o separada del enfoque actual del desarrollo tendrá su propia rama. Una vez que una funcionalidad esté completamente trabajada, se fusionará con la rama de desarrollo del proyecto. Las convenciones para nombrar las ramas de funcionalidad seguirán un patrón descriptivo y único, por ejemplo, "feature/nombre-de-la-funcionalidad".
+
+**Release branches** (Ramas de lanzamiento): Estas ramas se utilizarán para mantener una instancia de la rama develop que esté próxima a ser incluida en la rama principal. Se seguirá el sistema de versionamiento semántico (Semantic Versioning) para nombrar las Releases.
+
+**Hotfix branches** (Ramas de corrección): Se crearán para abordar de manera puntual y eficiente la corrección de errores identificados en la rama principal que afecten significativamente la experiencia de los usuarios.
+
+**Versionamiento Semántico**: Para nombrar las Releases, se aplicará el sistema de versionamiento semántico (Semantic Versioning 2.0.0).
+
+**Convenciones de Commits**: Para los mensajes de los commits realizados, se utilizará la especificación Conventional Commits basada en Angular Commit Guidelines. La estructura a seguir será la siguiente:
+
+git commit \-m "\<type\>\[optional scope\]:\<title\>" \-m"\<description"\>
+
+
 <h3 id='6.1.2.'>6.1.2. Source Code Management.</h3>
 <h3 id='6.1.3.'>6.1.3. Source Code Style Guide & Conventions.</h3>
 <h3 id='6.1.4.'>6.1.4. Software Deployment Configuration.</h3>
