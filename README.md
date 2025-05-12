@@ -1228,7 +1228,8 @@ Se enfoca en la gestión de cómo las compañías obtienen una mejor suscripció
 <b>Mailing subdomain:</b>
 Este subdominio se encarga de gestionar el servicio de notificaciones y alertas por correo electrónico para los usuarios.
 
-Añadir subdominio IoT
+<b>IoT subdomain: </b>
+El subdominio gestiona la interacción con la capa edge y la interacción de la aplicación con los dispositivos IoT para la medición de parámetros.
 
 <h4 id='4.1.1.2.'>4.1.1.2. Domain Message Flows Modeling.</h4>
 
