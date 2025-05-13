@@ -2910,6 +2910,71 @@ This will be confirmed when visitors can access the landing page, understand the
 <h4 id='6.2.1.6.'>6.2.1.6. Execution Evidence for Sprint Review.</h4>
 <h4 id='6.2.1.7.'>6.2.1.7. Services Documentation Evidence for Sprint Review.</h4>
 <h4 id='6.2.1.8.'>6.2.1.8. Software Deployment Evidence for Sprint Review.</h4>
+
+| Repository | Branch | Commit ID | Commit Message | Committed on (Date) |
+| ----- | ----- | ----- | ----- | ----- |
+| web-app-gh | development | 35df242 | feat: changed get crops endpoint to obtain the crop according to a company id | 1/11 |
+| greenhouse-mobile | feature/notifications | 8285553 | fix: inverted order for moving to previous or next phase, and the record now shows crop name instead of id | 1/11 |
+| greenhouse-mobile | feature/notifications | 41a037a | feat: Add image quality analizer | 1/11 |
+| greenhouse-mobile | feature/notifications | c6da4f3 | feat: Add ia service | 1/11 |
+| greenhouse-mobile | feature/notifications | 1d81f77 | feat: Add delete image button | 1/11 |
+| greenhouse-mobile | feature/notifications | 1c59676 | feat: Add persistance to crop images | 1/11 |
+| greenhouse-mobile | feature/notifications | 1556204 | feat: added create crops and get crops by company | 1/11 |
+| greenhouse-mobile | feature/notifications | 59a5b48 | feat: Add upload picture at the end of crop | 1/11 |
+| greenhouse-mobile | feature/notifications | ed9eeec | chore: Add needed dependencies | 1/11 |
+| backend-gh | feature/deployment | c384cbc | fix(company): solve problem with company and profile id | 1/11 |
+| backend-gh | feature/deployment | 7bc1928 | fix(company): avoid duplicated companies by tin when creating enterprise account | 1/11 |
+| backend-gh | feature/deployment | 27e882c | feat(personas): fixed personas proto | 1/11 |
+| backend-gh | feature/deployment | 9ed0760 | feat(company): add support for creating account with profile and company lmao. Next commit every possible permutation | 1/11 |
+| backend-gh | feature/deployment | 3fab306 | chore: refactored memberships microservice | 1/11 |
+| web-app-gh | development | c5946ef | fix: fixed sorting of crops in progress | 2/11 |
+| web-app-gh | development | 9e30c28 | feat: added edit company component and function on service to edit the company | 2/11 |
+| backend-gh | feature/deployment | 78ce73d | fix: port of memberships db | 2/11 |
+| backend-gh | feature/deployment | 7e7bfc1 | fix: variable convention was missing Dto. | 2/11 |
+| backend-gh | feature/deployment | 13843b4 | chore: update needed configuration for deployment of memberships microservice. | 2/11 |
+| greenhouse-mobile | feature/notifications | fa11fd6 | feat(firebase): added crop image uploading to firebase, also updated the config example. | 10/11 |
+| web-app-gh | development | 19e64df | feature: suscription test feature | 11/11 |
+| greenhouse-mobile | feature/notifications | 212ee08 | feat: added endpoint for updating the ended crops image and quality. | 11/11 |
+| backend-gh | feature/deployment | cb6c927 | fix(crops): fixed nullability of values quality and imageUrl | 11/11 |
+| backend-gh | feature/deployment | 4dfe434 | feat(crops): added update crop image endpoint@ | 11/11 |
+| web-app-gh | development | 71c60bd | feat: changed filter component to recieve react component | 12/11 |
+| web-app-gh | development | 5869e00 | feature: new atributes for archived crop to show quality and image added of the crop | 12/11 |
+| web-app-gh | development | 468d3bc | chore: Export to Excel now separates payload data | 13/11 |
+| web-app-gh | development | 63077bb | chore: Update filter | 13/11 |
+| web-app-gh | development | 9a733a3 | fix: Responsive issue with Dialog components | 14/11 |
+| web-app-gh | development | 3411104 | fix: Record chart empty record list case message | 14/11 |
+| web-app-gh | development | 8fc29d7 | chore: Centered stepper component | 14/11 |
+| web-app-gh | development | 42b86d4 | chore: Update chart color | 14/11 |
+| web-app-gh | development | 5d67c79 | feat: Add card animation on hover | 14/11 |
+| web-app-gh | development | eed21e8 | fix: Fix issue with trailing icon on TextField | 14/11 |
+| greenhouse-mobile | feature/notifications | 46f9050 | feat: added publisher to message bus for notifications | 14/11 |
+| web-app-gh | development | 13d1b44 | chore: Fix issue with stomp protocol | 15/11 |
+| web-app-gh | development | ef7ce53 | fix: Fix delete dialog background not working | 15/11 |
+| web-app-gh | development | 9f9c228 | feat: added new type of notification | 15/11 |
+| web-app-gh | development | 73a3785 | fix: SideBar component stays fix in screen | 15/11 |
+| web-app-gh | development | c80e2e8 | feat: Add SideBar component | 15/11 |
+| web-app-gh | development | b6da1b9 | chore: Update close dialog location | 15/11 |
+| web-app-gh | development | 81b4da7 | feat: added notification functionality to receive messages from a broker | 15/11 |
+| web-app-gh | development | e4e416e | fix: Fix issue with route change on company edit | 15/11 |
+| web-app-gh | development | 1b9813e | feat: Add edit user profile | 15/11 |
+| greenhouse-mobile | feature/notifications | 5301d1a | chore: updated publish notifications for record edits. | 15/11 |
+| greenhouse-mobile | feature/notifications | 7aa35c6 | feat: added publish notifications for records. | 15/11 |
+| greenhouse-mobile | feature/notifications | 739e46f | feat: added publish notifications for deleting and creating crops. | 15/11 |
+| backend-gh | feature/deployment | 45f8e12 | chore: update docker and configuration for deployment | 15/11 |
+| backend-gh | feature/deployment | b8c9520 | fix(memberships): fixed memberships bounded context | 15/11 |
+| backend-gh | feature/deployment | 392f6af | fix: update profile it used ??= operator so it didnt update | 15/11 |
+| backend-gh | feature/deployment | 994df94 | feat(lol): lmao | 15/11 |
+| backend-gh | feature/deployment | 1069447 | fix: update data type error | 15/11 |
+| backend-gh | feature/deployment | bd90485 | fix: added payload update to the command handler | 15/11 |
+| greenhouse-mobile | feature/notifications | 126ef9b | feat: added before and after for edits notification | 16/11 |
+| backend-gh | feature/deployment | 9eba24d | feat(find-membership-levels): created find membership level endpoint | 16/11 |
+| backend-gh | feature/deployment | 031307c | fix(membership-levels): fixed membership levels database insertion | 16/11 |
+| backend-gh | feature/deployment | 8f382a5 | feat(membership-levels): added membership levels create command | 16/11 |
+| web-app-gh | development | fe5b28c | fix: bugs | 18/11 |
+| web-app-gh | development | 0fbbee9 | feat: added membership components, services and models to make the different levels of memberships work in each company | 18/11 |
+| greenhouse-mobile | feature/notifications | 57c92a3 | feat: Add membership service | 18/11 |
+| backend-gh | feature/deployment | dc92ba1 | feat(memberships): added update membership level name | 18/11 |
+
 <h4 id='6.2.1.9.'>6.2.1.9. Team Collaboration Insights during Sprint.</h4>
 
 <h1 id='referencias'>Referencias Bibliográficas</h1>
