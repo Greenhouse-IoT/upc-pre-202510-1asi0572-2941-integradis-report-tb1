@@ -3069,7 +3069,31 @@ El endpoint POST /api/v1/mails permite enviar correos electrónicos a partir de 
 
 <h4 id='6.2.1.7.'>6.2.1.7. Services Documentation Evidence for Sprint Review.</h4>
 
+A continuación, se presentan los endpoints correspondientes a cada microservicio:
 
+**IAM endpoints:**
+
+<img src='assets/images/chapter-6/14.png' alt='Git Flow' />
+
+**Personas endpoints:**
+
+<img src='assets/images/chapter-6/15.png' alt='Git Flow' />
+
+**Companies endpoints:**
+
+<img src='assets/images/chapter-6/16.png' alt='Git Flow' />
+
+**Mail endpoints:**
+
+<img src='assets/images/chapter-6/17.png' alt='Git Flow' />
+
+**Crops endpoints:**
+
+<img src='assets/images/chapter-6/18.png' alt='Git Flow' />
+
+**Records endpoints:**
+
+<img src='assets/images/chapter-6/19.png' alt='Git Flow' />
 
 <h4 id='6.2.1.8.'>6.2.1.8. Software Deployment Evidence for Sprint Review.</h4>
 
