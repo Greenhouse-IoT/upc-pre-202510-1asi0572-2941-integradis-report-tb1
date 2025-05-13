@@ -75,6 +75,16 @@ Link para acceder al repositorio en GitHub: [https://github.com/Greenhouse-IoT/u
 | Seminario Garbin, Carlo Luca        | Redacción de perfil de integrante del equipo, impact mapping, software architechture system landscape diagram, software architecture context level diagrams, software architecture container level diagrams, software architecture deployment diagrams, bounded context mailing e IoT |
 | Soto Kong Requena, Andrés Eduardo   | Redacción de perfil de integrante del equipo, lean UX problem statements, lean UX assumptions, lean UX hypothesis statements, lean UX, segmentos objetivo, bounded context memberships |
 
+### TB2
+
+| Integrante                          | Tareas Asignadas |
+| ----------------------------------- | ---------------- |
+| Astuyauri Calderon, Jherson David   | Elaboración de wireflow diagrams y userflow diagrams |
+| Espinoza Rodríguez, Nicolás Antonio | Elaboración de Applications UX/UI Design |
+| Galavis Du Bois, Alan Enrique       | Redacción de Style Guidelines, General Style Guidelines, Web, Mobile and IoT Style Guidelines. Elaboración de Sprint Planning 1, Aspect Leaders and Collaborators y del Sprint Backlog 1 |
+| Seminario Garbin, Carlo Luca        | Redacción de software configuration management, software development environment configuration, source code management, source code style guide & conventions |
+| Soto Kong Requena, Andrés Eduardo   | Redacción de development evidence for sprint review, testing suite evidence for sprint review, evidence for sprint review, execution evidence, services evidence y team collaboration insights |
+
 ## GitHub Collaboration Insights
 GitHub Collaboration proporciona analíticas de los commits realizados por las cuentas de los integrantes del equipo. Estas cuentas son:
 - JHS-Sama24 (Jherson Astuyauri)
@@ -101,6 +111,7 @@ explican las ramas más prominentes:
 - capitulo-2: Incluye el contenido del capítulo 2 del informe.
 - capitulo-3: Incluye el contenido del capítulo 3 del informe.
 - capitulo-4: Incluye el contenido del capítulo 4 del informe.
+- capitulo-5: Incluye el contenido del capítulo 5 del informe.
 
 **TB1:**
 
