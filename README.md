@@ -2476,9 +2476,9 @@ A continuación, se presenta la explicación del prototipo de la web app Greenho
 
 <img src="assets/images/chapter_5/prototyping/web_prototyping.png" alt="Mobile Prototyping">
 
-Enlace para acceder al video de explicación del [Web Applications Prototyping](https://www.figma.com/proto/wPpvosGW28c7blfOfbBo2n/Integradis---Wireframes-Greenhouse---Emergentes?node-id=543-936&p=f&t=bO8peSzQWn0HOsZV-1&scaling=scale-down&content-scaling=fixed&page-id=115%3A172&starting-point-node-id=543%3A936)
+Enlace para acceder al video de explicación del [Web Applications Prototyping](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110223_upc_edu_pe/EQ0js7d08jxLl9IdgeJ2ahIBtXMuE6vtvdG05D4ujo_dog?e=fjomEb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-Enlace para acceder al [Flujo]()
+Enlace para acceder al [Flujo](https://www.figma.com/proto/wPpvosGW28c7blfOfbBo2n/Integradis---Wireframes-Greenhouse---Emergentes?node-id=543-936&p=f&t=bO8peSzQWn0HOsZV-1&scaling=scale-down&content-scaling=fixed&page-id=115%3A172&starting-point-node-id=543%3A936)
 
 <h3 id='5.5.2.'>5.5.2. Mobile Applications Prototyping</h3>
 
@@ -2486,7 +2486,7 @@ A continuación, se presenta la explicación del prototipo de la mobile app Gree
 
 <img src="assets/images/chapter_5/prototyping/mobile_prototyping.png" alt="Mobile Prototyping">
 
-Enlace para acceder al video de explicación del [Mobile Applications Prototyping]()
+Enlace para acceder al video de explicación del [Mobile Applications Prototyping](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110223_upc_edu_pe/EUXQQYS6xoxOvbNxm5hCWDMB5-wC85iHXVq2wzoTTVPX9A?e=YcJHc3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 Enlace para acceder al [Flujo](https://www.figma.com/proto/wPpvosGW28c7blfOfbBo2n/Integradis---Wireframes-Greenhouse---Emergentes?node-id=543-1064&t=lyOdfgUOBGZ3p1j4-1&scaling=min-zoom&content-scaling=fixed&page-id=533%3A476)
 
