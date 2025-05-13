@@ -2171,6 +2171,107 @@ El presente bounded context no cuenta con una instancia en la base de datos, dad
 <h2 id='5.4.'>5.4. Applications UX/UI Design</h2>
 <h3 id='5.4.1.'>5.4.1. Applications Wireframes</h3>
 
+<h4 id='5.4.1.1.'>5.4.1.1. Web Application Wireframes </h4>
+
+<b>Inicio de sesión y creación de cuenta de empresa</b>
+Las siguientes imágenes evidencian el wireframe de la sección de inicio de sesión y de creación de cuenta de empresa. En estas, se muestran los campos que el usuario debe de completar para poder acceder a la empresa registrada en Greenhouse.
+
+<img src='assets/images/chapter_5/wireframes/login.png' alt='Login Wireframe' />
+
+<b>Perfil de usuario y de empresa</b>
+A continuación, se contemplan los wireframes del diseño para el perfil del usuario administrador, además de las vistas de cambio de contraseña y de la empresa con la cual está registrado en Greenhouse.
+
+<img src='assets/images/chapter_5/wireframes/profile.png' alt='Profile Wireframe' />
+
+<img src='assets/images/chapter_5/wireframes/organization_profile.png' alt='Organization Profile Wireframe' />
+
+<b>Menú principal</b>
+La imagen presentada a continuación representa la vista principal de Greenhouse. Los usuarios cuya identidad haya sido validada con éxito, podrán utilizar este portal para acceder a las demás funcionalidades que ofrece la aplicación.
+
+<img src='assets/images/chapter_5/wireframes/dashboard.png' alt='Dashboard Wireframe' />
+
+<b>Stepper</b>
+El stepper permite a los usuarios acceder a las diversas fases que componen un cultivo. Se mostrará un círculo con borde en caso de que la fase haya finalizado, un número sombreado para representar la fase actual del cultivo, y números con contorno ligero para indicar las fases que aún se han alcanzado.
+
+<img src='assets/images/chapter_5/wireframes/stepper.png' alt='Stepper Wireframe' />
+
+<b>Historial de cultivos</b>
+El siguiente wireframe representa las vistas de los cultivos archivados por los técnicos supervisores.
+
+<img src='assets/images/chapter_5/wireframes/crop_archive1.png' alt='Crop Archive 1 Wireframe' />
+
+<img src='assets/images/chapter_5/wireframes/crop_archive2.png' alt='Crop Archive 2 Wireframe' />
+
+<b>Reportes estadísticos</b>
+La sección de reportes estadísticos es accesible desde el menú principal. En esta vista, los administradores podrán visualizar gráficos que evidencian el rendimiento de la fábrica en el tiempo.
+
+<img src='assets/images/chapter_5/wireframes/reports.png' alt='Reports Wireframe' />
+
+<h4 id='5.4.1.2.'>5.4.1.2. Mobile Application Wireframes </h4>
+
+<b>Inicio de sesión y creación de cuenta de empresa</b>
+Las siguientes imágenes evidencian los wireframes de la sección de inicio de sesión y de creación de cuenta de empresa. En estas, se muestran los campos que el usuario debe de completar para poder acceder a la empresa registrada en Greenhouse.
+
+<img src='assets/images/chapter_5/wireframes/mobile_login.png' alt='Mobile Login Wireframe' />
+<img src='assets/images/chapter_5/wireframes/mobile_login2.png' alt='Mobile Login 2 Wireframe' />
+<img src='assets/images/chapter_5/wireframes/mobile_login3.png' alt='Mobile Login 3 Wireframe' />
+
+<b>Menú principal</b>
+La imagen presentada a continuación representa la vista principal de Greenhouse. Los usuarios cuya identidad haya sido validada con éxito, podrán utilizar este portal para acceder a las demás funcionalidades que ofrece la aplicación.
+
+<img src='assets/images/chapter_5/wireframes/mobile_menu.png' alt='Mobile Menu Wireframe' />
+
+<b>Cultivos en progreso</b>
+La sección cultivos en progreso es accesible desde el menú principal. En esta vista, los usuarios podrán visualizar una lista de cultivos que están actualmente activos
+
+<img src='assets/images/chapter_5/wireframes/mobile_crops_in_progress.png' alt='Mobile Crops In Progress Wireframe' />
+
+<b>Filtrar por fecha </b>
+Las imágenes presentadas a continuación representan el dialog que visualizará el usuario en caso desee filtrar la información de los registros o cultivos por fecha.
+
+<img src='assets/images/chapter_5/wireframes/mobile_calendar.png' alt='Mobile Calendar Wireframe' />
+<img src='assets/images/chapter_5/wireframes/mobile_calendar2.png' alt='Mobile Calendar 2 Wireframe' />
+
+<b>Stepper</b>
+El siguiente wireframe incluye el stepper, desde el cual es posible visualizar las diferentes fases que debe de atravesar un cultivo de champiñones.
+
+<img src='assets/images/chapter_5/wireframes/mobile_stepper.png' alt='Mobile Stepper Wireframe' />
+
+<b>Información de cultivos</b>
+En la siguiente imagen se evidencia una lista de los registros realizados por los usuarios para una fase determinada de un cultivo en específico. En esta vista, los administradores podrán deslizar a la izquierda u oprimir sobre el botón situado en la esquina superior derecha para eliminar por completo un registro realizado. Los administradores podrán utilizar la información presentada para tomar decisiones informadas sobre la empresa.
+
+<img src='assets/images/chapter_5/wireframes/crops_info.png' alt='Crops Info Wireframe' />
+<img src='assets/images/chapter_5/wireframes/crops_info2.png' alt='Crops Info 2 Wireframe' />
+
+<b>Edición de información registrada</b>
+Los administradores tendrán la posibilidad de modificar los registros realizados por los técnicos supervisores, con el objetivo de garantizar la integridad de la información. Esta vista es accesible tras oprimir el botón de edición situado en la esquina superior derecha de cada registro.
+
+<img src='assets/images/chapter_5/wireframes/mobile_info_edition.png' alt='Mobile Info Edition Wireframe' />
+<img src='assets/images/chapter_5/wireframes/mobile_info_edition2.png' alt='Mobile Info Edition 2 Wireframe' />
+
+<b>Historial de cultivos</b>
+Los siguientes wireframes representan las vistas de los cultivos archivados por los técnicos supervisores.
+
+<img src='assets/images/chapter_5/wireframes/mobile_crops_history.png' alt='Mobile Crops History Wireframe' />
+<img src='assets/images/chapter_5/wireframes/mobile_crops_history2.png' alt='Mobile Crops History 2 Wireframe' />
+<img src='assets/images/chapter_5/wireframes/mobile_crops_history3.png' alt='Mobile Crops History 3 Wireframe' />
+
+<b>Perfil de usuario y de empresa, y cambio de contraseña</b>
+Finalmente, se contemplan los wireframes del diseño para el perfil del usuario administrador, además de las vistas de cambio de contraseña y de la empresa con la cual está registrado en Greenhouse.
+
+<img src='assets/images/chapter_5/wireframes/mobile_profile.png' alt='Mobile Profile Wireframe' />
+<img src='assets/images/chapter_5/wireframes/mobile_profile2.png' alt='Mobile Profile 2 Wireframe' />
+
+<b>Invitación a técnico supervisor a empresa en Greenhouse</b>
+Los administradores podrán completar el formulario presentado a continuación para enviar una invitación por correo electrónico a los técnicos supervisores para que comiencen a disfrutar de los beneficios que ofrece la aplicación.
+
+<img src='assets/images/chapter_5/wireframes/mobile_invitation.png' alt='Mobile Invitation Wireframe' />
+
+<b>Reportes estadísticos</b>
+La sección de reportes estadísticos es accesible desde el menú principal. En esta vista, los administradores podrán visualizar gráficos que evidencian el rendimiento de la fábrica en el tiempo.
+
+<img src='assets/images/chapter_5/wireframes/mobile_reports.png' alt='Mobile Reports Wireframe' />
+
 <h3 id='5.4.2.'>5.4.2. Applications Wireflow Diagrams</h3>
 
 A continuación se presentarán los wireflow diagrams con el objetivo de proporcionar una visión general de cómo se conectan las diversas pantallas de las dos aplicación móviles para visualizar la experiencia del usuario de principio a fin. De esta forma, estos diagramas ayudan a identificar posibles problemas de usabilidad.  
