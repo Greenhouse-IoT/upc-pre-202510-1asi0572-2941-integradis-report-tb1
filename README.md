@@ -2906,11 +2906,7 @@ This will be confirmed when visitors can access the landing page, understand the
 
 <h4 id='6.2.1.3.'>6.2.1.3. Sprint Backlog 1.</h4>
 <h4 id='6.2.1.4.'>6.2.1.4. Development Evidence for Sprint Review.</h4>
-<h4 id='6.2.1.5.'>6.2.1.5. Testing Suite Evidence for Sprint Review.</h4>
-<h4 id='6.2.1.6.'>6.2.1.6. Execution Evidence for Sprint Review.</h4>
-<h4 id='6.2.1.7.'>6.2.1.7. Services Documentation Evidence for Sprint Review.</h4>
-<h4 id='6.2.1.8.'>6.2.1.8. Software Deployment Evidence for Sprint Review.</h4>
-
+  
 | Repository | Branch | Commit ID | Commit Message | Committed on (Date) |
 | ----- | ----- | ----- | ----- | ----- |
 | web-app-gh | development | 35df242 | feat: changed get crops endpoint to obtain the crop according to a company id | 1/11 |
@@ -2974,6 +2970,85 @@ This will be confirmed when visitors can access the landing page, understand the
 | web-app-gh | development | 0fbbee9 | feat: added membership components, services and models to make the different levels of memberships work in each company | 18/11 |
 | greenhouse-mobile | feature/notifications | 57c92a3 | feat: Add membership service | 18/11 |
 | backend-gh | feature/deployment | dc92ba1 | feat(memberships): added update membership level name | 18/11 |
+  
+<h4 id='6.2.1.5.'>6.2.1.5. Testing Suite Evidence for Sprint Review.</h4>
+<h4 id='6.2.1.6.'>6.2.1.6. Execution Evidence for Sprint Review.</h4>
+<h4 id='6.2.1.7.'>6.2.1.7. Services Documentation Evidence for Sprint Review.</h4>
+<h4 id='6.2.1.8.'>6.2.1.8. Software Deployment Evidence for Sprint Review.</h4>
+
+**Landing Page:**
+
+Landing page deploy on netlify via Github:
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/landing_page_1.png' alt='Landing Page' />
+
+Enlace al despliegue de la landing page: [https://landing.integradis.shop/](https://landing.integradis.shop/) 
+
+**Web App:**
+
+Deploy of Web App on Netlify via Github:
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/web_app_1.png' alt='Web App Deployed' />
+
+Environment variables on netlify:
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/web_app_2.png' alt='Web App Envirioment Variables' />
+
+Enlace al despliegue: [https://app-greenhouse.netlify.app](https://app-greenhouse.netlify.app) 
+
+**Backend:**
+
+Contenedores de docker en ejecución dentro de la instancia, se evidencian las bases de datos y el backend:
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/backend_1.png' alt='Backend Desplegado' />
+
+Los procesos que se ejecutan dentro del contenedor de Docker correspondiente al backend donde se evidencian los microservicios.
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/backend_2.png' alt='Backend Desplegado Contenedores' />
+
+La instancia se encuentra en ejecución:
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/backend_3.png' alt='Backend Desplegado Ejecución' />
+
+Enlace al swagger: [https://greenhouse.integradis.shop/api](https://greenhouse.integradis.shop/api) 
+
+**Mobile App**:
+
+Para el deployment evidence de la mobile app se tiene que ejecutar el comando:
+
+- flutter build apk \--release  
+
+En el cual se genera el archivo resultante en:
+
+- Built build/app/outputs/flutter-apk/app-release.apk (28.0MB)
+
+Luego de ello se sube el archivo a Google Drive y se genera un código QR con el enlace del archivo de Google Drive
+
+Se creó un código QR 
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/mobile_app_qr.png' alt='Mobile App QR' />
+
+**Message Broker:**
+
+Se desplegó un message broker de Active MQ mediante el servicio de Amazon MQ, el cuál es utilizado para las notificaciones en tiempo real.
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/message_broker.png' alt='Message Broker Desplegado' />
+
+**Firebase Storage:**
+
+Se utilizó firebase storage para almacenar las imágenes de los cultivos que se suban desde la aplicación para que luego se pueda acceder a estar desde la aplicación web.
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/firebase.png' alt='Firebase' />
+
+**Computer Vision Model:**
+
+El modelo de computer visión se entrenó desde ultralytics el mismo te brinda un endpoint de deploy con el cuál puedes hacer uso del modelo.
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/computer_vision.png' alt='Computer Vision Desplegado' />
+
+**Route 53:**
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/route53.png' alt='Route 53 Desplegado' />
 
 <h4 id='6.2.1.9.'>6.2.1.9. Team Collaboration Insights during Sprint.</h4>
 
