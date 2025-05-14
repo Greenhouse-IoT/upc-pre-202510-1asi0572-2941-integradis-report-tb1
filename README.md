@@ -2270,7 +2270,7 @@ Los administradores podrán completar el formulario presentado a continuación p
 <b>Reportes estadísticos</b>
 La sección de reportes estadísticos es accesible desde el menú principal. En esta vista, los administradores podrán visualizar gráficos que evidencian el rendimiento de la fábrica en el tiempo.
 
-<img src='assets/images/chapter_5/wireframes/mobile_reports.png' alt='Mobile Reports Wireframe' />
+<img src='assets/images/chapter_5/wireframes/mobile_reports.png' alt='Mobile Reports Wireframe'/>
 
 <h3 id='5.4.2.'>5.4.2. Applications Wireflow Diagrams</h3>
 
@@ -2417,9 +2417,102 @@ En primer lugar, el usuario debe de presionar sobre el botón “Perfil”, el c
 
 ![Wireflow](assets/images/chapter_5/wireflows/wireflowmobile9.png)
 
-
-
 <h3 id='5.4.3.'>5.4.3. Applications Mock-ups</h3>
+
+Esta sección presenta los mock-ups de nuestra aplicación web y móvil, las cuales fueron diseñadas con el propósito de tener representaciones visuales de cómo se verá la interfaz de usuario una vez desarrollada. Los mock-ups se caracterizan por ser detallados, ya que incluye el diseño, agrupación de elementos, tipografía, colores, entre otros, ya definidos en el general style guidelines. 
+
+<h4 id='5.4.3.1'>5.4.3.1 Web Application Mock-ups</h4>
+
+<b>Inicio de sesión</b>
+Las siguientes imágenes evidencian los mock-ups de la sección de inicio de sesión. En estas, se muestran los campos que el usuario debe de completar para poder acceder a la empresa registrada en Greenhouse.
+
+<img src='assets/images/chapter_5/mockups/login.png' alt='Login Mockup'/>
+
+<img src='assets/images/chapter_5/mockups/login2.png' alt='Login 2 Mockup'/>
+
+<img src='assets/images/chapter_5/mockups/memberships.png' alt='Memberships Mockup'/>
+
+<b>Cultivos en progreso</b>
+La sección cultivos en progreso es accesible desde el menú principal. En esta vista, los usuarios podrán visualizar una lista de cultivos que están actualmente activos. Adicionalmente, se observa la presencia de un botón flotante en la parte inferior, desde el cual los usuarios podrán crear un nuevo cultivo.
+
+<img src='assets/images/chapter_5/mockups/crops_in_progress.png' alt='Crops In Progress Mockup'/>
+
+<b>Stepper</b>
+El stepper permite a los usuarios acceder a las diversas fases que componen un cultivo. Se mostrará un círculo con borde negro en caso de que la fase haya finalizado, un número sombreado de verde para representar la fase actual del cultivo, y números con contorno ligero para indicar las fases que aún se han alcanzado.
+
+<img src='assets/images/chapter_5/mockups/stepper.png' alt='Stepper Mockup'/>
+
+<b>Historial de cultivos</b>
+Los siguientes mock-ups representan las vistas de los cultivos archivados por los técnicos supervisores.
+
+<img src='assets/images/chapter_5/mockups/crops_archive.png' alt='Crops Archive Mockup'/>
+
+<b>Perfil de usuario y de empresa</b>
+
+Finalmente, se contemplan los mock-ups del diseño para el perfil del usuario.
+
+<img src='assets/images/chapter_5/mockups/profile.png' alt='Profile Mockup'/>
+
+<h4 id='5.4.3.2'>5.4.3.2 Mobile Application Mock-ups</h4>
+
+<b>Inicio de sesión</b>
+Las siguientes imágenes evidencian los mock-ups de la sección de inicio de sesión. En estas, se muestran los campos que el usuario debe de completar para poder acceder a la empresa registrada en Greenhouse.
+
+<img src='assets/images/chapter_5/mockups/mobile_login.png' alt='Mobile Login Mockup'/>
+<img src='assets/images/chapter_5/mockups/mobilelogin2.png' alt='Mobile Login 2 Mockup'/>
+
+<b>Menú principal</b>
+La imagen presentada a continuación representa la vista principal de Greenhouse. Los usuarios cuya identidad haya sido autenticada con éxito, podrán utilizar este portal para acceder a las demás funcionalidades que ofrece la aplicación.
+
+<img src='assets/images/chapter_5/mockups/mobile_dashboard.png' alt='Mobile Dashboard Mockup'/>
+
+<b>Cultivos en progreso</b>
+La sección cultivos en progreso es accesible desde el menú principal. En esta vista, los usuarios podrán visualizar una lista de cultivos que están actualmente activos. Adicionalmente, se observa la presencia de un botón flotante en la parte inferior, desde el cual los usuarios podrán crear un nuevo cultivo.
+
+<img src='assets/images/chapter_5/mockups/mobile_crops_in_progress.png' alt='Mobile Crops In Progress Mockup'/>
+
+<b>Filtrar por fecha</b>
+Las imágenes presentadas a continuación representan el dialog que visualizará el usuario en caso desee filtrar los registros o cultivos por fecha.
+
+<img src='assets/images/chapter_5/mockups/mobile_calendar.png' alt='Mobile Calendar Mockup'/>
+<img src='assets/images/chapter_5/mockups/mobile_calendar2.png' alt='Mobile Calendar 2 Mockup'/>
+
+<b>Stepper</b>
+El stepper permite a los usuarios acceder a las diversas fases que componen un cultivo. Se mostrará un “check” en caso de que la fase haya finalizado, un número sombreado para representar la fase actual del cultivo, y números con contorno ligero para indicar las fases que aún se han alcanzado.
+
+<img src='assets/images/chapter_5/mockups/mobile_stepper.png' alt='Mobile Stepper Mockup'/>
+
+<b>Información de cultivos</b>
+En la siguiente imagen se evidencia una lista de los registros realizados por los usuarios para una fase determinada de un cultivo en específico. En esta vista, los usuarios tendrán la opción de presionar el botón flotante de la parte inferior derecha para crear un nuevo registro, o el de la parte inferior izquierda para finalizar la fase actual y habilitar la siguiente.
+
+<img src='assets/images/chapter_5/mockups/mobile_crop_info.png' alt='Mobile Crop Info Mockup'/>
+<img src='assets/images/chapter_5/mockups/mobile_crop_info2.png' alt='Mobile Crop Info 2 Mockup'/>
+
+<b>Registro de información de cultivos</b>
+La sección presentada a continuación es accesible mediante el botón flotante de la parte inferior izquierda mostrado en la vista anterior, o al presionar el botón de editar situado en cada tarjeta de registro. En esta sección, los técnicos supervisores podrán ingresar la información asociada a las actividades y procesos realizados en la fábrica, al igual que las condiciones actuales de los cultivos en progreso.
+
+<img src='assets/images/chapter_5/mockups/mobile_record.png' alt='Mobile Record Mockup'/>
+<img src='assets/images/chapter_5/mockups/mobile_record2.png' alt='Mobile Record 2 Mockup'/>
+
+<b>Historial de cultivos</b>
+Los siguientes mock-ups representan las vistas de los cultivos archivados por los técnicos supervisores.
+
+<img src='assets/images/chapter_5/mockups/mobile_story.png' alt='Mobile Story Mockup'/>
+<img src='assets/images/chapter_5/mockups/mobile_story2.png' alt='Mobile Story 2 Mockup'/>
+<img src='assets/images/chapter_5/mockups/mobile_story3.png' alt='Mobile Story 3 Mockup'/>
+
+<b>Perfil de usuario y de empresa, y cambio de contraseña</b>
+Finalmente, se contemplan los mock-ups del diseño para el perfil del usuario técnico supervisor, además de las vistas de cambio de contraseña y de la empresa con la cual está registrado en Greenhouse.
+
+<img src='assets/images/chapter_5/mockups/mobile_profile.png' alt='Mobile Profile Mockup'/>
+<img src='assets/images/chapter_5/mockups/mobile_profile2.png' alt='Mobile Profile 2 Mockup'/>
+<img src='assets/images/chapter_5/mockups/mobile_profile3.png' alt='Mobile Profile 3 Mockup'/>
+<img src='assets/images/chapter_5/mockups/mobile_profile4.png' alt='Mobile Profile 4 Mockup'/>
+
+<b>Reportes estadísticos</b>
+La sección de reportes estadísticos es accesible desde el menú principal. En esta vista, los administradores podrán visualizar gráficos que evidencian el rendimiento de la fábrica en el tiempo.
+
+<img src='assets/images/chapter_5/mockups/mobile_stats.png' alt='Mobile Statistics Mockup'/>
 
 <h3 id='5.4.4.'>5.4.4. Applications User Flow Diagrams</h3>
 
