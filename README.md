@@ -2361,7 +2361,7 @@ A continuación se mostrarán los user flow diagrams, los cuales permiten visual
 **User Persona:** Administrador  
 
 **Explicación del flujo:**  
-En primer lugar, los administradores deberán ingresar a la aplicación móvil. A continuación, deberán dirigirse al apartado de *Sign up*, dentro del cual se mostrará un formulario que solicitará ingresar información relevante para la creación de la cuenta, como, por ejemplo, razón social, RUC, nombre del registrante y contraseña de la cuenta. Seguidamente, se mostrarán dos botones, uno que representa la confirmación del usuario de haber leído los términos y condiciones de uso, y otro que confirma su intención de crear una cuenta. Una vez confirmada la intención de crear una cuenta, se redirigirá al usuario a la vista principal.
+En primer lugar, los administradores deberán ingresar a la aplicación móvil. A continuación, deberán dirigirse al apartado de *Sign up*, dentro del cual se mostrará un formulario que solicitará ingresar información relevante para la creación de la cuenta, como, por ejemplo, razón social, RUC, nombre del registrante y contraseña de la cuenta. Seguidamente, se mostrarán dos botones, uno que representa la confirmación del usuario de haber leído los términos y condiciones de uso, y otro que confirma su intención de crear una cuenta. Una vez confirmada la intención de crear una cuenta, se redirigirá al usuario a la vista crops in progress donde podrá elegir una membresia.
 
 Por otro lado, en caso de que el usuario haya creado previamente una cuenta en Greenhouse, y desee iniciar sesión, deberá completar el formulario que le solicita su usuario y contraseña. En caso de que estos sean validados, el sistema redirigirá al usuario al menú principal. Caso contrario, se mantendrá en la pestaña de inicio de sesión y se le solicitará introducir sus credenciales. En caso de que rechace cualquiera de estas dos operaciones, el usuario será redirigido a la vista inicial de bienvenida.
 
@@ -2369,53 +2369,65 @@ Por otro lado, en caso de que el usuario haya creado previamente una cuenta en G
 
 ---
 
-#### **User Goal:** Iniciar sesión  
+#### **User Goal:** Ver registros del cultivo.
 **User Persona:** Administrador  
 
 **Explicación del flujo:**  
-En primer lugar, los administradores deberán ingresar a la aplicación web. En caso de que el usuario haya creado previamente una cuenta en Greenhouse, y desee iniciar sesión, deberá completar el formulario que le solicita su usuario y contraseña. En caso de que estos sean validados, el sistema redirigirá al usuario al menú principal. Caso contrario, se mantendrá en la pestaña de inicio de sesión y se le solicitará introducir sus credenciales. En caso de que rechace cualquiera de estas dos operaciones, el usuario será redirigido a la vista inicial.
+En primer lugar, los administradores deberán ingresar a la aplicación web.Luego, cuando este en el home hace clic sobre un cultivo. Entonces, el sistema muestra la sección de los registros del cultivo junto con gráficos de varias características.
 
 ![Userflow Iniciar sesión](assets/images/chapter_5/userflows/userflowweb2.png)
 
 ---
 
-#### **User Goal:** Ver y editar perfil de usuario  
-**User Persona:** Administrador y Técnicos supervisores  
+#### **User Goal:** Aceptar la modificación de un registro del cultivo.
+**User Persona:** Administrador 
 
 **Explicación del flujo:**  
-En primer lugar, el usuario debe de presionar sobre el botón *Perfil*, el cual está situado en el *toolbar* superior de la aplicación. A continuación, visualizará una sección desde la cual podrá modificar la información asociada a su perfil personal. Adicionalmente, encontrará un botón que indica *Reset your password*, el cual luego de ser presionado, redirigirá al usuario a una vista desde la cual podrá cambiar su contraseña.
+En primer lugar, el usuario se debe encontrar en la página principal y al presionar a un cultivo. Se muestra la sección con lso registro de los cultivos. Entonces, se observa la solicitud de verificación a una correción de un registro de cultivo y se hace clic en aceptar para confirmar los cambios. 
 
 ![Userflow Ver y editar perfil](assets/images/chapter_5/userflows/userflowweb3.png)
 
 ---
 
-#### **User Goal:** Cambiar contraseña  
-**User Persona:** Administrador y Técnicos supervisores  
+#### **User Goal:** Ver, editar y eliminar a un trabajador.
+**User Persona:** Administrador 
 
 **Explicación del flujo:**  
-Cuando el usuario ingrese a su perfil, desde el *toolbar* situado en la parte superior derecha de la pantalla, y oprima sobre el botón *Forgot your password?*, será redirigido a una vista desde la cual podrá llenar un formulario que le solicita ingresar la nueva contraseña y confirmar su decisión de cambio. En caso de que la acepte, será redirigido a la vista anterior. Caso contrario, sucederá lo mismo, pero la operación solicitada no será procesada por el sistema.
+Cuando el usuario observe el directorio de trabajadores y presiona el icono de acción. Se muestra al trabajador con su nombre rol y todos los permisos activados por defecto.  Si se hace clic sobre el icono de editar nombre se puede editar el texto. Luego, si se hace clic en el icono de edición de rol, se puede elegir entre los roles disponibles. Finalmente, si se presiona en el botón de eliminar trabajor. Entonces, el trabajor será eliminado. 
 
 ![Userflow Cambiar contraseña](assets/images/chapter_5/userflows/userflowweb4.png)
 
 ---
 
-#### **User Goal:** Registrar información  
-**User Persona:** Técnico Supervisor  
+#### **User Goal:** Ver, editar y eliminar a un técnico supervisor.
+**User Persona:** Administrador 
 
 **Explicación del flujo:**  
-El técnico supervisor es el encargado de registrar información de las actividades realizadas y del estado de los cultivos por medio de la aplicación Greenhouse. Para cumplir este objetivo, el técnico debe de acceder a la sección de cultivos en progreso, para luego dirigirse al *stepper*, y finalmente oprimir sobre el botón situado en la esquina inferior izquierda para agregar un registro.
+Cuando el usuario observe el directorio de trabajadores y presiona el icono de acción de un supervisor. Se muestra al supervisor con su nombre rol y todos los permisos permitidos.  Si se hace clic sobre el icono de editar nombre se puede editar el texto. Luego, si se hace clic en el icono de edición de rol, se puede elegir entre los roles disponibles. Finalmente, si se presiona en el botón de eliminar trabajor. Entonces, el supervisor será eliminado. 
 
 ![Userflow Registrar información](assets/images/chapter_5/userflows/userflowweb5.png)
 
 ---
 
-#### **User Goal:** Ver registros archivados  
-**User Persona:** Técnico Supervisor  
+#### **User Goal:** Invitar a un trabajador  
+**User Persona:** Administrador  
 
 **Explicación del flujo:**  
-En primer lugar, el técnico supervisor debe de acceder a la sección de *Crops Archive*, la cual está disponible desde la vista principal *Home*. Dentro de *Crops Archive*, el usuario deberá elegir alguno de los cultivos archivados, y tras oprimirlo, será redirigido al *stepper*. Dentro del *stepper* podrá visualizar la fecha de inicio y fin del cultivo, y las diversas fases que atravesó.
+En primer lugar, el usuario se encuentra observando el directorio de trabajadores. Si hace clic sobre el botón "Invitar a trabajador", aparece un formulario que solicita información del trabajador y al oprimir "Enviar invitación por correo" o "cancelar", se cerrará el dialog y se regresará a la vista mi empresa.
 
 ![Userflow Ver registros archivados](assets/images/chapter_5/userflows/userflowweb6.png)
+
+#### **User Goal:** Ver las notificaciones
+**User Persona:** Administrador  
+
+**Explicación del flujo:**  
+En primer lugar, el usuario observa el home. En caso, haga clic en el icono de la campana se abre un apartado con todas las notificaciones para el usuario.
+
+![Userflow Ver registros archivados](assets/images/chapter_5/userflows/userflowweb7.png)
+
+
+
+
 
 ## Mobile Application User Flow Diagrams
 
