@@ -2847,11 +2847,11 @@ This will be confirmed when visitors can access the landing page, understand the
   </tr>
   <tr>
     <th>Sprint 1 Velocity</th>
-    <td>Para este sprint, se consideró aceptar como máximo N story points.</td>
+    <td>Para este sprint, se consideró aceptar como máximo 26 story points.</td>
   </tr>
   <tr>
     <th>Sum of Story Points</th>
-    <td>N</td>
+    <td>26</td>
   </tr>
 </table>
 
@@ -2864,25 +2864,33 @@ This will be confirmed when visitors can access the landing page, understand the
     <th>Diseño visual de la landing page Leader (L) / Collaborator (C)</th>
     <th>Desarrollo de la estructura de la landing page Leader (L) / Collaborator (C)</th>
     <th>Redacción del Contenido textual y descriptivo (L) / Collaborator (C)</th>
+    <th>Despliegue de la landing page Leader (L) / Collaborator (C)</th>
+    <th>Documentacion en el informe de la landing page Leader (L) / Collaborator (C)</th>
   </tr>
   <tr>
     <td>Astuyauri Calderon, Jherson David</td>
     <td>JHS-Sama24</td>
     <td>C</td>
     <td>C</td>
+    <td>L</td>
+    <td>C</td>
     <td>C</td>
   </tr>
   <tr>
     <td>Espinoza Rodríguez, Nicolás Antonio</td>
     <td>EspinozaNaer</td>
-    <td>C</td>
-    <td>C</td>
     <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
   </tr>
     <tr>
     <td>Galavis Du Bois, Alan Enrique</td>
     <td>TrabajosUPC-AlanGalavis</td>
+    <td>C</td>
     <td>L</td>
+    <td>C</td>
     <td>C</td>
     <td>C</td>
   </tr>
@@ -2893,18 +2901,43 @@ This will be confirmed when visitors can access the landing page, understand the
     <td>C</td>
     <td>C</td>
     <td>C</td>
+    <td>L</td>
+    <td>C</td>
   </tr>
     </tr>
     <tr>
     <td>Soto Kong Requena, Andrés Eduardo</td>
     <td>asotito231</td>
     <td>C</td>
-    <td>L</td>
     <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
   </tr>
 </table>
 
 <h4 id='6.2.1.3.'>6.2.1.3. Sprint Backlog 1.</h4>
+
+El objetivo principal del Sprint 2 fue entrenar, probar, conectar e implementar el modelo de inteligencia artificial para poder analizar las imágenes de cultivos de champiñones y de esta manera evaluar la calidad final de los cultivos.
+
+| Sprint \# 1 |  |  |  |  |  |  |  |
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| Technical User Story |  | WorkItem/Task |  |  |  |  |  |
+| ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status |
+| US05 | Acceso a Datos Históricos | TK01 | Realizar vista de datos historicos | Generar seccion donde se van a mostrar todos los datos que hay | 1 | Andres Soto | Done |
+| US08 | Iniciar sesion | TK02 | Realizar vista de inicio de sesion | Generar seccion donde se va a mostrar el inicio de sesion | 1 | Carlo Seminario | Done  |
+|  |  | TK03 | Realizar proceso de autenticacion | Desarrollar proceso de autenticacion | 1 | Andres Soto | Done |
+| US09 | Crear cuenta empresa | TK04 | Creacion de cuenta de la empresa | Desde la web app permitir al usuario generar su cuenta de empresa | 1 | Carlo Seminario | Done |
+| US10 | Crear cuenta tecnico supervisor | TK05 | Creaion de la cuenta del tecnico supervisor | Permitir que solo los administradores puedan crear cuenta de tecnico supervisor para sus empleados | 1 | Alan Galavis | Done |
+| US11 | Iniciar Nuevo Cultivo | TK06 | Realizar funcionalidad de creacion de nuevo cultivo | Permitir que los usuarios tecnicos supervisores creen nuevos cultivos | 1 | Nicolas espinoza | Done |
+| US12 | Editar y Eliminar Cultivos | TK07 | Permitir que se pueda editar o eliminar cultivos | Desde la web app o app movil permitir que los usuarios puedan modificar informacion de los cultivos o eliminarlos. | 1 | Andres Leiva | Done |
+| US13 | Documentar registros durante la preparación, cocción y pasteurización del compost | TK08 | Documentar los registros en las ultimas fases de produccion | Permitir que los usuarios registren informacion en las ultimas fases del desarrollo | 1 | Nicolas Espinoza | Done |
+| US14 | Ver Listado de Cultivos en Progreso | TK09 | Visualizacion de cultivos en progreso | Permitir a los usuarios ver los cultivos que se encuentran en progreso | 1 | Alan Galavis | Done |
+| US15 | Avanzar Etapa de un Cultivo | TK10 | Permitir avanzar de etapa al finalizar el registro de cultivos | Desde la app móvil permitir que el técnico avanzar de etapa postarior al llenado de registros. | 1 | Andres Leiva | Done |
+| US19 | Acceder a la aplicación desde la landing page | TK11 | Conectar landing con web app | Desde la landing page poder ingresar a la web app. | 1 | Alan Galavis | Done |
+| US20 | Descripción de la aplicación | TK12 | Seccion de la descripcion | Desde la landing page visualizar la descipcion de la aplicacion | 1 | Andres Soto | Done |
+
+
 <h4 id='6.2.1.4.'>6.2.1.4. Development Evidence for Sprint Review.</h4>
   
 | Repository | Branch | Commit ID | Commit Message | Committed on (Date) |
@@ -2972,8 +3005,108 @@ This will be confirmed when visitors can access the landing page, understand the
 | backend-gh | feature/deployment | dc92ba1 | feat(memberships): added update membership level name | 18/11 |
   
 <h4 id='6.2.1.5.'>6.2.1.5. Testing Suite Evidence for Sprint Review.</h4>
+
+En la siguiente sección se presentan los cambios en el repositorio de testing de la aplicación durante el desarrollo del presente sprint. En este repositorio se encuentran los archivos Gherkin, los cuales forman parte del enfoque BDD de la aplicación.
+
+| Repository | Branch | Commit ID | Commit Message | Committed on (Date) |
+| :---: | :---: | :---: | :---: | :---: |
+| re-greenhouse/greenhouse\_testing\_suite | testing | 9cdd357 | docs: added membership .feature file | 10/05/2025 |
+| re-greenhouse/greenhouse\_testing\_suite | testing | 3163a45  | docs: added notifications .feature file | 10/05/2025 |
+
 <h4 id='6.2.1.6.'>6.2.1.6. Execution Evidence for Sprint Review.</h4>
+
+En esta sección se presentarán capturas de las request a los distintos endpoints de nuestros microservicios utilizando Postman:
+
+**Auth endpoints:**
+
+El endpoint público POST /api/v1/auth/sign-up permite que los usuarios se registren en la aplicación Greenhouse.
+
+<img src='assets/images/chapter-6/1.png' alt='Git Flow' />
+
+El endpoint público POST /api/v1/auth/sign-in permite que los usuarios inicien sesión. Si las credenciales son válidas, se retorna un token, a través del cual podrá utilizar los endpoints protegidos.
+
+<img src='assets/images/chapter-6/2.png' alt='Git Flow' />
+
+**Profiles endpoints:**
+
+El endpoint GET /api/v1/profiles/users/me permite obtener la información asociada al perfil del usuario autenticado
+
+<img src='assets/images/chapter-6/3.png' alt='Git Flow' />
+
+El endpoint GET /api/v1/profiles/companies/{companyId} permite obtener la información asociada a la empresa a la cual pertenece el usuario autenticado
+
+<img src='assets/images/chapter-6/4.png' alt='Git Flow' />
+
+El endpoint PATCH /api/v1/profiles/{profileId} permite editar los nombres y la foto del perfil seleccionado.
+
+<img src='assets/images/chapter-6/5.png' alt='Git Flow' />
+
+**Companies endpoints:**
+
+El endpoint POST /api/v1/companies permite registrar una empresa y vincularla al usuario autenticado.
+
+<img src='assets/images/chapter-6/6.png' alt='Git Flow' />
+
+El endpoint GET /api/v1/companies permite obtener la empresa a la cual pertenece el usuario autenticado.
+
+<img src='assets/images/chapter-6/7.png' alt='Git Flow' />
+
+**Crops endpoints:**
+
+El endpoint POST /api/v1/crops permite iniciar un nuevo cultivo para una empresa.
+
+<img src='assets/images/chapter-6/8.png' alt='Git Flow' />
+
+El endpoint GET /api/v1/crops/{cropId} permite recuperar un cultivo según su ID.
+
+<img src='assets/images/chapter-6/9.png' alt='Git Flow' />
+
+El endpoint PATCH /api/v1/crops/{cropId} permite actualizar la fase y el estado de un cultivo según su ID.
+
+<img src='assets/images/chapter-6/10.png' alt='Git Flow' />
+
+El endpoint DELETE /api/v1/crops/{cropId} permite eliminar los cultivos en base a su ID.
+
+<img src='assets/images/chapter-6/11.png' alt='Git Flow' />
+
+**Mail endpoints:**
+
+El endpoint POST /api/v1/templates permite crear un template de correo electrónico a partir de un cuerpo en HTML.
+
+<img src='assets/images/chapter-6/12.png' alt='Git Flow' />
+
+El endpoint POST /api/v1/mails permite enviar correos electrónicos a partir de un template seleccionado.
+
+<img src='assets/images/chapter-6/13.png' alt='Git Flow' />
+
 <h4 id='6.2.1.7.'>6.2.1.7. Services Documentation Evidence for Sprint Review.</h4>
+
+A continuación, se presentan los endpoints correspondientes a cada microservicio:
+
+**IAM endpoints:**
+
+<img src='assets/images/chapter-6/14.png' alt='Git Flow' />
+
+**Personas endpoints:**
+
+<img src='assets/images/chapter-6/15.png' alt='Git Flow' />
+
+**Companies endpoints:**
+
+<img src='assets/images/chapter-6/16.png' alt='Git Flow' />
+
+**Mail endpoints:**
+
+<img src='assets/images/chapter-6/17.png' alt='Git Flow' />
+
+**Crops endpoints:**
+
+<img src='assets/images/chapter-6/18.png' alt='Git Flow' />
+
+**Records endpoints:**
+
+<img src='assets/images/chapter-6/19.png' alt='Git Flow' />
+
 <h4 id='6.2.1.8.'>6.2.1.8. Software Deployment Evidence for Sprint Review.</h4>
 
 **Landing Page:**
