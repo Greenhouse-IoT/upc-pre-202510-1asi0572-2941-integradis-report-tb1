@@ -75,7 +75,7 @@ Link para acceder al repositorio en GitHub: [https://github.com/Greenhouse-IoT/u
 | Seminario Garbin, Carlo Luca        | Redacción de perfil de integrante del equipo, impact mapping, software architechture system landscape diagram, software architecture context level diagrams, software architecture container level diagrams, software architecture deployment diagrams, bounded context mailing e IoT |
 | Soto Kong Requena, Andrés Eduardo   | Redacción de perfil de integrante del equipo, lean UX problem statements, lean UX assumptions, lean UX hypothesis statements, lean UX, segmentos objetivo, bounded context memberships |
 
-### TB2
+### TP1
 
 | Integrante                          | Tareas Asignadas |
 | ----------------------------------- | ---------------- |
@@ -294,21 +294,22 @@ explican las ramas más prominentes:
       <b>Galavis Du Bois, Alan Enrique:</b>
       Durante el desarrollo del proyecto, me aseguré de comunicar y orientar a mis compañeros de equipo el alcance, restricciones y objetivos del trabajo, con la finalidad de proponer un proyecto que responda al problema definido.<br/>
       <br/>
-      <i>TB2</i><br/>
+      <i>TP1</i><br/>
       <b>Galavis Du Bois, Alan Enrique:</b>
       Me aseguré de participar activamente en la organización del proyecto, al igual que en la colaboración con el cliente para validar que el desarrollo de la solución se ajuste con los requisitos esperados.<br/>
       <br/>
       <i>TB1</i><br/>
       <b>Seminario Garbín, Carlo Luca:</b>
-      Se realizó un inicio de prototipo de dispositivos IoT para poder experimentar e iniciar el desarrollo del trabajo con tiempo.
+      Se realizó un inicio de prototipo de dispositivos IoT para poder experimentar e iniciar el desarrollo del trabajo con tiempo.<br/>
       <br/>
       <i>TP1</i><br/>
       <b>Seminario Garbín, Carlo Luca:</b>
-      Se realizó el despliegue del backend para que mis compañeros puedan hacer uso de las funcionalidades y hacer un flujo de trabajo más óptimo, comunicando bugs o caídas para poder darles mantenimiento.
+      Se realizó el despliegue del backend para que mis compañeros puedan hacer uso de las funcionalidades y hacer un flujo de trabajo más óptimo, comunicando bugs o caídas para poder darles mantenimiento.<br/>
       <br/>
       <i>TB1</i><br/>
-      <b>Soto Kong Requena, Andrés Eduardo:</b> Fui responsable de la definición y desarrollo de los bounded context correspondientes a los módulos de Mail y Memberships. A través de su enfoque en la estructuración de estos contextos, contribuyó significativamente a la organización y modularización de la aplicación, asegurando una integración coherente con los demás componentes del sistema.
-       <i>TP1</i><br/>
+      <b>Soto Kong Requena, Andrés Eduardo:</b> Fui responsable de la definición y desarrollo de los bounded context correspondientes a los módulos de Mail y Memberships. A través de su enfoque en la estructuración de estos contextos, contribuyó significativamente a la organización y modularización de la aplicación, asegurando una integración coherente con los demás componentes del sistema.<br/>
+      <br/>
+      <i>TP1</i><br/>
       <b>Soto Kong Requena, Andrés Eduardo:</b> Fui responsable de la definición y desarrollo de los bounded context correspondientes a los módulos de Mail y Memberships. A través de su enfoque en la estructuración de estos contextos, contribuyó significativamente a la organización y modularización de la aplicación, asegurando una integración coherente con los demás componentes del sistema.
       </td>
       <td>El equipo trabajó de manera colaborativa y eficiente, asumiendo roles clave en diversas áreas del proyecto. Se lideró el análisis de requisitos y la implementación de herramientas UX, mientras que se definieron y estructuraron los bounded contexts de la aplicación. Además, se orientó al equipo sobre los objetivos del proyecto, se desarrolló un prototipo de IoT de manera temprana y se aseguraron módulos integrados y coherentes para una solución efectiva. En conjunto, se logró una ejecución fluida y alineada con el problema a resolver.</td>
@@ -341,11 +342,11 @@ explican las ramas más prominentes:
       <br/>
       <i>TB1</i><br/>
       <b>Seminario Garbín, Carlo Luca:</b>
-      Colabaré con mis compañeros expresando las ideas colaborativas para la integración de IoT, de modo que podamos lograr una solución adecuada para el contexto.
+      Colabaré con mis compañeros expresando las ideas colaborativas para la integración de IoT, de modo que podamos lograr una solución adecuada para el contexto.<br/>
       <br/>
       <i>TP1</i><br/>
       <b>Seminario Garbín, Carlo Luca:</b>
-      Apoyé distribuyendo el trabajo entre el equipo escuchando propuestas y aportando ideas para avanzar de forma colaborativa en base a metas y objetivos.
+      Apoyé distribuyendo el trabajo entre el equipo escuchando propuestas y aportando ideas para avanzar de forma colaborativa en base a metas y objetivos.<br/>
       <br/>
       <i>TB1</i><br/>
       <b>Soto Kong Requena, Andrés Eduardo</b>: Colabore para obtener un entorno colaborativo e inclusivo, asegurándose de que todas las metas fueran claras y alcanzables. Se encargó de coordinar tareas clave en el proceso de planificación, estableciendo un flujo de trabajo organizado y apoyando al equipo en el cumplimiento de los objetivos establecidos.
@@ -2870,17 +2871,10 @@ Enlace para acceder al video de explicación del [Mobile Applications Prototypin
 
 Enlace para acceder al [Flujo](https://www.figma.com/proto/wPpvosGW28c7blfOfbBo2n/Integradis---Wireframes-Greenhouse---Emergentes?node-id=543-1064&t=lyOdfgUOBGZ3p1j4-1&scaling=min-zoom&content-scaling=fixed&page-id=533%3A476)
 
-<h1 id='conclusiones'>Conclusiones</h1>
-El desarrollo de los problem statements y assumptions demostró aproximarse bastante al comportamiento de nuestros segmentos objetivos de arrendador y arrendatario. Esto se debió a un correcto análisis (previo a la realización de entrevistas) sobre cómo planteamos llevar a cabo el proceso de alquiler de bicicletas y qué es lo que esperan los ciclistas en general en base a nuestros propios conocimientos, experiencia e investigación.
-Nuestras aproximaciones planteadas en el anterior punto se vieron más detalladas una vez realizado el proceso de entrevistas de validación, donde se pudo confirmar de que la redacción planteada en un inicio (de los problem statements y assumptions) estuvieron satisfactoriamente alineados a lo que se especificó con anterioridad.
-
-Los hypotheses statements identificados en conjunto con los criterios de éxito (pertenecientes al proceso de Lean UX) tuvieron una aproximación a la realidad en las entrevistas de validación en su gran mayoría. El principal problema que se logró identificar fue que en algunos casos se plantearon hypotheses statements muy específicos que, a menos que se realicen preguntas igual de específicas, no podríamos validar. Además, en caso de realizar este tipo de preguntas, podría llegar a condicionar a nuestros entrevistados a hablar sobre un aspecto que a lo mejor no notaron, no recuerdan o desconocen al respecto. Por lo tanto, recomendamos de que para próximos trabajos se busque redactar hypothesis statements y criterios de éxito que no están tan centrados en features puntuales, sino más en cómo el usuario interactúa con las distintas aplicaciones.
-
-Consideramos fuertemente que las etapas más importantes de todo el proceso/roadmap de los productos digitales se encuentran en realizar buenas entrevistas para conocer a nuestros segmentos objetivos y para validar nuestro producto, Así como toda la parte que corresponde al diseño de la aplicación: mockups, wireframes, diagramas de clases y base de datos, etc. Ya que, estos forman parte del core del desarrollo del informe y proyecto para la parte de documentación e implementación correspondiente.
-
 <h1 id='6.'>6. Capítulo VI: Product Implementation, Validation & Deployment </h1>
 <h2 id='6.1.'>6.1. Software Configuration Management.</h2>
 <h3 id='6.1.1.'>6.1.1. Software Development Environment Configuration.</h3>
+
 **Requirements Management**
 
 1. Trello: Es una herramienta utilizada para gestionar el flujo de trabajo de proyectos principalmente basados en marcos de trabajos ágiles. Será empleado para visualizar y actualizar el estado actual de las tareas e historias de usuario pertenecientes al sprint a desarrollar. Ruta de referencia [https://trello.com/es](https://trello.com/es)
@@ -3502,7 +3496,6 @@ Para el caso de la aplicación Iot embebida está será instalada mediante Ardui
 
 <h2 id='6.2.'>6.2. Landing Page, Services & Applications Implementation.</h2>
 <h3 id='6.2.1.'>6.2.1. Sprint 1.</h3>
-<h4 id='6.2.1.1.'>6.2.1.1. Sprint Planning 1.</h4>
 
 <h4 id='6.2.1.1.'>6.2.1.1. Sprint Planning 1.</h4>
 
@@ -3649,67 +3642,67 @@ El objetivo principal del Sprint 2 fue entrenar, probar, conectar e implementar 
   
 | Repository | Branch | Commit ID | Commit Message | Committed on (Date) |
 | ----- | ----- | ----- | ----- | ----- |
-| web-app-gh | development | 35df242 | feat: changed get crops endpoint to obtain the crop according to a company id | 1/11 |
-| greenhouse-mobile | feature/notifications | 8285553 | fix: inverted order for moving to previous or next phase, and the record now shows crop name instead of id | 1/11 |
-| greenhouse-mobile | feature/notifications | 41a037a | feat: Add image quality analizer | 1/11 |
-| greenhouse-mobile | feature/notifications | c6da4f3 | feat: Add ia service | 1/11 |
-| greenhouse-mobile | feature/notifications | 1d81f77 | feat: Add delete image button | 1/11 |
-| greenhouse-mobile | feature/notifications | 1c59676 | feat: Add persistance to crop images | 1/11 |
-| greenhouse-mobile | feature/notifications | 1556204 | feat: added create crops and get crops by company | 1/11 |
-| greenhouse-mobile | feature/notifications | 59a5b48 | feat: Add upload picture at the end of crop | 1/11 |
-| greenhouse-mobile | feature/notifications | ed9eeec | chore: Add needed dependencies | 1/11 |
-| backend-gh | feature/deployment | c384cbc | fix(company): solve problem with company and profile id | 1/11 |
-| backend-gh | feature/deployment | 7bc1928 | fix(company): avoid duplicated companies by tin when creating enterprise account | 1/11 |
-| backend-gh | feature/deployment | 27e882c | feat(personas): fixed personas proto | 1/11 |
-| backend-gh | feature/deployment | 9ed0760 | feat(company): add support for creating account with profile and company lmao. Next commit every possible permutation | 1/11 |
-| backend-gh | feature/deployment | 3fab306 | chore: refactored memberships microservice | 1/11 |
-| web-app-gh | development | c5946ef | fix: fixed sorting of crops in progress | 2/11 |
-| web-app-gh | development | 9e30c28 | feat: added edit company component and function on service to edit the company | 2/11 |
-| backend-gh | feature/deployment | 78ce73d | fix: port of memberships db | 2/11 |
-| backend-gh | feature/deployment | 7e7bfc1 | fix: variable convention was missing Dto. | 2/11 |
-| backend-gh | feature/deployment | 13843b4 | chore: update needed configuration for deployment of memberships microservice. | 2/11 |
+| web-app | development | 35df242 | feat: changed get crops endpoint to obtain the crop according to a company id | 1/11 |
+| mobile | feature/notifications | 8285553 | fix: inverted order for moving to previous or next phase, and the record now shows crop name instead of id | 1/11 |
+| mobile | feature/notifications | 41a037a | feat: Add image quality analizer | 1/11 |
+| mobile | feature/notifications | c6da4f3 | feat: Add ia service | 1/11 |
+| mobile | feature/notifications | 1d81f77 | feat: Add delete image button | 1/11 |
+| mobile | feature/notifications | 1c59676 | feat: Add persistance to crop images | 1/11 |
+| mobile | feature/notifications | 1556204 | feat: added create crops and get crops by company | 1/11 |
+| mobile | feature/notifications | 59a5b48 | feat: Add upload picture at the end of crop | 1/11 |
+| mobile | feature/notifications | ed9eeec | chore: Add needed dependencies | 1/11 |
+| backend | feature/deployment | c384cbc | fix(company): solve problem with company and profile id | 1/11 |
+| backend | feature/deployment | 7bc1928 | fix(company): avoid duplicated companies by tin when creating enterprise account | 1/11 |
+| backend | feature/deployment | 27e882c | feat(personas): fixed personas proto | 1/11 |
+| backend | feature/deployment | 9ed0760 | feat(company): add support for creating account with profile and company lmao. Next commit every possible permutation | 1/11 |
+| backend | feature/deployment | 3fab306 | chore: refactored memberships microservice | 1/11 |
+| web-app | development | c5946ef | fix: fixed sorting of crops in progress | 2/11 |
+| web-app | development | 9e30c28 | feat: added edit company component and function on service to edit the company | 2/11 |
+| backend | feature/deployment | 78ce73d | fix: port of memberships db | 2/11 |
+| backend | feature/deployment | 7e7bfc1 | fix: variable convention was missing Dto. | 2/11 |
+| backend | feature/deployment | 13843b4 | chore: update needed configuration for deployment of memberships microservice. | 2/11 |
 | greenhouse-mobile | feature/notifications | fa11fd6 | feat(firebase): added crop image uploading to firebase, also updated the config example. | 10/11 |
-| web-app-gh | development | 19e64df | feature: suscription test feature | 11/11 |
-| greenhouse-mobile | feature/notifications | 212ee08 | feat: added endpoint for updating the ended crops image and quality. | 11/11 |
-| backend-gh | feature/deployment | cb6c927 | fix(crops): fixed nullability of values quality and imageUrl | 11/11 |
-| backend-gh | feature/deployment | 4dfe434 | feat(crops): added update crop image endpoint@ | 11/11 |
-| web-app-gh | development | 71c60bd | feat: changed filter component to recieve react component | 12/11 |
-| web-app-gh | development | 5869e00 | feature: new atributes for archived crop to show quality and image added of the crop | 12/11 |
-| web-app-gh | development | 468d3bc | chore: Export to Excel now separates payload data | 13/11 |
-| web-app-gh | development | 63077bb | chore: Update filter | 13/11 |
-| web-app-gh | development | 9a733a3 | fix: Responsive issue with Dialog components | 14/11 |
-| web-app-gh | development | 3411104 | fix: Record chart empty record list case message | 14/11 |
-| web-app-gh | development | 8fc29d7 | chore: Centered stepper component | 14/11 |
-| web-app-gh | development | 42b86d4 | chore: Update chart color | 14/11 |
-| web-app-gh | development | 5d67c79 | feat: Add card animation on hover | 14/11 |
-| web-app-gh | development | eed21e8 | fix: Fix issue with trailing icon on TextField | 14/11 |
-| greenhouse-mobile | feature/notifications | 46f9050 | feat: added publisher to message bus for notifications | 14/11 |
-| web-app-gh | development | 13d1b44 | chore: Fix issue with stomp protocol | 15/11 |
-| web-app-gh | development | ef7ce53 | fix: Fix delete dialog background not working | 15/11 |
-| web-app-gh | development | 9f9c228 | feat: added new type of notification | 15/11 |
-| web-app-gh | development | 73a3785 | fix: SideBar component stays fix in screen | 15/11 |
-| web-app-gh | development | c80e2e8 | feat: Add SideBar component | 15/11 |
-| web-app-gh | development | b6da1b9 | chore: Update close dialog location | 15/11 |
-| web-app-gh | development | 81b4da7 | feat: added notification functionality to receive messages from a broker | 15/11 |
-| web-app-gh | development | e4e416e | fix: Fix issue with route change on company edit | 15/11 |
-| web-app-gh | development | 1b9813e | feat: Add edit user profile | 15/11 |
-| greenhouse-mobile | feature/notifications | 5301d1a | chore: updated publish notifications for record edits. | 15/11 |
-| greenhouse-mobile | feature/notifications | 7aa35c6 | feat: added publish notifications for records. | 15/11 |
-| greenhouse-mobile | feature/notifications | 739e46f | feat: added publish notifications for deleting and creating crops. | 15/11 |
-| backend-gh | feature/deployment | 45f8e12 | chore: update docker and configuration for deployment | 15/11 |
-| backend-gh | feature/deployment | b8c9520 | fix(memberships): fixed memberships bounded context | 15/11 |
-| backend-gh | feature/deployment | 392f6af | fix: update profile it used ??= operator so it didnt update | 15/11 |
-| backend-gh | feature/deployment | 994df94 | feat(lol): lmao | 15/11 |
-| backend-gh | feature/deployment | 1069447 | fix: update data type error | 15/11 |
-| backend-gh | feature/deployment | bd90485 | fix: added payload update to the command handler | 15/11 |
-| greenhouse-mobile | feature/notifications | 126ef9b | feat: added before and after for edits notification | 16/11 |
-| backend-gh | feature/deployment | 9eba24d | feat(find-membership-levels): created find membership level endpoint | 16/11 |
-| backend-gh | feature/deployment | 031307c | fix(membership-levels): fixed membership levels database insertion | 16/11 |
-| backend-gh | feature/deployment | 8f382a5 | feat(membership-levels): added membership levels create command | 16/11 |
-| web-app-gh | development | fe5b28c | fix: bugs | 18/11 |
-| web-app-gh | development | 0fbbee9 | feat: added membership components, services and models to make the different levels of memberships work in each company | 18/11 |
-| greenhouse-mobile | feature/notifications | 57c92a3 | feat: Add membership service | 18/11 |
-| backend-gh | feature/deployment | dc92ba1 | feat(memberships): added update membership level name | 18/11 |
+| web-app | development | 19e64df | feature: suscription test feature | 11/11 |
+| mobile | feature/notifications | 212ee08 | feat: added endpoint for updating the ended crops image and quality. | 11/11 |
+| backend | feature/deployment | cb6c927 | fix(crops): fixed nullability of values quality and imageUrl | 11/11 |
+| backend | feature/deployment | 4dfe434 | feat(crops): added update crop image endpoint@ | 11/11 |
+| web-app | development | 71c60bd | feat: changed filter component to recieve react component | 12/11 |
+| web-app | development | 5869e00 | feature: new atributes for archived crop to show quality and image added of the crop | 12/11 |
+| web-app | development | 468d3bc | chore: Export to Excel now separates payload data | 13/11 |
+| web-app | development | 63077bb | chore: Update filter | 13/11 |
+| web-app | development | 9a733a3 | fix: Responsive issue with Dialog components | 14/11 |
+| web-app | development | 3411104 | fix: Record chart empty record list case message | 14/11 |
+| web-app | development | 8fc29d7 | chore: Centered stepper component | 14/11 |
+| web-app | development | 42b86d4 | chore: Update chart color | 14/11 |
+| web-app | development | 5d67c79 | feat: Add card animation on hover | 14/11 |
+| web-app | development | eed21e8 | fix: Fix issue with trailing icon on TextField | 14/11 |
+| mobile | feature/notifications | 46f9050 | feat: added publisher to message bus for notifications | 14/11 |
+| web-app | development | 13d1b44 | chore: Fix issue with stomp protocol | 15/11 |
+| web-app | development | ef7ce53 | fix: Fix delete dialog background not working | 15/11 |
+| web-app | development | 9f9c228 | feat: added new type of notification | 15/11 |
+| web-app | development | 73a3785 | fix: SideBar component stays fix in screen | 15/11 |
+| web-app | development | c80e2e8 | feat: Add SideBar component | 15/11 |
+| web-app | development | b6da1b9 | chore: Update close dialog location | 15/11 |
+| web-app | development | 81b4da7 | feat: added notification functionality to receive messages from a broker | 15/11 |
+| web-app | development | e4e416e | fix: Fix issue with route change on company edit | 15/11 |
+| web-app | development | 1b9813e | feat: Add edit user profile | 15/11 |
+| mobile | feature/notifications | 5301d1a | chore: updated publish notifications for record edits. | 15/11 |
+| mobile | feature/notifications | 7aa35c6 | feat: added publish notifications for records. | 15/11 |
+| mobile | feature/notifications | 739e46f | feat: added publish notifications for deleting and creating crops. | 15/11 |
+| backend | feature/deployment | 45f8e12 | chore: update docker and configuration for deployment | 15/11 |
+| backend | feature/deployment | b8c9520 | fix(memberships): fixed memberships bounded context | 15/11 |
+| backend | feature/deployment | 392f6af | fix: update profile it used ??= operator so it didnt update | 15/11 |
+| backend | feature/deployment | 994df94 | feat(lol): lmao | 15/11 |
+| backend | feature/deployment | 1069447 | fix: update data type error | 15/11 |
+| backend | feature/deployment | bd90485 | fix: added payload update to the command handler | 15/11 |
+| mobile | feature/notifications | 126ef9b | feat: added before and after for edits notification | 16/11 |
+| backend | feature/deployment | 9eba24d | feat(find-membership-levels): created find membership level endpoint | 16/11 |
+| backend | feature/deployment | 031307c | fix(membership-levels): fixed membership levels database insertion | 16/11 |
+| backend | feature/deployment | 8f382a5 | feat(membership-levels): added membership levels create command | 16/11 |
+| web-app | development | fe5b28c | fix: bugs | 18/11 |
+| web-app | development | 0fbbee9 | feat: added membership components, services and models to make the different levels of memberships work in each company | 18/11 |
+| mobile | feature/notifications | 57c92a3 | feat: Add membership service | 18/11 |
+| backend | feature/deployment | dc92ba1 | feat(memberships): added update membership level name | 18/11 |
   
 <h4 id='6.2.1.5.'>6.2.1.5. Testing Suite Evidence for Sprint Review.</h4>
 
@@ -3891,6 +3884,14 @@ El modelo de computer visión se entrenó desde ultralytics el mismo te brinda u
 <img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/route53.png' alt='Route 53 Desplegado' />
 
 <h4 id='6.2.1.9.'>6.2.1.9. Team Collaboration Insights during Sprint.</h4>
+
+<h1 id='conclusiones'>Conclusiones</h1>
+El desarrollo de los problem statements y assumptions demostró aproximarse bastante al comportamiento de nuestros segmentos objetivos de arrendador y arrendatario. Esto se debió a un correcto análisis (previo a la realización de entrevistas) sobre cómo planteamos llevar a cabo el proceso de alquiler de bicicletas y qué es lo que esperan los ciclistas en general en base a nuestros propios conocimientos, experiencia e investigación.
+Nuestras aproximaciones planteadas en el anterior punto se vieron más detalladas una vez realizado el proceso de entrevistas de validación, donde se pudo confirmar de que la redacción planteada en un inicio (de los problem statements y assumptions) estuvieron satisfactoriamente alineados a lo que se especificó con anterioridad.
+
+Los hypotheses statements identificados en conjunto con los criterios de éxito (pertenecientes al proceso de Lean UX) tuvieron una aproximación a la realidad en las entrevistas de validación en su gran mayoría. El principal problema que se logró identificar fue que en algunos casos se plantearon hypotheses statements muy específicos que, a menos que se realicen preguntas igual de específicas, no podríamos validar. Además, en caso de realizar este tipo de preguntas, podría llegar a condicionar a nuestros entrevistados a hablar sobre un aspecto que a lo mejor no notaron, no recuerdan o desconocen al respecto. Por lo tanto, recomendamos de que para próximos trabajos se busque redactar hypothesis statements y criterios de éxito que no están tan centrados en features puntuales, sino más en cómo el usuario interactúa con las distintas aplicaciones.
+
+Consideramos fuertemente que las etapas más importantes de todo el proceso/roadmap de los productos digitales se encuentran en realizar buenas entrevistas para conocer a nuestros segmentos objetivos y para validar nuestro producto, Así como toda la parte que corresponde al diseño de la aplicación: mockups, wireframes, diagramas de clases y base de datos, etc. Ya que, estos forman parte del core del desarrollo del informe y proyecto para la parte de documentación e implementación correspondiente.
 
 <h1 id='referencias'>Referencias Bibliográficas</h1>
 Cajo Hernandez, J. A., & Rosales Caururu, A. N. (2022). Sistema de control y gestión para los cultivos agrícolas aplicando tecnologías emergentes en el Perú. [Tesis de licenciatura, Universidad Peruana de Ciencias Aplicadas]. Repositorio Académico UPC. https://repositorioacademico.upc.edu.pe/bitstream/handle/10757/660718/Cajo_HJ.pdf?sequence=3
