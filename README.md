@@ -1156,8 +1156,7 @@ El lenguaje ubicuo permite que las personas del negocio, incluso aquellas sin co
 <h2 id='3.3.'>3.3. Impact Mapping</h2>
 <img src="assets/images/chapter_3/impact_mapping/impact_map.png" alt="impact map"/>
 
-Enlace para acceder a la imagen en
-<a href="https://drive.google.com/file/d/1yVWGNyuPBc9qrRnP36r73_fm8HVVXRoA/view">drive</a>
+Enlace para acceder a la imagen en <a href="https://drive.google.com/file/d/1yVWGNyuPBc9qrRnP36r73_fm8HVVXRoA/view">drive</a>
 
 <h2 id='3.4.'>3.4. Product Backlog</h2>
 
@@ -1192,52 +1191,52 @@ Se adoptó un enfoque colaborativo y visual para modelar el contexto del dominio
 <b>Unstructured Exploration</b>
 La primera fase consistió en una exploración abierta y sin estructura rígida. Durante esta etapa, el equipo compartió conocimientos, ideas y supuestos sobre el dominio del negocio. Se realizaron sesiones de brainstorming para identificar eventos clave, flujos de trabajo y dependencias. Esta exploración inicial sirvió como base para los siguientes pasos de modelado, permitiendo un entendimiento más profundo del sistema y sus necesidades antes de pasar a etapas más formales y detalladas del diseño.
 
-Insertar Imagen Actualizada
+<img src="assets/images/chapter_4/event_storming/unstructured_exploration.png" alt="Unstructured Exploration"/>
 
 <b>Pain Points</b>
 Durante el Event Storming, se identificaron varias áreas problemáticas o "puntos de dolor" que afectan el flujo de trabajo y la eficiencia del sistema. Estos puntos de dolor, como cuellos de botella en procesos clave, dependencias excesivas entre servicios, o dificultades en la escalabilidad, fueron discutidos para proponer soluciones. La identificación temprana de estos problemas permitió enfocar los esfuerzos en la optimización y mejora de los aspectos más críticos para el negocio.
 
-Insertar Imagen Actualizada
+<img src="assets/images/chapter_4/event_storming/pain_points.png" alt="Pain Points"/>
 
 <b>Timelines</b>
 Para garantizar una coordinación adecuada de las actividades y hitos clave, se implementaron múltiples líneas de tiempo (timelines). Estas líneas permitieron a los equipos visualizar de forma clara las fechas importantes y los entregables en cada fase del proyecto. Cada línea de tiempo se utilizó como una herramienta para alinear a los equipos en cuanto a las expectativas de plazos, asegurando que todas las partes involucradas comprendieran las prioridades y el ritmo del trabajo. También fueron esenciales para detectar desviaciones y tomar medidas correctivas en caso de retrasos.
 
-Insertar Imagen Actualizada
+<img src="assets/images/chapter_4/event_storming/timelines.png" alt="Timelines"/>
 
 <b>Pivotal Points</b>
 A lo largo del proyecto, identificamos varios puntos decisivos (pivotal points), que son momentos clave en los que se requiere tomar decisiones importantes para ajustar la dirección del proyecto. Estos puntos incluyen decisiones sobre la arquitectura, el manejo de dependencias críticas, la selección de tecnologías y la definición de estrategias para mitigar riesgos. Estos momentos fueron vitales para mantener el proyecto en curso, asegurando que las decisiones estratégicas se alinearan con los objetivos generales y que se minimizará el impacto de posibles riesgos a largo plazo. 
 
-Insertar Imagen Actualizada
+<img src="assets/images/chapter_4/event_storming/pivotal_points.png" alt="Pivotal Points"/>
 
 <b>Commands</b>
 Los comandos fueron definidos como las acciones que desencadenan cambios dentro del sistema. Cada comando representa una intención específica del usuario o del sistema para modificar el estado. Por ejemplo, la creación de un nuevo pedido o la actualización de un perfil de cliente. Estos comandos jugaron un papel crucial en la implementación de funcionalidades clave, permitiendo una gestión controlada y eficiente de las acciones que afectan al sistema, manteniendo la integridad de los datos y las operaciones.
 
-Insertar Imagen Actualizada
+<img src="assets/images/chapter_4/event_storming/commands.png" alt="Commands"/>
 
 <b>Policies</b>
 Se diseñaron políticas como reglas o restricciones que deben cumplirse antes de que se ejecute un comando o evento en el sistema. Estas políticas fueron fundamentales para garantizar la seguridad, consistencia y cumplimiento normativo dentro del flujo de trabajo. Las políticas también ayudaron a estandarizar decisiones, reduciendo la probabilidad de errores humanos y automatizando las decisiones repetitivas en el sistema. Por ejemplo, las políticas determinaron quién podía ejecutar ciertos comandos y bajo qué condiciones.
 
-Insertar Imagen Actualizada
+<img src="assets/images/chapter_4/event_storming/policies.png" alt="Policies"/>
 
 <b>Read Models</b>
 Los modelos de lectura son representaciones optimizadas de los datos del sistema, diseñadas específicamente para consultas rápidas y eficientes. A diferencia de los modelos transaccionales, que están diseñados para almacenar y modificar datos, los modelos de lectura están organizados para responder a preguntas y proporcionar vistas instantáneas del estado del sistema. En este caso, gestionamos varios modelos de lectura para proporcionar a los usuarios las vistas más relevantes de la información, lo que permitió consultas rápidas y precisas, sin afectar las operaciones críticas del sistema.
 
-Insertar Imagen Actualizada
+<img src="assets/images/chapter_4/event_storming/read_models.png" alt="Read Models"/>
 
 <b>External Systems</b>
 Como parte de la implementación, se identificaron y modelaron las interacciones con sistemas externos que proporcionarán datos o servicios esenciales para el proyecto. Estos sistemas externos pueden incluir proveedores de servicios en la nube, APIs de terceros, o sistemas heredados que necesitan ser integrados. La correcta identificación y modelado de estos sistemas externos fue crucial para garantizar una integración sin problemas, minimizando riesgos y asegurando la interoperabilidad entre todos los componentes del sistema.
 
-Insertar Imagen Actualizada
+<img src="assets/images/chapter_4/event_storming/external_systems.png" alt="External Systems"/>
 
 <b>Aggregates</b>
 Los agregados representan entidades clave dentro del sistema que encapsulan un conjunto de datos y comportamientos relacionados en torno a un único concepto del dominio. Cada agregado define límites claros sobre lo que puede o no puede ser modificado, protegiendo la consistencia y coherencia del estado. Durante el proceso, se analizaron los agregados relevantes para el dominio, asegurándonos de que cada entidad clave estuviera correctamente definida y alineada con las reglas del negocio.
 
-Insertar Imagen Actualizada
+<img src="assets/images/chapter_4/event_storming/aggregates.png" alt="Aggregates"/>
 
 <b>Bounded Contexts</b>
 Identificamos varios contextos delimitados (bounded contexts) para organizar las áreas funcionales del sistema. Cada contexto delimitado define los límites dentro de los cuales ciertos términos y conceptos tienen un significado claro y consistente. Esto permite segmentar el sistema en componentes manejables, donde cada equipo o módulo tiene responsabilidades bien definidas. Esta separación facilita la escalabilidad y la evolución del sistema, al mismo tiempo que evita problemas de ambigüedad y solapamiento en las funciones del sistema.
 
-Insertar Imagen Actualizada
+<img src="assets/images/chapter_4/event_storming/bounded_contexts.png" alt="Aggregates"/>
 
 Enlace al [Miro](https://miro.com/app/board/uXjVKhDrVvw=/?share_link_id=611418680068)
 
@@ -1260,7 +1259,8 @@ Se enfoca en la gestión de cómo las compañías obtienen una mejor suscripció
 <b>Mailing subdomain:</b>
 Este subdominio se encarga de gestionar el servicio de notificaciones y alertas por correo electrónico para los usuarios.
 
-Añadir subdominio IoT
+<b>IoT subdomain: </b>
+El subdominio gestiona la interacción con la capa edge y la interacción de la aplicación con los dispositivos IoT para la medición de parámetros.
 
 <h4 id='4.1.1.2.'>4.1.1.2. Domain Message Flows Modeling.</h4>
 
@@ -1303,22 +1303,22 @@ El proceso seguido para elaborar los bounded context canvases fue el siguiente:
 1. Definición del Bounded Context
 El primer paso es identificar y delimitar los diferentes Bounded Contexts en el sistema. Estos contextos representan áreas específicas donde los conceptos, reglas y entidades son consistentes. Ejemplos en nuestro sistema incluyen IAM, Personas, Memberships, Crops y Mails.
 
-2. Identificación de Entidades y Agregados
+1. Identificación de Entidades y Agregados
 Dentro de cada contexto, se identifican las entidades y agregados principales. Las entidades son objetos con identidad propia, y los agregados agrupan entidades relacionadas bajo una misma regla de negocio. En Crops, por ejemplo, las entidades incluyen "Cultivo" y "Registro de Cultivo".
 
-3. Relaciones entre Contextos
+1. Relaciones entre Contextos
 Se identifican las relaciones clave entre los diferentes Bounded Contexts, ya sea mediante APIs, eventos o comandos. Por ejemplo, IAM se encarga de la autenticación de los usuarios y es utilizado por los contextos de Personas, Memberships y Crops para autorizar el acceso.
 
-4. Definición de Interfaces de Comunicación
+1. Definición de Interfaces de Comunicación
 Las interfaces que permiten la interacción entre los contextos se definen, como APIs o eventos. Por ejemplo, Personas puede emitir un evento cuando se registra un nuevo perfil de usuario, lo cual impacta en IAM para autenticar al usuario.
 
-5. Ubiquitous Language
+1. Ubiquitous Language
 Se define un lenguaje común y coherente dentro de cada contexto para asegurar que todos los miembros del equipo compartan los mismos términos y definiciones, como "cultivo" o "calidad del cultivo" en el contexto de Crops.
 
-6. Reglas de Negocio
+1. Reglas de Negocio
 Cada contexto tiene reglas que rigen su funcionamiento. Por ejemplo, en Crops, las reglas de negocio incluyen la validación de la calidad del cultivo y el envío de alertas cuando los registros superan umbrales predefinidos.
 
-7. Visualización del Canvas
+1. Visualización del Canvas
 Finalmente, toda esta información se representa gráficamente en el Bounded Context Canvas, que incluye el nombre del contexto, las entidades, las relaciones, interfaces, el Ubiquitous Language, las reglas de negocio y los modelos de datos. Esto ayuda a facilitar la comprensión y la comunicación entre los equipos de desarrollo.
 
 A continuación se presentan los bounded context identificados:
@@ -2185,8 +2185,38 @@ El presente bounded context no cuenta con una instancia en la base de datos, dad
 
 <h1 id='5.'>5. Capítulo V: Solution UI/UX Design</h1>
 <h2 id='5.1.'>5.1. Style Guidelines</h2>
+
+En la siguiente sección, se presentan las especificaciones de diseño de interfaz de usuario asociadas al proyecto Greenhouse. Enlace para acceder al [Figma](https://www.figma.com/design/wPpvosGW28c7blfOfbBo2n/Integradis---Wireframes-Greenhouse---Emergentes?node-id=115-172&t=NhQBBIFdnfNgF1z4-1)
+
 <h3 id='5.1.1.'>5.1.1. General Style Guidelines</h3>
+
+Un "style guideline" o guía de estilo es un conjunto de reglas y pautas que establecen la forma en que se deben escribir, diseñar o presentar documentos, contenido web, software, o cualquier otro tipo de trabajo creativo. A continuación, se presentan los parámetros implementados en la estructura del proyecto.
+
+<img src="assets/images/chapter_5/style_guidelines/general_style_guide.jpg" alt="Greenhouse General Style Guidelines">
+
+<br/>
+
+- **Colores:** Los colores toman protagonismo de la primera percepción visual de los usuarios. Es así que, guiados por los principios de la psicología del color, se destinó al color verde como tonalidad principal de la paleta cromática en la implementación de la plataforma. El verde simboliza balance, crecimiento y prestigio, uno de los alcances de la startup. Por otra parte, el pigmento verde se asocia con la agricultura, el rubro al que se direcciona la plataforma; y, al concepto de armonía, lo cual se busca ofrecer al usuario dentro de la interacción en el servicio. Como tonalidades secundarias se tienen a: variedades cromáticas del color blanco y azul.
+
+  <img src="assets/images/chapter_5/style_guidelines/general_color_guide.jpg" alt="Greenhouse General Color Guidelines">
+
+- **Tipografía:** La tipografía establece jerarquía entre los diversos grupos de contenido de la página. Asimismo, cumple un rol importante al momento de guiar al usuario a través de la interfaz. En relación al proyecto, la fuente seleccionada fue "Inria Sans" en estilos Light, Medium, Regular, Semibold y Bold para los títulos, y "Noto Sans" para los párrafos.
+
+  <img src="assets/images/chapter_5/style_guidelines/general_typography_guide.jpg" alt="Greenhouse General Typography Guidelines">
+
 <h3 id='5.1.2.'>5.1.2. Web, Mobile and IoT Style Guidelines</h3>
+
+El enfoque de Greenhouse para la aplicación web y mobile consiste en transmitir una interfaz limpia y sencilla, a partir de la cual los usuarios podrán realizar sus objetivos con eficiencia.
+
+- **Tarjetas:** Se hace uso del componente "card" para agrupar los principales componentes de la aplicación. Las tarjetas incluyen un título, un subtítulo, un párrafo descriptivo y representarán un hipervínculo para la obtención de más información.
+
+- **Imágenes:** En el diseño de la aplicación, se incluirán imágenes tanto descriptivas como ornamentales. En primer lugar, la imagen de perfil del usuario y de la empresa en la cual está registrado dentro de la aplicación se encontrarán en todo momento en la parte superior derecha (En el caso de la aplicación web), y en la barra de navegación inferior (En el caso de la aplicación móvil). Esto con el objetivo de ayudar al usuario a identificar la sesión en la que se encuentra y ayudarlo a navegar rápidamente a su perfil. Adicionalmente, se contará con imágenes decorativas en las pantalla de inicio de sesión y creación de cuenta, únicamente con el propósito de captar la atención del usuario.
+
+- **Campo de entrada de texto:** Se hace uso de cuadros de  escritura con la finalidad de que el usuario introduzca información de diversos tipos, como por ejemplo, sus credenciales en el apartado de creación de cuenta o inicio de sesión, nombres/ID de cultivos en la sección cultivos en progreso o archivo de cultivos, nombres de trabajadores en la sección del directorio de empleados, etc. Estos campos de entrada deben ser lo suficientemente anchos como para encajar la mayor cantidad de texto esperada por el usuario, estableciendo como tamaño mínimo 10 caracteres.
+
+- **Botones:** En la aplicación web, se suelen encontrar en la parte inferior de las tarjetas o al extremo derecho de los cuadros de escritura. Estos botones permiten al usuario realizar acciones tales como cambiar de página, abrir un diálogo, editar un campo, etc. Adicionalmente, se deben mostrar botones de confirmación para las acciones que involucren agregar o eliminar información de la base de datos. En general, todos los botones cuentan con un estilo distintivo y un alto contraste con los colores del resto de la aplicación. Se utiliza la teoría del color en los botones de color rojo para representar acciones que eliminen procesos o los den por finalizados.
+
+- **Diálogos/Modales:** Los diálogos o modales son ventanas secundarias que tienen el objetivo de confirmar acciones clave para el funcionamiento del negocio y con gran repercusión en el mismo. Los diálogos cuentan con colores con un valor de matiz mayor que sus contrapartes pasteles del resto de la aplicación web. Además, su aparición oscurece el resto de la pantalla para generar un efecto de contraste. Este efecto busca transmitir la importancia de la resolución del asunto de la pantalla emergente antes de que el usuario continúe con la navegación en la app.
 
 <h2 id='5.2.'>5.2. Information Architecture</h2>
 <h3 id='5.2.1.'>5.2.1. Organization Systems</h3>
@@ -2201,6 +2231,107 @@ El presente bounded context no cuenta con una instancia en la base de datos, dad
 
 <h2 id='5.4.'>5.4. Applications UX/UI Design</h2>
 <h3 id='5.4.1.'>5.4.1. Applications Wireframes</h3>
+
+<h4 id='5.4.1.1.'>5.4.1.1. Web Application Wireframes </h4>
+
+<b>Inicio de sesión y creación de cuenta de empresa</b>
+Las siguientes imágenes evidencian el wireframe de la sección de inicio de sesión y de creación de cuenta de empresa. En estas, se muestran los campos que el usuario debe de completar para poder acceder a la empresa registrada en Greenhouse.
+
+<img src='assets/images/chapter_5/wireframes/login.png' alt='Login Wireframe' />
+
+<b>Perfil de usuario y de empresa</b>
+A continuación, se contemplan los wireframes del diseño para el perfil del usuario administrador, además de las vistas de cambio de contraseña y de la empresa con la cual está registrado en Greenhouse.
+
+<img src='assets/images/chapter_5/wireframes/profile.png' alt='Profile Wireframe' />
+
+<img src='assets/images/chapter_5/wireframes/organization_profile.png' alt='Organization Profile Wireframe' />
+
+<b>Menú principal</b>
+La imagen presentada a continuación representa la vista principal de Greenhouse. Los usuarios cuya identidad haya sido validada con éxito, podrán utilizar este portal para acceder a las demás funcionalidades que ofrece la aplicación.
+
+<img src='assets/images/chapter_5/wireframes/dashboard.png' alt='Dashboard Wireframe' />
+
+<b>Stepper</b>
+El stepper permite a los usuarios acceder a las diversas fases que componen un cultivo. Se mostrará un círculo con borde en caso de que la fase haya finalizado, un número sombreado para representar la fase actual del cultivo, y números con contorno ligero para indicar las fases que aún se han alcanzado.
+
+<img src='assets/images/chapter_5/wireframes/stepper.png' alt='Stepper Wireframe' />
+
+<b>Historial de cultivos</b>
+El siguiente wireframe representa las vistas de los cultivos archivados por los técnicos supervisores.
+
+<img src='assets/images/chapter_5/wireframes/crop_archive1.png' alt='Crop Archive 1 Wireframe' />
+
+<img src='assets/images/chapter_5/wireframes/crop_archive2.png' alt='Crop Archive 2 Wireframe' />
+
+<b>Reportes estadísticos</b>
+La sección de reportes estadísticos es accesible desde el menú principal. En esta vista, los administradores podrán visualizar gráficos que evidencian el rendimiento de la fábrica en el tiempo.
+
+<img src='assets/images/chapter_5/wireframes/reports.png' alt='Reports Wireframe' />
+
+<h4 id='5.4.1.2.'>5.4.1.2. Mobile Application Wireframes </h4>
+
+<b>Inicio de sesión y creación de cuenta de empresa</b>
+Las siguientes imágenes evidencian los wireframes de la sección de inicio de sesión y de creación de cuenta de empresa. En estas, se muestran los campos que el usuario debe de completar para poder acceder a la empresa registrada en Greenhouse.
+
+<img src='assets/images/chapter_5/wireframes/mobile_login.png' alt='Mobile Login Wireframe' />
+<img src='assets/images/chapter_5/wireframes/mobile_login2.png' alt='Mobile Login 2 Wireframe' />
+<img src='assets/images/chapter_5/wireframes/mobile_login3.png' alt='Mobile Login 3 Wireframe' />
+
+<b>Menú principal</b>
+La imagen presentada a continuación representa la vista principal de Greenhouse. Los usuarios cuya identidad haya sido validada con éxito, podrán utilizar este portal para acceder a las demás funcionalidades que ofrece la aplicación.
+
+<img src='assets/images/chapter_5/wireframes/mobile_menu.png' alt='Mobile Menu Wireframe' />
+
+<b>Cultivos en progreso</b>
+La sección cultivos en progreso es accesible desde el menú principal. En esta vista, los usuarios podrán visualizar una lista de cultivos que están actualmente activos
+
+<img src='assets/images/chapter_5/wireframes/mobile_crops_in_progress.png' alt='Mobile Crops In Progress Wireframe' />
+
+<b>Filtrar por fecha </b>
+Las imágenes presentadas a continuación representan el dialog que visualizará el usuario en caso desee filtrar la información de los registros o cultivos por fecha.
+
+<img src='assets/images/chapter_5/wireframes/mobile_calendar.png' alt='Mobile Calendar Wireframe' />
+<img src='assets/images/chapter_5/wireframes/mobile_calendar2.png' alt='Mobile Calendar 2 Wireframe' />
+
+<b>Stepper</b>
+El siguiente wireframe incluye el stepper, desde el cual es posible visualizar las diferentes fases que debe de atravesar un cultivo de champiñones.
+
+<img src='assets/images/chapter_5/wireframes/mobile_stepper.png' alt='Mobile Stepper Wireframe' />
+
+<b>Información de cultivos</b>
+En la siguiente imagen se evidencia una lista de los registros realizados por los usuarios para una fase determinada de un cultivo en específico. En esta vista, los administradores podrán deslizar a la izquierda u oprimir sobre el botón situado en la esquina superior derecha para eliminar por completo un registro realizado. Los administradores podrán utilizar la información presentada para tomar decisiones informadas sobre la empresa.
+
+<img src='assets/images/chapter_5/wireframes/crops_info.png' alt='Crops Info Wireframe' />
+<img src='assets/images/chapter_5/wireframes/crops_info2.png' alt='Crops Info 2 Wireframe' />
+
+<b>Edición de información registrada</b>
+Los administradores tendrán la posibilidad de modificar los registros realizados por los técnicos supervisores, con el objetivo de garantizar la integridad de la información. Esta vista es accesible tras oprimir el botón de edición situado en la esquina superior derecha de cada registro.
+
+<img src='assets/images/chapter_5/wireframes/mobile_info_edition.png' alt='Mobile Info Edition Wireframe' />
+<img src='assets/images/chapter_5/wireframes/mobile_info_edition2.png' alt='Mobile Info Edition 2 Wireframe' />
+
+<b>Historial de cultivos</b>
+Los siguientes wireframes representan las vistas de los cultivos archivados por los técnicos supervisores.
+
+<img src='assets/images/chapter_5/wireframes/mobile_crops_history.png' alt='Mobile Crops History Wireframe' />
+<img src='assets/images/chapter_5/wireframes/mobile_crops_history2.png' alt='Mobile Crops History 2 Wireframe' />
+<img src='assets/images/chapter_5/wireframes/mobile_crops_history3.png' alt='Mobile Crops History 3 Wireframe' />
+
+<b>Perfil de usuario y de empresa, y cambio de contraseña</b>
+Finalmente, se contemplan los wireframes del diseño para el perfil del usuario administrador, además de las vistas de cambio de contraseña y de la empresa con la cual está registrado en Greenhouse.
+
+<img src='assets/images/chapter_5/wireframes/mobile_profile.png' alt='Mobile Profile Wireframe' />
+<img src='assets/images/chapter_5/wireframes/mobile_profile2.png' alt='Mobile Profile 2 Wireframe' />
+
+<b>Invitación a técnico supervisor a empresa en Greenhouse</b>
+Los administradores podrán completar el formulario presentado a continuación para enviar una invitación por correo electrónico a los técnicos supervisores para que comiencen a disfrutar de los beneficios que ofrece la aplicación.
+
+<img src='assets/images/chapter_5/wireframes/mobile_invitation.png' alt='Mobile Invitation Wireframe' />
+
+<b>Reportes estadísticos</b>
+La sección de reportes estadísticos es accesible desde el menú principal. En esta vista, los administradores podrán visualizar gráficos que evidencian el rendimiento de la fábrica en el tiempo.
+
+<img src='assets/images/chapter_5/wireframes/mobile_reports.png' alt='Mobile Reports Wireframe'/>
 
 <h3 id='5.4.2.'>5.4.2. Applications Wireflow Diagrams</h3>
 
@@ -2347,9 +2478,102 @@ En primer lugar, el usuario debe de presionar sobre el botón “Perfil”, el c
 
 ![Wireflow](assets/images/chapter_5/wireflows/wireflowmobile9.png)
 
-
-
 <h3 id='5.4.3.'>5.4.3. Applications Mock-ups</h3>
+
+Esta sección presenta los mock-ups de nuestra aplicación web y móvil, las cuales fueron diseñadas con el propósito de tener representaciones visuales de cómo se verá la interfaz de usuario una vez desarrollada. Los mock-ups se caracterizan por ser detallados, ya que incluye el diseño, agrupación de elementos, tipografía, colores, entre otros, ya definidos en el general style guidelines. 
+
+<h4 id='5.4.3.1'>5.4.3.1 Web Application Mock-ups</h4>
+
+<b>Inicio de sesión</b>
+Las siguientes imágenes evidencian los mock-ups de la sección de inicio de sesión. En estas, se muestran los campos que el usuario debe de completar para poder acceder a la empresa registrada en Greenhouse.
+
+<img src='assets/images/chapter_5/mockups/login.png' alt='Login Mockup'/>
+
+<img src='assets/images/chapter_5/mockups/login2.png' alt='Login 2 Mockup'/>
+
+<img src='assets/images/chapter_5/mockups/memberships.png' alt='Memberships Mockup'/>
+
+<b>Cultivos en progreso</b>
+La sección cultivos en progreso es accesible desde el menú principal. En esta vista, los usuarios podrán visualizar una lista de cultivos que están actualmente activos. Adicionalmente, se observa la presencia de un botón flotante en la parte inferior, desde el cual los usuarios podrán crear un nuevo cultivo.
+
+<img src='assets/images/chapter_5/mockups/crops_in_progress.png' alt='Crops In Progress Mockup'/>
+
+<b>Stepper</b>
+El stepper permite a los usuarios acceder a las diversas fases que componen un cultivo. Se mostrará un círculo con borde negro en caso de que la fase haya finalizado, un número sombreado de verde para representar la fase actual del cultivo, y números con contorno ligero para indicar las fases que aún se han alcanzado.
+
+<img src='assets/images/chapter_5/mockups/stepper.png' alt='Stepper Mockup'/>
+
+<b>Historial de cultivos</b>
+Los siguientes mock-ups representan las vistas de los cultivos archivados por los técnicos supervisores.
+
+<img src='assets/images/chapter_5/mockups/crops_archive.png' alt='Crops Archive Mockup'/>
+
+<b>Perfil de usuario y de empresa</b>
+
+Finalmente, se contemplan los mock-ups del diseño para el perfil del usuario.
+
+<img src='assets/images/chapter_5/mockups/profile.png' alt='Profile Mockup'/>
+
+<h4 id='5.4.3.2'>5.4.3.2 Mobile Application Mock-ups</h4>
+
+<b>Inicio de sesión</b>
+Las siguientes imágenes evidencian los mock-ups de la sección de inicio de sesión. En estas, se muestran los campos que el usuario debe de completar para poder acceder a la empresa registrada en Greenhouse.
+
+<img src='assets/images/chapter_5/mockups/mobile_login.png' alt='Mobile Login Mockup'/>
+<img src='assets/images/chapter_5/mockups/mobilelogin2.png' alt='Mobile Login 2 Mockup'/>
+
+<b>Menú principal</b>
+La imagen presentada a continuación representa la vista principal de Greenhouse. Los usuarios cuya identidad haya sido autenticada con éxito, podrán utilizar este portal para acceder a las demás funcionalidades que ofrece la aplicación.
+
+<img src='assets/images/chapter_5/mockups/mobile_dashboard.png' alt='Mobile Dashboard Mockup'/>
+
+<b>Cultivos en progreso</b>
+La sección cultivos en progreso es accesible desde el menú principal. En esta vista, los usuarios podrán visualizar una lista de cultivos que están actualmente activos. Adicionalmente, se observa la presencia de un botón flotante en la parte inferior, desde el cual los usuarios podrán crear un nuevo cultivo.
+
+<img src='assets/images/chapter_5/mockups/mobile_crops_in_progress.png' alt='Mobile Crops In Progress Mockup'/>
+
+<b>Filtrar por fecha</b>
+Las imágenes presentadas a continuación representan el dialog que visualizará el usuario en caso desee filtrar los registros o cultivos por fecha.
+
+<img src='assets/images/chapter_5/mockups/mobile_calendar.png' alt='Mobile Calendar Mockup'/>
+<img src='assets/images/chapter_5/mockups/mobile_calendar2.png' alt='Mobile Calendar 2 Mockup'/>
+
+<b>Stepper</b>
+El stepper permite a los usuarios acceder a las diversas fases que componen un cultivo. Se mostrará un “check” en caso de que la fase haya finalizado, un número sombreado para representar la fase actual del cultivo, y números con contorno ligero para indicar las fases que aún se han alcanzado.
+
+<img src='assets/images/chapter_5/mockups/mobile_stepper.png' alt='Mobile Stepper Mockup'/>
+
+<b>Información de cultivos</b>
+En la siguiente imagen se evidencia una lista de los registros realizados por los usuarios para una fase determinada de un cultivo en específico. En esta vista, los usuarios tendrán la opción de presionar el botón flotante de la parte inferior derecha para crear un nuevo registro, o el de la parte inferior izquierda para finalizar la fase actual y habilitar la siguiente.
+
+<img src='assets/images/chapter_5/mockups/mobile_crop_info.png' alt='Mobile Crop Info Mockup'/>
+<img src='assets/images/chapter_5/mockups/mobile_crop_info2.png' alt='Mobile Crop Info 2 Mockup'/>
+
+<b>Registro de información de cultivos</b>
+La sección presentada a continuación es accesible mediante el botón flotante de la parte inferior izquierda mostrado en la vista anterior, o al presionar el botón de editar situado en cada tarjeta de registro. En esta sección, los técnicos supervisores podrán ingresar la información asociada a las actividades y procesos realizados en la fábrica, al igual que las condiciones actuales de los cultivos en progreso.
+
+<img src='assets/images/chapter_5/mockups/mobile_record.png' alt='Mobile Record Mockup'/>
+<img src='assets/images/chapter_5/mockups/mobile_record2.png' alt='Mobile Record 2 Mockup'/>
+
+<b>Historial de cultivos</b>
+Los siguientes mock-ups representan las vistas de los cultivos archivados por los técnicos supervisores.
+
+<img src='assets/images/chapter_5/mockups/mobile_story.png' alt='Mobile Story Mockup'/>
+<img src='assets/images/chapter_5/mockups/mobile_story2.png' alt='Mobile Story 2 Mockup'/>
+<img src='assets/images/chapter_5/mockups/mobile_story3.png' alt='Mobile Story 3 Mockup'/>
+
+<b>Perfil de usuario y de empresa, y cambio de contraseña</b>
+Finalmente, se contemplan los mock-ups del diseño para el perfil del usuario técnico supervisor, además de las vistas de cambio de contraseña y de la empresa con la cual está registrado en Greenhouse.
+
+<img src='assets/images/chapter_5/mockups/mobile_profile.png' alt='Mobile Profile Mockup'/>
+<img src='assets/images/chapter_5/mockups/mobile_profile2.png' alt='Mobile Profile 2 Mockup'/>
+<img src='assets/images/chapter_5/mockups/mobile_profile3.png' alt='Mobile Profile 3 Mockup'/>
+<img src='assets/images/chapter_5/mockups/mobile_profile4.png' alt='Mobile Profile 4 Mockup'/>
+
+<b>Reportes estadísticos</b>
+La sección de reportes estadísticos es accesible desde el menú principal. En esta vista, los administradores podrán visualizar gráficos que evidencian el rendimiento de la fábrica en el tiempo.
+
+<img src='assets/images/chapter_5/mockups/mobile_stats.png' alt='Mobile Statistics Mockup'/>
 
 <h3 id='5.4.4.'>5.4.4. Applications User Flow Diagrams</h3>
 
@@ -2506,10 +2730,32 @@ En primer lugar, el técnico supervisor debe de acceder a la sección de “Crop
 El administrador es el encargado de la verificación de la información ingresada a la aplicación Greenhouse. Para cumplir este objetivo el administrador realiza el siguiente flujo, el cual representa el proceso de atender las solicitudes de edición o eliminación generadas por los técnicos supervisores.
 ![User Flow - Atender solicitudes](assets/images/chapter_5/userflows/userflowmobile8.png)
 
-
-
 <h2 id='5.5.'>5.5. Applications Prototyping</h2>
 
+Para poder elaborar los prototipos de la interfaz de usuario destinados a Web Browser y Mobile, se siguieron una serie de criterios fundamentales, entre ellos:
+1. Claridad y Facilidad: El enfoque fue lograr que la navegación en la aplicación sea intuitiva y comprensible, con el objetivo de que los usuarios puedan comprender plenamente las funciones de la aplicación, como son el registro de procesos y la visualización de reportes estadísticos.
+2. Diseño Responsive: Se ha tenido en cuenta la importancia del diseño "responsive" para garantizar que la aplicación sea compatible con una variedad de tamaños de pantalla, de tal manera que los usuarios no se vean limitados por el dispositivo que utilicen.
+3. Priorización de Información Relevante: El diseño de la aplicación se enfoca en mostrar únicamente la información más importante para los usuarios pertenecientes al segmento objetivo.
+
+<h3 id='5.5.1.'>5.5.1. Web Applications Prototyping</h3>
+
+A continuación, se presenta la explicación del prototipo de la web app Greenhouse, la cual está destinada a los usuarios administradores de la empresa, y desde la cual podrán visualizar un resumen general de la situación de la fábrica. En la explicación se detalla el flujo que recorre el usuario y los user goals que debe alcanzar.
+
+<img src="assets/images/chapter_5/prototyping/web_prototyping.png" alt="Mobile Prototyping">
+
+Enlace para acceder al video de explicación del [Web Applications Prototyping](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110223_upc_edu_pe/EQ0js7d08jxLl9IdgeJ2ahIBtXMuE6vtvdG05D4ujo_dog?e=fjomEb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Enlace para acceder al [Flujo](https://www.figma.com/proto/wPpvosGW28c7blfOfbBo2n/Integradis---Wireframes-Greenhouse---Emergentes?node-id=543-936&p=f&t=bO8peSzQWn0HOsZV-1&scaling=scale-down&content-scaling=fixed&page-id=115%3A172&starting-point-node-id=543%3A936)
+
+<h3 id='5.5.2.'>5.5.2. Mobile Applications Prototyping</h3>
+
+A continuación, se presenta la explicación del prototipo de la mobile app Greenhouse, la cual está destinada a los usuarios técnicos supervisores de la empresa, y desde la cual podrán visualizar un resumen general de la situación de la fábrica. En la explicación se detalla el flujo que recorre el usuario y los user goals que debe alcanzar.
+
+<img src="assets/images/chapter_5/prototyping/mobile_prototyping.png" alt="Mobile Prototyping">
+
+Enlace para acceder al video de explicación del [Mobile Applications Prototyping](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110223_upc_edu_pe/EUXQQYS6xoxOvbNxm5hCWDMB5-wC85iHXVq2wzoTTVPX9A?e=YcJHc3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Enlace para acceder al [Flujo](https://www.figma.com/proto/wPpvosGW28c7blfOfbBo2n/Integradis---Wireframes-Greenhouse---Emergentes?node-id=543-1064&t=lyOdfgUOBGZ3p1j4-1&scaling=min-zoom&content-scaling=fixed&page-id=533%3A476)
 
 <h1 id='conclusiones'>Conclusiones</h1>
 El desarrollo de los problem statements y assumptions demostró aproximarse bastante al comportamiento de nuestros segmentos objetivos de arrendador y arrendatario. Esto se debió a un correcto análisis (previo a la realización de entrevistas) sobre cómo planteamos llevar a cabo el proceso de alquiler de bicicletas y qué es lo que esperan los ciclistas en general en base a nuestros propios conocimientos, experiencia e investigación.
