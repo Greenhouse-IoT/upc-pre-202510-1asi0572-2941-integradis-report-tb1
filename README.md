@@ -102,11 +102,11 @@ A continuación, se presentan evidencias de la colaboración de los integrantes 
 
 <img src="assets/images/collaboration_insights/tb1/contributors_graph_tb1.png" alt="TB1 contributors graph" />
 
-**TB2:**
+**TP1:**
 
-<img src="assets/images/collaboration_insights/tb2/collaboration_graph_tb2.png" alt="TB2 collaboration graph" />
+<img src="assets/images/collaboration_insights/tb2/collaboration_graph_tb2.png" alt="TP1 collaboration graph" />
 
-<img src="assets/images/collaboration_insights/tb2/contributors_graph_tb2.png" alt="TB2 contributors graph" />
+<img src="assets/images/collaboration_insights/tb2/contributors_graph_tb2.png" alt="TP1 contributors graph" />
 
 
 Adicionalmente, GitHub presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las ramas se
@@ -126,9 +126,9 @@ explican las ramas más prominentes:
 
 <img src="assets/images/collaboration_insights/tb1/network_graph_tb1.png" alt="TB1 network graph" />
 
-**TB2:**
+**TP1:**
 
-<img src="assets/images/collaboration_insights/tb2/network_graph_tb2.png" alt="TB2 network graph" />
+<img src="assets/images/collaboration_insights/tb2/network_graph_tb2.png" alt="TP1 network graph" />
 
 
 # Contenido
