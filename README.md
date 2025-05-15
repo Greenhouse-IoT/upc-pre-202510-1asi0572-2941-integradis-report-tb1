@@ -228,11 +228,23 @@ explican las ramas más prominentes:
         - 5.4.3. [Applications Mock-ups.](#5.4.3.)<br>
         - 5.4.4. [Applications User Flow Diagrams.](#5.4.4.)<br>
     - 5.5. [Applications Prototyping.](#5.5.)<br>
-
-
-
-
-          
+6. [**Capítulo XI: Solution Software Design.**](#6.)<br>
+- 6.1. [Software Configuration Management.](#6.1.)<br>
+    - 6.1.1. [Software Development Environment Configuration.](#6.1.1.)<br>
+    - 6.1.2. [Source Code Management.](#6.1.2.)<br>
+    - 6.1.3. [Source Code Style Guide & Conventions.](#6.1.3.)<br>
+    - 6.1.4. [Software Deployment Configuration.](#6.1.4.)<br>
+- 6.2. [Landing Page, Services & Applications Implementation.](#6.2.)<br>
+    - 6.2.1. [Sprint 1.](#6.2.1.)<br>
+        - 6.2.1.1. [Sprint Planning 1.](#6.2.1.1.)<br>
+        - 6.2.1.2. [Aspect Leaders and Collaborators.](#6.2.1.2.)<br>
+        - 6.2.1.3. [Sprint Backlog 1.](#6.2.1.3.)<br>
+        - 6.2.1.4. [Development Evidence for Sprint Review.](#6.2.1.4.)<br>
+        - 6.2.1.5. [Testing Suite Evidence for Sprint Review.](#6.2.1.5.)<br>
+        - 6.2.1.6. [Execution Evidence for Sprint Review.](#6.2.1.6.)<br>
+        - 6.2.1.7. [Services Documentation Evidence for Sprint Review.](#6.2.1.7.)<br>
+        - 6.2.1.8. [Software Deployment Evidence for Sprint Review.](#6.2.1.8.)<br>
+        - 6.2.1.9. [Team Collaboration Insights during Sprint.](#6.2.1.9.)<br>
 
 [**Conclusiones.**](#conclusiones)<br>
 [**Bibliografía.**](#referencias)<br>
@@ -2764,6 +2776,1020 @@ Nuestras aproximaciones planteadas en el anterior punto se vieron más detallada
 Los hypotheses statements identificados en conjunto con los criterios de éxito (pertenecientes al proceso de Lean UX) tuvieron una aproximación a la realidad en las entrevistas de validación en su gran mayoría. El principal problema que se logró identificar fue que en algunos casos se plantearon hypotheses statements muy específicos que, a menos que se realicen preguntas igual de específicas, no podríamos validar. Además, en caso de realizar este tipo de preguntas, podría llegar a condicionar a nuestros entrevistados a hablar sobre un aspecto que a lo mejor no notaron, no recuerdan o desconocen al respecto. Por lo tanto, recomendamos de que para próximos trabajos se busque redactar hypothesis statements y criterios de éxito que no están tan centrados en features puntuales, sino más en cómo el usuario interactúa con las distintas aplicaciones.
 
 Consideramos fuertemente que las etapas más importantes de todo el proceso/roadmap de los productos digitales se encuentran en realizar buenas entrevistas para conocer a nuestros segmentos objetivos y para validar nuestro producto, Así como toda la parte que corresponde al diseño de la aplicación: mockups, wireframes, diagramas de clases y base de datos, etc. Ya que, estos forman parte del core del desarrollo del informe y proyecto para la parte de documentación e implementación correspondiente.
+
+<h1 id='6.'>6. Capítulo VI: Product Implementation, Validation & Deployment </h1>
+<h2 id='6.1.'>6.1. Software Configuration Management.</h2>
+<h3 id='6.1.1.'>6.1.1. Software Development Environment Configuration.</h3>
+**Requirements Management**
+
+1. Trello: Es una herramienta utilizada para gestionar el flujo de trabajo de proyectos principalmente basados en marcos de trabajos ágiles. Será empleado para visualizar y actualizar el estado actual de las tareas e historias de usuario pertenecientes al sprint a desarrollar. Ruta de referencia [https://trello.com/es](https://trello.com/es)
+
+**Product UX/UI Design**
+
+1. Figma: Plataforma de elaboración de prototipos y edición gráfica, principalmente utilizado para el diseño digital. En el caso del proyecto, será utilizado para el prototipado de la aplicación y sus versiones de Desktop y Mobile Web Browser. Ruta de referencia [https://www.figma.com/login](https://www.figma.com/login)  
+2. Lucidchart: Aplicación para diagramar flujos. Empleado para el diseño de wireflows, user-flows y el diagrama de clases asociado a la aplicación. Ruta de referencia [https://www.lucidchart.com/](https://www.lucidchart.com/)
+
+**Software Testing**
+
+1. Gherkin: Es un sistema de etiquetado utilizado para describir los criterios de aceptación de estructura de una user story. Ruta de referencia [https://cucumber.io/docs/gherkin/](https://cucumber.io/docs/gherkin/)   
+2. K6: Es una herramienta de código abierto diseñada para realizar pruebas de carga y pruebas de estrés en aplicaciones web modernas. Ruta de referencial: [https://k6.io/](https://k6.io/)   
+3. Jest: Es un framework de pruebas de JavaScript mantenido por Facebook. Se utiliza principalmente para pruebas unitarias de código JavaScript y React. Ruta de referencial: [https://jestjs.io/](https://jestjs.io/) 
+
+**Software Development**
+
+1. Visual Studio Code: Entorno de desarrollo integrado elegido para la elaboración y compilación del código por motivos de dominio por parte de los integrantes del equipo de trabajo. Utilizar este IDE supone de valor para el desarrollo del proyecto puesto que incluye la posibilidad de agregar extensiones de utilidad, soporte de edición de texto en múltiples lenguajes de programación, disponibilidad en múltiples sistemas operativos, entre otros beneficios. Ruta de referencia [https://code.visualstudio.com/](https://code.visualstudio.com/)   
+2. HTML5: HyperText Markup Language, o por sus siglas HTML, es un lenguaje de etiquetado para páginas web. Será empleado en el desarrollo del proyecto para la presentación del contenido en la aplicación. Ruta de referencia [https://www.w3schools.com/html/html5\_syntax.asp](https://www.w3schools.com/html/html5_syntax.asp)   
+3. CSS: Cascading Style Sheets es un lenguaje que maneja el diseño y presentación de las páginas web, el cual va de la mano con HTML. Ruta de referencia [https://google.github.io/styleguide/htmlcssguide.html](https://google.github.io/styleguide/htmlcssguide.html)   
+4. JavaScript: Es un lenguaje de programación interpretado y orientado a objetos. Se utilizará para elaborar la interfaz de usuario dentro de la aplicación. Ruta de referencia [https://developer.mozilla.org/es/docs/Web/JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)  
+5. React: Es una biblioteca de JavaScript de código abierto utilizada para construir interfaces de usuario (UI) interactivas y dinámicas para aplicaciones web. Ruta de referencia [https://es.react.dev/](https://es.react.dev/)   
+6. NestJS: Marco de trabajo para construir aplicaciones de servidor escalables y eficientes en Node.js. Provee una arquitectura modular que permite a los desarrolladores organizar su código de manera clara y mantenible, facilitando la construcción de aplicaciones complejas. Ruta de referencia [https://nestjs.com/](https://nestjs.com/)   
+7. PM2:  Es un administrador de procesos para aplicaciones Node.js que facilita la administración de aplicaciones en producción. PM2 permite gestionar, monitorear y mantener aplicaciones Node.js, garantizando un alto nivel de disponibilidad y rendimiento. Fuente de referencia: [https://pm2.keymetrics.io/](https://pm2.keymetrics.io/)   
+8. PostgreSQL: Es un sistema de gestión de bases de datos relacionales y de código abierto. Es conocido por su robustez, capacidad para manejar grandes volúmenes de datos y su soporte para características avanzadas como transacciones ACID y replicación. Ruta de referencia: [https://www.postgresql.org/](https://www.postgresql.org/)   
+9. Docker: Es una plataforma de software que permite la creación, el despliegue y la ejecución de aplicaciones en contenedores. Los contenedores permiten empaquetar una aplicación junto con todas sus dependencias en una unidad estándar, que la aplicación se ejecute rápidamente y de forma fiable en diferentes entornos. Ruta de referencia: [https://www.docker.com/](https://www.docker.com/)   
+10. Flutter: Framework open source de desarrollo de aplicaciones multiplataforma desde una única base de código. Resulta de utilidad para elaborar aplicaciones compatibles con Android e iOS. Ruta de referencia: [https://flutter.dev/](https://flutter.dev/)   
+11. Active MQ: ActiveMQ es un agente de mensajes de código abierto que implementa el protocolo Java Message Service (JMS). Es utilizado para la comunicación asíncrona entre aplicaciones distribuidas, facilitando la transmisión de mensajes entre clientes y servidores o entre sistemas dispares. Será empleado en el proyecto para gestionar la mensajería en tiempo real, permitiendo la publicación y suscripción a tópicos. Ruta de referencia: [https://activemq.apache.org/](https://activemq.apache.org/)  
+12. YOLO (You Only Look Once): YOLO es un modelo de aprendizaje profundo para la detección de objetos en tiempo real. Es conocido por su rapidez y precisión, lo que lo hace ideal para tareas de visión por computadora que requieren identificar y localizar objetos en imágenes. En este proyecto, YOLO será utilizado para analizar imágenes y determinar características específicas de cultivos o productos. Ruta de referencia: [https://github.com/ultralytics/yolov5](https://github.com/ultralytics/yolov5)  
+13. Firebase Storage: Firebase Storage es un servicio de almacenamiento de archivos proporcionado por Firebase, ideal para almacenar y servir contenido generado por el usuario como imágenes, videos o documentos. En este proyecto, se usará para gestionar de manera segura los archivos subidos por los usuarios desde las aplicaciones. Ruta de referencia: [https://firebase.google.com/products/storage](https://firebase.google.com/products/storage)
+14. Arduino IDE: Entorno de desarrollo utilizado para programar placas compatibles con Arduino, como el ESP32. Este IDE permite la escritura, compilación y carga de código en los microcontroladores mediante un entorno sencillo y especializado, facilitando la depuración y prueba de sensores y actuadores en proyectos embebidos. Ruta de referencia: [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software) 
+
+**Software Deployment**
+
+1. Azure: Plataforma de computación en la nube para construir, probar, desplegar y administrar aplicaciones y servicios mediante el uso de sus centros de datos. Ruta de referencia [https://azure.microsoft.com/es-es/resources/cloud-computing-dictionary/what-is-azure](https://azure.microsoft.com/es-es/resources/cloud-computing-dictionary/what-is-azure)   
+2. Amazon Web Services: Plataforma de servicios de computación en la nube que ofrece una amplia gama de servicios para construir, desplegar y escalar aplicaciones. Incluye infraestructura como servicio (IaaS), plataforma como servicio (PaaS) y software como servicio (SaaS). Ruta de referencia: [https://aws.amazon.com/es/](https://aws.amazon.com/es/)  
+3. Netlify: Plataforma de alojamiento y despliegue de sitios web y aplicaciones web estáticas. Ofrece una variedad de servicios para desarrolladores web que facilitan la creación, el despliegue y la gestión de sitios estáticos. Ruta de referencia [https://www.netlify.com/](https://www.netlify.com/)   
+4. Nginx: Es un servidor web ligero de rendimiento alto y proxy inverso. Además de su principal servidor como web, Nginx también puede utilizarse como balanceador de carga, proxy HTTP, servidor de correo electrónico IMAP/POP3, y más. Es conocido por su capacidad para manejar grandes cargas de tráfico de manera eficiente. Ruta de referencial: [https://nginx.org/](https://nginx.org/)   
+5. Docker-compose: Es una herramienta que permite definir y gestionar múltiples contenedores Docker como una aplicación. Utiliza un archivo YAML para configurar los servicios de la aplicación y su entorno de red, lo que simplifica el despliegue y la gestión de las aplicaciones complejas en contenedores en Docker. Ruta de referencial: [https://docs.docker.com/compose/](https://docs.docker.com/compose/)   
+6. Bash: Abreviatura de "Bourne Again Shell", es un intérprete de comandos ampliamente utilizado en sistemas operativos Unix y Unix-like, como Linux. Funciona como una interfaz de línea de comandos (CLI) que permite a los usuarios interactuar con el sistema operativo mediante comandos textuales. Además de ejecutar comandos individuales, Bash es ideal para escribir scripts (archivos de comandos) que automatizan tareas repetitivas o complejas. Ruta de referencial: [https://www.gnu.org/software/bash/](https://www.gnu.org/software/bash/)   
+7. Github Actions: Es un servicio de integración continua y entrega continua (CI/CD) ofrecido por GitHub. Permite automatizar tareas de desarrollo como pruebas, compilación y despliegue de código directamente desde repositorios GitHub. Ruta de referencia: [https://docs.github.com/en/actions](https://docs.github.com/en/actions)   
+8. Amazon MQ: Amazon MQ es un servicio de agente de mensajes administrado que facilita la configuración y operación de agentes de mensajes populares como ActiveMQ o RabbitMQ. Es útil para aplicaciones que requieren mensajería confiable en sistemas distribuidos, lo que asegura la entrega de mensajes incluso en caso de fallos del sistema. Ruta de referencia: [https://aws.amazon.com/amazon-mq/](https://aws.amazon.com/amazon-mq/)  
+9. Route 53: Amazon Route 53 es un servicio de sistema de nombres de dominio (DNS) escalable y de alta disponibilidad diseñado para dirigir a los usuarios finales a aplicaciones de internet de manera confiable. Proporciona registro de dominios, enrutamiento de tráfico, y supervisión de salud. Será empleado en el proyecto para gestionar los nombres de dominio y garantizar un enrutamiento óptimo del tráfico. Ruta de referencia: [https://aws.amazon.com/route53/](https://aws.amazon.com/route53/)  
+10. Resed: Resend es una plataforma de envío de correos electrónicos transaccionales en la nube. Permite enviar correos electrónicos de manera rápida y escalable, ideal para aplicaciones que necesitan gestionar comunicaciones como notificaciones, verificaciones o mensajes automatizados. Será útil para enviar correos electrónicos en el proyecto, como alertas o confirmaciones a los usuarios de la aplicación. Ruta de referencia: [https://resend.com](https://resend.com)
+
+**Software Documentation and Project Management**
+
+1. Git: Herramienta de control de versiones que permite registrar y gestionar las diferentes versiones del programa. Se utilizará para mantener un historial de cambios y simplificar la corrección de errores. Los miembros del equipo accederán a través de la línea de comandos en sus sistemas locales. Ruta de referencia [https://git-scm.com/](https://git-scm.com/)   
+2. Github: Plataforma basada en la nube que alojará los repositorios de código del proyecto. Facilitará la colaboración en tiempo real y la revisión de contribuciones de cada miembro del equipo. Los miembros del equipo accederán a través de sus navegadores web. Ruta de referencia [https://github.com/](https://github.com/)
+
+<h3 id='6.1.2.'>6.1.2. Source Code Management.</h3>
+El proyecto seguirá las convenciones de flujo de trabajo establecidas por el modelo GitFlow para el control de versiones, utilizando GitHub como plataforma y sistema de control de versiones. A continuación, se detallará cómo se implementará GitFlow como Workflow de control de versiones, además de proporcionar los URL de los repositorios de GitHub para cada producto: Landing Page, Web Services y Frontend Web Applications.
+
+**Repositorio de GitHub:** Enlace para acceder a la organización en GitHub Enlace para acceder al repositorio de la Landing Page Enlace para acceder al repositorio del Frontend Web Application
+
+**Flujo de trabajo GitFlow:** El flujo de trabajo a utilizar para el desarrollo del proyecto fue el planteado por Vincent Driessen en "A successful Git branching model".
+
+<img src='assets/images/chapter_6/software_development_envirioment_configuration/GitFlow.png' alt='Git Flow' />
+
+**Estructura de branches (Ramas):**
+
+**Master branch** (Rama principal): Esta rama será considerada como la principal para la aplicación, y contendrá versiones estables y finales del desarrollo. Solo se permitirán cambios que hayan sido previamente probados y verificados en otras ramas de prueba.
+
+**Develop branch** (Rama de desarrollo): El propósito de esta rama es llevar a cabo los avances del proyecto en equipo y de mantener los archivos centrales del desarrollo continuo.
+
+**Feature branches** (Ramas de funcionalidad): Cada funcionalidad desarrollada por el equipo o separada del enfoque actual del desarrollo tendrá su propia rama. Una vez que una funcionalidad esté completamente trabajada, se fusionará con la rama de desarrollo del proyecto. Las convenciones para nombrar las ramas de funcionalidad seguirán un patrón descriptivo y único, por ejemplo, "feature/nombre-de-la-funcionalidad".
+
+**Release branches** (Ramas de lanzamiento): Estas ramas se utilizarán para mantener una instancia de la rama develop que esté próxima a ser incluida en la rama principal. Se seguirá el sistema de versionamiento semántico (Semantic Versioning) para nombrar las Releases.
+
+**Hotfix branches** (Ramas de corrección): Se crearán para abordar de manera puntual y eficiente la corrección de errores identificados en la rama principal que afecten significativamente la experiencia de los usuarios.
+
+**Versionamiento Semántico**: Para nombrar las Releases, se aplicará el sistema de versionamiento semántico (Semantic Versioning 2.0.0).
+
+**Convenciones de Commits**: Para los mensajes de los commits realizados, se utilizará la especificación Conventional Commits basada en Angular Commit Guidelines. La estructura a seguir será la siguiente:
+
+git commit \-m "\<type\>\[optional scope\]:\<title\>" \-m"\<description"\>
+
+<h3 id='6.1.3.'>6.1.3. Source Code Style Guide & Conventions.</h3>
+
+**HTML:** Algunas de las prácticas que deben de seguirse para alcanzar un código coherente, sostenible y ordenado son las siguientes:
+
+1. Cerrar todos los elementos HTML: Por ejemplo, \<p\>Esto es un párrafo.\</p\>  
+2. A pesar de que HTML permite combinar mayúsculas y minúsculas en los nombres de los elementos y atributos, se limitará al uso de minúsculas para mantener el orden y garantizar la legibilidad.  
+3. Utilizar comillas en caso de que los atributos contengan espacios entre sí.  
+4. Procurar especificar el texto alt y las dimensiones width y height de las imágenes, ya que de esta manera se facilitará la disponibilidad del contenido. Por ejemplo: \<img src="abc.img" alt="image name" style="width:128px;height:128px"\>
+
+**CSS:** Entre las prácticas empleadas se mencionan:
+
+1. Los nombres de las clases deben de ser breves y auto descriptivos.  
+2. Separar los nombres de las clases y ID con un guión, por ejemplo: \#video-id y .hero-shadow{}  
+3. Evitar especificar la unidad de medida luego de usar el valor 0\.  
+4. Separar las declaraciones y selectores en nuevas líneas para agilizar la legibilidad.
+
+**Gherkin:** Es un lenguaje de dominio específico, el cual busca solucionar un problema concreto, la comunicación entre los negocios y la parte técnica al trabajar con Behavior Driven Development, abreviado por sus siglas en inglés como BBD. En busca de una buena práctica, se ocuparon los saltos de línea para mejorar el orden de los diversos tipos de escenarios y diferenciarlos de forma más óptima. Adicionalmente, se utilizaron las palabras clave "Given", "When", "Then" y "And" para estructurar los escenarios.
+
+<h3 id='6.1.4.'>6.1.4. Software Deployment Configuration.</h3>
+
+**Web App:**
+
+Para la aplicación web se realizó el despliegue mediante Netlify. Este se vincula con el repositorio de Github y a partir de allí es que se realiza un despliegue continuo a partir de la rama que se selecciona.
+
+Como un segundo paso se tiene que realizar la creación de un archivo \_redirects dentro de la carpeta public para que este se encargue de que la navegación funcione correctamente, el contenido de dicho archivo es el siguiente:  
+/\* /index.html 200
+
+**Mobile App:**
+
+Para Mobile App se realizó se realizará el despliegue para Android de la siguiente manera:
+
+En la carpeta del proyecto se ingresa al terminal y se tiene que ejecutar el comando:
+
+- flutter build apk \--release  
+
+En el cual se genera el archivo resultante en:
+
+- Built build/app/outputs/flutter-apk/app-release.apk (28.0MB)
+
+Luego de ello se sube el archivo a Google Drive y se genera un código QR con el enlace del archivo de Google Drive.
+
+Se utiliza una instancia de Amazon EC2 free tier con Amazon Linux 2023\. En ella se almacenan un Dockerfile y un docker-compose.yml.
+
+<img src='assets/images/chapter_6/software_deployment_configuration/vm_connection.png' alt='AWS VM Connection' />
+
+
+El Dockerfile es el siguiente:
+
+\# Use the Alpine base image
+
+FROM alpine:latest
+
+\# Install required packages
+
+RUN apk update && \\
+
+	apk add \--no-cache git nodejs npm docker docker-compose
+
+\# Initialize Git repository
+
+RUN git init
+
+\# Clone the application repository
+
+RUN git clone https://github.com/re-greenhouse/backend-gh.git
+
+\# Set working directory
+
+WORKDIR /backend-gh
+
+\# Checkout the desired branch
+
+RUN git checkout feature/env
+
+\# Install npm dependencies
+
+RUN npm install
+
+\# Copy the environment file
+
+RUN cp .env.example .env
+
+\#Update the .env file with resend api
+
+RUN sed \-i 's/RESEND\_API\_KEY=.\*/RESEND\_API\_KEY=***ColocarAcáElApiKey***/' .env
+
+\# Install PM2 globally
+
+RUN npm install pm2 \-g
+
+\# Build the application
+
+RUN npm run build api-gateway && \\
+
+	npm run build iam && \\
+
+	npm run build personas && \\
+
+	npm run build crops && \\
+
+    	npm run build mailing && \\
+
+	npm run build memberships
+
+\# Expose the ports
+
+EXPOSE 3000
+
+\# Start the PM2 processes using the configuration file
+
+CMD \["pm2-runtime", "start", "pm2.config.js"\]
+
+Básicamente se levanta todo el proyecto en una imagen de docker de alpine. Cabe destacar el archivo pm2.config.js el cuál corresponde a la configuración con la cuál se van a ejecutar los microservicios en diferentes procesos mediante PM2:
+
+module.exports \= {
+
+  apps: \[
+
+	{
+
+  	name: "api-gateway",
+
+  	script: "dist/apps/api-gateway/src/main.js",
+
+  	instances: 1,
+
+  	autorestart: true,
+
+  	watch: false,
+
+  	max\_memory\_restart: '1G',
+
+  	env: {
+
+    	NODE\_ENV: 'production',
+
+    	PORT: 3000
+
+  	}
+
+	},
+
+	{
+
+  	name: "api-gateway-2",
+
+  	script: "dist/apps/api-gateway/src/main.js",
+
+  	instances: 1,
+
+  	autorestart: true,
+
+  	watch: false,
+
+  	max\_memory\_restart: '1G',
+
+  	env: {
+
+    	NODE\_ENV: 'production',
+
+    	PORT: 3010
+
+  	}
+
+	},
+
+	{
+
+  	name: "iam",
+
+  	script: "dist/apps/iam/src/main.js",
+
+  	instances: 1,
+
+  	autorestart: true,
+
+  	watch: false,
+
+  	max\_memory\_restart: '1G',
+
+  	env: {
+
+    	NODE\_ENV: 'production'
+
+  	}
+
+	},
+
+	{
+
+  	name: "personas",
+
+  	script: "dist/apps/personas/src/main.js",
+
+  	instances: 1,
+
+  	autorestart: true,
+
+  	watch: false,
+
+  	max\_memory\_restart: '1G',
+
+  	env: {
+
+    	NODE\_ENV: 'production'
+
+  	}
+
+	},
+
+	{
+
+  	name: "crops",
+
+  	script: "dist/apps/crops/src/main.js",
+
+  	instances: 1,
+
+  	autorestart: true,
+
+  	watch: false,
+
+  	max\_memory\_restart: '1G',
+
+  	env: {
+
+    	NODE\_ENV: 'production'
+
+  	}
+
+	}
+
+  \]
+
+};
+
+Como se puede observar se levantan todos los microservicios y para lograr alta disponibilidad se está levantando un segundo api-gateway en un puerto diferente que más adelante veremos cómo es utilizado con Nginx.
+
+Tras esto se tiene el archivo docker-compose.yml, en el que podemos observar que se está levantando una base de datos de postgres por cada microservicio, y además se está levantando la imagen del backend con los microservicios en monorepo y con los puertos 3000 y 3010 (correspondientes a API-Gateway expuestos), cabe destacar que para realizar la conexión a la base de datos desde los microservicios se utilizó un custom network de modo que cuando se levante el docker-compose las bd tengan una IPV4 estática y se pueda realizar la conexión satisfactoriamente:
+
+version: "3.9"
+
+services:
+
+  pg-iam:
+
+	image: postgres
+
+	restart: always
+
+	environment:
+
+  	POSTGRES\_PASSWORD: pass123
+
+	networks:
+
+  	custom\_network:
+
+    	ipv4\_address: 172.16.238.10
+
+  pg-personas:
+
+	image: postgres
+
+	restart: always
+
+	environment:
+
+  	POSTGRES\_PASSWORD: pass123
+
+	networks:
+
+  	custom\_network:
+
+    	ipv4\_address: 172.16.238.11
+
+  pg-crops:
+
+	image: postgres
+
+	restart: always
+
+	environment:
+
+  	POSTGRES\_PASSWORD: pass123
+
+	networks:
+
+  	custom\_network:
+
+    	ipv4\_address: 172.16.238.12
+
+  pg-mailing:
+
+	image: postgres
+
+	restart: always
+
+	environment:
+
+  	POSTGRES\_PASSWORD: pass123
+
+	networks:
+
+  	custom\_network:
+
+    	ipv4\_address: 172.16.238.13
+
+   	 
+
+  pg-memberships:
+
+	image: postgres
+
+	restart: always
+
+	ports:
+
+  	\- "5436:5432"
+
+	environment:
+
+  	POSTGRES\_PASSWORD: pass123
+
+	networks:
+
+  	custom\_network:
+
+    	ipv4\_address: 172.16.238.14
+
+  backend-gh:
+
+	image: backend:latest
+
+	restart: always
+
+	ports:
+
+  	\- "3000:3000"
+
+	depends\_on:
+
+  	\- pg-iam
+
+  	\- pg-personas
+
+  	\- pg-crops
+
+  	\- pg-mailing
+
+  	\- pg-memberships
+
+	networks:
+
+  	custom\_network:
+
+    	ipv4\_address: 172.16.238.15
+
+  backend-gh-2:
+
+	build:
+
+  	context: .
+
+  	dockerfile: Dockerfile
+
+	restart: always
+
+	ports:
+
+  	\- "3010:3000"
+
+	depends\_on:
+
+  	\- pg-iam
+
+  	\- pg-personas
+
+  	\- pg-crops
+
+  	\- pg-mailing
+
+  	\- pg-memberships
+
+	networks:
+
+  	custom\_network:
+
+    	ipv4\_address: 172.16.238.16
+
+networks:
+
+  custom\_network:
+
+	driver: bridge
+
+	ipam:
+
+  	config:
+
+    	\- subnet: 172.16.238.0/24
+
+Com estos dos archivos se levantan con los siguientes comandos:
+
+$ docker build \-t backend:latest
+
+$ docker compose up \-d
+
+Con ello nuestro backend estaría levantado sin embargo se decidió usar nginx para realizar un reverse proxy a la vez que un balanceador de carga y así al ejecutarse en el puerto 80 tener salida a internet desde la VM.
+
+Para Nginx se optó descarglo en la VM en lugar del container de docker. Se ejecutaron los siguientes comandos:
+
+$ sudo yum install nginx
+
+$ sudo systemctl enable nginx && sudo systemctl start nginx
+
+$ sudo nano /etc/nginx/nginx.conf
+
+En este último se realizaron los cambios en la configuración de Nginx para que se adapte a nuestras necesidades, en este caso tener un upstream con ambos api-gateway de modo que distribuya la carga entre ambos procesos, y en caso se caiga uno siga ejecutándose en el otro. Este es la configuración que se colocó:
+
+upstream api\_gateway\_upstream {
+
+    	server 127.31.44.186:3000;
+
+    	server 127.31.44.186:3010;
+
+	}
+
+	server {
+
+	listen 80;
+
+	listen \[::\]:80;
+
+	server\_name ec2-18-119-14-190.us-east-2.compute.amazonaws.com;
+
+	location / {
+
+    	proxy\_pass http://api\_gateway\_upstream;
+
+    	proxy\_set\_header Host $host;
+
+    	proxy\_set\_header X-Real-IP $remote\_addr;
+
+    	proxy\_set\_header X-Forwarded-For $proxy\_add\_x\_forwarded\_for;
+
+    	proxy\_set\_header X-Forwarded-Proto $scheme;
+
+	}
+
+De este modo quedaría corriendo Ngnix como reverse proxy y mostrando desde el puerto 80 nuestro backend. Luego se ejecuta lo siguiente:
+
+$ sudo nginx \-t
+
+$ sudo systemctl restart nginx
+
+Para automatizar este proceso de despliegue igualmente se realizaron scripts que actualicen el despliegue tras luego correrlos, el primero un script the bash que detiene el docker compose, luego elimina el container e imagen del backend, y vuelve a crear la imagen y correr el docker compose con la nueva imagen. Mientras que a su vez se utilizó un github actions workflow para que cuando detecté que hay un push a la branch correspondiente, se conecte al servidore y ejecute el comando update.sh.
+
+- update.sh:
+
+  \#\!/bin/bash
+
+
+  \# Stop Docker containers
+
+  docker-compose stop
+
+
+  \# Delete the container (if it exists)
+
+  docker rm \-f ec2-user-backend-gh-1
+
+  docker rm \-f ec2-user-backend-gh-2-1
+
+
+  \# Delete the existing Docker image (if it exists)
+
+  docker rmi \-f backend:latest
+
+
+  \# Build the Docker image
+
+  docker build \--no-cache \-t backend:latest .
+
+
+  \# Start Docker containers
+
+  docker-compose up \-d
+
+
+- Github Actions Workflow:
+
+name: Deploy on Push
+
+on:
+
+  push:
+
+	branches:
+
+  	\- feature/deploy  \# Specify your deployment branch here
+
+jobs:
+
+  deploy:
+
+	runs-on: ubuntu-latest
+
+	steps:
+
+	\- name: Checkout code
+
+  	uses: actions/checkout@v2
+
+	\- name: Set up SSH
+
+  	uses: webfactory/ssh-agent@v0.5.3
+
+  	with:
+
+    	ssh-private-key: ${{ secrets.SSH\_PRIVATE\_KEY }}
+
+	\- name: Copy SSH key
+
+  	run: |
+
+    	mkdir \-p \~/.ssh
+
+    	echo "${{ secrets.SSH\_PRIVATE\_KEY }}" \> \~/.ssh/gh.pem
+
+    	chmod 600 \~/.ssh/gh.pem
+
+	\- name: Execute update script on server
+
+  	run: |
+
+    	ssh \-o StrictHostKeyChecking=no \-i \~/.ssh/gh.pem ec2-user@ec2-18-119-14-190.us-east-2.compute.amazonaws.com 'bash \-c "/home/ec2-user/[update.sh](http://update.sh)"'
+
+**Embedded App:**
+
+Para el caso de la aplicación Iot embebida está será instalada mediante Arduino Ide y una conexión usb, a la cuál se le subirá el código al microcontrolador ESP32.
+
+<h2 id='6.2.'>6.2. Landing Page, Services & Applications Implementation.</h2>
+<h3 id='6.2.1.'>6.2.1. Sprint 1.</h3>
+<h4 id='6.2.1.1.'>6.2.1.1. Sprint Planning 1.</h4>
+
+<h4 id='6.2.1.1.'>6.2.1.1. Sprint Planning 1.</h4>
+
+<table border="1">
+  <tr>
+    <th>Sprint #</th>
+    <td>1</td>
+  </tr>
+  <tr>
+    <th colspan="2">Sprint Planning Background</th>
+  </tr>
+  <tr>
+    <th>Date</th>
+    <td>2025-05-05</td>
+  </tr>
+  <tr>
+    <th>Time</th>
+    <td>20:00 PM</td>
+  </tr>
+  <tr>
+    <th>Location</th>
+    <td>Reunión virtual mediante la aplicación Discord</td>
+  </tr>
+  <tr>
+    <th>Prepared By</th>
+    <td>Nicolas Espinoza</td>
+  </tr>
+  <tr>
+    <th>Attendees (to planning meeting)</th>
+    <td>Astuyauri, Jherson <br/> Espinoza, Nicolás <br/> Galavis, Alan <br/> Seminario, Carlo <br/> Soto, Andrés</td>
+  </tr>
+  <tr>
+    <th>Sprint n – 1 Review Summary</th>
+    <td>No corresponde</td>
+  </tr>
+  <tr>
+    <th>Sprint n – 1 Retrospective Summary</th>
+    <td>No corresponde</td>
+  </tr>
+  <tr>
+    <th colspan="2">Sprint Goal & User Stories</th>
+  </tr>
+  <tr>
+    <th>Sprint 1 Goal</th>
+    <td>
+Our focus is on creating a fully functional and informative landing page for the Greenhouse application.
+We believe it delivers clear communication and attracts potential users by showcasing the key benefits of the platform.
+This will be confirmed when visitors can access the landing page, understand the value of the application, and navigate to the sign-up page for further engagement.</td>
+  </tr>
+  <tr>
+    <th>Sprint 1 Velocity</th>
+    <td>Para este sprint, se consideró aceptar como máximo 26 story points.</td>
+  </tr>
+  <tr>
+    <th>Sum of Story Points</th>
+    <td>26</td>
+  </tr>
+</table>
+
+<h4 id='6.2.1.2.'>6.2.1.2. Aspect Leaders and Collaborators.</h4>
+
+<table border="1">
+  <tr>
+    <th>Team Member (Last Name, First Name)</th>
+    <th>GitHub Username</th>
+    <th>Diseño visual de la landing page Leader (L) / Collaborator (C)</th>
+    <th>Desarrollo de la estructura de la landing page Leader (L) / Collaborator (C)</th>
+    <th>Redacción del Contenido textual y descriptivo (L) / Collaborator (C)</th>
+    <th>Despliegue de la landing page Leader (L) / Collaborator (C)</th>
+    <th>Documentacion en el informe de la landing page Leader (L) / Collaborator (C)</th>
+  </tr>
+  <tr>
+    <td>Astuyauri Calderon, Jherson David</td>
+    <td>JHS-Sama24</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Espinoza Rodríguez, Nicolás Antonio</td>
+    <td>EspinozaNaer</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+    <tr>
+    <td>Galavis Du Bois, Alan Enrique</td>
+    <td>TrabajosUPC-AlanGalavis</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  </tr>
+    <tr>
+    <td>Seminario Garbín, Carlo Luca</td>
+    <td>CarloLSG</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+  </tr>
+    </tr>
+    <tr>
+    <td>Soto Kong Requena, Andrés Eduardo</td>
+    <td>asotito231</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+</table>
+
+<h4 id='6.2.1.3.'>6.2.1.3. Sprint Backlog 1.</h4>
+
+El objetivo principal del Sprint 2 fue entrenar, probar, conectar e implementar el modelo de inteligencia artificial para poder analizar las imágenes de cultivos de champiñones y de esta manera evaluar la calidad final de los cultivos.
+
+| Sprint \# 1 |  |  |  |  |  |  |  |
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| Technical User Story |  | WorkItem/Task |  |  |  |  |  |
+| ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status |
+| US05 | Acceso a Datos Históricos | TK01 | Realizar vista de datos historicos | Generar seccion donde se van a mostrar todos los datos que hay | 1 | Andres Soto | Done |
+| US08 | Iniciar sesion | TK02 | Realizar vista de inicio de sesion | Generar seccion donde se va a mostrar el inicio de sesion | 1 | Carlo Seminario | Done  |
+|  |  | TK03 | Realizar proceso de autenticacion | Desarrollar proceso de autenticacion | 1 | Andres Soto | Done |
+| US09 | Crear cuenta empresa | TK04 | Creacion de cuenta de la empresa | Desde la web app permitir al usuario generar su cuenta de empresa | 1 | Carlo Seminario | Done |
+| US10 | Crear cuenta tecnico supervisor | TK05 | Creaion de la cuenta del tecnico supervisor | Permitir que solo los administradores puedan crear cuenta de tecnico supervisor para sus empleados | 1 | Alan Galavis | Done |
+| US11 | Iniciar Nuevo Cultivo | TK06 | Realizar funcionalidad de creacion de nuevo cultivo | Permitir que los usuarios tecnicos supervisores creen nuevos cultivos | 1 | Nicolas espinoza | Done |
+| US12 | Editar y Eliminar Cultivos | TK07 | Permitir que se pueda editar o eliminar cultivos | Desde la web app o app movil permitir que los usuarios puedan modificar informacion de los cultivos o eliminarlos. | 1 | Andres Leiva | Done |
+| US13 | Documentar registros durante la preparación, cocción y pasteurización del compost | TK08 | Documentar los registros en las ultimas fases de produccion | Permitir que los usuarios registren informacion en las ultimas fases del desarrollo | 1 | Nicolas Espinoza | Done |
+| US14 | Ver Listado de Cultivos en Progreso | TK09 | Visualizacion de cultivos en progreso | Permitir a los usuarios ver los cultivos que se encuentran en progreso | 1 | Alan Galavis | Done |
+| US15 | Avanzar Etapa de un Cultivo | TK10 | Permitir avanzar de etapa al finalizar el registro de cultivos | Desde la app móvil permitir que el técnico avanzar de etapa postarior al llenado de registros. | 1 | Andres Leiva | Done |
+| US19 | Acceder a la aplicación desde la landing page | TK11 | Conectar landing con web app | Desde la landing page poder ingresar a la web app. | 1 | Alan Galavis | Done |
+| US20 | Descripción de la aplicación | TK12 | Seccion de la descripcion | Desde la landing page visualizar la descipcion de la aplicacion | 1 | Andres Soto | Done |
+
+
+<h4 id='6.2.1.4.'>6.2.1.4. Development Evidence for Sprint Review.</h4>
+  
+| Repository | Branch | Commit ID | Commit Message | Committed on (Date) |
+| ----- | ----- | ----- | ----- | ----- |
+| web-app-gh | development | 35df242 | feat: changed get crops endpoint to obtain the crop according to a company id | 1/11 |
+| greenhouse-mobile | feature/notifications | 8285553 | fix: inverted order for moving to previous or next phase, and the record now shows crop name instead of id | 1/11 |
+| greenhouse-mobile | feature/notifications | 41a037a | feat: Add image quality analizer | 1/11 |
+| greenhouse-mobile | feature/notifications | c6da4f3 | feat: Add ia service | 1/11 |
+| greenhouse-mobile | feature/notifications | 1d81f77 | feat: Add delete image button | 1/11 |
+| greenhouse-mobile | feature/notifications | 1c59676 | feat: Add persistance to crop images | 1/11 |
+| greenhouse-mobile | feature/notifications | 1556204 | feat: added create crops and get crops by company | 1/11 |
+| greenhouse-mobile | feature/notifications | 59a5b48 | feat: Add upload picture at the end of crop | 1/11 |
+| greenhouse-mobile | feature/notifications | ed9eeec | chore: Add needed dependencies | 1/11 |
+| backend-gh | feature/deployment | c384cbc | fix(company): solve problem with company and profile id | 1/11 |
+| backend-gh | feature/deployment | 7bc1928 | fix(company): avoid duplicated companies by tin when creating enterprise account | 1/11 |
+| backend-gh | feature/deployment | 27e882c | feat(personas): fixed personas proto | 1/11 |
+| backend-gh | feature/deployment | 9ed0760 | feat(company): add support for creating account with profile and company lmao. Next commit every possible permutation | 1/11 |
+| backend-gh | feature/deployment | 3fab306 | chore: refactored memberships microservice | 1/11 |
+| web-app-gh | development | c5946ef | fix: fixed sorting of crops in progress | 2/11 |
+| web-app-gh | development | 9e30c28 | feat: added edit company component and function on service to edit the company | 2/11 |
+| backend-gh | feature/deployment | 78ce73d | fix: port of memberships db | 2/11 |
+| backend-gh | feature/deployment | 7e7bfc1 | fix: variable convention was missing Dto. | 2/11 |
+| backend-gh | feature/deployment | 13843b4 | chore: update needed configuration for deployment of memberships microservice. | 2/11 |
+| greenhouse-mobile | feature/notifications | fa11fd6 | feat(firebase): added crop image uploading to firebase, also updated the config example. | 10/11 |
+| web-app-gh | development | 19e64df | feature: suscription test feature | 11/11 |
+| greenhouse-mobile | feature/notifications | 212ee08 | feat: added endpoint for updating the ended crops image and quality. | 11/11 |
+| backend-gh | feature/deployment | cb6c927 | fix(crops): fixed nullability of values quality and imageUrl | 11/11 |
+| backend-gh | feature/deployment | 4dfe434 | feat(crops): added update crop image endpoint@ | 11/11 |
+| web-app-gh | development | 71c60bd | feat: changed filter component to recieve react component | 12/11 |
+| web-app-gh | development | 5869e00 | feature: new atributes for archived crop to show quality and image added of the crop | 12/11 |
+| web-app-gh | development | 468d3bc | chore: Export to Excel now separates payload data | 13/11 |
+| web-app-gh | development | 63077bb | chore: Update filter | 13/11 |
+| web-app-gh | development | 9a733a3 | fix: Responsive issue with Dialog components | 14/11 |
+| web-app-gh | development | 3411104 | fix: Record chart empty record list case message | 14/11 |
+| web-app-gh | development | 8fc29d7 | chore: Centered stepper component | 14/11 |
+| web-app-gh | development | 42b86d4 | chore: Update chart color | 14/11 |
+| web-app-gh | development | 5d67c79 | feat: Add card animation on hover | 14/11 |
+| web-app-gh | development | eed21e8 | fix: Fix issue with trailing icon on TextField | 14/11 |
+| greenhouse-mobile | feature/notifications | 46f9050 | feat: added publisher to message bus for notifications | 14/11 |
+| web-app-gh | development | 13d1b44 | chore: Fix issue with stomp protocol | 15/11 |
+| web-app-gh | development | ef7ce53 | fix: Fix delete dialog background not working | 15/11 |
+| web-app-gh | development | 9f9c228 | feat: added new type of notification | 15/11 |
+| web-app-gh | development | 73a3785 | fix: SideBar component stays fix in screen | 15/11 |
+| web-app-gh | development | c80e2e8 | feat: Add SideBar component | 15/11 |
+| web-app-gh | development | b6da1b9 | chore: Update close dialog location | 15/11 |
+| web-app-gh | development | 81b4da7 | feat: added notification functionality to receive messages from a broker | 15/11 |
+| web-app-gh | development | e4e416e | fix: Fix issue with route change on company edit | 15/11 |
+| web-app-gh | development | 1b9813e | feat: Add edit user profile | 15/11 |
+| greenhouse-mobile | feature/notifications | 5301d1a | chore: updated publish notifications for record edits. | 15/11 |
+| greenhouse-mobile | feature/notifications | 7aa35c6 | feat: added publish notifications for records. | 15/11 |
+| greenhouse-mobile | feature/notifications | 739e46f | feat: added publish notifications for deleting and creating crops. | 15/11 |
+| backend-gh | feature/deployment | 45f8e12 | chore: update docker and configuration for deployment | 15/11 |
+| backend-gh | feature/deployment | b8c9520 | fix(memberships): fixed memberships bounded context | 15/11 |
+| backend-gh | feature/deployment | 392f6af | fix: update profile it used ??= operator so it didnt update | 15/11 |
+| backend-gh | feature/deployment | 994df94 | feat(lol): lmao | 15/11 |
+| backend-gh | feature/deployment | 1069447 | fix: update data type error | 15/11 |
+| backend-gh | feature/deployment | bd90485 | fix: added payload update to the command handler | 15/11 |
+| greenhouse-mobile | feature/notifications | 126ef9b | feat: added before and after for edits notification | 16/11 |
+| backend-gh | feature/deployment | 9eba24d | feat(find-membership-levels): created find membership level endpoint | 16/11 |
+| backend-gh | feature/deployment | 031307c | fix(membership-levels): fixed membership levels database insertion | 16/11 |
+| backend-gh | feature/deployment | 8f382a5 | feat(membership-levels): added membership levels create command | 16/11 |
+| web-app-gh | development | fe5b28c | fix: bugs | 18/11 |
+| web-app-gh | development | 0fbbee9 | feat: added membership components, services and models to make the different levels of memberships work in each company | 18/11 |
+| greenhouse-mobile | feature/notifications | 57c92a3 | feat: Add membership service | 18/11 |
+| backend-gh | feature/deployment | dc92ba1 | feat(memberships): added update membership level name | 18/11 |
+  
+<h4 id='6.2.1.5.'>6.2.1.5. Testing Suite Evidence for Sprint Review.</h4>
+
+En la siguiente sección se presentan los cambios en el repositorio de testing de la aplicación durante el desarrollo del presente sprint. En este repositorio se encuentran los archivos Gherkin, los cuales forman parte del enfoque BDD de la aplicación.
+
+| Repository | Branch | Commit ID | Commit Message | Committed on (Date) |
+| :---: | :---: | :---: | :---: | :---: |
+| re-greenhouse/greenhouse\_testing\_suite | testing | 9cdd357 | docs: added membership .feature file | 10/05/2025 |
+| re-greenhouse/greenhouse\_testing\_suite | testing | 3163a45  | docs: added notifications .feature file | 10/05/2025 |
+
+<h4 id='6.2.1.6.'>6.2.1.6. Execution Evidence for Sprint Review.</h4>
+
+En esta sección se presentarán capturas de las request a los distintos endpoints de nuestros microservicios utilizando Postman:
+
+**Auth endpoints:**
+
+El endpoint público POST /api/v1/auth/sign-up permite que los usuarios se registren en la aplicación Greenhouse.
+
+<img src='assets/images/chapter-6/1.png' alt='Git Flow' />
+
+El endpoint público POST /api/v1/auth/sign-in permite que los usuarios inicien sesión. Si las credenciales son válidas, se retorna un token, a través del cual podrá utilizar los endpoints protegidos.
+
+<img src='assets/images/chapter-6/2.png' alt='Git Flow' />
+
+**Profiles endpoints:**
+
+El endpoint GET /api/v1/profiles/users/me permite obtener la información asociada al perfil del usuario autenticado
+
+<img src='assets/images/chapter-6/3.png' alt='Git Flow' />
+
+El endpoint GET /api/v1/profiles/companies/{companyId} permite obtener la información asociada a la empresa a la cual pertenece el usuario autenticado
+
+<img src='assets/images/chapter-6/4.png' alt='Git Flow' />
+
+El endpoint PATCH /api/v1/profiles/{profileId} permite editar los nombres y la foto del perfil seleccionado.
+
+<img src='assets/images/chapter-6/5.png' alt='Git Flow' />
+
+**Companies endpoints:**
+
+El endpoint POST /api/v1/companies permite registrar una empresa y vincularla al usuario autenticado.
+
+<img src='assets/images/chapter-6/6.png' alt='Git Flow' />
+
+El endpoint GET /api/v1/companies permite obtener la empresa a la cual pertenece el usuario autenticado.
+
+<img src='assets/images/chapter-6/7.png' alt='Git Flow' />
+
+**Crops endpoints:**
+
+El endpoint POST /api/v1/crops permite iniciar un nuevo cultivo para una empresa.
+
+<img src='assets/images/chapter-6/8.png' alt='Git Flow' />
+
+El endpoint GET /api/v1/crops/{cropId} permite recuperar un cultivo según su ID.
+
+<img src='assets/images/chapter-6/9.png' alt='Git Flow' />
+
+El endpoint PATCH /api/v1/crops/{cropId} permite actualizar la fase y el estado de un cultivo según su ID.
+
+<img src='assets/images/chapter-6/10.png' alt='Git Flow' />
+
+El endpoint DELETE /api/v1/crops/{cropId} permite eliminar los cultivos en base a su ID.
+
+<img src='assets/images/chapter-6/11.png' alt='Git Flow' />
+
+**Mail endpoints:**
+
+El endpoint POST /api/v1/templates permite crear un template de correo electrónico a partir de un cuerpo en HTML.
+
+<img src='assets/images/chapter-6/12.png' alt='Git Flow' />
+
+El endpoint POST /api/v1/mails permite enviar correos electrónicos a partir de un template seleccionado.
+
+<img src='assets/images/chapter-6/13.png' alt='Git Flow' />
+
+<h4 id='6.2.1.7.'>6.2.1.7. Services Documentation Evidence for Sprint Review.</h4>
+
+A continuación, se presentan los endpoints correspondientes a cada microservicio:
+
+**IAM endpoints:**
+
+<img src='assets/images/chapter-6/14.png' alt='Git Flow' />
+
+**Personas endpoints:**
+
+<img src='assets/images/chapter-6/15.png' alt='Git Flow' />
+
+**Companies endpoints:**
+
+<img src='assets/images/chapter-6/16.png' alt='Git Flow' />
+
+**Mail endpoints:**
+
+<img src='assets/images/chapter-6/17.png' alt='Git Flow' />
+
+**Crops endpoints:**
+
+<img src='assets/images/chapter-6/18.png' alt='Git Flow' />
+
+**Records endpoints:**
+
+<img src='assets/images/chapter-6/19.png' alt='Git Flow' />
+
+<h4 id='6.2.1.8.'>6.2.1.8. Software Deployment Evidence for Sprint Review.</h4>
+
+**Landing Page:**
+
+Landing page deploy on netlify via Github:
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/landing_page_1.png' alt='Landing Page' />
+
+Enlace al despliegue de la landing page: [https://landing.integradis.shop/](https://landing.integradis.shop/) 
+
+**Web App:**
+
+Deploy of Web App on Netlify via Github:
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/web_app_1.png' alt='Web App Deployed' />
+
+Environment variables on netlify:
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/web_app_2.png' alt='Web App Envirioment Variables' />
+
+Enlace al despliegue: [https://app-greenhouse.netlify.app](https://app-greenhouse.netlify.app) 
+
+**Backend:**
+
+Contenedores de docker en ejecución dentro de la instancia, se evidencian las bases de datos y el backend:
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/backend_1.png' alt='Backend Desplegado' />
+
+Los procesos que se ejecutan dentro del contenedor de Docker correspondiente al backend donde se evidencian los microservicios.
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/backend_2.png' alt='Backend Desplegado Contenedores' />
+
+La instancia se encuentra en ejecución:
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/backend_3.png' alt='Backend Desplegado Ejecución' />
+
+Enlace al swagger: [https://greenhouse.integradis.shop/api](https://greenhouse.integradis.shop/api) 
+
+**Mobile App**:
+
+Para el deployment evidence de la mobile app se tiene que ejecutar el comando:
+
+- flutter build apk \--release  
+
+En el cual se genera el archivo resultante en:
+
+- Built build/app/outputs/flutter-apk/app-release.apk (28.0MB)
+
+Luego de ello se sube el archivo a Google Drive y se genera un código QR con el enlace del archivo de Google Drive
+
+Se creó un código QR 
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/mobile_app_qr.png' alt='Mobile App QR' />
+
+**Message Broker:**
+
+Se desplegó un message broker de Active MQ mediante el servicio de Amazon MQ, el cuál es utilizado para las notificaciones en tiempo real.
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/message_broker.png' alt='Message Broker Desplegado' />
+
+**Firebase Storage:**
+
+Se utilizó firebase storage para almacenar las imágenes de los cultivos que se suban desde la aplicación para que luego se pueda acceder a estar desde la aplicación web.
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/firebase.png' alt='Firebase' />
+
+**Computer Vision Model:**
+
+El modelo de computer visión se entrenó desde ultralytics el mismo te brinda un endpoint de deploy con el cuál puedes hacer uso del modelo.
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/computer_vision.png' alt='Computer Vision Desplegado' />
+
+**Route 53:**
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/route53.png' alt='Route 53 Desplegado' />
+
+<h4 id='6.2.1.9.'>6.2.1.9. Team Collaboration Insights during Sprint.</h4>
 
 <h1 id='referencias'>Referencias Bibliográficas</h1>
 Cajo Hernandez, J. A., & Rosales Caururu, A. N. (2022). Sistema de control y gestión para los cultivos agrícolas aplicando tecnologías emergentes en el Perú. [Tesis de licenciatura, Universidad Peruana de Ciencias Aplicadas]. Repositorio Académico UPC. https://repositorioacademico.upc.edu.pe/bitstream/handle/10757/660718/Cajo_HJ.pdf?sequence=3
