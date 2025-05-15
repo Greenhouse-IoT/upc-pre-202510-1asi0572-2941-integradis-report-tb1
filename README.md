@@ -75,6 +75,16 @@ Link para acceder al repositorio en GitHub: [https://github.com/Greenhouse-IoT/u
 | Seminario Garbin, Carlo Luca        | Redacción de perfil de integrante del equipo, impact mapping, software architechture system landscape diagram, software architecture context level diagrams, software architecture container level diagrams, software architecture deployment diagrams, bounded context mailing e IoT |
 | Soto Kong Requena, Andrés Eduardo   | Redacción de perfil de integrante del equipo, lean UX problem statements, lean UX assumptions, lean UX hypothesis statements, lean UX, segmentos objetivo, bounded context memberships |
 
+### TB2
+
+| Integrante                          | Tareas Asignadas |
+| ----------------------------------- | ---------------- |
+| Astuyauri Calderon, Jherson David   | Elaboración de wireflow diagrams y userflow diagrams |
+| Espinoza Rodríguez, Nicolás Antonio | Elaboración de Applications UX/UI Design |
+| Galavis Du Bois, Alan Enrique       | Redacción de Style Guidelines, General Style Guidelines, Web, Mobile and IoT Style Guidelines. Elaboración de Sprint Planning 1, Aspect Leaders and Collaborators y del Sprint Backlog 1 |
+| Seminario Garbin, Carlo Luca        | Redacción de software configuration management, software development environment configuration, source code management, source code style guide & conventions |
+| Soto Kong Requena, Andrés Eduardo   | Redacción de development evidence for sprint review, testing suite evidence for sprint review, evidence for sprint review, execution evidence, services evidence y team collaboration insights |
+
 ## GitHub Collaboration Insights
 GitHub Collaboration proporciona analíticas de los commits realizados por las cuentas de los integrantes del equipo. Estas cuentas son:
 - JHS-Sama24 (Jherson Astuyauri)
@@ -101,6 +111,7 @@ explican las ramas más prominentes:
 - capitulo-2: Incluye el contenido del capítulo 2 del informe.
 - capitulo-3: Incluye el contenido del capítulo 3 del informe.
 - capitulo-4: Incluye el contenido del capítulo 4 del informe.
+- capitulo-5: Incluye el contenido del capítulo 5 del informe.
 
 **TB1:**
 
@@ -198,8 +209,7 @@ explican las ramas más prominentes:
         - 4.2.5.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.5.6.)<br>
           - 4.2.5.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.5.6.1.)<br>
           - 4.2.5.6.2. [Bounded Context Database Design Diagram.](#4.2.5.6.2.)<br>
-
-- 5. [**Capítulo V: Solution UI/UX Design.**](#5.)<br>
+5. [**Capítulo V: Solution UI/UX Design.**](#5.)<br>
     - 5.1. [Style Guidelines.](#5.1.)<br>
         - 5.1.1. [General Style Guidelines.](#5.1.1.)<br>
         - 5.1.2. [Web, Mobile and IoT Style Guidelines.](#5.1.2.)<br>
@@ -246,10 +256,16 @@ explican las ramas más prominentes:
       <b>Astuyauri Calderón, Jherson David:</b>
       Lideré la elaboración del Capítulo II: Requirements Elicitation & Analysis, incluyendo el análisis competitivo, diseño de entrevistas y herramientas UX como User Personas y Empathy Mapping. Guié al equipo hacia decisiones centradas en el usuario,   fomentando el liderazgo compartido y el consenso en todo momento<br>
       <br/>
+      <i>TP1</i><br/>
+      <b>Astuyauri Calderón, Jherson David:</b>
+       Apoyé en el diseño de los wireflows y userflows tanto de la aplicación web como móvil. Participé activamente en la organización de las ideas del equipo y en el levantamiento de flujos centrados en la experiencia de usuario.<br>
+      <br/>
       <i>TB1</i><br/>
       <b>Espinoza Rodríguez, Nicolás Antonio:</b>
-      Durante el presente trabajo se colaboró en equipo para la definición de los bounded context que conforman la totalidad de la aplicación. Los diagramas se realizaron en conjunto y combinando la experiencia anterior de los miembros del equipo.<br/>
-      <br/>
+      Durante el presente trabajo se colaboró en equipo para la definición de los bounded context que conforman la totalidad de la aplicación. Los diagramas se realizaron en conjunto y combinando la experiencia anterior de los miembros del equipo.<br/><br/>
+      <i>TP1</i><br/>
+      <b>Espinoza Rodríguez, Nicolás Antonio:</b>
+      Se realizó la colaboración en equipo para el desarrollo del figma con los mockups del proyecto. Durante este proceso de diseño en base a los requisitos de las historia de usuario, se involucró mucho trabajo en equipo para la validación de requisitos y la creación de un producto con el mayor estándar de calidad<br/><br/>
       <i>TB1</i><br/>
       <b>Galavis Du Bois, Alan Enrique:</b>
       Durante el desarrollo del proyecto, me aseguré de comunicar y orientar a mis compañeros de equipo el alcance, restricciones y objetivos del trabajo, con la finalidad de proponer un proyecto que responda al problema definido.<br/>
@@ -258,8 +274,12 @@ explican las ramas más prominentes:
       <b>Seminario Garbín, Carlo Luca:</b>
       Se realizó un inicio de prototipo de dispositivos IoT para poder experimentar e iniciar el desarrollo del trabajo con tiempo.
       <br/>
+      <i>TP1</i><br/>
+      <b>Seminario Garbín, Carlo Luca:</b>
+      Se realizó el despliegue del backend para que mis compañeros puedan hacer uso de las funcionalidades y hacer un flujo de trabajo más óptimo, comunicando bugs o caídas para poder darles mantenimiento.
+      <br/>
       <i>TB1</i><br/>
-      <b>Soto Kong Requena, Andrés Eduardo: Fui responsable de la definición y desarrollo de los bounded context correspondientes a los módulos de Mail y Memberships. A través de su enfoque en la estructuración de estos contextos, contribuyó significativamente a la organización y modularización de la aplicación, asegurando una integración coherente con los demás componentes del sistema.</b>
+      <b>Soto Kong Requena, Andrés Eduardo:</b> Fui responsable de la definición y desarrollo de los bounded context correspondientes a los módulos de Mail y Memberships. A través de su enfoque en la estructuración de estos contextos, contribuyó significativamente a la organización y modularización de la aplicación, asegurando una integración coherente con los demás componentes del sistema.
       </td>
       <td>El equipo trabajó de manera colaborativa y eficiente, asumiendo roles clave en diversas áreas del proyecto. Se lideró el análisis de requisitos y la implementación de herramientas UX, mientras que se definieron y estructuraron los bounded contexts de la aplicación. Además, se orientó al equipo sobre los objetivos del proyecto, se desarrolló un prototipo de IoT de manera temprana y se aseguraron módulos integrados y coherentes para una solución efectiva. En conjunto, se logró una ejecución fluida y alineada con el problema a resolver.</td>
     </tr>
@@ -271,9 +291,16 @@ explican las ramas más prominentes:
       <b>Astuyauri Calderón, Jherson David:</b>
       Desarrollé y estructuré gran parte del Capítulo II, gestionando tareas como el As-is Scenario Mapping y la planificación del análisis de entrevistas. Promoví un entorno inclusivo con metas claras y coordinación efectiva para cumplir los objetivos del equipo<br>
       <br/>
+      <i>TP1</i><br/>
+      <b>Astuyauri Calderón, Jherson David:</b>
+      Apoyé en la elaboración de los wireflows y userflows de ambas aplicaciones, organizando tareas por prioridad y asegurando entregables claros.<br>
+      <br/>
       <i>TB1</i><br/>
       <b>Espinoza Rodríguez, Nicolás Antonio:</b>
       Se consideró como primer sprint del equipo el desarrollo de los artefactos de gestión y el planeamiento del proyecto. Se realizó el proceso del planning poker y se lograron estimar las historias de usuario que conforman nuestro backlog y alcance del proyecto. <br/><br/>
+      <i>TP1</i><br/>
+      <b>Espinoza Rodríguez, Nicolás Antonio:</b>
+      Se delegó a cada miembro del equipo el desarrollo de un apartado de los mock-ups. Luego, se procedió con la compartición de ideas y feedback respecto a las partes desarrolladas del figma del proyecto. En este entorno, se establecieron objetivos a alcanzar, tareas a realizar y metas conjuntas del equipo.<br/><br/>
       <i>TB1</i><br/>
       <b>Galavis Du Bois, Alan Enrique:</b>
       Me aseguré de repartir el trabajo de manera equitativa y de acuerdo al perfil de cada integrante del equipo, de forma que todos los miembros puedan cumplir con sus tareas con éxito<br/>
@@ -282,8 +309,12 @@ explican las ramas más prominentes:
       <b>Seminario Garbín, Carlo Luca:</b>
       Colabaré con mis compañeros expresando las ideas colaborativas para la integración de IoT, de modo que podamos lograr una solución adecuada para el contexto.
       <br/>
+      <i>TP1</i><br/>
+      <b>Seminario Garbín, Carlo Luca:</b>
+      Apoyé distribuyendo el trabajo entre el equipo escuchando propuestas y aportando ideas para avanzar de forma colaborativa en base a metas y objetivos.
+      <br/>
       <i>TB1</i><br/>
-      <b>Soto Kong Requena, Andrés Eduardo: Colabore para obtener un entorno colaborativo e inclusivo, asegurándose de que todas las metas fueran claras y alcanzables. Se encargó de coordinar tareas clave en el proceso de planificación, estableciendo un flujo de trabajo organizado y apoyando al equipo en el cumplimiento de los objetivos establecidos.</b>
+      <b>Soto Kong Requena, Andrés Eduardo</b>: Colabore para obtener un entorno colaborativo e inclusivo, asegurándose de que todas las metas fueran claras y alcanzables. Se encargó de coordinar tareas clave en el proceso de planificación, estableciendo un flujo de trabajo organizado y apoyando al equipo en el cumplimiento de los objetivos establecidos.
       </td>
       <td>El equipo trabajó de manera colaborativa e inclusiva, estableciendo metas claras y alcanzables para cumplir los objetivos del proyecto. Se promovió un ambiente de trabajo organizado y se gestionaron tareas clave como la planificación de entrevistas, el desarrollo de artefactos de gestión y la estimación de historias de usuario. Además, se distribuyó el trabajo de manera equitativa según las habilidades de cada miembro, se propusieron ideas colaborativas para la integración de IoT, y se garantizó una coordinación efectiva para lograr una solución adecuada y alineada con los objetivos del equipo.</td>
     </tr>
@@ -2554,7 +2585,7 @@ A continuación se mostrarán los user flow diagrams, los cuales permiten visual
 **User Persona:** Administrador  
 
 **Explicación del flujo:**  
-En primer lugar, los administradores deberán ingresar a la aplicación móvil. A continuación, deberán dirigirse al apartado de *Sign up*, dentro del cual se mostrará un formulario que solicitará ingresar información relevante para la creación de la cuenta, como, por ejemplo, razón social, RUC, nombre del registrante y contraseña de la cuenta. Seguidamente, se mostrarán dos botones, uno que representa la confirmación del usuario de haber leído los términos y condiciones de uso, y otro que confirma su intención de crear una cuenta. Una vez confirmada la intención de crear una cuenta, se redirigirá al usuario a la vista principal.
+En primer lugar, los administradores deberán ingresar a la aplicación móvil. A continuación, deberán dirigirse al apartado de *Sign up*, dentro del cual se mostrará un formulario que solicitará ingresar información relevante para la creación de la cuenta, como, por ejemplo, razón social, RUC, nombre del registrante y contraseña de la cuenta. Seguidamente, se mostrarán dos botones, uno que representa la confirmación del usuario de haber leído los términos y condiciones de uso, y otro que confirma su intención de crear una cuenta. Una vez confirmada la intención de crear una cuenta, se redirigirá al usuario a la vista crops in progress donde podrá elegir una membresia.
 
 Por otro lado, en caso de que el usuario haya creado previamente una cuenta en Greenhouse, y desee iniciar sesión, deberá completar el formulario que le solicita su usuario y contraseña. En caso de que estos sean validados, el sistema redirigirá al usuario al menú principal. Caso contrario, se mantendrá en la pestaña de inicio de sesión y se le solicitará introducir sus credenciales. En caso de que rechace cualquiera de estas dos operaciones, el usuario será redirigido a la vista inicial de bienvenida.
 
@@ -2562,53 +2593,65 @@ Por otro lado, en caso de que el usuario haya creado previamente una cuenta en G
 
 ---
 
-#### **User Goal:** Iniciar sesión  
+#### **User Goal:** Ver registros del cultivo.
 **User Persona:** Administrador  
 
 **Explicación del flujo:**  
-En primer lugar, los administradores deberán ingresar a la aplicación web. En caso de que el usuario haya creado previamente una cuenta en Greenhouse, y desee iniciar sesión, deberá completar el formulario que le solicita su usuario y contraseña. En caso de que estos sean validados, el sistema redirigirá al usuario al menú principal. Caso contrario, se mantendrá en la pestaña de inicio de sesión y se le solicitará introducir sus credenciales. En caso de que rechace cualquiera de estas dos operaciones, el usuario será redirigido a la vista inicial.
+En primer lugar, los administradores deberán ingresar a la aplicación web.Luego, cuando este en el home hace clic sobre un cultivo. Entonces, el sistema muestra la sección de los registros del cultivo junto con gráficos de varias características.
 
 ![Userflow Iniciar sesión](assets/images/chapter_5/userflows/userflowweb2.png)
 
 ---
 
-#### **User Goal:** Ver y editar perfil de usuario  
-**User Persona:** Administrador y Técnicos supervisores  
+#### **User Goal:** Aceptar la modificación de un registro del cultivo.
+**User Persona:** Administrador 
 
 **Explicación del flujo:**  
-En primer lugar, el usuario debe de presionar sobre el botón *Perfil*, el cual está situado en el *toolbar* superior de la aplicación. A continuación, visualizará una sección desde la cual podrá modificar la información asociada a su perfil personal. Adicionalmente, encontrará un botón que indica *Reset your password*, el cual luego de ser presionado, redirigirá al usuario a una vista desde la cual podrá cambiar su contraseña.
+En primer lugar, el usuario se debe encontrar en la página principal y al presionar a un cultivo. Se muestra la sección con lso registro de los cultivos. Entonces, se observa la solicitud de verificación a una correción de un registro de cultivo y se hace clic en aceptar para confirmar los cambios. 
 
 ![Userflow Ver y editar perfil](assets/images/chapter_5/userflows/userflowweb3.png)
 
 ---
 
-#### **User Goal:** Cambiar contraseña  
-**User Persona:** Administrador y Técnicos supervisores  
+#### **User Goal:** Ver, editar y eliminar a un trabajador.
+**User Persona:** Administrador 
 
 **Explicación del flujo:**  
-Cuando el usuario ingrese a su perfil, desde el *toolbar* situado en la parte superior derecha de la pantalla, y oprima sobre el botón *Forgot your password?*, será redirigido a una vista desde la cual podrá llenar un formulario que le solicita ingresar la nueva contraseña y confirmar su decisión de cambio. En caso de que la acepte, será redirigido a la vista anterior. Caso contrario, sucederá lo mismo, pero la operación solicitada no será procesada por el sistema.
+Cuando el usuario observe el directorio de trabajadores y presiona el icono de acción. Se muestra al trabajador con su nombre rol y todos los permisos activados por defecto.  Si se hace clic sobre el icono de editar nombre se puede editar el texto. Luego, si se hace clic en el icono de edición de rol, se puede elegir entre los roles disponibles. Finalmente, si se presiona en el botón de eliminar trabajor. Entonces, el trabajor será eliminado. 
 
 ![Userflow Cambiar contraseña](assets/images/chapter_5/userflows/userflowweb4.png)
 
 ---
 
-#### **User Goal:** Registrar información  
-**User Persona:** Técnico Supervisor  
+#### **User Goal:** Ver, editar y eliminar a un técnico supervisor.
+**User Persona:** Administrador 
 
 **Explicación del flujo:**  
-El técnico supervisor es el encargado de registrar información de las actividades realizadas y del estado de los cultivos por medio de la aplicación Greenhouse. Para cumplir este objetivo, el técnico debe de acceder a la sección de cultivos en progreso, para luego dirigirse al *stepper*, y finalmente oprimir sobre el botón situado en la esquina inferior izquierda para agregar un registro.
+Cuando el usuario observe el directorio de trabajadores y presiona el icono de acción de un supervisor. Se muestra al supervisor con su nombre rol y todos los permisos permitidos.  Si se hace clic sobre el icono de editar nombre se puede editar el texto. Luego, si se hace clic en el icono de edición de rol, se puede elegir entre los roles disponibles. Finalmente, si se presiona en el botón de eliminar trabajor. Entonces, el supervisor será eliminado. 
 
 ![Userflow Registrar información](assets/images/chapter_5/userflows/userflowweb5.png)
 
 ---
 
-#### **User Goal:** Ver registros archivados  
-**User Persona:** Técnico Supervisor  
+#### **User Goal:** Invitar a un trabajador  
+**User Persona:** Administrador  
 
 **Explicación del flujo:**  
-En primer lugar, el técnico supervisor debe de acceder a la sección de *Crops Archive*, la cual está disponible desde la vista principal *Home*. Dentro de *Crops Archive*, el usuario deberá elegir alguno de los cultivos archivados, y tras oprimirlo, será redirigido al *stepper*. Dentro del *stepper* podrá visualizar la fecha de inicio y fin del cultivo, y las diversas fases que atravesó.
+En primer lugar, el usuario se encuentra observando el directorio de trabajadores. Si hace clic sobre el botón "Invitar a trabajador", aparece un formulario que solicita información del trabajador y al oprimir "Enviar invitación por correo" o "cancelar", se cerrará el dialog y se regresará a la vista mi empresa.
 
 ![Userflow Ver registros archivados](assets/images/chapter_5/userflows/userflowweb6.png)
+
+#### **User Goal:** Ver las notificaciones
+**User Persona:** Administrador  
+
+**Explicación del flujo:**  
+En primer lugar, el usuario observa el home. En caso, haga clic en el icono de la campana se abre un apartado con todas las notificaciones para el usuario.
+
+![Userflow Ver registros archivados](assets/images/chapter_5/userflows/userflowweb7.png)
+
+
+
+
 
 ## Mobile Application User Flow Diagrams
 
