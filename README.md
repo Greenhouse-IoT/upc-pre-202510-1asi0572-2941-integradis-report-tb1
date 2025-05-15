@@ -75,6 +75,16 @@ Link para acceder al repositorio en GitHub: [https://github.com/Greenhouse-IoT/u
 | Seminario Garbin, Carlo Luca        | Redacción de perfil de integrante del equipo, impact mapping, software architechture system landscape diagram, software architecture context level diagrams, software architecture container level diagrams, software architecture deployment diagrams, bounded context mailing e IoT |
 | Soto Kong Requena, Andrés Eduardo   | Redacción de perfil de integrante del equipo, lean UX problem statements, lean UX assumptions, lean UX hypothesis statements, lean UX, segmentos objetivo, bounded context memberships |
 
+### TB2
+
+| Integrante                          | Tareas Asignadas |
+| ----------------------------------- | ---------------- |
+| Astuyauri Calderon, Jherson David   | Elaboración de wireflow diagrams y userflow diagrams |
+| Espinoza Rodríguez, Nicolás Antonio | Elaboración de Applications UX/UI Design |
+| Galavis Du Bois, Alan Enrique       | Redacción de Style Guidelines, General Style Guidelines, Web, Mobile and IoT Style Guidelines. Elaboración de Sprint Planning 1, Aspect Leaders and Collaborators y del Sprint Backlog 1 |
+| Seminario Garbin, Carlo Luca        | Redacción de software configuration management, software development environment configuration, source code management, source code style guide & conventions |
+| Soto Kong Requena, Andrés Eduardo   | Redacción de development evidence for sprint review, testing suite evidence for sprint review, evidence for sprint review, execution evidence, services evidence y team collaboration insights |
+
 ## GitHub Collaboration Insights
 GitHub Collaboration proporciona analíticas de los commits realizados por las cuentas de los integrantes del equipo. Estas cuentas son:
 - JHS-Sama24 (Jherson Astuyauri)
@@ -101,6 +111,7 @@ explican las ramas más prominentes:
 - capitulo-2: Incluye el contenido del capítulo 2 del informe.
 - capitulo-3: Incluye el contenido del capítulo 3 del informe.
 - capitulo-4: Incluye el contenido del capítulo 4 del informe.
+- capitulo-5: Incluye el contenido del capítulo 5 del informe.
 
 **TB1:**
 
@@ -198,8 +209,7 @@ explican las ramas más prominentes:
         - 4.2.5.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.5.6.)<br>
           - 4.2.5.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.5.6.1.)<br>
           - 4.2.5.6.2. [Bounded Context Database Design Diagram.](#4.2.5.6.2.)<br>
-
-- 5. [**Capítulo V: Solution UI/UX Design.**](#5.)<br>
+5. [**Capítulo V: Solution UI/UX Design.**](#5.)<br>
     - 5.1. [Style Guidelines.](#5.1.)<br>
         - 5.1.1. [General Style Guidelines.](#5.1.1.)<br>
         - 5.1.2. [Web, Mobile and IoT Style Guidelines.](#5.1.2.)<br>
@@ -218,11 +228,23 @@ explican las ramas más prominentes:
         - 5.4.3. [Applications Mock-ups.](#5.4.3.)<br>
         - 5.4.4. [Applications User Flow Diagrams.](#5.4.4.)<br>
     - 5.5. [Applications Prototyping.](#5.5.)<br>
-
-
-
-
-          
+6. [**Capítulo XI: Solution Software Design.**](#6.)<br>
+- 6.1. [Software Configuration Management.](#6.1.)<br>
+    - 6.1.1. [Software Development Environment Configuration.](#6.1.1.)<br>
+    - 6.1.2. [Source Code Management.](#6.1.2.)<br>
+    - 6.1.3. [Source Code Style Guide & Conventions.](#6.1.3.)<br>
+    - 6.1.4. [Software Deployment Configuration.](#6.1.4.)<br>
+- 6.2. [Landing Page, Services & Applications Implementation.](#6.2.)<br>
+    - 6.2.1. [Sprint 1.](#6.2.1.)<br>
+        - 6.2.1.1. [Sprint Planning 1.](#6.2.1.1.)<br>
+        - 6.2.1.2. [Aspect Leaders and Collaborators.](#6.2.1.2.)<br>
+        - 6.2.1.3. [Sprint Backlog 1.](#6.2.1.3.)<br>
+        - 6.2.1.4. [Development Evidence for Sprint Review.](#6.2.1.4.)<br>
+        - 6.2.1.5. [Testing Suite Evidence for Sprint Review.](#6.2.1.5.)<br>
+        - 6.2.1.6. [Execution Evidence for Sprint Review.](#6.2.1.6.)<br>
+        - 6.2.1.7. [Services Documentation Evidence for Sprint Review.](#6.2.1.7.)<br>
+        - 6.2.1.8. [Software Deployment Evidence for Sprint Review.](#6.2.1.8.)<br>
+        - 6.2.1.9. [Team Collaboration Insights during Sprint.](#6.2.1.9.)<br>
 
 [**Conclusiones.**](#conclusiones)<br>
 [**Bibliografía.**](#referencias)<br>
@@ -246,14 +268,16 @@ explican las ramas más prominentes:
       <b>Astuyauri Calderón, Jherson David:</b>
       Lideré la elaboración del Capítulo II: Requirements Elicitation & Analysis, incluyendo el análisis competitivo, diseño de entrevistas y herramientas UX como User Personas y Empathy Mapping. Guié al equipo hacia decisiones centradas en el usuario,   fomentando el liderazgo compartido y el consenso en todo momento<br>
       <br/>
-      <i>TB2</i><br/>
+      <i>TP1</i><br/>
       <b>Astuyauri Calderón, Jherson David:</b>
        Apoyé en el diseño de los wireflows y userflows tanto de la aplicación web como móvil. Participé activamente en la organización de las ideas del equipo y en el levantamiento de flujos centrados en la experiencia de usuario.<br>
       <br/>
       <i>TB1</i><br/>
       <b>Espinoza Rodríguez, Nicolás Antonio:</b>
-      Durante el presente trabajo se colaboró en equipo para la definición de los bounded context que conforman la totalidad de la aplicación. Los diagramas se realizaron en conjunto y combinando la experiencia anterior de los miembros del equipo.<br/>
-      <br/>
+      Durante el presente trabajo se colaboró en equipo para la definición de los bounded context que conforman la totalidad de la aplicación. Los diagramas se realizaron en conjunto y combinando la experiencia anterior de los miembros del equipo.<br/><br/>
+      <i>TP1</i><br/>
+      <b>Espinoza Rodríguez, Nicolás Antonio:</b>
+      Se realizó la colaboración en equipo para el desarrollo del figma con los mockups del proyecto. Durante este proceso de diseño en base a los requisitos de las historia de usuario, se involucró mucho trabajo en equipo para la validación de requisitos y la creación de un producto con el mayor estándar de calidad<br/><br/>
       <i>TB1</i><br/>
       <b>Galavis Du Bois, Alan Enrique:</b>
       Durante el desarrollo del proyecto, me aseguré de comunicar y orientar a mis compañeros de equipo el alcance, restricciones y objetivos del trabajo, con la finalidad de proponer un proyecto que responda al problema definido.<br/>
@@ -266,10 +290,14 @@ explican las ramas más prominentes:
       <b>Seminario Garbín, Carlo Luca:</b>
       Se realizó un inicio de prototipo de dispositivos IoT para poder experimentar e iniciar el desarrollo del trabajo con tiempo.
       <br/>
+      <i>TP1</i><br/>
+      <b>Seminario Garbín, Carlo Luca:</b>
+      Se realizó el despliegue del backend para que mis compañeros puedan hacer uso de las funcionalidades y hacer un flujo de trabajo más óptimo, comunicando bugs o caídas para poder darles mantenimiento.
+      <br/>
       <i>TB1</i><br/>
-      <b>Soto Kong Requena, Andrés Eduardo: Fui responsable de la definición y desarrollo de los bounded context correspondientes a los módulos de Mail y Memberships. A través de su enfoque en la estructuración de estos contextos, contribuyó significativamente a la organización y modularización de la aplicación, asegurando una integración coherente con los demás componentes del sistema.</b>
-        <i>TB2</i><br/>
-      <b>Soto Kong Requena, Andrés Eduardo: Me encargue de colaborar con el diseño de la landing page asi como de su desarrollo. Me encargue principalmente de la documentacion de los endpoints de la web app, asi como las pruebas de demostracion realizadas en postman. De la misma forma me encargue de identificar y documentar los commits principales en los diferentes repositorios del proyecto.</b>
+      <b>Soto Kong Requena, Andrés Eduardo:</b> Fui responsable de la definición y desarrollo de los bounded context correspondientes a los módulos de Mail y Memberships. A través de su enfoque en la estructuración de estos contextos, contribuyó significativamente a la organización y modularización de la aplicación, asegurando una integración coherente con los demás componentes del sistema.
+       <i>TP1</i><br/>
+      <b>Soto Kong Requena, Andrés Eduardo:</b> Fui responsable de la definición y desarrollo de los bounded context correspondientes a los módulos de Mail y Memberships. A través de su enfoque en la estructuración de estos contextos, contribuyó significativamente a la organización y modularización de la aplicación, asegurando una integración coherente con los demás componentes del sistema.
       </td>
       <td>El equipo trabajó de manera colaborativa y eficiente, asumiendo roles clave en diversas áreas del proyecto. Se lideró el análisis de requisitos y la implementación de herramientas UX, mientras que se definieron y estructuraron los bounded contexts de la aplicación. Además, se orientó al equipo sobre los objetivos del proyecto, se desarrolló un prototipo de IoT de manera temprana y se aseguraron módulos integrados y coherentes para una solución efectiva. En conjunto, se logró una ejecución fluida y alineada con el problema a resolver.</td>
     </tr>
@@ -281,13 +309,16 @@ explican las ramas más prominentes:
       <b>Astuyauri Calderón, Jherson David:</b>
       Desarrollé y estructuré gran parte del Capítulo II, gestionando tareas como el As-is Scenario Mapping y la planificación del análisis de entrevistas. Promoví un entorno inclusivo con metas claras y coordinación efectiva para cumplir los objetivos del equipo<br>
       <br/>
-      <i>TB2</i><br/>
+      <i>TP1</i><br/>
       <b>Astuyauri Calderón, Jherson David:</b>
       Apoyé en la elaboración de los wireflows y userflows de ambas aplicaciones, organizando tareas por prioridad y asegurando entregables claros.<br>
       <br/>
       <i>TB1</i><br/>
       <b>Espinoza Rodríguez, Nicolás Antonio:</b>
       Se consideró como primer sprint del equipo el desarrollo de los artefactos de gestión y el planeamiento del proyecto. Se realizó el proceso del planning poker y se lograron estimar las historias de usuario que conforman nuestro backlog y alcance del proyecto. <br/><br/>
+      <i>TP1</i><br/>
+      <b>Espinoza Rodríguez, Nicolás Antonio:</b>
+      Se delegó a cada miembro del equipo el desarrollo de un apartado de los mock-ups. Luego, se procedió con la compartición de ideas y feedback respecto a las partes desarrolladas del figma del proyecto. En este entorno, se establecieron objetivos a alcanzar, tareas a realizar y metas conjuntas del equipo.<br/><br/>
       <i>TB1</i><br/>
       <b>Galavis Du Bois, Alan Enrique:</b>
       Me aseguré de repartir el trabajo de manera equitativa y de acuerdo al perfil de cada integrante del equipo, de forma que todos los miembros puedan cumplir con sus tareas con éxito<br/>
@@ -300,8 +331,12 @@ explican las ramas más prominentes:
       <b>Seminario Garbín, Carlo Luca:</b>
       Colabaré con mis compañeros expresando las ideas colaborativas para la integración de IoT, de modo que podamos lograr una solución adecuada para el contexto.
       <br/>
+      <i>TP1</i><br/>
+      <b>Seminario Garbín, Carlo Luca:</b>
+      Apoyé distribuyendo el trabajo entre el equipo escuchando propuestas y aportando ideas para avanzar de forma colaborativa en base a metas y objetivos.
+      <br/>
       <i>TB1</i><br/>
-      <b>Soto Kong Requena, Andrés Eduardo: Colabore para obtener un entorno colaborativo e inclusivo, asegurándose de que todas las metas fueran claras y alcanzables. Se encargó de coordinar tareas clave en el proceso de planificación, estableciendo un flujo de trabajo organizado y apoyando al equipo en el cumplimiento de los objetivos establecidos.</b>
+      <b>Soto Kong Requena, Andrés Eduardo</b>: Colabore para obtener un entorno colaborativo e inclusivo, asegurándose de que todas las metas fueran claras y alcanzables. Se encargó de coordinar tareas clave en el proceso de planificación, estableciendo un flujo de trabajo organizado y apoyando al equipo en el cumplimiento de los objetivos establecidos.
       </td>
       <td>El equipo trabajó de manera colaborativa e inclusiva, estableciendo metas claras y alcanzables para cumplir los objetivos del proyecto. Se promovió un ambiente de trabajo organizado y se gestionaron tareas clave como la planificación de entrevistas, el desarrollo de artefactos de gestión y la estimación de historias de usuario. Además, se distribuyó el trabajo de manera equitativa según las habilidades de cada miembro, se propusieron ideas colaborativas para la integración de IoT, y se garantizó una coordinación efectiva para lograr una solución adecuada y alineada con los objetivos del equipo.</td>
     </tr>
@@ -1143,8 +1178,7 @@ El lenguaje ubicuo permite que las personas del negocio, incluso aquellas sin co
 <h2 id='3.3.'>3.3. Impact Mapping</h2>
 <img src="assets/images/chapter_3/impact_mapping/impact_map.png" alt="impact map"/>
 
-Enlace para acceder a la imagen en
-<a href="https://drive.google.com/file/d/1yVWGNyuPBc9qrRnP36r73_fm8HVVXRoA/view">drive</a>
+Enlace para acceder a la imagen en <a href="https://drive.google.com/file/d/1yVWGNyuPBc9qrRnP36r73_fm8HVVXRoA/view">drive</a>
 
 <h2 id='3.4.'>3.4. Product Backlog</h2>
 
@@ -1179,52 +1213,52 @@ Se adoptó un enfoque colaborativo y visual para modelar el contexto del dominio
 <b>Unstructured Exploration</b>
 La primera fase consistió en una exploración abierta y sin estructura rígida. Durante esta etapa, el equipo compartió conocimientos, ideas y supuestos sobre el dominio del negocio. Se realizaron sesiones de brainstorming para identificar eventos clave, flujos de trabajo y dependencias. Esta exploración inicial sirvió como base para los siguientes pasos de modelado, permitiendo un entendimiento más profundo del sistema y sus necesidades antes de pasar a etapas más formales y detalladas del diseño.
 
-Insertar Imagen Actualizada
+<img src="assets/images/chapter_4/event_storming/unstructured_exploration.png" alt="Unstructured Exploration"/>
 
 <b>Pain Points</b>
 Durante el Event Storming, se identificaron varias áreas problemáticas o "puntos de dolor" que afectan el flujo de trabajo y la eficiencia del sistema. Estos puntos de dolor, como cuellos de botella en procesos clave, dependencias excesivas entre servicios, o dificultades en la escalabilidad, fueron discutidos para proponer soluciones. La identificación temprana de estos problemas permitió enfocar los esfuerzos en la optimización y mejora de los aspectos más críticos para el negocio.
 
-Insertar Imagen Actualizada
+<img src="assets/images/chapter_4/event_storming/pain_points.png" alt="Pain Points"/>
 
 <b>Timelines</b>
 Para garantizar una coordinación adecuada de las actividades y hitos clave, se implementaron múltiples líneas de tiempo (timelines). Estas líneas permitieron a los equipos visualizar de forma clara las fechas importantes y los entregables en cada fase del proyecto. Cada línea de tiempo se utilizó como una herramienta para alinear a los equipos en cuanto a las expectativas de plazos, asegurando que todas las partes involucradas comprendieran las prioridades y el ritmo del trabajo. También fueron esenciales para detectar desviaciones y tomar medidas correctivas en caso de retrasos.
 
-Insertar Imagen Actualizada
+<img src="assets/images/chapter_4/event_storming/timelines.png" alt="Timelines"/>
 
 <b>Pivotal Points</b>
 A lo largo del proyecto, identificamos varios puntos decisivos (pivotal points), que son momentos clave en los que se requiere tomar decisiones importantes para ajustar la dirección del proyecto. Estos puntos incluyen decisiones sobre la arquitectura, el manejo de dependencias críticas, la selección de tecnologías y la definición de estrategias para mitigar riesgos. Estos momentos fueron vitales para mantener el proyecto en curso, asegurando que las decisiones estratégicas se alinearan con los objetivos generales y que se minimizará el impacto de posibles riesgos a largo plazo. 
 
-Insertar Imagen Actualizada
+<img src="assets/images/chapter_4/event_storming/pivotal_points.png" alt="Pivotal Points"/>
 
 <b>Commands</b>
 Los comandos fueron definidos como las acciones que desencadenan cambios dentro del sistema. Cada comando representa una intención específica del usuario o del sistema para modificar el estado. Por ejemplo, la creación de un nuevo pedido o la actualización de un perfil de cliente. Estos comandos jugaron un papel crucial en la implementación de funcionalidades clave, permitiendo una gestión controlada y eficiente de las acciones que afectan al sistema, manteniendo la integridad de los datos y las operaciones.
 
-Insertar Imagen Actualizada
+<img src="assets/images/chapter_4/event_storming/commands.png" alt="Commands"/>
 
 <b>Policies</b>
 Se diseñaron políticas como reglas o restricciones que deben cumplirse antes de que se ejecute un comando o evento en el sistema. Estas políticas fueron fundamentales para garantizar la seguridad, consistencia y cumplimiento normativo dentro del flujo de trabajo. Las políticas también ayudaron a estandarizar decisiones, reduciendo la probabilidad de errores humanos y automatizando las decisiones repetitivas en el sistema. Por ejemplo, las políticas determinaron quién podía ejecutar ciertos comandos y bajo qué condiciones.
 
-Insertar Imagen Actualizada
+<img src="assets/images/chapter_4/event_storming/policies.png" alt="Policies"/>
 
 <b>Read Models</b>
 Los modelos de lectura son representaciones optimizadas de los datos del sistema, diseñadas específicamente para consultas rápidas y eficientes. A diferencia de los modelos transaccionales, que están diseñados para almacenar y modificar datos, los modelos de lectura están organizados para responder a preguntas y proporcionar vistas instantáneas del estado del sistema. En este caso, gestionamos varios modelos de lectura para proporcionar a los usuarios las vistas más relevantes de la información, lo que permitió consultas rápidas y precisas, sin afectar las operaciones críticas del sistema.
 
-Insertar Imagen Actualizada
+<img src="assets/images/chapter_4/event_storming/read_models.png" alt="Read Models"/>
 
 <b>External Systems</b>
 Como parte de la implementación, se identificaron y modelaron las interacciones con sistemas externos que proporcionarán datos o servicios esenciales para el proyecto. Estos sistemas externos pueden incluir proveedores de servicios en la nube, APIs de terceros, o sistemas heredados que necesitan ser integrados. La correcta identificación y modelado de estos sistemas externos fue crucial para garantizar una integración sin problemas, minimizando riesgos y asegurando la interoperabilidad entre todos los componentes del sistema.
 
-Insertar Imagen Actualizada
+<img src="assets/images/chapter_4/event_storming/external_systems.png" alt="External Systems"/>
 
 <b>Aggregates</b>
 Los agregados representan entidades clave dentro del sistema que encapsulan un conjunto de datos y comportamientos relacionados en torno a un único concepto del dominio. Cada agregado define límites claros sobre lo que puede o no puede ser modificado, protegiendo la consistencia y coherencia del estado. Durante el proceso, se analizaron los agregados relevantes para el dominio, asegurándonos de que cada entidad clave estuviera correctamente definida y alineada con las reglas del negocio.
 
-Insertar Imagen Actualizada
+<img src="assets/images/chapter_4/event_storming/aggregates.png" alt="Aggregates"/>
 
 <b>Bounded Contexts</b>
 Identificamos varios contextos delimitados (bounded contexts) para organizar las áreas funcionales del sistema. Cada contexto delimitado define los límites dentro de los cuales ciertos términos y conceptos tienen un significado claro y consistente. Esto permite segmentar el sistema en componentes manejables, donde cada equipo o módulo tiene responsabilidades bien definidas. Esta separación facilita la escalabilidad y la evolución del sistema, al mismo tiempo que evita problemas de ambigüedad y solapamiento en las funciones del sistema.
 
-Insertar Imagen Actualizada
+<img src="assets/images/chapter_4/event_storming/bounded_contexts.png" alt="Aggregates"/>
 
 Enlace al [Miro](https://miro.com/app/board/uXjVKhDrVvw=/?share_link_id=611418680068)
 
@@ -1247,7 +1281,8 @@ Se enfoca en la gestión de cómo las compañías obtienen una mejor suscripció
 <b>Mailing subdomain:</b>
 Este subdominio se encarga de gestionar el servicio de notificaciones y alertas por correo electrónico para los usuarios.
 
-Añadir subdominio IoT
+<b>IoT subdomain: </b>
+El subdominio gestiona la interacción con la capa edge y la interacción de la aplicación con los dispositivos IoT para la medición de parámetros.
 
 <h4 id='4.1.1.2.'>4.1.1.2. Domain Message Flows Modeling.</h4>
 
@@ -1290,22 +1325,22 @@ El proceso seguido para elaborar los bounded context canvases fue el siguiente:
 1. Definición del Bounded Context
 El primer paso es identificar y delimitar los diferentes Bounded Contexts en el sistema. Estos contextos representan áreas específicas donde los conceptos, reglas y entidades son consistentes. Ejemplos en nuestro sistema incluyen IAM, Personas, Memberships, Crops y Mails.
 
-2. Identificación de Entidades y Agregados
+1. Identificación de Entidades y Agregados
 Dentro de cada contexto, se identifican las entidades y agregados principales. Las entidades son objetos con identidad propia, y los agregados agrupan entidades relacionadas bajo una misma regla de negocio. En Crops, por ejemplo, las entidades incluyen "Cultivo" y "Registro de Cultivo".
 
-3. Relaciones entre Contextos
+1. Relaciones entre Contextos
 Se identifican las relaciones clave entre los diferentes Bounded Contexts, ya sea mediante APIs, eventos o comandos. Por ejemplo, IAM se encarga de la autenticación de los usuarios y es utilizado por los contextos de Personas, Memberships y Crops para autorizar el acceso.
 
-4. Definición de Interfaces de Comunicación
+1. Definición de Interfaces de Comunicación
 Las interfaces que permiten la interacción entre los contextos se definen, como APIs o eventos. Por ejemplo, Personas puede emitir un evento cuando se registra un nuevo perfil de usuario, lo cual impacta en IAM para autenticar al usuario.
 
-5. Ubiquitous Language
+1. Ubiquitous Language
 Se define un lenguaje común y coherente dentro de cada contexto para asegurar que todos los miembros del equipo compartan los mismos términos y definiciones, como "cultivo" o "calidad del cultivo" en el contexto de Crops.
 
-6. Reglas de Negocio
+1. Reglas de Negocio
 Cada contexto tiene reglas que rigen su funcionamiento. Por ejemplo, en Crops, las reglas de negocio incluyen la validación de la calidad del cultivo y el envío de alertas cuando los registros superan umbrales predefinidos.
 
-7. Visualización del Canvas
+1. Visualización del Canvas
 Finalmente, toda esta información se representa gráficamente en el Bounded Context Canvas, que incluye el nombre del contexto, las entidades, las relaciones, interfaces, el Ubiquitous Language, las reglas de negocio y los modelos de datos. Esto ayuda a facilitar la comprensión y la comunicación entre los equipos de desarrollo.
 
 A continuación se presentan los bounded context identificados:
@@ -2172,8 +2207,38 @@ El presente bounded context no cuenta con una instancia en la base de datos, dad
 
 <h1 id='5.'>5. Capítulo V: Solution UI/UX Design</h1>
 <h2 id='5.1.'>5.1. Style Guidelines</h2>
+
+En la siguiente sección, se presentan las especificaciones de diseño de interfaz de usuario asociadas al proyecto Greenhouse. Enlace para acceder al [Figma](https://www.figma.com/design/wPpvosGW28c7blfOfbBo2n/Integradis---Wireframes-Greenhouse---Emergentes?node-id=115-172&t=NhQBBIFdnfNgF1z4-1)
+
 <h3 id='5.1.1.'>5.1.1. General Style Guidelines</h3>
+
+Un "style guideline" o guía de estilo es un conjunto de reglas y pautas que establecen la forma en que se deben escribir, diseñar o presentar documentos, contenido web, software, o cualquier otro tipo de trabajo creativo. A continuación, se presentan los parámetros implementados en la estructura del proyecto.
+
+<img src="assets/images/chapter_5/style_guidelines/general_style_guide.jpg" alt="Greenhouse General Style Guidelines">
+
+<br/>
+
+- **Colores:** Los colores toman protagonismo de la primera percepción visual de los usuarios. Es así que, guiados por los principios de la psicología del color, se destinó al color verde como tonalidad principal de la paleta cromática en la implementación de la plataforma. El verde simboliza balance, crecimiento y prestigio, uno de los alcances de la startup. Por otra parte, el pigmento verde se asocia con la agricultura, el rubro al que se direcciona la plataforma; y, al concepto de armonía, lo cual se busca ofrecer al usuario dentro de la interacción en el servicio. Como tonalidades secundarias se tienen a: variedades cromáticas del color blanco y azul.
+
+  <img src="assets/images/chapter_5/style_guidelines/general_color_guide.jpg" alt="Greenhouse General Color Guidelines">
+
+- **Tipografía:** La tipografía establece jerarquía entre los diversos grupos de contenido de la página. Asimismo, cumple un rol importante al momento de guiar al usuario a través de la interfaz. En relación al proyecto, la fuente seleccionada fue "Inria Sans" en estilos Light, Medium, Regular, Semibold y Bold para los títulos, y "Noto Sans" para los párrafos.
+
+  <img src="assets/images/chapter_5/style_guidelines/general_typography_guide.jpg" alt="Greenhouse General Typography Guidelines">
+
 <h3 id='5.1.2.'>5.1.2. Web, Mobile and IoT Style Guidelines</h3>
+
+El enfoque de Greenhouse para la aplicación web y mobile consiste en transmitir una interfaz limpia y sencilla, a partir de la cual los usuarios podrán realizar sus objetivos con eficiencia.
+
+- **Tarjetas:** Se hace uso del componente "card" para agrupar los principales componentes de la aplicación. Las tarjetas incluyen un título, un subtítulo, un párrafo descriptivo y representarán un hipervínculo para la obtención de más información.
+
+- **Imágenes:** En el diseño de la aplicación, se incluirán imágenes tanto descriptivas como ornamentales. En primer lugar, la imagen de perfil del usuario y de la empresa en la cual está registrado dentro de la aplicación se encontrarán en todo momento en la parte superior derecha (En el caso de la aplicación web), y en la barra de navegación inferior (En el caso de la aplicación móvil). Esto con el objetivo de ayudar al usuario a identificar la sesión en la que se encuentra y ayudarlo a navegar rápidamente a su perfil. Adicionalmente, se contará con imágenes decorativas en las pantalla de inicio de sesión y creación de cuenta, únicamente con el propósito de captar la atención del usuario.
+
+- **Campo de entrada de texto:** Se hace uso de cuadros de  escritura con la finalidad de que el usuario introduzca información de diversos tipos, como por ejemplo, sus credenciales en el apartado de creación de cuenta o inicio de sesión, nombres/ID de cultivos en la sección cultivos en progreso o archivo de cultivos, nombres de trabajadores en la sección del directorio de empleados, etc. Estos campos de entrada deben ser lo suficientemente anchos como para encajar la mayor cantidad de texto esperada por el usuario, estableciendo como tamaño mínimo 10 caracteres.
+
+- **Botones:** En la aplicación web, se suelen encontrar en la parte inferior de las tarjetas o al extremo derecho de los cuadros de escritura. Estos botones permiten al usuario realizar acciones tales como cambiar de página, abrir un diálogo, editar un campo, etc. Adicionalmente, se deben mostrar botones de confirmación para las acciones que involucren agregar o eliminar información de la base de datos. En general, todos los botones cuentan con un estilo distintivo y un alto contraste con los colores del resto de la aplicación. Se utiliza la teoría del color en los botones de color rojo para representar acciones que eliminen procesos o los den por finalizados.
+
+- **Diálogos/Modales:** Los diálogos o modales son ventanas secundarias que tienen el objetivo de confirmar acciones clave para el funcionamiento del negocio y con gran repercusión en el mismo. Los diálogos cuentan con colores con un valor de matiz mayor que sus contrapartes pasteles del resto de la aplicación web. Además, su aparición oscurece el resto de la pantalla para generar un efecto de contraste. Este efecto busca transmitir la importancia de la resolución del asunto de la pantalla emergente antes de que el usuario continúe con la navegación en la app.
 
 <h2 id='5.2.'>5.2. Information Architecture</h2>
 <h3 id='5.2.1.'>5.2.1. Organization Systems</h3>
@@ -2188,6 +2253,107 @@ El presente bounded context no cuenta con una instancia en la base de datos, dad
 
 <h2 id='5.4.'>5.4. Applications UX/UI Design</h2>
 <h3 id='5.4.1.'>5.4.1. Applications Wireframes</h3>
+
+<h4 id='5.4.1.1.'>5.4.1.1. Web Application Wireframes </h4>
+
+<b>Inicio de sesión y creación de cuenta de empresa</b>
+Las siguientes imágenes evidencian el wireframe de la sección de inicio de sesión y de creación de cuenta de empresa. En estas, se muestran los campos que el usuario debe de completar para poder acceder a la empresa registrada en Greenhouse.
+
+<img src='assets/images/chapter_5/wireframes/login.png' alt='Login Wireframe' />
+
+<b>Perfil de usuario y de empresa</b>
+A continuación, se contemplan los wireframes del diseño para el perfil del usuario administrador, además de las vistas de cambio de contraseña y de la empresa con la cual está registrado en Greenhouse.
+
+<img src='assets/images/chapter_5/wireframes/profile.png' alt='Profile Wireframe' />
+
+<img src='assets/images/chapter_5/wireframes/organization_profile.png' alt='Organization Profile Wireframe' />
+
+<b>Menú principal</b>
+La imagen presentada a continuación representa la vista principal de Greenhouse. Los usuarios cuya identidad haya sido validada con éxito, podrán utilizar este portal para acceder a las demás funcionalidades que ofrece la aplicación.
+
+<img src='assets/images/chapter_5/wireframes/dashboard.png' alt='Dashboard Wireframe' />
+
+<b>Stepper</b>
+El stepper permite a los usuarios acceder a las diversas fases que componen un cultivo. Se mostrará un círculo con borde en caso de que la fase haya finalizado, un número sombreado para representar la fase actual del cultivo, y números con contorno ligero para indicar las fases que aún se han alcanzado.
+
+<img src='assets/images/chapter_5/wireframes/stepper.png' alt='Stepper Wireframe' />
+
+<b>Historial de cultivos</b>
+El siguiente wireframe representa las vistas de los cultivos archivados por los técnicos supervisores.
+
+<img src='assets/images/chapter_5/wireframes/crop_archive1.png' alt='Crop Archive 1 Wireframe' />
+
+<img src='assets/images/chapter_5/wireframes/crop_archive2.png' alt='Crop Archive 2 Wireframe' />
+
+<b>Reportes estadísticos</b>
+La sección de reportes estadísticos es accesible desde el menú principal. En esta vista, los administradores podrán visualizar gráficos que evidencian el rendimiento de la fábrica en el tiempo.
+
+<img src='assets/images/chapter_5/wireframes/reports.png' alt='Reports Wireframe' />
+
+<h4 id='5.4.1.2.'>5.4.1.2. Mobile Application Wireframes </h4>
+
+<b>Inicio de sesión y creación de cuenta de empresa</b>
+Las siguientes imágenes evidencian los wireframes de la sección de inicio de sesión y de creación de cuenta de empresa. En estas, se muestran los campos que el usuario debe de completar para poder acceder a la empresa registrada en Greenhouse.
+
+<img src='assets/images/chapter_5/wireframes/mobile_login.png' alt='Mobile Login Wireframe' />
+<img src='assets/images/chapter_5/wireframes/mobile_login2.png' alt='Mobile Login 2 Wireframe' />
+<img src='assets/images/chapter_5/wireframes/mobile_login3.png' alt='Mobile Login 3 Wireframe' />
+
+<b>Menú principal</b>
+La imagen presentada a continuación representa la vista principal de Greenhouse. Los usuarios cuya identidad haya sido validada con éxito, podrán utilizar este portal para acceder a las demás funcionalidades que ofrece la aplicación.
+
+<img src='assets/images/chapter_5/wireframes/mobile_menu.png' alt='Mobile Menu Wireframe' />
+
+<b>Cultivos en progreso</b>
+La sección cultivos en progreso es accesible desde el menú principal. En esta vista, los usuarios podrán visualizar una lista de cultivos que están actualmente activos
+
+<img src='assets/images/chapter_5/wireframes/mobile_crops_in_progress.png' alt='Mobile Crops In Progress Wireframe' />
+
+<b>Filtrar por fecha </b>
+Las imágenes presentadas a continuación representan el dialog que visualizará el usuario en caso desee filtrar la información de los registros o cultivos por fecha.
+
+<img src='assets/images/chapter_5/wireframes/mobile_calendar.png' alt='Mobile Calendar Wireframe' />
+<img src='assets/images/chapter_5/wireframes/mobile_calendar2.png' alt='Mobile Calendar 2 Wireframe' />
+
+<b>Stepper</b>
+El siguiente wireframe incluye el stepper, desde el cual es posible visualizar las diferentes fases que debe de atravesar un cultivo de champiñones.
+
+<img src='assets/images/chapter_5/wireframes/mobile_stepper.png' alt='Mobile Stepper Wireframe' />
+
+<b>Información de cultivos</b>
+En la siguiente imagen se evidencia una lista de los registros realizados por los usuarios para una fase determinada de un cultivo en específico. En esta vista, los administradores podrán deslizar a la izquierda u oprimir sobre el botón situado en la esquina superior derecha para eliminar por completo un registro realizado. Los administradores podrán utilizar la información presentada para tomar decisiones informadas sobre la empresa.
+
+<img src='assets/images/chapter_5/wireframes/crops_info.png' alt='Crops Info Wireframe' />
+<img src='assets/images/chapter_5/wireframes/crops_info2.png' alt='Crops Info 2 Wireframe' />
+
+<b>Edición de información registrada</b>
+Los administradores tendrán la posibilidad de modificar los registros realizados por los técnicos supervisores, con el objetivo de garantizar la integridad de la información. Esta vista es accesible tras oprimir el botón de edición situado en la esquina superior derecha de cada registro.
+
+<img src='assets/images/chapter_5/wireframes/mobile_info_edition.png' alt='Mobile Info Edition Wireframe' />
+<img src='assets/images/chapter_5/wireframes/mobile_info_edition2.png' alt='Mobile Info Edition 2 Wireframe' />
+
+<b>Historial de cultivos</b>
+Los siguientes wireframes representan las vistas de los cultivos archivados por los técnicos supervisores.
+
+<img src='assets/images/chapter_5/wireframes/mobile_crops_history.png' alt='Mobile Crops History Wireframe' />
+<img src='assets/images/chapter_5/wireframes/mobile_crops_history2.png' alt='Mobile Crops History 2 Wireframe' />
+<img src='assets/images/chapter_5/wireframes/mobile_crops_history3.png' alt='Mobile Crops History 3 Wireframe' />
+
+<b>Perfil de usuario y de empresa, y cambio de contraseña</b>
+Finalmente, se contemplan los wireframes del diseño para el perfil del usuario administrador, además de las vistas de cambio de contraseña y de la empresa con la cual está registrado en Greenhouse.
+
+<img src='assets/images/chapter_5/wireframes/mobile_profile.png' alt='Mobile Profile Wireframe' />
+<img src='assets/images/chapter_5/wireframes/mobile_profile2.png' alt='Mobile Profile 2 Wireframe' />
+
+<b>Invitación a técnico supervisor a empresa en Greenhouse</b>
+Los administradores podrán completar el formulario presentado a continuación para enviar una invitación por correo electrónico a los técnicos supervisores para que comiencen a disfrutar de los beneficios que ofrece la aplicación.
+
+<img src='assets/images/chapter_5/wireframes/mobile_invitation.png' alt='Mobile Invitation Wireframe' />
+
+<b>Reportes estadísticos</b>
+La sección de reportes estadísticos es accesible desde el menú principal. En esta vista, los administradores podrán visualizar gráficos que evidencian el rendimiento de la fábrica en el tiempo.
+
+<img src='assets/images/chapter_5/wireframes/mobile_reports.png' alt='Mobile Reports Wireframe'/>
 
 <h3 id='5.4.2.'>5.4.2. Applications Wireflow Diagrams</h3>
 
@@ -2334,9 +2500,102 @@ En primer lugar, el usuario debe de presionar sobre el botón “Perfil”, el c
 
 ![Wireflow](assets/images/chapter_5/wireflows/wireflowmobile9.png)
 
-
-
 <h3 id='5.4.3.'>5.4.3. Applications Mock-ups</h3>
+
+Esta sección presenta los mock-ups de nuestra aplicación web y móvil, las cuales fueron diseñadas con el propósito de tener representaciones visuales de cómo se verá la interfaz de usuario una vez desarrollada. Los mock-ups se caracterizan por ser detallados, ya que incluye el diseño, agrupación de elementos, tipografía, colores, entre otros, ya definidos en el general style guidelines. 
+
+<h4 id='5.4.3.1'>5.4.3.1 Web Application Mock-ups</h4>
+
+<b>Inicio de sesión</b>
+Las siguientes imágenes evidencian los mock-ups de la sección de inicio de sesión. En estas, se muestran los campos que el usuario debe de completar para poder acceder a la empresa registrada en Greenhouse.
+
+<img src='assets/images/chapter_5/mockups/login.png' alt='Login Mockup'/>
+
+<img src='assets/images/chapter_5/mockups/login2.png' alt='Login 2 Mockup'/>
+
+<img src='assets/images/chapter_5/mockups/memberships.png' alt='Memberships Mockup'/>
+
+<b>Cultivos en progreso</b>
+La sección cultivos en progreso es accesible desde el menú principal. En esta vista, los usuarios podrán visualizar una lista de cultivos que están actualmente activos. Adicionalmente, se observa la presencia de un botón flotante en la parte inferior, desde el cual los usuarios podrán crear un nuevo cultivo.
+
+<img src='assets/images/chapter_5/mockups/crops_in_progress.png' alt='Crops In Progress Mockup'/>
+
+<b>Stepper</b>
+El stepper permite a los usuarios acceder a las diversas fases que componen un cultivo. Se mostrará un círculo con borde negro en caso de que la fase haya finalizado, un número sombreado de verde para representar la fase actual del cultivo, y números con contorno ligero para indicar las fases que aún se han alcanzado.
+
+<img src='assets/images/chapter_5/mockups/stepper.png' alt='Stepper Mockup'/>
+
+<b>Historial de cultivos</b>
+Los siguientes mock-ups representan las vistas de los cultivos archivados por los técnicos supervisores.
+
+<img src='assets/images/chapter_5/mockups/crops_archive.png' alt='Crops Archive Mockup'/>
+
+<b>Perfil de usuario y de empresa</b>
+
+Finalmente, se contemplan los mock-ups del diseño para el perfil del usuario.
+
+<img src='assets/images/chapter_5/mockups/profile.png' alt='Profile Mockup'/>
+
+<h4 id='5.4.3.2'>5.4.3.2 Mobile Application Mock-ups</h4>
+
+<b>Inicio de sesión</b>
+Las siguientes imágenes evidencian los mock-ups de la sección de inicio de sesión. En estas, se muestran los campos que el usuario debe de completar para poder acceder a la empresa registrada en Greenhouse.
+
+<img src='assets/images/chapter_5/mockups/mobile_login.png' alt='Mobile Login Mockup'/>
+<img src='assets/images/chapter_5/mockups/mobilelogin2.png' alt='Mobile Login 2 Mockup'/>
+
+<b>Menú principal</b>
+La imagen presentada a continuación representa la vista principal de Greenhouse. Los usuarios cuya identidad haya sido autenticada con éxito, podrán utilizar este portal para acceder a las demás funcionalidades que ofrece la aplicación.
+
+<img src='assets/images/chapter_5/mockups/mobile_dashboard.png' alt='Mobile Dashboard Mockup'/>
+
+<b>Cultivos en progreso</b>
+La sección cultivos en progreso es accesible desde el menú principal. En esta vista, los usuarios podrán visualizar una lista de cultivos que están actualmente activos. Adicionalmente, se observa la presencia de un botón flotante en la parte inferior, desde el cual los usuarios podrán crear un nuevo cultivo.
+
+<img src='assets/images/chapter_5/mockups/mobile_crops_in_progress.png' alt='Mobile Crops In Progress Mockup'/>
+
+<b>Filtrar por fecha</b>
+Las imágenes presentadas a continuación representan el dialog que visualizará el usuario en caso desee filtrar los registros o cultivos por fecha.
+
+<img src='assets/images/chapter_5/mockups/mobile_calendar.png' alt='Mobile Calendar Mockup'/>
+<img src='assets/images/chapter_5/mockups/mobile_calendar2.png' alt='Mobile Calendar 2 Mockup'/>
+
+<b>Stepper</b>
+El stepper permite a los usuarios acceder a las diversas fases que componen un cultivo. Se mostrará un “check” en caso de que la fase haya finalizado, un número sombreado para representar la fase actual del cultivo, y números con contorno ligero para indicar las fases que aún se han alcanzado.
+
+<img src='assets/images/chapter_5/mockups/mobile_stepper.png' alt='Mobile Stepper Mockup'/>
+
+<b>Información de cultivos</b>
+En la siguiente imagen se evidencia una lista de los registros realizados por los usuarios para una fase determinada de un cultivo en específico. En esta vista, los usuarios tendrán la opción de presionar el botón flotante de la parte inferior derecha para crear un nuevo registro, o el de la parte inferior izquierda para finalizar la fase actual y habilitar la siguiente.
+
+<img src='assets/images/chapter_5/mockups/mobile_crop_info.png' alt='Mobile Crop Info Mockup'/>
+<img src='assets/images/chapter_5/mockups/mobile_crop_info2.png' alt='Mobile Crop Info 2 Mockup'/>
+
+<b>Registro de información de cultivos</b>
+La sección presentada a continuación es accesible mediante el botón flotante de la parte inferior izquierda mostrado en la vista anterior, o al presionar el botón de editar situado en cada tarjeta de registro. En esta sección, los técnicos supervisores podrán ingresar la información asociada a las actividades y procesos realizados en la fábrica, al igual que las condiciones actuales de los cultivos en progreso.
+
+<img src='assets/images/chapter_5/mockups/mobile_record.png' alt='Mobile Record Mockup'/>
+<img src='assets/images/chapter_5/mockups/mobile_record2.png' alt='Mobile Record 2 Mockup'/>
+
+<b>Historial de cultivos</b>
+Los siguientes mock-ups representan las vistas de los cultivos archivados por los técnicos supervisores.
+
+<img src='assets/images/chapter_5/mockups/mobile_story.png' alt='Mobile Story Mockup'/>
+<img src='assets/images/chapter_5/mockups/mobile_story2.png' alt='Mobile Story 2 Mockup'/>
+<img src='assets/images/chapter_5/mockups/mobile_story3.png' alt='Mobile Story 3 Mockup'/>
+
+<b>Perfil de usuario y de empresa, y cambio de contraseña</b>
+Finalmente, se contemplan los mock-ups del diseño para el perfil del usuario técnico supervisor, además de las vistas de cambio de contraseña y de la empresa con la cual está registrado en Greenhouse.
+
+<img src='assets/images/chapter_5/mockups/mobile_profile.png' alt='Mobile Profile Mockup'/>
+<img src='assets/images/chapter_5/mockups/mobile_profile2.png' alt='Mobile Profile 2 Mockup'/>
+<img src='assets/images/chapter_5/mockups/mobile_profile3.png' alt='Mobile Profile 3 Mockup'/>
+<img src='assets/images/chapter_5/mockups/mobile_profile4.png' alt='Mobile Profile 4 Mockup'/>
+
+<b>Reportes estadísticos</b>
+La sección de reportes estadísticos es accesible desde el menú principal. En esta vista, los administradores podrán visualizar gráficos que evidencian el rendimiento de la fábrica en el tiempo.
+
+<img src='assets/images/chapter_5/mockups/mobile_stats.png' alt='Mobile Statistics Mockup'/>
 
 <h3 id='5.4.4.'>5.4.4. Applications User Flow Diagrams</h3>
 
@@ -2348,7 +2607,7 @@ A continuación se mostrarán los user flow diagrams, los cuales permiten visual
 **User Persona:** Administrador  
 
 **Explicación del flujo:**  
-En primer lugar, los administradores deberán ingresar a la aplicación móvil. A continuación, deberán dirigirse al apartado de *Sign up*, dentro del cual se mostrará un formulario que solicitará ingresar información relevante para la creación de la cuenta, como, por ejemplo, razón social, RUC, nombre del registrante y contraseña de la cuenta. Seguidamente, se mostrarán dos botones, uno que representa la confirmación del usuario de haber leído los términos y condiciones de uso, y otro que confirma su intención de crear una cuenta. Una vez confirmada la intención de crear una cuenta, se redirigirá al usuario a la vista principal.
+En primer lugar, los administradores deberán ingresar a la aplicación móvil. A continuación, deberán dirigirse al apartado de *Sign up*, dentro del cual se mostrará un formulario que solicitará ingresar información relevante para la creación de la cuenta, como, por ejemplo, razón social, RUC, nombre del registrante y contraseña de la cuenta. Seguidamente, se mostrarán dos botones, uno que representa la confirmación del usuario de haber leído los términos y condiciones de uso, y otro que confirma su intención de crear una cuenta. Una vez confirmada la intención de crear una cuenta, se redirigirá al usuario a la vista crops in progress donde podrá elegir una membresia.
 
 Por otro lado, en caso de que el usuario haya creado previamente una cuenta en Greenhouse, y desee iniciar sesión, deberá completar el formulario que le solicita su usuario y contraseña. En caso de que estos sean validados, el sistema redirigirá al usuario al menú principal. Caso contrario, se mantendrá en la pestaña de inicio de sesión y se le solicitará introducir sus credenciales. En caso de que rechace cualquiera de estas dos operaciones, el usuario será redirigido a la vista inicial de bienvenida.
 
@@ -2356,53 +2615,65 @@ Por otro lado, en caso de que el usuario haya creado previamente una cuenta en G
 
 ---
 
-#### **User Goal:** Iniciar sesión  
+#### **User Goal:** Ver registros del cultivo.
 **User Persona:** Administrador  
 
 **Explicación del flujo:**  
-En primer lugar, los administradores deberán ingresar a la aplicación web. En caso de que el usuario haya creado previamente una cuenta en Greenhouse, y desee iniciar sesión, deberá completar el formulario que le solicita su usuario y contraseña. En caso de que estos sean validados, el sistema redirigirá al usuario al menú principal. Caso contrario, se mantendrá en la pestaña de inicio de sesión y se le solicitará introducir sus credenciales. En caso de que rechace cualquiera de estas dos operaciones, el usuario será redirigido a la vista inicial.
+En primer lugar, los administradores deberán ingresar a la aplicación web.Luego, cuando este en el home hace clic sobre un cultivo. Entonces, el sistema muestra la sección de los registros del cultivo junto con gráficos de varias características.
 
 ![Userflow Iniciar sesión](assets/images/chapter_5/userflows/userflowweb2.png)
 
 ---
 
-#### **User Goal:** Ver y editar perfil de usuario  
-**User Persona:** Administrador y Técnicos supervisores  
+#### **User Goal:** Aceptar la modificación de un registro del cultivo.
+**User Persona:** Administrador 
 
 **Explicación del flujo:**  
-En primer lugar, el usuario debe de presionar sobre el botón *Perfil*, el cual está situado en el *toolbar* superior de la aplicación. A continuación, visualizará una sección desde la cual podrá modificar la información asociada a su perfil personal. Adicionalmente, encontrará un botón que indica *Reset your password*, el cual luego de ser presionado, redirigirá al usuario a una vista desde la cual podrá cambiar su contraseña.
+En primer lugar, el usuario se debe encontrar en la página principal y al presionar a un cultivo. Se muestra la sección con lso registro de los cultivos. Entonces, se observa la solicitud de verificación a una correción de un registro de cultivo y se hace clic en aceptar para confirmar los cambios. 
 
 ![Userflow Ver y editar perfil](assets/images/chapter_5/userflows/userflowweb3.png)
 
 ---
 
-#### **User Goal:** Cambiar contraseña  
-**User Persona:** Administrador y Técnicos supervisores  
+#### **User Goal:** Ver, editar y eliminar a un trabajador.
+**User Persona:** Administrador 
 
 **Explicación del flujo:**  
-Cuando el usuario ingrese a su perfil, desde el *toolbar* situado en la parte superior derecha de la pantalla, y oprima sobre el botón *Forgot your password?*, será redirigido a una vista desde la cual podrá llenar un formulario que le solicita ingresar la nueva contraseña y confirmar su decisión de cambio. En caso de que la acepte, será redirigido a la vista anterior. Caso contrario, sucederá lo mismo, pero la operación solicitada no será procesada por el sistema.
+Cuando el usuario observe el directorio de trabajadores y presiona el icono de acción. Se muestra al trabajador con su nombre rol y todos los permisos activados por defecto.  Si se hace clic sobre el icono de editar nombre se puede editar el texto. Luego, si se hace clic en el icono de edición de rol, se puede elegir entre los roles disponibles. Finalmente, si se presiona en el botón de eliminar trabajor. Entonces, el trabajor será eliminado. 
 
 ![Userflow Cambiar contraseña](assets/images/chapter_5/userflows/userflowweb4.png)
 
 ---
 
-#### **User Goal:** Registrar información  
-**User Persona:** Técnico Supervisor  
+#### **User Goal:** Ver, editar y eliminar a un técnico supervisor.
+**User Persona:** Administrador 
 
 **Explicación del flujo:**  
-El técnico supervisor es el encargado de registrar información de las actividades realizadas y del estado de los cultivos por medio de la aplicación Greenhouse. Para cumplir este objetivo, el técnico debe de acceder a la sección de cultivos en progreso, para luego dirigirse al *stepper*, y finalmente oprimir sobre el botón situado en la esquina inferior izquierda para agregar un registro.
+Cuando el usuario observe el directorio de trabajadores y presiona el icono de acción de un supervisor. Se muestra al supervisor con su nombre rol y todos los permisos permitidos.  Si se hace clic sobre el icono de editar nombre se puede editar el texto. Luego, si se hace clic en el icono de edición de rol, se puede elegir entre los roles disponibles. Finalmente, si se presiona en el botón de eliminar trabajor. Entonces, el supervisor será eliminado. 
 
 ![Userflow Registrar información](assets/images/chapter_5/userflows/userflowweb5.png)
 
 ---
 
-#### **User Goal:** Ver registros archivados  
-**User Persona:** Técnico Supervisor  
+#### **User Goal:** Invitar a un trabajador  
+**User Persona:** Administrador  
 
 **Explicación del flujo:**  
-En primer lugar, el técnico supervisor debe de acceder a la sección de *Crops Archive*, la cual está disponible desde la vista principal *Home*. Dentro de *Crops Archive*, el usuario deberá elegir alguno de los cultivos archivados, y tras oprimirlo, será redirigido al *stepper*. Dentro del *stepper* podrá visualizar la fecha de inicio y fin del cultivo, y las diversas fases que atravesó.
+En primer lugar, el usuario se encuentra observando el directorio de trabajadores. Si hace clic sobre el botón "Invitar a trabajador", aparece un formulario que solicita información del trabajador y al oprimir "Enviar invitación por correo" o "cancelar", se cerrará el dialog y se regresará a la vista mi empresa.
 
 ![Userflow Ver registros archivados](assets/images/chapter_5/userflows/userflowweb6.png)
+
+#### **User Goal:** Ver las notificaciones
+**User Persona:** Administrador  
+
+**Explicación del flujo:**  
+En primer lugar, el usuario observa el home. En caso, haga clic en el icono de la campana se abre un apartado con todas las notificaciones para el usuario.
+
+![Userflow Ver registros archivados](assets/images/chapter_5/userflows/userflowweb7.png)
+
+
+
+
 
 ## Mobile Application User Flow Diagrams
 
@@ -2481,10 +2752,32 @@ En primer lugar, el técnico supervisor debe de acceder a la sección de “Crop
 El administrador es el encargado de la verificación de la información ingresada a la aplicación Greenhouse. Para cumplir este objetivo el administrador realiza el siguiente flujo, el cual representa el proceso de atender las solicitudes de edición o eliminación generadas por los técnicos supervisores.
 ![User Flow - Atender solicitudes](assets/images/chapter_5/userflows/userflowmobile8.png)
 
-
-
 <h2 id='5.5.'>5.5. Applications Prototyping</h2>
 
+Para poder elaborar los prototipos de la interfaz de usuario destinados a Web Browser y Mobile, se siguieron una serie de criterios fundamentales, entre ellos:
+1. Claridad y Facilidad: El enfoque fue lograr que la navegación en la aplicación sea intuitiva y comprensible, con el objetivo de que los usuarios puedan comprender plenamente las funciones de la aplicación, como son el registro de procesos y la visualización de reportes estadísticos.
+2. Diseño Responsive: Se ha tenido en cuenta la importancia del diseño "responsive" para garantizar que la aplicación sea compatible con una variedad de tamaños de pantalla, de tal manera que los usuarios no se vean limitados por el dispositivo que utilicen.
+3. Priorización de Información Relevante: El diseño de la aplicación se enfoca en mostrar únicamente la información más importante para los usuarios pertenecientes al segmento objetivo.
+
+<h3 id='5.5.1.'>5.5.1. Web Applications Prototyping</h3>
+
+A continuación, se presenta la explicación del prototipo de la web app Greenhouse, la cual está destinada a los usuarios administradores de la empresa, y desde la cual podrán visualizar un resumen general de la situación de la fábrica. En la explicación se detalla el flujo que recorre el usuario y los user goals que debe alcanzar.
+
+<img src="assets/images/chapter_5/prototyping/web_prototyping.png" alt="Mobile Prototyping">
+
+Enlace para acceder al video de explicación del [Web Applications Prototyping](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110223_upc_edu_pe/EQ0js7d08jxLl9IdgeJ2ahIBtXMuE6vtvdG05D4ujo_dog?e=fjomEb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Enlace para acceder al [Flujo](https://www.figma.com/proto/wPpvosGW28c7blfOfbBo2n/Integradis---Wireframes-Greenhouse---Emergentes?node-id=543-936&p=f&t=bO8peSzQWn0HOsZV-1&scaling=scale-down&content-scaling=fixed&page-id=115%3A172&starting-point-node-id=543%3A936)
+
+<h3 id='5.5.2.'>5.5.2. Mobile Applications Prototyping</h3>
+
+A continuación, se presenta la explicación del prototipo de la mobile app Greenhouse, la cual está destinada a los usuarios técnicos supervisores de la empresa, y desde la cual podrán visualizar un resumen general de la situación de la fábrica. En la explicación se detalla el flujo que recorre el usuario y los user goals que debe alcanzar.
+
+<img src="assets/images/chapter_5/prototyping/mobile_prototyping.png" alt="Mobile Prototyping">
+
+Enlace para acceder al video de explicación del [Mobile Applications Prototyping](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110223_upc_edu_pe/EUXQQYS6xoxOvbNxm5hCWDMB5-wC85iHXVq2wzoTTVPX9A?e=YcJHc3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Enlace para acceder al [Flujo](https://www.figma.com/proto/wPpvosGW28c7blfOfbBo2n/Integradis---Wireframes-Greenhouse---Emergentes?node-id=543-1064&t=lyOdfgUOBGZ3p1j4-1&scaling=min-zoom&content-scaling=fixed&page-id=533%3A476)
 
 <h1 id='conclusiones'>Conclusiones</h1>
 El desarrollo de los problem statements y assumptions demostró aproximarse bastante al comportamiento de nuestros segmentos objetivos de arrendador y arrendatario. Esto se debió a un correcto análisis (previo a la realización de entrevistas) sobre cómo planteamos llevar a cabo el proceso de alquiler de bicicletas y qué es lo que esperan los ciclistas en general en base a nuestros propios conocimientos, experiencia e investigación.
@@ -2493,6 +2786,1020 @@ Nuestras aproximaciones planteadas en el anterior punto se vieron más detallada
 Los hypotheses statements identificados en conjunto con los criterios de éxito (pertenecientes al proceso de Lean UX) tuvieron una aproximación a la realidad en las entrevistas de validación en su gran mayoría. El principal problema que se logró identificar fue que en algunos casos se plantearon hypotheses statements muy específicos que, a menos que se realicen preguntas igual de específicas, no podríamos validar. Además, en caso de realizar este tipo de preguntas, podría llegar a condicionar a nuestros entrevistados a hablar sobre un aspecto que a lo mejor no notaron, no recuerdan o desconocen al respecto. Por lo tanto, recomendamos de que para próximos trabajos se busque redactar hypothesis statements y criterios de éxito que no están tan centrados en features puntuales, sino más en cómo el usuario interactúa con las distintas aplicaciones.
 
 Consideramos fuertemente que las etapas más importantes de todo el proceso/roadmap de los productos digitales se encuentran en realizar buenas entrevistas para conocer a nuestros segmentos objetivos y para validar nuestro producto, Así como toda la parte que corresponde al diseño de la aplicación: mockups, wireframes, diagramas de clases y base de datos, etc. Ya que, estos forman parte del core del desarrollo del informe y proyecto para la parte de documentación e implementación correspondiente.
+
+<h1 id='6.'>6. Capítulo VI: Product Implementation, Validation & Deployment </h1>
+<h2 id='6.1.'>6.1. Software Configuration Management.</h2>
+<h3 id='6.1.1.'>6.1.1. Software Development Environment Configuration.</h3>
+**Requirements Management**
+
+1. Trello: Es una herramienta utilizada para gestionar el flujo de trabajo de proyectos principalmente basados en marcos de trabajos ágiles. Será empleado para visualizar y actualizar el estado actual de las tareas e historias de usuario pertenecientes al sprint a desarrollar. Ruta de referencia [https://trello.com/es](https://trello.com/es)
+
+**Product UX/UI Design**
+
+1. Figma: Plataforma de elaboración de prototipos y edición gráfica, principalmente utilizado para el diseño digital. En el caso del proyecto, será utilizado para el prototipado de la aplicación y sus versiones de Desktop y Mobile Web Browser. Ruta de referencia [https://www.figma.com/login](https://www.figma.com/login)  
+2. Lucidchart: Aplicación para diagramar flujos. Empleado para el diseño de wireflows, user-flows y el diagrama de clases asociado a la aplicación. Ruta de referencia [https://www.lucidchart.com/](https://www.lucidchart.com/)
+
+**Software Testing**
+
+1. Gherkin: Es un sistema de etiquetado utilizado para describir los criterios de aceptación de estructura de una user story. Ruta de referencia [https://cucumber.io/docs/gherkin/](https://cucumber.io/docs/gherkin/)   
+2. K6: Es una herramienta de código abierto diseñada para realizar pruebas de carga y pruebas de estrés en aplicaciones web modernas. Ruta de referencial: [https://k6.io/](https://k6.io/)   
+3. Jest: Es un framework de pruebas de JavaScript mantenido por Facebook. Se utiliza principalmente para pruebas unitarias de código JavaScript y React. Ruta de referencial: [https://jestjs.io/](https://jestjs.io/) 
+
+**Software Development**
+
+1. Visual Studio Code: Entorno de desarrollo integrado elegido para la elaboración y compilación del código por motivos de dominio por parte de los integrantes del equipo de trabajo. Utilizar este IDE supone de valor para el desarrollo del proyecto puesto que incluye la posibilidad de agregar extensiones de utilidad, soporte de edición de texto en múltiples lenguajes de programación, disponibilidad en múltiples sistemas operativos, entre otros beneficios. Ruta de referencia [https://code.visualstudio.com/](https://code.visualstudio.com/)   
+2. HTML5: HyperText Markup Language, o por sus siglas HTML, es un lenguaje de etiquetado para páginas web. Será empleado en el desarrollo del proyecto para la presentación del contenido en la aplicación. Ruta de referencia [https://www.w3schools.com/html/html5\_syntax.asp](https://www.w3schools.com/html/html5_syntax.asp)   
+3. CSS: Cascading Style Sheets es un lenguaje que maneja el diseño y presentación de las páginas web, el cual va de la mano con HTML. Ruta de referencia [https://google.github.io/styleguide/htmlcssguide.html](https://google.github.io/styleguide/htmlcssguide.html)   
+4. JavaScript: Es un lenguaje de programación interpretado y orientado a objetos. Se utilizará para elaborar la interfaz de usuario dentro de la aplicación. Ruta de referencia [https://developer.mozilla.org/es/docs/Web/JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)  
+5. React: Es una biblioteca de JavaScript de código abierto utilizada para construir interfaces de usuario (UI) interactivas y dinámicas para aplicaciones web. Ruta de referencia [https://es.react.dev/](https://es.react.dev/)   
+6. NestJS: Marco de trabajo para construir aplicaciones de servidor escalables y eficientes en Node.js. Provee una arquitectura modular que permite a los desarrolladores organizar su código de manera clara y mantenible, facilitando la construcción de aplicaciones complejas. Ruta de referencia [https://nestjs.com/](https://nestjs.com/)   
+7. PM2:  Es un administrador de procesos para aplicaciones Node.js que facilita la administración de aplicaciones en producción. PM2 permite gestionar, monitorear y mantener aplicaciones Node.js, garantizando un alto nivel de disponibilidad y rendimiento. Fuente de referencia: [https://pm2.keymetrics.io/](https://pm2.keymetrics.io/)   
+8. PostgreSQL: Es un sistema de gestión de bases de datos relacionales y de código abierto. Es conocido por su robustez, capacidad para manejar grandes volúmenes de datos y su soporte para características avanzadas como transacciones ACID y replicación. Ruta de referencia: [https://www.postgresql.org/](https://www.postgresql.org/)   
+9. Docker: Es una plataforma de software que permite la creación, el despliegue y la ejecución de aplicaciones en contenedores. Los contenedores permiten empaquetar una aplicación junto con todas sus dependencias en una unidad estándar, que la aplicación se ejecute rápidamente y de forma fiable en diferentes entornos. Ruta de referencia: [https://www.docker.com/](https://www.docker.com/)   
+10. Flutter: Framework open source de desarrollo de aplicaciones multiplataforma desde una única base de código. Resulta de utilidad para elaborar aplicaciones compatibles con Android e iOS. Ruta de referencia: [https://flutter.dev/](https://flutter.dev/)   
+11. Active MQ: ActiveMQ es un agente de mensajes de código abierto que implementa el protocolo Java Message Service (JMS). Es utilizado para la comunicación asíncrona entre aplicaciones distribuidas, facilitando la transmisión de mensajes entre clientes y servidores o entre sistemas dispares. Será empleado en el proyecto para gestionar la mensajería en tiempo real, permitiendo la publicación y suscripción a tópicos. Ruta de referencia: [https://activemq.apache.org/](https://activemq.apache.org/)  
+12. YOLO (You Only Look Once): YOLO es un modelo de aprendizaje profundo para la detección de objetos en tiempo real. Es conocido por su rapidez y precisión, lo que lo hace ideal para tareas de visión por computadora que requieren identificar y localizar objetos en imágenes. En este proyecto, YOLO será utilizado para analizar imágenes y determinar características específicas de cultivos o productos. Ruta de referencia: [https://github.com/ultralytics/yolov5](https://github.com/ultralytics/yolov5)  
+13. Firebase Storage: Firebase Storage es un servicio de almacenamiento de archivos proporcionado por Firebase, ideal para almacenar y servir contenido generado por el usuario como imágenes, videos o documentos. En este proyecto, se usará para gestionar de manera segura los archivos subidos por los usuarios desde las aplicaciones. Ruta de referencia: [https://firebase.google.com/products/storage](https://firebase.google.com/products/storage)
+14. Arduino IDE: Entorno de desarrollo utilizado para programar placas compatibles con Arduino, como el ESP32. Este IDE permite la escritura, compilación y carga de código en los microcontroladores mediante un entorno sencillo y especializado, facilitando la depuración y prueba de sensores y actuadores en proyectos embebidos. Ruta de referencia: [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software) 
+
+**Software Deployment**
+
+1. Azure: Plataforma de computación en la nube para construir, probar, desplegar y administrar aplicaciones y servicios mediante el uso de sus centros de datos. Ruta de referencia [https://azure.microsoft.com/es-es/resources/cloud-computing-dictionary/what-is-azure](https://azure.microsoft.com/es-es/resources/cloud-computing-dictionary/what-is-azure)   
+2. Amazon Web Services: Plataforma de servicios de computación en la nube que ofrece una amplia gama de servicios para construir, desplegar y escalar aplicaciones. Incluye infraestructura como servicio (IaaS), plataforma como servicio (PaaS) y software como servicio (SaaS). Ruta de referencia: [https://aws.amazon.com/es/](https://aws.amazon.com/es/)  
+3. Netlify: Plataforma de alojamiento y despliegue de sitios web y aplicaciones web estáticas. Ofrece una variedad de servicios para desarrolladores web que facilitan la creación, el despliegue y la gestión de sitios estáticos. Ruta de referencia [https://www.netlify.com/](https://www.netlify.com/)   
+4. Nginx: Es un servidor web ligero de rendimiento alto y proxy inverso. Además de su principal servidor como web, Nginx también puede utilizarse como balanceador de carga, proxy HTTP, servidor de correo electrónico IMAP/POP3, y más. Es conocido por su capacidad para manejar grandes cargas de tráfico de manera eficiente. Ruta de referencial: [https://nginx.org/](https://nginx.org/)   
+5. Docker-compose: Es una herramienta que permite definir y gestionar múltiples contenedores Docker como una aplicación. Utiliza un archivo YAML para configurar los servicios de la aplicación y su entorno de red, lo que simplifica el despliegue y la gestión de las aplicaciones complejas en contenedores en Docker. Ruta de referencial: [https://docs.docker.com/compose/](https://docs.docker.com/compose/)   
+6. Bash: Abreviatura de "Bourne Again Shell", es un intérprete de comandos ampliamente utilizado en sistemas operativos Unix y Unix-like, como Linux. Funciona como una interfaz de línea de comandos (CLI) que permite a los usuarios interactuar con el sistema operativo mediante comandos textuales. Además de ejecutar comandos individuales, Bash es ideal para escribir scripts (archivos de comandos) que automatizan tareas repetitivas o complejas. Ruta de referencial: [https://www.gnu.org/software/bash/](https://www.gnu.org/software/bash/)   
+7. Github Actions: Es un servicio de integración continua y entrega continua (CI/CD) ofrecido por GitHub. Permite automatizar tareas de desarrollo como pruebas, compilación y despliegue de código directamente desde repositorios GitHub. Ruta de referencia: [https://docs.github.com/en/actions](https://docs.github.com/en/actions)   
+8. Amazon MQ: Amazon MQ es un servicio de agente de mensajes administrado que facilita la configuración y operación de agentes de mensajes populares como ActiveMQ o RabbitMQ. Es útil para aplicaciones que requieren mensajería confiable en sistemas distribuidos, lo que asegura la entrega de mensajes incluso en caso de fallos del sistema. Ruta de referencia: [https://aws.amazon.com/amazon-mq/](https://aws.amazon.com/amazon-mq/)  
+9. Route 53: Amazon Route 53 es un servicio de sistema de nombres de dominio (DNS) escalable y de alta disponibilidad diseñado para dirigir a los usuarios finales a aplicaciones de internet de manera confiable. Proporciona registro de dominios, enrutamiento de tráfico, y supervisión de salud. Será empleado en el proyecto para gestionar los nombres de dominio y garantizar un enrutamiento óptimo del tráfico. Ruta de referencia: [https://aws.amazon.com/route53/](https://aws.amazon.com/route53/)  
+10. Resed: Resend es una plataforma de envío de correos electrónicos transaccionales en la nube. Permite enviar correos electrónicos de manera rápida y escalable, ideal para aplicaciones que necesitan gestionar comunicaciones como notificaciones, verificaciones o mensajes automatizados. Será útil para enviar correos electrónicos en el proyecto, como alertas o confirmaciones a los usuarios de la aplicación. Ruta de referencia: [https://resend.com](https://resend.com)
+
+**Software Documentation and Project Management**
+
+1. Git: Herramienta de control de versiones que permite registrar y gestionar las diferentes versiones del programa. Se utilizará para mantener un historial de cambios y simplificar la corrección de errores. Los miembros del equipo accederán a través de la línea de comandos en sus sistemas locales. Ruta de referencia [https://git-scm.com/](https://git-scm.com/)   
+2. Github: Plataforma basada en la nube que alojará los repositorios de código del proyecto. Facilitará la colaboración en tiempo real y la revisión de contribuciones de cada miembro del equipo. Los miembros del equipo accederán a través de sus navegadores web. Ruta de referencia [https://github.com/](https://github.com/)
+
+<h3 id='6.1.2.'>6.1.2. Source Code Management.</h3>
+El proyecto seguirá las convenciones de flujo de trabajo establecidas por el modelo GitFlow para el control de versiones, utilizando GitHub como plataforma y sistema de control de versiones. A continuación, se detallará cómo se implementará GitFlow como Workflow de control de versiones, además de proporcionar los URL de los repositorios de GitHub para cada producto: Landing Page, Web Services y Frontend Web Applications.
+
+**Repositorio de GitHub:** Enlace para acceder a la organización en GitHub Enlace para acceder al repositorio de la Landing Page Enlace para acceder al repositorio del Frontend Web Application
+
+**Flujo de trabajo GitFlow:** El flujo de trabajo a utilizar para el desarrollo del proyecto fue el planteado por Vincent Driessen en "A successful Git branching model".
+
+<img src='assets/images/chapter_6/software_development_envirioment_configuration/GitFlow.png' alt='Git Flow' />
+
+**Estructura de branches (Ramas):**
+
+**Master branch** (Rama principal): Esta rama será considerada como la principal para la aplicación, y contendrá versiones estables y finales del desarrollo. Solo se permitirán cambios que hayan sido previamente probados y verificados en otras ramas de prueba.
+
+**Develop branch** (Rama de desarrollo): El propósito de esta rama es llevar a cabo los avances del proyecto en equipo y de mantener los archivos centrales del desarrollo continuo.
+
+**Feature branches** (Ramas de funcionalidad): Cada funcionalidad desarrollada por el equipo o separada del enfoque actual del desarrollo tendrá su propia rama. Una vez que una funcionalidad esté completamente trabajada, se fusionará con la rama de desarrollo del proyecto. Las convenciones para nombrar las ramas de funcionalidad seguirán un patrón descriptivo y único, por ejemplo, "feature/nombre-de-la-funcionalidad".
+
+**Release branches** (Ramas de lanzamiento): Estas ramas se utilizarán para mantener una instancia de la rama develop que esté próxima a ser incluida en la rama principal. Se seguirá el sistema de versionamiento semántico (Semantic Versioning) para nombrar las Releases.
+
+**Hotfix branches** (Ramas de corrección): Se crearán para abordar de manera puntual y eficiente la corrección de errores identificados en la rama principal que afecten significativamente la experiencia de los usuarios.
+
+**Versionamiento Semántico**: Para nombrar las Releases, se aplicará el sistema de versionamiento semántico (Semantic Versioning 2.0.0).
+
+**Convenciones de Commits**: Para los mensajes de los commits realizados, se utilizará la especificación Conventional Commits basada en Angular Commit Guidelines. La estructura a seguir será la siguiente:
+
+git commit \-m "\<type\>\[optional scope\]:\<title\>" \-m"\<description"\>
+
+<h3 id='6.1.3.'>6.1.3. Source Code Style Guide & Conventions.</h3>
+
+**HTML:** Algunas de las prácticas que deben de seguirse para alcanzar un código coherente, sostenible y ordenado son las siguientes:
+
+1. Cerrar todos los elementos HTML: Por ejemplo, \<p\>Esto es un párrafo.\</p\>  
+2. A pesar de que HTML permite combinar mayúsculas y minúsculas en los nombres de los elementos y atributos, se limitará al uso de minúsculas para mantener el orden y garantizar la legibilidad.  
+3. Utilizar comillas en caso de que los atributos contengan espacios entre sí.  
+4. Procurar especificar el texto alt y las dimensiones width y height de las imágenes, ya que de esta manera se facilitará la disponibilidad del contenido. Por ejemplo: \<img src="abc.img" alt="image name" style="width:128px;height:128px"\>
+
+**CSS:** Entre las prácticas empleadas se mencionan:
+
+1. Los nombres de las clases deben de ser breves y auto descriptivos.  
+2. Separar los nombres de las clases y ID con un guión, por ejemplo: \#video-id y .hero-shadow{}  
+3. Evitar especificar la unidad de medida luego de usar el valor 0\.  
+4. Separar las declaraciones y selectores en nuevas líneas para agilizar la legibilidad.
+
+**Gherkin:** Es un lenguaje de dominio específico, el cual busca solucionar un problema concreto, la comunicación entre los negocios y la parte técnica al trabajar con Behavior Driven Development, abreviado por sus siglas en inglés como BBD. En busca de una buena práctica, se ocuparon los saltos de línea para mejorar el orden de los diversos tipos de escenarios y diferenciarlos de forma más óptima. Adicionalmente, se utilizaron las palabras clave "Given", "When", "Then" y "And" para estructurar los escenarios.
+
+<h3 id='6.1.4.'>6.1.4. Software Deployment Configuration.</h3>
+
+**Web App:**
+
+Para la aplicación web se realizó el despliegue mediante Netlify. Este se vincula con el repositorio de Github y a partir de allí es que se realiza un despliegue continuo a partir de la rama que se selecciona.
+
+Como un segundo paso se tiene que realizar la creación de un archivo \_redirects dentro de la carpeta public para que este se encargue de que la navegación funcione correctamente, el contenido de dicho archivo es el siguiente:  
+/\* /index.html 200
+
+**Mobile App:**
+
+Para Mobile App se realizó se realizará el despliegue para Android de la siguiente manera:
+
+En la carpeta del proyecto se ingresa al terminal y se tiene que ejecutar el comando:
+
+- flutter build apk \--release  
+
+En el cual se genera el archivo resultante en:
+
+- Built build/app/outputs/flutter-apk/app-release.apk (28.0MB)
+
+Luego de ello se sube el archivo a Google Drive y se genera un código QR con el enlace del archivo de Google Drive.
+
+Se utiliza una instancia de Amazon EC2 free tier con Amazon Linux 2023\. En ella se almacenan un Dockerfile y un docker-compose.yml.
+
+<img src='assets/images/chapter_6/software_deployment_configuration/vm_connection.png' alt='AWS VM Connection' />
+
+
+El Dockerfile es el siguiente:
+
+\# Use the Alpine base image
+
+FROM alpine:latest
+
+\# Install required packages
+
+RUN apk update && \\
+
+	apk add \--no-cache git nodejs npm docker docker-compose
+
+\# Initialize Git repository
+
+RUN git init
+
+\# Clone the application repository
+
+RUN git clone https://github.com/re-greenhouse/backend-gh.git
+
+\# Set working directory
+
+WORKDIR /backend-gh
+
+\# Checkout the desired branch
+
+RUN git checkout feature/env
+
+\# Install npm dependencies
+
+RUN npm install
+
+\# Copy the environment file
+
+RUN cp .env.example .env
+
+\#Update the .env file with resend api
+
+RUN sed \-i 's/RESEND\_API\_KEY=.\*/RESEND\_API\_KEY=***ColocarAcáElApiKey***/' .env
+
+\# Install PM2 globally
+
+RUN npm install pm2 \-g
+
+\# Build the application
+
+RUN npm run build api-gateway && \\
+
+	npm run build iam && \\
+
+	npm run build personas && \\
+
+	npm run build crops && \\
+
+    	npm run build mailing && \\
+
+	npm run build memberships
+
+\# Expose the ports
+
+EXPOSE 3000
+
+\# Start the PM2 processes using the configuration file
+
+CMD \["pm2-runtime", "start", "pm2.config.js"\]
+
+Básicamente se levanta todo el proyecto en una imagen de docker de alpine. Cabe destacar el archivo pm2.config.js el cuál corresponde a la configuración con la cuál se van a ejecutar los microservicios en diferentes procesos mediante PM2:
+
+module.exports \= {
+
+  apps: \[
+
+	{
+
+  	name: "api-gateway",
+
+  	script: "dist/apps/api-gateway/src/main.js",
+
+  	instances: 1,
+
+  	autorestart: true,
+
+  	watch: false,
+
+  	max\_memory\_restart: '1G',
+
+  	env: {
+
+    	NODE\_ENV: 'production',
+
+    	PORT: 3000
+
+  	}
+
+	},
+
+	{
+
+  	name: "api-gateway-2",
+
+  	script: "dist/apps/api-gateway/src/main.js",
+
+  	instances: 1,
+
+  	autorestart: true,
+
+  	watch: false,
+
+  	max\_memory\_restart: '1G',
+
+  	env: {
+
+    	NODE\_ENV: 'production',
+
+    	PORT: 3010
+
+  	}
+
+	},
+
+	{
+
+  	name: "iam",
+
+  	script: "dist/apps/iam/src/main.js",
+
+  	instances: 1,
+
+  	autorestart: true,
+
+  	watch: false,
+
+  	max\_memory\_restart: '1G',
+
+  	env: {
+
+    	NODE\_ENV: 'production'
+
+  	}
+
+	},
+
+	{
+
+  	name: "personas",
+
+  	script: "dist/apps/personas/src/main.js",
+
+  	instances: 1,
+
+  	autorestart: true,
+
+  	watch: false,
+
+  	max\_memory\_restart: '1G',
+
+  	env: {
+
+    	NODE\_ENV: 'production'
+
+  	}
+
+	},
+
+	{
+
+  	name: "crops",
+
+  	script: "dist/apps/crops/src/main.js",
+
+  	instances: 1,
+
+  	autorestart: true,
+
+  	watch: false,
+
+  	max\_memory\_restart: '1G',
+
+  	env: {
+
+    	NODE\_ENV: 'production'
+
+  	}
+
+	}
+
+  \]
+
+};
+
+Como se puede observar se levantan todos los microservicios y para lograr alta disponibilidad se está levantando un segundo api-gateway en un puerto diferente que más adelante veremos cómo es utilizado con Nginx.
+
+Tras esto se tiene el archivo docker-compose.yml, en el que podemos observar que se está levantando una base de datos de postgres por cada microservicio, y además se está levantando la imagen del backend con los microservicios en monorepo y con los puertos 3000 y 3010 (correspondientes a API-Gateway expuestos), cabe destacar que para realizar la conexión a la base de datos desde los microservicios se utilizó un custom network de modo que cuando se levante el docker-compose las bd tengan una IPV4 estática y se pueda realizar la conexión satisfactoriamente:
+
+version: "3.9"
+
+services:
+
+  pg-iam:
+
+	image: postgres
+
+	restart: always
+
+	environment:
+
+  	POSTGRES\_PASSWORD: pass123
+
+	networks:
+
+  	custom\_network:
+
+    	ipv4\_address: 172.16.238.10
+
+  pg-personas:
+
+	image: postgres
+
+	restart: always
+
+	environment:
+
+  	POSTGRES\_PASSWORD: pass123
+
+	networks:
+
+  	custom\_network:
+
+    	ipv4\_address: 172.16.238.11
+
+  pg-crops:
+
+	image: postgres
+
+	restart: always
+
+	environment:
+
+  	POSTGRES\_PASSWORD: pass123
+
+	networks:
+
+  	custom\_network:
+
+    	ipv4\_address: 172.16.238.12
+
+  pg-mailing:
+
+	image: postgres
+
+	restart: always
+
+	environment:
+
+  	POSTGRES\_PASSWORD: pass123
+
+	networks:
+
+  	custom\_network:
+
+    	ipv4\_address: 172.16.238.13
+
+   	 
+
+  pg-memberships:
+
+	image: postgres
+
+	restart: always
+
+	ports:
+
+  	\- "5436:5432"
+
+	environment:
+
+  	POSTGRES\_PASSWORD: pass123
+
+	networks:
+
+  	custom\_network:
+
+    	ipv4\_address: 172.16.238.14
+
+  backend-gh:
+
+	image: backend:latest
+
+	restart: always
+
+	ports:
+
+  	\- "3000:3000"
+
+	depends\_on:
+
+  	\- pg-iam
+
+  	\- pg-personas
+
+  	\- pg-crops
+
+  	\- pg-mailing
+
+  	\- pg-memberships
+
+	networks:
+
+  	custom\_network:
+
+    	ipv4\_address: 172.16.238.15
+
+  backend-gh-2:
+
+	build:
+
+  	context: .
+
+  	dockerfile: Dockerfile
+
+	restart: always
+
+	ports:
+
+  	\- "3010:3000"
+
+	depends\_on:
+
+  	\- pg-iam
+
+  	\- pg-personas
+
+  	\- pg-crops
+
+  	\- pg-mailing
+
+  	\- pg-memberships
+
+	networks:
+
+  	custom\_network:
+
+    	ipv4\_address: 172.16.238.16
+
+networks:
+
+  custom\_network:
+
+	driver: bridge
+
+	ipam:
+
+  	config:
+
+    	\- subnet: 172.16.238.0/24
+
+Com estos dos archivos se levantan con los siguientes comandos:
+
+$ docker build \-t backend:latest
+
+$ docker compose up \-d
+
+Con ello nuestro backend estaría levantado sin embargo se decidió usar nginx para realizar un reverse proxy a la vez que un balanceador de carga y así al ejecutarse en el puerto 80 tener salida a internet desde la VM.
+
+Para Nginx se optó descarglo en la VM en lugar del container de docker. Se ejecutaron los siguientes comandos:
+
+$ sudo yum install nginx
+
+$ sudo systemctl enable nginx && sudo systemctl start nginx
+
+$ sudo nano /etc/nginx/nginx.conf
+
+En este último se realizaron los cambios en la configuración de Nginx para que se adapte a nuestras necesidades, en este caso tener un upstream con ambos api-gateway de modo que distribuya la carga entre ambos procesos, y en caso se caiga uno siga ejecutándose en el otro. Este es la configuración que se colocó:
+
+upstream api\_gateway\_upstream {
+
+    	server 127.31.44.186:3000;
+
+    	server 127.31.44.186:3010;
+
+	}
+
+	server {
+
+	listen 80;
+
+	listen \[::\]:80;
+
+	server\_name ec2-18-119-14-190.us-east-2.compute.amazonaws.com;
+
+	location / {
+
+    	proxy\_pass http://api\_gateway\_upstream;
+
+    	proxy\_set\_header Host $host;
+
+    	proxy\_set\_header X-Real-IP $remote\_addr;
+
+    	proxy\_set\_header X-Forwarded-For $proxy\_add\_x\_forwarded\_for;
+
+    	proxy\_set\_header X-Forwarded-Proto $scheme;
+
+	}
+
+De este modo quedaría corriendo Ngnix como reverse proxy y mostrando desde el puerto 80 nuestro backend. Luego se ejecuta lo siguiente:
+
+$ sudo nginx \-t
+
+$ sudo systemctl restart nginx
+
+Para automatizar este proceso de despliegue igualmente se realizaron scripts que actualicen el despliegue tras luego correrlos, el primero un script the bash que detiene el docker compose, luego elimina el container e imagen del backend, y vuelve a crear la imagen y correr el docker compose con la nueva imagen. Mientras que a su vez se utilizó un github actions workflow para que cuando detecté que hay un push a la branch correspondiente, se conecte al servidore y ejecute el comando update.sh.
+
+- update.sh:
+
+  \#\!/bin/bash
+
+
+  \# Stop Docker containers
+
+  docker-compose stop
+
+
+  \# Delete the container (if it exists)
+
+  docker rm \-f ec2-user-backend-gh-1
+
+  docker rm \-f ec2-user-backend-gh-2-1
+
+
+  \# Delete the existing Docker image (if it exists)
+
+  docker rmi \-f backend:latest
+
+
+  \# Build the Docker image
+
+  docker build \--no-cache \-t backend:latest .
+
+
+  \# Start Docker containers
+
+  docker-compose up \-d
+
+
+- Github Actions Workflow:
+
+name: Deploy on Push
+
+on:
+
+  push:
+
+	branches:
+
+  	\- feature/deploy  \# Specify your deployment branch here
+
+jobs:
+
+  deploy:
+
+	runs-on: ubuntu-latest
+
+	steps:
+
+	\- name: Checkout code
+
+  	uses: actions/checkout@v2
+
+	\- name: Set up SSH
+
+  	uses: webfactory/ssh-agent@v0.5.3
+
+  	with:
+
+    	ssh-private-key: ${{ secrets.SSH\_PRIVATE\_KEY }}
+
+	\- name: Copy SSH key
+
+  	run: |
+
+    	mkdir \-p \~/.ssh
+
+    	echo "${{ secrets.SSH\_PRIVATE\_KEY }}" \> \~/.ssh/gh.pem
+
+    	chmod 600 \~/.ssh/gh.pem
+
+	\- name: Execute update script on server
+
+  	run: |
+
+    	ssh \-o StrictHostKeyChecking=no \-i \~/.ssh/gh.pem ec2-user@ec2-18-119-14-190.us-east-2.compute.amazonaws.com 'bash \-c "/home/ec2-user/[update.sh](http://update.sh)"'
+
+**Embedded App:**
+
+Para el caso de la aplicación Iot embebida está será instalada mediante Arduino Ide y una conexión usb, a la cuál se le subirá el código al microcontrolador ESP32.
+
+<h2 id='6.2.'>6.2. Landing Page, Services & Applications Implementation.</h2>
+<h3 id='6.2.1.'>6.2.1. Sprint 1.</h3>
+<h4 id='6.2.1.1.'>6.2.1.1. Sprint Planning 1.</h4>
+
+<h4 id='6.2.1.1.'>6.2.1.1. Sprint Planning 1.</h4>
+
+<table border="1">
+  <tr>
+    <th>Sprint #</th>
+    <td>1</td>
+  </tr>
+  <tr>
+    <th colspan="2">Sprint Planning Background</th>
+  </tr>
+  <tr>
+    <th>Date</th>
+    <td>2025-05-05</td>
+  </tr>
+  <tr>
+    <th>Time</th>
+    <td>20:00 PM</td>
+  </tr>
+  <tr>
+    <th>Location</th>
+    <td>Reunión virtual mediante la aplicación Discord</td>
+  </tr>
+  <tr>
+    <th>Prepared By</th>
+    <td>Nicolas Espinoza</td>
+  </tr>
+  <tr>
+    <th>Attendees (to planning meeting)</th>
+    <td>Astuyauri, Jherson <br/> Espinoza, Nicolás <br/> Galavis, Alan <br/> Seminario, Carlo <br/> Soto, Andrés</td>
+  </tr>
+  <tr>
+    <th>Sprint n – 1 Review Summary</th>
+    <td>No corresponde</td>
+  </tr>
+  <tr>
+    <th>Sprint n – 1 Retrospective Summary</th>
+    <td>No corresponde</td>
+  </tr>
+  <tr>
+    <th colspan="2">Sprint Goal & User Stories</th>
+  </tr>
+  <tr>
+    <th>Sprint 1 Goal</th>
+    <td>
+Our focus is on creating a fully functional and informative landing page for the Greenhouse application.
+We believe it delivers clear communication and attracts potential users by showcasing the key benefits of the platform.
+This will be confirmed when visitors can access the landing page, understand the value of the application, and navigate to the sign-up page for further engagement.</td>
+  </tr>
+  <tr>
+    <th>Sprint 1 Velocity</th>
+    <td>Para este sprint, se consideró aceptar como máximo 26 story points.</td>
+  </tr>
+  <tr>
+    <th>Sum of Story Points</th>
+    <td>26</td>
+  </tr>
+</table>
+
+<h4 id='6.2.1.2.'>6.2.1.2. Aspect Leaders and Collaborators.</h4>
+
+<table border="1">
+  <tr>
+    <th>Team Member (Last Name, First Name)</th>
+    <th>GitHub Username</th>
+    <th>Diseño visual de la landing page Leader (L) / Collaborator (C)</th>
+    <th>Desarrollo de la estructura de la landing page Leader (L) / Collaborator (C)</th>
+    <th>Redacción del Contenido textual y descriptivo (L) / Collaborator (C)</th>
+    <th>Despliegue de la landing page Leader (L) / Collaborator (C)</th>
+    <th>Documentacion en el informe de la landing page Leader (L) / Collaborator (C)</th>
+  </tr>
+  <tr>
+    <td>Astuyauri Calderon, Jherson David</td>
+    <td>JHS-Sama24</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Espinoza Rodríguez, Nicolás Antonio</td>
+    <td>EspinozaNaer</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+    <tr>
+    <td>Galavis Du Bois, Alan Enrique</td>
+    <td>TrabajosUPC-AlanGalavis</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  </tr>
+    <tr>
+    <td>Seminario Garbín, Carlo Luca</td>
+    <td>CarloLSG</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+  </tr>
+    </tr>
+    <tr>
+    <td>Soto Kong Requena, Andrés Eduardo</td>
+    <td>asotito231</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+</table>
+
+<h4 id='6.2.1.3.'>6.2.1.3. Sprint Backlog 1.</h4>
+
+El objetivo principal del Sprint 2 fue entrenar, probar, conectar e implementar el modelo de inteligencia artificial para poder analizar las imágenes de cultivos de champiñones y de esta manera evaluar la calidad final de los cultivos.
+
+| Sprint \# 1 |  |  |  |  |  |  |  |
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| Technical User Story |  | WorkItem/Task |  |  |  |  |  |
+| ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status |
+| US05 | Acceso a Datos Históricos | TK01 | Realizar vista de datos historicos | Generar seccion donde se van a mostrar todos los datos que hay | 1 | Andres Soto | Done |
+| US08 | Iniciar sesion | TK02 | Realizar vista de inicio de sesion | Generar seccion donde se va a mostrar el inicio de sesion | 1 | Carlo Seminario | Done  |
+|  |  | TK03 | Realizar proceso de autenticacion | Desarrollar proceso de autenticacion | 1 | Andres Soto | Done |
+| US09 | Crear cuenta empresa | TK04 | Creacion de cuenta de la empresa | Desde la web app permitir al usuario generar su cuenta de empresa | 1 | Carlo Seminario | Done |
+| US10 | Crear cuenta tecnico supervisor | TK05 | Creaion de la cuenta del tecnico supervisor | Permitir que solo los administradores puedan crear cuenta de tecnico supervisor para sus empleados | 1 | Alan Galavis | Done |
+| US11 | Iniciar Nuevo Cultivo | TK06 | Realizar funcionalidad de creacion de nuevo cultivo | Permitir que los usuarios tecnicos supervisores creen nuevos cultivos | 1 | Nicolas espinoza | Done |
+| US12 | Editar y Eliminar Cultivos | TK07 | Permitir que se pueda editar o eliminar cultivos | Desde la web app o app movil permitir que los usuarios puedan modificar informacion de los cultivos o eliminarlos. | 1 | Andres Leiva | Done |
+| US13 | Documentar registros durante la preparación, cocción y pasteurización del compost | TK08 | Documentar los registros en las ultimas fases de produccion | Permitir que los usuarios registren informacion en las ultimas fases del desarrollo | 1 | Nicolas Espinoza | Done |
+| US14 | Ver Listado de Cultivos en Progreso | TK09 | Visualizacion de cultivos en progreso | Permitir a los usuarios ver los cultivos que se encuentran en progreso | 1 | Alan Galavis | Done |
+| US15 | Avanzar Etapa de un Cultivo | TK10 | Permitir avanzar de etapa al finalizar el registro de cultivos | Desde la app móvil permitir que el técnico avanzar de etapa postarior al llenado de registros. | 1 | Andres Leiva | Done |
+| US19 | Acceder a la aplicación desde la landing page | TK11 | Conectar landing con web app | Desde la landing page poder ingresar a la web app. | 1 | Alan Galavis | Done |
+| US20 | Descripción de la aplicación | TK12 | Seccion de la descripcion | Desde la landing page visualizar la descipcion de la aplicacion | 1 | Andres Soto | Done |
+
+
+<h4 id='6.2.1.4.'>6.2.1.4. Development Evidence for Sprint Review.</h4>
+  
+| Repository | Branch | Commit ID | Commit Message | Committed on (Date) |
+| ----- | ----- | ----- | ----- | ----- |
+| web-app-gh | development | 35df242 | feat: changed get crops endpoint to obtain the crop according to a company id | 1/11 |
+| greenhouse-mobile | feature/notifications | 8285553 | fix: inverted order for moving to previous or next phase, and the record now shows crop name instead of id | 1/11 |
+| greenhouse-mobile | feature/notifications | 41a037a | feat: Add image quality analizer | 1/11 |
+| greenhouse-mobile | feature/notifications | c6da4f3 | feat: Add ia service | 1/11 |
+| greenhouse-mobile | feature/notifications | 1d81f77 | feat: Add delete image button | 1/11 |
+| greenhouse-mobile | feature/notifications | 1c59676 | feat: Add persistance to crop images | 1/11 |
+| greenhouse-mobile | feature/notifications | 1556204 | feat: added create crops and get crops by company | 1/11 |
+| greenhouse-mobile | feature/notifications | 59a5b48 | feat: Add upload picture at the end of crop | 1/11 |
+| greenhouse-mobile | feature/notifications | ed9eeec | chore: Add needed dependencies | 1/11 |
+| backend-gh | feature/deployment | c384cbc | fix(company): solve problem with company and profile id | 1/11 |
+| backend-gh | feature/deployment | 7bc1928 | fix(company): avoid duplicated companies by tin when creating enterprise account | 1/11 |
+| backend-gh | feature/deployment | 27e882c | feat(personas): fixed personas proto | 1/11 |
+| backend-gh | feature/deployment | 9ed0760 | feat(company): add support for creating account with profile and company lmao. Next commit every possible permutation | 1/11 |
+| backend-gh | feature/deployment | 3fab306 | chore: refactored memberships microservice | 1/11 |
+| web-app-gh | development | c5946ef | fix: fixed sorting of crops in progress | 2/11 |
+| web-app-gh | development | 9e30c28 | feat: added edit company component and function on service to edit the company | 2/11 |
+| backend-gh | feature/deployment | 78ce73d | fix: port of memberships db | 2/11 |
+| backend-gh | feature/deployment | 7e7bfc1 | fix: variable convention was missing Dto. | 2/11 |
+| backend-gh | feature/deployment | 13843b4 | chore: update needed configuration for deployment of memberships microservice. | 2/11 |
+| greenhouse-mobile | feature/notifications | fa11fd6 | feat(firebase): added crop image uploading to firebase, also updated the config example. | 10/11 |
+| web-app-gh | development | 19e64df | feature: suscription test feature | 11/11 |
+| greenhouse-mobile | feature/notifications | 212ee08 | feat: added endpoint for updating the ended crops image and quality. | 11/11 |
+| backend-gh | feature/deployment | cb6c927 | fix(crops): fixed nullability of values quality and imageUrl | 11/11 |
+| backend-gh | feature/deployment | 4dfe434 | feat(crops): added update crop image endpoint@ | 11/11 |
+| web-app-gh | development | 71c60bd | feat: changed filter component to recieve react component | 12/11 |
+| web-app-gh | development | 5869e00 | feature: new atributes for archived crop to show quality and image added of the crop | 12/11 |
+| web-app-gh | development | 468d3bc | chore: Export to Excel now separates payload data | 13/11 |
+| web-app-gh | development | 63077bb | chore: Update filter | 13/11 |
+| web-app-gh | development | 9a733a3 | fix: Responsive issue with Dialog components | 14/11 |
+| web-app-gh | development | 3411104 | fix: Record chart empty record list case message | 14/11 |
+| web-app-gh | development | 8fc29d7 | chore: Centered stepper component | 14/11 |
+| web-app-gh | development | 42b86d4 | chore: Update chart color | 14/11 |
+| web-app-gh | development | 5d67c79 | feat: Add card animation on hover | 14/11 |
+| web-app-gh | development | eed21e8 | fix: Fix issue with trailing icon on TextField | 14/11 |
+| greenhouse-mobile | feature/notifications | 46f9050 | feat: added publisher to message bus for notifications | 14/11 |
+| web-app-gh | development | 13d1b44 | chore: Fix issue with stomp protocol | 15/11 |
+| web-app-gh | development | ef7ce53 | fix: Fix delete dialog background not working | 15/11 |
+| web-app-gh | development | 9f9c228 | feat: added new type of notification | 15/11 |
+| web-app-gh | development | 73a3785 | fix: SideBar component stays fix in screen | 15/11 |
+| web-app-gh | development | c80e2e8 | feat: Add SideBar component | 15/11 |
+| web-app-gh | development | b6da1b9 | chore: Update close dialog location | 15/11 |
+| web-app-gh | development | 81b4da7 | feat: added notification functionality to receive messages from a broker | 15/11 |
+| web-app-gh | development | e4e416e | fix: Fix issue with route change on company edit | 15/11 |
+| web-app-gh | development | 1b9813e | feat: Add edit user profile | 15/11 |
+| greenhouse-mobile | feature/notifications | 5301d1a | chore: updated publish notifications for record edits. | 15/11 |
+| greenhouse-mobile | feature/notifications | 7aa35c6 | feat: added publish notifications for records. | 15/11 |
+| greenhouse-mobile | feature/notifications | 739e46f | feat: added publish notifications for deleting and creating crops. | 15/11 |
+| backend-gh | feature/deployment | 45f8e12 | chore: update docker and configuration for deployment | 15/11 |
+| backend-gh | feature/deployment | b8c9520 | fix(memberships): fixed memberships bounded context | 15/11 |
+| backend-gh | feature/deployment | 392f6af | fix: update profile it used ??= operator so it didnt update | 15/11 |
+| backend-gh | feature/deployment | 994df94 | feat(lol): lmao | 15/11 |
+| backend-gh | feature/deployment | 1069447 | fix: update data type error | 15/11 |
+| backend-gh | feature/deployment | bd90485 | fix: added payload update to the command handler | 15/11 |
+| greenhouse-mobile | feature/notifications | 126ef9b | feat: added before and after for edits notification | 16/11 |
+| backend-gh | feature/deployment | 9eba24d | feat(find-membership-levels): created find membership level endpoint | 16/11 |
+| backend-gh | feature/deployment | 031307c | fix(membership-levels): fixed membership levels database insertion | 16/11 |
+| backend-gh | feature/deployment | 8f382a5 | feat(membership-levels): added membership levels create command | 16/11 |
+| web-app-gh | development | fe5b28c | fix: bugs | 18/11 |
+| web-app-gh | development | 0fbbee9 | feat: added membership components, services and models to make the different levels of memberships work in each company | 18/11 |
+| greenhouse-mobile | feature/notifications | 57c92a3 | feat: Add membership service | 18/11 |
+| backend-gh | feature/deployment | dc92ba1 | feat(memberships): added update membership level name | 18/11 |
+  
+<h4 id='6.2.1.5.'>6.2.1.5. Testing Suite Evidence for Sprint Review.</h4>
+
+En la siguiente sección se presentan los cambios en el repositorio de testing de la aplicación durante el desarrollo del presente sprint. En este repositorio se encuentran los archivos Gherkin, los cuales forman parte del enfoque BDD de la aplicación.
+
+| Repository | Branch | Commit ID | Commit Message | Committed on (Date) |
+| :---: | :---: | :---: | :---: | :---: |
+| re-greenhouse/greenhouse\_testing\_suite | testing | 9cdd357 | docs: added membership .feature file | 10/05/2025 |
+| re-greenhouse/greenhouse\_testing\_suite | testing | 3163a45  | docs: added notifications .feature file | 10/05/2025 |
+
+<h4 id='6.2.1.6.'>6.2.1.6. Execution Evidence for Sprint Review.</h4>
+
+En esta sección se presentarán capturas de las request a los distintos endpoints de nuestros microservicios utilizando Postman:
+
+**Auth endpoints:**
+
+El endpoint público POST /api/v1/auth/sign-up permite que los usuarios se registren en la aplicación Greenhouse.
+
+<img src='assets/images/chapter-6/1.png' alt='Git Flow' />
+
+El endpoint público POST /api/v1/auth/sign-in permite que los usuarios inicien sesión. Si las credenciales son válidas, se retorna un token, a través del cual podrá utilizar los endpoints protegidos.
+
+<img src='assets/images/chapter-6/2.png' alt='Git Flow' />
+
+**Profiles endpoints:**
+
+El endpoint GET /api/v1/profiles/users/me permite obtener la información asociada al perfil del usuario autenticado
+
+<img src='assets/images/chapter-6/3.png' alt='Git Flow' />
+
+El endpoint GET /api/v1/profiles/companies/{companyId} permite obtener la información asociada a la empresa a la cual pertenece el usuario autenticado
+
+<img src='assets/images/chapter-6/4.png' alt='Git Flow' />
+
+El endpoint PATCH /api/v1/profiles/{profileId} permite editar los nombres y la foto del perfil seleccionado.
+
+<img src='assets/images/chapter-6/5.png' alt='Git Flow' />
+
+**Companies endpoints:**
+
+El endpoint POST /api/v1/companies permite registrar una empresa y vincularla al usuario autenticado.
+
+<img src='assets/images/chapter-6/6.png' alt='Git Flow' />
+
+El endpoint GET /api/v1/companies permite obtener la empresa a la cual pertenece el usuario autenticado.
+
+<img src='assets/images/chapter-6/7.png' alt='Git Flow' />
+
+**Crops endpoints:**
+
+El endpoint POST /api/v1/crops permite iniciar un nuevo cultivo para una empresa.
+
+<img src='assets/images/chapter-6/8.png' alt='Git Flow' />
+
+El endpoint GET /api/v1/crops/{cropId} permite recuperar un cultivo según su ID.
+
+<img src='assets/images/chapter-6/9.png' alt='Git Flow' />
+
+El endpoint PATCH /api/v1/crops/{cropId} permite actualizar la fase y el estado de un cultivo según su ID.
+
+<img src='assets/images/chapter-6/10.png' alt='Git Flow' />
+
+El endpoint DELETE /api/v1/crops/{cropId} permite eliminar los cultivos en base a su ID.
+
+<img src='assets/images/chapter-6/11.png' alt='Git Flow' />
+
+**Mail endpoints:**
+
+El endpoint POST /api/v1/templates permite crear un template de correo electrónico a partir de un cuerpo en HTML.
+
+<img src='assets/images/chapter-6/12.png' alt='Git Flow' />
+
+El endpoint POST /api/v1/mails permite enviar correos electrónicos a partir de un template seleccionado.
+
+<img src='assets/images/chapter-6/13.png' alt='Git Flow' />
+
+<h4 id='6.2.1.7.'>6.2.1.7. Services Documentation Evidence for Sprint Review.</h4>
+
+A continuación, se presentan los endpoints correspondientes a cada microservicio:
+
+**IAM endpoints:**
+
+<img src='assets/images/chapter-6/14.png' alt='Git Flow' />
+
+**Personas endpoints:**
+
+<img src='assets/images/chapter-6/15.png' alt='Git Flow' />
+
+**Companies endpoints:**
+
+<img src='assets/images/chapter-6/16.png' alt='Git Flow' />
+
+**Mail endpoints:**
+
+<img src='assets/images/chapter-6/17.png' alt='Git Flow' />
+
+**Crops endpoints:**
+
+<img src='assets/images/chapter-6/18.png' alt='Git Flow' />
+
+**Records endpoints:**
+
+<img src='assets/images/chapter-6/19.png' alt='Git Flow' />
+
+<h4 id='6.2.1.8.'>6.2.1.8. Software Deployment Evidence for Sprint Review.</h4>
+
+**Landing Page:**
+
+Landing page deploy on netlify via Github:
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/landing_page_1.png' alt='Landing Page' />
+
+Enlace al despliegue de la landing page: [https://landing.integradis.shop/](https://landing.integradis.shop/) 
+
+**Web App:**
+
+Deploy of Web App on Netlify via Github:
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/web_app_1.png' alt='Web App Deployed' />
+
+Environment variables on netlify:
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/web_app_2.png' alt='Web App Envirioment Variables' />
+
+Enlace al despliegue: [https://app-greenhouse.netlify.app](https://app-greenhouse.netlify.app) 
+
+**Backend:**
+
+Contenedores de docker en ejecución dentro de la instancia, se evidencian las bases de datos y el backend:
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/backend_1.png' alt='Backend Desplegado' />
+
+Los procesos que se ejecutan dentro del contenedor de Docker correspondiente al backend donde se evidencian los microservicios.
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/backend_2.png' alt='Backend Desplegado Contenedores' />
+
+La instancia se encuentra en ejecución:
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/backend_3.png' alt='Backend Desplegado Ejecución' />
+
+Enlace al swagger: [https://greenhouse.integradis.shop/api](https://greenhouse.integradis.shop/api) 
+
+**Mobile App**:
+
+Para el deployment evidence de la mobile app se tiene que ejecutar el comando:
+
+- flutter build apk \--release  
+
+En el cual se genera el archivo resultante en:
+
+- Built build/app/outputs/flutter-apk/app-release.apk (28.0MB)
+
+Luego de ello se sube el archivo a Google Drive y se genera un código QR con el enlace del archivo de Google Drive
+
+Se creó un código QR 
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/mobile_app_qr.png' alt='Mobile App QR' />
+
+**Message Broker:**
+
+Se desplegó un message broker de Active MQ mediante el servicio de Amazon MQ, el cuál es utilizado para las notificaciones en tiempo real.
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/message_broker.png' alt='Message Broker Desplegado' />
+
+**Firebase Storage:**
+
+Se utilizó firebase storage para almacenar las imágenes de los cultivos que se suban desde la aplicación para que luego se pueda acceder a estar desde la aplicación web.
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/firebase.png' alt='Firebase' />
+
+**Computer Vision Model:**
+
+El modelo de computer visión se entrenó desde ultralytics el mismo te brinda un endpoint de deploy con el cuál puedes hacer uso del modelo.
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/computer_vision.png' alt='Computer Vision Desplegado' />
+
+**Route 53:**
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/route53.png' alt='Route 53 Desplegado' />
+
+<h4 id='6.2.1.9.'>6.2.1.9. Team Collaboration Insights during Sprint.</h4>
 
 <h1 id='referencias'>Referencias Bibliográficas</h1>
 Cajo Hernandez, J. A., & Rosales Caururu, A. N. (2022). Sistema de control y gestión para los cultivos agrícolas aplicando tecnologías emergentes en el Perú. [Tesis de licenciatura, Universidad Peruana de Ciencias Aplicadas]. Repositorio Académico UPC. https://repositorioacademico.upc.edu.pe/bitstream/handle/10757/660718/Cajo_HJ.pdf?sequence=3
