@@ -2981,8 +2981,8 @@ En la siguiente sección se presentan los cambios en el repositorio de testing d
 
 | Repository | Branch | Commit ID | Commit Message | Committed on (Date) |
 | :---: | :---: | :---: | :---: | :---: |
-| Greenhouse-IoT/greenhouse\_testing\_suite | testing | 9cdd357 | docs: added membership .feature file | 10/05/2025 |
-| Greenhouse-IoT/greenhouse\_testing\_suite | testing | 3163a45  | docs: added notifications .feature file | 10/05/2025 |
+| Greenhouse-IoT/testing | testing | 9cdd357 | docs: added membership .feature file | 10/05/2025 |
+| Greenhouse-IoT/testing | testing | 3163a45  | docs: added notifications .feature file | 10/05/2025 |
 
 <h4 id='6.2.1.6.'>6.2.1.6. Execution Evidence for Sprint Review.</h4>
 
