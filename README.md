@@ -2696,6 +2696,8 @@ A continuación se mostrarán los user flow diagrams, los cuales permiten visual
 
 ### Web Application User Flow Diagrams
 
+Enlace para visualizar los Web Application User [Flow Diagrams](https://www.figma.com/design/wPpvosGW28c7blfOfbBo2n/Integradis---Wireframes-Greenhouse---Emergentes?node-id=1000-524&t=FlAr7jhT05KdpvtA-1)
+
 #### **User Goal:** Crear cuenta e Iniciar sesión  
 **User Persona:** Administrador  
 
@@ -2712,19 +2714,10 @@ Por otro lado, en caso de que el usuario haya creado previamente una cuenta en G
 **User Persona:** Administrador  
 
 **Explicación del flujo:**  
+
 En primer lugar, los administradores deberán ingresar a la aplicación web.Luego, cuando este en el home hace clic sobre un cultivo. Entonces, el sistema muestra la sección de los registros del cultivo junto con gráficos de varias características.
 
 ![Userflow Iniciar sesión](assets/images/chapter_5/userflows/userflowweb2.png)
-
----
-
-#### **User Goal:** Aceptar la modificación de un registro del cultivo.
-**User Persona:** Administrador 
-
-**Explicación del flujo:**  
-En primer lugar, el usuario se debe encontrar en la página principal y al presionar a un cultivo. Se muestra la sección con lso registro de los cultivos. Entonces, se observa la solicitud de verificación a una correción de un registro de cultivo y se hace clic en aceptar para confirmar los cambios. 
-
-![Userflow Ver y editar perfil](assets/images/chapter_5/userflows/userflowweb3.png)
 
 ---
 
@@ -2734,17 +2727,9 @@ En primer lugar, el usuario se debe encontrar en la página principal y al presi
 **Explicación del flujo:**  
 Cuando el usuario observe el directorio de trabajadores y presiona el icono de acción. Se muestra al trabajador con su nombre rol y todos los permisos activados por defecto.  Si se hace clic sobre el icono de editar nombre se puede editar el texto. Luego, si se hace clic en el icono de edición de rol, se puede elegir entre los roles disponibles. Finalmente, si se presiona en el botón de eliminar trabajor. Entonces, el trabajor será eliminado. 
 
-![Userflow Cambiar contraseña](assets/images/chapter_5/userflows/userflowweb4.png)
+![Ver, editar y eliminar a un trabajador.](assets/images/chapter_5/userflows/userflowweb4.png)
 
----
 
-#### **User Goal:** Ver, editar y eliminar a un técnico supervisor.
-**User Persona:** Administrador 
-
-**Explicación del flujo:**  
-Cuando el usuario observe el directorio de trabajadores y presiona el icono de acción de un supervisor. Se muestra al supervisor con su nombre rol y todos los permisos permitidos.  Si se hace clic sobre el icono de editar nombre se puede editar el texto. Luego, si se hace clic en el icono de edición de rol, se puede elegir entre los roles disponibles. Finalmente, si se presiona en el botón de eliminar trabajor. Entonces, el supervisor será eliminado. 
-
-![Userflow Registrar información](assets/images/chapter_5/userflows/userflowweb5.png)
 
 ---
 
@@ -2756,16 +2741,15 @@ En primer lugar, el usuario se encuentra observando el directorio de trabajadore
 
 ![Userflow Ver registros archivados](assets/images/chapter_5/userflows/userflowweb6.png)
 
+
 #### **User Goal:** Ver las notificaciones
 **User Persona:** Administrador  
 
 **Explicación del flujo:**  
+
 En primer lugar, el usuario observa el home. En caso, haga clic en el icono de la campana se abre un apartado con todas las notificaciones para el usuario.
 
 ![Userflow Ver registros archivados](assets/images/chapter_5/userflows/userflowweb7.png)
-
-
-
 
 
 ## Mobile Application User Flow Diagrams
