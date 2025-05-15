@@ -2241,15 +2241,94 @@ El enfoque de Greenhouse para la aplicación web y mobile consiste en transmitir
 - **Diálogos/Modales:** Los diálogos o modales son ventanas secundarias que tienen el objetivo de confirmar acciones clave para el funcionamiento del negocio y con gran repercusión en el mismo. Los diálogos cuentan con colores con un valor de matiz mayor que sus contrapartes pasteles del resto de la aplicación web. Además, su aparición oscurece el resto de la pantalla para generar un efecto de contraste. Este efecto busca transmitir la importancia de la resolución del asunto de la pantalla emergente antes de que el usuario continúe con la navegación en la app.
 
 <h2 id='5.2.'>5.2. Information Architecture</h2>
+
+Al ser Greenhouse un software que optimiza el flujo asociado a la documentación de información, es importante que en todo momento el usuario esté consciente del proceso que está realizando y el lugar dónde se encuentra dentro de la aplicación. La información de las fases o los procesos que forman un todo se encuentra categorizada y ubicada de forma secuencial. El usuario sigue a una unidad que representa el proceso general, un cultivo, y progresivamente registra las fases que sigue el cultivo hasta su finalización vía diferentes pantallas de la solución web. Mediante la vista de "Home", se muestra una interfaz más generalizada de las funcionalidades de la aplicación que se involucran a un nivel superior con el desarrollo de los procesos. De esta manera, se logra una distinción notable entre el registro de procesos y el análisis que se realiza a partir de estos.
+
 <h3 id='5.2.1.'>5.2.1. Organization Systems</h3>
+
+La organización visual de contenido se realizará de tres formas diferentes en las varias vistas de las aplicaciones. La organización de forma jerárquica presenta al usuario con un orden de importancia para los elementos que se muestran en pantalla. Se utilizó este orden para las pantallas de log-in y los perfiles de las empresas que los representan. Los títulos de los datos acaparan mayor parte de la pantalla en comparación a los datos ingresados o que deben ingresarse. Adicionalmente, las opciones de modificación de información para los perfiles se encuentran en un color gris claro que armoniza con el color blanco de la aplicación y no causa una impresión fuerte, por lo que se espera que el usuario vea las opciones de modificación después de leer sus datos personales.
+
+El proceso núcleo de negocio de las fases de cultivo utiliza una organización secuencial de la información. El elemento Stepper presente en la app móvil y web guía al usuario a través del ciclo de vida del cultivo de champiñones y le indica en qué fase se encuentra. El contenido de los procesos está categorizado de forma cronológica, es importante para los técnicos supervisores mantener un registro de los cultivos que llevan más tiempo en producción. Estos últimos cultivos tienen requisitos específicos y diferentes a los cultivos que apenas empiezan a ser producidos.
+
+Para la sección "Home", es necesario ofrecer al cliente una vista general de la aplicación mediante una organización matricial. El panel principal se concentra en una vista general del uso de la aplicación Greenhouse por parte de la empresa. En esta vista, se mostrará un listado de los cultivos que actualmente están en progreso, su fecha de inicio y la fase en la que se encuentran.
+
+Para las pantallas de la información de la "Empresa", la categorización de los empleados que la componen será de tipo alfabético en base a los nombres completos de los empleados, y de tipo jerárquico en base al rol que poseen (Administrador o técnico). El propósito de esta categorización es dar a los administradores una vista que sea similar a los registros presenciales con los que ya cuentan en medios físicos.
+
+Por último, la sección de "Historial de cultivos" tendrá una organización matricial. Los usuarios verán un detalle de los cultivos concluidos junto con su calidad final.
+
 <h3 id='5.2.2.'>5.2.2. Labeling Systems</h3>
+
+A continuación se incluye una lista detallada de todas las secciones informativas que componen la landing page:
+
+- Inicio/Home: La sección principal que da la bienvenida y presenta el propósito de la página.
+- Beneficios/Benefits: Muestra las ventajas o características destacadas del producto o servicio.
+- Precios/Pricing: Detalla los planes, tarifas o costos del producto o servicio.
+- FAQ: Responde a las preguntas más frecuentes de los usuarios.
+- Sobre Nosotros/About: Proporciona información sobre la empresa, su misión y valores.
+- Contacto/Contact: Ofrece formas de comunicación, como formularios, teléfonos o direcciones.
+
+En cuanto a las etiquetas que conforman a las aplicaciones web y mobile, cabe destacar:
+
+- Login/Sign up: Secciones que permiten el acceso y registro a la aplicación Greenhouse.
+- Inicio/Home: La sección principal que da la bienvenida al usuario. Incluye una vista general de los cultivos en progreso y su estado actual.
+- Cultivos en progreso: Incluye un listado de los cultivos actualmente activos.
+- Historial de Cultivos: Sección donde se almacenan y consultan los cultivos finalizados.
+- Empresa: Sección que muestra información asociada a la empresa, como su razón social, sus trabajadores, su logo.
+
 <h3 id='5.2.3.'>5.2.3. SEO Tags and Meta Tags</h3>
+
+Las meta tags no son visualizadas en los sitios web, pues en su lugar, son leídas por los navegadores o rastreadores web. Además, estas etiquetas ayudan en el posicionamiento de nuestra aplicación web en los navegadores. A continuación, se presentan las meta tags utilizadas:
+
+- **Título:**
+El título de la página se muestra en la pestaña del navegador y es importante tanto para los usuarios como para el SEO. Debe ser conciso, relevante y reflejar claramente el contenido o propósito de la página. También se utiliza en los resultados de búsqueda de los motores como Google, por lo que es clave para atraer clics. `<title>{title}</title>`
+
+- **Descripción**
+La meta descripción es un resumen breve del contenido de la página. Aparece en los resultados de búsqueda debajo del título de la página y tiene un papel crucial en atraer a los usuarios a hacer clic en el enlace. Debe ser informativa, persuasiva y contener las palabras clave más importantes de la página. `<meta name="description" content={description} />`
+
+- **Palabras Claves**
+Las palabras clave son términos o frases que representan el contenido de la página. Ayudan a los motores de búsqueda a entender de qué trata la página y cómo debe indexarse. Aunque su importancia ha disminuido en el SEO moderno, siguen siendo útiles para organizar y definir el contenido del sitio. `<meta name="keywords" content={keywords} />`
+
+- **Autor**
+Este meta tag indica quién es el autor de la página o del contenido. Es útil para dar crédito y puede ayudar en términos de transparencia y credibilidad, especialmente en sitios donde el contenido es de carácter técnico, científico o académico. `<meta name="author" content="Alan Galavis">`
+
+- Copyright
+El meta tag de copyright informa sobre los derechos de autor de la página. Este tag puede servir como una declaración de propiedad del contenido, protegiendo los derechos del autor o la organización que lo publica, en este caso, Greenhouse. `<meta name="copyright" content="Greenhouse" />`
+
 <h3 id='5.2.4.'>5.2.4. Searching Systems</h3>
+
+Los sistemas de búsqueda fueron diseñados utilizando un lenguaje claro y adecuado, lo que facilita la comprensión de las funciones que realizan.
+
+| Elemento | Función |
+| -------- | ------- |
+| Ícono de filtro por fecha | Este elemento mostrará un calendario que permite seleccionar una fecha específica para visualizar todos los cultivos o registros correspondientes a esa fecha. |
+| Barra de filtrado por fase | Este elemento permite localizar cultivos utilizando su fase como pivote. |
+| Barra de filtrado por calidad | Este elemento permite localizar cultivos en base a su calidad final de producción. |
+
 <h3 id='5.2.5.'>5.2.5. Navigation Systems</h3>
 
+El sistema de navegación desarrollado permite a los usuarios buscar cultivos o registros de diversas maneras, incluyendo la búsqueda por fecha y por identificador único. Esta funcionalidad optimiza y agiliza la identificación de la información, facilitando a los usuarios encontrar rápidamente lo que necesitan.
+
+<img src="assets/images/chapter_5/information_architecture/navigation_system.png" alt="Navigation system" />
+
 <h2 id='5.3.'>5.3. Landing Page UI Design</h2>
+A continuación, se presentará la propuesta de landing page, comenzando con los wireframes, que delinean la estructura y funcionalidad básica, seguidos por los mockups, los cuales reflejan el diseño visual completo. Ambos son cruciales para alinear la visión del equipo con los objetivos del proyecto. Para el desarrollo de estos entregables, se utilizó Figma, una herramienta versátil que no solo permite la creación de prototipos interactivos y de alta fidelidad, sino que también facilita la colaboración en tiempo real. Esta funcionalidad de trabajo en conjunto es esencial para equipos distribuidos, ya que permite recibir retroalimentación instantánea, realizar ajustes en vivo y asegurar que todas las partes interesadas estén alineadas en cada etapa del proceso de diseño.
+
 <h3 id='5.3.1.'>5.3.1. Landing Page Wireframe</h3>
+Los wireframes son herramientas clave en el proceso de diseño de interfaces. Los wireframes son esquemas básicos que representan la estructura funcional de una página o aplicación, enfocándose en la disposición de los elementos y el flujo de navegación sin profundizar en el diseño visual. Son esenciales para establecer la lógica y jerarquía de la información. En contraste, los mockups son representaciones visuales detalladas que muestran cómo se verá el producto final, incorporando aspectos como colores, tipografías, imágenes y otros elementos de diseño gráfico. En este informe, se presentarán los mockups del landing page de Greenhouse, una empresa/producto, para ilustrar cómo se traduce la estructura esbozada en los wireframes en un diseño visual completo y listo para su evaluación. Esto permitirá demostrar cómo el diseño responde a las necesidades del usuario y los objetivos del proyecto.
+
+<img src="assets/images/chapter_5/wireframes/landing-page-wireframe.jpg" alt="Hero section wireframe" />
+<img src="assets/images/chapter_5/wireframes/landing-page-wireframe-2.jpg" alt="Benefits section wireframe" />
+<img src="assets/images/chapter_5/wireframes/landing-page-wireframe-3.jpg" alt="FAQ section wireframe" />
+<img src="assets/images/chapter_5/wireframes/landing-page-wireframe-4.jpg" alt="About section wireframe" />
+<img src="assets/images/chapter_5/wireframes/landing-page-wireframe-5.jpg" alt="Contact section wireframe" />
+
+
+
 <h3 id='5.3.2.'>5.3.2. Landing Page Mock-up</h3>
+
+Los mockups son representaciones visuales estáticas que muestran el diseño de una página o aplicación sin interactividad. Se utilizan para ilustrar la apariencia final de una interfaz, detallando la disposición de elementos como imágenes, textos y botones, antes de pasar a la fase de desarrollo. Estos prototipos ayudan a comunicar la visión del proyecto y permiten recibir retroalimentación temprana. A continuación, se presentarán los mockups del landing page de Greenhouse, destacando su estructura y diseño.
+<img src="assets/images/chapter_5/mockups/landing-page-mockup.jpg" alt="Landing page mockup" />
+<img src="assets/images/chapter_5/mockups/landing-page-mockup-2.jpg" alt="Landing page mockup" />
 
 <h2 id='5.4.'>5.4. Applications UX/UI Design</h2>
 <h3 id='5.4.1.'>5.4.1. Applications Wireframes</h3>
