@@ -268,6 +268,8 @@ explican las ramas más prominentes:
       <br/>
       <i>TB1</i><br/>
       <b>Soto Kong Requena, Andrés Eduardo: Fui responsable de la definición y desarrollo de los bounded context correspondientes a los módulos de Mail y Memberships. A través de su enfoque en la estructuración de estos contextos, contribuyó significativamente a la organización y modularización de la aplicación, asegurando una integración coherente con los demás componentes del sistema.</b>
+        <i>TB2</i><br/>
+      <b>Soto Kong Requena, Andrés Eduardo: Me encargue de colaborar con el diseño de la landing page asi como de su desarrollo. Me encargue principalmente de la documentacion de los endpoints de la web app, asi como las pruebas de demostracion realizadas en postman. De la misma forma me encargue de identificar y documentar los commits principales en los diferentes repositorios del proyecto.</b>
       </td>
       <td>El equipo trabajó de manera colaborativa y eficiente, asumiendo roles clave en diversas áreas del proyecto. Se lideró el análisis de requisitos y la implementación de herramientas UX, mientras que se definieron y estructuraron los bounded contexts de la aplicación. Además, se orientó al equipo sobre los objetivos del proyecto, se desarrolló un prototipo de IoT de manera temprana y se aseguraron módulos integrados y coherentes para una solución efectiva. En conjunto, se logró una ejecución fluida y alineada con el problema a resolver.</td>
     </tr>
