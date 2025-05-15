@@ -2289,8 +2289,24 @@ El sistema de navegación desarrollado permite a los usuarios buscar cultivos o 
 <img src="assets/images/chapter_5/information_architecture/navigation_system.png" alt="Navigation system" />
 
 <h2 id='5.3.'>5.3. Landing Page UI Design</h2>
+A continuación, se presentará la propuesta de landing page, comenzando con los wireframes, que delinean la estructura y funcionalidad básica, seguidos por los mockups, los cuales reflejan el diseño visual completo. Ambos son cruciales para alinear la visión del equipo con los objetivos del proyecto. Para el desarrollo de estos entregables, se utilizó Figma, una herramienta versátil que no solo permite la creación de prototipos interactivos y de alta fidelidad, sino que también facilita la colaboración en tiempo real. Esta funcionalidad de trabajo en conjunto es esencial para equipos distribuidos, ya que permite recibir retroalimentación instantánea, realizar ajustes en vivo y asegurar que todas las partes interesadas estén alineadas en cada etapa del proceso de diseño.
+
 <h3 id='5.3.1.'>5.3.1. Landing Page Wireframe</h3>
+Los wireframes son herramientas clave en el proceso de diseño de interfaces. Los wireframes son esquemas básicos que representan la estructura funcional de una página o aplicación, enfocándose en la disposición de los elementos y el flujo de navegación sin profundizar en el diseño visual. Son esenciales para establecer la lógica y jerarquía de la información. En contraste, los mockups son representaciones visuales detalladas que muestran cómo se verá el producto final, incorporando aspectos como colores, tipografías, imágenes y otros elementos de diseño gráfico. En este informe, se presentarán los mockups del landing page de Greenhouse, una empresa/producto, para ilustrar cómo se traduce la estructura esbozada en los wireframes en un diseño visual completo y listo para su evaluación. Esto permitirá demostrar cómo el diseño responde a las necesidades del usuario y los objetivos del proyecto.
+
+<img src="assets/images/chapter_5/wireframes/landing-page-wireframe.jpg" alt="Hero section wireframe" />
+<img src="assets/images/chapter_5/wireframes/landing-page-wireframe-2.jpg" alt="Benefits section wireframe" />
+<img src="assets/images/chapter_5/wireframes/landing-page-wireframe-3.jpg" alt="FAQ section wireframe" />
+<img src="assets/images/chapter_5/wireframes/landing-page-wireframe-4.jpg" alt="About section wireframe" />
+<img src="assets/images/chapter_5/wireframes/landing-page-wireframe-5.jpg" alt="Contact section wireframe" />
+
+
+
 <h3 id='5.3.2.'>5.3.2. Landing Page Mock-up</h3>
+
+Los mockups son representaciones visuales estáticas que muestran el diseño de una página o aplicación sin interactividad. Se utilizan para ilustrar la apariencia final de una interfaz, detallando la disposición de elementos como imágenes, textos y botones, antes de pasar a la fase de desarrollo. Estos prototipos ayudan a comunicar la visión del proyecto y permiten recibir retroalimentación temprana. A continuación, se presentarán los mockups del landing page de Greenhouse, destacando su estructura y diseño.
+<img src="assets/images/chapter_5/mockups/landing-page-mockup.jpg" alt="Landing page mockup" />
+<img src="assets/images/chapter_5/mockups/landing-page-mockup-2.jpg" alt="Landing page mockup" />
 
 <h2 id='5.4.'>5.4. Applications UX/UI Design</h2>
 <h3 id='5.4.1.'>5.4.1. Applications Wireframes</h3>
