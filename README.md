@@ -2864,25 +2864,33 @@ This will be confirmed when visitors can access the landing page, understand the
     <th>Diseño visual de la landing page Leader (L) / Collaborator (C)</th>
     <th>Desarrollo de la estructura de la landing page Leader (L) / Collaborator (C)</th>
     <th>Redacción del Contenido textual y descriptivo (L) / Collaborator (C)</th>
+    <th>Despliegue de la landing page Leader (L) / Collaborator (C)</th>
+    <th>Documentacion en el informe de la landing page Leader (L) / Collaborator (C)</th>
   </tr>
   <tr>
     <td>Astuyauri Calderon, Jherson David</td>
     <td>JHS-Sama24</td>
     <td>C</td>
     <td>C</td>
+    <td>L</td>
+    <td>C</td>
     <td>C</td>
   </tr>
   <tr>
     <td>Espinoza Rodríguez, Nicolás Antonio</td>
     <td>EspinozaNaer</td>
-    <td>C</td>
-    <td>C</td>
     <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
   </tr>
     <tr>
     <td>Galavis Du Bois, Alan Enrique</td>
     <td>TrabajosUPC-AlanGalavis</td>
+    <td>C</td>
     <td>L</td>
+    <td>C</td>
     <td>C</td>
     <td>C</td>
   </tr>
@@ -2893,14 +2901,18 @@ This will be confirmed when visitors can access the landing page, understand the
     <td>C</td>
     <td>C</td>
     <td>C</td>
+    <td>L</td>
+    <td>C</td>
   </tr>
     </tr>
     <tr>
     <td>Soto Kong Requena, Andrés Eduardo</td>
     <td>asotito231</td>
     <td>C</td>
-    <td>L</td>
     <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
   </tr>
 </table>
 
