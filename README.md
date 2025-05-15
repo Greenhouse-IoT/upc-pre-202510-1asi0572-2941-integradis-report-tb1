@@ -3620,94 +3620,64 @@ El objetivo principal del Sprint 2 fue entrenar, probar, conectar e implementar 
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
 | Technical User Story |  | WorkItem/Task |  |  |  |  |  |
 | ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status |
-| US05 | Acceso a Datos Históricos | TK01 | Realizar vista de datos historicos | Generar seccion donde se van a mostrar todos los datos que hay | 4 | Andres Soto | Done |
-| US08 | Iniciar sesion | TK02 | Realizar vista de inicio de sesion | Generar seccion donde se va a mostrar el inicio de sesion | 4 | Carlo Seminario | Done  |
-|  |  | TK03 | Realizar proceso de autenticacion | Desarrollar proceso de autenticacion | 4 | Andres Soto | Done |
-| US09 | Crear cuenta empresa | TK04 | Creacion de cuenta de la empresa | Desde la web app permitir al usuario generar su cuenta de empresa | 4 | Carlo Seminario | Done |
-| US10 | Crear cuenta tecnico supervisor | TK05 | Creaion de la cuenta del tecnico supervisor | Permitir que solo los administradores puedan crear cuenta de tecnico supervisor para sus empleados | 4 | Alan Galavis | Done |
-| US11 | Iniciar Nuevo Cultivo | TK06 | Realizar funcionalidad de creacion de nuevo cultivo | Permitir que los usuarios tecnicos supervisores creen nuevos cultivos | 4 | Nicolas espinoza | Done |
-| US12 | Editar y Eliminar Cultivos | TK07 | Permitir que se pueda editar o eliminar cultivos | Desde la web app o app movil permitir que los usuarios puedan modificar informacion de los cultivos o eliminarlos. | 4 | Andres Leiva | Done |
-| US13 | Documentar registros durante la preparación, cocción y pasteurización del compost | TK08 | Documentar los registros en las ultimas fases de produccion | Permitir que los usuarios registren informacion en las ultimas fases del desarrollo | 4 | Nicolas Espinoza | Done |
-| US14 | Ver Listado de Cultivos en Progreso | TK09 | Visualizacion de cultivos en progreso | Permitir a los usuarios ver los cultivos que se encuentran en progreso | 4 | Alan Galavis | Done |
-| US15 | Avanzar Etapa de un Cultivo | TK10 | Permitir avanzar de etapa al finalizar el registro de cultivos | Desde la app móvil permitir que el técnico avanzar de etapa postarior al llenado de registros. | 4 | Andres Leiva | Done |
-| US19 | Acceder a la aplicación desde la landing page | TK11 | Conectar landing con web app | Desde la landing page poder ingresar a la web app. | 4 | Alan Galavis | Done |
-| US20 | Descripción de la aplicación | TK12 | Seccion de la descripcion | Desde la landing page visualizar la descipcion de la aplicacion | 4 | Andres Soto | Done |
-
+| US05 | Acceso a Datos Históricos | TK01 | Realizar vista de datos historicos | Generar seccion donde se van a mostrar todos los datos que hay | 1 | Andres Soto | Done |
+| US08 | Iniciar sesion | TK02 | Realizar vista de inicio de sesion | Generar seccion donde se va a mostrar el inicio de sesion | 1 | Carlo Seminario | Done  |
+|  |  | TK03 | Realizar proceso de autenticacion | Desarrollar proceso de autenticacion | 1 | Andres Soto | Done |
+| US09 | Crear cuenta empresa | TK04 | Creacion de cuenta de la empresa | Desde la web app permitir al usuario generar su cuenta de empresa | 1 | Carlo Seminario | Done |
+| US10 | Crear cuenta tecnico supervisor | TK05 | Creaion de la cuenta del tecnico supervisor | Permitir que solo los administradores puedan crear cuenta de tecnico supervisor para sus empleados | 1 | Alan Galavis | Done |
+| US11 | Iniciar Nuevo Cultivo | TK06 | Realizar funcionalidad de creacion de nuevo cultivo | Permitir que los usuarios tecnicos supervisores creen nuevos cultivos | 1 | Nicolas espinoza | Done |
+| US12 | Editar y Eliminar Cultivos | TK07 | Permitir que se pueda editar o eliminar cultivos | Desde la web app o app movil permitir que los usuarios puedan modificar informacion de los cultivos o eliminarlos. | 1 | Jherson Astuyauri | Done |
+| US13 | Documentar registros durante la preparación, cocción y pasteurización del compost | TK08 | Documentar los registros en las ultimas fases de produccion | Permitir que los usuarios registren informacion en las ultimas fases del desarrollo | 1 | Nicolas Espinoza | Done |
+| US14 | Ver Listado de Cultivos en Progreso | TK09 | Visualizacion de cultivos en progreso | Permitir a los usuarios ver los cultivos que se encuentran en progreso | 1 | Alan Galavis | Done |
+| US15 | Avanzar Etapa de un Cultivo | TK10 | Permitir avanzar de etapa al finalizar el registro de cultivos | Desde la app móvil permitir que el técnico avanzar de etapa postarior al llenado de registros. | 1 | Jherson Astuyauri | Done |
+| US19 | Acceder a la aplicación desde la landing page | TK11 | Conectar landing con web app | Desde la landing page poder ingresar a la web app. | 1 | Alan Galavis | Done |
+| US20 | Descripción de la aplicación | TK12 | Seccion de la descripcion | Desde la landing page visualizar la descipcion de la aplicacion | 1 | Andres Soto | Done |
 
 <h4 id='6.2.1.4.'>6.2.1.4. Development Evidence for Sprint Review.</h4>
   
 | Repository | Branch | Commit ID | Commit Message | Committed on (Date) |
 | ----- | ----- | ----- | ----- | ----- |
-| web-app | development | 35df242 | feat: changed get crops endpoint to obtain the crop according to a company id | 1/11 |
-| mobile | feature/notifications | 8285553 | fix: inverted order for moving to previous or next phase, and the record now shows crop name instead of id | 1/11 |
-| mobile | feature/notifications | 41a037a | feat: Add image quality analizer | 1/11 |
-| mobile | feature/notifications | c6da4f3 | feat: Add ia service | 1/11 |
-| mobile | feature/notifications | 1d81f77 | feat: Add delete image button | 1/11 |
-| mobile | feature/notifications | 1c59676 | feat: Add persistance to crop images | 1/11 |
-| mobile | feature/notifications | 1556204 | feat: added create crops and get crops by company | 1/11 |
-| mobile | feature/notifications | 59a5b48 | feat: Add upload picture at the end of crop | 1/11 |
-| mobile | feature/notifications | ed9eeec | chore: Add needed dependencies | 1/11 |
-| backend | feature/deployment | c384cbc | fix(company): solve problem with company and profile id | 1/11 |
-| backend | feature/deployment | 7bc1928 | fix(company): avoid duplicated companies by tin when creating enterprise account | 1/11 |
-| backend | feature/deployment | 27e882c | feat(personas): fixed personas proto | 1/11 |
-| backend | feature/deployment | 9ed0760 | feat(company): add support for creating account with profile and company lmao. Next commit every possible permutation | 1/11 |
-| backend | feature/deployment | 3fab306 | chore: refactored memberships microservice | 1/11 |
-| web-app | development | c5946ef | fix: fixed sorting of crops in progress | 2/11 |
-| web-app | development | 9e30c28 | feat: added edit company component and function on service to edit the company | 2/11 |
-| backend | feature/deployment | 78ce73d | fix: port of memberships db | 2/11 |
-| backend | feature/deployment | 7e7bfc1 | fix: variable convention was missing Dto. | 2/11 |
-| backend | feature/deployment | 13843b4 | chore: update needed configuration for deployment of memberships microservice. | 2/11 |
-| greenhouse-mobile | feature/notifications | fa11fd6 | feat(firebase): added crop image uploading to firebase, also updated the config example. | 10/11 |
-| web-app | development | 19e64df | feature: suscription test feature | 11/11 |
-| mobile | feature/notifications | 212ee08 | feat: added endpoint for updating the ended crops image and quality. | 11/11 |
-| backend | feature/deployment | cb6c927 | fix(crops): fixed nullability of values quality and imageUrl | 11/11 |
-| backend | feature/deployment | 4dfe434 | feat(crops): added update crop image endpoint@ | 11/11 |
-| web-app | development | 71c60bd | feat: changed filter component to recieve react component | 12/11 |
-| web-app | development | 5869e00 | feature: new atributes for archived crop to show quality and image added of the crop | 12/11 |
-| web-app | development | 468d3bc | chore: Export to Excel now separates payload data | 13/11 |
-| web-app | development | 63077bb | chore: Update filter | 13/11 |
-| web-app | development | 9a733a3 | fix: Responsive issue with Dialog components | 14/11 |
-| web-app | development | 3411104 | fix: Record chart empty record list case message | 14/11 |
-| web-app | development | 8fc29d7 | chore: Centered stepper component | 14/11 |
-| web-app | development | 42b86d4 | chore: Update chart color | 14/11 |
-| web-app | development | 5d67c79 | feat: Add card animation on hover | 14/11 |
-| web-app | development | eed21e8 | fix: Fix issue with trailing icon on TextField | 14/11 |
-| mobile | feature/notifications | 46f9050 | feat: added publisher to message bus for notifications | 14/11 |
-| web-app | development | 13d1b44 | chore: Fix issue with stomp protocol | 15/11 |
-| web-app | development | ef7ce53 | fix: Fix delete dialog background not working | 15/11 |
-| web-app | development | 9f9c228 | feat: added new type of notification | 15/11 |
-| web-app | development | 73a3785 | fix: SideBar component stays fix in screen | 15/11 |
-| web-app | development | c80e2e8 | feat: Add SideBar component | 15/11 |
-| web-app | development | b6da1b9 | chore: Update close dialog location | 15/11 |
-| web-app | development | 81b4da7 | feat: added notification functionality to receive messages from a broker | 15/11 |
-| web-app | development | e4e416e | fix: Fix issue with route change on company edit | 15/11 |
-| web-app | development | 1b9813e | feat: Add edit user profile | 15/11 |
-| mobile | feature/notifications | 5301d1a | chore: updated publish notifications for record edits. | 15/11 |
-| mobile | feature/notifications | 7aa35c6 | feat: added publish notifications for records. | 15/11 |
-| mobile | feature/notifications | 739e46f | feat: added publish notifications for deleting and creating crops. | 15/11 |
-| backend | feature/deployment | 45f8e12 | chore: update docker and configuration for deployment | 15/11 |
-| backend | feature/deployment | b8c9520 | fix(memberships): fixed memberships bounded context | 15/11 |
-| backend | feature/deployment | 392f6af | fix: update profile it used ??= operator so it didnt update | 15/11 |
-| backend | feature/deployment | 994df94 | feat(lol): lmao | 15/11 |
-| backend | feature/deployment | 1069447 | fix: update data type error | 15/11 |
-| backend | feature/deployment | bd90485 | fix: added payload update to the command handler | 15/11 |
-| mobile | feature/notifications | 126ef9b | feat: added before and after for edits notification | 16/11 |
-| backend | feature/deployment | 9eba24d | feat(find-membership-levels): created find membership level endpoint | 16/11 |
-| backend | feature/deployment | 031307c | fix(membership-levels): fixed membership levels database insertion | 16/11 |
-| backend | feature/deployment | 8f382a5 | feat(membership-levels): added membership levels create command | 16/11 |
-| web-app | development | fe5b28c | fix: bugs | 18/11 |
-| web-app | development | 0fbbee9 | feat: added membership components, services and models to make the different levels of memberships work in each company | 18/11 |
-| mobile | feature/notifications | 57c92a3 | feat: Add membership service | 18/11 |
-| backend | feature/deployment | dc92ba1 | feat(memberships): added update membership level name | 18/11 |
-  
+| landing-page | main | 99c198a | feat: Add image assets | 13/05 |
+| landing-page | main | 90e11b4 | feat: Add cards components | 13/05 |
+| landing-page | main | 217e3bd | feat: Add layout | 13/05 |
+| landing-page | main | 5f72642 | feat: Add landing page sections | 13/05 |
+| landing-page | main | 6eef270 | feat: Add pages | 13/05 |
+| landing-page | main | 2f529s8 | feat: Add models and interfaces | 13/05 |
+| landing-page | main | f7c385 | feat: Add strings for translated content | 13/05 |
+| web-app | development | 35df242 | feat: changed get crops endpoint to obtain the crop according to a company id | 06/05 |
+| web-app | development | c5946ef | fix: fixed sorting of crops in progress | 07/05 |
+| web-app | development | 9e30c28 | feat: added edit company component and function on service to edit the company | 07/05 |
+| web-app | development | 19e64df | feature: suscription test feature | 08/05 |
+| web-app | development | 71c60bd | feat: changed filter component to recieve react component | 09/05 |
+| web-app | development | 5869e00 | feature: new atributes for archived crop to show quality and image added of the crop | 09/05 |
+| web-app | development | 468d3bc | chore: Export to Excel now separates payload data | 10/05 |
+| web-app | development | 63077bb | chore: Update filter | 10/05 |
+| web-app | development | 9a733a3 | fix: Responsive issue with Dialog components | 11/05 |
+| web-app | development | 3411104 | fix: Record chart empty record list case message | 11/05 |
+| web-app | development | 8fc29d7 | chore: Centered stepper component | 11/05 |
+| web-app | development | 42b86d4 | chore: Update chart color | 11/05 |
+| web-app | development | 5d67c79 | feat: Add card animation on hover | 11/05 |
+| web-app | development | eed21e8 | fix: Fix issue with trailing icon on TextField | 11/05 |
+| web-app | development | 13d1b44 | chore: Fix issue with stomp protocol | 12/05 |
+| web-app | development | ef7ce53 | fix: Fix delete dialog background not working | 12/05 |
+| web-app | development | 9f9c228 | feat: added new type of notification | 12/05 |
+| web-app | development | 73a3785 | fix: SideBar component stays fix in screen | 12/05 |
+| web-app | development | c80e2e8 | feat: Add SideBar component | 12/05 |
+| web-app | development | b6da1b9 | chore: Update close dialog location | 12/05 |
+| web-app | development | 81b4da7 | feat: added notification functionality to receive messages from a broker | 12/05 |
+| web-app | development | e4e416e | fix: Fix issue with route change on company edit | 12/05 |
+| web-app | development | 1b9813e | feat: Add edit user profile | 12/05 |
+| web-app | development | fe5b28c | fix: bugs | 12/05 |
+| web-app | development | 0fbbee9 | feat: added membership components, services and models to make the different levels of memberships work in each company | 12/05 |
+
 <h4 id='6.2.1.5.'>6.2.1.5. Testing Suite Evidence for Sprint Review.</h4>
 
 En la siguiente sección se presentan los cambios en el repositorio de testing de la aplicación durante el desarrollo del presente sprint. En este repositorio se encuentran los archivos Gherkin, los cuales forman parte del enfoque BDD de la aplicación.
 
 | Repository | Branch | Commit ID | Commit Message | Committed on (Date) |
 | :---: | :---: | :---: | :---: | :---: |
-| re-greenhouse/greenhouse\_testing\_suite | testing | 9cdd357 | docs: added membership .feature file | 10/05/2025 |
-| re-greenhouse/greenhouse\_testing\_suite | testing | 3163a45  | docs: added notifications .feature file | 10/05/2025 |
+| Greenhouse-IoT/testing | testing | 9cdd357 | docs: added membership .feature file | 10/05/2025 |
+| Greenhouse-IoT/testing | testing | 3163a45  | docs: added notifications .feature file | 10/05/2025 |
 
 <h4 id='6.2.1.6.'>6.2.1.6. Execution Evidence for Sprint Review.</h4>
 
@@ -3880,6 +3850,31 @@ El modelo de computer visión se entrenó desde ultralytics el mismo te brinda u
 <img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/route53.png' alt='Route 53 Desplegado' />
 
 <h4 id='6.2.1.9.'>6.2.1.9. Team Collaboration Insights during Sprint.</h4>
+
+A continuación se presentan las insights de la colaboración del equipo durante el presente Sprint 1. En este entregable, se finalizó con el desarrollo de la landing page.
+
+**Landing Page**
+
+<img src='assets/images/chapter_6/sprint-1_insights/landing_page_insights.png' alt='Route 53 Desplegado' />
+
+<img src='assets/images/chapter_6/sprint-1_insights/landing_page_networks.png' alt='Route 53 Desplegado' />
+
+| Integrante | Funcionalidad Asignada |
+| ----- | ----- |
+| Alan Galavis | Desarrollo de la landing page en su totalidad |
+
+**Web-app**
+
+<img src='assets/images/chapter_6/sprint-1_insights/web-app-insights.png' alt='Route 53 Desplegado' />
+
+<img src='assets/images/chapter_6/sprint-1_insights/web-app-network.png' alt='Route 53 Desplegado' />
+
+| Integrante | Funcionalidad Asignada |
+| ----- | ----- |
+| Andres Soto | Desarrollo de componentes de crop in progress y crop done |
+| Carlo Seminario | Desarrollo de vista dashboard |
+| Jherson Astuyauri  | Desarrollo de funcionalidad de eliminacion y creacion de crops |
+| Nicolas Espinoza  | Desarrollo de vista crop records |
 
 <h1 id='conclusiones'>Conclusiones</h1>
 El desarrollo de los problem statements y assumptions demostró aproximarse bastante al comportamiento de nuestros segmentos objetivos de arrendador y arrendatario. Esto se debió a un correcto análisis (previo a la realización de entrevistas) sobre cómo planteamos llevar a cabo el proceso de alquiler de bicicletas y qué es lo que esperan los ciclistas en general en base a nuestros propios conocimientos, experiencia e investigación.
