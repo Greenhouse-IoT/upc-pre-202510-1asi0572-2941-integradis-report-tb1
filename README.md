@@ -57,6 +57,7 @@
 | 1.7    | 20/04/2025 | Espinoza Rodríguez Nicolas Antonio | Elaboración de software architechture diagrams y bounded context crops |
 | 1.8    | 25/04/2025 | Seminario Garbín, Carlo Luca <br> Espinoza Rodríguez Nicolas Antonio | Elaboración de software architechture diagrams y bounded context IoT |
 | 1.9    | 26/04/2025 | Galavis Du Bois, Alan Enrique <br> | Redacción de Project Report Collaboration Insights, redacción de Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases, Context Mapping |
+| 2.0 | 15/05/2025 | Astuyauri Calderon, Jherson David <br/> Espinoza Rodríguez, Nicolás Antonio <br/> Galavis Du Bois, Alan Enrique <br/> Seminario Garbin, Carlo Luca <br/> Soto Kong Requena, Andrés Eduardo | Elaboración de wireflow diagrams y userflow diagrams, elaboración de Applications UX/UI Design,   |
 
 # Project Report Collaboration Insights
 
