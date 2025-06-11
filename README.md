@@ -283,9 +283,9 @@ explican las ramas más prominentes:
     - 6.2.1.8. [Software Deployment Evidence for Sprint Review.](#6.2.1.8.)<br>
     - 6.2.1.9. [Team Collaboration Insights during Sprint.](#6.2.1.9.)<br>
   - 6.2.2. [Sprint 2.](#6.2.2.)<br>
-    - 6.2.2.1. [Sprint Planning 1.](#6.2.2.1.)<br>
+    - 6.2.2.1. [Sprint Planning 2.](#6.2.2.1.)<br>
     - 6.2.2.2. [Aspect Leaders and Collaborators.](#6.2.2.2.)<br>
-    - 6.2.2.3. [Sprint Backlog 1.](#6.2.2.3.)<br>
+    - 6.2.2.3. [Sprint Backlog 2.](#6.2.2.3.)<br>
     - 6.2.2.4. [Development Evidence for Sprint Review.](#6.2.2.4.)<br>
     - 6.2.2.5. [Testing Suite Evidence for Sprint Review.](#6.2.2.5.)<br>
     - 6.2.2.6. [Execution Evidence for Sprint Review.](#6.2.2.6.)<br>
