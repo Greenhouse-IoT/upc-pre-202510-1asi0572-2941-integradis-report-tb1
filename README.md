@@ -41,26 +41,26 @@
   </tbody>
 </table>
 
-<h3 align="center">Abril del 2025</h3>
+<h3 align="center">Junio del 2025</h3>
 
 # Registro de versiones del Informe
 
-| Versión |   Fecha   | Autor | Descripción de modificación |
-| ------- | --------- | ----- | --------------------------- |
-| 1.0     | 3/04/2025 | Galavis Du Bois, Alan Enrique | Creación del informe y del índice |
-| 1.1     | 5/04/2025 | Galavis Du Bois, Alan Enrique | Redacción de perfil de integrante del equipo |
-| 1.2     | 6/04/2025 | Galavis Du Bois, Alan Enrique <br> Astuyauri Calderon, Jherson David | Redacción de perfil de integrantes del equipo y del startup |
-| 1.3     | 6/04/2025 | Galavis Du Bois, Alan Enrique | Redacción de solution profile, antecedentes y problemática |
-| 1.4    | 8/04/2025 | Galavis Du Bois, Alan Enrique | Redacción de ubiqutous language y bounded context IAM |
-| 1.5    | 13/04/2025 | Seminario Garbín, Carlo Luca | Redacción de perfil de integrante del equipo, software architecture diagrams y bounded context mailing |
-| 1.6    | 15/04/2025 | Soto Kong Requena, Andrés Eduardo | Elaboración de lean UX problem statements, lean UX assumptions, lean UX hypothesis statements y software architecture diagrams y bounded context mailing |
-| 1.7    | 20/04/2025 | Espinoza Rodríguez Nicolas Antonio | Elaboración de software architechture diagrams y bounded context crops |
-| 1.8    | 25/04/2025 | Seminario Garbín, Carlo Luca <br> Espinoza Rodríguez Nicolas Antonio | Elaboración de software architechture diagrams y bounded context IoT |
-| 1.9    | 26/04/2025 | Galavis Du Bois, Alan Enrique <br> | Redacción de Project Report Collaboration Insights, redacción de Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases, Context Mapping |
-| 2.0 | 15/05/2025 | Astuyauri Calderon, Jherson David <br/> Espinoza Rodríguez, Nicolás Antonio <br/> Galavis Du Bois, Alan Enrique <br/> Seminario Garbin, Carlo Luca <br/> Soto Kong Requena, Andrés Eduardo | Elaboración de wireflow diagrams y userflow diagrams, elaboración de Applications UX/UI Design,   |
+| Versión | Fecha      | Autor                                                                                                                                                                                      | Descripción de modificación                                                                                                                                            |
+| ------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1.0     | 3/04/2025  | Galavis Du Bois, Alan Enrique                                                                                                                                                              | Creación del informe y del índice                                                                                                                                      |
+| 1.1     | 5/04/2025  | Galavis Du Bois, Alan Enrique                                                                                                                                                              | Redacción de perfil de integrante del equipo                                                                                                                           |
+| 1.2     | 6/04/2025  | Galavis Du Bois, Alan Enrique <br> Astuyauri Calderon, Jherson David                                                                                                                       | Redacción de perfil de integrantes del equipo y del startup                                                                                                            |
+| 1.3     | 6/04/2025  | Galavis Du Bois, Alan Enrique                                                                                                                                                              | Redacción de solution profile, antecedentes y problemática                                                                                                             |
+| 1.4     | 8/04/2025  | Galavis Du Bois, Alan Enrique                                                                                                                                                              | Redacción de ubiqutous language y bounded context IAM                                                                                                                  |
+| 1.5     | 13/04/2025 | Seminario Garbín, Carlo Luca                                                                                                                                                               | Redacción de perfil de integrante del equipo, software architecture diagrams y bounded context mailing                                                                 |
+| 1.6     | 15/04/2025 | Soto Kong Requena, Andrés Eduardo                                                                                                                                                          | Elaboración de lean UX problem statements, lean UX assumptions, lean UX hypothesis statements y software architecture diagrams y bounded context mailing               |
+| 1.7     | 20/04/2025 | Espinoza Rodríguez Nicolas Antonio                                                                                                                                                         | Elaboración de software architechture diagrams y bounded context crops                                                                                                 |
+| 1.8     | 25/04/2025 | Seminario Garbín, Carlo Luca <br> Espinoza Rodríguez Nicolas Antonio                                                                                                                       | Elaboración de software architechture diagrams y bounded context IoT                                                                                                   |
+| 1.9     | 26/04/2025 | Galavis Du Bois, Alan Enrique <br>                                                                                                                                                         | Redacción de Project Report Collaboration Insights, redacción de Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases, Context Mapping |
+| 2.0     | 15/05/2025 | Astuyauri Calderon, Jherson David <br/> Espinoza Rodríguez, Nicolás Antonio <br/> Galavis Du Bois, Alan Enrique <br/> Seminario Garbin, Carlo Luca <br/> Soto Kong Requena, Andrés Eduardo | Elaboración de wireflow diagrams y userflow diagrams, elaboración de Applications UX/UI Design, Redacción del capítulo 6.1 Sprint 1                                    |
+| 3.0     | 18/05/2025 | Astuyauri Calderon, Jherson David <br/> Espinoza Rodríguez, Nicolás Antonio <br/> Galavis Du Bois, Alan Enrique <br/> Seminario Garbin, Carlo Luca <br/> Soto Kong Requena, Andrés Eduardo | Redacción del capítulo 6.2 Sprint 2, desarrollo de la version final de la landing page, despliegue inicial de la web-app y mobile-app, y desarrollo del backend        |
 
 # Project Report Collaboration Insights
-
 
 El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización Integradis.
 
@@ -68,26 +68,38 @@ Link para acceder al repositorio en GitHub: [https://github.com/Greenhouse-IoT/u
 
 ### TB1
 
-| Integrante                          | Tareas Asignadas |
-| ----------------------------------- | ---------------- |
-| Astuyauri Calderon, Jherson David   | Redacción de perfil de integrante del equipo, competidores, análisis competitivo, estrategias y tácticas frente a competidores, entrevistas, user personas, user task matrix, user journey mapping, empathy mapping, as-is scenario mapping, to-be scenario mapping |
-| Espinoza Rodríguez, Nicolás Antonio | Redacción de perfil de integrante del equipo, Strategic-Level Domain-Driven Design, EventStorming, Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases, Context Mapping, Bounded Context Crops |
-| Galavis Du Bois, Alan Enrique       | Redacción de perfil de integrante del equipo, descripción del startup, solution profile, antecedentes y problemática, ubiqutous language, user stories, product backlog, bouded context IAM e IoT |
+| Integrante                          | Tareas Asignadas                                                                                                                                                                                                                                                                      |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Astuyauri Calderon, Jherson David   | Redacción de perfil de integrante del equipo, competidores, análisis competitivo, estrategias y tácticas frente a competidores, entrevistas, user personas, user task matrix, user journey mapping, empathy mapping, as-is scenario mapping, to-be scenario mapping                   |
+| Espinoza Rodríguez, Nicolás Antonio | Redacción de perfil de integrante del equipo, Strategic-Level Domain-Driven Design, EventStorming, Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases, Context Mapping, Bounded Context Crops                                                       |
+| Galavis Du Bois, Alan Enrique       | Redacción de perfil de integrante del equipo, descripción del startup, solution profile, antecedentes y problemática, ubiqutous language, user stories, product backlog, bouded context IAM e IoT                                                                                     |
 | Seminario Garbin, Carlo Luca        | Redacción de perfil de integrante del equipo, impact mapping, software architechture system landscape diagram, software architecture context level diagrams, software architecture container level diagrams, software architecture deployment diagrams, bounded context mailing e IoT |
-| Soto Kong Requena, Andrés Eduardo   | Redacción de perfil de integrante del equipo, lean UX problem statements, lean UX assumptions, lean UX hypothesis statements, lean UX, segmentos objetivo, bounded context memberships |
+| Soto Kong Requena, Andrés Eduardo   | Redacción de perfil de integrante del equipo, lean UX problem statements, lean UX assumptions, lean UX hypothesis statements, lean UX, segmentos objetivo, bounded context memberships                                                                                                |
 
 ### TP1
 
-| Integrante                          | Tareas Asignadas |
-| ----------------------------------- | ---------------- |
-| Astuyauri Calderon, Jherson David   | Elaboración de wireflow diagrams y userflow diagrams |
-| Espinoza Rodríguez, Nicolás Antonio | Elaboración de Applications UX/UI Design |
-| Galavis Du Bois, Alan Enrique       | Redacción de Style Guidelines, General Style Guidelines, Web, Mobile and IoT Style Guidelines. Elaboración de Sprint Planning 1, Aspect Leaders and Collaborators y del Sprint Backlog 1 |
-| Seminario Garbin, Carlo Luca        | Redacción de software configuration management, software development environment configuration, source code management, source code style guide & conventions |
+| Integrante                          | Tareas Asignadas                                                                                                                                                                               |
+| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Astuyauri Calderon, Jherson David   | Elaboración de wireflow diagrams y userflow diagrams                                                                                                                                           |
+| Espinoza Rodríguez, Nicolás Antonio | Elaboración de Applications UX/UI Design                                                                                                                                                       |
+| Galavis Du Bois, Alan Enrique       | Redacción de Style Guidelines, General Style Guidelines, Web, Mobile and IoT Style Guidelines. Elaboración de Sprint Planning 1, Aspect Leaders and Collaborators y del Sprint Backlog 1       |
+| Seminario Garbin, Carlo Luca        | Redacción de software configuration management, software development environment configuration, source code management, source code style guide & conventions                                  |
 | Soto Kong Requena, Andrés Eduardo   | Redacción de development evidence for sprint review, testing suite evidence for sprint review, evidence for sprint review, execution evidence, services evidence y team collaboration insights |
 
+### TB2
+
+| Integrante                          | Tareas Asignadas                                                                                                                         |
+| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| Astuyauri Calderon, Jherson David   | Redacción de Aspect Leaders and Collaborators, diseño de entrevistas                                                                     |
+| Espinoza Rodríguez, Nicolás Antonio | Redacción de Development Evidence for Sprint Review, Testing Suite Evidence for Sprint Review, Team Collaboration Insights during Sprint |
+| Galavis Du Bois, Alan Enrique       | Realización de validation interviews, redacción de execution evidence for sprint review                                                  |
+| Seminario Garbin, Carlo Luca        | Elaboracion del video About The Product, redacción del sprint planning 2 y sprint backlog 2                                              |
+| Soto Kong Requena, Andrés Eduardo   | Registro de Entrevistas, Evaluaciones segun heuristicas,                                                                                 |
+
 ## GitHub Collaboration Insights
+
 GitHub Collaboration proporciona analíticas de los commits realizados por las cuentas de los integrantes del equipo. Estas cuentas son:
+
 - JHS-Sama24 (Jherson Astuyauri)
 - trabajosUPC-AlanGalavis (Alan Galavis)
 - EspinozaNaer (Nicolás Espinoza)
@@ -108,6 +120,7 @@ A continuación, se presentan evidencias de la colaboración de los integrantes 
 
 <img src="assets/images/collaboration_insights/tb2/contributors_graph_tb2.png" alt="TP1 contributors graph" />
 
+**TB2:**
 
 Adicionalmente, GitHub presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las ramas se
 crearon tomando en cuenta el diseño de GitFlow para una buena organización cuando se usa un software de control de versiones. Se
@@ -130,134 +143,155 @@ explican las ramas más prominentes:
 
 <img src="assets/images/collaboration_insights/tb2/network_graph_tb2.png" alt="TP1 network graph" />
 
+**TB2:**
 
 # Contenido
+
 1. [**Capítulo I: Introducción.**](#1.) <br>
+
 - 1.1. [Startup Profile.](#1.1.) <br>
-    - 1.1.1. [Descripción del startup.](#1.1.1.)<br>
-    - 1.1.2.[Perfiles de los integrantes del equipo.](#1.1.2.)<br>
+  - 1.1.1. [Descripción del startup.](#1.1.1.)<br>
+  - 1.1.2.[Perfiles de los integrantes del equipo.](#1.1.2.)<br>
 - 1.2. [Solution Profile.](#1.2.)<br>
-    - 1.2.1. [Antecedentes y Problemática.](#1.2.1.)<br>
-    - 1.2.2. [Lean UX Process.](#1.2.2.)<br>
-        - 1.2.2.1. [Lean UX Problem Statements.](#1.2.2.1.)<br>
-        - 1.2.2.2. [Lean UX Assumptions.](#1.2.2.2.)<br>
-        - 1.2.2.3. [Lean UX Hypothesis Statements.](#1.2.2.3.)<br>
-        - 1.2.2.4. [Lean UX Canvas.](#1.2.2.4.)<br>
+  - 1.2.1. [Antecedentes y Problemática.](#1.2.1.)<br>
+  - 1.2.2. [Lean UX Process.](#1.2.2.)<br>
+    - 1.2.2.1. [Lean UX Problem Statements.](#1.2.2.1.)<br>
+    - 1.2.2.2. [Lean UX Assumptions.](#1.2.2.2.)<br>
+    - 1.2.2.3. [Lean UX Hypothesis Statements.](#1.2.2.3.)<br>
+    - 1.2.2.4. [Lean UX Canvas.](#1.2.2.4.)<br>
 - 1.3. [Segmentos objetivo.](#1.3.)<br>
+
 2. [**Capítulo II: Requirements Elicitation & Analysis.**](#2.)<br>
+
 - 2.1. [Competidores.](#2.1.)<br>
-    - 2.1.1. [Análisis competitivo.](#2.1.1.)<br>
-    - 2.1.2. [Estrategias y tácticas frente a competidores.](#2.1.2.)<br>
+  - 2.1.1. [Análisis competitivo.](#2.1.1.)<br>
+  - 2.1.2. [Estrategias y tácticas frente a competidores.](#2.1.2.)<br>
 - 2.2. [Entrevistas.](#2.2.)<br>
-    - 2.2.1. [Diseño de entrevistas.](#2.2.1.)<br>
-    - 2.2.2. [Registro de entrevistas.](#2.2.2.)<br>
-    - 2.2.3. [Análisis de entrevistas.](#2.2.3.)<br>
+  - 2.2.1. [Diseño de entrevistas.](#2.2.1.)<br>
+  - 2.2.2. [Registro de entrevistas.](#2.2.2.)<br>
+  - 2.2.3. [Análisis de entrevistas.](#2.2.3.)<br>
 - 2.3. [Needfinding.](#2.3.)<br>
-    - 2.3.1. [User Personas.](#2.3.1.)<br>
-    - 2.3.2. [User Task Matrix.](#2.3.2.)<br>
-    - 2.3.3. [User Journey Mapping.](#2.3.3.)<br>
-    - 2.3.4. [Empathy Mapping.](#2.3.4.)<br>
-    - 2.3.5. [As-is Scenario Mapping.](#2.3.5.)<br>
+  - 2.3.1. [User Personas.](#2.3.1.)<br>
+  - 2.3.2. [User Task Matrix.](#2.3.2.)<br>
+  - 2.3.3. [User Journey Mapping.](#2.3.3.)<br>
+  - 2.3.4. [Empathy Mapping.](#2.3.4.)<br>
+  - 2.3.5. [As-is Scenario Mapping.](#2.3.5.)<br>
 - 2.4. [Ubiqutous Language.](#2.4.)<br>
+
 3. [**Capítulo III: Requirements Specification.**](#3.)<br>
+
 - 3.1. [To-Be Scenario Mapping.](#3.1.)<br>
 - 3.2. [User Stories.](#3.2.)<br>
 - 3.3. [Impact Mapping.](#3.3.)<br>
 - 3.4. [Product Backlog.](#3.4.)<br>
+
 4. [**Capítulo IV: Solution Software Design.**](#4.)<br>
+
 - 4.1. [Strategic-Level Domain-Driven Design.](#4.1.)<br>
-    - 4.1.1. [EventStorming.](#4.1.1.)<br>
-        - 4.1.1.1. [Candidate Context Discovery.](#4.1.1.1.)<br>
-        - 4.1.1.2. [Domain Message Flows Modeling.](#4.1.1.2.)<br>
-        - 4.1.1.3. [Bounded Context Canvases.](#4.1.1.3.)<br>
-    - 4.1.2. [Context Mapping.](#4.1.2.)<br>
-    - 4.1.3. [Software Architecture.](#4.1.3.)<br>
-        - 4.1.3.1. [Software Architecture System Landscape Diagram.](#4.1.3.1.)<br>
-        - 4.1.3.2. [Software Architecture Context Level Diagrams.](#4.1.3.2.)<br>
-        - 4.1.3.3. [Software Architecture Container Level Diagrams.](#4.1.3.3.)<br>
-        - 4.1.3.4. [Software Architecture Deployment Diagrams.](#4.1.3.4.)<br>
+  - 4.1.1. [EventStorming.](#4.1.1.)<br>
+    - 4.1.1.1. [Candidate Context Discovery.](#4.1.1.1.)<br>
+    - 4.1.1.2. [Domain Message Flows Modeling.](#4.1.1.2.)<br>
+    - 4.1.1.3. [Bounded Context Canvases.](#4.1.1.3.)<br>
+  - 4.1.2. [Context Mapping.](#4.1.2.)<br>
+  - 4.1.3. [Software Architecture.](#4.1.3.)<br>
+    - 4.1.3.1. [Software Architecture System Landscape Diagram.](#4.1.3.1.)<br>
+    - 4.1.3.2. [Software Architecture Context Level Diagrams.](#4.1.3.2.)<br>
+    - 4.1.3.3. [Software Architecture Container Level Diagrams.](#4.1.3.3.)<br>
+    - 4.1.3.4. [Software Architecture Deployment Diagrams.](#4.1.3.4.)<br>
 - 4.2. [Tactical-Level Domain-Driven Design.](#4.2.)<br>
-    - 4.2.1. [Bounded Context: Crops](#4.2.1.)<br>
-        - 4.2.1.1. [Domain Layer.](#4.2.1.1.)<br>
-        - 4.2.1.2. [Interface Layer.](#4.2.1.2.)<br>
-        - 4.2.1.3. [Application Layer.](#4.2.1.3.)<br>
-        - 4.2.1.4. [Infrastructure Layer.](#4.2.1.4.)<br>
-        - 4.2.1.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.1.5.)<br>
-        - 4.2.1.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.1.6.)<br>
-            - 4.2.1.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.1.6.1.)<br>
-            - 4.2.1.6.2. [Bounded Context Database Design Diagram.](#4.2.1.6.1.)<br>
-    - 4.2.2. [Bounded Context: IAM](#4.2.2.)<br>
-        - 4.2.2.1. [Domain Layer.](#4.2.2.1.)<br>
-        - 4.2.2.2. [Interface Layer.](#4.2.2.2.)<br>
-        - 4.2.2.3. [Application Layer.](#4.2.2.3.)<br>
-        - 4.2.2.4. [Infrastructure Layer.](#4.2.2.4.)<br>
-        - 4.2.2.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.2.5.)<br>
-        - 4.2.2.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.2.6.)<br>
-            - 4.2.2.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.2.6.1.)<br>
-            - 4.2.2.6.2. [Bounded Context Database Design Diagram.](#4.2.2.6.2.)<br>
-    - 4.2.3. [Bounded Context: Mailling](#4.2.3.)<br>
-        - 4.2.3.1. [Domain Layer.](#4.2.3.1.)<br>
-        - 4.2.3.2. [Interface Layer.](#4.2.3.2.)<br>
-        - 4.2.3.3. [Application Layer.](#4.2.3.3.)<br>
-        - 4.2.3.4. [Infrastructure Layer.](#4.2.3.4.)<br>
-        - 4.2.3.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.3.5.)<br>
-        - 4.2.3.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.3.6.)<br>
-            - 4.2.3.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.3.6.1.)<br>
-            - 4.2.3.6.2. [Bounded Context Database Design Diagram.](#4.2.3.6.2.)<br>
-    - 4.2.4. [Bounded Context: Memberships](#4.2.4.)<br>
-        - 4.2.4.1. [Domain Layer.](#4.2.4.1.)<br>
-        - 4.2.4.2. [Interface Layer.](#4.2.4.2.)<br>
-        - 4.2.4.3. [Application Layer.](#4.2.4.3.)<br>
-        - 4.2.4.4. [Infrastructure Layer.](#4.2.4.4.)<br>
-        - 4.2.4.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.4.5.)<br>
-        - 4.2.4.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.4.6.)<br>
-          - 4.2.4.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.4.6.1.)<br>
-          - 4.2.4.6.2. [Bounded Context Database Design Diagram.](#4.2.4.6.2.)<br>
-    - 4.2.5. [Bounded Context: IoT](#4.2.5.)<br>
-        - 4.2.5.1. [Domain Layer.](#4.2.5.1.)<br>
-        - 4.2.5.2. [Interface Layer.](#4.2.5.2.)<br>
-        - 4.2.5.3. [Application Layer.](#4.2.5.3.)<br>
-        - 4.2.5.4. [Infrastructure Layer.](#4.2.5.4.)<br>
-        - 4.2.5.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.5.5.)<br>
-        - 4.2.5.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.5.6.)<br>
-          - 4.2.5.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.5.6.1.)<br>
-          - 4.2.5.6.2. [Bounded Context Database Design Diagram.](#4.2.5.6.2.)<br>
+  - 4.2.1. [Bounded Context: Crops](#4.2.1.)<br>
+    - 4.2.1.1. [Domain Layer.](#4.2.1.1.)<br>
+    - 4.2.1.2. [Interface Layer.](#4.2.1.2.)<br>
+    - 4.2.1.3. [Application Layer.](#4.2.1.3.)<br>
+    - 4.2.1.4. [Infrastructure Layer.](#4.2.1.4.)<br>
+    - 4.2.1.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.1.5.)<br>
+    - 4.2.1.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.1.6.)<br>
+      - 4.2.1.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.1.6.1.)<br>
+      - 4.2.1.6.2. [Bounded Context Database Design Diagram.](#4.2.1.6.1.)<br>
+  - 4.2.2. [Bounded Context: IAM](#4.2.2.)<br>
+    - 4.2.2.1. [Domain Layer.](#4.2.2.1.)<br>
+    - 4.2.2.2. [Interface Layer.](#4.2.2.2.)<br>
+    - 4.2.2.3. [Application Layer.](#4.2.2.3.)<br>
+    - 4.2.2.4. [Infrastructure Layer.](#4.2.2.4.)<br>
+    - 4.2.2.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.2.5.)<br>
+    - 4.2.2.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.2.6.)<br>
+      - 4.2.2.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.2.6.1.)<br>
+      - 4.2.2.6.2. [Bounded Context Database Design Diagram.](#4.2.2.6.2.)<br>
+  - 4.2.3. [Bounded Context: Mailling](#4.2.3.)<br>
+    - 4.2.3.1. [Domain Layer.](#4.2.3.1.)<br>
+    - 4.2.3.2. [Interface Layer.](#4.2.3.2.)<br>
+    - 4.2.3.3. [Application Layer.](#4.2.3.3.)<br>
+    - 4.2.3.4. [Infrastructure Layer.](#4.2.3.4.)<br>
+    - 4.2.3.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.3.5.)<br>
+    - 4.2.3.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.3.6.)<br>
+      - 4.2.3.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.3.6.1.)<br>
+      - 4.2.3.6.2. [Bounded Context Database Design Diagram.](#4.2.3.6.2.)<br>
+  - 4.2.4. [Bounded Context: Memberships](#4.2.4.)<br>
+    - 4.2.4.1. [Domain Layer.](#4.2.4.1.)<br>
+    - 4.2.4.2. [Interface Layer.](#4.2.4.2.)<br>
+    - 4.2.4.3. [Application Layer.](#4.2.4.3.)<br>
+    - 4.2.4.4. [Infrastructure Layer.](#4.2.4.4.)<br>
+    - 4.2.4.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.4.5.)<br>
+    - 4.2.4.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.4.6.)<br>
+      - 4.2.4.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.4.6.1.)<br>
+      - 4.2.4.6.2. [Bounded Context Database Design Diagram.](#4.2.4.6.2.)<br>
+  - 4.2.5. [Bounded Context: IoT](#4.2.5.)<br>
+    - 4.2.5.1. [Domain Layer.](#4.2.5.1.)<br>
+    - 4.2.5.2. [Interface Layer.](#4.2.5.2.)<br>
+    - 4.2.5.3. [Application Layer.](#4.2.5.3.)<br>
+    - 4.2.5.4. [Infrastructure Layer.](#4.2.5.4.)<br>
+    - 4.2.5.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.5.5.)<br>
+    - 4.2.5.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.5.6.)<br>
+      - 4.2.5.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.5.6.1.)<br>
+      - 4.2.5.6.2. [Bounded Context Database Design Diagram.](#4.2.5.6.2.)<br>
+
 5. [**Capítulo V: Solution UI/UX Design.**](#5.)<br>
-    - 5.1. [Style Guidelines.](#5.1.)<br>
-        - 5.1.1. [General Style Guidelines.](#5.1.1.)<br>
-        - 5.1.2. [Web, Mobile and IoT Style Guidelines.](#5.1.2.)<br>
-    - 5.2. [Information Architecture.](#5.2.)<br>
-        - 5.2.1. [Organization Systems.](#5.2.1.)<br>
-        - 5.2.2. [Labeling Systems.](#5.2.2.)<br>
-        - 5.2.3. [SEO Tags and Meta Tags.](#5.2.3.)<br>
-        - 5.2.4. [Searching Systems.](#5.2.4.)<br>
-        - 5.2.5. [Navigation Systems.](#5.2.5.)<br>
-    - 5.3. [Landing Page UI Design.](#5.3.)<br>
-        - 5.3.1. [Landing Page Wireframe.](#5.3.1.)<br>
-        - 5.3.2. [Landing Page Mock-up.](#5.3.2.)<br>
-    - 5.4. [Applications UX/UI Design.](#5.4.)<br>
-        - 5.4.1. [Applications Wireframes.](#5.4.1.)<br>
-        - 5.4.2. [Applications Wireflow Diagrams.](#5.4.2.)<br>
-        - 5.4.3. [Applications Mock-ups.](#5.4.3.)<br>
-        - 5.4.4. [Applications User Flow Diagrams.](#5.4.4.)<br>
-    - 5.5. [Applications Prototyping.](#5.5.)<br>
+   - 5.1. [Style Guidelines.](#5.1.)<br>
+     - 5.1.1. [General Style Guidelines.](#5.1.1.)<br>
+     - 5.1.2. [Web, Mobile and IoT Style Guidelines.](#5.1.2.)<br>
+   - 5.2. [Information Architecture.](#5.2.)<br>
+     - 5.2.1. [Organization Systems.](#5.2.1.)<br>
+     - 5.2.2. [Labeling Systems.](#5.2.2.)<br>
+     - 5.2.3. [SEO Tags and Meta Tags.](#5.2.3.)<br>
+     - 5.2.4. [Searching Systems.](#5.2.4.)<br>
+     - 5.2.5. [Navigation Systems.](#5.2.5.)<br>
+   - 5.3. [Landing Page UI Design.](#5.3.)<br>
+     - 5.3.1. [Landing Page Wireframe.](#5.3.1.)<br>
+     - 5.3.2. [Landing Page Mock-up.](#5.3.2.)<br>
+   - 5.4. [Applications UX/UI Design.](#5.4.)<br>
+     - 5.4.1. [Applications Wireframes.](#5.4.1.)<br>
+     - 5.4.2. [Applications Wireflow Diagrams.](#5.4.2.)<br>
+     - 5.4.3. [Applications Mock-ups.](#5.4.3.)<br>
+     - 5.4.4. [Applications User Flow Diagrams.](#5.4.4.)<br>
+   - 5.5. [Applications Prototyping.](#5.5.)<br>
 6. [**Capítulo XI: Solution Software Design.**](#6.)<br>
+
 - 6.1. [Software Configuration Management.](#6.1.)<br>
-    - 6.1.1. [Software Development Environment Configuration.](#6.1.1.)<br>
-    - 6.1.2. [Source Code Management.](#6.1.2.)<br>
-    - 6.1.3. [Source Code Style Guide & Conventions.](#6.1.3.)<br>
-    - 6.1.4. [Software Deployment Configuration.](#6.1.4.)<br>
+  - 6.1.1. [Software Development Environment Configuration.](#6.1.1.)<br>
+  - 6.1.2. [Source Code Management.](#6.1.2.)<br>
+  - 6.1.3. [Source Code Style Guide & Conventions.](#6.1.3.)<br>
+  - 6.1.4. [Software Deployment Configuration.](#6.1.4.)<br>
 - 6.2. [Landing Page, Services & Applications Implementation.](#6.2.)<br>
-    - 6.2.1. [Sprint 1.](#6.2.1.)<br>
-        - 6.2.1.1. [Sprint Planning 1.](#6.2.1.1.)<br>
-        - 6.2.1.2. [Aspect Leaders and Collaborators.](#6.2.1.2.)<br>
-        - 6.2.1.3. [Sprint Backlog 1.](#6.2.1.3.)<br>
-        - 6.2.1.4. [Development Evidence for Sprint Review.](#6.2.1.4.)<br>
-        - 6.2.1.5. [Testing Suite Evidence for Sprint Review.](#6.2.1.5.)<br>
-        - 6.2.1.6. [Execution Evidence for Sprint Review.](#6.2.1.6.)<br>
-        - 6.2.1.7. [Services Documentation Evidence for Sprint Review.](#6.2.1.7.)<br>
-        - 6.2.1.8. [Software Deployment Evidence for Sprint Review.](#6.2.1.8.)<br>
-        - 6.2.1.9. [Team Collaboration Insights during Sprint.](#6.2.1.9.)<br>
+  - 6.2.1. [Sprint 1.](#6.2.1.)<br>
+    - 6.2.1.1. [Sprint Planning 1.](#6.2.1.1.)<br>
+    - 6.2.1.2. [Aspect Leaders and Collaborators.](#6.2.1.2.)<br>
+    - 6.2.1.3. [Sprint Backlog 1.](#6.2.1.3.)<br>
+    - 6.2.1.4. [Development Evidence for Sprint Review.](#6.2.1.4.)<br>
+    - 6.2.1.5. [Testing Suite Evidence for Sprint Review.](#6.2.1.5.)<br>
+    - 6.2.1.6. [Execution Evidence for Sprint Review.](#6.2.1.6.)<br>
+    - 6.2.1.7. [Services Documentation Evidence for Sprint Review.](#6.2.1.7.)<br>
+    - 6.2.1.8. [Software Deployment Evidence for Sprint Review.](#6.2.1.8.)<br>
+    - 6.2.1.9. [Team Collaboration Insights during Sprint.](#6.2.1.9.)<br>
+  - 6.2.2. [Sprint 2.](#6.2.2.)<br>
+    - 6.2.2.1. [Sprint Planning 1.](#6.2.2.1.)<br>
+    - 6.2.2.2. [Aspect Leaders and Collaborators.](#6.2.2.2.)<br>
+    - 6.2.2.3. [Sprint Backlog 1.](#6.2.2.3.)<br>
+    - 6.2.2.4. [Development Evidence for Sprint Review.](#6.2.2.4.)<br>
+    - 6.2.2.5. [Testing Suite Evidence for Sprint Review.](#6.2.2.5.)<br>
+    - 6.2.2.6. [Execution Evidence for Sprint Review.](#6.2.2.6.)<br>
+    - 6.2.2.7. [Services Documentation Evidence for Sprint Review.](#6.2.2.7.)<br>
+    - 6.2.2.8. [Software Deployment Evidence for Sprint Review.](#6.2.2.8.)<br>
+    - 6.2.2.9. [Team Collaboration Insights during Sprint.](#6.2.2.9.)<br>
 
 [**Conclusiones.**](#conclusiones)<br>
 [**Bibliografía.**](#referencias)<br>
@@ -285,12 +319,19 @@ explican las ramas más prominentes:
       <b>Astuyauri Calderón, Jherson David:</b>
        Apoyé en el diseño de los wireflows y userflows tanto de la aplicación web como móvil. Participé activamente en la organización de las ideas del equipo y en el levantamiento de flujos centrados en la experiencia de usuario.<br>
       <br/>
+      <i>TB2</i><br/>
+      <b>Astuyauri Calderón, Jherson David:</b>
+      <br>
+      <br/>
       <i>TB1</i><br/>
       <b>Espinoza Rodríguez, Nicolás Antonio:</b>
       Durante el presente trabajo se colaboró en equipo para la definición de los bounded context que conforman la totalidad de la aplicación. Los diagramas se realizaron en conjunto y combinando la experiencia anterior de los miembros del equipo.<br/><br/>
       <i>TP1</i><br/>
       <b>Espinoza Rodríguez, Nicolás Antonio:</b>
       Se realizó la colaboración en equipo para el desarrollo del figma con los mockups del proyecto. Durante este proceso de diseño en base a los requisitos de las historia de usuario, se involucró mucho trabajo en equipo para la validación de requisitos y la creación de un producto con el mayor estándar de calidad<br/><br/>
+      <i>TB2</i><br/>
+      <b>Espinoza Rodríguez, Nicolás Antonio:</b>
+      <br/><br/>
       <i>TB1</i><br/>
       <b>Galavis Du Bois, Alan Enrique:</b>
       Durante el desarrollo del proyecto, me aseguré de comunicar y orientar a mis compañeros de equipo el alcance, restricciones y objetivos del trabajo, con la finalidad de proponer un proyecto que responda al problema definido.<br/>
@@ -298,6 +339,10 @@ explican las ramas más prominentes:
       <i>TP1</i><br/>
       <b>Galavis Du Bois, Alan Enrique:</b>
       Me aseguré de participar activamente en la organización del proyecto, al igual que en la colaboración con el cliente para validar que el desarrollo de la solución se ajuste con los requisitos esperados.<br/>
+      <br/>
+      <i>TB2</i><br/>
+      <b>Galavis Du Bois, Alan Enrique:</b>
+      <br/>
       <br/>
       <i>TB1</i><br/>
       <b>Seminario Garbín, Carlo Luca:</b>
@@ -307,11 +352,20 @@ explican las ramas más prominentes:
       <b>Seminario Garbín, Carlo Luca:</b>
       Se realizó el despliegue del backend para que mis compañeros puedan hacer uso de las funcionalidades y hacer un flujo de trabajo más óptimo, comunicando bugs o caídas para poder darles mantenimiento.<br/>
       <br/>
+      <i>TB2</i><br/>
+      <b>Seminario Garbín, Carlo Luca:</b>
+      <br/>
+      <br/>
       <i>TB1</i><br/>
       <b>Soto Kong Requena, Andrés Eduardo:</b> Fui responsable de la definición y desarrollo de los bounded context correspondientes a los módulos de Mail y Memberships. A través de su enfoque en la estructuración de estos contextos, contribuyó significativamente a la organización y modularización de la aplicación, asegurando una integración coherente con los demás componentes del sistema.<br/>
       <br/>
       <i>TP1</i><br/>
-      <b>Soto Kong Requena, Andrés Eduardo:</b> Fui responsable de la definición y desarrollo de los bounded context correspondientes a los módulos de Mail y Memberships. A través de su enfoque en la estructuración de estos contextos, contribuyó significativamente a la organización y modularización de la aplicación, asegurando una integración coherente con los demás componentes del sistema.
+      <b>Soto Kong Requena, Andrés Eduardo:</b> Fui responsable de la definición y desarrollo de los bounded context correspondientes a los módulos de Mail y Memberships. A través de su enfoque en la estructuración de estos contextos, contribuyó significativamente a la organización y modularización de la aplicación, asegurando una integración coherente con los demás componentes del sistema.<br/>
+      <br/>
+      <i>TB2</i><br/>
+      <b>Soto Kong Requena, Andrés Eduardo:</b>
+      <br/>
+      <br/>
       </td>
       <td>El equipo trabajó de manera colaborativa y eficiente, asumiendo roles clave en diversas áreas del proyecto. Se lideró el análisis de requisitos y la implementación de herramientas UX, mientras que se definieron y estructuraron los bounded contexts de la aplicación. Además, se orientó al equipo sobre los objetivos del proyecto, se desarrolló un prototipo de IoT de manera temprana y se aseguraron módulos integrados y coherentes para una solución efectiva. En conjunto, se logró una ejecución fluida y alineada con el problema a resolver.</td>
     </tr>
@@ -377,13 +431,13 @@ Valores:
 
 <h3 id='1.1.2.'>1.1.2. Perfiles de integrantes del equipo</h3>
 
-| Foto | Nombres y apellidos | Código de alumno | Carrera | Descripción |
-|----- | --------------------|------------------| --------| ------------|
-| <img src="assets/images/chapter_1/team_members/JhersonAstuyauri.jpg" alt="Jherson Astuyauri" width="700" /> | **Jherson David Astuyauri Calderón** | U202218451 | Ingeniería de Software | Hola, soy Jherson Astuyauri. Tengo 20 años y actualmente curso el séptimo ciclo de la carrera de Ingeniería de Software. Elegí esta carrera porque me apasiona la tecnología y su impacto en la evolución del mundo, así como en la mejora de la calidad de vida de las personas. Actualmente, me interesan especialmente las áreas de inteligencia artificial y ciberseguridad. Puedo aportar al equipo con los conocimientos técnicos que he adquirido a lo largo de los cursos previos, además de mi capacidad para trabajar en equipo de manera efectiva, con una actitud proactiva y responsabilidad. |
-| <img src="assets/images/chapter_1/team_members/NicolasEspinoza.jpg" alt="Jherson Astuyauri" width="700" />  | **Nicolás Antonio Espinoza Rodríguez** | U202110278 | Ingeniería de Software |Mi nombre es Nicolás Espinoza. Tengo 21 años y estoy estudiando la carrera de ingeniería de software en la UPC desde el año 2021. Soy una persona creativa e imaginativa, lo que me ayuda a aportar soluciones para resolver los problemas en común. También, me considero empático y colaborativo, lo que facilita el trabajo en equipo con mis compañeros. Finalmente, me considero una persona ordenada y con ambición, lo que ayuda a trazar metas posibles y significativas para la solución que queremos presentar como equipo. Soy competente en los lenguajes de programación C++, Python y Javascript. Además, tengo conocimiento de tecnologías ágiles y software de control de versiones. |
-| <img src="assets/images/chapter_1/team_members/AlanGalavis.jpg" alt="Alan Galavis" width="700" /> | **Alan Enrique Galavís Du Bois** | U202110223 | Ingeniería de Software | Mi nombre es Alan Galavis, tengo 21 años y actualmente curso el noveno ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Mi formación académica se ha centrado en el diseño y desarrollo de proyectos de alta calidad, desde simples landing pages hasta aplicaciones web y móviles con RESTful APIs. Para este proyecto puedo aportar con mi capacidad de crear un software eficiente y escalable que brinda las mejores experiencias de usuario. Mi compromiso y conocimientos en gestión de proyectos ágiles me permiten colaborar de manera exitosa en equipos de trabajo. |
-| <img src="assets/images/chapter_1/team_members/CarloSeminario.jpg" alt="Carlo Seminario" width="700" /> | **Carlo Luca Seminario Garbín** | U20211A475 | Ingeniería de Software | Mi nombre es Carlo Luca Seminario, tengo 21 años de edad y actualmente curso el noveno ciclo de la carrera de ingeniería de software en la Universidad Peruana de Ciencias Aplicadas (UPC). Considero que soy una persona que es capaz de trabajar bajo presión, además de ser responsable y perseverante. En cuanto a cualidades para la realización del trabajo considero que soy bueno identificando problemáticas y buscando soluciones, a lo que le puedo sumar los conocimientos adquiridos en cursos de programación y prácticas|
-| <img src="assets/images/chapter_1/team_members/Andres.png" alt="Andres Soto" width="700" /> | **Andrés Eduardo Soto Kong Requena** | U202116113 | Ingeniería de Software | Soy Andres Soto, tengo 21 años. Me encuentro cursando el 9no ciclo de la carrera de ingenieria de software en la Universidad Peruana de Ciencias Aplicadas (UPC). Adicionalmente me encuentro trabajando como desarrollador de componentes para una plataforma CRM. Considero que tengo habilidades de comunicacion y desarrollo de problemas. Por otro lado me gusta desarrollar aplicaciones web dentro de mi tiempo libre. |
+| Foto                                                                                                        | Nombres y apellidos                    | Código de alumno | Carrera                | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| ----------------------------------------------------------------------------------------------------------- | -------------------------------------- | ---------------- | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="assets/images/chapter_1/team_members/JhersonAstuyauri.jpg" alt="Jherson Astuyauri" width="700" /> | **Jherson David Astuyauri Calderón**   | U202218451       | Ingeniería de Software | Hola, soy Jherson Astuyauri. Tengo 20 años y actualmente curso el séptimo ciclo de la carrera de Ingeniería de Software. Elegí esta carrera porque me apasiona la tecnología y su impacto en la evolución del mundo, así como en la mejora de la calidad de vida de las personas. Actualmente, me interesan especialmente las áreas de inteligencia artificial y ciberseguridad. Puedo aportar al equipo con los conocimientos técnicos que he adquirido a lo largo de los cursos previos, además de mi capacidad para trabajar en equipo de manera efectiva, con una actitud proactiva y responsabilidad.                                                                                           |
+| <img src="assets/images/chapter_1/team_members/NicolasEspinoza.jpg" alt="Jherson Astuyauri" width="700" />  | **Nicolás Antonio Espinoza Rodríguez** | U202110278       | Ingeniería de Software | Mi nombre es Nicolás Espinoza. Tengo 21 años y estoy estudiando la carrera de ingeniería de software en la UPC desde el año 2021. Soy una persona creativa e imaginativa, lo que me ayuda a aportar soluciones para resolver los problemas en común. También, me considero empático y colaborativo, lo que facilita el trabajo en equipo con mis compañeros. Finalmente, me considero una persona ordenada y con ambición, lo que ayuda a trazar metas posibles y significativas para la solución que queremos presentar como equipo. Soy competente en los lenguajes de programación C++, Python y Javascript. Además, tengo conocimiento de tecnologías ágiles y software de control de versiones. |
+| <img src="assets/images/chapter_1/team_members/AlanGalavis.jpg" alt="Alan Galavis" width="700" />           | **Alan Enrique Galavís Du Bois**       | U202110223       | Ingeniería de Software | Mi nombre es Alan Galavis, tengo 21 años y actualmente curso el noveno ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Mi formación académica se ha centrado en el diseño y desarrollo de proyectos de alta calidad, desde simples landing pages hasta aplicaciones web y móviles con RESTful APIs. Para este proyecto puedo aportar con mi capacidad de crear un software eficiente y escalable que brinda las mejores experiencias de usuario. Mi compromiso y conocimientos en gestión de proyectos ágiles me permiten colaborar de manera exitosa en equipos de trabajo.                                                                          |
+| <img src="assets/images/chapter_1/team_members/CarloSeminario.jpg" alt="Carlo Seminario" width="700" />     | **Carlo Luca Seminario Garbín**        | U20211A475       | Ingeniería de Software | Mi nombre es Carlo Luca Seminario, tengo 21 años de edad y actualmente curso el noveno ciclo de la carrera de ingeniería de software en la Universidad Peruana de Ciencias Aplicadas (UPC). Considero que soy una persona que es capaz de trabajar bajo presión, además de ser responsable y perseverante. En cuanto a cualidades para la realización del trabajo considero que soy bueno identificando problemáticas y buscando soluciones, a lo que le puedo sumar los conocimientos adquiridos en cursos de programación y prácticas                                                                                                                                                              |
+| <img src="assets/images/chapter_1/team_members/Andres.png" alt="Andres Soto" width="700" />                 | **Andrés Eduardo Soto Kong Requena**   | U202116113       | Ingeniería de Software | Soy Andres Soto, tengo 21 años. Me encuentro cursando el 9no ciclo de la carrera de ingenieria de software en la Universidad Peruana de Ciencias Aplicadas (UPC). Adicionalmente me encuentro trabajando como desarrollador de componentes para una plataforma CRM. Considero que tengo habilidades de comunicacion y desarrollo de problemas. Por otro lado me gusta desarrollar aplicaciones web dentro de mi tiempo libre.                                                                                                                                                                                                                                                                        |
 
 <h2 id='1.2.'>1.2. Solution Profile</h2>
 <h3 id='1.2.1.'>1.2.1. Antecedentes y problemática</h3>
@@ -393,7 +447,7 @@ A continuación, se presentan las secciones de Antecedentes y Problemática, y L
 
 **¿Cuál es el problema?**
 
-Actualmente, las fábricas de champiñones del Perú emplean un registro manual de las actividades que realizan. Esta práctica es difícil de mantener, poco sostenible con el medio ambiente y susceptible a ineficiencias relacionadas con errores humanos, así como a la pérdida de documentos físicos. 
+Actualmente, las fábricas de champiñones del Perú emplean un registro manual de las actividades que realizan. Esta práctica es difícil de mantener, poco sostenible con el medio ambiente y susceptible a ineficiencias relacionadas con errores humanos, así como a la pérdida de documentos físicos.
 Por otro lado, los administradores de dichas empresas no cuentan con un método confiable para recibir en tiempo real los reportes del estado de los cultivos. Como consecuencia, los administradores se ven en la necesidad de realizar con gran frecuencia visitas a las fábricas, las cuales en su mayoría están ubicadas en zonas lejanas.
 
 #### **When? (¿Cuándo?)**
@@ -430,13 +484,13 @@ Por otro lado, los administradores de las fábricas utilizarán la aplicación w
 **¿Cómo lograremos desarrollar la correcta gestión de cultivos de champiñones dentro de la plataforma?**
 
 El proceso de cultivo de champiñones está dividido en cuatro etapas distintas: La preparación de la mezcla del compost en el patio, la cocción de la mezcla en el búnker, la pasteurización del compost en el túnel y la incubación, cobertura, inducción y cosecha de los champiñones en las naves de crecimiento. La aplicación abarca cada una de estas fases y la distingue de manera adecuada. Cabe recalcar que el sistema IoT únicamente se enfocará en la última etapa del cultivo de champiñones, es decir, aquellos procesos que se realizan en las naves de cultivo. Específicamente, se utilizarán sensores IoT para medir la temperatura y humedad del ambiente.
-Las fábricas mantienen un seguimiento del estado y progreso de las actividades realizadas en cada una de las fases de cultivo, por ello, es fundamental que los técnicos supervisores utilicen nuestra aplicación para presentar informes periódicos correspondientes a sus labores. La aplicación, a su vez, permitirá visualizar reportes estadísticos para evaluar el rendimiento y la eficiencia de cada fase del proceso de producción de champiñones.  
+Las fábricas mantienen un seguimiento del estado y progreso de las actividades realizadas en cada una de las fases de cultivo, por ello, es fundamental que los técnicos supervisores utilicen nuestra aplicación para presentar informes periódicos correspondientes a sus labores. La aplicación, a su vez, permitirá visualizar reportes estadísticos para evaluar el rendimiento y la eficiencia de cada fase del proceso de producción de champiñones.
 
 #### **How much? (Cuánto)**
 
 **¿Cuál es la magnitud del problema?**
 
-Según Agro Perú (2023), en el año 2022, el Perú exportó 850 toneladas de champiñones secos por un valor de USD 7,1 millones. Ello representó un aumento del 11 % en volumen y 4 % en valor más que en el año 2021. Estos datos indican que el número de exportaciones aparenta ser próspero, lo que confirma la solidez del mercado seleccionado. 
+Según Agro Perú (2023), en el año 2022, el Perú exportó 850 toneladas de champiñones secos por un valor de USD 7,1 millones. Ello representó un aumento del 11 % en volumen y 4 % en valor más que en el año 2021. Estos datos indican que el número de exportaciones aparenta ser próspero, lo que confirma la solidez del mercado seleccionado.
 Sin embargo, una encuesta realizada por Cajo y Rosales (2022) revela que, de las 58 empresas agroindustriales peruanas, el 33.9% no administra ni actualiza de manera adecuada el inventario, las características y los cambios en los cultivos. Por otro lado, el resto de las empresas aún realiza estos procesos de forma manual y, por tanto, con márgenes de error muy altos por el factor humano. Por esta razón, resulta necesario el acceso a un software amigable (aplicación móvil) con un proceso de automatización adecuado para agilizar y monitorear el registro de las fases involucradas en la producción de cultivos de estas industrias.
 De acuerdo con The Yield Lab (2019), el reto para los startups de la industria agrícola es alcanzar soluciones para la producción de alimentos de una forma más sustentable y eficiente debido al incremento de la demanda en Latinoamérica. Es ahí que se ve implicada Greenhouse como alternativa de solución.
 
@@ -449,7 +503,7 @@ El sistema puede ser utilizado por múltiples técnicos, supervisores y administ
 
 El propósito de Greenhouse es proporcionar a las fábricas champiñoneras del Perú un sistema de monitoreo de cultivos. Técnicos supervisores y administradores del personal trabajador contarán con la capacidad de registrar los procesos productivos implicados en la producción de champiñones.
 El problema está presente al momento de realizar el registro de procesos que se llevan a cabo durante el cultivo de champiñones, dado que actualmente las fábricas champiñoneras llevan un registro manual y físico. La ineficiencia del registro y la dependencia del personal técnico y de supervisión a los métodos manuales, como registros en papel y hojas de cálculo digitales, involucra un índice de ocurrencia significativo de omisiones, errores de transcripción y falta de consistencia en la información relevante para la gestión de las fases posteriores de cultivo.
-Hemos observado que la falta de precisión en la recopilación y supervisión de datos altera la capacidad de tomar decisiones informadas en tiempo real, lo que repercute en la eficiencia de la producción. Adicionalmente, esta ausencia de confiabilidad en los datos resulta en impactos negativos en la certificación de calidad de la fábrica, la trazabilidad de los cultivos y, en última instancia, en el desempeño competitivo frente al resto de la industria champiñonera peruana en los mercados nacionales e internacionales. 
+Hemos observado que la falta de precisión en la recopilación y supervisión de datos altera la capacidad de tomar decisiones informadas en tiempo real, lo que repercute en la eficiencia de la producción. Adicionalmente, esta ausencia de confiabilidad en los datos resulta en impactos negativos en la certificación de calidad de la fábrica, la trazabilidad de los cultivos y, en última instancia, en el desempeño competitivo frente al resto de la industria champiñonera peruana en los mercados nacionales e internacionales.
 A partir de lo anterior, resulta posible plantear la principal interrogante que el proyecto propone resolver:
 
 **¿Cómo podríamos impulsar la digitalización del registro y monitoreo de la información proveniente de los procesos implicados en la producción de champiñones?**
@@ -481,7 +535,7 @@ A partir de lo anterior, resulta posible plantear la principal interrogante que 
 **User Assumptions:**
 
 ¿Quién es el usuario?
-Los usuarios son, en primera parte, el personal técnico supervisor y administrativo que trabajan en las fábricas champiñoneras del Perú. Una vez se obtenga acogida en fábricas que se adhieren a la metodología de la plataforma durante su cultivo, se planea extender la funcionalidad para incluir una variedad de metodologías usadas por diferentes empresas en la industria champiñonera. 
+Los usuarios son, en primera parte, el personal técnico supervisor y administrativo que trabajan en las fábricas champiñoneras del Perú. Una vez se obtenga acogida en fábricas que se adhieren a la metodología de la plataforma durante su cultivo, se planea extender la funcionalidad para incluir una variedad de metodologías usadas por diferentes empresas en la industria champiñonera.
 
 ¿Qué problemas tiene nuestro producto? ¿Resolver?
 Un problema que enfrenta actualmente la aplicación radica en la ausencia de la identificación automática de etapas involucradas dentro de los cultivos de champiñones. En ese sentido, los técnicos supervisores deben realizar dicha especificación de manera manual, es decir, deben registrar cuando el cultivo cambie de fase. Para resolver este problema, se conversará con los trabajadores de la industria para coordinar alertas que puedan ayudar al producto a distinguir de manera automática los cambios de etapa.
@@ -544,11 +598,11 @@ Adicionalmente, la aplicación debe de contar con una interfaz sencilla, con un 
 
 El Lean UX Canvas es una herramienta utilizada en el campo del diseño centrado en el usuario (UX) y la metodología Lean para crear y desarrollar productos de manera más eficiente y efectiva. Su objetivo es proporcionar un marco estructurado para la colaboración entre equipos multidisciplinarios.
 
-| Lean UX Canvas | Startup: Integradis | Fecha: 28/08/2024 Iteración 1 |
-| --- | --- | --- |
-| **1. Problema de negocios:** El problema está presente al momento de realizar el registro de procesos que se llevan a cabo durante el cultivo de champiñones, dado que actualmente las fábricas champiñoneras llevan un registro manual y físico. La ineficiencia del registro y la dependencia del personal técnico y de supervisión a los métodos manuales, como registros en papel y hojas de cálculo digitales, involucra un índice de ocurrencia significativo de omisiones, errores de transcripción y falta de consistencia en la información relevante para la gestión de las fases posteriores de cultivo. | **5. Ideas de la solución:** Proporcionar una plataforma que ofrezca a las fábricas de champiñones una alta disponibilidad de la información, al poder realizar los registros en la plataforma desde la comodidad de cualquier dispositivo y estos sean actualizados en tiempo real, generando estadísticas y mediciones que proporcionan una facilidad en el análisis de los datos además de una mayor fidelidad al contar con las validaciones necesarias, de modo que se pueda agilizar y automatizar el proceso de producción del champiñón. | **2. Resultados comerciales:** Se evidenciará con la reducción del margen de error de registros de datos de procesos en un 70% dentro de la plataforma. Además de mejorar la producción de los cultivos de champiñones tanto en cantidad como en calidad en un 5%. Disminuir el tiempo de búsqueda y comparaciones de cultivos de registros de cultivos en un 60%, logrando un impacto en la toma de decisiones del sector administrativo. |
-| **3. Usuarios y Clientes:** Personal administrativo y técnicos supervisores de las empresas de champiñones en el Perú. | | **4. Beneficios del usuario:** Minimizar el margen de error en el registro de datos con el propósito de garantizar una mayor precisión en la información registrada. Evitar la necesidad de recibir fotografías de los registros a través de plataformas como WhatsApp u otros servicios de mensajería, además de posibilitar el monitoreo en tiempo real de los mismos. Eliminar la exigencia de una búsqueda física en las instalaciones de la planta para acceder a los registros de cultivos previos. Disponer de la capacidad de visualizar estadísticas que proporcionen una evaluación de la calidad del cultivo de manera sencilla. |
-| **6. Hipótesis:** <br> - Creemos que los usuarios objetivo hallarán útil la aplicación y estarán dispuestos a adoptarla para llevar a cabo un registro digital de los procesos productivos involucrados en el cultivo de champiñones. Sabremos que hemos tenido éxito cuando, dentro del primer trimestre de lanzamiento se visualiza que más del 80% de opiniones totales sobre la aplicación en redes sociales son positivas. <br> - Creemos que la aplicación facilitará a los usuarios la gestión y seguimiento de los eventos y procesos críticos de su fábrica. Sabremos que hemos tenido éxito cuando las opiniones que expresen los usuarios sobre las notificaciones sean en más del 85% positivas en las redes sociales. <br> - Creemos que la disponibilidad de datos en tiempo real y reportes estadísticos a través de la aplicación permitirá a los administradores tomar decisiones más informadas y estratégicas sobre la asignación de recursos y mejoras en la producción. Sabremos que hemos tenido éxito cuando durante el primer semestre del lanzamiento los reportes de errores y opiniones negativas sean menos del 10% del total de opiniones. <br> - Creemos que la aplicación web mejorará la calidad de los datos de producción al reducir errores en los datos de entrada y registros inconsistentes en comparación con métodos manuales. Sabremos que hemos tenido éxito cuando se perciba una reducción del 50% en el margen de error de registro de datos de procesos productivos dentro de la plataforma. | **7. ¿Qué es lo más importante que debemos aprender primero?** Aprender sobre los procesos de producción involucrados en los cultivos de champiñones. Conocer qué mediciones son necesarias en cada fase del proceso de producción y cómo es que estás son llevadas a cabo, es decir cada cuanto tiempo. Adquirir conocimientos sobre los estándares de calidad en el proceso de producción. Además, es crucial entender cuáles son los aspectos principales para el cliente, lo que implica conocer sus preferencias, necesidades y expectativas en relación con el producto final. | **8. ¿Cuál es la menor cantidad de trabajo que necesitamos para resolver las dudas y para hacer lo siguiente más importante?** Contactar con los stakeholders tanto el segmento de administradores como el de técnicos supervisores para llevar a cabo entrevistas que nos faciliten el levantamiento de los requisitos. Para así poder definir el alcance y planificar nuestras historias de usuarios de acuerdo a las prioridades del cliente. |
+| Lean UX Canvas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Startup: Integradis                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Fecha: 28/08/2024 Iteración 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1. Problema de negocios:** El problema está presente al momento de realizar el registro de procesos que se llevan a cabo durante el cultivo de champiñones, dado que actualmente las fábricas champiñoneras llevan un registro manual y físico. La ineficiencia del registro y la dependencia del personal técnico y de supervisión a los métodos manuales, como registros en papel y hojas de cálculo digitales, involucra un índice de ocurrencia significativo de omisiones, errores de transcripción y falta de consistencia en la información relevante para la gestión de las fases posteriores de cultivo.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | **5. Ideas de la solución:** Proporcionar una plataforma que ofrezca a las fábricas de champiñones una alta disponibilidad de la información, al poder realizar los registros en la plataforma desde la comodidad de cualquier dispositivo y estos sean actualizados en tiempo real, generando estadísticas y mediciones que proporcionan una facilidad en el análisis de los datos además de una mayor fidelidad al contar con las validaciones necesarias, de modo que se pueda agilizar y automatizar el proceso de producción del champiñón.                                     | **2. Resultados comerciales:** Se evidenciará con la reducción del margen de error de registros de datos de procesos en un 70% dentro de la plataforma. Además de mejorar la producción de los cultivos de champiñones tanto en cantidad como en calidad en un 5%. Disminuir el tiempo de búsqueda y comparaciones de cultivos de registros de cultivos en un 60%, logrando un impacto en la toma de decisiones del sector administrativo.                                                                                                                                                                                                  |
+| **3. Usuarios y Clientes:** Personal administrativo y técnicos supervisores de las empresas de champiñones en el Perú.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | **4. Beneficios del usuario:** Minimizar el margen de error en el registro de datos con el propósito de garantizar una mayor precisión en la información registrada. Evitar la necesidad de recibir fotografías de los registros a través de plataformas como WhatsApp u otros servicios de mensajería, además de posibilitar el monitoreo en tiempo real de los mismos. Eliminar la exigencia de una búsqueda física en las instalaciones de la planta para acceder a los registros de cultivos previos. Disponer de la capacidad de visualizar estadísticas que proporcionen una evaluación de la calidad del cultivo de manera sencilla. |
+| **6. Hipótesis:** <br> - Creemos que los usuarios objetivo hallarán útil la aplicación y estarán dispuestos a adoptarla para llevar a cabo un registro digital de los procesos productivos involucrados en el cultivo de champiñones. Sabremos que hemos tenido éxito cuando, dentro del primer trimestre de lanzamiento se visualiza que más del 80% de opiniones totales sobre la aplicación en redes sociales son positivas. <br> - Creemos que la aplicación facilitará a los usuarios la gestión y seguimiento de los eventos y procesos críticos de su fábrica. Sabremos que hemos tenido éxito cuando las opiniones que expresen los usuarios sobre las notificaciones sean en más del 85% positivas en las redes sociales. <br> - Creemos que la disponibilidad de datos en tiempo real y reportes estadísticos a través de la aplicación permitirá a los administradores tomar decisiones más informadas y estratégicas sobre la asignación de recursos y mejoras en la producción. Sabremos que hemos tenido éxito cuando durante el primer semestre del lanzamiento los reportes de errores y opiniones negativas sean menos del 10% del total de opiniones. <br> - Creemos que la aplicación web mejorará la calidad de los datos de producción al reducir errores en los datos de entrada y registros inconsistentes en comparación con métodos manuales. Sabremos que hemos tenido éxito cuando se perciba una reducción del 50% en el margen de error de registro de datos de procesos productivos dentro de la plataforma. | **7. ¿Qué es lo más importante que debemos aprender primero?** Aprender sobre los procesos de producción involucrados en los cultivos de champiñones. Conocer qué mediciones son necesarias en cada fase del proceso de producción y cómo es que estás son llevadas a cabo, es decir cada cuanto tiempo. Adquirir conocimientos sobre los estándares de calidad en el proceso de producción. Además, es crucial entender cuáles son los aspectos principales para el cliente, lo que implica conocer sus preferencias, necesidades y expectativas en relación con el producto final. | **8. ¿Cuál es la menor cantidad de trabajo que necesitamos para resolver las dudas y para hacer lo siguiente más importante?** Contactar con los stakeholders tanto el segmento de administradores como el de técnicos supervisores para llevar a cabo entrevistas que nos faciliten el levantamiento de los requisitos. Para así poder definir el alcance y planificar nuestras historias de usuarios de acuerdo a las prioridades del cliente.                                                                                                                                                                                            |
 
 <h2 id='1.3.'>1.3. Segmentos objetivo</h2>
 
@@ -578,17 +632,16 @@ Por otro lado, se encuentran **los administradores de la fábrica**, quienes est
 <h1 id='2.'>2. Capítulo II: Requirements Elicitation & Analysis.</h1>
 <h2 id='2.1.'>2.1. Competidores</h2>
 
-Crear una plataforma de registro de procesos para fábricas productoras de alimentos no es una idea nueva, por lo tanto, existen competidores potenciales en el mercado. Identificar sus fortalezas y debilidades permite proponer una solución más eficiente. Entre los principales competidores cabe destacar: 
+Crear una plataforma de registro de procesos para fábricas productoras de alimentos no es una idea nueva, por lo tanto, existen competidores potenciales en el mercado. Identificar sus fortalezas y debilidades permite proponer una solución más eficiente. Entre los principales competidores cabe destacar:
 
 - Agroptima  
-Es un software para la gestión agrícola. Permite controlar la evolución de los cultivos desde una plataforma digital.
+  Es un software para la gestión agrícola. Permite controlar la evolución de los cultivos desde una plataforma digital.
 
 - Agro Software  
-Es una aplicación web basada en Microsoft Dynamics que permite a las empresas almacenar en la nube los registros de sus cultivos.
+  Es una aplicación web basada en Microsoft Dynamics que permite a las empresas almacenar en la nube los registros de sus cultivos.
 
 - AgroBit  
-Una plataforma que permite calcular la rentabilidad de los cultivos por medio de tecnología de *Machine Learning* y *Big Data*.
-
+  Una plataforma que permite calcular la rentabilidad de los cultivos por medio de tecnología de _Machine Learning_ y _Big Data_.
 
 <h3 id='2.1.1.'>2.1.1. Análisis competitivo</h3>
 
@@ -727,21 +780,21 @@ En base al análisis competitivo efectuado anticipadamente, se logró identifica
 
 ## Afrontando las fortalezas de nuestros competidores:
 
-- Gestión de costos por cada actividad agrícola involucrada en diferentes tipos de cultivo.  
-- Adecuada supervisión para el personal técnico a través de una vista satelital que muestra a tiempo real una mejor percepción de los campos agrícolas.  
-- Cálculos estables basados en herramientas de Microsoft.  
-- Permite trabajar con contratos, aplicaciones, liquidaciones, operaciones empresariales, de logística y de inventarios.  
+- Gestión de costos por cada actividad agrícola involucrada en diferentes tipos de cultivo.
+- Adecuada supervisión para el personal técnico a través de una vista satelital que muestra a tiempo real una mejor percepción de los campos agrícolas.
+- Cálculos estables basados en herramientas de Microsoft.
+- Permite trabajar con contratos, aplicaciones, liquidaciones, operaciones empresariales, de logística y de inventarios.
 
 **Comprendemos que nuestras fortalezas son:**
 
-- Comunicación flexible entre el personal supervisor y administrativo de las plantas agrícolas.  
-- Registro y monitoreo eficiente de los procesos productivos de los cultivos de champiñones.  
+- Comunicación flexible entre el personal supervisor y administrativo de las plantas agrícolas.
+- Registro y monitoreo eficiente de los procesos productivos de los cultivos de champiñones.
 
 **Entonces, podemos aplicar las siguientes estrategias y tácticas:**
 
 ### Estrategias
 
-- Brindar al cliente un enfoque logístico de los registros realizados dentro de la plataforma.  
+- Brindar al cliente un enfoque logístico de los registros realizados dentro de la plataforma.
 
 ### Tácticas
 
@@ -751,88 +804,88 @@ En base al análisis competitivo efectuado anticipadamente, se logró identifica
 
 ## Afrontando las debilidades de nuestros competidores:
 
-- Errores en la recepción de información para la creación de cuenta del usuario (interfaz).  
-- Errores en el formulario de registro de información para entrar en contacto con la empresa.  
-- Algunas aplicaciones web y móviles aún no se internacionalizaron ni se insertaron al mercado norteamericano.  
+- Errores en la recepción de información para la creación de cuenta del usuario (interfaz).
+- Errores en el formulario de registro de información para entrar en contacto con la empresa.
+- Algunas aplicaciones web y móviles aún no se internacionalizaron ni se insertaron al mercado norteamericano.
 
 **Comprendemos que nuestras debilidades son:**
 
-- Desconocimiento del sector agrícola y productivo del cultivo de champiñones.  
+- Desconocimiento del sector agrícola y productivo del cultivo de champiñones.
 
 **Entonces, podemos aplicar las siguientes estrategias y tácticas:**
 
 ### Estrategias
 
-- Mantener constantes actualizaciones y verificación de errores dentro de la plataforma.  
+- Mantener constantes actualizaciones y verificación de errores dentro de la plataforma.
 
 ### Tácticas
 
-- Implementar un agente de soporte en donde el usuario registre alguna falla de la plataforma.  
-- Realizar constantes actualizaciones de las funcionalidades dentro de la plataforma en paralelo con los procesos productivos dentro de las fases de cultivo de los champiñones.  
-- Proporcionar tutoriales sobre cómo utilizar la aplicación móvil como herramienta de interacción para nuestros usuarios.  
+- Implementar un agente de soporte en donde el usuario registre alguna falla de la plataforma.
+- Realizar constantes actualizaciones de las funcionalidades dentro de la plataforma en paralelo con los procesos productivos dentro de las fases de cultivo de los champiñones.
+- Proporcionar tutoriales sobre cómo utilizar la aplicación móvil como herramienta de interacción para nuestros usuarios.
 
 ---
 
 ## Afrontando las oportunidades de nuestros competidores:
 
-- Implementación de una interfaz agradable y visual para el usuario  
-- Administración y planificación visual del departamento de producción de cultivos  
-- Combinar inteligencia artificial e IoT para mitigar el cambio climático y gestionar cultivos agrícolas de una manera más precisa.  
+- Implementación de una interfaz agradable y visual para el usuario
+- Administración y planificación visual del departamento de producción de cultivos
+- Combinar inteligencia artificial e IoT para mitigar el cambio climático y gestionar cultivos agrícolas de una manera más precisa.
 
 **Comprendemos que nuestras oportunidades son:**
 
-- Mejorar las funcionalidades deficientes de nuestros competidores en el mercado.  
-- Baja presencia de competidores en el mercado.  
-- Alta demanda en exportaciones peruanas de cultivos de champiñones hacia el exterior.  
+- Mejorar las funcionalidades deficientes de nuestros competidores en el mercado.
+- Baja presencia de competidores en el mercado.
+- Alta demanda en exportaciones peruanas de cultivos de champiñones hacia el exterior.
 
 **Entonces, podemos aplicar las siguientes estrategias y tácticas:**
 
 ### Estrategias
 
-- Desarrollar la interfaz de la plataforma en base a una experiencia de usuario acogedora y sostenible.  
+- Desarrollar la interfaz de la plataforma en base a una experiencia de usuario acogedora y sostenible.
 
 ### Tácticas
 
-- Aplicar los conceptos de psicología del color para la selección y diseño de la interfaz de usuario de la plataforma.  
-- Aplicar pruebas de usabilidad y recolección de comentarios para garantizar la atracción hacia la plataforma.  
-- Implementar una sección de información al usuario sobre el impacto ambiental y mitigación al cambio climático.  
+- Aplicar los conceptos de psicología del color para la selección y diseño de la interfaz de usuario de la plataforma.
+- Aplicar pruebas de usabilidad y recolección de comentarios para garantizar la atracción hacia la plataforma.
+- Implementar una sección de información al usuario sobre el impacto ambiental y mitigación al cambio climático.
 
 ---
 
 ## Afrontando las amenazas de nuestros competidores:
 
-- La interfaz no puede centralizarse en el desarrollo de procesos productivos para solo un tipo de cultivos. Es decir, la interfaz ha sido creada de forma generalizada.  
-- Bajas demandas al no contar con una aplicación móvil.  
-- El dilema del cambio climático está en continuo agudizamiento.  
+- La interfaz no puede centralizarse en el desarrollo de procesos productivos para solo un tipo de cultivos. Es decir, la interfaz ha sido creada de forma generalizada.
+- Bajas demandas al no contar con una aplicación móvil.
+- El dilema del cambio climático está en continuo agudizamiento.
 
 **Comprendemos que nuestras amenazas son:**
 
-- Las diferencias entre metodologías y datos de medición entre las fábricas champiñoneras.  
+- Las diferencias entre metodologías y datos de medición entre las fábricas champiñoneras.
 
 **Entonces, podemos aplicar las siguientes estrategias y tácticas:**
 
 ### Estrategias
 
-- Potenciar las funcionalidades de la aplicación móvil para adaptarse al proceso real usado por las empresas  
-- Mantener actualizaciones continuas de la plataforma y agilizar la atención al registro de errores por los usuarios.  
+- Potenciar las funcionalidades de la aplicación móvil para adaptarse al proceso real usado por las empresas
+- Mantener actualizaciones continuas de la plataforma y agilizar la atención al registro de errores por los usuarios.
 
 ### Tácticas
 
-- Desarrollar webinars para destacar la facilidad de planificación y administración visual para optimizar operaciones que ofrece nuestra plataforma (demostraciones prácticas).  
-- Encuestar a empresas del sector y averiguar la importancia de los datos que registran durante los cultivos.  
+- Desarrollar webinars para destacar la facilidad de planificación y administración visual para optimizar operaciones que ofrece nuestra plataforma (demostraciones prácticas).
+- Encuestar a empresas del sector y averiguar la importancia de los datos que registran durante los cultivos.
 - Incluir en la aplicación registros para los procesos que se identifican como importantes en la mayoría de empresas y añadir progresivamente los otros tipos de registros vía actualizaciones de la app.
-
 
 <h2 id='2.2.'>2.2. Entrevistas</h2>
 
 La sección abarca el proceso de investigación de nuestros segmentos objetivos mediante la recolección de información en base a entrevistas. Las entrevistas fueron diseñadas para obtener información crucial sobre el proceso de cultivo de champiñones y los desafíos asociados con el registro de datos dentro de la fábrica.
 
 Objetivo de las entrevistas:
+
 - **Técnicos supervisores:**
-El objetivo de las entrevistas a los técnicos supervisores es obtener información sobre el proceso de cultivo de champiñones, los métodos actuales de registro de datos, los desafíos enfrentados en la comunicación de procesos y la viabilidad de implementar una aplicación móvil que agilice estos registros. Se busca comprender la frecuencia de los registros, las herramientas que utilizan, y las dificultades que enfrentan al manejar grandes volúmenes de información manualmente.
+  El objetivo de las entrevistas a los técnicos supervisores es obtener información sobre el proceso de cultivo de champiñones, los métodos actuales de registro de datos, los desafíos enfrentados en la comunicación de procesos y la viabilidad de implementar una aplicación móvil que agilice estos registros. Se busca comprender la frecuencia de los registros, las herramientas que utilizan, y las dificultades que enfrentan al manejar grandes volúmenes de información manualmente.
 
 - **Administradores:**
-Las entrevistas a los administradores tienen como objetivo identificar las dificultades y limitaciones que enfrentan al recibir los registros de la producción y cómo la implementación de una herramienta tecnológica podría mejorar la eficiencia operativa. A través de sus respuestas, se busca entender cómo la administración gestiona los datos, el impacto de las demoras en la toma de decisiones y la percepción sobre la tecnología en los procesos de cultivo de champiñones.
+  Las entrevistas a los administradores tienen como objetivo identificar las dificultades y limitaciones que enfrentan al recibir los registros de la producción y cómo la implementación de una herramienta tecnológica podría mejorar la eficiencia operativa. A través de sus respuestas, se busca entender cómo la administración gestiona los datos, el impacto de las demoras en la toma de decisiones y la percepción sobre la tecnología en los procesos de cultivo de champiñones.
 
 <h3 id='2.2.1.'>2.2.1. Diseño de entrevistas</h3>
 
@@ -840,28 +893,28 @@ Las entrevistas a los administradores tienen como objetivo identificar las dific
 
 #### Preguntas introductorias
 
-**i.** ¿Podrías proporcionarnos tu nombre completo y edad?  <br>
-**ii.** ¿Cuánto tiempo de experiencia posee en la industria de producción de champiñones y qué rol desempeña en la fábrica?  <br>
+**i.** ¿Podrías proporcionarnos tu nombre completo y edad? <br>
+**ii.** ¿Cuánto tiempo de experiencia posee en la industria de producción de champiñones y qué rol desempeña en la fábrica? <br>
 **iii.** ¿Qué actividades desempeña dentro de la fábrica?<br>
 
 #### Preguntas principales
 
-**i.** ¿Cómo es el proceso de cultivo de champiñones en las naves?  <br>
-**ii.** ¿Cuáles son los procesos que supervisa personalmente en la fábrica?  <br>
-**iii.** ¿Con qué frecuencia recibes un reporte relacionado con los procesos y el estado actual de la fábrica? ¿Para qué utilizas esta información?  <br>
-**iv.** ¿Han habido casos de confusiones, imprecisiones o fallos en la comunicación al momento de reportar de los procesos de la fábrica? ¿Cómo intentaron solucionar estos inconvenientes?  <br>
-**v.** ¿Cuáles son los principales problemas reportados por los trabajadores que están bajo su administración?  <br>
-**vi.** ¿Cómo se registra la información proveniente de los procesos realizados durante el cultivo y la pasteurización?  <br>
-**vii.** Dentro de la fábrica, ¿Cuentan con algún tipo de análisis estadístico u otra manera de visualizar la producción dentro de la fábrica y su trayectoria a través del tiempo?  <br>
-**viii.** ¿En qué medida se utiliza la tecnología y automatización en el proceso de cultivo?  <br>
-**ix.** ¿Qué tecnologías se han considerado implementar para automatizar el registro de procesos dentro de la fábrica?  <br>
-**x.** ¿Qué funcionalidades considera que debe tener una aplicación móvil para ayudar con el registro de información proveniente de la fábrica?  <br>
-**xi.** ¿Cuál de estas características cree que es más importante en la aplicación móvil: velocidad, facilidad de uso o una interfaz amplia?  <br>
+**i.** ¿Cómo es el proceso de cultivo de champiñones en las naves? <br>
+**ii.** ¿Cuáles son los procesos que supervisa personalmente en la fábrica? <br>
+**iii.** ¿Con qué frecuencia recibes un reporte relacionado con los procesos y el estado actual de la fábrica? ¿Para qué utilizas esta información? <br>
+**iv.** ¿Han habido casos de confusiones, imprecisiones o fallos en la comunicación al momento de reportar de los procesos de la fábrica? ¿Cómo intentaron solucionar estos inconvenientes? <br>
+**v.** ¿Cuáles son los principales problemas reportados por los trabajadores que están bajo su administración? <br>
+**vi.** ¿Cómo se registra la información proveniente de los procesos realizados durante el cultivo y la pasteurización? <br>
+**vii.** Dentro de la fábrica, ¿Cuentan con algún tipo de análisis estadístico u otra manera de visualizar la producción dentro de la fábrica y su trayectoria a través del tiempo? <br>
+**viii.** ¿En qué medida se utiliza la tecnología y automatización en el proceso de cultivo? <br>
+**ix.** ¿Qué tecnologías se han considerado implementar para automatizar el registro de procesos dentro de la fábrica? <br>
+**x.** ¿Qué funcionalidades considera que debe tener una aplicación móvil para ayudar con el registro de información proveniente de la fábrica? <br>
+**xi.** ¿Cuál de estas características cree que es más importante en la aplicación móvil: velocidad, facilidad de uso o una interfaz amplia? <br>
 **xii.** ¿Cuáles problemas cree que podrían surgir del uso de dicha aplicación?<br>
 
 #### Preguntas complementarias
 
-**i.** ¿Qué le inspira a trabajar en la administración de las naves de los champiñones?  <br>
+**i.** ¿Qué le inspira a trabajar en la administración de las naves de los champiñones? <br>
 **ii.** ¿Cómo se lleva un registro del inventario de champiñones producidos?<br>
 
 ---
@@ -870,262 +923,266 @@ Las entrevistas a los administradores tienen como objetivo identificar las dific
 
 #### Preguntas introductorias
 
-**i.** ¿Podrías proporcionarnos tu nombre completo y edad?  <br>
-**ii.** ¿Cuánto tiempo de experiencia posee en la industria de producción de champiñones y qué rol desempeña en la fábrica?  <br>
+**i.** ¿Podrías proporcionarnos tu nombre completo y edad? <br>
+**ii.** ¿Cuánto tiempo de experiencia posee en la industria de producción de champiñones y qué rol desempeña en la fábrica? <br>
 **iii.** ¿Qué actividades desempeña dentro de la fábrica?<br>
 
 #### Preguntas principales
 
-**i.** ¿Cómo es el proceso de cultivo de champiñones en las naves?  <br>
-**ii.** ¿Cuáles son los procesos que supervisa personalmente en la fábrica?  <br>
-**iii.** ¿Con qué frecuencia recibes un reporte relacionado con los procesos y el estado actual de la fábrica? ¿Para qué utilizas esta información?  <br>
-**iv.** ¿Han habido casos de confusiones, imprecisiones o fallos en la comunicación al momento de reportar de los procesos de la fábrica? ¿Cómo intentaron solucionar estos inconvenientes?  <br>
+**i.** ¿Cómo es el proceso de cultivo de champiñones en las naves? <br>
+**ii.** ¿Cuáles son los procesos que supervisa personalmente en la fábrica? <br>
+**iii.** ¿Con qué frecuencia recibes un reporte relacionado con los procesos y el estado actual de la fábrica? ¿Para qué utilizas esta información? <br>
+**iv.** ¿Han habido casos de confusiones, imprecisiones o fallos en la comunicación al momento de reportar de los procesos de la fábrica? ¿Cómo intentaron solucionar estos inconvenientes? <br>
 **v.** ¿Cuáles son los principales problemas reportados por los trabajadores que están bajo su administración?<br>  
-**vi.** ¿Cómo se registra la información proveniente de los procesos realizados durante el cultivo y la pasteurización?  <br>
-**vii.** Dentro de la fábrica, ¿Cuentan con algún tipo de análisis estadístico u otra manera de visualizar la producción dentro de la fábrica y su trayectoria a través del tiempo?  <br>
-**viii.** ¿En qué medida se utiliza la tecnología y automatización en el proceso de cultivo?  <br>
-**ix.** ¿Qué tecnologías se han considerado implementar para automatizar el registro de procesos dentro de la fábrica?  <br>
-**x.** ¿Qué funcionalidades considera que debe tener una aplicación para ayudar con el registro de información proveniente de la fábrica?  <br>
-**xi.** ¿Cuál de estas características cree que es más importante en la aplicación: velocidad, facilidad de uso o una interfaz amplia?  <br>
+**vi.** ¿Cómo se registra la información proveniente de los procesos realizados durante el cultivo y la pasteurización? <br>
+**vii.** Dentro de la fábrica, ¿Cuentan con algún tipo de análisis estadístico u otra manera de visualizar la producción dentro de la fábrica y su trayectoria a través del tiempo? <br>
+**viii.** ¿En qué medida se utiliza la tecnología y automatización en el proceso de cultivo? <br>
+**ix.** ¿Qué tecnologías se han considerado implementar para automatizar el registro de procesos dentro de la fábrica? <br>
+**x.** ¿Qué funcionalidades considera que debe tener una aplicación para ayudar con el registro de información proveniente de la fábrica? <br>
+**xi.** ¿Cuál de estas características cree que es más importante en la aplicación: velocidad, facilidad de uso o una interfaz amplia? <br>
 **xii.** ¿Cuáles problemas cree que podrían surgir del uso de esta aplicación?<br>
 
 #### Preguntas complementarias
 
-**i.** ¿Qué le inspira a trabajar en la administración de las naves de los champiñones?  <br>
+**i.** ¿Qué le inspira a trabajar en la administración de las naves de los champiñones? <br>
 **ii.** ¿Cómo se lleva un registro del inventario de champiñones producidos?<br>
-
 
 <h3 id='2.2.2.'>2.2.2. Registro de entrevistas</h3>
 
 # Entrevista a técnicos supervisores
 
-|| **Entrevistado 1** |
-|--------------------|--------------------|
-| **Nombre**         | Elías Almenara     |
-| **Edad**           | 52                 |
-| **Distrito**       | Chilca             |
-| <img src="assets/images/chapter_2/interviews/entrevistado1.png" width="2000"/> |  Cuenta con 17 años trabajando en plantas de cultivo de champiñones, actualmente es el técnico de producción en Perú Agro. Las funciones que desempeña son aquellas relacionadas a los procesos de las naves. Tiene un conocimiento muy claro del proceso y todo lo que este involucra como lo son los tiempos, condiciones de temperatura, CO2, Humedad. Trabaja en el turno de día y realiza un registro cada 4 horas. Se evidencia que no es una persona muy familiarizada con el entorno digital, ya que ciertas preguntas relacionadas al tema le costaban comprenderlas. No considera tedioso el tener que hacer los registros manualmente, pero si considera que el proceso se podría agilizar mediante la implementación de una aplicación móvil. |
-| **Timing: 0:07–15:15** | [upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1](upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1) |
+|                                                                                | **Entrevistado 1**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nombre**                                                                     | Elías Almenara                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Edad**                                                                       | 52                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Distrito**                                                                   | Chilca                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| <img src="assets/images/chapter_2/interviews/entrevistado1.png" width="2000"/> | Cuenta con 17 años trabajando en plantas de cultivo de champiñones, actualmente es el técnico de producción en Perú Agro. Las funciones que desempeña son aquellas relacionadas a los procesos de las naves. Tiene un conocimiento muy claro del proceso y todo lo que este involucra como lo son los tiempos, condiciones de temperatura, CO2, Humedad. Trabaja en el turno de día y realiza un registro cada 4 horas. Se evidencia que no es una persona muy familiarizada con el entorno digital, ya que ciertas preguntas relacionadas al tema le costaban comprenderlas. No considera tedioso el tener que hacer los registros manualmente, pero si considera que el proceso se podría agilizar mediante la implementación de una aplicación móvil. |
+| **Timing: 0:07–15:15**                                                         | [upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1](upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 
 <br>
 <br>
 <br>
 
-|| **Entrevistado 2** |
-|--------------------|--------------------|
-| **Nombre**         | Kevin Urbano    |
-| **Edad**           | 32                 |
-| **Distrito**       | Chilca             |
-|  <img src="assets/images/chapter_2/interviews/entrevistado2.png" width="2000"/> |   Cuenta con 2 años y 3 meses trabajando en plantas de cultivo de champiñones, actualmente es el técnico de pasteurización y búnker en Perú Agro. Las funciones que desempeña son las relacionadas a los procesos previos a las naves,como lo son los bunkers y la pasteurización. Comenta que las cantidades para las mezclas se manejan con un excel del encargado. Trabaja en el turno de día y realiza un registro cada hora u hora y media. Comenta que se tienen registros tanto por WhatsApp como por informes manuales que se envían a oficina. Considera que una aplicación para el registro brindaría mayor organización puesto que todo estaría en la computadora. Comenta la posibilidad de añadir el seguimiento de las mejores naves. |
-| **Timing: 15:15 -27:45** | [upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1](upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1) |
+|                                                                                | **Entrevistado 2**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nombre**                                                                     | Kevin Urbano                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Edad**                                                                       | 32                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Distrito**                                                                   | Chilca                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| <img src="assets/images/chapter_2/interviews/entrevistado2.png" width="2000"/> | Cuenta con 2 años y 3 meses trabajando en plantas de cultivo de champiñones, actualmente es el técnico de pasteurización y búnker en Perú Agro. Las funciones que desempeña son las relacionadas a los procesos previos a las naves,como lo son los bunkers y la pasteurización. Comenta que las cantidades para las mezclas se manejan con un excel del encargado. Trabaja en el turno de día y realiza un registro cada hora u hora y media. Comenta que se tienen registros tanto por WhatsApp como por informes manuales que se envían a oficina. Considera que una aplicación para el registro brindaría mayor organización puesto que todo estaría en la computadora. Comenta la posibilidad de añadir el seguimiento de las mejores naves. |
+| **Timing: 15:15 -27:45**                                                       | [upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1](upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
 <br>
 <br>
 <br>
 
-|| **Entrevistado 3** |
-|--------------------|--------------------|
-| **Nombre**         | Danny Martinez     |
-| **Edad**           | 33                 |
-| **Distrito**       | Chilca             |
-|  <img src="assets/images/chapter_2/interviews/entrevistado3.png" width="2000"/> |    El entrevistado posee un año y seis meses trabajando en la planta de cultivo dechampiñones, y, actualmente está encargado de la coordinación general de los procesos productivos, ventas, cosecha. Se encarga de que todos los procesos se cumplan a cabalidad. Menciona que el registro de temperatura es diario y en algunas áreas se manejan por horas. Comenta que se tienen registros tanto por WhatsApp como por informes manuales que se envían a oficina. Considera que una aplicación para el registro brindaría mayor organización puesto que es a tiempo real de manera digital a diferencia de por escrito. Menciona la posibilidad de implementar una base de datos. Considera que el uso de la aplicación tendría como mayor problema capacitar al personal. |
-| **Timing: 27:45-35:46** | [upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1](upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1) |
+|                                                                                | **Entrevistado 3**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nombre**                                                                     | Danny Martinez                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Edad**                                                                       | 33                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Distrito**                                                                   | Chilca                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| <img src="assets/images/chapter_2/interviews/entrevistado3.png" width="2000"/> | El entrevistado posee un año y seis meses trabajando en la planta de cultivo dechampiñones, y, actualmente está encargado de la coordinación general de los procesos productivos, ventas, cosecha. Se encarga de que todos los procesos se cumplan a cabalidad. Menciona que el registro de temperatura es diario y en algunas áreas se manejan por horas. Comenta que se tienen registros tanto por WhatsApp como por informes manuales que se envían a oficina. Considera que una aplicación para el registro brindaría mayor organización puesto que es a tiempo real de manera digital a diferencia de por escrito. Menciona la posibilidad de implementar una base de datos. Considera que el uso de la aplicación tendría como mayor problema capacitar al personal. |
+| **Timing: 27:45-35:46**                                                        | [upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1](upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+
 <br>
 
 # Entrevista a Administradores
 
-
-|| **Entrevistado 1** |
-|--------------------|--------------------|
-| **Nombre**         | Frank Alexander Du Bois Luna    |
-| **Edad**           | 42                 |
-| **Distrito**       | Miraflores             |
-| <img src="assets/images/chapter_2/interviews/entrevistadoadmin1.png" width="2000"/> |   Cuenta con 5 años en el rubro, con una trayectoria previa en la industria de la construcción. Actualmente se encarga principalmente de labores administrativas dentro de la fábrica. Posee profundos conocimientos de todas las etapas de producción, y comenta que para realizar champiñones se requiere de un estricto control. Con respecto al sistema de registro, el entrevistado señala que documentar manualmente los procesos puede resultar complicado debido a la potencial acumulación de errores con el tiempo. Uno de los problemas que encuentra es que en caso de equivocación, ninguno de los técnicos asume la responsabilidad de sus actos. Adicionalmente, asegura apoyarse de una hoja de cálculo en Excel para tener una métrica de trazabilidad de la producción diaria para cada nave. Desde su perspectiva, la facilidad de uso es un aspecto muy importante que la aplicación debe cumplir. |
-| **Timing: 35:54-59:29** | [upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1](upc-pre-202402-si728-SW81-Integradis
-needfinding-sprint-1) |
-
-<br>
-<br>
-<br>
-
-|| **Entrevistado 2** |
-|--------------------|--------------------|
-| **Nombre**         | Rosalyn Perez Clemente    |
-| **Edad**           | 41                 |
-| **Distrito**       | Chilca             |
-| <img src="assets/images/chapter_2/interviews/entrevistadoadmin2.png" width="2000"/>  |    Trabaja en la planta de producción de champiñones desde agosto de 2018 y actualmente ocupa una posición en el área administrativa. Se encarga de la gestión de pagos, trámites y la administración de documentación relacionada con las operaciones internas. Lleva la documentación de los registros de los procesos y las producciones por naves. Rosalyn recibe informes de registros en un promedio de cinco ocasiones mensuales, lo cual concuerda con la frecuencia de las siembras realizadas en ese periodo específico. Sin embargo, sugiere que existe la posibilidad de enfrentar retrasos en la entrega de la documentación, un aspecto que podría afectar la capacidad de toma de decisiones oportunas por parte de la empresa. Opina que una aplicación sería de utilidad para agilizar la comunicación, y que el mayor inconveniente de esta misma sería la necesidad de proporcionar capacitación adecuada al personal, con el objetivo de garantizar un uso efectivo de la aplicación. |
-| **Timing: 59:30-1:03:30** | [upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1](upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1) |
+|                                                                                     | **Entrevistado 1**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nombre**                                                                          | Frank Alexander Du Bois Luna                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Edad**                                                                            | 42                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Distrito**                                                                        | Miraflores                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| <img src="assets/images/chapter_2/interviews/entrevistadoadmin1.png" width="2000"/> | Cuenta con 5 años en el rubro, con una trayectoria previa en la industria de la construcción. Actualmente se encarga principalmente de labores administrativas dentro de la fábrica. Posee profundos conocimientos de todas las etapas de producción, y comenta que para realizar champiñones se requiere de un estricto control. Con respecto al sistema de registro, el entrevistado señala que documentar manualmente los procesos puede resultar complicado debido a la potencial acumulación de errores con el tiempo. Uno de los problemas que encuentra es que en caso de equivocación, ninguno de los técnicos asume la responsabilidad de sus actos. Adicionalmente, asegura apoyarse de una hoja de cálculo en Excel para tener una métrica de trazabilidad de la producción diaria para cada nave. Desde su perspectiva, la facilidad de uso es un aspecto muy importante que la aplicación debe cumplir. |
+| **Timing: 35:54-59:29**                                                             | [upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1](upc-pre-202402-si728-SW81-Integradis                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| needfinding-sprint-1)                                                               |
 
 <br>
 <br>
 <br>
 
-|| **Entrevistado 3** |
-|--------------------|--------------------|
-| **Nombre**         | Julio Victor Du Bois Yabar    |
-| **Edad**           | 78                 |
-| **Distrito**       | San Borja             |
-|<img src="assets/images/chapter_2/interviews/entrevistadoadmin3.png" width="2000"/>  |    Gerente de la fábrica de champiñones de la marca Campo Alegre. Lleva 5 años en el cargo y se encarga principalmente de la parte financiera, estructural. Recibe a menudo reportes y hace las anotaciones y correcciones correspondientes según el caso. Comenta que recibe los reportes por teléfono y tiene una constancia del registro a mano. Cuenta con los conocimientos técnicos referentes al cultivo de champiñones adquiridos a través de los años de experiencia. Menciona que aún no cuentan con la tecnología necesaria en la mayoría de procesos, y que buscan la integración de esta misma. |
-| **Timing: 1:03:31-1:22:35** | [ upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1]( upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1) |
+|                                                                                     | **Entrevistado 2**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Nombre**                                                                          | Rosalyn Perez Clemente                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Edad**                                                                            | 41                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Distrito**                                                                        | Chilca                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| <img src="assets/images/chapter_2/interviews/entrevistadoadmin2.png" width="2000"/> | Trabaja en la planta de producción de champiñones desde agosto de 2018 y actualmente ocupa una posición en el área administrativa. Se encarga de la gestión de pagos, trámites y la administración de documentación relacionada con las operaciones internas. Lleva la documentación de los registros de los procesos y las producciones por naves. Rosalyn recibe informes de registros en un promedio de cinco ocasiones mensuales, lo cual concuerda con la frecuencia de las siembras realizadas en ese periodo específico. Sin embargo, sugiere que existe la posibilidad de enfrentar retrasos en la entrega de la documentación, un aspecto que podría afectar la capacidad de toma de decisiones oportunas por parte de la empresa. Opina que una aplicación sería de utilidad para agilizar la comunicación, y que el mayor inconveniente de esta misma sería la necesidad de proporcionar capacitación adecuada al personal, con el objetivo de garantizar un uso efectivo de la aplicación. |
+| **Timing: 59:30-1:03:30**                                                           | [upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1](upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+
+<br>
+<br>
+<br>
+
+|                                                                                     | **Entrevistado 3**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nombre**                                                                          | Julio Victor Du Bois Yabar                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Edad**                                                                            | 78                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Distrito**                                                                        | San Borja                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| <img src="assets/images/chapter_2/interviews/entrevistadoadmin3.png" width="2000"/> | Gerente de la fábrica de champiñones de la marca Campo Alegre. Lleva 5 años en el cargo y se encarga principalmente de la parte financiera, estructural. Recibe a menudo reportes y hace las anotaciones y correcciones correspondientes según el caso. Comenta que recibe los reportes por teléfono y tiene una constancia del registro a mano. Cuenta con los conocimientos técnicos referentes al cultivo de champiñones adquiridos a través de los años de experiencia. Menciona que aún no cuentan con la tecnología necesaria en la mayoría de procesos, y que buscan la integración de esta misma. |
+| **Timing: 1:03:31-1:22:35**                                                         | [ upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1](upc-pre-202402-si728-SW81-Integradisneedfinding-sprint-1)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+
 <br>
 
 <h3 id='2.2.3.'>2.2.3. Análisis de entrevistas</h3>
 
 Esta sección tiene como objetivo identificar patrones comunes entre las respuestas de los técnicos supervisores y administradores, analizando los problemas, desafíos y oportunidades que surgieron durante las entrevistas, para establecer recomendaciones basadas en las evidencias recolectadas.
 
-### Análisis del segmento de técnicos supervisores 
+### Análisis del segmento de técnicos supervisores
 
-En primer lugar, el 100% de los entrevistados tiene una edad superior a 30 años, de los cuáles el 
-66% se encuentra entre los 30 y 40 años de edad. Asimismo, un 66% de los entrevistados 
-considera un proceso tedioso el tener que realizar los registros, puesto que pueden estar 
-ocupados con otra tarea y tienen que ir a cumplir con esta labor. Además, el 66% de los 
-entrevistados nos habló del grupo de WhatsApp además de los registros que llevan manualmente, 
-en el cuál comunican los registros de forma que los administradores y demás técnicos pueden 
-tener conocimiento de los procesos. A su vez, el 100% cuenta con más de año y medio de 
-experiencia en la planta de champiñones, de los cuáles el 66% cuenta con más de 5 años de 
-experiencia. De igual manera, el 100% de los entrevistados mencionan que los registros se hacen 
-diarios y cada uno de ellos maneja diferentes horas según su área. Por otra parte, la totalidad de 
-los entrevistados afirman que ha habido errores en el registro de los datos, ya sea que alguien se 
-olvidó de hacerlo (principalmente en el turno noche mencionan) o que al hacer el registro puede 
-haber un fallo al trasladar los datos al papel. Igualmente, el 66% considera que un problema sería 
-la capacitación del personal, a lo cual podemos añadir que un 33% parecía costarle entender las 
-preguntas y la solución propuesta. El 100% de los entrevistados asegura utilizar principalmente el 
-browser Google Chrome. Finalmente, el 100% de los entrevistados considera que hacer el 
-seguimiento al proceso del champiñón y registrarlo es clave para lograr un producto de calidad y 
-poder aplicar una mejora continua. 
+En primer lugar, el 100% de los entrevistados tiene una edad superior a 30 años, de los cuáles el
+66% se encuentra entre los 30 y 40 años de edad. Asimismo, un 66% de los entrevistados
+considera un proceso tedioso el tener que realizar los registros, puesto que pueden estar
+ocupados con otra tarea y tienen que ir a cumplir con esta labor. Además, el 66% de los
+entrevistados nos habló del grupo de WhatsApp además de los registros que llevan manualmente,
+en el cuál comunican los registros de forma que los administradores y demás técnicos pueden
+tener conocimiento de los procesos. A su vez, el 100% cuenta con más de año y medio de
+experiencia en la planta de champiñones, de los cuáles el 66% cuenta con más de 5 años de
+experiencia. De igual manera, el 100% de los entrevistados mencionan que los registros se hacen
+diarios y cada uno de ellos maneja diferentes horas según su área. Por otra parte, la totalidad de
+los entrevistados afirman que ha habido errores en el registro de los datos, ya sea que alguien se
+olvidó de hacerlo (principalmente en el turno noche mencionan) o que al hacer el registro puede
+haber un fallo al trasladar los datos al papel. Igualmente, el 66% considera que un problema sería
+la capacitación del personal, a lo cual podemos añadir que un 33% parecía costarle entender las
+preguntas y la solución propuesta. El 100% de los entrevistados asegura utilizar principalmente el
+browser Google Chrome. Finalmente, el 100% de los entrevistados considera que hacer el
+seguimiento al proceso del champiñón y registrarlo es clave para lograr un producto de calidad y
+poder aplicar una mejora continua.
 
+### Análisis del segmento de administradores
 
-### Análisis del segmento de administradores 
-
-En primer lugar, el 33% de los entrevistados pertenece al sector de adultos mayores mientras que 
-el resto es mayor de ronda los 40 años. A su vez, todos los entrevistados trabajan en la 
-champiñonera desde su apertura hace 5 años. De igual forma, el 100% menciona que el registro 
-se realiza en papel y que esté luego es archivado por si se necesitan en un futuro, además 
-mencionan que tienen un grupo de WhatsApp como un canal no oficial dónde también se 
-comparten los registros. Asimismo, el 66% de los entrevistados cuenta con conocimientos técnicos 
-del proceso productivo del champiñón, mientras que el 33% se dedica únicamente a actividades 
-administrativas. Por otra parte, el 66% comenta que para recibir ciertos registros pueden haber 
-demoras debido a que aún no los tienen en la oficina o que se tiene que buscar entre todos los 
-registros archivados. Además, el 100% menciona que la tecnología se utiliza principalmente en las 
-máquinas de mediciones y que para la comunicación y registro de los datos únicamente se cuenta 
-con los registros manuales en papel y un grupo de WhatsApp. Por otro lado, el 33% de los 
-entrevistados maneja un documento excel como herramienta tecnológica que utiliza para el 
-control de inventarios y tener una trazabilidad de la producción. También, en su totalidad 
-consideran que implementar una aplicación para registrar las mediciones y optimizar otros 
-procesos agilizaría el trabajo y sería útil para tener una visión más general del proceso productivo 
-y en cuáles aspectos mejorar. El 75% de los entrevistados afirma utilizar el browser Safari, mientras 
-que el 25% restante utiliza Chrome. Finalmente, todos los entrevistados consideran que el mayor 
-problema sería la capacitación de los trabajadores para utilizar nuevas herramientas tecnológicas. 
+En primer lugar, el 33% de los entrevistados pertenece al sector de adultos mayores mientras que
+el resto es mayor de ronda los 40 años. A su vez, todos los entrevistados trabajan en la
+champiñonera desde su apertura hace 5 años. De igual forma, el 100% menciona que el registro
+se realiza en papel y que esté luego es archivado por si se necesitan en un futuro, además
+mencionan que tienen un grupo de WhatsApp como un canal no oficial dónde también se
+comparten los registros. Asimismo, el 66% de los entrevistados cuenta con conocimientos técnicos
+del proceso productivo del champiñón, mientras que el 33% se dedica únicamente a actividades
+administrativas. Por otra parte, el 66% comenta que para recibir ciertos registros pueden haber
+demoras debido a que aún no los tienen en la oficina o que se tiene que buscar entre todos los
+registros archivados. Además, el 100% menciona que la tecnología se utiliza principalmente en las
+máquinas de mediciones y que para la comunicación y registro de los datos únicamente se cuenta
+con los registros manuales en papel y un grupo de WhatsApp. Por otro lado, el 33% de los
+entrevistados maneja un documento excel como herramienta tecnológica que utiliza para el
+control de inventarios y tener una trazabilidad de la producción. También, en su totalidad
+consideran que implementar una aplicación para registrar las mediciones y optimizar otros
+procesos agilizaría el trabajo y sería útil para tener una visión más general del proceso productivo
+y en cuáles aspectos mejorar. El 75% de los entrevistados afirma utilizar el browser Safari, mientras
+que el 25% restante utiliza Chrome. Finalmente, todos los entrevistados consideran que el mayor
+problema sería la capacitación de los trabajadores para utilizar nuevas herramientas tecnológicas.
 
 <h2 id='2.3.'>2.3. Needfinding</h2>
 
 <h3 id='2.3.1.'>2.3.1. User Personas</h3>
 
-### User persona técnico supervisor 
+### User persona técnico supervisor
 
 <img src="assets/images/chapter_2/needfinding/userpersona_luisflores.png" alt="user persona Luis"><br>
-  
-### User persona administrador 
 
-  <img src="assets/images/chapter_2/needfinding/userpersona_alvaro.png" alt="user persona Alvaro"><br>
-   
+### User persona administrador
+
+<img src="assets/images/chapter_2/needfinding/userpersona_alvaro.png" alt="user persona Alvaro"><br>
+
 <h3 id='2.3.2.'>2.3.2. User Task Matrix</h3>
 
 Se presentan los User Task Matrix, diagramas que contienen las tareas realizadas por los segmentos objetivos de los técnicos supervisores y los administradores.
 
-| TASK                          | FREQUENCY                    | IMPORTANCE                    | FREQUENCY                  | IMPORTANCE                 |
-|------------------------------|-------------------------------|-------------------------------|----------------------------|----------------------------|
-| Monitorear los procesos      | Always                        | High                          | Often                      | Medium                     |
-| Utilizar los grupos de WhatsApp | Always                     | Medium                        | Always                     | High                       |
-| Supervisar los registros     | Sometimes                     | High                          | Always                     | High                       |
-| Registrar temperatura del compost | Always                   | High                          | Never                      | Low                        |
-| Registrar temperatura del aire | Always                      | High                          | Never                      | Low                        |
-| Registrar CO2                | Always                        | High                          | Never                      | Low                        |
-| Registrar Humedad            | Always                        | High                          | Never                      | Low                        |
-| Registrar Setting            | Always                        | High                          | Never                      | Low                        |
-| Control de Calidad           | Always                        | High                          | Sometimes                  | High                       |
-| Pesado de insumos            | Always                        | High                          | Never                      | Low                        |
-| Mezclado de insumos          | Always                        | Medium                        | Never                      | Low                        |
-| Remojar la paja              | Always                        | Medium                        | Never                      | Low                        |
-| Regado del compost           | Always                        | Medium                        | Never                      | Low                        |
-| Regado de las naves          | Always                        | Medium                        | Never                      | Low                        |
-| Traslados entre fases        | Always                        | Medium                        | Sometimes                  | Medium                     |
-| Comprar insumos a proveedores| Never                         | High                          | Often                      | High                       |
-| Seguimiento de fallos        | Sometimes                     | Medium                        | Often                      | High                       |
-| Modificación de fórmulas     | Never                         | High                          | Sometimes                  | High                       |
-| Uso de gráficos estadísticos | Always                        | Medium                        | Sometimes                  | Medium                     |
-| Manejo de Excel de la producción   | Rarely                  | Medium                        | Often                      | High                       |
-| Buscar registros antiguos    | Rarely                        | Medium                        | Sometimes                  | Medium                     |
+| TASK                              | FREQUENCY | IMPORTANCE | FREQUENCY | IMPORTANCE |
+| --------------------------------- | --------- | ---------- | --------- | ---------- |
+| Monitorear los procesos           | Always    | High       | Often     | Medium     |
+| Utilizar los grupos de WhatsApp   | Always    | Medium     | Always    | High       |
+| Supervisar los registros          | Sometimes | High       | Always    | High       |
+| Registrar temperatura del compost | Always    | High       | Never     | Low        |
+| Registrar temperatura del aire    | Always    | High       | Never     | Low        |
+| Registrar CO2                     | Always    | High       | Never     | Low        |
+| Registrar Humedad                 | Always    | High       | Never     | Low        |
+| Registrar Setting                 | Always    | High       | Never     | Low        |
+| Control de Calidad                | Always    | High       | Sometimes | High       |
+| Pesado de insumos                 | Always    | High       | Never     | Low        |
+| Mezclado de insumos               | Always    | Medium     | Never     | Low        |
+| Remojar la paja                   | Always    | Medium     | Never     | Low        |
+| Regado del compost                | Always    | Medium     | Never     | Low        |
+| Regado de las naves               | Always    | Medium     | Never     | Low        |
+| Traslados entre fases             | Always    | Medium     | Sometimes | Medium     |
+| Comprar insumos a proveedores     | Never     | High       | Often     | High       |
+| Seguimiento de fallos             | Sometimes | Medium     | Often     | High       |
+| Modificación de fórmulas          | Never     | High       | Sometimes | High       |
+| Uso de gráficos estadísticos      | Always    | Medium     | Sometimes | Medium     |
+| Manejo de Excel de la producción  | Rarely    | Medium     | Often     | High       |
+| Buscar registros antiguos         | Rarely    | Medium     | Sometimes | Medium     |
 
 <br>
 
-Las tareas que tienen mayor frecuencia son aquellas que realizan los técnicos supervisores debido 
-a que tienen que estar supervisando constantemente el proceso del champiñón. Tienen que 
-monitorear, realizar los registros y hacer sus tareas de forma constante de modo que el champiñón 
-producido cuente con los estándares de calidad. Por otro lado, los administradores tienen tareas 
-que realizan de forma continua tales como verificar o supervisar los registros de la producción y 
-estar en constante comunicación con el personal. Por otro lado, cuentan también con otras tareas 
-que son de menor importancia y que realizan esporádicamente, dichas tareas están relacionadas 
+Las tareas que tienen mayor frecuencia son aquellas que realizan los técnicos supervisores debido
+a que tienen que estar supervisando constantemente el proceso del champiñón. Tienen que
+monitorear, realizar los registros y hacer sus tareas de forma constante de modo que el champiñón
+producido cuente con los estándares de calidad. Por otro lado, los administradores tienen tareas
+que realizan de forma continua tales como verificar o supervisar los registros de la producción y
+estar en constante comunicación con el personal. Por otro lado, cuentan también con otras tareas
+que son de menor importancia y que realizan esporádicamente, dichas tareas están relacionadas
 principalmente al proceso de mejora continua en la producción.
 
 <h3 id='2.3.3.'>2.3.3. User Journey Mapping</h3>
 
-En la presente sección se ilustra el end-to-end journey de la aplicación Greenhouse para los 
-segmentos objetivos, Técnicos Supervisores y Administradores. El User Journey Mapping empieza 
-desde el momento en el que el cliente adquiere conocimiento de la aplicación pasando por el 
-proceso de tomar la decisión de usarlo, registrarse, hacer uso de este mismo y finalmente la 
+En la presente sección se ilustra el end-to-end journey de la aplicación Greenhouse para los
+segmentos objetivos, Técnicos Supervisores y Administradores. El User Journey Mapping empieza
+desde el momento en el que el cliente adquiere conocimiento de la aplicación pasando por el
+proceso de tomar la decisión de usarlo, registrarse, hacer uso de este mismo y finalmente la
 posibilidad de que deje de hacer uso de este mismo.
 
-### Técnico Supervisor: 
+### Técnico Supervisor:
+
 <img src="assets/images/chapter_2/needfinding/userjourneymappingtecnico.png" alt="user journey mapping supervisor"><br>
 
-Enlace para acceder a la imagen en 
+Enlace para acceder a la imagen en
 <a href="https://drive.google.com/file/d/1yVWGNyuPBc9qrRnP36r73_fm8HVVXRoA/view">drive</a>
 
-### Administrador: 
+### Administrador:
+
 <img src="assets/images/chapter_2/needfinding/userjourneymappingadministrador.png" alt="user journey mapping administrador"><br>
 
-Enlace para acceder a la imagen en 
+Enlace para acceder a la imagen en
 <a href="https://drive.google.com/file/d/1yVWGNyuPBc9qrRnP36r73_fm8HVVXRoA/view">drive</a>
 
 <h3 id='2.3.4.'>2.3.4. Empathy Mapping</h3>
 
-### Técnico Supervisor: 
+### Técnico Supervisor:
+
 <img src="assets/images/chapter_2/needfinding/empathymappingsupervisor.png" alt="empathy mapping supervisor"><br>
 
-Enlace para acceder a la imagen en 
+Enlace para acceder a la imagen en
 <a href="https://drive.google.com/file/d/1yVWGNyuPBc9qrRnP36r73_fm8HVVXRoA/view">drive</a>
 
+### Administrador:
 
-### Administrador: 
 <img src="assets/images/chapter_2/needfinding/empathymappingadministrador.png" alt="empathy mapping administrador"><br>
 
-Enlace para acceder a la imagen en 
+Enlace para acceder a la imagen en
 <a href="https://drive.google.com/file/d/1yVWGNyuPBc9qrRnP36r73_fm8HVVXRoA/view">drive</a>
-
 
 <h3 id='2.3.5.'>2.3.5. As-is Scenario Mapping</h3>
 
-Para realizar el As-is Scenario Mapping el equipo realizó el proceso de needfinding para así 
-tener una mayor dominio sobre el negocio y poder determinar la situación actual de las plantas 
-champiñoneras. Este proceso permitió conocer las diferentes fases que corresponden para cada 
+Para realizar el As-is Scenario Mapping el equipo realizó el proceso de needfinding para así
+tener una mayor dominio sobre el negocio y poder determinar la situación actual de las plantas
+champiñoneras. Este proceso permitió conocer las diferentes fases que corresponden para cada
 uno de los segmentos objetivo y así tener un mejor conocimiento del flujo de trabajo.
 <br>
-### Técnico Supervisor: 
+
+### Técnico Supervisor:
+
 <img src="assets/images/chapter_2/needfinding/asissupervisor.png" alt="As-is Scenario Mapping supervisor"><br>
 
-Enlace para acceder a la imagen en 
+Enlace para acceder a la imagen en
 <a href="https://drive.google.com/file/d/1yVWGNyuPBc9qrRnP36r73_fm8HVVXRoA/view">drive</a>
 <br>
 
-### Administrador: 
+### Administrador:
+
 <img src="assets/images/chapter_2/needfinding/asisadministrador.png" alt="As-is Scenario Mapping administrador"><br>
 
-Enlace para acceder a la imagen en 
+Enlace para acceder a la imagen en
 <a href="https://drive.google.com/file/d/1yVWGNyuPBc9qrRnP36r73_fm8HVVXRoA/view">drive</a>
 
 <h2 id='2.4.'>2.4. Ubiquitous Language.</h2>
-El lenguaje ubicuo permite que las personas del negocio, incluso aquellas sin conocimientos técnicos, comprendan mejor la plataforma Greenhouse. Por ello, a continuación, se presentan una serie de términos en inglés frecuentemente utilizados en la aplicación, junto con sus definiciones en castellano. 
+El lenguaje ubicuo permite que las personas del negocio, incluso aquellas sin conocimientos técnicos, comprendan mejor la plataforma Greenhouse. Por ello, a continuación, se presentan una serie de términos en inglés frecuentemente utilizados en la aplicación, junto con sus definiciones en castellano.
 
 - Company/Compañía: Empresa registrada en la plataforma greenhouse que tiene asociado a su información a los siguientes tipos de usuarios:
   - Factory Administrator/Administrador de la fábrica: Encargado de supervisar a los Técnicos Supervisores y evaluar las estadísticas de la empresa.
@@ -1141,9 +1198,9 @@ El lenguaje ubicuo permite que las personas del negocio, incluso aquellas sin co
   - Tunnel/Túnel: Cuarta fase de un cultivo
   - Incubation/Incubación: Quinta fase de un cultivo
   - Casing/Cobertura: Sexta fase de un cultivo
-  -	Induction/Inducción: Séptima fase de un cultivo
-  -	Harvest/Cosecha: Octava fase de un cultivo
-  -	Author/Autor: Usuario que realizó el registro
+  - Induction/Inducción: Séptima fase de un cultivo
+  - Harvest/Cosecha: Octava fase de un cultivo
+  - Author/Autor: Usuario que realizó el registro
   - Grow Room/Nave: Estructuras industriales similares a un invernadero donde se cultivan champiñones
 - Record/Registro: Entrada de datos en determinado momento durante una fase de un cultivo
   - Record ID/Registro ID: Identificador único de un registro
@@ -1155,39 +1212,37 @@ El lenguaje ubicuo permite que las personas del negocio, incluso aquellas sin co
 
 <h2 id='3.1.'>3.1. To-Be Scenario Mapping</h2>
 
-
 <h2 id='3.2.'>3.2. User Stories</h2>
 
-| Código | Título | Descripción | Criterios de aceptacion | Epic Relacionada |
-| --- | --- | --- | --- | --- |
-| **EP01** | Implementación del Sistema de Medición Automático | Como responsable del proyecto, Quiero implementar un sistema de medición automático de parámetros ambientales (temperatura y humedad) Para evitar la necesidad de mediciones manuales. | No corresponde | No corresponde |
-| **EP02** | Desarrollo de la Aplicación Móvil para Monitoreo en Tiempo Real | Como responsable del proyecto, Quiero desarrollar una aplicación móvil que me permita monitorear los parámetros ambientales en tiempo real. | No corresponde | No corresponde |
-| **EP03** | Almacenamiento y Visualización de Datos Históricos | Como responsable del proyecto, Quiero almacenar y visualizar los datos históricos de los parámetros ambientales Para facilitar el análisis a largo plazo. | No corresponde | No corresponde |
-| **EP04** | Integración con Sistema de Control Automatizado | Como responsable del proyecto, Quiero integrar los datos de los sensores con un sistema de control automatizado Para ajustar los parámetros del ambiente de las naves según sea necesario. | No corresponde | No corresponde |
-| **EP05** | Gestión de Cuenta y Usuarios | Como administrador de la fábrica, Quiero gestionar las cuentas de usuario para permitir el acceso adecuado a los trabajadores. | No corresponde | No corresponde |
-| **EP06** | Gestión de Cultivos y Registros de Procesos | Como administrador de la fábrica, Quiero gestionar los cultivos y los registros de los procesos de producción, Para optimizar el flujo de trabajo. | No corresponde | No corresponde |
-| **EP07** | Landing page para la aplicación Greenhouse | Como miembro del startup Integradis Quiero desarrollar una landing page llamativa Para motivar a los potenciales clientes a conocer más sobre los servicios que ofrece la aplicación Greenhouse. | No corresponde | No corresponde |
-| **US01** | Medición Automática de Parámetros Ambientales | Como técnico supervisor, Quiero que los sensores midan la temperatura y la humedad automáticamente, Para mitigar errores asociados al factor humano. | Escenario 1: Medidor lee correctamente<br>Dado que el medidor intenta obtener la temperatura y humedad<br>Cuando su configuracion le indica<br>Entonces el medidor enviara la informacion obtenida al sistema<br>Escenario 2: Medidor no lee correctamente<br>Dado que el medidor tiene una falla en la configuracion<br>Cuando intenta obtener la informacion<br>Entonces envia la informacion incorrecta al sistema | EP01 |
-| **US02** | Monitoreo en Tiempo Real de Temperatura y Humedad | Como técnico supervisor / administrador de la fábrica, Quiero ver las mediciones de temperatura y humedad en tiempo real, Para poder hacer un seguimiento constante del ambiente en las naves. | Escenario 1: Visualizacion de mediciones<br>Dado que el usuario quiere ver las mediciones de las naves<br>Cuando ingresa a la seccion de monitoreo en tiempo real<br>Entonces se muestran correctamente los datos recopilados<br>Escenario 2: Visualziacion incorrecta de mediciones<br>Dado que el usuario quiere ver las mediciones de las naves<br>Cuando ingresa a la seccion de monitoreo en tiempo real<br>Entonces se muestran datos incorrectos<br>Escenario 3: Visualizacion desfasada<br>Dado que el usuario quiere ver las mediciones de las naves<br>Cuando ingresa a la seccion de monitoreo en tiempo real<br>Entonces se muestran datos antiguos | EP02 |
-| **US03** | Alertas por Parámetros Fuera de Rango | Como técnico supervisor, Quiero recibir alertas cuando los niveles de temperatura o humedad se salgan de los valores recomendados, Para poder tomar medidas correctivas rápidamente. | Escenario 1: Alerta notifica correctamente<br>Dado que se identifica una falla en la recopilacion de medicions<br>Cuando se identifica el error<br>Entonces se notifica al usuario del problema<br>Escenario 2: Alerta no notifica correctamente<br>Dado que se identifica una falla en la recopilacion de medicions<br>Cuando se identifica el error<br>Entonces no se notifica al usuario del problema<br>Escenario 3: Alerta notifica tarde<br>Dado que se identifica una falla en la recopilacion de medicions<br>Cuando se identifica el error<br>Entonces se notifica tarde al usuario del problema<br>Escenario 4: Alerta sin motivo<br>Dado que hay una falla en el sistema de alerta<br>Cuando no se identifico ningun problema<br>Entonces se notifica incorrectamente al usuario | EP02 |
-| **US04** | Visualización Gráfica de la Evolución de Parámetros Ambientales | Como administrador de la fábrica, Quiero poder ver gráficas que muestren la evolución de los parámetros registrados a lo largo del tiempo, Para identificar patrones y mejorar la gestión de los cultivos. | Escenario 1: Visualizacion de graficos correctamente<br>Dado que el usuario quiere ver la evolucion de los parametros registrado<br>Cuando ingresa a la seccion de los paramentros<br>Entonces se muestra el grafico de la evolucion de parametros<br>Escenario 2: Visualizacion de graficos incorrectamente<br>Dado que el usuario quiere ver la evolucion de los parametros registrado<br>Cuando ingresa a la seccion de los paramentros<br>Entonces se muestra un grafico con informacion erronea | EP02 |
-| **US05** | Acceso a Datos Históricos | Como administrador de la fábrica, Quiero tener acceso a los datos históricos registrados, Para poder hacer análisis a largo plazo y optimizar los procesos de cultivo. | Escenario 1: Acceso correcto a historico de datos<br>Dado que el usuario desea ver todos los datos regitrados<br>Cuando ingresa al historico de datos<br>Entonces se muestran todos los registros<br>Escenario 2: No se muestran todos los registros<br>Dado que el usuario desea ver todos los datos registrados<br>Cuando hay una falla en la obtencion de registros y el usuario ingresa a la seccion de todos los datos<br>Entonces no se muestra ningun dato | EP03 |
-| **US06** | Exportación de Datos de Sensores en Formatos Estándar | Como administrador de la fábrica, Quiero que el sistema permita la exportación de los datos de los sensores en formatos estándar (Excel), Para facilitar su análisis y reporte. | Escenario 1: Exportado de datos correctamente<br>Dado que el usuario desea exportar los datos de los sensores<br>Cuando presione el boton de exportar<br>Entonces se descarga un archivo en formato excel<br>Escenario 2: Error en el exportado de datos<br>Dado que el usuario desea exportar los datos de los sensores<br>Cuando presione el boton de exportar<br>Entonces se va a mostrar una ventana de error indicando que no se pudo exportar | EP03 |
-| **US07** | Gestión y Configuración de Intervalos de Medición de Sensores | Como administrador de la fábrica, Quiero poder gestionar y configurar los intervalos de medición de los sensores y los umbrales, Para ajustarlos a las necesidades específicas de la etapa del crecimiento del champiñón. | Escenario 1: Ajustado de sensores funcionan correctamente<br>Dado que el usuario desea ajustar los sensores y sus umbrales<br>Cuando los termina de ajustar<br>Entonces la configuracion mostrara sus nuevos cambios<br>Escenario 2:<br>Dado que el usuario desea ajustar los sensores y sus umbrales<br>Cuando los termina de ajustar<br>Entonces se muestra un mensaje de error indicando que los cambios no fueron realizados | EP04 |
-| **US08** | Iniciar Sesión | Como usuario, Quiero iniciar sesión en la plataforma, Para poder acceder a los beneficios que ofrece el uso de la aplicación Greenhouse. | Escenario 1: Usuario ingresa credenciales válidas<br>Dado que el usuario posee una cuenta en la aplicación Greenhouse y desee iniciar sesión<br>Cuando ingrese las credenciales necesarias correctamente<br>Entonces el sistema permitirá el acceso a la aplicación<br>Escenario 2: Usuario ingresa credenciales incorrectas<br>Dado que el usuario posee una cuenta en la aplicación Greenhouse y desea iniciar sesión<br>Cuando ingrese alguna credencial de manera incorrecta<br>Entonces el sistema denegará la solicitud | EP05 |
-| **US09** | Crear Cuenta de Empresa | Como administrador de la fábrica, Quiero crear una cuenta para mi empresa, Para permitir el acceso a los trabajadores. | Escenario 1: Usuario ingresa credenciales válidas.<br>Dado que el administrador desee crear una cuenta en la aplicación Greenhouse<br>Cuando ingrese las credenciales de una cuenta inexistente en la base de datos Greenhouse, una contraseña que cumple con todos los requisitos de seguridad y acepte los términos y condiciones de uso<br>Entonces se creará la cuenta de empresa<br>Escenario 2: Usuario ingresa credenciales incorrectas.<br>Dado que el usuario desee crear una cuenta en la aplicación Greenhouse<br>Cuando ingrese una dirección de correo electrónico o contraseña que no cumplen con los requisitos especificados<br>Entonces se le denegará la operación. | EP05 |
-| **US10** | Crear Cuenta de Técnico Supervisor | Como administrador de la fábrica, Quiero crear cuentas para mis técnicos supervisores, Para que puedan comenzar a documentar sus actividades específicas. | Escenario 1: Administrador invita a técnicos supervisores al proyecto en Greenhouse<br>Dado que el administrador cuente con una cuenta de empresa<br>Cuando ingrese la dirección de correo electrónico de al menos un empleado<br>Entonces el sistema envía un mensaje por correo electrónico solicitando a los destinatarios que se unan al nuevo proyecto en Greenhouse<br>Escenario 2: Técnico supervisor acepta la invitación recibida<br>Dado que el técnico supervisor recibe una invitación por correo electrónico<br>Cuando confirme su participación en el proyecto<br>Entonces es redirigido a la aplicación para crear una cuenta y ser añadido al proyecto | EP05 |
-| **US11** | Iniciar Nuevo Cultivo | Como administrador de la fábrica, Quiero iniciar un nuevo cultivo, Para poder comenzar a documentar un nuevo ciclo de producción. | Escenario 1: Técnico supervisor crea cultivo nuevo satisfactoriamente.<br>Dado que el técnico supervisor desea comenzar una nueva siembra<br>Cuando confirme su intención<br>Entonces se registra la información del nuevo cultivo en la base de datos de la aplicación<br>Escenario 2: Técnico supervisor cancela creación de nuevo cultivo.<br>Dado que el técnico supervisor intenta crear una nueva siembra<br>Cuando cancele la operación<br>Entonces el sistema revierte la operación y cancela la creación de un nuevo cultivo<br>Escenario 3: El Sistema impide la creación de un nuevo cultivo.<br>Dado que el técnico supervisor intente comenzar una nueva siembra<br>Cuando el sistema entre en un estado de error que imposibilite la creación<br>Entonces cancela la operación e indica el error generado | EP06 |
-| **US12** | Editar y Eliminar Cultivos | Como administrador de la fábrica, Quiero editar o eliminar cultivos existentes, Para mantener la información actualizada. | Escenario 1: Administrador borra cultivo<br>Dado que el administrador desee eliminar un cultivo<br>Cuando confirme su intención de borrar los datos<br>Entonces el sistema eliminará de la base de datos toda la información almacenada por ese cultivo<br>Escenario 2: Administrador decide no borrar cultivo<br>Dado que el administrador desee eliminar un cultivo<br>Cuando niegue su intención de borrar los datos<br>Entonces el sistema desaparecerá el pop up y no se eliminará la información del cultivo | EP06 |
-| **US13** | Documentar registros durante la preparación, cocción y pasteurización del compost | Como técnico supervisor, Quiero agregar o editar registros manuales relacionados a la elaboración, cocción y pasteurización del compost, Para reflejar a través de una documentación digital los procesos realizados. | Escenario 1: Técnico supervisor ingresa todos los datos correctamente<br>Dado que el técnico supervisor se encuentra autenticado<br>Y se encuentre dentro de un cultivo en progreso<br>Cuando ingrese todos los datos correspondientes a la fase actual del registro<br>Y se valide que sean datos dentro de los rangos establecidos<br>Entonces el sistema guardará el registro y se actualizará en la tabla.<br>Escenario 2: Técnico supervisor ingresa datos no válidos<br>Dado que el técnico supervisor se encuentra autenticado<br>Y se encuentre dentro de un cultivo en progreso<br>Cuando ingrese todos los datos correspondientes a la fase actual del registro<br>Y los datos no pasan la validación según los rangos establecidos<br>Entonces el sistema no guardará el registro y alertará al técnico de que el dato ingresado es incorrecto. | EP06 |
-| **US14** | Ver Listado de Cultivos en Progreso | Como administrador de la fábrica, Quiero ver un listado de los cultivos actualmente en progreso, Para poder hacer un seguimiento del avance. | Escenario 1: Técnico supervisor visualiza cultivo satisfactoriamente.<br>Dado que el técnico supervisor desea visualizar una siembra existente<br>Cuando acceda a la lista de cultivos en curso<br>Entonces el sistema muestra la información registrada para el cultivo seleccionado<br>Escenario 2: Usuario no puede visualizar cultivo.<br>Dado que el técnico supervisor desea visualizar una siembra existente<br>Cuando el sistema entre en un estado de error la momento de visualizar la lista de cultivos en curso<br>Entonces indica el error generado y se cancela la operación | EP06 |
-| **US15** | Avanzar Etapa de un Cultivo | Como técnico supervisor, Quiero avanzar la etapa de un cultivo, Para poder continuar a la siguiente etapa de documentación de procesos y actividades del ciclo de producción de champiñones. | Escenario 1: Finalizar la fase de cultivo<br>Dado que el técnico supervisor desea dar por culminada la fase actual del cultivo<br>Cuando el técnico supervisor seleccione la opción de finalizar fase<br>Y el usuario confirme su decisión<br>Entonces se actualizará la fase del cultivo por la siguiente y se mostrará la pantalla correspondiente.<br>Escenario 2: Técnico supervisor no decide finalizar cultivo<br>Dado que el técnico supervisor desea dar por culminada la fase actual del cultivo<br>Cuando el técnico supervisor seleccione la opción de finalizar fase<br>Y seleccione cancelar<br>Entonces se cerrará la pestaña emergente.<br>Escenario 3: Técnico supervisor decide finalizar el cultivo<br>Dado que el cultivo se encuentra en la fase de cosecha<br>Y el técnico supervisor desea dar por terminado el cultivo<br>Cuando el técnico supervisor seleccione la opción de finalizar cultivo<br>Y el técnico supervisor confirme su decisión<br>Entonces se dará por finalizado el cultivo<br>Y pasará al histórico de cultivo | EP06 |
-| **US16** | Visualizar Perfil de Usuario | Como técnico supervisor / administrador, Quiero visualizar el perfil de un usuario determinado, Para ver el detalle de la información asociada a dicho perfil | Escenario 1: Acceder al perfil del usuario<br>Dado que el usuario desee visualizar la información de un empleado<br>Cuando ingrese al perfil del mismo<br>Entonces obtendrá los datos de relevancia de la empresa a la cual pertenece<br>Escenario 2: Problema al acceder al perfil del usuario<br>Dado que el usuario quiere conocer la información de su empleado<br>Cuando intente ingresar al perfil de la misma Y experimente un error de conexión o de servidor<br>Entonces no se visualizará la información de su empleado | EP05 |
-| **US17** | Actualizar Datos Personales | Como usuario, Quiero actualizar mis datos personales, Para mantener mi información actualizada en el sistema. | Escenario 1: Cambiar contraseña<br>Dado que el usuario quiera cambiar su contraseña<br>Cuando ingrese la nueva contraseña, esta sea validada por el sistema y el usuario confirme su intención de proceder con el cambio<br>Entonces la nueva clave será guardada y la información actualizada<br>Escenario 2: Cambiar nombre<br>Dado que el usuario quiera cambiar su nombre<br>Cuando ingrese el nuevo nombre, esta sea validada por el usuario y confirme su intención de proceder con el cambio<br>Entonces el nuevo nombre será guardado y la información actualizada<br>Escenario 3: Cambiar foto<br>Dado que el usuario quiera cambiar su foto<br>Cuando ingrese la nueva foto, esta sea validada por el usuario y confirme su intención de proceder con el cambio<br>Entonces la nueva foto será guardada y la información actualizada<br>Escenario 4: Cambiar correo<br>Dado que el usuario quiera cambiar su correo<br>Cuando ingrese el nuevo correo, esta sea validada por el sistema y el usuario confirme su intención de proceder con el cambio<br>Entonces el nuevo correo será guardado y la información actualizada<br>Escenario 5: No cambiar información<br>Dado que el usuario no quiera cambiar su información<br>Cuando aparezca el pop up para confirmar el cambio y seleccione la opción para cancelar cambio<br>Entonces el pop up desaparecerá y el cambio no se realizará | EP05 |
-| **US18** | Ver Listado de Trabajadores de la Empresa | Como administrador de la fábrica, Quiero ver un listado de los trabajadores que componen mi empresa, Para poder gestionar los roles y responsabilidades. | Escenario 1: Listado de trabajadores correcto<br>Dado que el usuario quiere ver la lista de trabajadores en la fabrica<br>Cuando entre a la vista de mi empresa<br>Entonces se mostraran todos los trabajadores<br>Escenario 2: Listado de trabajadores innaccesible<br>Dado que el usuario quiere ver la lista de trabajadores en la fabrica<br>Cuando entre a la vista de mi empresa<br>Entonces se mostrara un mensaje de error indicando que no se pudieron cargar los trabajadores | EP05 |
-| **US19** | Acceder a la aplicación desde la landing page | Como visitante de la landing page Quiero poder acceder a la aplicación Greenhouse desde la landing page Para comenzar a utilizar las funcionalidades ofrecidas | Escenario 1: Usuario ingresa a aplicación<br>Dado que el visitante se encuentra en la landing page<br>Cuando seleccione la opción que permite el acceso al software elaborado<br>Entonces es redirigido a la aplicación desplegada<br>Escenario 2: Fallo en el acceso a la aplicación<br>Dado que el visitante se encuentre en la landing page<br>Cuando seleccione la opción que permite el acceso al software elaborado y ocurra un error en el proceso de redirección<br>Entonces el usuario obtiene un mensaje de error. | EP07 |
-| **US20** | Descripción de la aplicación | Como visitante de la landing page Quiero visualizar una descripción del producto ofrecido Para conocer los beneficios que puedo adquirir mediante el uso de la aplicación | Escenario 1: Visualizar sección Hero<br>Dado que el visitante ingresa a la página<br>Cuando la página cargue<br>Entonces se muestra una sección llamativa para al usuario donde se detalla brevemente la finalidad de la aplicación.<br>Escenario 2: Visualizar sección “Our benefits”<br>Dado que el visitante se encuentre dentro de la landing page<br>Cuando navegue hasta la sección “Our benefits”<br>Entonces se muestra la información relacionada a todos los beneficios que ofrece la aplicación.<br>Escenario 3: Visualizar las sección de “Choose your plan”<br>Dado que el visitante se encuentre dentro de la landing page<br>Cuando navegue hasta la sección “Choose your plan”<br>Entonces se muestra la información relacionada a los planes de pago que se ofrecen y cuáles son los beneficios de cada uno de estos.<br>Escenario 4: Visualizar la sección “Frequently asked questions”<br>Dado que el visitante se encuentre dentro de la landing page<br>Cuando navegue hasta la sección “Frequently asked questions”<br>Entonces se muestra la información relacionada a preguntas generales que podría tener el usuario y cuáles son las respuestas.<br>Escenario 5: Visualizar sección “About”<br>Dado que el visitante se encuentre dentro de la landing page<br>Cuando navegue hasta la sección “About”<br>Entonces se muestra la información correspondiente a los videos about the project y about the team, además del contacto de cada uno de los miembros. | EP07 |
-
+| Código   | Título                                                                            | Descripción                                                                                                                                                                                                               | Criterios de aceptacion                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Epic Relacionada |
+| -------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
+| **EP01** | Implementación del Sistema de Medición Automático                                 | Como responsable del proyecto, Quiero implementar un sistema de medición automático de parámetros ambientales (temperatura y humedad) Para evitar la necesidad de mediciones manuales.                                    | No corresponde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | No corresponde   |
+| **EP02** | Desarrollo de la Aplicación Móvil para Monitoreo en Tiempo Real                   | Como responsable del proyecto, Quiero desarrollar una aplicación móvil que me permita monitorear los parámetros ambientales en tiempo real.                                                                               | No corresponde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | No corresponde   |
+| **EP03** | Almacenamiento y Visualización de Datos Históricos                                | Como responsable del proyecto, Quiero almacenar y visualizar los datos históricos de los parámetros ambientales Para facilitar el análisis a largo plazo.                                                                 | No corresponde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | No corresponde   |
+| **EP04** | Integración con Sistema de Control Automatizado                                   | Como responsable del proyecto, Quiero integrar los datos de los sensores con un sistema de control automatizado Para ajustar los parámetros del ambiente de las naves según sea necesario.                                | No corresponde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | No corresponde   |
+| **EP05** | Gestión de Cuenta y Usuarios                                                      | Como administrador de la fábrica, Quiero gestionar las cuentas de usuario para permitir el acceso adecuado a los trabajadores.                                                                                            | No corresponde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | No corresponde   |
+| **EP06** | Gestión de Cultivos y Registros de Procesos                                       | Como administrador de la fábrica, Quiero gestionar los cultivos y los registros de los procesos de producción, Para optimizar el flujo de trabajo.                                                                        | No corresponde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | No corresponde   |
+| **EP07** | Landing page para la aplicación Greenhouse                                        | Como miembro del startup Integradis Quiero desarrollar una landing page llamativa Para motivar a los potenciales clientes a conocer más sobre los servicios que ofrece la aplicación Greenhouse.                          | No corresponde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | No corresponde   |
+| **US01** | Medición Automática de Parámetros Ambientales                                     | Como técnico supervisor, Quiero que los sensores midan la temperatura y la humedad automáticamente, Para mitigar errores asociados al factor humano.                                                                      | Escenario 1: Medidor lee correctamente<br>Dado que el medidor intenta obtener la temperatura y humedad<br>Cuando su configuracion le indica<br>Entonces el medidor enviara la informacion obtenida al sistema<br>Escenario 2: Medidor no lee correctamente<br>Dado que el medidor tiene una falla en la configuracion<br>Cuando intenta obtener la informacion<br>Entonces envia la informacion incorrecta al sistema                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | EP01             |
+| **US02** | Monitoreo en Tiempo Real de Temperatura y Humedad                                 | Como técnico supervisor / administrador de la fábrica, Quiero ver las mediciones de temperatura y humedad en tiempo real, Para poder hacer un seguimiento constante del ambiente en las naves.                            | Escenario 1: Visualizacion de mediciones<br>Dado que el usuario quiere ver las mediciones de las naves<br>Cuando ingresa a la seccion de monitoreo en tiempo real<br>Entonces se muestran correctamente los datos recopilados<br>Escenario 2: Visualziacion incorrecta de mediciones<br>Dado que el usuario quiere ver las mediciones de las naves<br>Cuando ingresa a la seccion de monitoreo en tiempo real<br>Entonces se muestran datos incorrectos<br>Escenario 3: Visualizacion desfasada<br>Dado que el usuario quiere ver las mediciones de las naves<br>Cuando ingresa a la seccion de monitoreo en tiempo real<br>Entonces se muestran datos antiguos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | EP02             |
+| **US03** | Alertas por Parámetros Fuera de Rango                                             | Como técnico supervisor, Quiero recibir alertas cuando los niveles de temperatura o humedad se salgan de los valores recomendados, Para poder tomar medidas correctivas rápidamente.                                      | Escenario 1: Alerta notifica correctamente<br>Dado que se identifica una falla en la recopilacion de medicions<br>Cuando se identifica el error<br>Entonces se notifica al usuario del problema<br>Escenario 2: Alerta no notifica correctamente<br>Dado que se identifica una falla en la recopilacion de medicions<br>Cuando se identifica el error<br>Entonces no se notifica al usuario del problema<br>Escenario 3: Alerta notifica tarde<br>Dado que se identifica una falla en la recopilacion de medicions<br>Cuando se identifica el error<br>Entonces se notifica tarde al usuario del problema<br>Escenario 4: Alerta sin motivo<br>Dado que hay una falla en el sistema de alerta<br>Cuando no se identifico ningun problema<br>Entonces se notifica incorrectamente al usuario                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | EP02             |
+| **US04** | Visualización Gráfica de la Evolución de Parámetros Ambientales                   | Como administrador de la fábrica, Quiero poder ver gráficas que muestren la evolución de los parámetros registrados a lo largo del tiempo, Para identificar patrones y mejorar la gestión de los cultivos.                | Escenario 1: Visualizacion de graficos correctamente<br>Dado que el usuario quiere ver la evolucion de los parametros registrado<br>Cuando ingresa a la seccion de los paramentros<br>Entonces se muestra el grafico de la evolucion de parametros<br>Escenario 2: Visualizacion de graficos incorrectamente<br>Dado que el usuario quiere ver la evolucion de los parametros registrado<br>Cuando ingresa a la seccion de los paramentros<br>Entonces se muestra un grafico con informacion erronea                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | EP02             |
+| **US05** | Acceso a Datos Históricos                                                         | Como administrador de la fábrica, Quiero tener acceso a los datos históricos registrados, Para poder hacer análisis a largo plazo y optimizar los procesos de cultivo.                                                    | Escenario 1: Acceso correcto a historico de datos<br>Dado que el usuario desea ver todos los datos regitrados<br>Cuando ingresa al historico de datos<br>Entonces se muestran todos los registros<br>Escenario 2: No se muestran todos los registros<br>Dado que el usuario desea ver todos los datos registrados<br>Cuando hay una falla en la obtencion de registros y el usuario ingresa a la seccion de todos los datos<br>Entonces no se muestra ningun dato                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | EP03             |
+| **US06** | Exportación de Datos de Sensores en Formatos Estándar                             | Como administrador de la fábrica, Quiero que el sistema permita la exportación de los datos de los sensores en formatos estándar (Excel), Para facilitar su análisis y reporte.                                           | Escenario 1: Exportado de datos correctamente<br>Dado que el usuario desea exportar los datos de los sensores<br>Cuando presione el boton de exportar<br>Entonces se descarga un archivo en formato excel<br>Escenario 2: Error en el exportado de datos<br>Dado que el usuario desea exportar los datos de los sensores<br>Cuando presione el boton de exportar<br>Entonces se va a mostrar una ventana de error indicando que no se pudo exportar                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | EP03             |
+| **US07** | Gestión y Configuración de Intervalos de Medición de Sensores                     | Como administrador de la fábrica, Quiero poder gestionar y configurar los intervalos de medición de los sensores y los umbrales, Para ajustarlos a las necesidades específicas de la etapa del crecimiento del champiñón. | Escenario 1: Ajustado de sensores funcionan correctamente<br>Dado que el usuario desea ajustar los sensores y sus umbrales<br>Cuando los termina de ajustar<br>Entonces la configuracion mostrara sus nuevos cambios<br>Escenario 2:<br>Dado que el usuario desea ajustar los sensores y sus umbrales<br>Cuando los termina de ajustar<br>Entonces se muestra un mensaje de error indicando que los cambios no fueron realizados                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | EP04             |
+| **US08** | Iniciar Sesión                                                                    | Como usuario, Quiero iniciar sesión en la plataforma, Para poder acceder a los beneficios que ofrece el uso de la aplicación Greenhouse.                                                                                  | Escenario 1: Usuario ingresa credenciales válidas<br>Dado que el usuario posee una cuenta en la aplicación Greenhouse y desee iniciar sesión<br>Cuando ingrese las credenciales necesarias correctamente<br>Entonces el sistema permitirá el acceso a la aplicación<br>Escenario 2: Usuario ingresa credenciales incorrectas<br>Dado que el usuario posee una cuenta en la aplicación Greenhouse y desea iniciar sesión<br>Cuando ingrese alguna credencial de manera incorrecta<br>Entonces el sistema denegará la solicitud                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | EP05             |
+| **US09** | Crear Cuenta de Empresa                                                           | Como administrador de la fábrica, Quiero crear una cuenta para mi empresa, Para permitir el acceso a los trabajadores.                                                                                                    | Escenario 1: Usuario ingresa credenciales válidas.<br>Dado que el administrador desee crear una cuenta en la aplicación Greenhouse<br>Cuando ingrese las credenciales de una cuenta inexistente en la base de datos Greenhouse, una contraseña que cumple con todos los requisitos de seguridad y acepte los términos y condiciones de uso<br>Entonces se creará la cuenta de empresa<br>Escenario 2: Usuario ingresa credenciales incorrectas.<br>Dado que el usuario desee crear una cuenta en la aplicación Greenhouse<br>Cuando ingrese una dirección de correo electrónico o contraseña que no cumplen con los requisitos especificados<br>Entonces se le denegará la operación.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | EP05             |
+| **US10** | Crear Cuenta de Técnico Supervisor                                                | Como administrador de la fábrica, Quiero crear cuentas para mis técnicos supervisores, Para que puedan comenzar a documentar sus actividades específicas.                                                                 | Escenario 1: Administrador invita a técnicos supervisores al proyecto en Greenhouse<br>Dado que el administrador cuente con una cuenta de empresa<br>Cuando ingrese la dirección de correo electrónico de al menos un empleado<br>Entonces el sistema envía un mensaje por correo electrónico solicitando a los destinatarios que se unan al nuevo proyecto en Greenhouse<br>Escenario 2: Técnico supervisor acepta la invitación recibida<br>Dado que el técnico supervisor recibe una invitación por correo electrónico<br>Cuando confirme su participación en el proyecto<br>Entonces es redirigido a la aplicación para crear una cuenta y ser añadido al proyecto                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | EP05             |
+| **US11** | Iniciar Nuevo Cultivo                                                             | Como administrador de la fábrica, Quiero iniciar un nuevo cultivo, Para poder comenzar a documentar un nuevo ciclo de producción.                                                                                         | Escenario 1: Técnico supervisor crea cultivo nuevo satisfactoriamente.<br>Dado que el técnico supervisor desea comenzar una nueva siembra<br>Cuando confirme su intención<br>Entonces se registra la información del nuevo cultivo en la base de datos de la aplicación<br>Escenario 2: Técnico supervisor cancela creación de nuevo cultivo.<br>Dado que el técnico supervisor intenta crear una nueva siembra<br>Cuando cancele la operación<br>Entonces el sistema revierte la operación y cancela la creación de un nuevo cultivo<br>Escenario 3: El Sistema impide la creación de un nuevo cultivo.<br>Dado que el técnico supervisor intente comenzar una nueva siembra<br>Cuando el sistema entre en un estado de error que imposibilite la creación<br>Entonces cancela la operación e indica el error generado                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | EP06             |
+| **US12** | Editar y Eliminar Cultivos                                                        | Como administrador de la fábrica, Quiero editar o eliminar cultivos existentes, Para mantener la información actualizada.                                                                                                 | Escenario 1: Administrador borra cultivo<br>Dado que el administrador desee eliminar un cultivo<br>Cuando confirme su intención de borrar los datos<br>Entonces el sistema eliminará de la base de datos toda la información almacenada por ese cultivo<br>Escenario 2: Administrador decide no borrar cultivo<br>Dado que el administrador desee eliminar un cultivo<br>Cuando niegue su intención de borrar los datos<br>Entonces el sistema desaparecerá el pop up y no se eliminará la información del cultivo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | EP06             |
+| **US13** | Documentar registros durante la preparación, cocción y pasteurización del compost | Como técnico supervisor, Quiero agregar o editar registros manuales relacionados a la elaboración, cocción y pasteurización del compost, Para reflejar a través de una documentación digital los procesos realizados.     | Escenario 1: Técnico supervisor ingresa todos los datos correctamente<br>Dado que el técnico supervisor se encuentra autenticado<br>Y se encuentre dentro de un cultivo en progreso<br>Cuando ingrese todos los datos correspondientes a la fase actual del registro<br>Y se valide que sean datos dentro de los rangos establecidos<br>Entonces el sistema guardará el registro y se actualizará en la tabla.<br>Escenario 2: Técnico supervisor ingresa datos no válidos<br>Dado que el técnico supervisor se encuentra autenticado<br>Y se encuentre dentro de un cultivo en progreso<br>Cuando ingrese todos los datos correspondientes a la fase actual del registro<br>Y los datos no pasan la validación según los rangos establecidos<br>Entonces el sistema no guardará el registro y alertará al técnico de que el dato ingresado es incorrecto.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | EP06             |
+| **US14** | Ver Listado de Cultivos en Progreso                                               | Como administrador de la fábrica, Quiero ver un listado de los cultivos actualmente en progreso, Para poder hacer un seguimiento del avance.                                                                              | Escenario 1: Técnico supervisor visualiza cultivo satisfactoriamente.<br>Dado que el técnico supervisor desea visualizar una siembra existente<br>Cuando acceda a la lista de cultivos en curso<br>Entonces el sistema muestra la información registrada para el cultivo seleccionado<br>Escenario 2: Usuario no puede visualizar cultivo.<br>Dado que el técnico supervisor desea visualizar una siembra existente<br>Cuando el sistema entre en un estado de error la momento de visualizar la lista de cultivos en curso<br>Entonces indica el error generado y se cancela la operación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | EP06             |
+| **US15** | Avanzar Etapa de un Cultivo                                                       | Como técnico supervisor, Quiero avanzar la etapa de un cultivo, Para poder continuar a la siguiente etapa de documentación de procesos y actividades del ciclo de producción de champiñones.                              | Escenario 1: Finalizar la fase de cultivo<br>Dado que el técnico supervisor desea dar por culminada la fase actual del cultivo<br>Cuando el técnico supervisor seleccione la opción de finalizar fase<br>Y el usuario confirme su decisión<br>Entonces se actualizará la fase del cultivo por la siguiente y se mostrará la pantalla correspondiente.<br>Escenario 2: Técnico supervisor no decide finalizar cultivo<br>Dado que el técnico supervisor desea dar por culminada la fase actual del cultivo<br>Cuando el técnico supervisor seleccione la opción de finalizar fase<br>Y seleccione cancelar<br>Entonces se cerrará la pestaña emergente.<br>Escenario 3: Técnico supervisor decide finalizar el cultivo<br>Dado que el cultivo se encuentra en la fase de cosecha<br>Y el técnico supervisor desea dar por terminado el cultivo<br>Cuando el técnico supervisor seleccione la opción de finalizar cultivo<br>Y el técnico supervisor confirme su decisión<br>Entonces se dará por finalizado el cultivo<br>Y pasará al histórico de cultivo                                                                                                                                                                                                                                                                                                                                                                                                                                | EP06             |
+| **US16** | Visualizar Perfil de Usuario                                                      | Como técnico supervisor / administrador, Quiero visualizar el perfil de un usuario determinado, Para ver el detalle de la información asociada a dicho perfil                                                             | Escenario 1: Acceder al perfil del usuario<br>Dado que el usuario desee visualizar la información de un empleado<br>Cuando ingrese al perfil del mismo<br>Entonces obtendrá los datos de relevancia de la empresa a la cual pertenece<br>Escenario 2: Problema al acceder al perfil del usuario<br>Dado que el usuario quiere conocer la información de su empleado<br>Cuando intente ingresar al perfil de la misma Y experimente un error de conexión o de servidor<br>Entonces no se visualizará la información de su empleado                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | EP05             |
+| **US17** | Actualizar Datos Personales                                                       | Como usuario, Quiero actualizar mis datos personales, Para mantener mi información actualizada en el sistema.                                                                                                             | Escenario 1: Cambiar contraseña<br>Dado que el usuario quiera cambiar su contraseña<br>Cuando ingrese la nueva contraseña, esta sea validada por el sistema y el usuario confirme su intención de proceder con el cambio<br>Entonces la nueva clave será guardada y la información actualizada<br>Escenario 2: Cambiar nombre<br>Dado que el usuario quiera cambiar su nombre<br>Cuando ingrese el nuevo nombre, esta sea validada por el usuario y confirme su intención de proceder con el cambio<br>Entonces el nuevo nombre será guardado y la información actualizada<br>Escenario 3: Cambiar foto<br>Dado que el usuario quiera cambiar su foto<br>Cuando ingrese la nueva foto, esta sea validada por el usuario y confirme su intención de proceder con el cambio<br>Entonces la nueva foto será guardada y la información actualizada<br>Escenario 4: Cambiar correo<br>Dado que el usuario quiera cambiar su correo<br>Cuando ingrese el nuevo correo, esta sea validada por el sistema y el usuario confirme su intención de proceder con el cambio<br>Entonces el nuevo correo será guardado y la información actualizada<br>Escenario 5: No cambiar información<br>Dado que el usuario no quiera cambiar su información<br>Cuando aparezca el pop up para confirmar el cambio y seleccione la opción para cancelar cambio<br>Entonces el pop up desaparecerá y el cambio no se realizará                                                                                    | EP05             |
+| **US18** | Ver Listado de Trabajadores de la Empresa                                         | Como administrador de la fábrica, Quiero ver un listado de los trabajadores que componen mi empresa, Para poder gestionar los roles y responsabilidades.                                                                  | Escenario 1: Listado de trabajadores correcto<br>Dado que el usuario quiere ver la lista de trabajadores en la fabrica<br>Cuando entre a la vista de mi empresa<br>Entonces se mostraran todos los trabajadores<br>Escenario 2: Listado de trabajadores innaccesible<br>Dado que el usuario quiere ver la lista de trabajadores en la fabrica<br>Cuando entre a la vista de mi empresa<br>Entonces se mostrara un mensaje de error indicando que no se pudieron cargar los trabajadores                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | EP05             |
+| **US19** | Acceder a la aplicación desde la landing page                                     | Como visitante de la landing page Quiero poder acceder a la aplicación Greenhouse desde la landing page Para comenzar a utilizar las funcionalidades ofrecidas                                                            | Escenario 1: Usuario ingresa a aplicación<br>Dado que el visitante se encuentra en la landing page<br>Cuando seleccione la opción que permite el acceso al software elaborado<br>Entonces es redirigido a la aplicación desplegada<br>Escenario 2: Fallo en el acceso a la aplicación<br>Dado que el visitante se encuentre en la landing page<br>Cuando seleccione la opción que permite el acceso al software elaborado y ocurra un error en el proceso de redirección<br>Entonces el usuario obtiene un mensaje de error.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | EP07             |
+| **US20** | Descripción de la aplicación                                                      | Como visitante de la landing page Quiero visualizar una descripción del producto ofrecido Para conocer los beneficios que puedo adquirir mediante el uso de la aplicación                                                 | Escenario 1: Visualizar sección Hero<br>Dado que el visitante ingresa a la página<br>Cuando la página cargue<br>Entonces se muestra una sección llamativa para al usuario donde se detalla brevemente la finalidad de la aplicación.<br>Escenario 2: Visualizar sección “Our benefits”<br>Dado que el visitante se encuentre dentro de la landing page<br>Cuando navegue hasta la sección “Our benefits”<br>Entonces se muestra la información relacionada a todos los beneficios que ofrece la aplicación.<br>Escenario 3: Visualizar las sección de “Choose your plan”<br>Dado que el visitante se encuentre dentro de la landing page<br>Cuando navegue hasta la sección “Choose your plan”<br>Entonces se muestra la información relacionada a los planes de pago que se ofrecen y cuáles son los beneficios de cada uno de estos.<br>Escenario 4: Visualizar la sección “Frequently asked questions”<br>Dado que el visitante se encuentre dentro de la landing page<br>Cuando navegue hasta la sección “Frequently asked questions”<br>Entonces se muestra la información relacionada a preguntas generales que podría tener el usuario y cuáles son las respuestas.<br>Escenario 5: Visualizar sección “About”<br>Dado que el visitante se encuentre dentro de la landing page<br>Cuando navegue hasta la sección “About”<br>Entonces se muestra la información correspondiente a los videos about the project y about the team, además del contacto de cada uno de los miembros. | EP07             |
 
 <h2 id='3.3.'>3.3. Impact Mapping</h2>
 <img src="assets/images/chapter_3/impact_mapping/impact_map.png" alt="impact map"/>
@@ -1196,28 +1251,28 @@ Enlace para acceder a la imagen en <a href="https://drive.google.com/file/d/1yVW
 
 <h2 id='3.4.'>3.4. Product Backlog</h2>
 
-| # Orden | User Story ID | Título | Descripción | Story Points |
-| ------- | ------------- | ------ | ----------- | ------------ |
-| 1       | US01          | Medición Automática de Parámetros Ambientales | Como técnico supervisor, Quiero que los sensores midan la temperatura y la humedad automáticamente, Para mitigar errores asociados al factor humano. | 5 |
-| 2       | US02          | Monitoreo en Tiempo Real de Temperatura y Humedad | Como técnico supervisor / administrador de la fábrica, Quiero ver las mediciones de temperatura y humedad en tiempo real, Para poder hacer un seguimiento constante del ambiente en las naves. | 8 |
-| 3       | US05          | Acceso a Datos Históricos | Como administrador de la fábrica, Quiero tener acceso a los datos históricos registrados, Para poder hacer análisis a largo plazo y optimizar los procesos de cultivo. | 3 |
-| 4       | US07          | Gestión y Configuración de Intervalos de Medición de Sensores | Como administrador de la fábrica, Quiero poder gestionar y configurar los intervalos de medición de los sensores y los umbrales, Para ajustarlos a las necesidades específicas de la etapa del crecimiento del champiñón. | 5 |
-| 5       | US13          | Documentar registros durante la preparación, cocción y pasteurización del compost | Como técnico supervisor, Quiero agregar o editar registros manuales relacionados a la elaboración, cocción y pasteurización del compost, Para reflejar a través de una documentación digital los procesos realizados. | 5 |
-| 6       | US14          | 	Ver Listado de Cultivos en Progreso | Como administrador de la fábrica, Quiero ver un listado de los cultivos actualmente en progreso, Para poder hacer un seguimiento del avance. | 2 |
-| 7       | US15          | Avanzar Etapa de un Cultivo | Como técnico supervisor, Quiero avanzar la etapa de un cultivo, Para poder continuar a la siguiente etapa de documentación de procesos y actividades del ciclo de producción de champiñones. | 3 |
-| 8       | US03          | Alertas por Parámetros Fuera de Rango | Como técnico supervisor, Quiero recibir alertas cuando los niveles de temperatura o humedad se salgan de los valores recomendados, Para poder tomar medidas correctivas rápidamente. | 3 |
-| 9       | US04          | Visualización Gráfica de la Evolución de Parámetros Ambientales | Como administrador de la fábrica, Quiero poder ver gráficas que muestren la evolución de los parámetros registrados a lo largo del tiempo, Para identificar patrones y mejorar la gestión de los cultivos. | 2 |
-| 10       | US11          | Iniciar Nuevo Cultivo | Como administrador de la fábrica, Quiero iniciar un nuevo cultivo, Para poder comenzar a documentar un nuevo ciclo de producción. | 2 |
-| 11       | US06          | Exportación de Datos de Sensores en Formatos Estándar | Como administrador de la fábrica, Quiero que el sistema permita la exportación de los datos de los sensores en formatos estándar (Excel), Para facilitar su análisis y reporte. | 2 |
-| 12       | US12          | Editar y Eliminar Cultivos | Como administrador de la fábrica, Quiero editar o eliminar cultivos existentes, Para mantener la información actualizada. | 2 |
-| 13       | US18          | Ver Listado de Trabajadores de la Empresa | Como administrador de la fábrica, Quiero ver un listado de los trabajadores que componen mi empresa, Para poder gestionar los roles y responsabilidades. | 3 |
-| 14       | US09          | Crear Cuenta de Empresa | Como administrador de la fábrica, Quiero crear una cuenta para mi empresa, Para permitir el acceso a los trabajadores. | 2 |
-| 15       | US10          | Crear Cuenta de Técnico Supervisor | Como administrador de la fábrica, Quiero crear cuentas para mis técnicos supervisores, Para que puedan comenzar a documentar sus actividades específicas. | 3 |
-| 16       | US16          | Visualizar Perfil de Usuario | Como técnico supervisor / administrador, Quiero visualizar el perfil de un usuario determinado, Para ver el detalle de la información asociada a dicho perfil | 3 |
-| 17       | US17          | Actualizar Datos Personales | Como usuario, Quiero actualizar mis datos personales, Para mantener mi información actualizada en el sistema. | 2 |
-| 18       | US08          | Iniciar Sesión | Como usuario, Quiero iniciar sesión en la plataforma, Para poder acceder a los beneficios que ofrece el uso de la aplicación Greenhouse. | 1 |
-| 19      | US20           | Descripción de la aplicación | Como visitante de la landing page Quiero visualizar una descripción del producto ofrecido Para conocer los beneficios que puedo adquirir mediante el uso de la aplicación | 2 |
-| 20       | US19          | Acceder a la aplicación desde la landing page | Como visitante de la landing page Quiero poder acceder a la aplicación Greenhouse desde la landing page Para comenzar a utilizar las funcionalidades ofrecidas | 1 |
+| # Orden | User Story ID | Título                                                                            | Descripción                                                                                                                                                                                                               | Story Points |
+| ------- | ------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| 1       | US01          | Medición Automática de Parámetros Ambientales                                     | Como técnico supervisor, Quiero que los sensores midan la temperatura y la humedad automáticamente, Para mitigar errores asociados al factor humano.                                                                      | 5            |
+| 2       | US02          | Monitoreo en Tiempo Real de Temperatura y Humedad                                 | Como técnico supervisor / administrador de la fábrica, Quiero ver las mediciones de temperatura y humedad en tiempo real, Para poder hacer un seguimiento constante del ambiente en las naves.                            | 8            |
+| 3       | US05          | Acceso a Datos Históricos                                                         | Como administrador de la fábrica, Quiero tener acceso a los datos históricos registrados, Para poder hacer análisis a largo plazo y optimizar los procesos de cultivo.                                                    | 3            |
+| 4       | US07          | Gestión y Configuración de Intervalos de Medición de Sensores                     | Como administrador de la fábrica, Quiero poder gestionar y configurar los intervalos de medición de los sensores y los umbrales, Para ajustarlos a las necesidades específicas de la etapa del crecimiento del champiñón. | 5            |
+| 5       | US13          | Documentar registros durante la preparación, cocción y pasteurización del compost | Como técnico supervisor, Quiero agregar o editar registros manuales relacionados a la elaboración, cocción y pasteurización del compost, Para reflejar a través de una documentación digital los procesos realizados.     | 5            |
+| 6       | US14          | Ver Listado de Cultivos en Progreso                                               | Como administrador de la fábrica, Quiero ver un listado de los cultivos actualmente en progreso, Para poder hacer un seguimiento del avance.                                                                              | 2            |
+| 7       | US15          | Avanzar Etapa de un Cultivo                                                       | Como técnico supervisor, Quiero avanzar la etapa de un cultivo, Para poder continuar a la siguiente etapa de documentación de procesos y actividades del ciclo de producción de champiñones.                              | 3            |
+| 8       | US03          | Alertas por Parámetros Fuera de Rango                                             | Como técnico supervisor, Quiero recibir alertas cuando los niveles de temperatura o humedad se salgan de los valores recomendados, Para poder tomar medidas correctivas rápidamente.                                      | 3            |
+| 9       | US04          | Visualización Gráfica de la Evolución de Parámetros Ambientales                   | Como administrador de la fábrica, Quiero poder ver gráficas que muestren la evolución de los parámetros registrados a lo largo del tiempo, Para identificar patrones y mejorar la gestión de los cultivos.                | 2            |
+| 10      | US11          | Iniciar Nuevo Cultivo                                                             | Como administrador de la fábrica, Quiero iniciar un nuevo cultivo, Para poder comenzar a documentar un nuevo ciclo de producción.                                                                                         | 2            |
+| 11      | US06          | Exportación de Datos de Sensores en Formatos Estándar                             | Como administrador de la fábrica, Quiero que el sistema permita la exportación de los datos de los sensores en formatos estándar (Excel), Para facilitar su análisis y reporte.                                           | 2            |
+| 12      | US12          | Editar y Eliminar Cultivos                                                        | Como administrador de la fábrica, Quiero editar o eliminar cultivos existentes, Para mantener la información actualizada.                                                                                                 | 2            |
+| 13      | US18          | Ver Listado de Trabajadores de la Empresa                                         | Como administrador de la fábrica, Quiero ver un listado de los trabajadores que componen mi empresa, Para poder gestionar los roles y responsabilidades.                                                                  | 3            |
+| 14      | US09          | Crear Cuenta de Empresa                                                           | Como administrador de la fábrica, Quiero crear una cuenta para mi empresa, Para permitir el acceso a los trabajadores.                                                                                                    | 2            |
+| 15      | US10          | Crear Cuenta de Técnico Supervisor                                                | Como administrador de la fábrica, Quiero crear cuentas para mis técnicos supervisores, Para que puedan comenzar a documentar sus actividades específicas.                                                                 | 3            |
+| 16      | US16          | Visualizar Perfil de Usuario                                                      | Como técnico supervisor / administrador, Quiero visualizar el perfil de un usuario determinado, Para ver el detalle de la información asociada a dicho perfil                                                             | 3            |
+| 17      | US17          | Actualizar Datos Personales                                                       | Como usuario, Quiero actualizar mis datos personales, Para mantener mi información actualizada en el sistema.                                                                                                             | 2            |
+| 18      | US08          | Iniciar Sesión                                                                    | Como usuario, Quiero iniciar sesión en la plataforma, Para poder acceder a los beneficios que ofrece el uso de la aplicación Greenhouse.                                                                                  | 1            |
+| 19      | US20          | Descripción de la aplicación                                                      | Como visitante de la landing page Quiero visualizar una descripción del producto ofrecido Para conocer los beneficios que puedo adquirir mediante el uso de la aplicación                                                 | 2            |
+| 20      | US19          | Acceder a la aplicación desde la landing page                                     | Como visitante de la landing page Quiero poder acceder a la aplicación Greenhouse desde la landing page Para comenzar a utilizar las funcionalidades ofrecidas                                                            | 1            |
 
 <h1 id='4.'>4. Capítulo IV: Solution Software Design</h1>
 <h2 id='4.1.'>4.1. Strategic-Level Domain-Driven Design.</h2>
@@ -1240,7 +1295,7 @@ Para garantizar una coordinación adecuada de las actividades y hitos clave, se 
 <img src="assets/images/chapter_4/event_storming/timelines.png" alt="Timelines"/>
 
 <b>Pivotal Points</b>
-A lo largo del proyecto, identificamos varios puntos decisivos (pivotal points), que son momentos clave en los que se requiere tomar decisiones importantes para ajustar la dirección del proyecto. Estos puntos incluyen decisiones sobre la arquitectura, el manejo de dependencias críticas, la selección de tecnologías y la definición de estrategias para mitigar riesgos. Estos momentos fueron vitales para mantener el proyecto en curso, asegurando que las decisiones estratégicas se alinearan con los objetivos generales y que se minimizará el impacto de posibles riesgos a largo plazo. 
+A lo largo del proyecto, identificamos varios puntos decisivos (pivotal points), que son momentos clave en los que se requiere tomar decisiones importantes para ajustar la dirección del proyecto. Estos puntos incluyen decisiones sobre la arquitectura, el manejo de dependencias críticas, la selección de tecnologías y la definición de estrategias para mitigar riesgos. Estos momentos fueron vitales para mantener el proyecto en curso, asegurando que las decisiones estratégicas se alinearan con los objetivos generales y que se minimizará el impacto de posibles riesgos a largo plazo.
 
 <img src="assets/images/chapter_4/event_storming/pivotal_points.png" alt="Pivotal Points"/>
 
@@ -1278,16 +1333,16 @@ Enlace al [Miro](https://miro.com/app/board/uXjVKhDrVvw=/?share_link_id=61141868
 
 <h4 id='4.1.1.1.'>4.1.1.1. Candidate Context Discovery.</h4>
 
-Utilizando la metodología de Event Storming, y aplicando la técnica de "start-with-simple", se inició el proceso con una visión simplificada del dominio. A partir de esta perspectiva inicial, se emplearon líneas de tiempo para mapear eventos clave y actividades dentro del sistema, lo que permitió identificar áreas de interés para la creación de contextos delimitados. Este enfoque ayudó a destacar las interacciones y relaciones críticas dentro del dominio, revelando contextos candidatos que podrían evolucionar en Bounded Contexts claramente definidos. Los contextos identificados fueron los siguientes:  
+Utilizando la metodología de Event Storming, y aplicando la técnica de "start-with-simple", se inició el proceso con una visión simplificada del dominio. A partir de esta perspectiva inicial, se emplearon líneas de tiempo para mapear eventos clave y actividades dentro del sistema, lo que permitió identificar áreas de interés para la creación de contextos delimitados. Este enfoque ayudó a destacar las interacciones y relaciones críticas dentro del dominio, revelando contextos candidatos que podrían evolucionar en Bounded Contexts claramente definidos. Los contextos identificados fueron los siguientes:
 
-<b>IAM (Identity and Access Management) subdomain:</b> 
+<b>IAM (Identity and Access Management) subdomain:</b>
 Este subdominio va a ser el encargado de gestionar todo lo relacionado con la autenticación y autorización de usuarios.
 
 <b>Personas subdomain:</b>
-Este subdominio es el encargado de controlar los perfiles personales de las cuentas creadas y los perfiles de las compañías productoras de champiñones. 
+Este subdominio es el encargado de controlar los perfiles personales de las cuentas creadas y los perfiles de las compañías productoras de champiñones.
 
 <b>Crops subdomain:</b>
-Maneja todo lo correspondiente con el proceso de los cultivos de champiñones que tiene la empresa. 
+Maneja todo lo correspondiente con el proceso de los cultivos de champiñones que tiene la empresa.
 
 <b>Memberships subdomain:</b>
 Se enfoca en la gestión de cómo las compañías obtienen una mejor suscripción para poder gozar de mayores beneficios al emplear nuestra solución de software.
@@ -1337,25 +1392,25 @@ El escenario presentado a continuación muestra el flujo de los mensajes al mome
 El proceso seguido para elaborar los bounded context canvases fue el siguiente:
 
 1. Definición del Bounded Context
-El primer paso es identificar y delimitar los diferentes Bounded Contexts en el sistema. Estos contextos representan áreas específicas donde los conceptos, reglas y entidades son consistentes. Ejemplos en nuestro sistema incluyen IAM, Personas, Memberships, Crops y Mails.
+   El primer paso es identificar y delimitar los diferentes Bounded Contexts en el sistema. Estos contextos representan áreas específicas donde los conceptos, reglas y entidades son consistentes. Ejemplos en nuestro sistema incluyen IAM, Personas, Memberships, Crops y Mails.
 
 1. Identificación de Entidades y Agregados
-Dentro de cada contexto, se identifican las entidades y agregados principales. Las entidades son objetos con identidad propia, y los agregados agrupan entidades relacionadas bajo una misma regla de negocio. En Crops, por ejemplo, las entidades incluyen "Cultivo" y "Registro de Cultivo".
+   Dentro de cada contexto, se identifican las entidades y agregados principales. Las entidades son objetos con identidad propia, y los agregados agrupan entidades relacionadas bajo una misma regla de negocio. En Crops, por ejemplo, las entidades incluyen "Cultivo" y "Registro de Cultivo".
 
 1. Relaciones entre Contextos
-Se identifican las relaciones clave entre los diferentes Bounded Contexts, ya sea mediante APIs, eventos o comandos. Por ejemplo, IAM se encarga de la autenticación de los usuarios y es utilizado por los contextos de Personas, Memberships y Crops para autorizar el acceso.
+   Se identifican las relaciones clave entre los diferentes Bounded Contexts, ya sea mediante APIs, eventos o comandos. Por ejemplo, IAM se encarga de la autenticación de los usuarios y es utilizado por los contextos de Personas, Memberships y Crops para autorizar el acceso.
 
 1. Definición de Interfaces de Comunicación
-Las interfaces que permiten la interacción entre los contextos se definen, como APIs o eventos. Por ejemplo, Personas puede emitir un evento cuando se registra un nuevo perfil de usuario, lo cual impacta en IAM para autenticar al usuario.
+   Las interfaces que permiten la interacción entre los contextos se definen, como APIs o eventos. Por ejemplo, Personas puede emitir un evento cuando se registra un nuevo perfil de usuario, lo cual impacta en IAM para autenticar al usuario.
 
 1. Ubiquitous Language
-Se define un lenguaje común y coherente dentro de cada contexto para asegurar que todos los miembros del equipo compartan los mismos términos y definiciones, como "cultivo" o "calidad del cultivo" en el contexto de Crops.
+   Se define un lenguaje común y coherente dentro de cada contexto para asegurar que todos los miembros del equipo compartan los mismos términos y definiciones, como "cultivo" o "calidad del cultivo" en el contexto de Crops.
 
 1. Reglas de Negocio
-Cada contexto tiene reglas que rigen su funcionamiento. Por ejemplo, en Crops, las reglas de negocio incluyen la validación de la calidad del cultivo y el envío de alertas cuando los registros superan umbrales predefinidos.
+   Cada contexto tiene reglas que rigen su funcionamiento. Por ejemplo, en Crops, las reglas de negocio incluyen la validación de la calidad del cultivo y el envío de alertas cuando los registros superan umbrales predefinidos.
 
 1. Visualización del Canvas
-Finalmente, toda esta información se representa gráficamente en el Bounded Context Canvas, que incluye el nombre del contexto, las entidades, las relaciones, interfaces, el Ubiquitous Language, las reglas de negocio y los modelos de datos. Esto ayuda a facilitar la comprensión y la comunicación entre los equipos de desarrollo.
+   Finalmente, toda esta información se representa gráficamente en el Bounded Context Canvas, que incluye el nombre del contexto, las entidades, las relaciones, interfaces, el Ubiquitous Language, las reglas de negocio y los modelos de datos. Esto ayuda a facilitar la comprensión y la comunicación entre los equipos de desarrollo.
 
 A continuación se presentan los bounded context identificados:
 
@@ -1397,7 +1452,7 @@ Este Bounded Context se encarga de recopilar la información de los sensores med
 
 <h3 id='4.1.2.'>4.1.2. Context Mapping.</h3>
 
-Después de obtener cuáles serían nuestros Bounded Contexts, se realizó la elaboración de las relaciones estructurales entre estos. Para ello, se tomó en cuenta posibles diseños candidatos para el Context Mapping, planteados previamente en el Candidate Content Discovery, se desarrolló considerando los patrones de relaciones entre Bounden Contexts establecidos en Domain-Driven Desgin, los cuales pueden ser Conformist, Customer/Supplier, Partnership o Shared Kernel. Se utilizó la herramienta online DomoRoboto para elaborar el Context Mapping de la siguiente imagen: 
+Después de obtener cuáles serían nuestros Bounded Contexts, se realizó la elaboración de las relaciones estructurales entre estos. Para ello, se tomó en cuenta posibles diseños candidatos para el Context Mapping, planteados previamente en el Candidate Content Discovery, se desarrolló considerando los patrones de relaciones entre Bounden Contexts establecidos en Domain-Driven Desgin, los cuales pueden ser Conformist, Customer/Supplier, Partnership o Shared Kernel. Se utilizó la herramienta online DomoRoboto para elaborar el Context Mapping de la siguiente imagen:
 
 <img src="assets/images/chapter_4/context_mapping/context_mapping.png"/>
 
@@ -1425,7 +1480,7 @@ Después de obtener cuáles serían nuestros Bounded Contexts, se realizó la el
 
 - <b>Patrón: Partner (PTNR)</b>
 - <b>Explicación:</b> En este caso, <strong>Personas</strong> y <strong>Memberships</strong> tienen una relación de <strong>Partner</strong> (socio). Ambos contextos colaboran estrechamente porque <strong>Memberships</strong> necesita los perfiles gestionados en <strong>Personas</strong> para aplicar políticas de suscripción o acceso. Al ser socios, ambos contextos comparten información y colaboran sin una clara relación de proveedor/cliente.
-  
+
 6. Memberships ↔ Crops
 
 - <b>Patrón: Customer/Supplier (D CUST)</b>
@@ -1475,7 +1530,7 @@ Este bounded context se enfoca en las clases y capas relacionadas con el cultivo
 
 <h4 id='4.2.1.1.'>4.2.1.1. Domain Layer</h4>
 
-- <b>Crop:</b> Esta clase representa a un cultivo de champiñones. Contiene atributos como nombre, autor, fase, fecha de inicio, fecha, estado y records. 
+- <b>Crop:</b> Esta clase representa a un cultivo de champiñones. Contiene atributos como nombre, autor, fase, fecha de inicio, fecha, estado y records.
 
 - <b>Records:</b> Esta clase representa a los registros que se realizan para un cultivo de champiñón. Contiene atributos tales como autor, fase, payload (son los datos que registran para la fase del cultivo es un formato json debido a que cambia por cada fase lo que se debe registrar), crop (cultivo sobre el cual se hacen los registros), created date, updated date.
 - <b>Enum:</b>
@@ -1484,19 +1539,18 @@ Este bounded context se enfoca en las clases y capas relacionadas con el cultivo
 <h4 id='4.2.1.2.'>4.2.1.2. Interface Layer</h4>
 
 - <b>CropsController:</b> Maneja las solicitudes relacionadas a los cultivos de champiñones. Permite crear, eliminar y actualizar el estado de los cultivos. Además de obtener todos los cultivos, los cultivos por su estado ya sea un cultivo finalizado o un cultivo activo.
- 
+
 - <b>RecordsController:</b> Maneja las solicitudes relacionadas a los registros de los cultivos de champiñones. Permite crear, actualizar y eliminar los registros de los cultivos. Además de poder obtener todos los registros, un registro en específico por su ID o todos los registros correspondientes a la fase de un crop en específico.
-  
 - <b>CropVisionFacade:</b> Encapsula la lógica de análisis de calidad de los cultivos de champiñones a través de imágenes. Permite enviar una imagen asociada a un cultivo a un servicio de AutoML para recibir un análisis de calidad del champiñón, devolviendo una evaluación con un puntaje de calidad.
 
 <h4 id='4.2.1.3.'>4.2.1.3. Application Layer</h4>
 
-- <b>Command Handlers:</b> 
+- <b>Command Handlers:</b>
   - create-crop: Crea un nuevo cultivo el cuál siempre empieza en la fase Formula.
   - create-record: Crea un registro a un cultivo asociado, el cuál puede ser para cada una de las diferentes fases y el cuál tienen un autor.
-  - delete-crop: Elimina un cultivo existente por su id.  
+  - delete-crop: Elimina un cultivo existente por su id.
   - delete-record: Elimina un registro existente por su id.
-  - update-crop: Actualiza la fase del cultivo y el estado de un cultivo. 
+  - update-crop: Actualiza la fase del cultivo y el estado de un cultivo.
   - update-record: Actualiza el registro de un cultivo.
 - <b>Query Handlers:</b>
   - get-crop-by-id: Obtiene la información de un cultivo en base a su id.
@@ -1508,12 +1562,13 @@ Este bounded context se enfoca en las clases y capas relacionadas con el cultivo
 
 <h4 id='4.2.1.4.'>4.2.1.4. Infrastructure Layer</h4>
 
-- <b>Repositories:</b> 
+- <b>Repositories:</b>
+
   - create-crop: Se encarga de crear un nuevo cultivo (crop) en la base de datos o sistema de persistencia. Recibe una entidad de dominio y la convierte en su equivalente persistente.
   - create-record: Similar a create-crop, pero se enfoca en crear un nuevo registro (record), como por ejemplo una entrada de datos relacionada con el cultivo.
-  - find-crops: Se encarga de buscar y devolver un cultivo ya sea en base a su Id, a su estado  o todos los cultivos almacenados en el sistema. Puede aceptar filtros para encontrar cultivos específicos.
+  - find-crops: Se encarga de buscar y devolver un cultivo ya sea en base a su Id, a su estado o todos los cultivos almacenados en el sistema. Puede aceptar filtros para encontrar cultivos específicos.
   - find-records: Busca y devuelve registros relacionados con cultivos, mediante su id, su fase, o todos los cultivos, desde el sistema de persistencia.
-  - remove-crop: Elimina un cultivo específico del sistema de persistencia,  utilizando su ID o alguna clave única.
+  - remove-crop: Elimina un cultivo específico del sistema de persistencia, utilizando su ID o alguna clave única.
   - remove-record: Elimina un registro específico asociado a un cultivo del sistema de persistencia, usando un identificador único.
   - save-crop: Guarda o actualiza un registro en el sistema de persistencia.
   - save-record: Guarda o actualiza un registro en el sistema de persistencia.
@@ -1539,38 +1594,42 @@ Este bounded context se enfoca en las clases y capas relacionadas con el cultivo
 <img src='assets/images/chapter_4/crops/crops_database_diagram.png' alt='Crops Database Design Diagram'/>
 
 ### Tabla: crops
-|Nombre del atributo|Descripción del atributo| Tipo de dato del atributo |
-|---------------------|---------------------------------------------------------------------------|---------------------------|
-|id|Identificador del cultivo de champiñones, primary key|varchar(255)|
-|name|Título del cultivo de la fábrica champiñonera|varchar(255)|
-|created_by|Identificador del trabajador de la fábrica de champiñones responsable de la creación del cultivo|varchar(255)|
-|created_at|Fecha de creación del cultivo de champiñones|timestamp|
+
+| Nombre del atributo | Descripción del atributo                                                                         | Tipo de dato del atributo |
+| ------------------- | ------------------------------------------------------------------------------------------------ | ------------------------- |
+| id                  | Identificador del cultivo de champiñones, primary key                                            | varchar(255)              |
+| name                | Título del cultivo de la fábrica champiñonera                                                    | varchar(255)              |
+| created_by          | Identificador del trabajador de la fábrica de champiñones responsable de la creación del cultivo | varchar(255)              |
+| created_at          | Fecha de creación del cultivo de champiñones                                                     | timestamp                 |
 
 ### Tabla: phases
-|Nombre del atributo|Descripción del atributo| Tipo de dato del atributo |
-|---------------------|---------------------------------------------------------------------------|---------------------------|
-|id|Identificador de la fase del cultivo de champiñones, primary key|varchar(255)|
-|name|Nombre de la fase en la que se encuentra el cultivo de champiñones|varchar(255)|
+
+| Nombre del atributo | Descripción del atributo                                           | Tipo de dato del atributo |
+| ------------------- | ------------------------------------------------------------------ | ------------------------- |
+| id                  | Identificador de la fase del cultivo de champiñones, primary key   | varchar(255)              |
+| name                | Nombre de la fase en la que se encuentra el cultivo de champiñones | varchar(255)              |
 
 ### Tabla: records
-|Nombre del atributo| Descripción del atributo| Tipo de dato del atributo |
-|---------------------|---------------------------------------------------------------------------|---------------------------|
-|id|Identificador del registro de información, primary key|varchar(255)|
-|payload|Archivo json con la información registrada|json|
-|created_at|Fecha en la que se registró la información|timestamp|
-|updated_at|Fecha en la que se actualizó la información registrada|timestamp|
-|phase_id|Identificador de la fase a la que pertenece la información registrada, foreign key|varchar(255)|
-|crop_id|Identificador del cultivo al que pertenece la información registrada, foreign key|varchar(255)|
+
+| Nombre del atributo | Descripción del atributo                                                           | Tipo de dato del atributo |
+| ------------------- | ---------------------------------------------------------------------------------- | ------------------------- |
+| id                  | Identificador del registro de información, primary key                             | varchar(255)              |
+| payload             | Archivo json con la información registrada                                         | json                      |
+| created_at          | Fecha en la que se registró la información                                         | timestamp                 |
+| updated_at          | Fecha en la que se actualizó la información registrada                             | timestamp                 |
+| phase_id            | Identificador de la fase a la que pertenece la información registrada, foreign key | varchar(255)              |
+| crop_id             | Identificador del cultivo al que pertenece la información registrada, foreign key  | varchar(255)              |
 
 ### Tabla: analysis_requests
-|Nombre del atributo|Descripción del atributo| Tipo de dato del atributo |
-|---------------------|---------------------------------------------------------------------------|---------------------------|
-|id|Identificador del request, primary key|varchar(255)|
-|image_url|Enlace al archivo json con la información registrada|varchar(255)|
-|created_by|Identificador del trabajador de la fábrica de champiñones responsable de la creación del cultivo|varchar(255)|
-|created_at|Fecha en la que se registró la información|timestamp|
-|analysis_result|Archivo json con la información que se obtiene del análisis en AutoML|json|
-|crop_id|Identificador del cultivo al que pertenece la información registrada, foreign key|varchar(255)|
+
+| Nombre del atributo | Descripción del atributo                                                                         | Tipo de dato del atributo |
+| ------------------- | ------------------------------------------------------------------------------------------------ | ------------------------- |
+| id                  | Identificador del request, primary key                                                           | varchar(255)              |
+| image_url           | Enlace al archivo json con la información registrada                                             | varchar(255)              |
+| created_by          | Identificador del trabajador de la fábrica de champiñones responsable de la creación del cultivo | varchar(255)              |
+| created_at          | Fecha en la que se registró la información                                                       | timestamp                 |
+| analysis_result     | Archivo json con la información que se obtiene del análisis en AutoML                            | json                      |
+| crop_id             | Identificador del cultivo al que pertenece la información registrada, foreign key                | varchar(255)              |
 
 <h3 id='4.2.2.'>4.2.2. Bounded Context: IAM</h3>
 Este bounded context se enfoca en las clases y capas relacionadas con los usuarios de la aplicación, sus roles y sus credenciales. A continuación, se detallan los principales componentes de este contexto.
@@ -1614,11 +1673,11 @@ Controller:
 **Entities:**
 
 - User: Define una entidad 'UserEntity' para la tabla 'users' en TypeORM, con propiedades para ID, nombre de usuario (único y en minúsculas), contraseña y rol (con un valor por defecto).
-Enums:
+  Enums:
 - Role: Define un enum Role con dos posibles valores: Regular y Admin, representando los roles de usuario en la aplicación.
-Mapper:
+  Mapper:
 - User: Define una clase 'UserMapper' que convierte entre una entidad de usuario ('UserEntity') y un objeto de dominio ('User'), proporcionando métodos para mapear hacia el dominio y hacia la persistencia en la base de datos.
-Repositories:
+  Repositories:
 - create-user: Define un constructor que inyecta un repositorio de 'UserEntity', y un método 'save' que convierte un objeto de dominio 'User' a una entidad, la guarda en la base de datos y devuelve el objeto de dominio correspondiente.
 - find-user: Define un constructor que inyecta un repositorio de 'UserEntity' y dos métodos: 'findAll', que recupera todos los usuarios de la base de datos y los convierte a objetos de dominio, y 'findByUsername', que busca un usuario por su nombre de usuario y lo convierte a un objeto de dominio si existe.
 - remove-user: Define un constructor que inyecta un repositorio de 'UserEntity' y un método 'remove' que convierte un objeto de dominio 'User' a una entidad, la elimina de la base de datos y devuelve el objeto de dominio correspondiente.
@@ -1679,12 +1738,9 @@ Este bounded context se enfoca en las clases y capas relacionadas con el envío 
 
 <h4 id='4.2.3.1.'>4.2.3.1. Domain Layer.</h4>
 
-- MaIl: Esta clase representa el correo electrónico que pertenece a un usuario y contiene atributos como id, userId, userHandle, address y domain. Asimismo, cuenta con el método toString que permite unir el address y domain para obtener el correo formateado. 
-  
+- MaIl: Esta clase representa el correo electrónico que pertenece a un usuario y contiene atributos como id, userId, userHandle, address y domain. Asimismo, cuenta con el método toString que permite unir el address y domain para obtener el correo formateado.
 - MailTemplate<T:>: Esta clase genérica representa una plantilla de correo electrónico que contiene como atributos id, title, body, y dispone un método que permite obtener el template dado un payload del tipo T el cuál permitirá personalizar más la información que se utilizará.
-  
 - SendEvent: Esta clase representa el evento de envío de correo electrónico que contiene atributos como id, mail, template, createdAt y name.
-
 
 <h4 id='4.2.3.2.'>4.2.3.2. Interface Layer</h4>
 EmailController: Maneja las solicitudes relacionadas con el envío de correos y la gestión de plantilla y dispone de los siguientes métodos:
@@ -1694,43 +1750,42 @@ EmailController: Maneja las solicitudes relacionadas con el envío de correos y 
 - sendMail(mail: Mail, template: MailTemplate): SendEvent
 - getMailHistory(userId: string): SendEvent[]
 
-
 <h4 id='4.2.3.3.'>4.2.3.3. Application Layer.</h4>
 
 **Command Handlers:**
 
 Command Handlers:
--	create-mail: Crea una nueva instancia de Mail.
+
+- create-mail: Crea una nueva instancia de Mail.
 - create-template: Crea una nueva instancia de MailTemplate.
--	send-mail: Utiliza ResendFacade para enviar un correo y crea un nuevo SendEvent.
+- send-mail: Utiliza ResendFacade para enviar un correo y crea un nuevo SendEvent.
 
 **Queries Handler:**
 
--	get-mail-by-id: Obtiene un Mail específico por su ID.
--	get-template-by-id: Obtiene un MailTemplate específico por su ID.
--	get-send-events-by-user: Obtiene un array de SendEvent para un usuario específico.
+- get-mail-by-id: Obtiene un Mail específico por su ID.
+- get-template-by-id: Obtiene un MailTemplate específico por su ID.
+- get-send-events-by-user: Obtiene un array de SendEvent para un usuario específico.
 
 <h4 id='4.2.3.4.'>4.2.3.4. Infrastructure Layer.</h4>
 
 **Repositories:**
 
--	create-mail: Persiste una nueva instancia de Mail en la base de datos.
--	create-template: Persiste una nueva instancia de MailTemplate en la base de datos.
--	create-send-event: Persiste un nuevo SendEvent en la base de datos.
--	find-mail: Busca y devuelve instancias de Mail basadas en diversos criterios.
--	find-template: Busca y devuelve instancias de MailTemplate basadas en diversos criterios.
--	find-send-events: Busca y devuelve SendEvents basados en diversos criterios.
+- create-mail: Persiste una nueva instancia de Mail en la base de datos.
+- create-template: Persiste una nueva instancia de MailTemplate en la base de datos.
+- create-send-event: Persiste un nuevo SendEvent en la base de datos.
+- find-mail: Busca y devuelve instancias de Mail basadas en diversos criterios.
+- find-template: Busca y devuelve instancias de MailTemplate basadas en diversos criterios.
+- find-send-events: Busca y devuelve SendEvents basados en diversos criterios.
 
 **Services:**
 
--	ResendFacade: Interactúa con el servicio externo de Resend para gestionar el envío de correos.
+- ResendFacade: Interactúa con el servicio externo de Resend para gestionar el envío de correos.
 
 **Mappers:**
 
--	mail-mapper: Convierte entre objetos de dominio Mail y su representación en la capa de persistencia.
--	template-mapper: Realiza el mapeo entre objetos de dominio MailTemplate y su versión persistente.
--	send-event-mapper: Mapea objetos SendEvent entre la capa de dominio y la de persistencia.
-
+- mail-mapper: Convierte entre objetos de dominio Mail y su representación en la capa de persistencia.
+- template-mapper: Realiza el mapeo entre objetos de dominio MailTemplate y su versión persistente.
+- send-event-mapper: Mapea objetos SendEvent entre la capa de dominio y la de persistencia.
 
 <h4 id='4.2.3.5.'>4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.</h4>
 
@@ -1859,7 +1914,7 @@ A continuación, se presentan las clases identificadas
 
 - **Métodos:** <br> - **activate():** void, Activa la membresía <br> - **renew(newEndDate: DateTime):** void, Renueva la membresía extendiendo su vigencia. <br> - **expire():** void, Marca la membresía como expirada
 
-- **Relaciones:** <br> - **MembershipLevel:** La clase Memberships utiliza la clase MembershipLevel para la renovación y expiración de membresías, dado que la vigencia de la membresía varía según su grado. <br> -  **MembershipPayment:**  La clase Memberships utiliza la clase MembershipPayment para verificar el estado de las transacciones que conciernen a las membresías, además de efectuar el cobro de renovaciones.
+- **Relaciones:** <br> - **MembershipLevel:** La clase Memberships utiliza la clase MembershipLevel para la renovación y expiración de membresías, dado que la vigencia de la membresía varía según su grado. <br> - **MembershipPayment:** La clase Memberships utiliza la clase MembershipPayment para verificar el estado de las transacciones que conciernen a las membresías, además de efectuar el cobro de renovaciones.
 
 - **MembershipLevel:** <br> - **Propósito:** Define los distintos niveles de membresía, asimismo los permisos y beneficios que estas otorgan. <br> - **Atributos:** <br> -**id:** string, Identificador único del nivel de membresía <br> - **name:** string, Nombre del nivel de membresía <br> - **benefits:** string[], Lista de beneficios asociados al nivel de la membresía <br> - **privileges:** string[], Lista de privilegios asociados al nivel de la membresía <br> - **Métodos:** <br> - **getBenefit(benefit: string):** string, Devuelve la información o grado de un beneficio <br> - **updateBenefits(newBenefits: string[]):** void, Actualiza los beneficios del nivel de membresía <br> - **isPrivilegeAssigned(privilege: string):** bool, Verifica si el nivel de membresía contiene el privilegio consultado <br> - **Relaciones:** <br> - **Memberships:** La clase Memberships utiliza la clase MembershipLevel para la renovación y expiración de membresías, dado que la vigencia de la membresía varía según su grado.
 
@@ -1893,43 +1948,47 @@ En esta sección se presentan las clases que forman parte de la capa de interfaz
 
 <h4 id='4.2.4.3.'>4.2.4.3. Application Layer.</h4>
 
-En esta sección se presentan las clases que manejan los flujos del proceso de membresías en el negocio.  
+En esta sección se presentan las clases que manejan los flujos del proceso de membresías en el negocio.
 
-CommandHandlers: 
+CommandHandlers:
 
-- create-membership: Clase encargada de crear una nueva membresía.  
-- renew-membership: Clase encargada de actualizar el tiempo de expiración de una membresía  
-- expire-membership: Actualiza el estado de una membresía a expirada.  
-- update-benefit: Actualiza algún beneficio de un determinado nivel de membresía.  
-- create-payment: Crea un nuevo registro de pago de membresía  
+- create-membership: Clase encargada de crear una nueva membresía.
+- renew-membership: Clase encargada de actualizar el tiempo de expiración de una membresía
+- expire-membership: Actualiza el estado de una membresía a expirada.
+- update-benefit: Actualiza algún beneficio de un determinado nivel de membresía.
+- create-payment: Crea un nuevo registro de pago de membresía
 
-QueryHandlers:  
+QueryHandlers:
 
-- get-membership-benefits-by-level: Obtiene todos los beneficios de un determinado nivel de membresía  
-- get-membership-by-company-id: Obtiene detalles de la membresía adquirida por una determinada empresa.  
+- get-membership-benefits-by-level: Obtiene todos los beneficios de un determinado nivel de membresía
+- get-membership-by-company-id: Obtiene detalles de la membresía adquirida por una determinada empresa.
 
 <h4 id='4.2.4.4.'>4.2.4.4. Infrastructure Layer.</h4>
 
-En esta sección se presentan las clases que acceden a servicios externos en el bounded context de membresías. 
+En esta sección se presentan las clases que acceden a servicios externos en el bounded context de membresías.
 
 Repositories (Class):
 
 MembershipRepository:
-- create-membership: Crea una nueva membresía asignada a una empresa en la base de datos.  
-- update-membership: Actualiza los detalles respecto a una membresía dentro de la base de datos.  
-- get-membership-by-company-id: Obtiene una membresía de la base de datos según el id de la compañía.  
+
+- create-membership: Crea una nueva membresía asignada a una empresa en la base de datos.
+- update-membership: Actualiza los detalles respecto a una membresía dentro de la base de datos.
+- get-membership-by-company-id: Obtiene una membresía de la base de datos según el id de la compañía.
 
 MembershipLevelRepository:
-- update-benefit: Actualiza la lista de beneficios de un determinado nivel de membresía.  
-- get-membership-benefits-by-level: Obtiene la lista de beneficios para el nivel de membresía.  
+
+- update-benefit: Actualiza la lista de beneficios de un determinado nivel de membresía.
+- get-membership-benefits-by-level: Obtiene la lista de beneficios para el nivel de membresía.
 
 MembershipPaymentRepository:
-- create-payment: Crea un nuevo pago en la base de datos correspondiente a una adquisición de membresía.  
+
+- create-payment: Crea un nuevo pago en la base de datos correspondiente a una adquisición de membresía.
 
 Mappers:
-- MembershipDao: Realiza el mapeo o conversión entre el objeto de membresía del dominio y el objeto que representa los datos ingresados a la persistencia.  
-- MembershipLevelDao: Realiza el mapeo o conversión entre el objeto de beneficios de la membresía del dominio y el objeto que representa los datos ingresados a la persistencia.  
-- MembershipPaymentDao: Realiza la conversión entre el objeto de pago de membresía del dominio y el objeto persistence que ingresa la información a la base de datos.  
+
+- MembershipDao: Realiza el mapeo o conversión entre el objeto de membresía del dominio y el objeto que representa los datos ingresados a la persistencia.
+- MembershipLevelDao: Realiza el mapeo o conversión entre el objeto de beneficios de la membresía del dominio y el objeto que representa los datos ingresados a la persistencia.
+- MembershipPaymentDao: Realiza la conversión entre el objeto de pago de membresía del dominio y el objeto persistence que ingresa la información a la base de datos.
 
 <h4 id='4.2.4.5.'>4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.</h4>
 
@@ -2064,7 +2123,6 @@ Se muestra el diagrama de clases con las clases y métodos explicados en las ant
   </tbody>
 </table>
 
-
 <h3 id='4.2.5.'>4.2.5. Bounded Context: IoT</h3>
 En esta sección, el equipo presenta las clases identificadas y las detalla a manera de diccionario
 A continuación, se presentan las clases identificadas
@@ -2075,6 +2133,7 @@ A continuación, se presentan las clases identificadas
 Representa la medición automática de temperatura y humedad capturada por el dispositivo IoT y enviada al sistema para su almacenamiento y análisis.
 
 **Atributos:**
+
 - `id`: string - Identificador único de la medición.
 - `device`: IoTDevice - Identificador del dispositivo IoT (ESP32) que realizó la medición.
 - `timestamp`: DateTime - Fecha y hora en que se tomó la medición.
@@ -2083,11 +2142,13 @@ Representa la medición automática de temperatura y humedad capturada por el di
 - `alertTriggered`: boolean - Indica si el LED de alerta fue activado durante la medición.
 
 **Métodos:**
+
 - `registerMeasurement(data: MeasurementDTO): void` - Registra una nueva medición en el sistema realizando llamadas a microservicio de Crops.
 - `validateThresholds(): boolean` - Verifica si los valores de temperatura o humedad exceden los umbrales de seguridad.
 - `triggerAlert(): void` - Activa el LED de alerta en caso de valores fuera de rango.
 
 **Relaciones:**
+
 - **IoTDevice:** La clase IoTDataManagement actúa en base a la clase IoTDevice, que representa el dispositivo específico que originó la medición.
 
 **IoTDevice**
@@ -2096,6 +2157,7 @@ Representa la medición automática de temperatura y humedad capturada por el di
 Representa un dispositivo IoT físico basado en ESP32, encargado de medir temperatura, humedad y activar una alerta visual en caso de condiciones ambientales no seguras en el cultivo de champiñones.
 
 **Atributos:**
+
 - `id`: string - Identificador único del dispositivo.
 - `serialNumber`: string - Número de serie del ESP32.
 - `status`: string - Estado actual del dispositivo (active, inactive, maintenance).
@@ -2104,11 +2166,13 @@ Representa un dispositivo IoT físico basado en ESP32, encargado de medir temper
 - `thresholdHumidity`: number - Umbral máximo permitido para la humedad (%).
 
 **Métodos:**
+
 - `sendMeasurement(data: MeasurementDTO): void` - Envía una medición al sistema.
 - `updateThresholds(tempThreshold: number, humidityThreshold: number): void` - Actualiza los umbrales de alerta del dispositivo.
 - `syncTime(): void` - Sincroniza la hora interna del dispositivo con el servidor.
 
 **Relaciones:**
+
 - **IoTDataMeasurement:** La clase IoTDevice se relaciona con instancias de IoTDataMeasurement, dado que puede generar múltiples registros de mediciones.
 - **DeviceSyncLog:** La clase IoTDevice se relaciona con la clase DeviceSyncLog, el dispositivo registra sus propios eventos de sincronización.
 
@@ -2118,6 +2182,7 @@ Representa un dispositivo IoT físico basado en ESP32, encargado de medir temper
 Registrar eventos de sincronización de los dispositivos IoT, ya sea exitosos o fallidos, para el control de integridad de los datos.
 
 **Atributos:**
+
 - `id`: string - Identificador único del evento de sincronización.
 - `device`: IoTDevice - Identificador del dispositivo que realizó la sincronización.
 - `syncTimestamp`: DateTime - Fecha y hora de la sincronización.
@@ -2125,9 +2190,11 @@ Registrar eventos de sincronización de los dispositivos IoT, ya sea exitosos o 
 - `errorMessage`: string - Mensaje de error en caso de fallo.
 
 **Métodos:**
+
 - `registerSyncEvent(status: string, message?: string): void` — Registra un nuevo evento de sincronización.
 
 **Relaciones:**
+
 - **IoTDevice:** Cada clase IoTDevice, o dispositivo IoT, posee un gestor de eventos de sincronización.
 
 <h4 id='4.2.5.1.'>4.2.5.1. Domain Layer.</h4>
@@ -2157,18 +2224,18 @@ En esta sección se presentan las clases que forman parte de la capa de interfaz
 
 <h4 id='4.2.5.3.'>4.2.5.3. Application Layer.</h4>
 
-CommandHandlers: 
+CommandHandlers:
 
-- create-iot-device: Clase encargada de crear un nuevo dispositivo IoT.  
+- create-iot-device: Clase encargada de crear un nuevo dispositivo IoT.
 - create-processed-measurement: Clase encargada de crear un objeto record en base a una medición hecha por un dispositivo IoT.
-- create-alert: Crea una alerta cuando alguna medición supera los umbrales seguros.  
-- update-processed-measurement: Actualiza la información de una medición de algún dispositivo IoT.  
+- create-alert: Crea una alerta cuando alguna medición supera los umbrales seguros.
+- update-processed-measurement: Actualiza la información de una medición de algún dispositivo IoT.
 
-QueryHandlers:  
+QueryHandlers:
 
 - get-measurements-by-grow-room: Obtiene el historial de mediciones de una nave específica
 - get-iot-devices-status: Obtiene el estado actual de los dispositivos IoT registrados.
-- get-active-alerts: Obtiene las alertas que se encuentran activas.  
+- get-active-alerts: Obtiene las alertas que se encuentran activas.
 
 <h4 id='4.2.5.4.'>4.2.5.4. Infrastructure Layer.</h4>
 
@@ -2176,6 +2243,7 @@ En esta sección se presentan las clases que acceden a servicios externos en el 
 
 **Repositories (Class):**
 IoTDeviceRepository:
+
 - `save-device`: Registra un nuevo dispositivo ESP32 en la base de datos.
 - `find-by-serial`: Obtiene un dispositivo por su número de serie.
 - `update-device-status`: Actualiza el estado (active/inactive) de un dispositivo.
@@ -2183,11 +2251,13 @@ IoTDeviceRepository:
 - `log-sync-event`: Registra un evento de sincronización del dispositivo.
 
 IoTDataMeasurementRepository:
+
 - `save-measurement`: Almacena una nueva medición de sensor en la base de datos.
 - `find-by-device`: Obtiene mediciones por dispositivo en un rango de tiempo.
 - `check-threshold-violations`: Verifica mediciones que exceden umbrales de seguridad.
 
 DeviceSyncLogRepository:
+
 - `save-sync-log`: Registra un evento de sincronización (éxito/fallo).
 - `find-last-sync`: Obtiene el último estado de sincronización de un dispositivo.
 
@@ -2248,7 +2318,7 @@ El enfoque de Greenhouse para la aplicación web y mobile consiste en transmitir
 
 - **Imágenes:** En el diseño de la aplicación, se incluirán imágenes tanto descriptivas como ornamentales. En primer lugar, la imagen de perfil del usuario y de la empresa en la cual está registrado dentro de la aplicación se encontrarán en todo momento en la parte superior derecha (En el caso de la aplicación web), y en la barra de navegación inferior (En el caso de la aplicación móvil). Esto con el objetivo de ayudar al usuario a identificar la sesión en la que se encuentra y ayudarlo a navegar rápidamente a su perfil. Adicionalmente, se contará con imágenes decorativas en las pantalla de inicio de sesión y creación de cuenta, únicamente con el propósito de captar la atención del usuario.
 
-- **Campo de entrada de texto:** Se hace uso de cuadros de  escritura con la finalidad de que el usuario introduzca información de diversos tipos, como por ejemplo, sus credenciales en el apartado de creación de cuenta o inicio de sesión, nombres/ID de cultivos en la sección cultivos en progreso o archivo de cultivos, nombres de trabajadores en la sección del directorio de empleados, etc. Estos campos de entrada deben ser lo suficientemente anchos como para encajar la mayor cantidad de texto esperada por el usuario, estableciendo como tamaño mínimo 10 caracteres.
+- **Campo de entrada de texto:** Se hace uso de cuadros de escritura con la finalidad de que el usuario introduzca información de diversos tipos, como por ejemplo, sus credenciales en el apartado de creación de cuenta o inicio de sesión, nombres/ID de cultivos en la sección cultivos en progreso o archivo de cultivos, nombres de trabajadores en la sección del directorio de empleados, etc. Estos campos de entrada deben ser lo suficientemente anchos como para encajar la mayor cantidad de texto esperada por el usuario, estableciendo como tamaño mínimo 10 caracteres.
 
 - **Botones:** En la aplicación web, se suelen encontrar en la parte inferior de las tarjetas o al extremo derecho de los cuadros de escritura. Estos botones permiten al usuario realizar acciones tales como cambiar de página, abrir un diálogo, editar un campo, etc. Adicionalmente, se deben mostrar botones de confirmación para las acciones que involucren agregar o eliminar información de la base de datos. En general, todos los botones cuentan con un estilo distintivo y un alto contraste con los colores del resto de la aplicación. Se utiliza la teoría del color en los botones de color rojo para representar acciones que eliminen procesos o los den por finalizados.
 
@@ -2294,29 +2364,29 @@ En cuanto a las etiquetas que conforman a las aplicaciones web y mobile, cabe de
 Las meta tags no son visualizadas en los sitios web, pues en su lugar, son leídas por los navegadores o rastreadores web. Además, estas etiquetas ayudan en el posicionamiento de nuestra aplicación web en los navegadores. A continuación, se presentan las meta tags utilizadas:
 
 - **Título:**
-El título de la página se muestra en la pestaña del navegador y es importante tanto para los usuarios como para el SEO. Debe ser conciso, relevante y reflejar claramente el contenido o propósito de la página. También se utiliza en los resultados de búsqueda de los motores como Google, por lo que es clave para atraer clics. `<title>{title}</title>`
+  El título de la página se muestra en la pestaña del navegador y es importante tanto para los usuarios como para el SEO. Debe ser conciso, relevante y reflejar claramente el contenido o propósito de la página. También se utiliza en los resultados de búsqueda de los motores como Google, por lo que es clave para atraer clics. `<title>{title}</title>`
 
 - **Descripción**
-La meta descripción es un resumen breve del contenido de la página. Aparece en los resultados de búsqueda debajo del título de la página y tiene un papel crucial en atraer a los usuarios a hacer clic en el enlace. Debe ser informativa, persuasiva y contener las palabras clave más importantes de la página. `<meta name="description" content={description} />`
+  La meta descripción es un resumen breve del contenido de la página. Aparece en los resultados de búsqueda debajo del título de la página y tiene un papel crucial en atraer a los usuarios a hacer clic en el enlace. Debe ser informativa, persuasiva y contener las palabras clave más importantes de la página. `<meta name="description" content={description} />`
 
 - **Palabras Claves**
-Las palabras clave son términos o frases que representan el contenido de la página. Ayudan a los motores de búsqueda a entender de qué trata la página y cómo debe indexarse. Aunque su importancia ha disminuido en el SEO moderno, siguen siendo útiles para organizar y definir el contenido del sitio. `<meta name="keywords" content={keywords} />`
+  Las palabras clave son términos o frases que representan el contenido de la página. Ayudan a los motores de búsqueda a entender de qué trata la página y cómo debe indexarse. Aunque su importancia ha disminuido en el SEO moderno, siguen siendo útiles para organizar y definir el contenido del sitio. `<meta name="keywords" content={keywords} />`
 
 - **Autor**
-Este meta tag indica quién es el autor de la página o del contenido. Es útil para dar crédito y puede ayudar en términos de transparencia y credibilidad, especialmente en sitios donde el contenido es de carácter técnico, científico o académico. `<meta name="author" content="Alan Galavis">`
+  Este meta tag indica quién es el autor de la página o del contenido. Es útil para dar crédito y puede ayudar en términos de transparencia y credibilidad, especialmente en sitios donde el contenido es de carácter técnico, científico o académico. `<meta name="author" content="Alan Galavis">`
 
 - Copyright
-El meta tag de copyright informa sobre los derechos de autor de la página. Este tag puede servir como una declaración de propiedad del contenido, protegiendo los derechos del autor o la organización que lo publica, en este caso, Greenhouse. `<meta name="copyright" content="Greenhouse" />`
+  El meta tag de copyright informa sobre los derechos de autor de la página. Este tag puede servir como una declaración de propiedad del contenido, protegiendo los derechos del autor o la organización que lo publica, en este caso, Greenhouse. `<meta name="copyright" content="Greenhouse" />`
 
 <h3 id='5.2.4.'>5.2.4. Searching Systems</h3>
 
 Los sistemas de búsqueda fueron diseñados utilizando un lenguaje claro y adecuado, lo que facilita la comprensión de las funciones que realizan.
 
-| Elemento | Función |
-| -------- | ------- |
-| Ícono de filtro por fecha | Este elemento mostrará un calendario que permite seleccionar una fecha específica para visualizar todos los cultivos o registros correspondientes a esa fecha. |
-| Barra de filtrado por fase | Este elemento permite localizar cultivos utilizando su fase como pivote. |
-| Barra de filtrado por calidad | Este elemento permite localizar cultivos en base a su calidad final de producción. |
+| Elemento                      | Función                                                                                                                                                        |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Ícono de filtro por fecha     | Este elemento mostrará un calendario que permite seleccionar una fecha específica para visualizar todos los cultivos o registros correspondientes a esa fecha. |
+| Barra de filtrado por fase    | Este elemento permite localizar cultivos utilizando su fase como pivote.                                                                                       |
+| Barra de filtrado por calidad | Este elemento permite localizar cultivos en base a su calidad final de producción.                                                                             |
 
 <h3 id='5.2.5.'>5.2.5. Navigation Systems</h3>
 
@@ -2335,8 +2405,6 @@ Los wireframes son herramientas clave en el proceso de diseño de interfaces. Lo
 <img src="assets/images/chapter_5/wireframes/landing-page-wireframe-3.jpg" alt="FAQ section wireframe" />
 <img src="assets/images/chapter_5/wireframes/landing-page-wireframe-4.jpg" alt="About section wireframe" />
 <img src="assets/images/chapter_5/wireframes/landing-page-wireframe-5.jpg" alt="Contact section wireframe" />
-
-
 
 <h3 id='5.3.2.'>5.3.2. Landing Page Mock-up</h3>
 
@@ -2450,7 +2518,7 @@ La sección de reportes estadísticos es accesible desde el menú principal. En 
 
 <h3 id='5.4.2.'>5.4.2. Applications Wireflow Diagrams</h3>
 
-A continuación se presentarán los wireflow diagrams con el objetivo de proporcionar una visión general de cómo se conectan las diversas pantallas de las dos aplicación móviles para visualizar la experiencia del usuario de principio a fin. De esta forma, estos diagramas ayudan a identificar posibles problemas de usabilidad.  
+A continuación se presentarán los wireflow diagrams con el objetivo de proporcionar una visión general de cómo se conectan las diversas pantallas de las dos aplicación móviles para visualizar la experiencia del usuario de principio a fin. De esta forma, estos diagramas ayudan a identificar posibles problemas de usabilidad.
 
 🔗 **[Enlace para acceder al Lucidchart](https://lucid.app/lucidchart/3044ab2c-ab1e-4e74-9655-08e3d050b2cc/edit?viewport_loc=-14929%2C-2432%2C37223%2C18249%2C0_0&invitationId=inv_94ff9667-e3e2-450a-8592-b35aa3336db1)**
 
@@ -2460,7 +2528,8 @@ A continuación se presentarán los wireflow diagrams con el objetivo de proporc
 
 ---
 
-##### **User Goal: Registrar empresa**  
+##### **User Goal: Registrar empresa**
+
 **User persona:** Administradores  
 **Explicación del flujo:**  
 En primer lugar, los administradores deberán ingresar a la aplicación web. A continuación, deberán dirigirse al apartado de "Sign up", dentro del cual se mostrará un formulario que solicitará ingresar información relevante para la creación de la cuenta, como, por ejemplo, razón social, RUC, nombre del registrante y contraseña de la cuenta. Posteriormente, se mostrarán dos botones, uno que representa la confirmación del usuario de haber leído los términos y condiciones de uso, y otro que confirma su intención de crear una cuenta. Una vez confirmada la intención de crear una cuenta, se redirigirá al usuario a la vista principal.
@@ -2469,7 +2538,8 @@ En primer lugar, los administradores deberán ingresar a la aplicación web. A c
 
 ---
 
-##### **User Goal: Iniciar sesión**  
+##### **User Goal: Iniciar sesión**
+
 **User persona:** Administradores y técnicos supervisores  
 **Explicación del flujo:**  
 En primer lugar, el usuario deberá de acceder a la aplicación web. Posteriormente, visualizará en pantalla un formulario que solicitará sus datos de inicio de sesión, en este caso, correo usuario y contraseña. En caso de que estos sean validados, el sistema redirigirá al usuario al menú principal. Caso contrario, se mantendrá en la pestaña de inicio de sesión y se le solicitará introducir sus credenciales.
@@ -2478,7 +2548,8 @@ En primer lugar, el usuario deberá de acceder a la aplicación web. Posteriorme
 
 ---
 
-##### **User Goal: Navegar por el menú principal**  
+##### **User Goal: Navegar por el menú principal**
+
 **User persona:** Administradores  
 **Explicación del flujo:**  
 Una vez que el usuario inicie sesión, será redirigido al menú principal, en donde visualizará una serie de opciones. La primera, llamada "Crops in progress", permitirá al administrador revisar los cultivos en progreso y sus respectivos registros. La segunda, denominada "Crops Archive", redirigirá al usuario a la sección homónima, desde la cual podrá visualizar el historial de cultivos finalizados. En tercer lugar se encuentra la opción "Statistical reports", la cual mostrará reportes estadísticos de valor para el usuario, como son el estado de las naves, número de registros por cultivo en progreso, insumos utilizados dentro de los cultivos, etc. Finalmente, la sección “My company” permitirá a los usuarios acceder al perfil de su empresa.
@@ -2487,7 +2558,8 @@ Una vez que el usuario inicie sesión, será redirigido al menú principal, en d
 
 ---
 
-##### **User Goal: Iniciar un nuevo cultivo**  
+##### **User Goal: Iniciar un nuevo cultivo**
+
 **User persona:** Técnicos supervisores  
 **Explicación del flujo:**  
 En primer lugar el usuario debe de acceder a la sección "Crops in progress", dentro de la cual podrá encontrar una lista de registros de cultivos creados y catalogados como "En proceso". Cuando el usuario presione el botón ubicado en la parte inferior de la pantalla, se desplegará un mensaje emergente que solicitará confirmar su intención de crear una nueva cosecha. En caso de ser confirmada, se redireccionará al usuario a la nueva siembra creada.
@@ -2496,7 +2568,8 @@ En primer lugar el usuario debe de acceder a la sección "Crops in progress", de
 
 ---
 
-##### **User Goal: Registrar progreso de cultivo**  
+##### **User Goal: Registrar progreso de cultivo**
+
 **User persona:** Técnicos supervisores  
 **Explicación del flujo:**  
 En primer lugar, el usuario debe presionar el botón situado en la parte inferior de la tabla de registros de un cultivo. A continuación, se redirigirá al usuario a una sección con un formulario, dentro de las cuales los usuarios podrán registrar la información necesaria. Cabe destacar que el presente flujo sienta las bases del registro de procesos en cada una de las 8 fases existentes.
@@ -2505,20 +2578,20 @@ En primer lugar, el usuario debe presionar el botón situado en la parte inferio
 
 ---
 
-##### **User Goal: Ver registro pasado en cultivo finalizado**  
+##### **User Goal: Ver registro pasado en cultivo finalizado**
+
 **User persona:** Administradores y técnicos supervisores  
 **Explicación del flujo:**  
 En primer lugar, el usuario debe de presionar sobre el botón “Crops archive”, el cual está situado en el menú principal. A continuación, visualizará una tabla con todos los cultivos finalizados. Posteriormente, podrá presionar sobre alguno de los cultivos para revisar los registros asociados al mismo.
 
 ![Wireflow - Cultivo finalizado](assets/images/chapter_5/wireflows/wireflowimg6.png)
 
-
 #### Mobile Application Wireflow Diagrams
 
 **User Goal:** Registrar empresa  
 **User persona:** Administradores  
 **Explicación del flujo:**  
-En primer lugar, los administradores deberán ingresar a la aplicación móvil. A continuación, deberán dirigirse al apartado de "Sign up", dentro del cual se mostrará un formulario que solicitará ingresar información relevante para la creación de la cuenta, como, por ejemplo, razón social, RUC, nombre del registrante y contraseña de la cuenta. Posteriormente, se mostrarán dos botones, uno que representa la confirmación del usuario de haber leído los términos y condiciones de uso, y otro que confirma su intención de crear una cuenta. Una vez confirmada la intención de crear una cuenta, se redirigirá al usuario a la vista principal. 
+En primer lugar, los administradores deberán ingresar a la aplicación móvil. A continuación, deberán dirigirse al apartado de "Sign up", dentro del cual se mostrará un formulario que solicitará ingresar información relevante para la creación de la cuenta, como, por ejemplo, razón social, RUC, nombre del registrante y contraseña de la cuenta. Posteriormente, se mostrarán dos botones, uno que representa la confirmación del usuario de haber leído los términos y condiciones de uso, y otro que confirma su intención de crear una cuenta. Una vez confirmada la intención de crear una cuenta, se redirigirá al usuario a la vista principal.
 
 ![Wireflow](assets/images/chapter_5/wireflows/wireflowmobile1.png)
 
@@ -2567,8 +2640,7 @@ En primer lugar, el usuario debe de presionar sobre el botón “Crops archive�
 
 ![Wireflow](assets/images/chapter_5/wireflows/wireflowmobile6.png)
 
-
-**User Goal:** Editar registro 
+**User Goal:** Editar registro
 **User persona:** Técnicos supervisores  
 **Explicación del flujo:**  
 En primer lugar, el usuario debe de presionar sobre el botón “Editar”, el cual está situado en cada tarjeta de registro. A continuación, visualizará una sección desde la cual podrá modificar la información registrada. Una vez que termine de hacer este proceso, se visualizará un dialog que indica que su solicitud fue enviada a un administrador. Para que la edición se haga efectiva, un administrador deberá aprobar la solicitud.
@@ -2595,7 +2667,7 @@ En primer lugar, el usuario debe de presionar sobre el botón “Perfil”, el c
 
 <h3 id='5.4.3.'>5.4.3. Applications Mock-ups</h3>
 
-Esta sección presenta los mock-ups de nuestra aplicación web y móvil, las cuales fueron diseñadas con el propósito de tener representaciones visuales de cómo se verá la interfaz de usuario una vez desarrollada. Los mock-ups se caracterizan por ser detallados, ya que incluye el diseño, agrupación de elementos, tipografía, colores, entre otros, ya definidos en el general style guidelines. 
+Esta sección presenta los mock-ups de nuestra aplicación web y móvil, las cuales fueron diseñadas con el propósito de tener representaciones visuales de cómo se verá la interfaz de usuario una vez desarrollada. Los mock-ups se caracterizan por ser detallados, ya que incluye el diseño, agrupación de elementos, tipografía, colores, entre otros, ya definidos en el general style guidelines.
 
 <h4 id='5.4.3.1'>5.4.3.1 Web Application Mock-ups</h4>
 
@@ -2692,17 +2764,18 @@ La sección de reportes estadísticos es accesible desde el menú principal. En 
 
 <h3 id='5.4.4.'>5.4.4. Applications User Flow Diagrams</h3>
 
-A continuación se mostrarán los user flow diagrams, los cuales permiten visualizar el recorrido completo que el usuario sigue dentro de la aplicación para alcanzar un objetivo específico (*user goal*). Desde el inicio hasta la finalización de la tarea, los *user flow diagrams* muestran las acciones y decisiones que los usuarios toman en cada paso, así como las pantallas y funcionalidades involucradas en el proceso.
+A continuación se mostrarán los user flow diagrams, los cuales permiten visualizar el recorrido completo que el usuario sigue dentro de la aplicación para alcanzar un objetivo específico (_user goal_). Desde el inicio hasta la finalización de la tarea, los _user flow diagrams_ muestran las acciones y decisiones que los usuarios toman en cada paso, así como las pantallas y funcionalidades involucradas en el proceso.
 
 ### Web Application User Flow Diagrams
 
 Enlace para visualizar los Web Application User [Flow Diagrams](https://www.figma.com/design/wPpvosGW28c7blfOfbBo2n/Integradis---Wireframes-Greenhouse---Emergentes?node-id=1000-524&t=FlAr7jhT05KdpvtA-1)
 
-#### **User Goal:** Crear cuenta e Iniciar sesión  
-**User Persona:** Administrador  
+#### **User Goal:** Crear cuenta e Iniciar sesión
+
+**User Persona:** Administrador
 
 **Explicación del flujo:**  
-En primer lugar, los administradores deberán ingresar a la aplicación móvil. A continuación, deberán dirigirse al apartado de *Sign up*, dentro del cual se mostrará un formulario que solicitará ingresar información relevante para la creación de la cuenta, como, por ejemplo, razón social, RUC, nombre del registrante y contraseña de la cuenta. Seguidamente, se mostrarán dos botones, uno que representa la confirmación del usuario de haber leído los términos y condiciones de uso, y otro que confirma su intención de crear una cuenta. Una vez confirmada la intención de crear una cuenta, se redirigirá al usuario a la vista crops in progress donde podrá elegir una membresia.
+En primer lugar, los administradores deberán ingresar a la aplicación móvil. A continuación, deberán dirigirse al apartado de _Sign up_, dentro del cual se mostrará un formulario que solicitará ingresar información relevante para la creación de la cuenta, como, por ejemplo, razón social, RUC, nombre del registrante y contraseña de la cuenta. Seguidamente, se mostrarán dos botones, uno que representa la confirmación del usuario de haber leído los términos y condiciones de uso, y otro que confirma su intención de crear una cuenta. Una vez confirmada la intención de crear una cuenta, se redirigirá al usuario a la vista crops in progress donde podrá elegir una membresia.
 
 Por otro lado, en caso de que el usuario haya creado previamente una cuenta en Greenhouse, y desee iniciar sesión, deberá completar el formulario que le solicita su usuario y contraseña. En caso de que estos sean validados, el sistema redirigirá al usuario al menú principal. Caso contrario, se mantendrá en la pestaña de inicio de sesión y se le solicitará introducir sus credenciales. En caso de que rechace cualquiera de estas dos operaciones, el usuario será redirigido a la vista inicial de bienvenida.
 
@@ -2711,9 +2784,10 @@ Por otro lado, en caso de que el usuario haya creado previamente una cuenta en G
 ---
 
 #### **User Goal:** Ver registros del cultivo.
-**User Persona:** Administrador  
 
-**Explicación del flujo:**  
+**User Persona:** Administrador
+
+**Explicación del flujo:**
 
 En primer lugar, los administradores deberán ingresar a la aplicación web.Luego, cuando este en el home hace clic sobre un cultivo. Entonces, el sistema muestra la sección de los registros del cultivo junto con gráficos de varias características.
 
@@ -2722,43 +2796,43 @@ En primer lugar, los administradores deberán ingresar a la aplicación web.Lueg
 ---
 
 #### **User Goal:** Ver, editar y eliminar a un trabajador.
-**User Persona:** Administrador 
+
+**User Persona:** Administrador
 
 **Explicación del flujo:**  
-Cuando el usuario observe el directorio de trabajadores y presiona el icono de acción. Se muestra al trabajador con su nombre rol y todos los permisos activados por defecto.  Si se hace clic sobre el icono de editar nombre se puede editar el texto. Luego, si se hace clic en el icono de edición de rol, se puede elegir entre los roles disponibles. Finalmente, si se presiona en el botón de eliminar trabajor. Entonces, el trabajor será eliminado. 
+Cuando el usuario observe el directorio de trabajadores y presiona el icono de acción. Se muestra al trabajador con su nombre rol y todos los permisos activados por defecto. Si se hace clic sobre el icono de editar nombre se puede editar el texto. Luego, si se hace clic en el icono de edición de rol, se puede elegir entre los roles disponibles. Finalmente, si se presiona en el botón de eliminar trabajor. Entonces, el trabajor será eliminado.
 
 ![Ver, editar y eliminar a un trabajador.](assets/images/chapter_5/userflows/userflowweb4.png)
 
-
-
 ---
 
-#### **User Goal:** Invitar a un trabajador  
-**User Persona:** Administrador  
+#### **User Goal:** Invitar a un trabajador
+
+**User Persona:** Administrador
 
 **Explicación del flujo:**  
 En primer lugar, el usuario se encuentra observando el directorio de trabajadores. Si hace clic sobre el botón "Invitar a trabajador", aparece un formulario que solicita información del trabajador y al oprimir "Enviar invitación por correo" o "cancelar", se cerrará el dialog y se regresará a la vista mi empresa.
 
 ![Userflow Ver registros archivados](assets/images/chapter_5/userflows/userflowweb6.png)
 
-
 #### **User Goal:** Ver las notificaciones
-**User Persona:** Administrador  
 
-**Explicación del flujo:**  
+**User Persona:** Administrador
+
+**Explicación del flujo:**
 
 En primer lugar, el usuario observa el home. En caso, haga clic en el icono de la campana se abre un apartado con todas las notificaciones para el usuario.
 
 ![Userflow Ver registros archivados](assets/images/chapter_5/userflows/userflowweb7.png)
 
-
 ## Mobile Application User Flow Diagrams
 
-Los *user flow diagrams* son representaciones visuales del flujo que atraviesa un usuario para cumplir con un objetivo en específico dentro de la aplicación. A continuación, se presentan los user flow diagramas asociados a la aplicación móvil.
+Los _user flow diagrams_ son representaciones visuales del flujo que atraviesa un usuario para cumplir con un objetivo en específico dentro de la aplicación. A continuación, se presentan los user flow diagramas asociados a la aplicación móvil.
 
 ---
 
-### User Goal: Iniciar sesión y crear cuenta  
+### User Goal: Iniciar sesión y crear cuenta
+
 **User persona:** Administrador  
 **Explicación del flujo:**  
 En primer lugar, los administradores deberán ingresar a la aplicación móvil. A continuación, deberán dirigirse al apartado de "Sign up", dentro del cual se mostrará un formulario que solicitará ingresar información relevante para la creación de la cuenta, como razón social, RUC, nombre del registrante y contraseña. Luego se mostrarán dos botones: uno para confirmar que se han leído los términos y condiciones, y otro para confirmar la creación de la cuenta. Una vez confirmado, se redirige al usuario a la vista principal.
@@ -2769,7 +2843,8 @@ Por otro lado, si el usuario ya tiene una cuenta, debe llenar el formulario de i
 
 ---
 
-### User Goal: Iniciar sesión  
+### User Goal: Iniciar sesión
+
 **User persona:** Técnico supervisor  
 **Explicación del flujo:**  
 El técnico supervisor debe ingresar a la aplicación móvil y completar el formulario de inicio de sesión con su usuario y contraseña. Si son validados, será dirigido al menú principal. Si no, se quedará en la pestaña de inicio de sesión para reintentar. Si se rechaza la operación, será redirigido a la vista inicial de bienvenida.
@@ -2778,7 +2853,8 @@ El técnico supervisor debe ingresar a la aplicación móvil y completar el form
 
 ---
 
-### User Goal: Ver y editar perfil de usuario  
+### User Goal: Ver y editar perfil de usuario
+
 **User persona:** Administrador y Técnicos supervisores  
 **Explicación del flujo:**  
 El usuario debe presionar el botón “Perfil” ubicado en el toolbar inferior. Desde allí, podrá modificar su información personal y acceder a la opción "Reset your password", la cual lo llevará a una vista donde podrá cambiar su contraseña.
@@ -2787,7 +2863,8 @@ El usuario debe presionar el botón “Perfil” ubicado en el toolbar inferior.
 
 ---
 
-### User Goal: Filtrar cultivos por fecha  
+### User Goal: Filtrar cultivos por fecha
+
 **User persona:** Administrador y Técnicos supervisores  
 **Explicación del flujo:**  
 Dado que el usuario se encuentre en la vista de cultivos en progreso o de registros de información, luego de que oprima sobre el botón de filtrado situado en la parte superior derecha de la pantalla, se mostrará un dialog con un calendario. En este último, el usuario podrá filtrar la información presentada según su fecha.
@@ -2796,7 +2873,8 @@ Dado que el usuario se encuentre en la vista de cultivos en progreso o de regist
 
 ---
 
-### User Goal: Cambiar contraseña  
+### User Goal: Cambiar contraseña
+
 **User persona:** Administrador y Técnicos supervisores  
 **Explicación del flujo:**  
 Cuando el usuario ingrese a su perfil, desde el toolbar situado en la parte inferior de la pantalla, y oprima sobre el botón “Forgot your password?”, será redirigido a una vista desde la cual podrá llenar un formulario que le solicita ingresar la nueva contraseña y confirmar su decisión de cambio. En caso de que la acepte, será redirigido a la vista anterior. Caso contrario, sucederá lo mismo pero la operación solicitada no será procesada por el sistema.
@@ -2805,7 +2883,8 @@ Cuando el usuario ingrese a su perfil, desde el toolbar situado en la parte infe
 
 ---
 
-### User Goal: Registrar información  
+### User Goal: Registrar información
+
 **User persona:** Técnico Supervisor  
 **Explicación del flujo:**  
 El técnico supervisor es el encargado de registrar información de las actividades realizadas y del estado de los cultivos por medio de la aplicación Greenhouse. Para cumplir este objetivo, el técnico debe de acceder a la sección de cultivos en progreso, para luego dirigirse al stepper, elegir una fase y finalmente oprimir sobre el botón flotante situado en la esquina inferior derecha para agregar un registro. En caso de que desee eliminar información, bien sea un cultivo entero, o un registro en particular, deberá de deslizar hacia la izquierda u oprimir sobre el botón indicado. Esto abrirá una solicitud que será enviada a los administradores para su posterior confirmación.
@@ -2814,7 +2893,8 @@ El técnico supervisor es el encargado de registrar información de las activida
 
 ---
 
-### User Goal: Ver registros archivados  
+### User Goal: Ver registros archivados
+
 **User persona:** Técnico supervisor  
 **Explicación del flujo:**  
 En primer lugar, el técnico supervisor debe de acceder a la sección de “Crops Archive”, la cual está disponible desde la vista principal “Home”. Dentro de crops archive, el usuario deberá elegir alguno de los cultivos archivados, y tras oprimirlo, será redirigido al stepper. Dentro del stepper podrá visualizar la fecha de inicio y fin del cultivo, y las diversas fases que atravesó. Al elegir una fase en concreto, podrá visualizar todos los registros realizados en dicha etapa.
@@ -2823,7 +2903,8 @@ En primer lugar, el técnico supervisor debe de acceder a la sección de “Crop
 
 ---
 
-### User Goal: Atender solicitudes de eliminación o edición  
+### User Goal: Atender solicitudes de eliminación o edición
+
 **User persona:** Administrador  
 **Explicación del flujo:**  
 El administrador es el encargado de la verificación de la información ingresada a la aplicación Greenhouse. Para cumplir este objetivo el administrador realiza el siguiente flujo, el cual representa el proceso de atender las solicitudes de edición o eliminación generadas por los técnicos supervisores.
@@ -2832,6 +2913,7 @@ El administrador es el encargado de la verificación de la información ingresad
 <h2 id='5.5.'>5.5. Applications Prototyping</h2>
 
 Para poder elaborar los prototipos de la interfaz de usuario destinados a Web Browser y Mobile, se siguieron una serie de criterios fundamentales, entre ellos:
+
 1. Claridad y Facilidad: El enfoque fue lograr que la navegación en la aplicación sea intuitiva y comprensible, con el objetivo de que los usuarios puedan comprender plenamente las funciones de la aplicación, como son el registro de procesos y la visualización de reportes estadísticos.
 2. Diseño Responsive: Se ha tenido en cuenta la importancia del diseño "responsive" para garantizar que la aplicación sea compatible con una variedad de tamaños de pantalla, de tal manera que los usuarios no se vean limitados por el dispositivo que utilicen.
 3. Priorización de Información Relevante: El diseño de la aplicación se enfoca en mostrar únicamente la información más importante para los usuarios pertenecientes al segmento objetivo.
@@ -2876,48 +2958,48 @@ Enlace para acceder al repositorio del [Server Side App](https://github.com/Gree
 
 **Product UX/UI Design**
 
-1. Figma: Plataforma de elaboración de prototipos y edición gráfica, principalmente utilizado para el diseño digital. En el caso del proyecto, será utilizado para el prototipado de la aplicación y sus versiones de Desktop y Mobile Web Browser. Ruta de referencia [https://www.figma.com/login](https://www.figma.com/login)  
+1. Figma: Plataforma de elaboración de prototipos y edición gráfica, principalmente utilizado para el diseño digital. En el caso del proyecto, será utilizado para el prototipado de la aplicación y sus versiones de Desktop y Mobile Web Browser. Ruta de referencia [https://www.figma.com/login](https://www.figma.com/login)
 2. Lucidchart: Aplicación para diagramar flujos. Empleado para el diseño de wireflows, user-flows y el diagrama de clases asociado a la aplicación. Ruta de referencia [https://www.lucidchart.com/](https://www.lucidchart.com/)
 
 **Software Testing**
 
-1. Gherkin: Es un sistema de etiquetado utilizado para describir los criterios de aceptación de estructura de una user story. Ruta de referencia [https://cucumber.io/docs/gherkin/](https://cucumber.io/docs/gherkin/)   
-2. K6: Es una herramienta de código abierto diseñada para realizar pruebas de carga y pruebas de estrés en aplicaciones web modernas. Ruta de referencial: [https://k6.io/](https://k6.io/)   
-3. Jest: Es un framework de pruebas de JavaScript mantenido por Facebook. Se utiliza principalmente para pruebas unitarias de código JavaScript y React. Ruta de referencial: [https://jestjs.io/](https://jestjs.io/) 
+1. Gherkin: Es un sistema de etiquetado utilizado para describir los criterios de aceptación de estructura de una user story. Ruta de referencia [https://cucumber.io/docs/gherkin/](https://cucumber.io/docs/gherkin/)
+2. K6: Es una herramienta de código abierto diseñada para realizar pruebas de carga y pruebas de estrés en aplicaciones web modernas. Ruta de referencial: [https://k6.io/](https://k6.io/)
+3. Jest: Es un framework de pruebas de JavaScript mantenido por Facebook. Se utiliza principalmente para pruebas unitarias de código JavaScript y React. Ruta de referencial: [https://jestjs.io/](https://jestjs.io/)
 
 **Software Development**
 
-1. Visual Studio Code: Entorno de desarrollo integrado elegido para la elaboración y compilación del código por motivos de dominio por parte de los integrantes del equipo de trabajo. Utilizar este IDE supone de valor para el desarrollo del proyecto puesto que incluye la posibilidad de agregar extensiones de utilidad, soporte de edición de texto en múltiples lenguajes de programación, disponibilidad en múltiples sistemas operativos, entre otros beneficios. Ruta de referencia [https://code.visualstudio.com/](https://code.visualstudio.com/)   
-2. HTML5: HyperText Markup Language, o por sus siglas HTML, es un lenguaje de etiquetado para páginas web. Será empleado en el desarrollo del proyecto para la presentación del contenido en la aplicación. Ruta de referencia [https://www.w3schools.com/html/html5\_syntax.asp](https://www.w3schools.com/html/html5_syntax.asp)   
-3. CSS: Cascading Style Sheets es un lenguaje que maneja el diseño y presentación de las páginas web, el cual va de la mano con HTML. Ruta de referencia [https://google.github.io/styleguide/htmlcssguide.html](https://google.github.io/styleguide/htmlcssguide.html)   
-4. JavaScript: Es un lenguaje de programación interpretado y orientado a objetos. Se utilizará para elaborar la interfaz de usuario dentro de la aplicación. Ruta de referencia [https://developer.mozilla.org/es/docs/Web/JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)  
-5. React: Es una biblioteca de JavaScript de código abierto utilizada para construir interfaces de usuario (UI) interactivas y dinámicas para aplicaciones web. Ruta de referencia [https://es.react.dev/](https://es.react.dev/)   
-6. NestJS: Marco de trabajo para construir aplicaciones de servidor escalables y eficientes en Node.js. Provee una arquitectura modular que permite a los desarrolladores organizar su código de manera clara y mantenible, facilitando la construcción de aplicaciones complejas. Ruta de referencia [https://nestjs.com/](https://nestjs.com/)   
-7. PM2:  Es un administrador de procesos para aplicaciones Node.js que facilita la administración de aplicaciones en producción. PM2 permite gestionar, monitorear y mantener aplicaciones Node.js, garantizando un alto nivel de disponibilidad y rendimiento. Fuente de referencia: [https://pm2.keymetrics.io/](https://pm2.keymetrics.io/)   
-8. PostgreSQL: Es un sistema de gestión de bases de datos relacionales y de código abierto. Es conocido por su robustez, capacidad para manejar grandes volúmenes de datos y su soporte para características avanzadas como transacciones ACID y replicación. Ruta de referencia: [https://www.postgresql.org/](https://www.postgresql.org/)   
-9. Docker: Es una plataforma de software que permite la creación, el despliegue y la ejecución de aplicaciones en contenedores. Los contenedores permiten empaquetar una aplicación junto con todas sus dependencias en una unidad estándar, que la aplicación se ejecute rápidamente y de forma fiable en diferentes entornos. Ruta de referencia: [https://www.docker.com/](https://www.docker.com/)   
-10. Flutter: Framework open source de desarrollo de aplicaciones multiplataforma desde una única base de código. Resulta de utilidad para elaborar aplicaciones compatibles con Android e iOS. Ruta de referencia: [https://flutter.dev/](https://flutter.dev/)   
-11. Active MQ: ActiveMQ es un agente de mensajes de código abierto que implementa el protocolo Java Message Service (JMS). Es utilizado para la comunicación asíncrona entre aplicaciones distribuidas, facilitando la transmisión de mensajes entre clientes y servidores o entre sistemas dispares. Será empleado en el proyecto para gestionar la mensajería en tiempo real, permitiendo la publicación y suscripción a tópicos. Ruta de referencia: [https://activemq.apache.org/](https://activemq.apache.org/)  
-12. YOLO (You Only Look Once): YOLO es un modelo de aprendizaje profundo para la detección de objetos en tiempo real. Es conocido por su rapidez y precisión, lo que lo hace ideal para tareas de visión por computadora que requieren identificar y localizar objetos en imágenes. En este proyecto, YOLO será utilizado para analizar imágenes y determinar características específicas de cultivos o productos. Ruta de referencia: [https://github.com/ultralytics/yolov5](https://github.com/ultralytics/yolov5)  
+1. Visual Studio Code: Entorno de desarrollo integrado elegido para la elaboración y compilación del código por motivos de dominio por parte de los integrantes del equipo de trabajo. Utilizar este IDE supone de valor para el desarrollo del proyecto puesto que incluye la posibilidad de agregar extensiones de utilidad, soporte de edición de texto en múltiples lenguajes de programación, disponibilidad en múltiples sistemas operativos, entre otros beneficios. Ruta de referencia [https://code.visualstudio.com/](https://code.visualstudio.com/)
+2. HTML5: HyperText Markup Language, o por sus siglas HTML, es un lenguaje de etiquetado para páginas web. Será empleado en el desarrollo del proyecto para la presentación del contenido en la aplicación. Ruta de referencia [https://www.w3schools.com/html/html5_syntax.asp](https://www.w3schools.com/html/html5_syntax.asp)
+3. CSS: Cascading Style Sheets es un lenguaje que maneja el diseño y presentación de las páginas web, el cual va de la mano con HTML. Ruta de referencia [https://google.github.io/styleguide/htmlcssguide.html](https://google.github.io/styleguide/htmlcssguide.html)
+4. JavaScript: Es un lenguaje de programación interpretado y orientado a objetos. Se utilizará para elaborar la interfaz de usuario dentro de la aplicación. Ruta de referencia [https://developer.mozilla.org/es/docs/Web/JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
+5. React: Es una biblioteca de JavaScript de código abierto utilizada para construir interfaces de usuario (UI) interactivas y dinámicas para aplicaciones web. Ruta de referencia [https://es.react.dev/](https://es.react.dev/)
+6. NestJS: Marco de trabajo para construir aplicaciones de servidor escalables y eficientes en Node.js. Provee una arquitectura modular que permite a los desarrolladores organizar su código de manera clara y mantenible, facilitando la construcción de aplicaciones complejas. Ruta de referencia [https://nestjs.com/](https://nestjs.com/)
+7. PM2: Es un administrador de procesos para aplicaciones Node.js que facilita la administración de aplicaciones en producción. PM2 permite gestionar, monitorear y mantener aplicaciones Node.js, garantizando un alto nivel de disponibilidad y rendimiento. Fuente de referencia: [https://pm2.keymetrics.io/](https://pm2.keymetrics.io/)
+8. PostgreSQL: Es un sistema de gestión de bases de datos relacionales y de código abierto. Es conocido por su robustez, capacidad para manejar grandes volúmenes de datos y su soporte para características avanzadas como transacciones ACID y replicación. Ruta de referencia: [https://www.postgresql.org/](https://www.postgresql.org/)
+9. Docker: Es una plataforma de software que permite la creación, el despliegue y la ejecución de aplicaciones en contenedores. Los contenedores permiten empaquetar una aplicación junto con todas sus dependencias en una unidad estándar, que la aplicación se ejecute rápidamente y de forma fiable en diferentes entornos. Ruta de referencia: [https://www.docker.com/](https://www.docker.com/)
+10. Flutter: Framework open source de desarrollo de aplicaciones multiplataforma desde una única base de código. Resulta de utilidad para elaborar aplicaciones compatibles con Android e iOS. Ruta de referencia: [https://flutter.dev/](https://flutter.dev/)
+11. Active MQ: ActiveMQ es un agente de mensajes de código abierto que implementa el protocolo Java Message Service (JMS). Es utilizado para la comunicación asíncrona entre aplicaciones distribuidas, facilitando la transmisión de mensajes entre clientes y servidores o entre sistemas dispares. Será empleado en el proyecto para gestionar la mensajería en tiempo real, permitiendo la publicación y suscripción a tópicos. Ruta de referencia: [https://activemq.apache.org/](https://activemq.apache.org/)
+12. YOLO (You Only Look Once): YOLO es un modelo de aprendizaje profundo para la detección de objetos en tiempo real. Es conocido por su rapidez y precisión, lo que lo hace ideal para tareas de visión por computadora que requieren identificar y localizar objetos en imágenes. En este proyecto, YOLO será utilizado para analizar imágenes y determinar características específicas de cultivos o productos. Ruta de referencia: [https://github.com/ultralytics/yolov5](https://github.com/ultralytics/yolov5)
 13. Firebase Storage: Firebase Storage es un servicio de almacenamiento de archivos proporcionado por Firebase, ideal para almacenar y servir contenido generado por el usuario como imágenes, videos o documentos. En este proyecto, se usará para gestionar de manera segura los archivos subidos por los usuarios desde las aplicaciones. Ruta de referencia: [https://firebase.google.com/products/storage](https://firebase.google.com/products/storage)
-14. Arduino IDE: Entorno de desarrollo utilizado para programar placas compatibles con Arduino, como el ESP32. Este IDE permite la escritura, compilación y carga de código en los microcontroladores mediante un entorno sencillo y especializado, facilitando la depuración y prueba de sensores y actuadores en proyectos embebidos. Ruta de referencia: [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software) 
+14. Arduino IDE: Entorno de desarrollo utilizado para programar placas compatibles con Arduino, como el ESP32. Este IDE permite la escritura, compilación y carga de código en los microcontroladores mediante un entorno sencillo y especializado, facilitando la depuración y prueba de sensores y actuadores en proyectos embebidos. Ruta de referencia: [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software)
 
 **Software Deployment**
 
-1. Azure: Plataforma de computación en la nube para construir, probar, desplegar y administrar aplicaciones y servicios mediante el uso de sus centros de datos. Ruta de referencia [https://azure.microsoft.com/es-es/resources/cloud-computing-dictionary/what-is-azure](https://azure.microsoft.com/es-es/resources/cloud-computing-dictionary/what-is-azure)   
-2. Amazon Web Services: Plataforma de servicios de computación en la nube que ofrece una amplia gama de servicios para construir, desplegar y escalar aplicaciones. Incluye infraestructura como servicio (IaaS), plataforma como servicio (PaaS) y software como servicio (SaaS). Ruta de referencia: [https://aws.amazon.com/es/](https://aws.amazon.com/es/)  
-3. Netlify: Plataforma de alojamiento y despliegue de sitios web y aplicaciones web estáticas. Ofrece una variedad de servicios para desarrolladores web que facilitan la creación, el despliegue y la gestión de sitios estáticos. Ruta de referencia [https://www.netlify.com/](https://www.netlify.com/)   
-4. Nginx: Es un servidor web ligero de rendimiento alto y proxy inverso. Además de su principal servidor como web, Nginx también puede utilizarse como balanceador de carga, proxy HTTP, servidor de correo electrónico IMAP/POP3, y más. Es conocido por su capacidad para manejar grandes cargas de tráfico de manera eficiente. Ruta de referencial: [https://nginx.org/](https://nginx.org/)   
-5. Docker-compose: Es una herramienta que permite definir y gestionar múltiples contenedores Docker como una aplicación. Utiliza un archivo YAML para configurar los servicios de la aplicación y su entorno de red, lo que simplifica el despliegue y la gestión de las aplicaciones complejas en contenedores en Docker. Ruta de referencial: [https://docs.docker.com/compose/](https://docs.docker.com/compose/)   
-6. Bash: Abreviatura de "Bourne Again Shell", es un intérprete de comandos ampliamente utilizado en sistemas operativos Unix y Unix-like, como Linux. Funciona como una interfaz de línea de comandos (CLI) que permite a los usuarios interactuar con el sistema operativo mediante comandos textuales. Además de ejecutar comandos individuales, Bash es ideal para escribir scripts (archivos de comandos) que automatizan tareas repetitivas o complejas. Ruta de referencial: [https://www.gnu.org/software/bash/](https://www.gnu.org/software/bash/)   
-7. Github Actions: Es un servicio de integración continua y entrega continua (CI/CD) ofrecido por GitHub. Permite automatizar tareas de desarrollo como pruebas, compilación y despliegue de código directamente desde repositorios GitHub. Ruta de referencia: [https://docs.github.com/en/actions](https://docs.github.com/en/actions)   
-8. Amazon MQ: Amazon MQ es un servicio de agente de mensajes administrado que facilita la configuración y operación de agentes de mensajes populares como ActiveMQ o RabbitMQ. Es útil para aplicaciones que requieren mensajería confiable en sistemas distribuidos, lo que asegura la entrega de mensajes incluso en caso de fallos del sistema. Ruta de referencia: [https://aws.amazon.com/amazon-mq/](https://aws.amazon.com/amazon-mq/)  
-9. Route 53: Amazon Route 53 es un servicio de sistema de nombres de dominio (DNS) escalable y de alta disponibilidad diseñado para dirigir a los usuarios finales a aplicaciones de internet de manera confiable. Proporciona registro de dominios, enrutamiento de tráfico, y supervisión de salud. Será empleado en el proyecto para gestionar los nombres de dominio y garantizar un enrutamiento óptimo del tráfico. Ruta de referencia: [https://aws.amazon.com/route53/](https://aws.amazon.com/route53/)  
+1. Azure: Plataforma de computación en la nube para construir, probar, desplegar y administrar aplicaciones y servicios mediante el uso de sus centros de datos. Ruta de referencia [https://azure.microsoft.com/es-es/resources/cloud-computing-dictionary/what-is-azure](https://azure.microsoft.com/es-es/resources/cloud-computing-dictionary/what-is-azure)
+2. Amazon Web Services: Plataforma de servicios de computación en la nube que ofrece una amplia gama de servicios para construir, desplegar y escalar aplicaciones. Incluye infraestructura como servicio (IaaS), plataforma como servicio (PaaS) y software como servicio (SaaS). Ruta de referencia: [https://aws.amazon.com/es/](https://aws.amazon.com/es/)
+3. Netlify: Plataforma de alojamiento y despliegue de sitios web y aplicaciones web estáticas. Ofrece una variedad de servicios para desarrolladores web que facilitan la creación, el despliegue y la gestión de sitios estáticos. Ruta de referencia [https://www.netlify.com/](https://www.netlify.com/)
+4. Nginx: Es un servidor web ligero de rendimiento alto y proxy inverso. Además de su principal servidor como web, Nginx también puede utilizarse como balanceador de carga, proxy HTTP, servidor de correo electrónico IMAP/POP3, y más. Es conocido por su capacidad para manejar grandes cargas de tráfico de manera eficiente. Ruta de referencial: [https://nginx.org/](https://nginx.org/)
+5. Docker-compose: Es una herramienta que permite definir y gestionar múltiples contenedores Docker como una aplicación. Utiliza un archivo YAML para configurar los servicios de la aplicación y su entorno de red, lo que simplifica el despliegue y la gestión de las aplicaciones complejas en contenedores en Docker. Ruta de referencial: [https://docs.docker.com/compose/](https://docs.docker.com/compose/)
+6. Bash: Abreviatura de "Bourne Again Shell", es un intérprete de comandos ampliamente utilizado en sistemas operativos Unix y Unix-like, como Linux. Funciona como una interfaz de línea de comandos (CLI) que permite a los usuarios interactuar con el sistema operativo mediante comandos textuales. Además de ejecutar comandos individuales, Bash es ideal para escribir scripts (archivos de comandos) que automatizan tareas repetitivas o complejas. Ruta de referencial: [https://www.gnu.org/software/bash/](https://www.gnu.org/software/bash/)
+7. Github Actions: Es un servicio de integración continua y entrega continua (CI/CD) ofrecido por GitHub. Permite automatizar tareas de desarrollo como pruebas, compilación y despliegue de código directamente desde repositorios GitHub. Ruta de referencia: [https://docs.github.com/en/actions](https://docs.github.com/en/actions)
+8. Amazon MQ: Amazon MQ es un servicio de agente de mensajes administrado que facilita la configuración y operación de agentes de mensajes populares como ActiveMQ o RabbitMQ. Es útil para aplicaciones que requieren mensajería confiable en sistemas distribuidos, lo que asegura la entrega de mensajes incluso en caso de fallos del sistema. Ruta de referencia: [https://aws.amazon.com/amazon-mq/](https://aws.amazon.com/amazon-mq/)
+9. Route 53: Amazon Route 53 es un servicio de sistema de nombres de dominio (DNS) escalable y de alta disponibilidad diseñado para dirigir a los usuarios finales a aplicaciones de internet de manera confiable. Proporciona registro de dominios, enrutamiento de tráfico, y supervisión de salud. Será empleado en el proyecto para gestionar los nombres de dominio y garantizar un enrutamiento óptimo del tráfico. Ruta de referencia: [https://aws.amazon.com/route53/](https://aws.amazon.com/route53/)
 10. Resed: Resend es una plataforma de envío de correos electrónicos transaccionales en la nube. Permite enviar correos electrónicos de manera rápida y escalable, ideal para aplicaciones que necesitan gestionar comunicaciones como notificaciones, verificaciones o mensajes automatizados. Será útil para enviar correos electrónicos en el proyecto, como alertas o confirmaciones a los usuarios de la aplicación. Ruta de referencia: [https://resend.com](https://resend.com)
 
 **Software Documentation and Project Management**
 
-1. Git: Herramienta de control de versiones que permite registrar y gestionar las diferentes versiones del programa. Se utilizará para mantener un historial de cambios y simplificar la corrección de errores. Los miembros del equipo accederán a través de la línea de comandos en sus sistemas locales. Ruta de referencia [https://git-scm.com/](https://git-scm.com/)   
+1. Git: Herramienta de control de versiones que permite registrar y gestionar las diferentes versiones del programa. Se utilizará para mantener un historial de cambios y simplificar la corrección de errores. Los miembros del equipo accederán a través de la línea de comandos en sus sistemas locales. Ruta de referencia [https://git-scm.com/](https://git-scm.com/)
 2. Github: Plataforma basada en la nube que alojará los repositorios de código del proyecto. Facilitará la colaboración en tiempo real y la revisión de contribuciones de cada miembro del equipo. Los miembros del equipo accederán a través de sus navegadores web. Ruta de referencia [https://github.com/](https://github.com/)
 
 <h3 id='6.1.2.'>6.1.2. Source Code Management.</h3>
@@ -2947,21 +3029,20 @@ El proyecto seguirá las convenciones de flujo de trabajo establecidas por el mo
 
 git commit \-m "\<type\>\[optional scope\]:\<title\>" \-m"\<description"\>
 
-
 <h3 id='6.1.3.'>6.1.3. Source Code Style Guide & Conventions.</h3>
 
 **HTML:** Algunas de las prácticas que deben de seguirse para alcanzar un código coherente, sostenible y ordenado son las siguientes:
 
-1. Cerrar todos los elementos HTML: Por ejemplo, \<p\>Esto es un párrafo.\</p\>  
-2. A pesar de que HTML permite combinar mayúsculas y minúsculas en los nombres de los elementos y atributos, se limitará al uso de minúsculas para mantener el orden y garantizar la legibilidad.  
-3. Utilizar comillas en caso de que los atributos contengan espacios entre sí.  
+1. Cerrar todos los elementos HTML: Por ejemplo, \<p\>Esto es un párrafo.\</p\>
+2. A pesar de que HTML permite combinar mayúsculas y minúsculas en los nombres de los elementos y atributos, se limitará al uso de minúsculas para mantener el orden y garantizar la legibilidad.
+3. Utilizar comillas en caso de que los atributos contengan espacios entre sí.
 4. Procurar especificar el texto alt y las dimensiones width y height de las imágenes, ya que de esta manera se facilitará la disponibilidad del contenido. Por ejemplo: \<img src="abc.img" alt="image name" style="width:128px;height:128px"\>
 
 **CSS:** Entre las prácticas empleadas se mencionan:
 
-1. Los nombres de las clases deben de ser breves y auto descriptivos.  
-2. Separar los nombres de las clases y ID con un guión, por ejemplo: \#video-id y .hero-shadow{}  
-3. Evitar especificar la unidad de medida luego de usar el valor 0\.  
+1. Los nombres de las clases deben de ser breves y auto descriptivos.
+2. Separar los nombres de las clases y ID con un guión, por ejemplo: \#video-id y .hero-shadow{}
+3. Evitar especificar la unidad de medida luego de usar el valor 0\.
 4. Separar las declaraciones y selectores en nuevas líneas para agilizar la legibilidad.
 
 **Gherkin:** Es un lenguaje de dominio específico, el cual busca solucionar un problema concreto, la comunicación entre los negocios y la parte técnica al trabajar con Behavior Driven Development, abreviado por sus siglas en inglés como BBD. En busca de una buena práctica, se ocuparon los saltos de línea para mejorar el orden de los diversos tipos de escenarios y diferenciarlos de forma más óptima. Adicionalmente, se utilizaron las palabras clave "Given", "When", "Then" y "And" para estructurar los escenarios.
@@ -2981,7 +3062,7 @@ Para Mobile App se realizó se realizará el despliegue para Android de la sigui
 
 En la carpeta del proyecto se ingresa al terminal y se tiene que ejecutar el comando:
 
-- flutter build apk \--release  
+- flutter build apk \--release
 
 En el cual se genera el archivo resultante en:
 
@@ -2993,7 +3074,6 @@ Se utiliza una instancia de Amazon EC2 free tier con Amazon Linux 2023\. En ella
 
 <img src='assets/images/chapter_6/software_deployment_configuration/vm_connection.png' alt='AWS VM Connection' />
 
-
 El Dockerfile es el siguiente:
 
 \# Use the Alpine base image
@@ -3004,7 +3084,7 @@ FROM alpine:latest
 
 RUN apk update && \\
 
-	apk add \--no-cache git nodejs npm docker docker-compose
+    apk add \--no-cache git nodejs npm docker docker-compose
 
 \# Initialize Git repository
 
@@ -3032,7 +3112,7 @@ RUN cp .env.example .env
 
 \#Update the .env file with resend api
 
-RUN sed \-i 's/RESEND\_API\_KEY=.\*/RESEND\_API\_KEY=***ColocarAcáElApiKey***/' .env
+RUN sed \-i 's/RESEND*API_KEY=.\*/RESEND_API_KEY=\*\*\_ColocarAcáElApiKey*\*\*/' .env
 
 \# Install PM2 globally
 
@@ -3042,15 +3122,15 @@ RUN npm install pm2 \-g
 
 RUN npm run build api-gateway && \\
 
-	npm run build iam && \\
+    npm run build iam && \\
 
-	npm run build personas && \\
+    npm run build personas && \\
 
-	npm run build crops && \\
+    npm run build crops && \\
 
     	npm run build mailing && \\
 
-	npm run build memberships
+    npm run build memberships
 
 \# Expose the ports
 
@@ -3064,123 +3144,123 @@ Básicamente se levanta todo el proyecto en una imagen de docker de alpine. Cabe
 
 module.exports \= {
 
-  apps: \[
+apps: \[
 
-	{
+    {
 
-  	name: "api-gateway",
+name: "api-gateway",
 
-  	script: "dist/apps/api-gateway/src/main.js",
+script: "dist/apps/api-gateway/src/main.js",
 
-  	instances: 1,
+instances: 1,
 
-  	autorestart: true,
+autorestart: true,
 
-  	watch: false,
+watch: false,
 
-  	max\_memory\_restart: '1G',
+max_memory_restart: '1G',
 
-  	env: {
+env: {
 
     	NODE\_ENV: 'production',
 
     	PORT: 3000
 
-  	}
+}
 
-	},
+    },
 
-	{
+    {
 
-  	name: "api-gateway-2",
+name: "api-gateway-2",
 
-  	script: "dist/apps/api-gateway/src/main.js",
+script: "dist/apps/api-gateway/src/main.js",
 
-  	instances: 1,
+instances: 1,
 
-  	autorestart: true,
+autorestart: true,
 
-  	watch: false,
+watch: false,
 
-  	max\_memory\_restart: '1G',
+max_memory_restart: '1G',
 
-  	env: {
+env: {
 
     	NODE\_ENV: 'production',
 
     	PORT: 3010
 
-  	}
+}
 
-	},
+    },
 
-	{
+    {
 
-  	name: "iam",
+name: "iam",
 
-  	script: "dist/apps/iam/src/main.js",
+script: "dist/apps/iam/src/main.js",
 
-  	instances: 1,
+instances: 1,
 
-  	autorestart: true,
+autorestart: true,
 
-  	watch: false,
+watch: false,
 
-  	max\_memory\_restart: '1G',
+max_memory_restart: '1G',
 
-  	env: {
-
-    	NODE\_ENV: 'production'
-
-  	}
-
-	},
-
-	{
-
-  	name: "personas",
-
-  	script: "dist/apps/personas/src/main.js",
-
-  	instances: 1,
-
-  	autorestart: true,
-
-  	watch: false,
-
-  	max\_memory\_restart: '1G',
-
-  	env: {
+env: {
 
     	NODE\_ENV: 'production'
 
-  	}
+}
 
-	},
+    },
 
-	{
+    {
 
-  	name: "crops",
+name: "personas",
 
-  	script: "dist/apps/crops/src/main.js",
+script: "dist/apps/personas/src/main.js",
 
-  	instances: 1,
+instances: 1,
 
-  	autorestart: true,
+autorestart: true,
 
-  	watch: false,
+watch: false,
 
-  	max\_memory\_restart: '1G',
+max_memory_restart: '1G',
 
-  	env: {
+env: {
 
     	NODE\_ENV: 'production'
 
-  	}
+}
 
-	}
+    },
 
-  \]
+    {
+
+name: "crops",
+
+script: "dist/apps/crops/src/main.js",
+
+instances: 1,
+
+autorestart: true,
+
+watch: false,
+
+max_memory_restart: '1G',
+
+env: {
+
+    	NODE\_ENV: 'production'
+
+}
+
+    }
+
+\]
 
 };
 
@@ -3192,161 +3272,159 @@ version: "3.9"
 
 services:
 
-  pg-iam:
+pg-iam:
 
-	image: postgres
+    image: postgres
 
-	restart: always
+    restart: always
 
-	environment:
+    environment:
 
-  	POSTGRES\_PASSWORD: pass123
+POSTGRES_PASSWORD: pass123
 
-	networks:
+    networks:
 
-  	custom\_network:
+custom_network:
 
     	ipv4\_address: 172.16.238.10
 
-  pg-personas:
+pg-personas:
 
-	image: postgres
+    image: postgres
 
-	restart: always
+    restart: always
 
-	environment:
+    environment:
 
-  	POSTGRES\_PASSWORD: pass123
+POSTGRES_PASSWORD: pass123
 
-	networks:
+    networks:
 
-  	custom\_network:
+custom_network:
 
     	ipv4\_address: 172.16.238.11
 
-  pg-crops:
+pg-crops:
 
-	image: postgres
+    image: postgres
 
-	restart: always
+    restart: always
 
-	environment:
+    environment:
 
-  	POSTGRES\_PASSWORD: pass123
+POSTGRES_PASSWORD: pass123
 
-	networks:
+    networks:
 
-  	custom\_network:
+custom_network:
 
     	ipv4\_address: 172.16.238.12
 
-  pg-mailing:
+pg-mailing:
 
-	image: postgres
+    image: postgres
 
-	restart: always
+    restart: always
 
-	environment:
+    environment:
 
-  	POSTGRES\_PASSWORD: pass123
+POSTGRES_PASSWORD: pass123
 
-	networks:
+    networks:
 
-  	custom\_network:
+custom_network:
 
     	ipv4\_address: 172.16.238.13
 
-   	 
+pg-memberships:
 
-  pg-memberships:
+    image: postgres
 
-	image: postgres
+    restart: always
 
-	restart: always
+    ports:
 
-	ports:
+\- "5436:5432"
 
-  	\- "5436:5432"
+    environment:
 
-	environment:
+POSTGRES_PASSWORD: pass123
 
-  	POSTGRES\_PASSWORD: pass123
+    networks:
 
-	networks:
-
-  	custom\_network:
+custom_network:
 
     	ipv4\_address: 172.16.238.14
 
-  backend-gh:
+backend-gh:
 
-	image: backend:latest
+    image: backend:latest
 
-	restart: always
+    restart: always
 
-	ports:
+    ports:
 
-  	\- "3000:3000"
+\- "3000:3000"
 
-	depends\_on:
+    depends\_on:
 
-  	\- pg-iam
+\- pg-iam
 
-  	\- pg-personas
+\- pg-personas
 
-  	\- pg-crops
+\- pg-crops
 
-  	\- pg-mailing
+\- pg-mailing
 
-  	\- pg-memberships
+\- pg-memberships
 
-	networks:
+    networks:
 
-  	custom\_network:
+custom_network:
 
     	ipv4\_address: 172.16.238.15
 
-  backend-gh-2:
+backend-gh-2:
 
-	build:
+    build:
 
-  	context: .
+context: .
 
-  	dockerfile: Dockerfile
+dockerfile: Dockerfile
 
-	restart: always
+    restart: always
 
-	ports:
+    ports:
 
-  	\- "3010:3000"
+\- "3010:3000"
 
-	depends\_on:
+    depends\_on:
 
-  	\- pg-iam
+\- pg-iam
 
-  	\- pg-personas
+\- pg-personas
 
-  	\- pg-crops
+\- pg-crops
 
-  	\- pg-mailing
+\- pg-mailing
 
-  	\- pg-memberships
+\- pg-memberships
 
-	networks:
+    networks:
 
-  	custom\_network:
+custom_network:
 
     	ipv4\_address: 172.16.238.16
 
 networks:
 
-  custom\_network:
+custom_network:
 
-	driver: bridge
+    driver: bridge
 
-	ipam:
+    ipam:
 
-  	config:
+config:
 
     	\- subnet: 172.16.238.0/24
 
@@ -3368,23 +3446,23 @@ $ sudo nano /etc/nginx/nginx.conf
 
 En este último se realizaron los cambios en la configuración de Nginx para que se adapte a nuestras necesidades, en este caso tener un upstream con ambos api-gateway de modo que distribuya la carga entre ambos procesos, y en caso se caiga uno siga ejecutándose en el otro. Este es la configuración que se colocó:
 
-upstream api\_gateway\_upstream {
+upstream api_gateway_upstream {
 
     	server 127.31.44.186:3000;
 
     	server 127.31.44.186:3010;
 
-	}
+    }
 
-	server {
+    server {
 
-	listen 80;
+    listen 80;
 
-	listen \[::\]:80;
+    listen \[::\]:80;
 
-	server\_name ec2-18-119-14-190.us-east-2.compute.amazonaws.com;
+    server\_name ec2-18-119-14-190.us-east-2.compute.amazonaws.com;
 
-	location / {
+    location / {
 
     	proxy\_pass http://api\_gateway\_upstream;
 
@@ -3396,7 +3474,7 @@ upstream api\_gateway\_upstream {
 
     	proxy\_set\_header X-Forwarded-Proto $scheme;
 
-	}
+    }
 
 De este modo quedaría corriendo Ngnix como reverse proxy y mostrando desde el puerto 80 nuestro backend. Luego se ejecuta lo siguiente:
 
@@ -3410,11 +3488,9 @@ Para automatizar este proceso de despliegue igualmente se realizaron scripts que
 
   \#\!/bin/bash
 
-
   \# Stop Docker containers
 
   docker-compose stop
-
 
   \# Delete the container (if it exists)
 
@@ -3422,21 +3498,17 @@ Para automatizar este proceso de despliegue igualmente se realizaron scripts que
 
   docker rm \-f ec2-user-backend-gh-2-1
 
-
   \# Delete the existing Docker image (if it exists)
 
   docker rmi \-f backend:latest
-
 
   \# Build the Docker image
 
   docker build \--no-cache \-t backend:latest .
 
-
   \# Start Docker containers
 
   docker-compose up \-d
-
 
 - Github Actions Workflow:
 
@@ -3444,35 +3516,35 @@ name: Deploy on Push
 
 on:
 
-  push:
+push:
 
-	branches:
+    branches:
 
-  	\- feature/deploy  \# Specify your deployment branch here
+\- feature/deploy \# Specify your deployment branch here
 
 jobs:
 
-  deploy:
+deploy:
 
-	runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
-	steps:
+    steps:
 
-	\- name: Checkout code
+    \- name: Checkout code
 
-  	uses: actions/checkout@v2
+uses: actions/checkout@v2
 
-	\- name: Set up SSH
+    \- name: Set up SSH
 
-  	uses: webfactory/ssh-agent@v0.5.3
+uses: webfactory/ssh-agent@v0.5.3
 
-  	with:
+with:
 
     	ssh-private-key: ${{ secrets.SSH\_PRIVATE\_KEY }}
 
-	\- name: Copy SSH key
+    \- name: Copy SSH key
 
-  	run: |
+run: |
 
     	mkdir \-p \~/.ssh
 
@@ -3480,9 +3552,9 @@ jobs:
 
     	chmod 600 \~/.ssh/gh.pem
 
-	\- name: Execute update script on server
+    \- name: Execute update script on server
 
-  	run: |
+run: |
 
     	ssh \-o StrictHostKeyChecking=no \-i \~/.ssh/gh.pem ec2-user@ec2-18-119-14-190.us-east-2.compute.amazonaws.com 'bash \-c "/home/ec2-user/[update.sh](http://update.sh)"'
 
@@ -3616,22 +3688,22 @@ This will be confirmed when visitors can access the landing page, understand the
 
 El objetivo principal del Sprint 2 fue entrenar, probar, conectar e implementar el modelo de inteligencia artificial para poder analizar las imágenes de cultivos de champiñones y de esta manera evaluar la calidad final de los cultivos.
 
-| Sprint \# 1 |  |  |  |  |  |  |  |
-| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-| Technical User Story |  | WorkItem/Task |  |  |  |  |  |
-| ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status |
-| US05 | Acceso a Datos Históricos | TK01 | Realizar vista de datos historicos | Generar seccion donde se van a mostrar todos los datos que hay | 1 | Andres Soto | Done |
-| US08 | Iniciar sesion | TK02 | Realizar vista de inicio de sesion | Generar seccion donde se va a mostrar el inicio de sesion | 1 | Carlo Seminario | Done  |
-|  |  | TK03 | Realizar proceso de autenticacion | Desarrollar proceso de autenticacion | 1 | Andres Soto | Done |
-| US09 | Crear cuenta empresa | TK04 | Creacion de cuenta de la empresa | Desde la web app permitir al usuario generar su cuenta de empresa | 1 | Carlo Seminario | Done |
-| US10 | Crear cuenta tecnico supervisor | TK05 | Creaion de la cuenta del tecnico supervisor | Permitir que solo los administradores puedan crear cuenta de tecnico supervisor para sus empleados | 1 | Alan Galavis | Done |
-| US11 | Iniciar Nuevo Cultivo | TK06 | Realizar funcionalidad de creacion de nuevo cultivo | Permitir que los usuarios tecnicos supervisores creen nuevos cultivos | 1 | Nicolas espinoza | Done |
-| US12 | Editar y Eliminar Cultivos | TK07 | Permitir que se pueda editar o eliminar cultivos | Desde la web app o app movil permitir que los usuarios puedan modificar informacion de los cultivos o eliminarlos. | 1 | Jherson Astuyauri | Done |
-| US13 | Documentar registros durante la preparación, cocción y pasteurización del compost | TK08 | Documentar los registros en las ultimas fases de produccion | Permitir que los usuarios registren informacion en las ultimas fases del desarrollo | 1 | Nicolas Espinoza | Done |
-| US14 | Ver Listado de Cultivos en Progreso | TK09 | Visualizacion de cultivos en progreso | Permitir a los usuarios ver los cultivos que se encuentran en progreso | 1 | Alan Galavis | Done |
-| US15 | Avanzar Etapa de un Cultivo | TK10 | Permitir avanzar de etapa al finalizar el registro de cultivos | Desde la app móvil permitir que el técnico avanzar de etapa postarior al llenado de registros. | 1 | Jherson Astuyauri | Done |
-| US19 | Acceder a la aplicación desde la landing page | TK11 | Conectar landing con web app | Desde la landing page poder ingresar a la web app. | 1 | Alan Galavis | Done |
-| US20 | Descripción de la aplicación | TK12 | Seccion de la descripcion | Desde la landing page visualizar la descipcion de la aplicacion | 1 | Andres Soto | Done |
+| Sprint \# 1          |                                                                                   |               |                                                                |                                                                                                                    |                    |                   |        |
+| -------------------- | --------------------------------------------------------------------------------- | ------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ------------------ | ----------------- | ------ |
+| Technical User Story |                                                                                   | WorkItem/Task |                                                                |                                                                                                                    |                    |                   |        |
+| ID                   | Title                                                                             | ID            | Title                                                          | Description                                                                                                        | Estimation (Hours) | Assigned To       | Status |
+| US05                 | Acceso a Datos Históricos                                                         | TK01          | Realizar vista de datos historicos                             | Generar seccion donde se van a mostrar todos los datos que hay                                                     | 1                  | Andres Soto       | Done   |
+| US08                 | Iniciar sesion                                                                    | TK02          | Realizar vista de inicio de sesion                             | Generar seccion donde se va a mostrar el inicio de sesion                                                          | 1                  | Carlo Seminario   | Done   |
+|                      |                                                                                   | TK03          | Realizar proceso de autenticacion                              | Desarrollar proceso de autenticacion                                                                               | 1                  | Andres Soto       | Done   |
+| US09                 | Crear cuenta empresa                                                              | TK04          | Creacion de cuenta de la empresa                               | Desde la web app permitir al usuario generar su cuenta de empresa                                                  | 1                  | Carlo Seminario   | Done   |
+| US10                 | Crear cuenta tecnico supervisor                                                   | TK05          | Creaion de la cuenta del tecnico supervisor                    | Permitir que solo los administradores puedan crear cuenta de tecnico supervisor para sus empleados                 | 1                  | Alan Galavis      | Done   |
+| US11                 | Iniciar Nuevo Cultivo                                                             | TK06          | Realizar funcionalidad de creacion de nuevo cultivo            | Permitir que los usuarios tecnicos supervisores creen nuevos cultivos                                              | 1                  | Nicolas espinoza  | Done   |
+| US12                 | Editar y Eliminar Cultivos                                                        | TK07          | Permitir que se pueda editar o eliminar cultivos               | Desde la web app o app movil permitir que los usuarios puedan modificar informacion de los cultivos o eliminarlos. | 1                  | Jherson Astuyauri | Done   |
+| US13                 | Documentar registros durante la preparación, cocción y pasteurización del compost | TK08          | Documentar los registros en las ultimas fases de produccion    | Permitir que los usuarios registren informacion en las ultimas fases del desarrollo                                | 1                  | Nicolas Espinoza  | Done   |
+| US14                 | Ver Listado de Cultivos en Progreso                                               | TK09          | Visualizacion de cultivos en progreso                          | Permitir a los usuarios ver los cultivos que se encuentran en progreso                                             | 1                  | Alan Galavis      | Done   |
+| US15                 | Avanzar Etapa de un Cultivo                                                       | TK10          | Permitir avanzar de etapa al finalizar el registro de cultivos | Desde la app móvil permitir que el técnico avanzar de etapa postarior al llenado de registros.                     | 1                  | Jherson Astuyauri | Done   |
+| US19                 | Acceder a la aplicación desde la landing page                                     | TK11          | Conectar landing con web app                                   | Desde la landing page poder ingresar a la web app.                                                                 | 1                  | Alan Galavis      | Done   |
+| US20                 | Descripción de la aplicación                                                      | TK12          | Seccion de la descripcion                                      | Desde la landing page visualizar la descipcion de la aplicacion                                                    | 1                  | Andres Soto       | Done   |
 
 <h4 id='6.2.1.4.'>6.2.1.4. Development Evidence for Sprint Review.</h4>
   
@@ -3674,10 +3746,10 @@ El objetivo principal del Sprint 2 fue entrenar, probar, conectar e implementar 
 
 En la siguiente sección se presentan los cambios en el repositorio de testing de la aplicación durante el desarrollo del presente sprint. En este repositorio se encuentran los archivos Gherkin, los cuales forman parte del enfoque BDD de la aplicación.
 
-| Repository | Branch | Commit ID | Commit Message | Committed on (Date) |
-| :---: | :---: | :---: | :---: | :---: |
-| Greenhouse-IoT/testing | testing | 9cdd357 | docs: added membership .feature file | 10/05/2025 |
-| Greenhouse-IoT/testing | testing | 3163a45  | docs: added notifications .feature file | 10/05/2025 |
+|       Repository       | Branch  | Commit ID |             Commit Message              | Committed on (Date) |
+| :--------------------: | :-----: | :-------: | :-------------------------------------: | :-----------------: |
+| Greenhouse-IoT/testing | testing |  9cdd357  |  docs: added membership .feature file   |     10/05/2025      |
+| Greenhouse-IoT/testing | testing |  3163a45  | docs: added notifications .feature file |     10/05/2025      |
 
 <h4 id='6.2.1.6.'>6.2.1.6. Execution Evidence for Sprint Review.</h4>
 
@@ -3781,7 +3853,282 @@ Landing page deploy on netlify via Github:
 
 <img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/landing_page_1.png' alt='Landing Page' />
 
-Enlace al despliegue de la landing page: [https://landing.integradis.shop/](https://landing.integradis.shop/) 
+Enlace al despliegue de la landing page: [https://landing-greenhouse.netlify.app/](https://landing-greenhouse.netlify.app/)
+
+<h4 id='6.2.1.9.'>6.2.1.9. Team Collaboration Insights during Sprint.</h4>
+
+A continuación se presentan las insights de la colaboración del equipo durante el presente Sprint 1. En este entregable, se finalizó con el desarrollo de la landing page.
+
+**Landing Page**
+
+<img src='assets/images/chapter_6/sprint-1_insights/landing_page_insights.png' alt='Route 53 Desplegado' />
+
+<img src='assets/images/chapter_6/sprint-1_insights/landing_page_networks.png' alt='Route 53 Desplegado' />
+
+| Integrante   | Funcionalidad Asignada                        |
+| ------------ | --------------------------------------------- |
+| Alan Galavis | Desarrollo de la landing page en su totalidad |
+
+**Web-app**
+
+<img src='assets/images/chapter_6/sprint-1_insights/web-app-insights.png' alt='Route 53 Desplegado' />
+
+<img src='assets/images/chapter_6/sprint-1_insights/web-app-network.png' alt='Route 53 Desplegado' />
+
+| Integrante        | Funcionalidad Asignada                                         |
+| ----------------- | -------------------------------------------------------------- |
+| Andres Soto       | Desarrollo de componentes de crop in progress y crop done      |
+| Carlo Seminario   | Desarrollo de vista dashboard                                  |
+| Jherson Astuyauri | Desarrollo de funcionalidad de eliminacion y creacion de crops |
+| Nicolas Espinoza  | Desarrollo de vista crop records                               |
+
+<h2 id='6.2.'>6.2. Landing Page, Services & Applications Implementation.</h2>
+<h3 id='6.2.1.'>6.2.1. Sprint 2.</h3>
+
+<h4 id='6.2.2.1.'>6.2.2.1. Sprint Planning 2.</h4>
+
+<table border="1">
+  <tr>
+    <th>Sprint #</th>
+    <td>2</td>
+  </tr>
+  <tr>
+    <th colspan="2">Sprint Planning Background</th>
+  </tr>
+  <tr>
+    <th>Date</th>
+    <td>2025-06-07</td>
+  </tr>
+  <tr>
+    <th>Time</th>
+    <td>20:00 PM</td>
+  </tr>
+  <tr>
+    <th>Location</th>
+    <td>Reunión virtual mediante la aplicación Discord</td>
+  </tr>
+  <tr>
+    <th>Prepared By</th>
+    <td>Nicolas Espinoza</td>
+  </tr>
+  <tr>
+    <th>Attendees (to planning meeting)</th>
+    <td>Astuyauri, Jherson <br/> Espinoza, Nicolás <br/> Galavis, Alan <br/> Seminario, Carlo <br/> Soto, Andrés</td>
+  </tr>
+  <tr>
+    <th>Sprint 1 Review Summary</th>
+    <td> </td>
+  </tr>
+  <tr>
+    <th>Sprint 1 Retrospective Summary</th>
+    <td> </td>
+  </tr>
+  <tr>
+    <th colspan="2">Sprint Goal & User Stories</th>
+  </tr>
+  <tr>
+    <th>Sprint 2 Goal</th>
+    <td> </td>
+  </tr>
+  <tr>
+    <th>Sprint 2 Velocity</th>
+    <td>Para este sprint, se consideró aceptar como máximo N story points.</td>
+  </tr>
+  <tr>
+    <th>Sum of Story Points</th>
+    <td> N </td>
+  </tr>
+</table>
+
+<h4 id='6.2.2.2.'>6.2.2.2. Aspect Leaders and Collaborators.</h4>
+
+<table border="1">
+  <tr>
+    <th>Team Member (Last Name, First Name)</th>
+    <th>GitHub Username</th>
+    <th>Leader (L) / Collaborator (C)</th>
+    <th>Leader (L) / Collaborator (C)</th>
+    <th>Leader (L) / Collaborator (C)</th>
+    <th>Leader (L) / Collaborator (C)</th>
+    <th>Leader (L) / Collaborator (C)</th>
+  </tr>
+  <tr>
+    <td>Astuyauri Calderon, Jherson David</td>
+    <td>JHS-Sama24</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Espinoza Rodríguez, Nicolás Antonio</td>
+    <td>EspinozaNaer</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+    <tr>
+    <td>Galavis Du Bois, Alan Enrique</td>
+    <td>TrabajosUPC-AlanGalavis</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  </tr>
+    <tr>
+    <td>Seminario Garbín, Carlo Luca</td>
+    <td>CarloLSG</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+  </tr>
+    </tr>
+    <tr>
+    <td>Soto Kong Requena, Andrés Eduardo</td>
+    <td>asotito231</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+</table>
+
+<h4 id='6.2.2.3.'>6.2.2.3. Sprint Backlog 2.</h4>
+
+El objetivo principal del Sprint 2 fue entrenar, probar, conectar e implementar el modelo de inteligencia artificial para poder analizar las imágenes de cultivos de champiñones y de esta manera evaluar la calidad final de los cultivos.
+
+| Sprint \# 2          |       |               |       |             |                    |             |        |
+| -------------------- | ----- | ------------- | ----- | ----------- | ------------------ | ----------- | ------ |
+| Technical User Story |       | WorkItem/Task |       |             |                    |             |        |
+| ID                   | Title | ID            | Title | Description | Estimation (Hours) | Assigned To | Status |
+|                      |       | TK01          |       |             |                    |             |        |
+
+<h4 id='6.2.2.4.'>6.2.2.4. Development Evidence for Sprint Review.</h4>
+  
+| Repository | Branch | Commit ID | Commit Message | Committed on (Date) |
+| ----- | ----- | ----- | ----- | ----- |
+| |  |  | | |
+
+<h4 id='6.2.2.5.'>6.2.2.5. Testing Suite Evidence for Sprint Review.</h4>
+
+En la siguiente sección se presentan los cambios en el repositorio de testing de la aplicación durante el desarrollo del presente sprint. En este repositorio se encuentran los archivos Gherkin, los cuales forman parte del enfoque BDD de la aplicación.
+
+|       Repository       | Branch  | Commit ID | Commit Message | Committed on (Date) |
+| :--------------------: | :-----: | :-------: | :------------: | :-----------------: |
+| Greenhouse-IoT/testing | testing |           |                |                     |
+| Greenhouse-IoT/testing | testing |           |                |                     |
+
+<h4 id='6.2.2.6.'>6.2.2.6. Execution Evidence for Sprint Review.</h4>
+
+En esta sección se presentarán capturas de las request a los distintos endpoints de nuestros microservicios utilizando Postman:
+
+**Auth endpoints:**
+
+El endpoint público POST /api/v1/auth/sign-up permite que los usuarios se registren en la aplicación Greenhouse.
+
+<img src='assets/images/chapter-6/1.png' alt='Git Flow' />
+
+El endpoint público POST /api/v1/auth/sign-in permite que los usuarios inicien sesión. Si las credenciales son válidas, se retorna un token, a través del cual podrá utilizar los endpoints protegidos.
+
+<img src='assets/images/chapter-6/2.png' alt='Git Flow' />
+
+**Profiles endpoints:**
+
+El endpoint GET /api/v1/profiles/users/me permite obtener la información asociada al perfil del usuario autenticado
+
+<img src='assets/images/chapter-6/3.png' alt='Git Flow' />
+
+El endpoint GET /api/v1/profiles/companies/{companyId} permite obtener la información asociada a la empresa a la cual pertenece el usuario autenticado
+
+<img src='assets/images/chapter-6/4.png' alt='Git Flow' />
+
+El endpoint PATCH /api/v1/profiles/{profileId} permite editar los nombres y la foto del perfil seleccionado.
+
+<img src='assets/images/chapter-6/5.png' alt='Git Flow' />
+
+**Companies endpoints:**
+
+El endpoint POST /api/v1/companies permite registrar una empresa y vincularla al usuario autenticado.
+
+<img src='assets/images/chapter-6/6.png' alt='Git Flow' />
+
+El endpoint GET /api/v1/companies permite obtener la empresa a la cual pertenece el usuario autenticado.
+
+<img src='assets/images/chapter-6/7.png' alt='Git Flow' />
+
+**Crops endpoints:**
+
+El endpoint POST /api/v1/crops permite iniciar un nuevo cultivo para una empresa.
+
+<img src='assets/images/chapter-6/8.png' alt='Git Flow' />
+
+El endpoint GET /api/v1/crops/{cropId} permite recuperar un cultivo según su ID.
+
+<img src='assets/images/chapter-6/9.png' alt='Git Flow' />
+
+El endpoint PATCH /api/v1/crops/{cropId} permite actualizar la fase y el estado de un cultivo según su ID.
+
+<img src='assets/images/chapter-6/10.png' alt='Git Flow' />
+
+El endpoint DELETE /api/v1/crops/{cropId} permite eliminar los cultivos en base a su ID.
+
+<img src='assets/images/chapter-6/11.png' alt='Git Flow' />
+
+**Mail endpoints:**
+
+El endpoint POST /api/v1/templates permite crear un template de correo electrónico a partir de un cuerpo en HTML.
+
+<img src='assets/images/chapter-6/12.png' alt='Git Flow' />
+
+El endpoint POST /api/v1/mails permite enviar correos electrónicos a partir de un template seleccionado.
+
+<img src='assets/images/chapter-6/13.png' alt='Git Flow' />
+
+<h4 id='6.2.2.7.'>6.2.2.7. Services Documentation Evidence for Sprint Review.</h4>
+
+A continuación, se presentan los endpoints correspondientes a cada microservicio:
+
+**IAM endpoints:**
+
+<img src='assets/images/chapter-6/14.png' alt='Git Flow' />
+
+**Personas endpoints:**
+
+<img src='assets/images/chapter-6/15.png' alt='Git Flow' />
+
+**Companies endpoints:**
+
+<img src='assets/images/chapter-6/16.png' alt='Git Flow' />
+
+**Mail endpoints:**
+
+<img src='assets/images/chapter-6/17.png' alt='Git Flow' />
+
+**Crops endpoints:**
+
+<img src='assets/images/chapter-6/18.png' alt='Git Flow' />
+
+**Records endpoints:**
+
+<img src='assets/images/chapter-6/19.png' alt='Git Flow' />
+
+<h4 id='6.2.2.8.'>6.2.2.8. Software Deployment Evidence for Sprint Review.</h4>
+
+**Landing Page:**
+
+Landing page deploy on netlify via Github:
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/landing_page_1.png' alt='Landing Page' />
+
+Enlace al despliegue de la landing page: [https://landing-greenhouse.netlify.app/](https://landing-greenhouse.netlify.app/)
 
 **Web App:**
 
@@ -3793,7 +4140,7 @@ Environment variables on netlify:
 
 <img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/web_app_2.png' alt='Web App Envirioment Variables' />
 
-Enlace al despliegue: [https://app-greenhouse.netlify.app](https://app-greenhouse.netlify.app) 
+Enlace al despliegue: [https://app-greenhouse.netlify.app](https://app-greenhouse.netlify.app)
 
 **Backend:**
 
@@ -3809,13 +4156,13 @@ La instancia se encuentra en ejecución:
 
 <img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/backend_3.png' alt='Backend Desplegado Ejecución' />
 
-Enlace al swagger: [https://greenhouse.integradis.shop/api](https://greenhouse.integradis.shop/api) 
+Enlace al swagger: [https://greenhouse.integradis.shop/api](https://greenhouse.integradis.shop/api)
 
 **Mobile App**:
 
 Para el deployment evidence de la mobile app se tiene que ejecutar el comando:
 
-- flutter build apk \--release  
+- flutter build apk \--release
 
 En el cual se genera el archivo resultante en:
 
@@ -3823,7 +4170,7 @@ En el cual se genera el archivo resultante en:
 
 Luego de ello se sube el archivo a Google Drive y se genera un código QR con el enlace del archivo de Google Drive
 
-Se creó un código QR 
+Se creó un código QR
 
 <img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/mobile_app_qr.png' alt='Mobile App QR' />
 
@@ -3849,32 +4196,49 @@ El modelo de computer visión se entrenó desde ultralytics el mismo te brinda u
 
 <img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/route53.png' alt='Route 53 Desplegado' />
 
-<h4 id='6.2.1.9.'>6.2.1.9. Team Collaboration Insights during Sprint.</h4>
+<h4 id='6.2.2.9.'>6.2.2.9. Team Collaboration Insights during Sprint.</h4>
 
-A continuación se presentan las insights de la colaboración del equipo durante el presente Sprint 1. En este entregable, se finalizó con el desarrollo de la landing page.
+A continuación se presentan las insights de la colaboración del equipo durante el presente Sprint 2.
 
 **Landing Page**
 
-<img src='assets/images/chapter_6/sprint-1_insights/landing_page_insights.png' alt='Route 53 Desplegado' />
-
-<img src='assets/images/chapter_6/sprint-1_insights/landing_page_networks.png' alt='Route 53 Desplegado' />
-
-| Integrante | Funcionalidad Asignada |
-| ----- | ----- |
-| Alan Galavis | Desarrollo de la landing page en su totalidad |
+| Integrante        | Funcionalidad Asignada |
+| ----------------- | ---------------------- |
+| Alan Galavis      |                        |
+| Andres Soto       |                        |
+| Carlo Seminario   |                        |
+| Jherson Astuyauri |                        |
+| Nicolas Espinoza  |                        |
 
 **Web-app**
 
-<img src='assets/images/chapter_6/sprint-1_insights/web-app-insights.png' alt='Route 53 Desplegado' />
+| Integrante        | Funcionalidad Asignada |
+| ----------------- | ---------------------- |
+| Alan Galavis      |                        |
+| Andres Soto       |                        |
+| Carlo Seminario   |                        |
+| Jherson Astuyauri |                        |
+| Nicolas Espinoza  |                        |
 
-<img src='assets/images/chapter_6/sprint-1_insights/web-app-network.png' alt='Route 53 Desplegado' />
+**Back end**
 
-| Integrante | Funcionalidad Asignada |
-| ----- | ----- |
-| Andres Soto | Desarrollo de componentes de crop in progress y crop done |
-| Carlo Seminario | Desarrollo de vista dashboard |
-| Jherson Astuyauri  | Desarrollo de funcionalidad de eliminacion y creacion de crops |
-| Nicolas Espinoza  | Desarrollo de vista crop records |
+| Integrante        | Funcionalidad Asignada |
+| ----------------- | ---------------------- |
+| Alan Galavis      |                        |
+| Andres Soto       |                        |
+| Carlo Seminario   |                        |
+| Jherson Astuyauri |                        |
+| Nicolas Espinoza  |                        |
+
+**Mobile-app**
+
+| Integrante        | Funcionalidad Asignada |
+| ----------------- | ---------------------- |
+| Alan Galavis      |                        |
+| Andres Soto       |                        |
+| Carlo Seminario   |                        |
+| Jherson Astuyauri |                        |
+| Nicolas Espinoza  |                        |
 
 <h1 id='conclusiones'>Conclusiones</h1>
 El desarrollo de los problem statements y assumptions demostró aproximarse bastante al comportamiento de nuestros segmentos objetivos de arrendador y arrendatario. Esto se debió a un correcto análisis (previo a la realización de entrevistas) sobre cómo planteamos llevar a cabo el proceso de alquiler de bicicletas y qué es lo que esperan los ciclistas en general en base a nuestros propios conocimientos, experiencia e investigación.
@@ -3887,16 +4251,16 @@ Consideramos fuertemente que las etapas más importantes de todo el proceso/road
 <h1 id='referencias'>Referencias Bibliográficas</h1>
 Cajo Hernandez, J. A., & Rosales Caururu, A. N. (2022). Sistema de control y gestión para los cultivos agrícolas aplicando tecnologías emergentes en el Perú. [Tesis de licenciatura, Universidad Peruana de Ciencias Aplicadas]. Repositorio Académico UPC. https://repositorioacademico.upc.edu.pe/bitstream/handle/10757/660718/Cajo_HJ.pdf?sequence=3
 
-EmpresasRUC (2024). PACCU S A.  https://empresasruc.com/empresa/paccu-s-a---20100873924
+EmpresasRUC (2024). PACCU S A. https://empresasruc.com/empresa/paccu-s-a---20100873924
 
-Tang, Y., & Chen, M. (2022). The impact of agricultural digitization on the high-quality development of agriculture: An empirical test based on provincial panel data. Land, 11(12), 2152. https://www.mdpi.com/2073-445X/11/12/2152 
+Tang, Y., & Chen, M. (2022). The impact of agricultural digitization on the high-quality development of agriculture: An empirical test based on provincial panel data. Land, 11(12), 2152. https://www.mdpi.com/2073-445X/11/12/2152
 
-MacPherson, J., Voglhuber-Slavinsky, A., Olbrisch, M., Schöbel, P., Dönitz, E., Mouratiadou, I., & Helming, K. (2022). Future agricultural systems and the role of digitalization for achieving sustainability goals: A review. Agriculture and Human Values, 39(4), 825-837. https://link.springer.com/article/10.1007/s13593-022-00792-6 
+MacPherson, J., Voglhuber-Slavinsky, A., Olbrisch, M., Schöbel, P., Dönitz, E., Mouratiadou, I., & Helming, K. (2022). Future agricultural systems and the role of digitalization for achieving sustainability goals: A review. Agriculture and Human Values, 39(4), 825-837. https://link.springer.com/article/10.1007/s13593-022-00792-6
 
-Chakraborty, A., Bhattacharjee, A., Ghadge, H. L., Mawley, D., Paulzagde, A., & Jaronde, P. (2024). A Synergistic Integration of IoT, Machine Learning, and Flutter Technology for Precise Crop Management. https://doi.org/10.1007/978-981-97-1329-5_24 
+Chakraborty, A., Bhattacharjee, A., Ghadge, H. L., Mawley, D., Paulzagde, A., & Jaronde, P. (2024). A Synergistic Integration of IoT, Machine Learning, and Flutter Technology for Precise Crop Management. https://doi.org/10.1007/978-981-97-1329-5_24
 
-Kusuma, M., Rifani, A. H., & Sugiantoro, B. (2023). Comparison analysis of Jetpack Compose and Flutter in Android-based application development using Technical Domain. In Eighth International Conference on Informatics and Computing (ICIC) (pp. 1-5). Manado, Indonesia. https://ieeexplore.ieee.org/document/10381987 
+Kusuma, M., Rifani, A. H., & Sugiantoro, B. (2023). Comparison analysis of Jetpack Compose and Flutter in Android-based application development using Technical Domain. In Eighth International Conference on Informatics and Computing (ICIC) (pp. 1-5). Manado, Indonesia. https://ieeexplore.ieee.org/document/10381987
 
-Wangereka, H. (2024). Mastering Kotlin for Android 14: Build powerful Android apps from scratch using Jetpack libraries and Jetpack Compose. Packt Publishing. https://ieeexplore.ieee.org/document/10522576 
+Wangereka, H. (2024). Mastering Kotlin for Android 14: Build powerful Android apps from scratch using Jetpack libraries and Jetpack Compose. Packt Publishing. https://ieeexplore.ieee.org/document/10522576
 
 <h1 id='anexos'>Anexos</h1>
