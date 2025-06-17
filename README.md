@@ -4240,6 +4240,99 @@ A continuación se presentan las insights de la colaboración del equipo durante
 | Jherson Astuyauri |                        |
 | Nicolas Espinoza  |                        |
 
+<h4 id='6.3.3.'>6.3.3. Evaluaciones según heurísticas.</h4>
+
+**SITE O APP A EVALUAR:**
+
+Greenhouse
+
+**TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Registro de un usuario y compañía nueva
+2. Registro de un nuevo cultivo mobile
+3. Registro de récords en un determinado cultivo
+4. Finalización y cambio de fase mobile
+5. Perfil de usuario
+6. Perfil de compañía
+7. Adquisición de membresías
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Notificaciones
+2. Validaciones con membresías
+
+**ESCALA DE SEVERIDAD:**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+|       Nivel       |       Descripcion      |
+| ----------------- | ---------------------- |
+| 1 |            Problema superficial: puede ser fácilmente superado por el usuario. Ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo            |
+| 2 |            Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release            |
+| 3 |            Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.            |
+| 4 |            Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.            |
+
+**TABLA RESUMEN:**
+
+|#|Problema|Escala de severidad|Heurística/Principio violado|
+|1|Imágenes sin atributo alt|3|Inclusive Design: Proporciona experiencias comparables|
+|2|El stepper no se actualiza al retroceder después de cambiar de fase|2|Information Architecture: is it usable?|
+|3|No es posible consultar los beneficios y limitaciones de los planes de membresía|3|Information Architecture: is it usable?|
+|4|No es posible mejorar el nivel de la membresía|3|Usability: Libertad y Control del usuario|
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**PROBLEMA #1:** Imágenes sin atributo alt
+
+**Severidad:** 3
+
+**Heurística violada:** Diseño Inclusivo - Proporciona experiencias comparables
+
+**Problema:**
+Las imágenes que se muestran en la aplicación no cuentan con el atributo alt, lo que significa que no pueden ser distinguidas por personas con incapacidad visual que utilizan herramientas para leer la pantalla. Esto constituye un gran problema de inclusión ya que impide que una gran cantidad de usuarios se guíe por la aplicación.
+
+**Recomendación:**
+Es imperativo utilizar aria labels o atributo alt para las imágenes, figuras y tablas dentro de la aplicación web.
+
+**PROBLEMA #2:** El stepper no se actualiza al retroceder después de cambiar de fase
+
+**Severidad:** 2
+
+**Heurística violada:** Arquitectura de la Información - ¿Es usable?
+
+**Problema:**
+Cuando se cambia la fase del cultivo en la aplicación móvil y luego el usuario retrocede de vista, no se refleja el cambio en el componente stepper de la vista del usuario a pesar de haberse efectuado sin problemas en la aplicación. Es posible que el usuario se encuentre desorientado debido a este problema.
+
+**Recomendación:**
+Actualizar la información del stepper a tiempo real en cada parte del proceso o impedir al usuario retroceder de vista después del cambio de fase.
+
+**PROBLEMA #3:** No es posible consultar los beneficios y limitaciones de los planes de membresía
+
+**Severidad:** 3
+
+**Heurística violada:** Arquitectura de la Información - ¿Es usable?
+
+**Problema:**
+A pesar de poder adquirir una membresía y utilizar sus beneficios dentro de la aplicación, el usuario no puede consultar sus beneficios y limitaciones más allá de la vista donde adquiere esta membresía. Es importante que el usuario pueda estar consciente en todo momento de lo que se le confiere al portar una membresía en la aplicación.
+
+**Recomendación:**
+Diseñar e implementar una vista con la información de las membresías que el usuario pueda consultar en cualquier momento.
+
+**PROBLEMA #4:** No es posible mejorar el nivel de la membresía
+
+**Severidad:** 3
+
+**Heurística violada:** Usabilidad - Libertad y Control del Usuario
+
+**Problema:**
+Tras adquirir una membresía al crear una cuenta de compañía, el usuario no tiene la posibilidad de mejorarla, es decir, adquirir un plan mayor que se ajuste mejor a sus necesidades. Dado que la aplicación está diseñada para su uso extensivo y a nivel empresarial, es imprescindible permitirle al usuario este tipo de mejora para que la aplicación se ajuste mejor a sus necesidades.
+
+**Recomendación:**
+Diseñar e implementar una vista para la mejora del nivel de membresía.
+
+
 <h1 id='conclusiones'>Conclusiones</h1>
 El desarrollo de los problem statements y assumptions demostró aproximarse bastante al comportamiento de nuestros segmentos objetivos de arrendador y arrendatario. Esto se debió a un correcto análisis (previo a la realización de entrevistas) sobre cómo planteamos llevar a cabo el proceso de alquiler de bicicletas y qué es lo que esperan los ciclistas en general en base a nuestros propios conocimientos, experiencia e investigación.
 Nuestras aproximaciones planteadas en el anterior punto se vieron más detalladas una vez realizado el proceso de entrevistas de validación, donde se pudo confirmar de que la redacción planteada en un inicio (de los problem statements y assumptions) estuvieron satisfactoriamente alineados a lo que se especificó con anterioridad.
