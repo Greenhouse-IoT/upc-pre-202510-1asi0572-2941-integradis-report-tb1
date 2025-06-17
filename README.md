@@ -4003,13 +4003,130 @@ A continuación se presentan las insights de la colaboración del equipo durante
 
 <h4 id='6.2.2.3.'>6.2.2.3. Sprint Backlog 2.</h4>
 
-El objetivo principal del Sprint 2 fue entrenar, probar, conectar e implementar el modelo de inteligencia artificial para poder analizar las imágenes de cultivos de champiñones y de esta manera evaluar la calidad final de los cultivos.
+El objetivo principal del Sprint 2 conectar e implementar el modelo IoT para poder analizar los cultivos de champiñones a través los parámetros ambientales.
 
-| Sprint \# 2          |       |               |       |             |                    |             |        |
-| -------------------- | ----- | ------------- | ----- | ----------- | ------------------ | ----------- | ------ |
-| Technical User Story |       | WorkItem/Task |       |             |                    |             |        |
-| ID                   | Title | ID            | Title | Description | Estimation (Hours) | Assigned To | Status |
-|                      |       | TK01          |       |             |                    |             |        |
+<table border="1">
+  <tr>
+    <th>Sprint #2</th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <th>Technical User Story</th>
+    <th></th>
+    <th>WorkItem/Task</th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <th>ID</th>
+    <th>Title</th>
+    <th>ID</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status</th>
+  </tr>
+  <tr>
+    <td>US01</td>
+    <td>Medición Automática de Parámetros Ambientales</td>
+    <td>TK01</td>
+    <td>Implementar lectura automática desde sensores</td>
+    <td>Programar los sensores para medir temperatura y humedad sin intervención humana</td>
+    <td>5</td>
+    <td>Nicolas Espinoza</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US02</td>
+    <td>Monitoreo en Tiempo Real de Temperatura y Humedad</td>
+    <td>TK02</td>
+    <td>Mostrar datos en tiempo real</td>
+    <td>Crear interfaz y lógica para visualizar las mediciones en tiempo real</td>
+    <td>8</td>
+    <td>Carlo Seminario</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US07</td>
+    <td>Gestión de Intervalos de Medición</td>
+    <td>TK03</td>
+    <td>Crear configuración de intervalos</td>
+    <td>Permitir configurar cada cuánto tiempo se mide y los umbrales aceptables</td>
+    <td>5</td>
+    <td>Alan Galavis</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US03</td>
+    <td>Alertas por Parámetros Fuera de Rango</td>
+    <td>TK04</td>
+    <td>Configurar alertas automáticas</td>
+    <td>Implementar sistema de alertas cuando las mediciones excedan los umbrales</td>
+    <td>3</td>
+    <td>Jherson Astuyauri</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US04</td>
+    <td>Visualización Gráfica de Parámetros</td>
+    <td>TK05</td>
+    <td>Mostrar gráficos de evolución</td>
+    <td>Visualizar los cambios de temperatura y humedad a lo largo del tiempo</td>
+    <td>2</td>
+    <td>Alan Galavis</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US06</td>
+    <td>Exportación de Datos</td>
+    <td>TK06</td>
+    <td>Exportar datos en Excel</td>
+    <td>Permitir descarga de los datos en formato estándar para análisis</td>
+    <td>2</td>
+    <td>Andrés Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US18</td>
+    <td>Listado de Trabajadores</td>
+    <td>TK07</td>
+    <td>Visualizar trabajadores registrados</td>
+    <td>Mostrar el listado completo de trabajadores de la empresa</td>
+    <td>3</td>
+    <td>Jherson Astuyauri</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US16</td>
+    <td>Visualizar Perfil de Usuario</td>
+    <td>TK08</td>
+    <td>Ver perfil completo de usuario</td>
+    <td>Permitir al usuario visualizar su información personal</td>
+    <td>3</td>
+    <td>Carlo Seminario</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US17</td>
+    <td>Actualizar Datos Personales</td>
+    <td>TK09</td>
+    <td>Editar información personal</td>
+    <td>Habilitar la edición de datos personales dentro del perfil</td>
+    <td>2</td>
+    <td>Andrés Soto</td>
+    <td>Done</td>
+  </tr>
+</table>
 
 <h4 id='6.2.2.4.'>6.2.2.4. Development Evidence for Sprint Review.</h4>
   
