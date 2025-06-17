@@ -4247,19 +4247,19 @@ A continuación se presentan las insights de la colaboración del equipo durante
 Entrevista de validación Landing Page usuario técnico supervisor 01:
 | Entrevistado 01 | Giancarlo del Águila |
 |-----------------|----------------------|
-| Foto | Para esta entrevista, Giancarlo del Águila, cliente de la aplicación del segmento técnico supervisor, dió su comentario acerca de la Landing Page de Greenhouse. Giancarlo resaltó la legibilidad de la información mostrada en la página web y manifestó que este factor es de suma importancia para el rubro de su negocio. También tuvo una opinión positiva respecto al diseño general y la elección de colores, además de elogiar la organización de los datos que se presentan al usuario. |
+| <img src='assets/images/chapter_6/FinalProductInterview/entrevistado_1_landingpage.png' alt='Entrevistado 1' /> | Para esta entrevista, Giancarlo del Águila, cliente de la aplicación del segmento técnico supervisor, dió su comentario acerca de la Landing Page de Greenhouse. Giancarlo resaltó la legibilidad de la información mostrada en la página web y manifestó que este factor es de suma importancia para el rubro de su negocio. También tuvo una opinión positiva respecto al diseño general y la elección de colores, además de elogiar la organización de los datos que se presentan al usuario. |
 |URL: |  [https://youtu.be/ZrPGRwkvWco](https://youtu.be/ZrPGRwkvWco ) |
 
 Entrevista de validación Landing Page usuario administrador 01:
 | Entrevistado 01 | Frank Du Bois |
 |-----------------|----------------------|
-| Foto | Para esta entrevista, Frank Du Bois, cliente de la aplicación del segmento administrador, dió su comentario acerca de la Landing Page de Greenhouse. Frank expresó que la página web le resulta amigable, clara y que el logo resalta la marca de la aplicación. Remarcó que los precios de la aplicación son accesibles y cómodos para tratarse de una app destinada a un uso empresarial. Una crítica que tuvo fue que la Landing Page necesita tener una opción para cambiar el idioma, esto debido a la gran cantidad de empleados en la fábrica que solo conocen el español y no el inglés, idioma principal de la Landing Page y la aplicación Greenhouse. |
+| <img src='assets/images/chapter_6/FinalProductInterview/entrevistado_2_landingpage.png' alt='Entrevistado 2' /> | Para esta entrevista, Frank Du Bois, cliente de la aplicación del segmento administrador, dió su comentario acerca de la Landing Page de Greenhouse. Frank expresó que la página web le resulta amigable, clara y que el logo resalta la marca de la aplicación. Remarcó que los precios de la aplicación son accesibles y cómodos para tratarse de una app destinada a un uso empresarial. Una crítica que tuvo fue que la Landing Page necesita tener una opción para cambiar el idioma, esto debido a la gran cantidad de empleados en la fábrica que solo conocen el español y no el inglés, idioma principal de la Landing Page y la aplicación Greenhouse. |
 |URL: |  [https://youtu.be/ZrPGRwkvWco](https://youtu.be/-eTA_8x21ko ) |
 
 Entrevista de validación Landing Page usuario administrador 02:
 | Entrevistado 01 | Julio Du Bois |
 |-----------------|----------------------|
-| Foto | Para esta entrevista, Julio Du Bois, cliente de la aplicación del segmento administrador y gerente de la empresa PeruAgro, dió su comentario acerca de la Landing Page de Greenhouse. Julio considera que el diseño de la landing page es pertinente al negocio y es adecuado para lo que se espera del producto. Explicó también acerca del estatus actual de su negocio. Finalmente, resaltó el esfuerzo de los desarrolladores de la aplicación, la cual considera que tendrá un papel fundamental en las operaciones de las fábricas de champiñones en el Perú. |
+| <img src='assets/images/chapter_6/FinalProductInterview/entrevistado_3_landingpage.png' alt='Entrevistado 3' /> | Para esta entrevista, Julio Du Bois, cliente de la aplicación del segmento administrador y gerente de la empresa PeruAgro, dió su comentario acerca de la Landing Page de Greenhouse. Julio considera que el diseño de la landing page es pertinente al negocio y es adecuado para lo que se espera del producto. Explicó también acerca del estatus actual de su negocio. Finalmente, resaltó el esfuerzo de los desarrolladores de la aplicación, la cual considera que tendrá un papel fundamental en las operaciones de las fábricas de champiñones en el Perú. |
 |URL: |  [https://youtu.be/P643mEPJaEM](https://youtu.be/P643mEPJaEM) |
 
 **Entrevistas de validación Web App**
@@ -4267,13 +4267,13 @@ Entrevista de validación Landing Page usuario administrador 02:
 Entrevista de validación Web App usuario administrador 01:
 | Entrevistado 01 | Julio Du Bois |
 |-----------------|----------------------|
-| Foto | Para esta entrevista, Julio Du Bois otorga una retroalimentación relacionada a la aplicación web Greenhouse. Recalca que esta le sería valiosa para poder hacer seguimiento del estado de sus cultivos, y para filtrar la información más relevante. Como sugerencia, indica que sería útil contar con un gráfico superpuesto que permita comparar dos cultivos al mismo tiempo. |
+| <img src='assets/images/chapter_6/FinalProductInterview/entrevistado_1_webapp.png' alt='Entrevistado 1' /> | Para esta entrevista, Julio Du Bois otorga una retroalimentación relacionada a la aplicación web Greenhouse. Recalca que esta le sería valiosa para poder hacer seguimiento del estado de sus cultivos, y para filtrar la información más relevante. Como sugerencia, indica que sería útil contar con un gráfico superpuesto que permita comparar dos cultivos al mismo tiempo. |
 |URL: |  [https://youtu.be/P643mEPJaEM](https://youtu.be/c7uo05gKNZ8 ) |
 
 Entrevista de validación Web App usuario administrador 02:
 | Entrevistado 01 | Frank Du Bois |
 |-----------------|----------------------|
-| Foto | Durante esta entrevista, Frank Du Bois, cliente de la aplicación del segmento administrador, dió su comentario acerca de la Web App de Greenhouse. Frank expresó que la página le parece sencilla de utilizar, hace énfasis en que los íconos son útiles para identificar en qué sección se encuentra, y otorga como sugerencia darle la posibilidad a los usuarios a cambiar el color de la aplicación para que se acomode a la marca de su fábrica. |
+| <img src='assets/images/chapter_6/FinalProductInterview/entrevistado_2_webapp.png' alt='Entrevistado 2' /> | Durante esta entrevista, Frank Du Bois, cliente de la aplicación del segmento administrador, dió su comentario acerca de la Web App de Greenhouse. Frank expresó que la página le parece sencilla de utilizar, hace énfasis en que los íconos son útiles para identificar en qué sección se encuentra, y otorga como sugerencia darle la posibilidad a los usuarios a cambiar el color de la aplicación para que se acomode a la marca de su fábrica. |
 |URL: |  [https://youtu.be/P643mEPJaEM](https://youtu.be/ENdh3rkbt-0 ) |
 
 **Entrevistas de validación Mobile App**
@@ -4281,7 +4281,7 @@ Entrevista de validación Web App usuario administrador 02:
 Entrevista de validación Mobile App usuario técnico supervisor 01:
 | Entrevistado 01 | Giancarlo del Águila |
 |-----------------|----------------------|
-| Foto | Giancarlo del Águila es el Gerente de Producción y Personal de la empresa Perú Agro. Durante la entrevista, interactúa con las vistas dashboard, cultivos en progreso, archivo de cultivos y perfil del usuario y de la empresa, las cuales forman parte de la aplicación Greenhouse. Giancarlo otorga una retroalimentación valiosa y positiva, puesto que sugiere que los colores, la tipografía y la distribución de la información convierten a la aplicación en un software accesible e intuitivo. Giancarlo concluye la entrevista recalcando la importancia de que el cliente corrobore que los features implementados correspondan con los requisitos planteados por el cliente, y que resulta relevante asegurar que la sección de registros permita cubrir por completo los procesos que atraviesan los cultivos de champiñones. |
+| <img src='assets/images/chapter_6/FinalProductInterview/entrevistado_1_mobileapp.png' alt='Entrevistado 1' /> | Giancarlo del Águila es el Gerente de Producción y Personal de la empresa Perú Agro. Durante la entrevista, interactúa con las vistas dashboard, cultivos en progreso, archivo de cultivos y perfil del usuario y de la empresa, las cuales forman parte de la aplicación Greenhouse. Giancarlo otorga una retroalimentación valiosa y positiva, puesto que sugiere que los colores, la tipografía y la distribución de la información convierten a la aplicación en un software accesible e intuitivo. Giancarlo concluye la entrevista recalcando la importancia de que el cliente corrobore que los features implementados correspondan con los requisitos planteados por el cliente, y que resulta relevante asegurar que la sección de registros permita cubrir por completo los procesos que atraviesan los cultivos de champiñones. |
 |URL: |  [https://youtu.be/ZrPGRwkvWco](https://youtu.be/8zXXaEUxBLU) |
 
 <h1 id='conclusiones'>Conclusiones</h1>
