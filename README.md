@@ -341,7 +341,8 @@ explican las ramas más prominentes:
       Me aseguré de participar activamente en la organización del proyecto, al igual que en la colaboración con el cliente para validar que el desarrollo de la solución se ajuste con los requisitos esperados.<br/>
       <br/>
       <i>TB2</i><br/>
-      <b>Galavis Du Bois, Alan Enrique:</b>
+      <b>Galavis Du Bois, Alan Enrique:</b> 
+      Colabore durante el desarrollo de la mobile app, encargandome de las diferentes vistas, la integracion con la IA y la conexion con el backend para enviar y recibir los datos.
       <br/>
       <br/>
       <i>TB1</i><br/>
@@ -393,9 +394,13 @@ explican las ramas más prominentes:
       <b>Galavis Du Bois, Alan Enrique:</b>
       Me aseguré de repartir el trabajo de manera equitativa y de acuerdo al perfil de cada integrante del equipo, de forma que todos los miembros puedan cumplir con sus tareas con éxito<br/>
       <br/>
-      <i>TB2</i><br/>
+      <i>TP</i><br/>
       <b>Galavis Du Bois, Alan Enrique:</b>
       Establecí el WIP limit, sobre el cual el equipo definirá la cadencia de trabajo necesaria para cumplir con todo el sprint backlog. Se cumplió en su totalidad el objetivo del sprint.<br/>
+      <br/>
+      <i>TB2</i><br/>
+      <b>Galavis Du Bois, Alan Enrique:</b>
+      Me encargue de realizar las entrevistas de usabilidad de las diferentes interfaces presentadas a cada uno de los usuarios establecidos que haran uso de las aplicaciones.<br/>
       <br/>
       <i>TB1</i><br/>
       <b>Seminario Garbín, Carlo Luca:</b>
