@@ -59,6 +59,7 @@
 | 1.9     | 26/04/2025 | Galavis Du Bois, Alan Enrique <br>                                                                                                                                                         | Redacción de Project Report Collaboration Insights, redacción de Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases, Context Mapping |
 | 2.0     | 15/05/2025 | Astuyauri Calderon, Jherson David <br/> Espinoza Rodríguez, Nicolás Antonio <br/> Galavis Du Bois, Alan Enrique <br/> Seminario Garbin, Carlo Luca <br/> Soto Kong Requena, Andrés Eduardo | Elaboración de wireflow diagrams y userflow diagrams, elaboración de Applications UX/UI Design, Redacción del capítulo 6.1 Sprint 1                                    |
 | 3.0     | 18/05/2025 | Astuyauri Calderon, Jherson David <br/> Espinoza Rodríguez, Nicolás Antonio <br/> Galavis Du Bois, Alan Enrique <br/> Seminario Garbin, Carlo Luca <br/> Soto Kong Requena, Andrés Eduardo | Redacción del capítulo 6.2 Sprint 2, desarrollo de la version final de la landing page, despliegue inicial de la web-app y mobile-app, y desarrollo del backend        |
+| 4.0     | 20/06/2025 | Astuyauri Calderon, Jherson David <br/> Espinoza Rodríguez, Nicolás Antonio <br/> Galavis Du Bois, Alan Enrique <br/> Seminario Garbin, Carlo Luca <br/> Soto Kong Requena, Andrés Eduardo | Finalizacion del capítulo 6.2 Sprint 2, despliegue de nueva version de la web-app y mobile-app, y cierre del desarrollo del backend        |
 
 # Project Report Collaboration Insights
 
@@ -4015,7 +4016,12 @@ El objetivo principal del Sprint 2 fue entrenar, probar, conectar e implementar 
   
 | Repository | Branch | Commit ID | Commit Message | Committed on (Date) |
 | ----- | ----- | ----- | ----- | ----- |
-| |  |  | | |
+| embedded | main | 68295be | feat: added embedded code for actuator and sensor esp32 | 14/06 |
+| mobile | develop | 64efab5 | feat: hidden record dialog for phase incubation and onward | 14/06 |
+| edge | main | 08177fe | feat: edge layer complete first version | 14/06 |
+| edge | main | 9f11511 | feat: added docker configuration for deployment | 17/06 |
+| edge | main | f828105 | chore: changed port binding to 80 | 18/06 |
+| edge | main | 586fcfa | chore: added environment variables for deployment | 18/06 |
 
 <h4 id='6.2.2.5.'>6.2.2.5. Testing Suite Evidence for Sprint Review.</h4>
 
@@ -4023,8 +4029,7 @@ En la siguiente sección se presentan los cambios en el repositorio de testing d
 
 |       Repository       | Branch  | Commit ID | Commit Message | Committed on (Date) |
 | :--------------------: | :-----: | :-------: | :------------: | :-----------------: |
-| Greenhouse-IoT/testing | testing |           |                |                     |
-| Greenhouse-IoT/testing | testing |           |                |                     |
+| Greenhouse-IoT/testing | testing |      aa7875d     |       docs: added medition and actuation .feature files         |        21/06             |
 
 <h4 id='6.2.2.6.'>6.2.2.6. Execution Evidence for Sprint Review.</h4>
 
@@ -4200,45 +4205,35 @@ El modelo de computer visión se entrenó desde ultralytics el mismo te brinda u
 
 A continuación se presentan las insights de la colaboración del equipo durante el presente Sprint 2.
 
-**Landing Page**
-
-| Integrante        | Funcionalidad Asignada |
-| ----------------- | ---------------------- |
-| Alan Galavis      |                        |
-| Andres Soto       |                        |
-| Carlo Seminario   |                        |
-| Jherson Astuyauri |                        |
-| Nicolas Espinoza  |                        |
-
-**Web-app**
-
-| Integrante        | Funcionalidad Asignada |
-| ----------------- | ---------------------- |
-| Alan Galavis      |                        |
-| Andres Soto       |                        |
-| Carlo Seminario   |                        |
-| Jherson Astuyauri |                        |
-| Nicolas Espinoza  |                        |
-
-**Back end**
-
-| Integrante        | Funcionalidad Asignada |
-| ----------------- | ---------------------- |
-| Alan Galavis      |                        |
-| Andres Soto       |                        |
-| Carlo Seminario   |                        |
-| Jherson Astuyauri |                        |
-| Nicolas Espinoza  |                        |
-
 **Mobile-app**
 
+<img src='assets/images/collaboration_insights/tb2/collabs_repos/mobile.png' alt='Mobile Commit Chart' />
+
+<img src='assets/images/collaboration_insights/tb2/collabs_repos/mobile 2.png' alt='Mobile Timeline Chart' />
+
 | Integrante        | Funcionalidad Asignada |
 | ----------------- | ---------------------- |
-| Alan Galavis      |                        |
-| Andres Soto       |                        |
-| Carlo Seminario   |                        |
-| Jherson Astuyauri |                        |
-| Nicolas Espinoza  |                        |
+| Andres Soto       |   Record dialog for phase incubation      |
+
+**Edge**
+
+<img src='assets/images/collaboration_insights/tb2/collabs_repos/edge.png' alt='Edge Commit Chart' />
+
+<img src='assets/images/collaboration_insights/tb2/collabs_repos/edge 2.png' alt='Edge Timeline Chart' />
+
+| Integrante        | Funcionalidad Asignada |
+| ----------------- | ---------------------- |
+| Carlo Seminario   |  Edge Service Functionalities   |
+
+**Embedded**
+
+<img src='assets/images/collaboration_insights/tb2/collabs_repos/Embedded.png' alt='Embedded Commit Chart' />
+
+<img src='assets/images/collaboration_insights/tb2/collabs_repos/Embedded 2.png' alt='Embedded Timeline Chart' />
+
+| Integrante        | Funcionalidad Asignada |
+| ----------------- | ---------------------- |
+| Carlo Seminario   |  Embedded Application Functionalities  |
 
 <h1 id='conclusiones'>Conclusiones</h1>
 El desarrollo de los problem statements y assumptions demostró aproximarse bastante al comportamiento de nuestros segmentos objetivos de arrendador y arrendatario. Esto se debió a un correcto análisis (previo a la realización de entrevistas) sobre cómo planteamos llevar a cabo el proceso de alquiler de bicicletas y qué es lo que esperan los ciclistas en general en base a nuestros propios conocimientos, experiencia e investigación.
