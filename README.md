@@ -4092,6 +4092,16 @@ El endpoint POST /api/v1/mails permite enviar correos electrónicos a partir de 
 
 <img src='assets/images/chapter-6/13.png' alt='Git Flow' />
 
+**Edge endpoints:**
+
+El endpoint POST /api/v1/greenhouse/crop-info del edge permite recibir y persistir el cropId y la phase.
+
+<img src='assets/images/chapter_6/edge_post_images/crop-info.png' alt='Git Flow' />
+
+El endpoint POST /api/v1/greenhouse/sensor-readings permite recibir datos de los sensores del ESP32, previa autenticación.
+
+<img src='assets/images/chapter_6/edge_post_images/sensor-readings.png' alt='Git Flow' />
+
 <h4 id='6.2.2.7.'>6.2.2.7. Services Documentation Evidence for Sprint Review.</h4>
 
 A continuación, se presentan los endpoints correspondientes a cada microservicio:
