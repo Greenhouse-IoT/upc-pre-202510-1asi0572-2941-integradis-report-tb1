@@ -4211,14 +4211,14 @@ Se implementó un servidor embebido para el control de actuadores, permitiendo e
 
 **Embebido de Actuadores:**
 
-Se configuró el sistema embebido encargado de recibir señales desde el edge y ejecutar comandos hacia los actuadores (motores, válvulas, etc.).
+Se configuró el sistema embebido encargado de recibir señales desde el edge y ejecutar comandos hacia los actuadores.
 
 <img src='assets/images/chapter_6/sprint_2/software_deployment_evidence/embebido_actuadores.png' alt='Embebido de Actuadores' />
 
 
 **Sensores:**
 
-Se integraron sensores ambientales al sistema edge para la recolección de datos en campo. Estos dispositivos transmiten información de humedad, temperatura y otros parámetros clave.
+Se integraron sensores ambientales al sistema edge para la recolección de datos. Estos dispositivos transmiten información de humedad, temperatura y otros parámetros clave.
 
 <img src='assets/images/chapter_6/sprint_2/software_deployment_evidence/sensores.png' alt='Sensores Conectados' />
 
@@ -4229,7 +4229,7 @@ El endpoint que permite la comunicación directa con el sistema edge desplegado 
 
 * [http://44.200.80.62](http://44.200.80.62)
 
-<img src='assets/images/chapter_6/sprint_2/software_deployment_evidence/edge_endpoint.png' alt='Endpoint del Edge' />
+<img src='assets/images/chapter_6/sprint_2/software_deployment_evidence/edge_enpoint.png' alt='Endpoint del Edge' />
 
 
 
