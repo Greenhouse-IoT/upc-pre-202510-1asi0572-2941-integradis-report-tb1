@@ -4402,6 +4402,63 @@ A continuación se presentan las insights de la colaboración del equipo durante
 | ----------------- | ---------------------- |
 | Carlo Seminario   |  Embedded Application Functionalities  |
 
+<h2 id='6.3.'>6.3. Validation Interviews.</h2>
+<h3 id='6.3.1.'>6.3.1. Diseño de Entrevistas.</h3>
+
+Las entrevistas de validación se diseñaron para evaluar la usabilidad, utilidad y claridad tanto de la **landing page** como de las funcionalidades de la **aplicación web y móvil**. Se realizaron entrevistas con dos segmentos objetivos: **técnicos supervisores** y **administradores de fábrica**.
+
+#### Segmento: Técnico Supervisor
+
+**Datos del entrevistado:**
+
+* Nombre
+* Cargo dentro de la empresa
+* Nombre de la empresa
+
+**Preguntas sobre la landing page:**
+
+1. ¿Qué te parecen los colores, el tamaño de la letra y la información presentada en la landing page?
+2. En cuanto a los beneficios mostrados en la landing page, ¿qué te parecen las imágenes y la información presentada?
+3. ¿Cuál sería la calificación que le darías a la landing page (del 1 al 10)?
+
+**Preguntas sobre la aplicación web y móvil:**
+
+4. ¿Cómo llevas actualmente tus registros? ¿Cómo accedes a la información necesaria para tu labor?
+5. ¿Qué te parece la funcionalidad de inicio de sesión de la aplicación?
+6. ¿Qué opinas sobre el manejo de las naves dentro de la aplicación?
+7. ¿Qué te parece el registro de cada cultivo? ¿Lo consideras práctico?
+8. ¿Qué opinas sobre los datos de análisis que se obtendrán en cada fase del cultivo? ¿Crees que los reportes te serían útiles?
+9. ¿Qué te parece el directorio de trabajadores? ¿Te resulta fácil agregar o visualizar trabajadores?
+10. En general, ¿qué te parece la aplicación? ¿Te resulta intuitiva y útil para tus actividades diarias?
+11. ¿Qué opinas sobre los filtros y el buscador dentro de la aplicación? ¿Te ayudan a encontrar lo que necesitas fácilmente?
+
+
+#### Segmento: Administrador de Fábrica
+
+**Datos del entrevistado:**
+
+* Nombre
+* Cargo dentro de la empresa
+* Nombre de la empresa
+
+**Preguntas sobre la landing page:**
+
+1. ¿Qué opinas sobre los colores, tamaño de letra e información presentada en la landing page?
+2. ¿Qué te parecen las imágenes y los beneficios mostrados en la landing page?
+3. ¿Qué calificación le darías a la landing page (del 1 al 10)?
+
+**Preguntas sobre la aplicación web y móvil:**
+
+4. ¿Cómo accedes actualmente a la información y reportes de tu fábrica?
+5. ¿Qué opinas sobre la experiencia de inicio de sesión en la aplicación?
+6. ¿Qué te parece la gestión de naves dentro de la plataforma?
+7. ¿Cómo valoras el registro y seguimiento de los cultivos?
+8. ¿Crees que los datos y reportes que se generan en cada etapa del cultivo pueden ayudarte en la toma de decisiones?
+9. ¿Consideras útil el módulo de trabajadores (visualización, edición, creación)?
+10. ¿En general, cómo calificarías la aplicación? ¿Es funcional, intuitiva y útil para tu rol?
+11. ¿Los filtros y buscador disponibles en la plataforma cumplen tus expectativas?
+
+
 <h1 id='conclusiones'>Conclusiones</h1>
 El desarrollo de los problem statements y assumptions demostró aproximarse bastante al comportamiento de nuestros segmentos objetivos de arrendador y arrendatario. Esto se debió a un correcto análisis (previo a la realización de entrevistas) sobre cómo planteamos llevar a cabo el proceso de alquiler de bicicletas y qué es lo que esperan los ciclistas en general en base a nuestros propios conocimientos, experiencia e investigación.
 Nuestras aproximaciones planteadas en el anterior punto se vieron más detalladas una vez realizado el proceso de entrevistas de validación, donde se pudo confirmar de que la redacción planteada en un inicio (de los problem statements y assumptions) estuvieron satisfactoriamente alineados a lo que se especificó con anterioridad.
