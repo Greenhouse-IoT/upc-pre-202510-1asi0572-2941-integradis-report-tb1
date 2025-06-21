@@ -4196,6 +4196,43 @@ El modelo de computer visión se entrenó desde ultralytics el mismo te brinda u
 
 <img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/route53.png' alt='Route 53 Desplegado' />
 
+**Edge Desplegado:**
+
+Se desplegó un sistema Edge que permite procesar datos localmente en zonas donde la conectividad con la nube es limitada o intermitente. Este sistema actúa como intermediario entre los sensores, actuadores y la nube.
+
+<img src='assets/images/chapter_6/sprint_2/software_deployment_evidence/edge_deploy.png' alt='Edge Desplegado' />
+
+**Servidor de Actuadores:**
+
+Se implementó un servidor embebido para el control de actuadores, permitiendo ejecutar acciones en tiempo real desde el edge.
+
+<img src='assets/images/chapter_6/sprint_2/software_deployment_evidence/actuadores_server.png' alt='Servidor de Actuadores' />
+
+
+**Embebido de Actuadores:**
+
+Se configuró el sistema embebido encargado de recibir señales desde el edge y ejecutar comandos hacia los actuadores (motores, válvulas, etc.).
+
+<img src='assets/images/chapter_6/sprint_2/software_deployment_evidence/embebido_actuadores.png' alt='Embebido de Actuadores' />
+
+
+**Sensores:**
+
+Se integraron sensores ambientales al sistema edge para la recolección de datos en campo. Estos dispositivos transmiten información de humedad, temperatura y otros parámetros clave.
+
+<img src='assets/images/chapter_6/sprint_2/software_deployment_evidence/sensores.png' alt='Sensores Conectados' />
+
+
+**Endpoint del Edge:**
+
+El endpoint que permite la comunicación directa con el sistema edge desplegado es:
+
+* [http://44.200.80.62](http://44.200.80.62)
+
+<img src='assets/images/chapter_6/sprint_2/software_deployment_evidence/edge_endpoint.png' alt='Endpoint del Edge' />
+
+
+
 <h4 id='6.2.2.9.'>6.2.2.9. Team Collaboration Insights during Sprint.</h4>
 
 A continuación se presentan las insights de la colaboración del equipo durante el presente Sprint 2.
