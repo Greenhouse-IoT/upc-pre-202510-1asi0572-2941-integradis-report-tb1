@@ -354,7 +354,7 @@ explican las ramas más prominentes:
       Se realizó el despliegue del backend para que mis compañeros puedan hacer uso de las funcionalidades y hacer un flujo de trabajo más óptimo, comunicando bugs o caídas para poder darles mantenimiento.<br/>
       <br/>
       <i>TB2</i><br/>
-      <b>Seminario Garbín, Carlo Luca:</b>
+      <b>Seminario Garbín, Carlo Luca:</b> Me encargue de desarrollar el edge device e embedded applications para recibir la informacion desde un esp32 a nuestro back desplegado
       <br/>
       <br/>
       <i>TB1</i><br/>
@@ -409,6 +409,9 @@ explican las ramas más prominentes:
       <i>TP1</i><br/>
       <b>Seminario Garbín, Carlo Luca:</b>
       Apoyé distribuyendo el trabajo entre el equipo escuchando propuestas y aportando ideas para avanzar de forma colaborativa en base a metas y objetivos.<br/>
+      <br/>
+      <i>TB2</i><br/>
+      <b>Seminario Garbín, Carlo Luca:</b> Me encargue del despliegue en su totalidad de las diferentes aplicaciones desarrolladas configurando la plataforma de despliegue de amazon web services
       <br/>
       <i>TB1</i><br/>
       <b>Soto Kong Requena, Andrés Eduardo</b>: Colabore para obtener un entorno colaborativo e inclusivo, asegurándose de que todas las metas fueran claras y alcanzables. Se encargó de coordinar tareas clave en el proceso de planificación, estableciendo un flujo de trabajo organizado y apoyando al equipo en el cumplimiento de los objetivos establecidos.<br/>
