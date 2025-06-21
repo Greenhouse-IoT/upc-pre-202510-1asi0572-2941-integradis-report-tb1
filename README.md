@@ -320,7 +320,7 @@ explican las ramas más prominentes:
        Apoyé en el diseño de los wireflows y userflows tanto de la aplicación web como móvil. Participé activamente en la organización de las ideas del equipo y en el levantamiento de flujos centrados en la experiencia de usuario.<br>
       <br/>
       <i>TB2</i><br/>
-      <b>Astuyauri Calderón, Jherson David:</b>
+      <b>Astuyauri Calderón, Jherson David: En el desarrollo del segundo entregable técnico (TB2), lideré la documentación de los servicios desarrollados, la planificación de roles (aspect leaders and collaborators), y la creación de la evidencia del testing suite y colaboración del equipo. También guié la sección de entrevistas de validación y redacté las conclusiones del capítulo final. </b>
       <br>
       <br/>
       <i>TB1</i><br/>
@@ -341,7 +341,8 @@ explican las ramas más prominentes:
       Me aseguré de participar activamente en la organización del proyecto, al igual que en la colaboración con el cliente para validar que el desarrollo de la solución se ajuste con los requisitos esperados.<br/>
       <br/>
       <i>TB2</i><br/>
-      <b>Galavis Du Bois, Alan Enrique:</b>
+      <b>Galavis Du Bois, Alan Enrique:</b> 
+      Colabore durante el desarrollo de la mobile app, encargandome de las diferentes vistas, la integracion con la IA y la conexion con el backend para enviar y recibir los datos.
       <br/>
       <br/>
       <i>TB1</i><br/>
@@ -353,7 +354,7 @@ explican las ramas más prominentes:
       Se realizó el despliegue del backend para que mis compañeros puedan hacer uso de las funcionalidades y hacer un flujo de trabajo más óptimo, comunicando bugs o caídas para poder darles mantenimiento.<br/>
       <br/>
       <i>TB2</i><br/>
-      <b>Seminario Garbín, Carlo Luca:</b>
+      <b>Seminario Garbín, Carlo Luca:</b> Me encargue de desarrollar el edge device e embedded applications para recibir la informacion desde un esp32 a nuestro back desplegado
       <br/>
       <br/>
       <i>TB1</i><br/>
@@ -363,7 +364,7 @@ explican las ramas más prominentes:
       <b>Soto Kong Requena, Andrés Eduardo:</b> Fui responsable de la definición y desarrollo de los bounded context correspondientes a los módulos de Mail y Memberships. A través de su enfoque en la estructuración de estos contextos, contribuyó significativamente a la organización y modularización de la aplicación, asegurando una integración coherente con los demás componentes del sistema.<br/>
       <br/>
       <i>TB2</i><br/>
-      <b>Soto Kong Requena, Andrés Eduardo:</b>
+      <b>Soto Kong Requena, Andrés Eduardo:</b> Me encargue de documentar las entrevistas de validaciones de cada sector especifico entrevistado, asi como las plataformas presentadas a los mismos.
       <br/>
       <br/>
       </td>
@@ -381,6 +382,8 @@ explican las ramas más prominentes:
       <b>Astuyauri Calderón, Jherson David:</b>
       Apoyé en la elaboración de los wireflows y userflows de ambas aplicaciones, organizando tareas por prioridad y asegurando entregables claros.<br>
       <br/>
+        <i>TB2</i><br/>
+      <b>Astuyauri Calderón, Jherson David: Coordiné múltiples entregables clave como el Testing Suite, la documentación de servicios, y las evidencias de colaboración del equipo. Gestioné el contenido final del capítulo de conclusiones y validé la planificación de entrevistas. Aporté al entorno colaborativo al clarificar objetivos, planificar tareas técnicas y asegurar el cumplimiento de los entregables. </b>  
       <i>TB1</i><br/>
       <b>Espinoza Rodríguez, Nicolás Antonio:</b>
       Se consideró como primer sprint del equipo el desarrollo de los artefactos de gestión y el planeamiento del proyecto. Se realizó el proceso del planning poker y se lograron estimar las historias de usuario que conforman nuestro backlog y alcance del proyecto. <br/><br/>
@@ -391,9 +394,13 @@ explican las ramas más prominentes:
       <b>Galavis Du Bois, Alan Enrique:</b>
       Me aseguré de repartir el trabajo de manera equitativa y de acuerdo al perfil de cada integrante del equipo, de forma que todos los miembros puedan cumplir con sus tareas con éxito<br/>
       <br/>
-      <i>TB2</i><br/>
+      <i>TP</i><br/>
       <b>Galavis Du Bois, Alan Enrique:</b>
       Establecí el WIP limit, sobre el cual el equipo definirá la cadencia de trabajo necesaria para cumplir con todo el sprint backlog. Se cumplió en su totalidad el objetivo del sprint.<br/>
+      <br/>
+      <i>TB2</i><br/>
+      <b>Galavis Du Bois, Alan Enrique:</b>
+      Me encargue de realizar las entrevistas de usabilidad de las diferentes interfaces presentadas a cada uno de los usuarios establecidos que haran uso de las aplicaciones.<br/>
       <br/>
       <i>TB1</i><br/>
       <b>Seminario Garbín, Carlo Luca:</b>
@@ -403,8 +410,17 @@ explican las ramas más prominentes:
       <b>Seminario Garbín, Carlo Luca:</b>
       Apoyé distribuyendo el trabajo entre el equipo escuchando propuestas y aportando ideas para avanzar de forma colaborativa en base a metas y objetivos.<br/>
       <br/>
+      <i>TB2</i><br/>
+      <b>Seminario Garbín, Carlo Luca:</b> Me encargue del despliegue en su totalidad de las diferentes aplicaciones desarrolladas configurando la plataforma de despliegue de amazon web services
+      <br/>
       <i>TB1</i><br/>
-      <b>Soto Kong Requena, Andrés Eduardo</b>: Colabore para obtener un entorno colaborativo e inclusivo, asegurándose de que todas las metas fueran claras y alcanzables. Se encargó de coordinar tareas clave en el proceso de planificación, estableciendo un flujo de trabajo organizado y apoyando al equipo en el cumplimiento de los objetivos establecidos.
+      <b>Soto Kong Requena, Andrés Eduardo</b>: Colabore para obtener un entorno colaborativo e inclusivo, asegurándose de que todas las metas fueran claras y alcanzables. Se encargó de coordinar tareas clave en el proceso de planificación, estableciendo un flujo de trabajo organizado y apoyando al equipo en el cumplimiento de los objetivos establecidos.<br/>
+      <br/>
+      <i>TP</i><br/>
+      <b>Soto Kong Requena, Andrés Eduardo</b>: Me encargue de aportar ideas para integraciones, asi como el desarrollo en codigo de la webapp.<br/>
+      <br/>
+      <i>TB2</i><br/>
+      <b>Soto Kong Requena, Andrés Eduardo</b>: Me encargue de desarrollar las heuristicas de desarrollo ux y ui. Asi como implementar las mismas en la aplicaciones web y desarrollar funcionalidades de la misma.
       </td>
       <td>El equipo trabajó de manera colaborativa e inclusiva, estableciendo metas claras y alcanzables para cumplir los objetivos del proyecto. Se promovió un ambiente de trabajo organizado y se gestionaron tareas clave como la planificación de entrevistas, el desarrollo de artefactos de gestión y la estimación de historias de usuario. Además, se distribuyó el trabajo de manera equitativa según las habilidades de cada miembro, se propusieron ideas colaborativas para la integración de IoT, y se garantizó una coordinación efectiva para lograr una solución adecuada y alineada con los objetivos del equipo.</td>
     </tr>
