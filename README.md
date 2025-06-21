@@ -59,6 +59,7 @@
 | 1.9     | 26/04/2025 | Galavis Du Bois, Alan Enrique <br>                                                                                                                                                         | Redacción de Project Report Collaboration Insights, redacción de Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases, Context Mapping |
 | 2.0     | 15/05/2025 | Astuyauri Calderon, Jherson David <br/> Espinoza Rodríguez, Nicolás Antonio <br/> Galavis Du Bois, Alan Enrique <br/> Seminario Garbin, Carlo Luca <br/> Soto Kong Requena, Andrés Eduardo | Elaboración de wireflow diagrams y userflow diagrams, elaboración de Applications UX/UI Design, Redacción del capítulo 6.1 Sprint 1                                    |
 | 3.0     | 18/05/2025 | Astuyauri Calderon, Jherson David <br/> Espinoza Rodríguez, Nicolás Antonio <br/> Galavis Du Bois, Alan Enrique <br/> Seminario Garbin, Carlo Luca <br/> Soto Kong Requena, Andrés Eduardo | Redacción del capítulo 6.2 Sprint 2, desarrollo de la version final de la landing page, despliegue inicial de la web-app y mobile-app, y desarrollo del backend        |
+| 4.0     | 20/06/2025 | Astuyauri Calderon, Jherson David <br/> Espinoza Rodríguez, Nicolás Antonio <br/> Galavis Du Bois, Alan Enrique <br/> Seminario Garbin, Carlo Luca <br/> Soto Kong Requena, Andrés Eduardo | Finalizacion del capítulo 6.2 Sprint 2, despliegue de nueva version de la web-app y mobile-app, y cierre del desarrollo del backend        |
 
 # Project Report Collaboration Insights
 
@@ -3625,9 +3626,9 @@ Para el caso de la aplicación Iot embebida está será instalada mediante Ardui
   <tr>
     <th>Sprint 1 Goal</th>
     <td>
-Our focus is on creating a fully functional and informative landing page for the Greenhouse application.
-We believe it delivers clear communication and attracts potential users by showcasing the key benefits of the platform.
-This will be confirmed when visitors can access the landing page, understand the value of the application, and navigate to the sign-up page for further engagement.</td>
+Nuestro enfoque está en crear una página de aterrizaje completamente funcional e informativa para la aplicación Greenhouse.
+Creemos que ofrece una comunicación clara y atrae a los usuarios potenciales al mostrar los beneficios clave de la plataforma.
+Esto se confirmará cuando los visitantes puedan acceder a la página de aterrizaje, comprender el valor de la aplicación y navegar a la página de registro para un mayor compromiso.</td>
   </tr>
   <tr>
     <th>Sprint 1 Velocity</th>
@@ -3708,18 +3709,18 @@ El objetivo principal del Sprint 2 fue entrenar, probar, conectar e implementar 
 | -------------------- | --------------------------------------------------------------------------------- | ------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ------------------ | ----------------- | ------ |
 | Technical User Story |                                                                                   | WorkItem/Task |                                                                |                                                                                                                    |                    |                   |        |
 | ID                   | Title                                                                             | ID            | Title                                                          | Description                                                                                                        | Estimation (Hours) | Assigned To       | Status |
-| US05                 | Acceso a Datos Históricos                                                         | TK01          | Realizar vista de datos historicos                             | Generar seccion donde se van a mostrar todos los datos que hay                                                     | 1                  | Andres Soto       | Done   |
-| US08                 | Iniciar sesion                                                                    | TK02          | Realizar vista de inicio de sesion                             | Generar seccion donde se va a mostrar el inicio de sesion                                                          | 1                  | Carlo Seminario   | Done   |
-|                      |                                                                                   | TK03          | Realizar proceso de autenticacion                              | Desarrollar proceso de autenticacion                                                                               | 1                  | Andres Soto       | Done   |
-| US09                 | Crear cuenta empresa                                                              | TK04          | Creacion de cuenta de la empresa                               | Desde la web app permitir al usuario generar su cuenta de empresa                                                  | 1                  | Carlo Seminario   | Done   |
-| US10                 | Crear cuenta tecnico supervisor                                                   | TK05          | Creaion de la cuenta del tecnico supervisor                    | Permitir que solo los administradores puedan crear cuenta de tecnico supervisor para sus empleados                 | 1                  | Alan Galavis      | Done   |
-| US11                 | Iniciar Nuevo Cultivo                                                             | TK06          | Realizar funcionalidad de creacion de nuevo cultivo            | Permitir que los usuarios tecnicos supervisores creen nuevos cultivos                                              | 1                  | Nicolas espinoza  | Done   |
-| US12                 | Editar y Eliminar Cultivos                                                        | TK07          | Permitir que se pueda editar o eliminar cultivos               | Desde la web app o app movil permitir que los usuarios puedan modificar informacion de los cultivos o eliminarlos. | 1                  | Jherson Astuyauri | Done   |
-| US13                 | Documentar registros durante la preparación, cocción y pasteurización del compost | TK08          | Documentar los registros en las ultimas fases de produccion    | Permitir que los usuarios registren informacion en las ultimas fases del desarrollo                                | 1                  | Nicolas Espinoza  | Done   |
-| US14                 | Ver Listado de Cultivos en Progreso                                               | TK09          | Visualizacion de cultivos en progreso                          | Permitir a los usuarios ver los cultivos que se encuentran en progreso                                             | 1                  | Alan Galavis      | Done   |
-| US15                 | Avanzar Etapa de un Cultivo                                                       | TK10          | Permitir avanzar de etapa al finalizar el registro de cultivos | Desde la app móvil permitir que el técnico avanzar de etapa postarior al llenado de registros.                     | 1                  | Jherson Astuyauri | Done   |
-| US19                 | Acceder a la aplicación desde la landing page                                     | TK11          | Conectar landing con web app                                   | Desde la landing page poder ingresar a la web app.                                                                 | 1                  | Alan Galavis      | Done   |
-| US20                 | Descripción de la aplicación                                                      | TK12          | Seccion de la descripcion                                      | Desde la landing page visualizar la descipcion de la aplicacion                                                    | 1                  | Andres Soto       | Done   |
+| US05                 | Acceso a Datos Históricos                                                         | TK01          | Realizar vista de datos historicos                             | Generar seccion donde se van a mostrar todos los datos que hay                                                     | 4                  | Andres Soto       | Done   |
+| US08                 | Iniciar sesion                                                                    | TK02          | Realizar vista de inicio de sesion                             | Generar seccion donde se va a mostrar el inicio de sesion                                                          | 4                  | Carlo Seminario   | Done   |
+|                      |                                                                                   | TK03          | Realizar proceso de autenticacion                              | Desarrollar proceso de autenticacion                                                                               | 4                  | Andres Soto       | Done   |
+| US09                 | Crear cuenta empresa                                                              | TK04          | Creacion de cuenta de la empresa                               | Desde la web app permitir al usuario generar su cuenta de empresa                                                  | 4                  | Carlo Seminario   | Done   |
+| US10                 | Crear cuenta tecnico supervisor                                                   | TK05          | Creaion de la cuenta del tecnico supervisor                    | Permitir que solo los administradores puedan crear cuenta de tecnico supervisor para sus empleados                 | 4                  | Alan Galavis      | Done   |
+| US11                 | Iniciar Nuevo Cultivo                                                             | TK06          | Realizar funcionalidad de creacion de nuevo cultivo            | Permitir que los usuarios tecnicos supervisores creen nuevos cultivos                                              | 4                  | Nicolas espinoza  | Done   |
+| US12                 | Editar y Eliminar Cultivos                                                        | TK07          | Permitir que se pueda editar o eliminar cultivos               | Desde la web app o app movil permitir que los usuarios puedan modificar informacion de los cultivos o eliminarlos. | 4                  | Jherson Astuyauri | Done   |
+| US13                 | Documentar registros durante la preparación, cocción y pasteurización del compost | TK08          | Documentar los registros en las ultimas fases de produccion    | Permitir que los usuarios registren informacion en las ultimas fases del desarrollo                                | 4                  | Nicolas Espinoza  | Done   |
+| US14                 | Ver Listado de Cultivos en Progreso                                               | TK09          | Visualizacion de cultivos en progreso                          | Permitir a los usuarios ver los cultivos que se encuentran en progreso                                             | 4                  | Alan Galavis      | Done   |
+| US15                 | Avanzar Etapa de un Cultivo                                                       | TK10          | Permitir avanzar de etapa al finalizar el registro de cultivos | Desde la app móvil permitir que el técnico avanzar de etapa postarior al llenado de registros.                     | 4                  | Jherson Astuyauri | Done   |
+| US19                 | Acceder a la aplicación desde la landing page                                     | TK11          | Conectar landing con web app                                   | Desde la landing page poder ingresar a la web app.                                                                 | 4                  | Alan Galavis      | Done   |
+| US20                 | Descripción de la aplicación                                                      | TK12          | Seccion de la descripcion                                      | Desde la landing page visualizar la descipcion de la aplicacion                                                    | 4                  | Andres Soto       | Done   |
 
 <h4 id='6.2.1.4.'>6.2.1.4. Development Evidence for Sprint Review.</h4>
   
@@ -3965,11 +3966,11 @@ A continuación se presentan las insights de la colaboración del equipo durante
   <tr>
     <th>Team Member (Last Name, First Name)</th>
     <th>GitHub Username</th>
-    <th>Leader (L) / Collaborator (C)</th>
-    <th>Leader (L) / Collaborator (C)</th>
-    <th>Leader (L) / Collaborator (C)</th>
-    <th>Leader (L) / Collaborator (C)</th>
-    <th>Leader (L) / Collaborator (C)</th>
+    <th>Despliegue y QA: Leader (L) / Collaborator (C) </th>
+    <th>Desarrollo del API: Leader (L) / Collaborator (C)</th>
+    <th>Desarrollo de la Landing Page: Leader (L) / Collaborator (C)</th>
+    <th>Desarrollo del Edge: Leader (L) / Collaborator (C)</th>
+    <th>Desarrollo de la Mobile App: Leader (L) / Collaborator (C)</th>
   </tr>
   <tr>
     <td>Astuyauri Calderon, Jherson David</td>
@@ -4022,19 +4023,141 @@ A continuación se presentan las insights de la colaboración del equipo durante
 
 <h4 id='6.2.2.3.'>6.2.2.3. Sprint Backlog 2.</h4>
 
-El objetivo principal del Sprint 2 fue entrenar, probar, conectar e implementar el modelo de inteligencia artificial para poder analizar las imágenes de cultivos de champiñones y de esta manera evaluar la calidad final de los cultivos.
+El objetivo principal del Sprint 2 conectar e implementar el modelo IoT para poder analizar los cultivos de champiñones a través los parámetros ambientales.
 
-| Sprint \# 2          |       |               |       |             |                    |             |        |
-| -------------------- | ----- | ------------- | ----- | ----------- | ------------------ | ----------- | ------ |
-| Technical User Story |       | WorkItem/Task |       |             |                    |             |        |
-| ID                   | Title | ID            | Title | Description | Estimation (Hours) | Assigned To | Status |
-|                      |       | TK01          |       |             |                    |             |        |
+<table border="1">
+  <tr>
+    <th>Sprint #2</th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <th>Technical User Story</th>
+    <th></th>
+    <th>WorkItem/Task</th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <th>ID</th>
+    <th>Title</th>
+    <th>ID</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status</th>
+  </tr>
+  <tr>
+    <td>US01</td>
+    <td>Medición Automática de Parámetros Ambientales</td>
+    <td>TK01</td>
+    <td>Implementar lectura automática desde sensores</td>
+    <td>Programar los sensores para medir temperatura y humedad sin intervención humana</td>
+    <td>5</td>
+    <td>Nicolas Espinoza</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US02</td>
+    <td>Monitoreo en Tiempo Real de Temperatura y Humedad</td>
+    <td>TK02</td>
+    <td>Mostrar datos en tiempo real</td>
+    <td>Crear interfaz y lógica para visualizar las mediciones en tiempo real</td>
+    <td>8</td>
+    <td>Carlo Seminario</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US07</td>
+    <td>Gestión de Intervalos de Medición</td>
+    <td>TK03</td>
+    <td>Crear configuración de intervalos</td>
+    <td>Permitir configurar cada cuánto tiempo se mide y los umbrales aceptables</td>
+    <td>5</td>
+    <td>Alan Galavis</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US03</td>
+    <td>Alertas por Parámetros Fuera de Rango</td>
+    <td>TK04</td>
+    <td>Configurar alertas automáticas</td>
+    <td>Implementar sistema de alertas cuando las mediciones excedan los umbrales</td>
+    <td>4</td>
+    <td>Jherson Astuyauri</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US04</td>
+    <td>Visualización Gráfica de Parámetros</td>
+    <td>TK05</td>
+    <td>Mostrar gráficos de evolución</td>
+    <td>Visualizar los cambios de temperatura y humedad a lo largo del tiempo</td>
+    <td>4</td>
+    <td>Alan Galavis</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US06</td>
+    <td>Exportación de Datos</td>
+    <td>TK06</td>
+    <td>Exportar datos en Excel</td>
+    <td>Permitir descarga de los datos en formato estándar para análisis</td>
+    <td>4</td>
+    <td>Andrés Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US18</td>
+    <td>Listado de Trabajadores</td>
+    <td>TK07</td>
+    <td>Visualizar trabajadores registrados</td>
+    <td>Mostrar el listado completo de trabajadores de la empresa</td>
+    <td>4</td>
+    <td>Jherson Astuyauri</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US16</td>
+    <td>Visualizar Perfil de Usuario</td>
+    <td>TK08</td>
+    <td>Ver perfil completo de usuario</td>
+    <td>Permitir al usuario visualizar su información personal</td>
+    <td>4</td>
+    <td>Carlo Seminario</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US17</td>
+    <td>Actualizar Datos Personales</td>
+    <td>TK09</td>
+    <td>Editar información personal</td>
+    <td>Habilitar la edición de datos personales dentro del perfil</td>
+    <td>4</td>
+    <td>Andrés Soto</td>
+    <td>Done</td>
+  </tr>
+</table>
 
 <h4 id='6.2.2.4.'>6.2.2.4. Development Evidence for Sprint Review.</h4>
   
 | Repository | Branch | Commit ID | Commit Message | Committed on (Date) |
 | ----- | ----- | ----- | ----- | ----- |
-| |  |  | | |
+| embedded | main | 68295be | feat: added embedded code for actuator and sensor esp32 | 14/06 |
+| mobile | develop | 64efab5 | feat: hidden record dialog for phase incubation and onward | 14/06 |
+| edge | main | 08177fe | feat: edge layer complete first version | 14/06 |
+| edge | main | 9f11511 | feat: added docker configuration for deployment | 17/06 |
+| edge | main | f828105 | chore: changed port binding to 80 | 18/06 |
+| edge | main | 586fcfa | chore: added environment variables for deployment | 18/06 |
 
 <h4 id='6.2.2.5.'>6.2.2.5. Testing Suite Evidence for Sprint Review.</h4>
 
@@ -4042,8 +4165,7 @@ En la siguiente sección se presentan los cambios en el repositorio de testing d
 
 |       Repository       | Branch  | Commit ID | Commit Message | Committed on (Date) |
 | :--------------------: | :-----: | :-------: | :------------: | :-----------------: |
-| Greenhouse-IoT/testing | testing |           |                |                     |
-| Greenhouse-IoT/testing | testing |           |                |                     |
+| Greenhouse-IoT/testing | testing |      aa7875d     |       docs: added medition and actuation .feature files         |        21/06             |
 
 <h4 id='6.2.2.6.'>6.2.2.6. Execution Evidence for Sprint Review.</h4>
 
@@ -4110,6 +4232,16 @@ El endpoint POST /api/v1/templates permite crear un template de correo electrón
 El endpoint POST /api/v1/mails permite enviar correos electrónicos a partir de un template seleccionado.
 
 <img src='assets/images/chapter-6/13.png' alt='Git Flow' />
+
+**Edge endpoints:**
+
+El endpoint POST /api/v1/greenhouse/crop-info del edge permite recibir y persistir el cropId y la phase.
+
+<img src='assets/images/chapter_6/edge_post_images/crop-info.png' alt='Git Flow' />
+
+El endpoint POST /api/v1/greenhouse/sensor-readings permite recibir datos de los sensores del ESP32, previa autenticación.
+
+<img src='assets/images/chapter_6/edge_post_images/sensor-readings.png' alt='Git Flow' />
 
 <h4 id='6.2.2.7.'>6.2.2.7. Services Documentation Evidence for Sprint Review.</h4>
 
@@ -4215,49 +4347,278 @@ El modelo de computer visión se entrenó desde ultralytics el mismo te brinda u
 
 <img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/route53.png' alt='Route 53 Desplegado' />
 
+**Edge Desplegado:**
+
+Se desplegó un sistema Edge que permite procesar datos localmente en zonas donde la conectividad con la nube es limitada o intermitente. Este sistema actúa como intermediario entre los sensores, actuadores y la nube.
+
+<img src='assets/images/chapter_6/sprint_2/software_deployment_evidence/edge_deploy.png' alt='Edge Desplegado' />
+
+**Servidor de Actuadores:**
+
+Se implementó un servidor embebido para el control de actuadores, permitiendo ejecutar acciones en tiempo real desde el edge.
+
+<img src='assets/images/chapter_6/sprint_2/software_deployment_evidence/actuadores_server.png' alt='Servidor de Actuadores' />
+
+
+**Embebido de Actuadores:**
+
+Se configuró el sistema embebido encargado de recibir señales desde el edge y ejecutar comandos hacia los actuadores.
+
+<img src='assets/images/chapter_6/sprint_2/software_deployment_evidence/embebido_actuadores.png' alt='Embebido de Actuadores' />
+
+
+**Sensores:**
+
+Se integraron sensores ambientales al sistema edge para la recolección de datos. Estos dispositivos transmiten información de humedad, temperatura y otros parámetros clave.
+
+<img src='assets/images/chapter_6/sprint_2/software_deployment_evidence/sensores.png' alt='Sensores Conectados' />
+
+
+**Endpoint del Edge:**
+
+El endpoint que permite la comunicación directa con el sistema edge desplegado es:
+
+* [http://44.200.80.62](http://44.200.80.62)
+
+<img src='assets/images/chapter_6/sprint_2/software_deployment_evidence/edge_enpoint.png' alt='Endpoint del Edge' />
+
+
+
 <h4 id='6.2.2.9.'>6.2.2.9. Team Collaboration Insights during Sprint.</h4>
 
 A continuación se presentan las insights de la colaboración del equipo durante el presente Sprint 2.
 
-**Landing Page**
-
-| Integrante        | Funcionalidad Asignada |
-| ----------------- | ---------------------- |
-| Alan Galavis      |                        |
-| Andres Soto       |                        |
-| Carlo Seminario   |                        |
-| Jherson Astuyauri |                        |
-| Nicolas Espinoza  |                        |
-
-**Web-app**
-
-| Integrante        | Funcionalidad Asignada |
-| ----------------- | ---------------------- |
-| Alan Galavis      |                        |
-| Andres Soto       |                        |
-| Carlo Seminario   |                        |
-| Jherson Astuyauri |                        |
-| Nicolas Espinoza  |                        |
-
-**Back end**
-
-| Integrante        | Funcionalidad Asignada |
-| ----------------- | ---------------------- |
-| Alan Galavis      |                        |
-| Andres Soto       |                        |
-| Carlo Seminario   |                        |
-| Jherson Astuyauri |                        |
-| Nicolas Espinoza  |                        |
-
 **Mobile-app**
 
+<img src='assets/images/collaboration_insights/tb2/collabs_repos/mobile.png' alt='Mobile Commit Chart' />
+
+<img src='assets/images/collaboration_insights/tb2/collabs_repos/mobile 2.png' alt='Mobile Timeline Chart' />
+
 | Integrante        | Funcionalidad Asignada |
 | ----------------- | ---------------------- |
-| Alan Galavis      |                        |
-| Andres Soto       |                        |
-| Carlo Seminario   |                        |
-| Jherson Astuyauri |                        |
-| Nicolas Espinoza  |                        |
+| Andres Soto       |   Record dialog for phase incubation      |
+
+**Edge**
+
+<img src='assets/images/collaboration_insights/tb2/collabs_repos/edge.png' alt='Edge Commit Chart' />
+
+<img src='assets/images/collaboration_insights/tb2/collabs_repos/edge 2.png' alt='Edge Timeline Chart' />
+
+| Integrante        | Funcionalidad Asignada |
+| ----------------- | ---------------------- |
+| Carlo Seminario   |  Edge Service Functionalities   |
+
+**Embedded**
+
+<img src='assets/images/collaboration_insights/tb2/collabs_repos/Embedded.png' alt='Embedded Commit Chart' />
+
+<img src='assets/images/collaboration_insights/tb2/collabs_repos/Embedded 2.png' alt='Embedded Timeline Chart' />
+
+| Integrante        | Funcionalidad Asignada |
+| ----------------- | ---------------------- |
+| Carlo Seminario   |  Embedded Application Functionalities  |
+
+<h2 id='6.3.'>6.3. Validation Interviews.</h2>
+<h3 id='6.3.1.'>6.3.1. Diseño de Entrevistas.</h3>
+
+Las entrevistas de validación se diseñaron para evaluar la usabilidad, utilidad y claridad tanto de la **landing page** como de las funcionalidades de la **aplicación web y móvil**. Se realizaron entrevistas con dos segmentos objetivos: **técnicos supervisores** y **administradores de fábrica**.
+
+#### Segmento: Técnico Supervisor
+
+**Datos del entrevistado:**
+
+* Nombre
+* Cargo dentro de la empresa
+* Nombre de la empresa
+
+**Preguntas sobre la landing page:**
+
+1. ¿Qué te parecen los colores, el tamaño de la letra y la información presentada en la landing page?
+2. En cuanto a los beneficios mostrados en la landing page, ¿qué te parecen las imágenes y la información presentada?
+3. ¿Cuál sería la calificación que le darías a la landing page (del 1 al 10)?
+
+**Preguntas sobre la aplicación web y móvil:**
+
+4. ¿Cómo llevas actualmente tus registros? ¿Cómo accedes a la información necesaria para tu labor?
+5. ¿Qué te parece la funcionalidad de inicio de sesión de la aplicación?
+6. ¿Qué opinas sobre el manejo de las naves dentro de la aplicación?
+7. ¿Qué te parece el registro de cada cultivo? ¿Lo consideras práctico?
+8. ¿Qué opinas sobre los datos de análisis que se obtendrán en cada fase del cultivo? ¿Crees que los reportes te serían útiles?
+9. ¿Qué te parece el directorio de trabajadores? ¿Te resulta fácil agregar o visualizar trabajadores?
+10. En general, ¿qué te parece la aplicación? ¿Te resulta intuitiva y útil para tus actividades diarias?
+11. ¿Qué opinas sobre los filtros y el buscador dentro de la aplicación? ¿Te ayudan a encontrar lo que necesitas fácilmente?
+
+
+#### Segmento: Administrador de Fábrica
+
+**Datos del entrevistado:**
+
+* Nombre
+* Cargo dentro de la empresa
+* Nombre de la empresa
+
+**Preguntas sobre la landing page:**
+
+1. ¿Qué opinas sobre los colores, tamaño de letra e información presentada en la landing page?
+2. ¿Qué te parecen las imágenes y los beneficios mostrados en la landing page?
+3. ¿Qué calificación le darías a la landing page (del 1 al 10)?
+
+**Preguntas sobre la aplicación web y móvil:**
+
+4. ¿Cómo accedes actualmente a la información y reportes de tu fábrica?
+5. ¿Qué opinas sobre la experiencia de inicio de sesión en la aplicación?
+6. ¿Qué te parece la gestión de naves dentro de la plataforma?
+7. ¿Cómo valoras el registro y seguimiento de los cultivos?
+8. ¿Crees que los datos y reportes que se generan en cada etapa del cultivo pueden ayudarte en la toma de decisiones?
+9. ¿Consideras útil el módulo de trabajadores (visualización, edición, creación)?
+10. ¿En general, cómo calificarías la aplicación? ¿Es funcional, intuitiva y útil para tu rol?
+11. ¿Los filtros y buscador disponibles en la plataforma cumplen tus expectativas?
+
+
+<h4 id='6.3.2'>6.3.2 Registro de entrevistas.</h4>
+
+**Entrevistas de validación Landing Page**
+
+Entrevista de validación Landing Page usuario técnico supervisor 01:
+| Entrevistado 01 | Giancarlo del Águila |
+|-----------------|----------------------|
+| <img src='assets/images/chapter_6/FinalProductInterview/entrevistado_1_landingpage.png' alt='Entrevistado 1' /> | Para esta entrevista, Giancarlo del Águila, cliente de la aplicación del segmento técnico supervisor, dió su comentario acerca de la Landing Page de Greenhouse. Giancarlo resaltó la legibilidad de la información mostrada en la página web y manifestó que este factor es de suma importancia para el rubro de su negocio. También tuvo una opinión positiva respecto al diseño general y la elección de colores, además de elogiar la organización de los datos que se presentan al usuario. |
+|URL: |  [https://youtu.be/Cz0t6uxLfBA](https://youtu.be/Cz0t6uxLfBA) |
+
+Entrevista de validación Landing Page usuario administrador 01:
+| Entrevistado 01 | Frank Du Bois |
+|-----------------|----------------------|
+| <img src='assets/images/chapter_6/FinalProductInterview/entrevistado_2_landingpage.png' alt='Entrevistado 2' /> | Para esta entrevista, Frank Du Bois, cliente de la aplicación del segmento administrador, dió su comentario acerca de la Landing Page de Greenhouse. Frank expresó que la página web le resulta amigable, clara y que el logo resalta la marca de la aplicación. Remarcó que los precios de la aplicación son accesibles y cómodos para tratarse de una app destinada a un uso empresarial. Una crítica que tuvo fue que la Landing Page necesita tener una opción para cambiar el idioma, esto debido a la gran cantidad de empleados en la fábrica que solo conocen el español y no el inglés, idioma principal de la Landing Page y la aplicación Greenhouse. |
+|URL: |  [https://youtu.be/CdlnnP9VLW8](https://youtu.be/CdlnnP9VLW8) |
+
+Entrevista de validación Landing Page usuario administrador 02:
+| Entrevistado 01 | Julio Du Bois |
+|-----------------|----------------------|
+| <img src='assets/images/chapter_6/FinalProductInterview/entrevistado_3_landingpage.png' alt='Entrevistado 3' /> | Para esta entrevista, Julio Du Bois, cliente de la aplicación del segmento administrador y gerente de la empresa PeruAgro, dió su comentario acerca de la Landing Page de Greenhouse. Julio considera que el diseño de la landing page es pertinente al negocio y es adecuado para lo que se espera del producto. Explicó también acerca del estatus actual de su negocio. Finalmente, resaltó el esfuerzo de los desarrolladores de la aplicación, la cual considera que tendrá un papel fundamental en las operaciones de las fábricas de champiñones en el Perú. |
+|URL: |  [https://youtu.be/nmiP8OpT1wE](https://youtu.be/nmiP8OpT1wE) |
+
+**Entrevistas de validación Web App**
+
+Entrevista de validación Web App usuario administrador 01:
+| Entrevistado 01 | Julio Du Bois |
+|-----------------|----------------------|
+| <img src='assets/images/chapter_6/FinalProductInterview/entrevistado_1_webapp.png' alt='Entrevistado 1' /> | Para esta entrevista, Julio Du Bois otorga una retroalimentación relacionada a la aplicación web Greenhouse. Recalca que esta le sería valiosa para poder hacer seguimiento del estado de sus cultivos, y para filtrar la información más relevante. Como sugerencia, indica que sería útil contar con un gráfico superpuesto que permita comparar dos cultivos al mismo tiempo. |
+|URL: |  [https://youtu.be/daU0wuRAirg](https://youtu.be/daU0wuRAirg) |
+
+Entrevista de validación Web App usuario administrador 02:
+| Entrevistado 01 | Frank Du Bois |
+|-----------------|----------------------|
+| <img src='assets/images/chapter_6/FinalProductInterview/entrevistado_2_webapp.png' alt='Entrevistado 2' /> | Durante esta entrevista, Frank Du Bois, cliente de la aplicación del segmento administrador, dió su comentario acerca de la Web App de Greenhouse. Frank expresó que la página le parece sencilla de utilizar, hace énfasis en que los íconos son útiles para identificar en qué sección se encuentra, y otorga como sugerencia darle la posibilidad a los usuarios a cambiar el color de la aplicación para que se acomode a la marca de su fábrica. |
+|URL: |  [https://youtu.be/E3FVg01xo7w](https://youtu.be/E3FVg01xo7w) |
+
+**Entrevistas de validación Mobile App**
+
+Entrevista de validación Mobile App usuario técnico supervisor 01:
+| Entrevistado 01 | Giancarlo del Águila |
+|-----------------|----------------------|
+| <img src='assets/images/chapter_6/FinalProductInterview/entrevistado_1_mobileapp.png' alt='Entrevistado 1' /> | Giancarlo del Águila es el Gerente de Producción y Personal de la empresa Perú Agro. Durante la entrevista, interactúa con las vistas dashboard, cultivos en progreso, archivo de cultivos y perfil del usuario y de la empresa, las cuales forman parte de la aplicación Greenhouse. Giancarlo otorga una retroalimentación valiosa y positiva, puesto que sugiere que los colores, la tipografía y la distribución de la información convierten a la aplicación en un software accesible e intuitivo. Giancarlo concluye la entrevista recalcando la importancia de que el cliente corrobore que los features implementados correspondan con los requisitos planteados por el cliente, y que resulta relevante asegurar que la sección de registros permita cubrir por completo los procesos que atraviesan los cultivos de champiñones. |
+|URL: |  [https://youtu.be/emG8imh3ANM](https://youtu.be/emG8imh3ANM) |
+
+<h4 id='6.3.3.'>6.3.3. Evaluaciones según heurísticas.</h4>
+
+**SITE O APP A EVALUAR:**
+
+Greenhouse
+
+**TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Registro de un usuario y compañía nueva
+2. Registro de un nuevo cultivo mobile
+3. Registro de récords en un determinado cultivo
+4. Finalización y cambio de fase mobile
+5. Perfil de usuario
+6. Perfil de compañía
+7. Adquisición de membresías
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Notificaciones
+2. Validaciones con membresías
+
+**ESCALA DE SEVERIDAD:**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+|       Nivel       |       Descripcion      |
+| ----------------- | ---------------------- |
+| 1 |            Problema superficial: puede ser fácilmente superado por el usuario. Ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo            |
+| 2 |            Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release            |
+| 3 |            Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.            |
+| 4 |            Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.            |
+
+**TABLA RESUMEN:**
+
+| # | Problema | Escala de severidad | Heurística/Principio violado |
+| --- | -------- | -------------------- | ----------------------------- |
+|1|Imágenes sin atributo alt|3|Inclusive Design: Proporciona experiencias comparables|
+|2|El stepper no se actualiza al retroceder después de cambiar de fase|2|Information Architecture: is it usable?|
+|3|No es posible consultar los beneficios y limitaciones de los planes de membresía|3|Information Architecture: is it usable?|
+|4|No es posible mejorar el nivel de la membresía|3|Usability: Libertad y Control del usuario|
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**PROBLEMA #1:** Imágenes sin atributo alt
+
+**Severidad:** 3
+
+**Heurística violada:** Diseño Inclusivo - Proporciona experiencias comparables
+
+**Problema:**
+Las imágenes que se muestran en la aplicación no cuentan con el atributo alt, lo que significa que no pueden ser distinguidas por personas con incapacidad visual que utilizan herramientas para leer la pantalla. Esto constituye un gran problema de inclusión ya que impide que una gran cantidad de usuarios se guíe por la aplicación.
+
+**Recomendación:**
+Es imperativo utilizar aria labels o atributo alt para las imágenes, figuras y tablas dentro de la aplicación web.
+
+**PROBLEMA #2:** El stepper no se actualiza al retroceder después de cambiar de fase
+
+**Severidad:** 2
+
+**Heurística violada:** Arquitectura de la Información - ¿Es usable?
+
+**Problema:**
+Cuando se cambia la fase del cultivo en la aplicación móvil y luego el usuario retrocede de vista, no se refleja el cambio en el componente stepper de la vista del usuario a pesar de haberse efectuado sin problemas en la aplicación. Es posible que el usuario se encuentre desorientado debido a este problema.
+
+**Recomendación:**
+Actualizar la información del stepper a tiempo real en cada parte del proceso o impedir al usuario retroceder de vista después del cambio de fase.
+
+**PROBLEMA #3:** No es posible consultar los beneficios y limitaciones de los planes de membresía
+
+**Severidad:** 3
+
+**Heurística violada:** Arquitectura de la Información - ¿Es usable?
+
+**Problema:**
+A pesar de poder adquirir una membresía y utilizar sus beneficios dentro de la aplicación, el usuario no puede consultar sus beneficios y limitaciones más allá de la vista donde adquiere esta membresía. Es importante que el usuario pueda estar consciente en todo momento de lo que se le confiere al portar una membresía en la aplicación.
+
+**Recomendación:**
+Diseñar e implementar una vista con la información de las membresías que el usuario pueda consultar en cualquier momento.
+
+**PROBLEMA #4:** No es posible mejorar el nivel de la membresía
+
+**Severidad:** 3
+
+**Heurística violada:** Usabilidad - Libertad y Control del Usuario
+
+**Problema:**
+Tras adquirir una membresía al crear una cuenta de compañía, el usuario no tiene la posibilidad de mejorarla, es decir, adquirir un plan mayor que se ajuste mejor a sus necesidades. Dado que la aplicación está diseñada para su uso extensivo y a nivel empresarial, es imprescindible permitirle al usuario este tipo de mejora para que la aplicación se ajuste mejor a sus necesidades.
+
+**Recomendación:**
+Diseñar e implementar una vista para la mejora del nivel de membresía.
+
+
+<h4 id='6.4.'>6.4. Video About-the-Product</h4>
+
+| Video About the Product |
+| ----------------------- |
+| <img src='assets/images/chapter_6/video-about-the-product/video-about-the-product.png' alt='Video de demostracion del producto' /> |
+| URL: [https://youtube.com/shorts/r7QcOc0uhz8](https://youtube.com/shorts/r7QcOc0uhz8?feature=share) |
 
 <h1 id='conclusiones'>Conclusiones</h1>
 El desarrollo de los problem statements y assumptions demostró aproximarse bastante al comportamiento de nuestros segmentos objetivos de arrendador y arrendatario. Esto se debió a un correcto análisis (previo a la realización de entrevistas) sobre cómo planteamos llevar a cabo el proceso de alquiler de bicicletas y qué es lo que esperan los ciclistas en general en base a nuestros propios conocimientos, experiencia e investigación.
