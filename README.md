@@ -3950,11 +3950,11 @@ A continuación se presentan las insights de la colaboración del equipo durante
   <tr>
     <th>Team Member (Last Name, First Name)</th>
     <th>GitHub Username</th>
-    <th>Leader (L) / Collaborator (C)</th>
-    <th>Leader (L) / Collaborator (C)</th>
-    <th>Leader (L) / Collaborator (C)</th>
-    <th>Leader (L) / Collaborator (C)</th>
-    <th>Leader (L) / Collaborator (C)</th>
+    <th>Despliegue y QA: Leader (L) / Collaborator (C) </th>
+    <th>Desarrollo del API: Leader (L) / Collaborator (C)</th>
+    <th>Desarrollo de la Landing Page: Leader (L) / Collaborator (C)</th>
+    <th>Desarrollo del Edge: Leader (L) / Collaborator (C)</th>
+    <th>Desarrollo de la Mobile App: Leader (L) / Collaborator (C)</th>
   </tr>
   <tr>
     <td>Astuyauri Calderon, Jherson David</td>
@@ -4539,7 +4539,8 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 **TABLA RESUMEN:**
 
-|#|Problema|Escala de severidad|Heurística/Principio violado|
+| # | Problema | Escala de severidad | Heurística/Principio violado |
+| --- | -------- | -------------------- | ----------------------------- |
 |1|Imágenes sin atributo alt|3|Inclusive Design: Proporciona experiencias comparables|
 |2|El stepper no se actualiza al retroceder después de cambiar de fase|2|Information Architecture: is it usable?|
 |3|No es posible consultar los beneficios y limitaciones de los planes de membresía|3|Information Architecture: is it usable?|
