@@ -3610,9 +3610,9 @@ Para el caso de la aplicación Iot embebida está será instalada mediante Ardui
   <tr>
     <th>Sprint 1 Goal</th>
     <td>
-Our focus is on creating a fully functional and informative landing page for the Greenhouse application.
-We believe it delivers clear communication and attracts potential users by showcasing the key benefits of the platform.
-This will be confirmed when visitors can access the landing page, understand the value of the application, and navigate to the sign-up page for further engagement.</td>
+Nuestro enfoque está en crear una página de aterrizaje completamente funcional e informativa para la aplicación Greenhouse.
+Creemos que ofrece una comunicación clara y atrae a los usuarios potenciales al mostrar los beneficios clave de la plataforma.
+Esto se confirmará cuando los visitantes puedan acceder a la página de aterrizaje, comprender el valor de la aplicación y navegar a la página de registro para un mayor compromiso.</td>
   </tr>
   <tr>
     <th>Sprint 1 Velocity</th>
@@ -3693,18 +3693,18 @@ El objetivo principal del Sprint 2 fue entrenar, probar, conectar e implementar 
 | -------------------- | --------------------------------------------------------------------------------- | ------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ------------------ | ----------------- | ------ |
 | Technical User Story |                                                                                   | WorkItem/Task |                                                                |                                                                                                                    |                    |                   |        |
 | ID                   | Title                                                                             | ID            | Title                                                          | Description                                                                                                        | Estimation (Hours) | Assigned To       | Status |
-| US05                 | Acceso a Datos Históricos                                                         | TK01          | Realizar vista de datos historicos                             | Generar seccion donde se van a mostrar todos los datos que hay                                                     | 1                  | Andres Soto       | Done   |
-| US08                 | Iniciar sesion                                                                    | TK02          | Realizar vista de inicio de sesion                             | Generar seccion donde se va a mostrar el inicio de sesion                                                          | 1                  | Carlo Seminario   | Done   |
-|                      |                                                                                   | TK03          | Realizar proceso de autenticacion                              | Desarrollar proceso de autenticacion                                                                               | 1                  | Andres Soto       | Done   |
-| US09                 | Crear cuenta empresa                                                              | TK04          | Creacion de cuenta de la empresa                               | Desde la web app permitir al usuario generar su cuenta de empresa                                                  | 1                  | Carlo Seminario   | Done   |
-| US10                 | Crear cuenta tecnico supervisor                                                   | TK05          | Creaion de la cuenta del tecnico supervisor                    | Permitir que solo los administradores puedan crear cuenta de tecnico supervisor para sus empleados                 | 1                  | Alan Galavis      | Done   |
-| US11                 | Iniciar Nuevo Cultivo                                                             | TK06          | Realizar funcionalidad de creacion de nuevo cultivo            | Permitir que los usuarios tecnicos supervisores creen nuevos cultivos                                              | 1                  | Nicolas espinoza  | Done   |
-| US12                 | Editar y Eliminar Cultivos                                                        | TK07          | Permitir que se pueda editar o eliminar cultivos               | Desde la web app o app movil permitir que los usuarios puedan modificar informacion de los cultivos o eliminarlos. | 1                  | Jherson Astuyauri | Done   |
-| US13                 | Documentar registros durante la preparación, cocción y pasteurización del compost | TK08          | Documentar los registros en las ultimas fases de produccion    | Permitir que los usuarios registren informacion en las ultimas fases del desarrollo                                | 1                  | Nicolas Espinoza  | Done   |
-| US14                 | Ver Listado de Cultivos en Progreso                                               | TK09          | Visualizacion de cultivos en progreso                          | Permitir a los usuarios ver los cultivos que se encuentran en progreso                                             | 1                  | Alan Galavis      | Done   |
-| US15                 | Avanzar Etapa de un Cultivo                                                       | TK10          | Permitir avanzar de etapa al finalizar el registro de cultivos | Desde la app móvil permitir que el técnico avanzar de etapa postarior al llenado de registros.                     | 1                  | Jherson Astuyauri | Done   |
-| US19                 | Acceder a la aplicación desde la landing page                                     | TK11          | Conectar landing con web app                                   | Desde la landing page poder ingresar a la web app.                                                                 | 1                  | Alan Galavis      | Done   |
-| US20                 | Descripción de la aplicación                                                      | TK12          | Seccion de la descripcion                                      | Desde la landing page visualizar la descipcion de la aplicacion                                                    | 1                  | Andres Soto       | Done   |
+| US05                 | Acceso a Datos Históricos                                                         | TK01          | Realizar vista de datos historicos                             | Generar seccion donde se van a mostrar todos los datos que hay                                                     | 4                  | Andres Soto       | Done   |
+| US08                 | Iniciar sesion                                                                    | TK02          | Realizar vista de inicio de sesion                             | Generar seccion donde se va a mostrar el inicio de sesion                                                          | 4                  | Carlo Seminario   | Done   |
+|                      |                                                                                   | TK03          | Realizar proceso de autenticacion                              | Desarrollar proceso de autenticacion                                                                               | 4                  | Andres Soto       | Done   |
+| US09                 | Crear cuenta empresa                                                              | TK04          | Creacion de cuenta de la empresa                               | Desde la web app permitir al usuario generar su cuenta de empresa                                                  | 4                  | Carlo Seminario   | Done   |
+| US10                 | Crear cuenta tecnico supervisor                                                   | TK05          | Creaion de la cuenta del tecnico supervisor                    | Permitir que solo los administradores puedan crear cuenta de tecnico supervisor para sus empleados                 | 4                  | Alan Galavis      | Done   |
+| US11                 | Iniciar Nuevo Cultivo                                                             | TK06          | Realizar funcionalidad de creacion de nuevo cultivo            | Permitir que los usuarios tecnicos supervisores creen nuevos cultivos                                              | 4                  | Nicolas espinoza  | Done   |
+| US12                 | Editar y Eliminar Cultivos                                                        | TK07          | Permitir que se pueda editar o eliminar cultivos               | Desde la web app o app movil permitir que los usuarios puedan modificar informacion de los cultivos o eliminarlos. | 4                  | Jherson Astuyauri | Done   |
+| US13                 | Documentar registros durante la preparación, cocción y pasteurización del compost | TK08          | Documentar los registros en las ultimas fases de produccion    | Permitir que los usuarios registren informacion en las ultimas fases del desarrollo                                | 4                  | Nicolas Espinoza  | Done   |
+| US14                 | Ver Listado de Cultivos en Progreso                                               | TK09          | Visualizacion de cultivos en progreso                          | Permitir a los usuarios ver los cultivos que se encuentran en progreso                                             | 4                  | Alan Galavis      | Done   |
+| US15                 | Avanzar Etapa de un Cultivo                                                       | TK10          | Permitir avanzar de etapa al finalizar el registro de cultivos | Desde la app móvil permitir que el técnico avanzar de etapa postarior al llenado de registros.                     | 4                  | Jherson Astuyauri | Done   |
+| US19                 | Acceder a la aplicación desde la landing page                                     | TK11          | Conectar landing con web app                                   | Desde la landing page poder ingresar a la web app.                                                                 | 4                  | Alan Galavis      | Done   |
+| US20                 | Descripción de la aplicación                                                      | TK12          | Seccion de la descripcion                                      | Desde la landing page visualizar la descipcion de la aplicacion                                                    | 4                  | Andres Soto       | Done   |
 
 <h4 id='6.2.1.4.'>6.2.1.4. Development Evidence for Sprint Review.</h4>
   
@@ -4076,7 +4076,7 @@ El objetivo principal del Sprint 2 conectar e implementar el modelo IoT para pod
     <td>TK04</td>
     <td>Configurar alertas automáticas</td>
     <td>Implementar sistema de alertas cuando las mediciones excedan los umbrales</td>
-    <td>3</td>
+    <td>4</td>
     <td>Jherson Astuyauri</td>
     <td>Done</td>
   </tr>
@@ -4086,7 +4086,7 @@ El objetivo principal del Sprint 2 conectar e implementar el modelo IoT para pod
     <td>TK05</td>
     <td>Mostrar gráficos de evolución</td>
     <td>Visualizar los cambios de temperatura y humedad a lo largo del tiempo</td>
-    <td>2</td>
+    <td>4</td>
     <td>Alan Galavis</td>
     <td>Done</td>
   </tr>
@@ -4096,7 +4096,7 @@ El objetivo principal del Sprint 2 conectar e implementar el modelo IoT para pod
     <td>TK06</td>
     <td>Exportar datos en Excel</td>
     <td>Permitir descarga de los datos en formato estándar para análisis</td>
-    <td>2</td>
+    <td>4</td>
     <td>Andrés Soto</td>
     <td>Done</td>
   </tr>
@@ -4106,7 +4106,7 @@ El objetivo principal del Sprint 2 conectar e implementar el modelo IoT para pod
     <td>TK07</td>
     <td>Visualizar trabajadores registrados</td>
     <td>Mostrar el listado completo de trabajadores de la empresa</td>
-    <td>3</td>
+    <td>4</td>
     <td>Jherson Astuyauri</td>
     <td>Done</td>
   </tr>
@@ -4116,7 +4116,7 @@ El objetivo principal del Sprint 2 conectar e implementar el modelo IoT para pod
     <td>TK08</td>
     <td>Ver perfil completo de usuario</td>
     <td>Permitir al usuario visualizar su información personal</td>
-    <td>3</td>
+    <td>4</td>
     <td>Carlo Seminario</td>
     <td>Done</td>
   </tr>
@@ -4126,7 +4126,7 @@ El objetivo principal del Sprint 2 conectar e implementar el modelo IoT para pod
     <td>TK09</td>
     <td>Editar información personal</td>
     <td>Habilitar la edición de datos personales dentro del perfil</td>
-    <td>2</td>
+    <td>4</td>
     <td>Andrés Soto</td>
     <td>Done</td>
   </tr>
