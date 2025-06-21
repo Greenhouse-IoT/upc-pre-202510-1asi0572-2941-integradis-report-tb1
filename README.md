@@ -3917,28 +3917,31 @@ A continuación se presentan las insights de la colaboración del equipo durante
   </tr>
   <tr>
     <th>Sprint 1 Review Summary</th>
-    <td> </td>
+    <td>Durante el Sprint 1 se logró implementar una landing page funcional e informativa para la aplicación Greenhouse. Esta versión permite a los usuarios conocer los beneficios principales del sistema y acceder a la página de registro.</td>
   </tr>
   <tr>
     <th>Sprint 1 Retrospective Summary</th>
-    <td> </td>
+    <td>El equipo destacó una buena colaboración y cumplimiento del objetivo. Se identificó la necesidad de mejorar la estimación de tiempos y la integración temprana entre frontend y backend.</td>
   </tr>
   <tr>
     <th colspan="2">Sprint Goal & User Stories</th>
   </tr>
   <tr>
     <th>Sprint 2 Goal</th>
-    <td> </td>
+    <td>
+      Implementar las funcionalidades clave relacionadas con la medición automática, monitoreo y visualización de los parámetros ambientales (temperatura y humedad), así como la gestión básica de usuarios y exportación de datos. Este sprint busca sentar las bases para el control y análisis de las condiciones ambientales dentro del cultivo de champiñones.
+    </td>
   </tr>
   <tr>
     <th>Sprint 2 Velocity</th>
-    <td>Para este sprint, se consideró aceptar como máximo N story points.</td>
+    <td>Para este sprint, se consideró aceptar como máximo 33 story points.</td>
   </tr>
   <tr>
     <th>Sum of Story Points</th>
-    <td> N </td>
+    <td>33</td>
   </tr>
 </table>
+
 
 <h4 id='6.2.2.2.'>6.2.2.2. Aspect Leaders and Collaborators.</h4>
 
