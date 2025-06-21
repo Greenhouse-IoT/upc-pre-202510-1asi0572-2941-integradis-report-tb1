@@ -4596,6 +4596,13 @@ Tras adquirir una membresía al crear una cuenta de compañía, el usuario no ti
 Diseñar e implementar una vista para la mejora del nivel de membresía.
 
 
+<h4 id='6.4.'>6.4. Video About-the-Product</h4>
+
+| Video About the Product |
+| ----------------------- |
+| <img src='assets/images/chapter_6/video-about-the-product/video-about-the-product.png' alt='Video de demostracion del producto' /> |
+| URL: [https://youtube.com/shorts/r7QcOc0uhz8](https://youtube.com/shorts/r7QcOc0uhz8?feature=share) |
+
 <h1 id='conclusiones'>Conclusiones</h1>
 El desarrollo de los problem statements y assumptions demostró aproximarse bastante al comportamiento de nuestros segmentos objetivos de arrendador y arrendatario. Esto se debió a un correcto análisis (previo a la realización de entrevistas) sobre cómo planteamos llevar a cabo el proceso de alquiler de bicicletas y qué es lo que esperan los ciclistas en general en base a nuestros propios conocimientos, experiencia e investigación.
 Nuestras aproximaciones planteadas en el anterior punto se vieron más detalladas una vez realizado el proceso de entrevistas de validación, donde se pudo confirmar de que la redacción planteada en un inicio (de los problem statements y assumptions) estuvieron satisfactoriamente alineados a lo que se especificó con anterioridad.
