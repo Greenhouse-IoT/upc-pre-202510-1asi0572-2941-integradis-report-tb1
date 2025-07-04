@@ -4418,6 +4418,30 @@ A continuación se presentan las insights de la colaboración del equipo durante
 | ----------------- | ---------------------- |
 | Carlo Seminario   |  Embedded Application Functionalities  |
 
+<h4 id='6.2.3.7.'>6.2.3.7. Services Documentation Evidence for Sprint Review.</h4>
+
+Durante el Sprint 3, no se realizaron modificaciones en los microservicios existentes. Por tanto, los endpoints documentados en sprints anteriores se mantienen vigentes y funcionales, sin alteraciones en su estructura ni lógica. A continuación, se presentan nuevamente los endpoints correspondientes a cada microservicio como evidencia de continuidad:
+
+<strong>IAM endpoints:</strong><br>
+<img src='assets/images/chapter-6/14.png' alt='IAM Endpoints' />
+
+<strong>Personas endpoints:</strong><br>
+<img src='assets/images/chapter-6/15.png' alt='Personas Endpoints' />
+
+<strong>Companies endpoints:</strong><br>
+<img src='assets/images/chapter-6/16.png' alt='Companies Endpoints' />
+
+<strong>Mail endpoints:</strong><br>
+<img src='assets/images/chapter-6/17.png' alt='Mail Endpoints' />
+
+<strong>Crops endpoints:</strong><br>
+<img src='assets/images/chapter-6/18.png' alt='Crops Endpoints' />
+
+<strong>Records endpoints:</strong><br>
+<img src='assets/images/chapter-6/19.png' alt='Records Endpoints' />
+
+
+
 <h2 id='6.3.'>6.3. Validation Interviews.</h2>
 <h3 id='6.3.1.'>6.3.1. Diseño de Entrevistas.</h3>
 
