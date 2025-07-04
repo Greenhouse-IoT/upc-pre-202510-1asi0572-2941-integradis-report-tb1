@@ -58,8 +58,12 @@
 | 1.8     | 25/04/2025 | Seminario Garbín, Carlo Luca <br> Espinoza Rodríguez Nicolas Antonio                                                                                                                       | Elaboración de software architechture diagrams y bounded context IoT                                                                                                   |
 | 1.9     | 26/04/2025 | Galavis Du Bois, Alan Enrique <br>                                                                                                                                                         | Redacción de Project Report Collaboration Insights, redacción de Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases, Context Mapping |
 | 2.0     | 15/05/2025 | Astuyauri Calderon, Jherson David <br/> Espinoza Rodríguez, Nicolás Antonio <br/> Galavis Du Bois, Alan Enrique <br/> Seminario Garbin, Carlo Luca <br/> Soto Kong Requena, Andrés Eduardo | Elaboración de wireflow diagrams y userflow diagrams, elaboración de Applications UX/UI Design, Redacción del capítulo 6.1 Sprint 1                                    |
-| 3.0     | 18/05/2025 | Astuyauri Calderon, Jherson David <br/> Espinoza Rodríguez, Nicolás Antonio <br/> Galavis Du Bois, Alan Enrique <br/> Seminario Garbin, Carlo Luca <br/> Soto Kong Requena, Andrés Eduardo | Redacción del capítulo 6.2 Sprint 2, desarrollo de la version final de la landing page, despliegue inicial de la web-app y mobile-app, y desarrollo del backend        |
-| 4.0     | 20/06/2025 | Astuyauri Calderon, Jherson David <br/> Espinoza Rodríguez, Nicolás Antonio <br/> Galavis Du Bois, Alan Enrique <br/> Seminario Garbin, Carlo Luca <br/> Soto Kong Requena, Andrés Eduardo | Finalizacion del capítulo 6.2 Sprint 2, despliegue de nueva version de la web-app y mobile-app, y cierre del desarrollo del backend        |
+| 3.0     | 18/05/2025 | Astuyauri Calderon, Jherson David <br/> Espinoza Rodríguez, Nicolás Antonio <br/> Galavis Du Bois, Alan Enrique <br/> Seminario Garbin, Carlo Luca <br/> Soto Kong Requena, Andrés Eduardo | Redacción del capítulo 6.2.2 Sprint 2, desarrollo de la version final de la landing page, despliegue inicial de la web-app y mobile-app, y desarrollo del backend        |
+| 4.0     | 20/06/2025 | Astuyauri Calderon, Jherson David <br/> Espinoza Rodríguez, Nicolás Antonio <br/> Galavis Du Bois, Alan Enrique <br/> Seminario Garbin, Carlo Luca <br/> Soto Kong Requena, Andrés Eduardo | Finalizacion del capítulo 6.2.2 Sprint 2, despliegue de nueva version de la web-app y mobile-app, y cierre del desarrollo del backend        |
+| 5.0     | 04/07/2025 | Astuyauri Calderon, Jherson David <br/> Espinoza Rodríguez, Nicolás Antonio <br/> Galavis Du Bois, Alan Enrique <br/> Seminario Garbin, Carlo Luca <br/> Soto Kong Requena, Andrés Eduardo | Redacción del capítulo 6.2.3 Sprint 3. Despliegue de la edge app y desarrollo final de la embedded app. Ajustes adicionales a la mobile app |
+ 
+
+
 
 # Project Report Collaboration Insights
 
@@ -97,6 +101,17 @@ Link para acceder al repositorio en GitHub: [https://github.com/Greenhouse-IoT/u
 | Seminario Garbin, Carlo Luca        | Elaboracion del video About The Product, redacción del sprint planning 2 y sprint backlog 2                                              |
 | Soto Kong Requena, Andrés Eduardo   | Registro de Entrevistas, Evaluaciones segun heuristicas,                                                                                 |
 
+### TF1
+
+| Integrante                          | Tareas Asignadas                                                                                                                         |
+| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| Astuyauri Calderon, Jherson David   | Redacción de Aspect Leaders and Collaborators                                                                    |
+| Espinoza Rodríguez, Nicolás Antonio | Redacción de Development Evidence for Sprint Review, Testing Suite Evidence for Sprint Review, Team Collaboration Insights during Sprint |
+| Galavis Du Bois, Alan Enrique       | Redacción de execution evidence for sprint review                                                  |
+| Seminario Garbin, Carlo Luca        | Elaboración del video About The Team y deployment evidence for sprint review                                              |
+| Soto Kong Requena, Andrés Eduardo   | Redacción de Sprint Planning 3, y de Sprint Backlog 3                                                                                 |
+
+
 ## GitHub Collaboration Insights
 
 GitHub Collaboration proporciona analíticas de los commits realizados por las cuentas de los integrantes del equipo. Estas cuentas son:
@@ -127,6 +142,12 @@ A continuación, se presentan evidencias de la colaboración de los integrantes 
 
 <img src="assets/images/collaboration_insights/tb2/contributors_graph_tb2.png" alt="TB2 contributors graph" />
 
+**TF1:**
+
+<img src="assets/images/collaboration_insights/tf1/collaboration_graph_tf1.png" alt="TF1 collaboration graph" />
+
+<img src="assets/images/collaboration_insights/tf1/contributors_graph_tf1.png" alt="TF1 contributors graph" />
+
 Adicionalmente, GitHub presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las ramas se
 crearon tomando en cuenta el diseño de GitFlow para una buena organización cuando se usa un software de control de versiones. Se
 explican las ramas más prominentes:
@@ -151,6 +172,10 @@ explican las ramas más prominentes:
 **TB2:**
 
 <img src="assets/images/collaboration_insights/tb2/network_graph_tb2.png" alt="TB2 network graph" />
+
+**TF1:**
+
+<img src="assets/images/collaboration_insights/tf1/network_graph_tf1.png" alt="TF1 network graph" />
 
 # Contenido
 
@@ -299,6 +324,16 @@ explican las ramas más prominentes:
     - 6.2.2.7. [Services Documentation Evidence for Sprint Review.](#6.2.2.7.)<br>
     - 6.2.2.8. [Software Deployment Evidence for Sprint Review.](#6.2.2.8.)<br>
     - 6.2.2.9. [Team Collaboration Insights during Sprint.](#6.2.2.9.)<br>
+  - 6.2.3. [Sprint 3.](#6.2.3.)<br>
+    - 6.2.3.1. [Sprint Planning 3.](#6.2.3.1.)<br>
+    - 6.2.3.2. [Aspect Leaders and Collaborators.](#6.2.3.2.)<br>
+    - 6.2.3.3. [Sprint Backlog 3.](#6.2.3.3.)<br>
+    - 6.2.3.4. [Development Evidence for Sprint Review.](#6.2.3.4.)<br>
+    - 6.2.3.5. [Testing Suite Evidence for Sprint Review.](#6.2.3.5.)<br>
+    - 6.2.3.6. [Execution Evidence for Sprint Review.](#6.2.3.6.)<br>
+    - 6.2.3.7. [Services Documentation Evidence for Sprint Review.](#6.2.3.7.)<br>
+    - 6.2.3.8. [Software Deployment Evidence for Sprint Review.](#6.2.3.8.)<br>
+    - 6.2.3.9. [Team Collaboration Insights during Sprint.](#6.2.3.9.)<br>
 
 [**Conclusiones.**](#conclusiones)<br>
 [**Bibliografía.**](#referencias)<br>
@@ -327,9 +362,10 @@ explican las ramas más prominentes:
        Apoyé en el diseño de los wireflows y userflows tanto de la aplicación web como móvil. Participé activamente en la organización de las ideas del equipo y en el levantamiento de flujos centrados en la experiencia de usuario.<br>
       <br/>
       <i>TB2</i><br/>
-        <b>Astuyauri Calderón, Jherson David: En el desarrollo del segundo entregable técnico (TB2), lideré la documentación de los servicios desarrollados, la planificación de roles (aspect leaders and collaborators), y la creación de la evidencia del testing suite y colaboración del equipo. También guié la sección de entrevistas de   validación y redacté las conclusiones del capítulo final. <br>
+      <b>Astuyauri Calderón, Jherson David:</b> 
+      En el desarrollo del segundo entregable técnico (TB2), lideré la documentación de los servicios desarrollados, la planificación de roles (aspect leaders and collaborators), y la creación de la evidencia del testing suite y colaboración del equipo. También guié la sección de entrevistas de   validación y redacté las conclusiones del capítulo final.<br>
       <br/>        
-      <i>TF</i><br/>
+      <i>TF1</i><br/>
       <b>Astuyauri Calderón, Jherson David:</b>
       Durante el Sprint 3, participé en la documentación de los roles, los servicios (que se mantuvieron sin cambios) y el testing suite. Estuve pendiente de los aportes del equipo en Embedded y Edge, y ayudé a que todo quede ordenado en el entregable.<br>
       <br/>  
@@ -354,7 +390,11 @@ explican las ramas más prominentes:
       <br/>
       <i>TB2</i><br/>
       <b>Galavis Du Bois, Alan Enrique:</b> 
-      Colabore durante el desarrollo de la mobile app, encargandome de las diferentes vistas, la integracion con la IA y la conexion con el backend para enviar y recibir los datos.
+      Colabore durante el desarrollo de la mobile app, encargandome de las diferentes vistas, la integracion con el Edge y la conexion con el backend para enviar y recibir los datos.<br/>
+      <br/>
+      <i>TF1</i><br/>
+      <b>Galavis Du Bois, Alan Enrique:</b> 
+      Durante el desarrollo del TF1, me aseguré de que el equipo mantenga una buena comunicación y colaboración, a su vez, de que se cumplan los objetivos del Sprint. Concretamente, demostré liderazgo al organizar reuniones para distribuir equitativamente el informe, y al validar que el proyecto final cumpla con las expectativas del cliente<br/>
       <br/>
       <br/>
       <i>TB1</i><br/>
@@ -395,7 +435,8 @@ explican las ramas más prominentes:
       Apoyé en la elaboración de los wireflows y userflows de ambas aplicaciones, organizando tareas por prioridad y asegurando entregables claros.<br>
       <br/>
         <i>TB2</i><br/>
-      <b>Astuyauri Calderón, Jherson David: Coordiné múltiples entregables clave como el Testing Suite, la documentación de servicios, y las evidencias de colaboración del equipo. Gestioné el contenido final del capítulo de conclusiones y validé la planificación de entrevistas. Aporté al entorno colaborativo al clarificar objetivos, planificar tareas técnicas y asegurar el cumplimiento de los entregables. <br> 
+      <b>Astuyauri Calderón, Jherson David:</b>
+       Coordiné múltiples entregables clave como el Testing Suite, la documentación de servicios, y las evidencias de colaboración del equipo. Gestioné el contenido final del capítulo de conclusiones y validé la planificación de entrevistas. Aporté al entorno colaborativo al clarificar objetivos, planificar tareas técnicas y asegurar el cumplimiento de los entregables. <br> 
        <br/>
         <i>TF</i><br/>
       <b>Astuyauri Calderón, Jherson David:</b>
@@ -417,7 +458,11 @@ explican las ramas más prominentes:
       <br/>
       <i>TB2</i><br/>
       <b>Galavis Du Bois, Alan Enrique:</b>
-      Me encargue de realizar las entrevistas de usabilidad de las diferentes interfaces presentadas a cada uno de los usuarios establecidos que haran uso de las aplicaciones.<br/>
+      Me encargué de realizar las entrevistas de usabilidad de las diferentes interfaces presentadas a cada uno de los usuarios establecidos que haran uso de las aplicaciones.<br/>
+      <br/>
+      <i>TF1</i><br/>
+      <b>Galavis Du Bois, Alan Enrique:</b>
+      Para la entrega del trabajo final, establecí como meta colaborativa que cada integrante del equipo culmine con su parte del informe con 2 días de antelación a la fecha de entrega, para que nos de tiempo a realizar las revisiones necesarias, y a perfeccionar lo que resulte necesario para lograr alcanzar con los objetivos del curso. <br/>
       <br/>
       <i>TB1</i><br/>
       <b>Seminario Garbín, Carlo Luca:</b>
