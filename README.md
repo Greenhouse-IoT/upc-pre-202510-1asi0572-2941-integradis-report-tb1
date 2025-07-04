@@ -327,7 +327,12 @@ explican las ramas más prominentes:
        Apoyé en el diseño de los wireflows y userflows tanto de la aplicación web como móvil. Participé activamente en la organización de las ideas del equipo y en el levantamiento de flujos centrados en la experiencia de usuario.<br>
       <br/>
       <i>TB2</i><br/>
-      <b>Astuyauri Calderón, Jherson David: En el desarrollo del segundo entregable técnico (TB2), lideré la documentación de los servicios desarrollados, la planificación de roles (aspect leaders and collaborators), y la creación de la evidencia del testing suite y colaboración del equipo. También guié la sección de entrevistas de validación y redacté las conclusiones del capítulo final. </b>
+        <b>Astuyauri Calderón, Jherson David: En el desarrollo del segundo entregable técnico (TB2), lideré la documentación de los servicios desarrollados, la planificación de roles (aspect leaders and collaborators), y la creación de la evidencia del testing suite y colaboración del equipo. También guié la sección de entrevistas de   validación y redacté las conclusiones del capítulo final. <br>
+      <br/>        
+      <i>TF</i><br/>
+      <b>Astuyauri Calderón, Jherson David:</b>
+      Durante el Sprint 3, participé en la documentación de los roles, los servicios (que se mantuvieron sin cambios) y el testing suite. Estuve pendiente de los aportes del equipo en Embedded y Edge, y ayudé a que todo quede ordenado en el entregable.<br>
+      <br/>  
       <br>
       <br/>
       <i>TB1</i><br/>
@@ -390,7 +395,12 @@ explican las ramas más prominentes:
       Apoyé en la elaboración de los wireflows y userflows de ambas aplicaciones, organizando tareas por prioridad y asegurando entregables claros.<br>
       <br/>
         <i>TB2</i><br/>
-      <b>Astuyauri Calderón, Jherson David: Coordiné múltiples entregables clave como el Testing Suite, la documentación de servicios, y las evidencias de colaboración del equipo. Gestioné el contenido final del capítulo de conclusiones y validé la planificación de entrevistas. Aporté al entorno colaborativo al clarificar objetivos, planificar tareas técnicas y asegurar el cumplimiento de los entregables. </b>  
+      <b>Astuyauri Calderón, Jherson David: Coordiné múltiples entregables clave como el Testing Suite, la documentación de servicios, y las evidencias de colaboración del equipo. Gestioné el contenido final del capítulo de conclusiones y validé la planificación de entrevistas. Aporté al entorno colaborativo al clarificar objetivos, planificar tareas técnicas y asegurar el cumplimiento de los entregables. <br> 
+       <br/>
+        <i>TF</i><br/>
+      <b>Astuyauri Calderón, Jherson David:</b>
+      Apoyé en organizar los entregables como el testing suite, la parte de servicios y las evidencias de colaboración. También estuve atento a que se cumplan los objetivos del Sprint.<br>
+      <br/>  
       <i>TB1</i><br/>
       <b>Espinoza Rodríguez, Nicolás Antonio:</b>
       Se consideró como primer sprint del equipo el desarrollo de los artefactos de gestión y el planeamiento del proyecto. Se realizó el proceso del planning poker y se lograron estimar las historias de usuario que conforman nuestro backlog y alcance del proyecto. <br/><br/>
