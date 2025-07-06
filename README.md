@@ -60,6 +60,7 @@
 | 2.0     | 15/05/2025 | Astuyauri Calderon, Jherson David <br/> Espinoza Rodríguez, Nicolás Antonio <br/> Galavis Du Bois, Alan Enrique <br/> Seminario Garbin, Carlo Luca <br/> Soto Kong Requena, Andrés Eduardo | Elaboración de wireflow diagrams y userflow diagrams, elaboración de Applications UX/UI Design, Redacción del capítulo 6.1 Sprint 1                                    |
 | 3.0     | 18/05/2025 | Astuyauri Calderon, Jherson David <br/> Espinoza Rodríguez, Nicolás Antonio <br/> Galavis Du Bois, Alan Enrique <br/> Seminario Garbin, Carlo Luca <br/> Soto Kong Requena, Andrés Eduardo | Redacción del capítulo 6.2 Sprint 2, desarrollo de la version final de la landing page, despliegue inicial de la web-app y mobile-app, y desarrollo del backend        |
 | 4.0     | 20/06/2025 | Astuyauri Calderon, Jherson David <br/> Espinoza Rodríguez, Nicolás Antonio <br/> Galavis Du Bois, Alan Enrique <br/> Seminario Garbin, Carlo Luca <br/> Soto Kong Requena, Andrés Eduardo | Finalizacion del capítulo 6.2 Sprint 2, despliegue de nueva version de la web-app y mobile-app, y cierre del desarrollo del backend        |
+| 5.0     | 04/07/2025 | Astuyauri Calderon, Jherson David <br/> Espinoza Rodríguez, Nicolás Antonio <br/> Galavis Du Bois, Alan Enrique <br/> Seminario Garbin, Carlo Luca <br/> Soto Kong Requena, Andrés Eduardo | Finalizacion del capítulo 6.2.3 Sprint 3, despliegue de última version de la edge y embedded applications, cierre del desarrollo de la aplicación IoT    |
 
 # Project Report Collaboration Insights
 
@@ -4424,7 +4425,6 @@ A continuación se presentan las insights de la colaboración del equipo durante
 | ----------------- | ---------------------- |
 | Carlo Seminario   |  Embedded Application Functionalities  |
 
-
 <h4 id='6.2.3.2.'>6.2.3.2. Aspect Leaders and Collaborators.</h4>
 
 <table border="1">
@@ -4488,7 +4488,47 @@ A continuación se presentan las insights de la colaboración del equipo durante
     <td>C</td>
     <td>L</td>
   </tr>
-</table>
+</table> 
+
+<h4 id='6.2.3.4.'>6.2.3.4. Development Evidence for Sprint Review.</h4>
+
+| Repository | Branch | Commit ID | Commit Message | Committed on (Date) |
+| ----- | ----- | ----- | ----- | ----- |
+| embedded | main | 23bafb9 | feat: ModestIoT framework for both actuator ESP32 and sensor ESP32 | 01/07 |
+| edge | main | 77c0d4d | chore: added minimun thresholds for control actions | 01/07 |
+| edge | main | 6cd75ba | chore: cleaned some files | 02/07 |
+
+<h4 id='6.2.3.5.'>6.2.3.5. Testing Suite Evidence for Sprint Review.</h4>
+
+En la siguiente sección se presentan los cambios en el repositorio de testing de la aplicación durante el desarrollo del presente sprint. En este repositorio se encuentran los archivos Gherkin, los cuales forman parte del enfoque BDD de la aplicación.
+
+|       Repository       | Branch  | Commit ID | Commit Message | Committed on (Date) |
+| :--------------------: | :-----: | :-------: | :------------: | :-----------------: |
+| Greenhouse-IoT/testing | testing |      bea04a1     |       docs: added management and processing .feature files         |        03/07             |
+
+<h4 id='6.2.3.9.'>6.2.3.9. Team Collaboration Insights during Sprint.</h4>
+
+A continuación se presentan las insights de la colaboración del equipo durante el presente Sprint 3.
+
+**Edge**
+
+<img src='assets/images/collaboration_insights/tf1/collabs_repos/edge.png' alt='Edge Commit Chart' />
+
+<img src='assets/images/collaboration_insights/tf1/collabs_repos/edge1.png' alt='Edge Timeline Chart' />
+
+| Integrante        | Funcionalidad Asignada |
+| ----------------- | ---------------------- |
+| Carlo Seminario   |  Minimum thresholds   |
+
+**Embedded**
+
+<img src='assets/images/collaboration_insights/tf1/collabs_repos/embedded.png' alt='Embedded Commit Chart' />
+
+<img src='assets/images/collaboration_insights/tf1/collabs_repos/embedded1.png' alt='Embedded Timeline Chart' />
+
+| Integrante        | Funcionalidad Asignada |
+| ----------------- | ---------------------- |
+| Carlo Seminario   |  ModestIoT refactoring  |
 
 
 <h2 id='6.3.'>6.3. Validation Interviews.</h2>
