@@ -300,6 +300,20 @@ explican las ramas más prominentes:
     - 6.2.2.7. [Services Documentation Evidence for Sprint Review.](#6.2.2.7.)<br>
     - 6.2.2.8. [Software Deployment Evidence for Sprint Review.](#6.2.2.8.)<br>
     - 6.2.2.9. [Team Collaboration Insights during Sprint.](#6.2.2.9.)<br>
+  -  6.2.3. [Sprint 3.](#6.2.3.)<br>
+    - 6.2.3.1. [Sprint Planning 2.](#6.2.3.1.)<br>
+    - 6.2.3.2. [Aspect Leaders and Collaborators.](#6.2.3.2.)<br>
+    - 6.2.3.3. [Sprint Backlog 2.](#6.2.3.3.)<br>
+    - 6.2.3.4. [Development Evidence for Sprint Review.](#6.2.3.4.)<br>
+    - 6.2.3.5. [Testing Suite Evidence for Sprint Review.](#6.2.3.5.)<br>
+    - 6.2.3.6. [Execution Evidence for Sprint Review.](#6.2.3.6.)<br>
+    - 6.2.3.7. [Services Documentation Evidence for Sprint Review.](#6.2.3.7.)<br>
+    - 6.2.3.8. [Software Deployment Evidence for Sprint Review.](#6.2.3.8.)<br>
+    - 6.2.3.9. [Team Collaboration Insights during Sprint.](#6.2.3.9.)<br>
+- 6.3. [Validation Interviews.](#6.3.)<br>
+  - 6.3.1. [Diseño de Entrevistas.](#6.3.1.)<br>
+  - 6.3.2. [Registro de Entrevistas.](#6.3.2.)<br>
+  - 6.3.3. [Evaluaciones según heurísticas.](#6.3.3.)<br>
 
 [**Conclusiones.**](#conclusiones)<br>
 [**Bibliografía.**](#referencias)<br>
@@ -4425,6 +4439,10 @@ A continuación se presentan las insights de la colaboración del equipo durante
 | ----------------- | ---------------------- |
 | Carlo Seminario   |  Embedded Application Functionalities  |
 
+<h3 id='6.2.3.'>6.2.3. Sprint 3.</h3>
+
+<h4 id='6.2.3.1.'>6.2.3.1. Sprint Planning 3.</h4>
+
 <h4 id='6.2.3.2.'>6.2.3.2. Aspect Leaders and Collaborators.</h4>
 
 <table border="1">
@@ -4488,7 +4506,9 @@ A continuación se presentan las insights de la colaboración del equipo durante
     <td>C</td>
     <td>L</td>
   </tr>
-</table> 
+</table>
+
+<h4 id='6.2.3.3.'>6.2.3.3. Sprint Backlog 3.</h4>
 
 <h4 id='6.2.3.4.'>6.2.3.4. Development Evidence for Sprint Review.</h4>
 
@@ -4506,6 +4526,7 @@ En la siguiente sección se presentan los cambios en el repositorio de testing d
 | :--------------------: | :-----: | :-------: | :------------: | :-----------------: |
 | Greenhouse-IoT/testing | testing |      bea04a1     |       docs: added management and processing .feature files         |        03/07             |
 
+<h4 id='6.2.3.6.'>6.2.3.6. Execution Evidence .</h4>
 
 <h4 id='6.2.3.7.'>6.2.3.7. Services Documentation Evidence for Sprint Review.</h4>
 
@@ -4553,7 +4574,9 @@ A continuación se presentan las insights de la colaboración del equipo durante
 | ----------------- | ---------------------- |
 | Carlo Seminario   |  ModestIoT refactoring  |
 
+<h4 id='6.2.3.8.'>6.2.3.8. Software Deployment Evidence for Sprint Review.</h4>
 
+<h4 id='6.2.3.9.'>6.2.3.9. Team Collaboration Insights during Sprint.</h4>
 
 <h2 id='6.3.'>6.3. Validation Interviews.</h2>
 <h3 id='6.3.1.'>6.3.1. Diseño de Entrevistas.</h3>
