@@ -4425,6 +4425,71 @@ A continuación se presentan las insights de la colaboración del equipo durante
 | ----------------- | ---------------------- |
 | Carlo Seminario   |  Embedded Application Functionalities  |
 
+<h4 id='6.2.3.2.'>6.2.3.2. Aspect Leaders and Collaborators.</h4>
+
+<table border="1">
+  <tr>
+    <th>Team Member (Last Name, First Name)</th>
+    <th>GitHub Username</th>
+    <th>Despliegue y QA: Leader (L) / Collaborator (C)</th>
+    <th>Desarrollo del API: Leader (L) / Collaborator (C)</th>
+    <th>Desarrollo de la Landing Page: Leader (L) / Collaborator (C)</th>
+    <th>Desarrollo de Embedded: Leader (L) / Collaborator (C)</th>
+    <th>Desarrollo del Edge: Leader (L) / Collaborator (C)</th>
+    <th>Desarrollo de la Mobile App: Leader (L) / Collaborator (C)</th>
+  </tr>
+  <tr>
+    <td>Astuyauri Calderon, Jherson David</td>
+    <td>JHS-Sama24</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Espinoza Rodríguez, Nicolás Antonio</td>
+    <td>EspinozaNaer</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Galavis Du Bois, Alan Enrique</td>
+    <td>TrabajosUPC-AlanGalavis</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Seminario Garbín, Carlo Luca</td>
+    <td>CarloLSG</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>L</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Soto Kong Requena, Andrés Eduardo</td>
+    <td>asotito231</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+</table> 
+
 <h4 id='6.2.3.4.'>6.2.3.4. Development Evidence for Sprint Review.</h4>
 
 | Repository | Branch | Commit ID | Commit Message | Committed on (Date) |
@@ -4464,6 +4529,7 @@ A continuación se presentan las insights de la colaboración del equipo durante
 | Integrante        | Funcionalidad Asignada |
 | ----------------- | ---------------------- |
 | Carlo Seminario   |  ModestIoT refactoring  |
+
 
 <h2 id='6.3.'>6.3. Validation Interviews.</h2>
 <h3 id='6.3.1.'>6.3.1. Diseño de Entrevistas.</h3>
