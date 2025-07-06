@@ -409,6 +409,10 @@ explican las ramas más prominentes:
       <b>Seminario Garbín, Carlo Luca:</b> Me encargue de desarrollar el edge device e embedded applications para recibir la informacion desde un esp32 a nuestro back desplegado
       <br/>
       <br/>
+      <i>TF1</i><br/>
+      <b>Seminario Garbín, Carlo Luca:</b> Me encargue de desplegar y asegurar el correcto funcionamiento de la solución, comunicando aspectos a mejorar o escuchando bugs que se pueden haber encontrado en las pruebas de las funcionalidades.
+      <br/>
+      <br/>
       <i>TB1</i><br/>
       <b>Soto Kong Requena, Andrés Eduardo:</b> Fui responsable de la definición y desarrollo de los bounded context correspondientes a los módulos de Mail y Memberships. A través de su enfoque en la estructuración de estos contextos, contribuyó significativamente a la organización y modularización de la aplicación, asegurando una integración coherente con los demás componentes del sistema.<br/>
       <br/>
@@ -474,6 +478,9 @@ explican las ramas más prominentes:
       <br/>
       <i>TB2</i><br/>
       <b>Seminario Garbín, Carlo Luca:</b> Me encargue del despliegue en su totalidad de las diferentes aplicaciones desarrolladas configurando la plataforma de despliegue de amazon web services
+      <br/>
+      <i>TF1</i><br/>
+      <b>Seminario Garbín, Carlo Luca:</b> Se planificó los puntos a presentar en el trabajo final, se gestionó el orden de los commits para el documento del trabajo final, se realizó el despliegue y se hicieron las mejoras sobre el último sprint.
       <br/>
       <i>TB1</i><br/>
       <b>Soto Kong Requena, Andrés Eduardo</b>: Colabore para obtener un entorno colaborativo e inclusivo, asegurándose de que todas las metas fueran claras y alcanzables. Se encargó de coordinar tareas clave en el proceso de planificación, estableciendo un flujo de trabajo organizado y apoyando al equipo en el cumplimiento de los objetivos establecidos.<br/>
