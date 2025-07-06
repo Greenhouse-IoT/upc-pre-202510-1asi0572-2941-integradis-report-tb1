@@ -1591,7 +1591,7 @@ Después de obtener cuáles serían nuestros Bounded Contexts, se realizó la el
 
 El diagrama de landscape es útil para identificar los usuarios y sistemas que interactúan con el programa propuesto, además de proporcionar una visión general de los servicios involucrados. Sin embargo, debido a su enfoque en la arquitectura general, no muestra con detalle las diferencias específicas entre una arquitectura basada en microservicios y una arquitectura monolítica.
 
-<img src='assets/images/chapter_4/strategic_ddd/system_landscape_diagram.png' alt='Software Architecture System Landscape Diagram' />
+<img src='assets/images/chapter_4/strategic_ddd/system_landscape_diagram.jpg' alt='Software Architecture System Landscape Diagram' />
 
 <h4 id='4.1.3.2.'>4.1.3.2. Software Architecture Context Level Diagrams.</h4>
 
@@ -1603,11 +1603,11 @@ El diagrama de contexto es de utilidad para identificar los usuarios y sistemas 
 
 El diagrama de contenedores presentado a continuación representa cómo interactúan los usuarios y sistemas con los principales componentes del sistema “Greenhouse”, entre los cuales cabe destacar el API gateway, el Identity and Access Management, y los servicios de personas, cultivos, membresías y un servicio por separado para manejar la parte IoT. La separación de estos servicios, cada uno con sus bases de datos independientes, evidencian la intención de desarrollar un producto basado en microservicios.
 
-<img src='assets/images/chapter_4/strategic_ddd/container_diagram.png' alt='Software Architecture Context Level Diagrams' />
+<img src='assets/images/chapter_4/strategic_ddd/container_diagram.jpg' alt='Software Architecture Context Level Diagrams' />
 
 <h4 id='4.1.3.4.'>4.1.3.4. Software Architecture Deployment Diagrams.</h4>
 
-<img src='assets/images/chapter_4/strategic_ddd/deployment_diagram.png' alt='Software Architecture Context Level Diagrams' />
+<img src='assets/images/chapter_4/strategic_ddd/deployment_diagram.jpg' alt='Software Architecture Context Level Diagrams' />
 
 <h2 id='4.2.'>4.2. Tactical-Level Domain-Driven Design.</h2>
 <h3 id='4.2.1.'>4.2.1. Bounded Context: Crops</h3>
