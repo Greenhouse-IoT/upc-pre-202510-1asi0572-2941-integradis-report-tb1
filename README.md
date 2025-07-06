@@ -60,6 +60,7 @@
 | 2.0     | 15/05/2025 | Astuyauri Calderon, Jherson David <br/> Espinoza Rodríguez, Nicolás Antonio <br/> Galavis Du Bois, Alan Enrique <br/> Seminario Garbin, Carlo Luca <br/> Soto Kong Requena, Andrés Eduardo | Elaboración de wireflow diagrams y userflow diagrams, elaboración de Applications UX/UI Design, Redacción del capítulo 6.1 Sprint 1                                    |
 | 3.0     | 18/05/2025 | Astuyauri Calderon, Jherson David <br/> Espinoza Rodríguez, Nicolás Antonio <br/> Galavis Du Bois, Alan Enrique <br/> Seminario Garbin, Carlo Luca <br/> Soto Kong Requena, Andrés Eduardo | Redacción del capítulo 6.2 Sprint 2, desarrollo de la version final de la landing page, despliegue inicial de la web-app y mobile-app, y desarrollo del backend        |
 | 4.0     | 20/06/2025 | Astuyauri Calderon, Jherson David <br/> Espinoza Rodríguez, Nicolás Antonio <br/> Galavis Du Bois, Alan Enrique <br/> Seminario Garbin, Carlo Luca <br/> Soto Kong Requena, Andrés Eduardo | Finalizacion del capítulo 6.2 Sprint 2, despliegue de nueva version de la web-app y mobile-app, y cierre del desarrollo del backend        |
+| 5.0     | 04/07/2025 | Astuyauri Calderon, Jherson David <br/> Espinoza Rodríguez, Nicolás Antonio <br/> Galavis Du Bois, Alan Enrique <br/> Seminario Garbin, Carlo Luca <br/> Soto Kong Requena, Andrés Eduardo | Finalizacion del capítulo 6.2.3 Sprint 3, despliegue de última version de la edge y embedded applications, cierre del desarrollo de la aplicación IoT    |
 
 # Project Report Collaboration Insights
 
@@ -117,11 +118,15 @@ A continuación, se presentan evidencias de la colaboración de los integrantes 
 
 **TP1:**
 
-<img src="assets/images/collaboration_insights/tb2/collaboration_graph_tb2.png" alt="TP1 collaboration graph" />
+<img src="assets/images/collaboration_insights/tp1/collaboration_graph_tp1.png" alt="TP1 collaboration graph" />
 
-<img src="assets/images/collaboration_insights/tb2/contributors_graph_tb2.png" alt="TP1 contributors graph" />
+<img src="assets/images/collaboration_insights/tp1/contributors_graph_tp1.png" alt="TP1 contributors graph" />
 
 **TB2:**
+
+<img src="assets/images/collaboration_insights/tb2/collaboration_graph_tb2.png" alt="TB2 collaboration graph" />
+
+<img src="assets/images/collaboration_insights/tb2/contributors_graph_tb2.png" alt="TB2 contributors graph" />
 
 Adicionalmente, GitHub presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las ramas se
 crearon tomando en cuenta el diseño de GitFlow para una buena organización cuando se usa un software de control de versiones. Se
@@ -142,9 +147,11 @@ explican las ramas más prominentes:
 
 **TP1:**
 
-<img src="assets/images/collaboration_insights/tb2/network_graph_tb2.png" alt="TP1 network graph" />
+<img src="assets/images/collaboration_insights/tp1/network_graph_tp1.png" alt="TP1 network graph" />
 
 **TB2:**
+
+<img src="assets/images/collaboration_insights/tb2/network_graph_tb2.png" alt="TB2 network graph" />
 
 # Contenido
 
@@ -4418,6 +4425,88 @@ A continuación se presentan las insights de la colaboración del equipo durante
 | ----------------- | ---------------------- |
 | Carlo Seminario   |  Embedded Application Functionalities  |
 
+<h4 id='6.2.3.2.'>6.2.3.2. Aspect Leaders and Collaborators.</h4>
+
+<table border="1">
+  <tr>
+    <th>Team Member (Last Name, First Name)</th>
+    <th>GitHub Username</th>
+    <th>Despliegue y QA: Leader (L) / Collaborator (C)</th>
+    <th>Desarrollo del API: Leader (L) / Collaborator (C)</th>
+    <th>Desarrollo de la Landing Page: Leader (L) / Collaborator (C)</th>
+    <th>Desarrollo de Embedded: Leader (L) / Collaborator (C)</th>
+    <th>Desarrollo del Edge: Leader (L) / Collaborator (C)</th>
+    <th>Desarrollo de la Mobile App: Leader (L) / Collaborator (C)</th>
+  </tr>
+  <tr>
+    <td>Astuyauri Calderon, Jherson David</td>
+    <td>JHS-Sama24</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Espinoza Rodríguez, Nicolás Antonio</td>
+    <td>EspinozaNaer</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Galavis Du Bois, Alan Enrique</td>
+    <td>TrabajosUPC-AlanGalavis</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Seminario Garbín, Carlo Luca</td>
+    <td>CarloLSG</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>L</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Soto Kong Requena, Andrés Eduardo</td>
+    <td>asotito231</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+</table> 
+
+<h4 id='6.2.3.4.'>6.2.3.4. Development Evidence for Sprint Review.</h4>
+
+| Repository | Branch | Commit ID | Commit Message | Committed on (Date) |
+| ----- | ----- | ----- | ----- | ----- |
+| embedded | main | 23bafb9 | feat: ModestIoT framework for both actuator ESP32 and sensor ESP32 | 01/07 |
+| edge | main | 77c0d4d | chore: added minimun thresholds for control actions | 01/07 |
+| edge | main | 6cd75ba | chore: cleaned some files | 02/07 |
+
+<h4 id='6.2.3.5.'>6.2.3.5. Testing Suite Evidence for Sprint Review.</h4>
+
+En la siguiente sección se presentan los cambios en el repositorio de testing de la aplicación durante el desarrollo del presente sprint. En este repositorio se encuentran los archivos Gherkin, los cuales forman parte del enfoque BDD de la aplicación.
+
+|       Repository       | Branch  | Commit ID | Commit Message | Committed on (Date) |
+| :--------------------: | :-----: | :-------: | :------------: | :-----------------: |
+| Greenhouse-IoT/testing | testing |      bea04a1     |       docs: added management and processing .feature files         |        03/07             |
+
+
 <h4 id='6.2.3.7.'>6.2.3.7. Services Documentation Evidence for Sprint Review.</h4>
 
 Durante el Sprint 3, no se realizaron modificaciones en los microservicios existentes. Por tanto, los endpoints documentados en sprints anteriores se mantienen vigentes y funcionales, sin alteraciones en su estructura ni lógica. A continuación, se presentan nuevamente los endpoints correspondientes a cada microservicio como evidencia de continuidad:
@@ -4439,6 +4528,30 @@ Durante el Sprint 3, no se realizaron modificaciones en los microservicios exist
 
 <strong>Records endpoints:</strong><br>
 <img src='assets/images/chapter-6/19.png' alt='Records Endpoints' />
+  
+<h4 id='6.2.3.9.'>6.2.3.9. Team Collaboration Insights during Sprint.</h4>
+
+A continuación se presentan las insights de la colaboración del equipo durante el presente Sprint 3.
+
+**Edge**
+
+<img src='assets/images/collaboration_insights/tf1/collabs_repos/edge.png' alt='Edge Commit Chart' />
+
+<img src='assets/images/collaboration_insights/tf1/collabs_repos/edge1.png' alt='Edge Timeline Chart' />
+
+| Integrante        | Funcionalidad Asignada |
+| ----------------- | ---------------------- |
+| Carlo Seminario   |  Minimum thresholds   |
+
+**Embedded**
+
+<img src='assets/images/collaboration_insights/tf1/collabs_repos/embedded.png' alt='Embedded Commit Chart' />
+
+<img src='assets/images/collaboration_insights/tf1/collabs_repos/embedded1.png' alt='Embedded Timeline Chart' />
+
+| Integrante        | Funcionalidad Asignada |
+| ----------------- | ---------------------- |
+| Carlo Seminario   |  ModestIoT refactoring  |
 
 
 
