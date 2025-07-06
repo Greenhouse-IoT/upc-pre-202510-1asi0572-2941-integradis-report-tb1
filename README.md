@@ -4443,6 +4443,61 @@ A continuación se presentan las insights de la colaboración del equipo durante
 
 <h4 id='6.2.3.1.'>6.2.3.1. Sprint Planning 3.</h4>
 
+<table border="1">
+  <tr>
+    <th>Sprint #</th>
+    <td>3</td>
+  </tr>
+  <tr>
+    <th colspan="2">Sprint Planning Background</th>
+  </tr>
+  <tr>
+    <th>Date</th>
+    <td>2025-06-30</td>
+  </tr>
+  <tr>
+    <th>Time</th>
+    <td>20:00 PM</td>
+  </tr>
+  <tr>
+    <th>Location</th>
+    <td>Reunión virtual mediante la aplicación Discord</td>
+  </tr>
+  <tr>
+    <th>Prepared By</th>
+    <td>Nicolas Espinoza</td>
+  </tr>
+  <tr>
+    <th>Attendees (to planning meeting)</th>
+    <td>Astuyauri, Jherson <br/> Espinoza, Nicolás <br/> Galavis, Alan <br/> Seminario, Carlo <br/> Soto, Andrés</td>
+  </tr>
+  <tr>
+    <th>Sprint 2 Review Summary</th>
+    <td>Durante el Sprint 2 se logró desarrollar una Embedded app capaz de integrar sensores que permitan tomar mediciones de CO2, temperatura y humedad del ambiente, y otra capaz de activar servomotores para controlar desviaciones en los parametros ambientales y un lcd para visualizar las acciones del control del sistema. Todo esto bajo el framework ModestIoT. Tambien se realizaron correciones puntuales a la mobile app y a la web app</td>
+  </tr>
+  <tr>
+    <th>Sprint 2 Retrospective Summary</th>
+    <td>El equipo destacó una buena colaboración y cumplimiento del objetivo. Se sugiere mejorar la cobertura de los test porque se identifico una llamada a un endpoint</td>
+  </tr>
+  <tr>
+    <th colspan="2">Sprint Goal & User Stories</th>
+  </tr>
+  <tr>
+    <th>Sprint 3 Goal</th>
+    <td>
+      Durante este sprint se entregarán la version final de la Landing Page, los server-side services, la Web App desplegada, la Mobile App y las aplicaciones embebidas para dispositivos IoT, todos completamente funcionales e integrados en una arquitectura distribuida basada en Embedded Systems, Edge Computing y Cloud Computing
+    </td>
+  </tr>
+  <tr>
+    <th>Sprint 3 Velocity</th>
+    <td>Para este sprint, se consideró aceptar como máximo 33 story points.</td>
+  </tr>
+  <tr>
+    <th>Sum of Story Points</th>
+    <td>33</td>
+  </tr>
+</table>
+
 <h4 id='6.2.3.2.'>6.2.3.2. Aspect Leaders and Collaborators.</h4>
 
 <table border="1">
