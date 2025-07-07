@@ -4793,29 +4793,6 @@ Durante el Sprint 3, no se realizaron modificaciones en los microservicios exist
 <strong>Records endpoints:</strong><br>
 <img src='assets/images/chapter-6/19.png' alt='Records Endpoints' />
   
-<h4 id='6.2.3.9.'>6.2.3.9. Team Collaboration Insights during Sprint.</h4>
-
-A continuación se presentan las insights de la colaboración del equipo durante el presente Sprint 3.
-
-**Edge**
-
-<img src='assets/images/collaboration_insights/tf1/collabs_repos/edge.png' alt='Edge Commit Chart' />
-
-<img src='assets/images/collaboration_insights/tf1/collabs_repos/edge1.png' alt='Edge Timeline Chart' />
-
-| Integrante        | Funcionalidad Asignada |
-| ----------------- | ---------------------- |
-| Carlo Seminario   |  Minimum thresholds   |
-
-**Embedded**
-
-<img src='assets/images/collaboration_insights/tf1/collabs_repos/embedded.png' alt='Embedded Commit Chart' />
-
-<img src='assets/images/collaboration_insights/tf1/collabs_repos/embedded1.png' alt='Embedded Timeline Chart' />
-
-| Integrante        | Funcionalidad Asignada |
-| ----------------- | ---------------------- |
-| Carlo Seminario   |  ModestIoT refactoring  |
 
 <h4 id='6.2.3.8.'>6.2.3.8. Software Deployment Evidence for Sprint Review.</h4>
 
@@ -4929,6 +4906,28 @@ El endpoint que permite la comunicación directa con el sistema edge desplegado 
 <img src='assets/images/chapter_6/sprint_2/software_deployment_evidence/edge_enpoint.png' alt='Endpoint del Edge' />
 
 <h4 id='6.2.3.9.'>6.2.3.9. Team Collaboration Insights during Sprint.</h4>
+
+A continuación se presentan las insights de la colaboración del equipo durante el presente Sprint 3.
+
+**Edge**
+
+<img src='assets/images/collaboration_insights/tf1/collabs_repos/edge.png' alt='Edge Commit Chart' />
+
+<img src='assets/images/collaboration_insights/tf1/collabs_repos/edge1.png' alt='Edge Timeline Chart' />
+
+| Integrante        | Funcionalidad Asignada |
+| ----------------- | ---------------------- |
+| Carlo Seminario   |  Minimum thresholds   |
+
+**Embedded**
+
+<img src='assets/images/collaboration_insights/tf1/collabs_repos/embedded.png' alt='Embedded Commit Chart' />
+
+<img src='assets/images/collaboration_insights/tf1/collabs_repos/embedded1.png' alt='Embedded Timeline Chart' />
+
+| Integrante        | Funcionalidad Asignada |
+| ----------------- | ---------------------- |
+| Carlo Seminario   |  ModestIoT refactoring  |
 
 <h2 id='6.3.'>6.3. Validation Interviews.</h2>
 <h3 id='6.3.1.'>6.3.1. Diseño de Entrevistas.</h3>
