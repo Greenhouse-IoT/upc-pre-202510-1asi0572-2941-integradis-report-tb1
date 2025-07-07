@@ -4697,6 +4697,80 @@ En la siguiente sección se presentan los cambios en el repositorio de testing d
 
 <h4 id='6.2.3.6.'>6.2.3.6. Execution Evidence .</h4>
 
+En esta sección se presentarán capturas de las request a los distintos endpoints utilizando Postman:
+
+**Auth endpoints:**
+
+El endpoint público POST /api/v1/auth/sign-up permite que los usuarios se registren en la aplicación Greenhouse.
+
+<img src='assets/images/chapter-6/1.png' alt='Git Flow' />
+
+El endpoint público POST /api/v1/auth/sign-in permite que los usuarios inicien sesión. Si las credenciales son válidas, se retorna un token, a través del cual podrá utilizar los endpoints protegidos.
+
+<img src='assets/images/chapter-6/2.png' alt='Git Flow' />
+
+**Profiles endpoints:**
+
+El endpoint GET /api/v1/profiles/users/me permite obtener la información asociada al perfil del usuario autenticado
+
+<img src='assets/images/chapter-6/3.png' alt='Git Flow' />
+
+El endpoint GET /api/v1/profiles/companies/{companyId} permite obtener la información asociada a la empresa a la cual pertenece el usuario autenticado
+
+<img src='assets/images/chapter-6/4.png' alt='Git Flow' />
+
+El endpoint PATCH /api/v1/profiles/{profileId} permite editar los nombres y la foto del perfil seleccionado.
+
+<img src='assets/images/chapter-6/5.png' alt='Git Flow' />
+
+**Companies endpoints:**
+
+El endpoint POST /api/v1/companies permite registrar una empresa y vincularla al usuario autenticado.
+
+<img src='assets/images/chapter-6/6.png' alt='Git Flow' />
+
+El endpoint GET /api/v1/companies permite obtener la empresa a la cual pertenece el usuario autenticado.
+
+<img src='assets/images/chapter-6/7.png' alt='Git Flow' />
+
+**Crops endpoints:**
+
+El endpoint POST /api/v1/crops permite iniciar un nuevo cultivo para una empresa.
+
+<img src='assets/images/chapter-6/8.png' alt='Git Flow' />
+
+El endpoint GET /api/v1/crops/{cropId} permite recuperar un cultivo según su ID.
+
+<img src='assets/images/chapter-6/9.png' alt='Git Flow' />
+
+El endpoint PATCH /api/v1/crops/{cropId} permite actualizar la fase y el estado de un cultivo según su ID.
+
+<img src='assets/images/chapter-6/10.png' alt='Git Flow' />
+
+El endpoint DELETE /api/v1/crops/{cropId} permite eliminar los cultivos en base a su ID.
+
+<img src='assets/images/chapter-6/11.png' alt='Git Flow' />
+
+**Mail endpoints:**
+
+El endpoint POST /api/v1/templates permite crear un template de correo electrónico a partir de un cuerpo en HTML.
+
+<img src='assets/images/chapter-6/12.png' alt='Git Flow' />
+
+El endpoint POST /api/v1/mails permite enviar correos electrónicos a partir de un template seleccionado.
+
+<img src='assets/images/chapter-6/13.png' alt='Git Flow' />
+
+**Edge endpoints:**
+
+El endpoint POST /api/v1/greenhouse/crop-info del edge permite recibir y persistir el cropId y la phase.
+
+<img src='assets/images/chapter_6/edge_post_images/crop-info.png' alt='Git Flow' />
+
+El endpoint POST /api/v1/greenhouse/sensor-readings permite recibir datos de los sensores del ESP32, previa autenticación.
+
+<img src='assets/images/chapter_6/edge_post_images/sensor-readings.png' alt='Git Flow' />
+
 <h4 id='6.2.3.7.'>6.2.3.7. Services Documentation Evidence for Sprint Review.</h4>
 
 Durante el Sprint 3, no se realizaron modificaciones en los microservicios existentes. Por tanto, los endpoints documentados en sprints anteriores se mantienen vigentes y funcionales, sin alteraciones en su estructura ni lógica. A continuación, se presentan nuevamente los endpoints correspondientes a cada microservicio como evidencia de continuidad:
