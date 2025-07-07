@@ -1263,7 +1263,7 @@ El lenguaje ubicuo permite que las personas del negocio, incluso aquellas sin co
 | **EP07** | Landing page para la aplicación Greenhouse                                        | Como miembro del startup Integradis Quiero desarrollar una landing page llamativa Para motivar a los potenciales clientes a conocer más sobre los servicios que ofrece la aplicación Greenhouse.                          | No corresponde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | No corresponde   |
 | **US01** | Medición Automática de Parámetros Ambientales                                     | Como técnico supervisor, Quiero que los sensores midan la temperatura y la humedad automáticamente, Para mitigar errores asociados al factor humano.                                                                      | Escenario 1: Medidor lee correctamente<br>Dado que el medidor intenta obtener la temperatura y humedad<br>Cuando su configuracion le indica<br>Entonces el medidor enviara la informacion obtenida al sistema<br>Escenario 2: Medidor no lee correctamente<br>Dado que el medidor tiene una falla en la configuracion<br>Cuando intenta obtener la informacion<br>Entonces envia la informacion incorrecta al sistema                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | EP01             |
 | **US02** | Monitoreo en Tiempo Real de Temperatura y Humedad                                 | Como técnico supervisor / administrador de la fábrica, Quiero ver las mediciones de temperatura y humedad en tiempo real, Para poder hacer un seguimiento constante del ambiente en las naves.                            | Escenario 1: Visualizacion de mediciones<br>Dado que el usuario quiere ver las mediciones de las naves<br>Cuando ingresa a la seccion de monitoreo en tiempo real<br>Entonces se muestran correctamente los datos recopilados<br>Escenario 2: Visualziacion incorrecta de mediciones<br>Dado que el usuario quiere ver las mediciones de las naves<br>Cuando ingresa a la seccion de monitoreo en tiempo real<br>Entonces se muestran datos incorrectos<br>Escenario 3: Visualizacion desfasada<br>Dado que el usuario quiere ver las mediciones de las naves<br>Cuando ingresa a la seccion de monitoreo en tiempo real<br>Entonces se muestran datos antiguos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | EP02             |
-| **US03** | Alertas por Parámetros Fuera de Rango                                             | Como técnico supervisor, Quiero recibir alertas cuando los niveles de temperatura o humedad se salgan de los valores recomendados, Para poder tomar medidas correctivas rápidamente.                                      | Escenario 1: Alerta notifica correctamente<br>Dado que se identifica una falla en la recopilacion de medicions<br>Cuando se identifica el error<br>Entonces se notifica al usuario del problema<br>Escenario 2: Alerta no notifica correctamente<br>Dado que se identifica una falla en la recopilacion de medicions<br>Cuando se identifica el error<br>Entonces no se notifica al usuario del problema<br>Escenario 3: Alerta notifica tarde<br>Dado que se identifica una falla en la recopilacion de medicions<br>Cuando se identifica el error<br>Entonces se notifica tarde al usuario del problema<br>Escenario 4: Alerta sin motivo<br>Dado que hay una falla en el sistema de alerta<br>Cuando no se identifico ningun problema<br>Entonces se notifica incorrectamente al usuario                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | EP02             |
+| **US03** | Notificaciones por acciones realizadas                                             | Como administrador de la fabrica, Quiero obtener notificaciones cuando mis trabajadores inician un cultivo, avanzan de fase o finalizan un cultivo, Para supervisar las actividades dentro de la empresa                                     | Escenario 1: Alerta notifica correctamente<br>Dado que se identifica una falla en la recopilacion de medicions<br>Cuando se identifica el error<br>Entonces se notifica al usuario del problema<br>Escenario 2: Alerta no notifica correctamente<br>Dado que se identifica una falla en la recopilacion de medicions<br>Cuando se identifica el error<br>Entonces no se notifica al usuario del problema<br>Escenario 3: Alerta notifica tarde<br>Dado que se identifica una falla en la recopilacion de medicions<br>Cuando se identifica el error<br>Entonces se notifica tarde al usuario del problema<br>Escenario 4: Alerta sin motivo<br>Dado que hay una falla en el sistema de alerta<br>Cuando no se identifico ningun problema<br>Entonces se notifica incorrectamente al usuario                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | EP02             |
 | **US04** | Visualización Gráfica de la Evolución de Parámetros Ambientales                   | Como administrador de la fábrica, Quiero poder ver gráficas que muestren la evolución de los parámetros registrados a lo largo del tiempo, Para identificar patrones y mejorar la gestión de los cultivos.                | Escenario 1: Visualizacion de graficos correctamente<br>Dado que el usuario quiere ver la evolucion de los parametros registrado<br>Cuando ingresa a la seccion de los paramentros<br>Entonces se muestra el grafico de la evolucion de parametros<br>Escenario 2: Visualizacion de graficos incorrectamente<br>Dado que el usuario quiere ver la evolucion de los parametros registrado<br>Cuando ingresa a la seccion de los paramentros<br>Entonces se muestra un grafico con informacion erronea                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | EP02             |
 | **US05** | Acceso a Datos Históricos Web| Como administrador de la fábrica, Quiero tener acceso a los datos históricos registrados desde la aplicación web, Para poder hacer análisis a largo plazo y optimizar los procesos de cultivo.| Escenario 1: Acceso correcto; Dado que el usuario desea ver todos los datos registrados; Cuando ingresa al histórico desde la versión web; Entonces se muestran todos los registros. <br> Escenario 2: Falla en obtención; Dado que hay una falla en la obtención de registros; Cuando ingresa al histórico desde la versión web; Entonces no se muestra ningún dato.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | EP03             |
 | **US06** | Exportación de Datos de Sensores en Formatos Estándar                             | Como administrador de la fábrica, Quiero que el sistema permita la exportación de los datos de los sensores en formatos estándar (Excel), Para facilitar su análisis y reporte.                                           | Escenario 1: Exportado de datos correctamente<br>Dado que el usuario desea exportar los datos de los sensores<br>Cuando presione el boton de exportar<br>Entonces se descarga un archivo en formato excel<br>Escenario 2: Error en el exportado de datos<br>Dado que el usuario desea exportar los datos de los sensores<br>Cuando presione el boton de exportar<br>Entonces se va a mostrar una ventana de error indicando que no se pudo exportar                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | EP03             |
@@ -1308,7 +1308,7 @@ Enlace para acceder a la imagen en <a href="https://drive.google.com/file/d/1yVW
 | 5       | US13          | Documentar registros durante la preparación, cocción y pasteurización del compost | Como técnico supervisor, Quiero agregar o editar registros manuales relacionados a la elaboración, cocción y pasteurización del compost, Para reflejar a través de una documentación digital los procesos realizados.     | 5            |
 | 6       | US14          | Ver Listado de Cultivos en Progreso Web                                               | Como administrador de la fábrica, Quiero ver un listado de cultivos en progreso desde la web, Para monitorear los avances desde la oficina.| 2            |
 | 7       | US15          | Avanzar Etapa de un Cultivo                                                       | Como técnico supervisor, Quiero avanzar la etapa de un cultivo, Para poder continuar a la siguiente etapa de documentación de procesos y actividades del ciclo de producción de champiñones.                              | 3            |
-| 8       | US03          | Alertas por Parámetros Fuera de Rango                                             | Como técnico supervisor, Quiero recibir alertas cuando los niveles de temperatura o humedad se salgan de los valores recomendados, Para poder tomar medidas correctivas rápidamente.                                      | 3            |
+| 8       | US03          | Notificaciones por acciones realizadas                                             | Como administrador de la fabrica, Quiero obtener notificaciones cuando mis trabajadores inician un cultivo, avanzan de fase o finalizan un cultivo, Para supervisar las actividades dentro de la empresa                                     | 3            |
 | 9       | US04          | Visualización Gráfica de la Evolución de Parámetros Ambientales                   | Como administrador de la fábrica, Quiero poder ver gráficas que muestren la evolución de los parámetros registrados a lo largo del tiempo, Para identificar patrones y mejorar la gestión de los cultivos.                | 2            |
 | 10      | US11          | Iniciar Nuevo Cultivo                                                             | Como administrador de la fábrica, Quiero iniciar un nuevo cultivo, Para poder comenzar a documentar un nuevo ciclo de producción.                                                                                         | 2            |
 | 11      | US06          | Exportación de Datos de Sensores en Formatos Estándar                             | Como administrador de la fábrica, Quiero que el sistema permita la exportación de los datos de los sensores en formatos estándar (Excel), Para facilitar su análisis y reporte.                                           | 2            |
@@ -4133,7 +4133,7 @@ El objetivo principal del Sprint 2 conectar e implementar el modelo IoT para pod
   </tr>
   <tr>
     <td>US03</td>
-    <td>Alertas por Parámetros Fuera de Rango</td>
+    <td>Notificaciones por acciones realizadas</td>
     <td>TK04</td>
     <td>Configurar alertas automáticas</td>
     <td>Implementar sistema de alertas cuando las mediciones excedan los umbrales</td>
@@ -4583,6 +4583,101 @@ A continuación se presentan las insights de la colaboración del equipo durante
 </table>
 
 <h4 id='6.2.3.3.'>6.2.3.3. Sprint Backlog 3.</h4>
+
+El objetivo principal del Sprint 3 conectar e implementar el modelo IoT para poder analizar los cultivos de champiñones a través los parámetros ambientales.
+
+<table border="1">
+  <tr>
+    <th>Sprint #3</th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <th>Technical User Story</th>
+    <th></th>
+    <th>WorkItem/Task</th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <th>ID</th>
+    <th>Title</th>
+    <th>ID</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status</th>
+  </tr>
+  <tr>
+    <td>US21</td>
+    <td>Captura de Parámetros Ambientales desde Sensores</td>
+    <td>TK01</td>
+    <td>Leer temperatura, humedad y CO₂ desde sensores</td>
+    <td>Implementar código para capturar los valores de los sensores conectados</td>
+    <td>6</td>
+    <td>Nicolás Espinoza</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US22</td>
+    <td>Envío de Datos al Nodo Edge</td>
+    <td>TK02</td>
+    <td>Enviar datos al nodo edge por REST</td>
+    <td>Crear función POST para enviar mediciones capturadas al sistema edge</td>
+    <td>4</td>
+    <td>Carlo Seminario</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US23</td>
+    <td>Procesamiento de Umbrales Ambientales</td>
+    <td>TK03</td>
+    <td>Evaluar si los valores superan umbrales</td>
+    <td>Implementar lógica para comparar las lecturas con umbrales definidos</td>
+    <td>5</td>
+    <td>Jherson Astuyauri</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US24</td>
+    <td>Activación de Servomotores según Parámetros</td>
+    <td>TK04</td>
+    <td>Activar servos ante condiciones críticas</td>
+    <td>Programar activación de servomotores cuando los valores estén fuera de rango</td>
+    <td>5</td>
+    <td>Alan Galavis</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US25</td>
+    <td>Visualización Local en Pantalla LCD</td>
+    <td>TK05</td>
+    <td>Mostrar valores ambientales en LCD</td>
+    <td>Diseñar e implementar lógica para visualizar datos actuales en la pantalla LCD</td>
+    <td>4</td>
+    <td>Andrés Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US26</td>
+    <td>Envío de Datos a la Nube vía Wi-Fi</td>
+    <td>TK06</td>
+    <td>Subir datos procesados al backend</td>
+    <td>Enviar datos a la nube mediante REST si hay conectividad disponible</td>
+    <td>5</td>
+    <td>Alan Galavis</td>
+    <td>Done</td>
+  </tr>
+</table>
 
 <h4 id='6.2.3.4.'>6.2.3.4. Development Evidence for Sprint Review.</h4>
 
