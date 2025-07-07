@@ -4683,10 +4683,12 @@ Diseñar e implementar una vista para la mejora del nivel de membresía.
 
 <h4 id='6.4.'>6.4. Video About-the-Product</h4>
 
+A continuación, se presenta el video que muestra la aplicación Greenhouse, sus funcionalidades y testimonios de parte de los usuarios. Este video es una herramienta útil para entender mejor el producto y su propuesta de valor.
+
 | Video About the Product |
 | ----------------------- |
 | <img src='assets/images/chapter_6/video-about-the-product/video-about-the-product.png' alt='Video de demostracion del producto' /> |
-| URL: [https://youtube.com/shorts/r7QcOc0uhz8](https://youtube.com/shorts/r7QcOc0uhz8?feature=share) |
+| URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110223_upc_edu_pe/ETeN-QVQdFFOqzY6Tax2sg8BZkQa9KLYEKppKdCtenRsVg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=1PKX6w](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110223_upc_edu_pe/ETeN-QVQdFFOqzY6Tax2sg8BZkQa9KLYEKppKdCtenRsVg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=1PKX6w) |
 
 <h1 id='conclusiones'>Conclusiones</h1>
 El desarrollo de los problem statements y assumptions demostró aproximarse bastante al comportamiento de nuestros segmentos objetivos de arrendador y arrendatario. Esto se debió a un correcto análisis (previo a la realización de entrevistas) sobre cómo planteamos llevar a cabo el proceso de alquiler de bicicletas y qué es lo que esperan los ciclistas en general en base a nuestros propios conocimientos, experiencia e investigación.
