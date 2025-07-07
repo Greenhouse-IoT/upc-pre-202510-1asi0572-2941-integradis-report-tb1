@@ -4449,18 +4449,16 @@ A continuación se presentan las insights de la colaboración del equipo durante
   <tr>
     <th>Team Member (Last Name, First Name)</th>
     <th>GitHub Username</th>
-    <th>Despliegue y QA: Leader (L) / Collaborator (C)</th>
-    <th>Desarrollo del API: Leader (L) / Collaborator (C)</th>
-    <th>Desarrollo de la Landing Page: Leader (L) / Collaborator (C)</th>
-    <th>Desarrollo de Embedded: Leader (L) / Collaborator (C)</th>
-    <th>Desarrollo del Edge: Leader (L) / Collaborator (C)</th>
-    <th>Desarrollo de la Mobile App: Leader (L) / Collaborator (C)</th>
+    <th>Desarrollo de algoritmo de toma de decisiones: Leader (L) / Collaborator (C)</th>
+    <th>Configuración de Sensores: Leader (L) / Collaborator (C)</th>
+    <th>Configuración de Actuadores: Leader (L) / Collaborator (C)</th>
+    <th>Conexión entre Nodos Sensores/Actuadores y Edge: Leader (L) / Collaborator (C)</th>
+    <th>Presentación de información al usuario: Leader (L) / Collaborator (C)</th>
   </tr>
   <tr>
     <td>Astuyauri Calderon, Jherson David</td>
     <td>JHS-Sama24</td>
     <td>L</td>
-    <td>C</td>
     <td>C</td>
     <td>C</td>
     <td>C</td>
@@ -4474,7 +4472,6 @@ A continuación se presentan las insights de la colaboración del equipo durante
     <td>C</td>
     <td>C</td>
     <td>C</td>
-    <td>C</td>
   </tr>
   <tr>
     <td>Galavis Du Bois, Alan Enrique</td>
@@ -4484,7 +4481,6 @@ A continuación se presentan las insights de la colaboración del equipo durante
     <td>L</td>
     <td>C</td>
     <td>C</td>
-    <td>C</td>
   </tr>
   <tr>
     <td>Seminario Garbín, Carlo Luca</td>
@@ -4492,7 +4488,6 @@ A continuación se presentan las insights de la colaboración del equipo durante
     <td>C</td>
     <td>C</td>
     <td>C</td>
-    <td>L</td>
     <td>L</td>
     <td>C</td>
   </tr>
