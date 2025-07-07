@@ -4510,6 +4510,101 @@ A continuación se presentan las insights de la colaboración del equipo durante
 
 <h4 id='6.2.3.3.'>6.2.3.3. Sprint Backlog 3.</h4>
 
+El objetivo principal del Sprint 3 conectar e implementar el modelo IoT para poder analizar los cultivos de champiñones a través los parámetros ambientales.
+
+<table border="1">
+  <tr>
+    <th>Sprint #3</th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <th>Technical User Story</th>
+    <th></th>
+    <th>WorkItem/Task</th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <th>ID</th>
+    <th>Title</th>
+    <th>ID</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status</th>
+  </tr>
+  <tr>
+    <td>US21</td>
+    <td>Captura de Parámetros Ambientales desde Sensores</td>
+    <td>TK01</td>
+    <td>Leer temperatura, humedad y CO₂ desde sensores</td>
+    <td>Implementar código para capturar los valores de los sensores conectados</td>
+    <td>6</td>
+    <td>Nicolás Espinoza</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US22</td>
+    <td>Envío de Datos al Nodo Edge</td>
+    <td>TK02</td>
+    <td>Enviar datos al nodo edge por REST</td>
+    <td>Crear función POST para enviar mediciones capturadas al sistema edge</td>
+    <td>4</td>
+    <td>Carlo Seminario</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US23</td>
+    <td>Procesamiento de Umbrales Ambientales</td>
+    <td>TK03</td>
+    <td>Evaluar si los valores superan umbrales</td>
+    <td>Implementar lógica para comparar las lecturas con umbrales definidos</td>
+    <td>5</td>
+    <td>Jherson Astuyauri</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US24</td>
+    <td>Activación de Servomotores según Parámetros</td>
+    <td>TK04</td>
+    <td>Activar servos ante condiciones críticas</td>
+    <td>Programar activación de servomotores cuando los valores estén fuera de rango</td>
+    <td>5</td>
+    <td>Alan Galavis</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US25</td>
+    <td>Visualización Local en Pantalla LCD</td>
+    <td>TK05</td>
+    <td>Mostrar valores ambientales en LCD</td>
+    <td>Diseñar e implementar lógica para visualizar datos actuales en la pantalla LCD</td>
+    <td>4</td>
+    <td>Andrés Soto</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US26</td>
+    <td>Envío de Datos a la Nube vía Wi-Fi</td>
+    <td>TK06</td>
+    <td>Subir datos procesados al backend</td>
+    <td>Enviar datos a la nube mediante REST si hay conectividad disponible</td>
+    <td>5</td>
+    <td>Alan Galavis</td>
+    <td>Done</td>
+  </tr>
+</table>
+
 <h4 id='6.2.3.4.'>6.2.3.4. Development Evidence for Sprint Review.</h4>
 
 | Repository | Branch | Commit ID | Commit Message | Committed on (Date) |
