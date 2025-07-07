@@ -4336,7 +4336,7 @@ Environment variables on netlify:
 
 <img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/web_app_2.png' alt='Web App Envirioment Variables' />
 
-Enlace al despliegue: [https://app-greenhouse.netlify.app](https://app-greenhouse.netlify.app)
+Enlace al despliegue: [https://greenhouse-web-app.netlify.app](https://greenhouse-web-app.netlify.app)
 
 **Backend:**
 
@@ -4818,6 +4818,115 @@ A continuación se presentan las insights de la colaboración del equipo durante
 | Carlo Seminario   |  ModestIoT refactoring  |
 
 <h4 id='6.2.3.8.'>6.2.3.8. Software Deployment Evidence for Sprint Review.</h4>
+
+**Landing Page:**
+
+Landing page deploy on netlify via Github:
+
+<img src='assets/images/chapter_6/sprint_3/software_deployment_evidence/landing_page_1.png' alt='Landing Page' />
+
+Enlace al despliegue de la landing page: [https://landing-greenhouse.netlify.app/](https://landing-greenhouse.netlify.app/)
+
+**Web App:**
+
+Deploy of Web App on Netlify via Github:
+
+<img src='assets/images/chapter_6/sprint_3/software_deployment_evidence/web_app_1.png' alt='Web App Deployed' />
+
+Environment variables on netlify:
+
+<img src='assets/images/chapter_6/sprint_3/software_deployment_evidence/web_app_2.png' alt='Web App Envirioment Variables' />
+
+Enlace al despliegue: [https://greenhouse-web-app.netlify.app](https://greenhouse-web-app.netlify.app)
+
+**Backend:**
+
+Contenedores de docker en ejecución dentro de la instancia, se evidencian las bases de datos y el backend:
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/backend_1.png' alt='Backend Desplegado' />
+
+Los procesos que se ejecutan dentro del contenedor de Docker correspondiente al backend donde se evidencian los microservicios.
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/backend_2.png' alt='Backend Desplegado Contenedores' />
+
+La instancia se encuentra en ejecución:
+
+<img src='assets/images/chapter_6/sprint_3/software_deployment_evidence/backend_3.png' alt='Backend Desplegado Ejecución' />
+
+Enlace al swagger: [https://greenhouse.integradis.shop/api](https://greenhouse.integradis.shop/api)
+
+**Mobile App**:
+
+Para el deployment evidence de la mobile app se tiene que ejecutar el comando:
+
+- flutter build apk \--release
+
+En el cual se genera el archivo resultante en:
+
+- Built build/app/outputs/flutter-apk/app-release.apk (28.0MB)
+
+Luego de ello se sube el archivo a Google Drive y se genera un código QR con el enlace del archivo de Google Drive
+
+Se creó un código QR
+
+<img src='assets/images/chapter_6/sprint_3/software_deployment_evidence/mobile_app_qr.png' alt='Mobile App QR' />
+
+**Message Broker:**
+
+Se desplegó un message broker de Active MQ mediante el servicio de Amazon MQ, el cuál es utilizado para las notificaciones en tiempo real.
+
+<img src='assets/images/chapter_6/sprint_3/software_deployment_evidence/message_broker.png' alt='Message Broker Desplegado' />
+
+**Firebase Storage:**
+
+Se utilizó firebase storage para almacenar las imágenes de los cultivos que se suban desde la aplicación para que luego se pueda acceder a estar desde la aplicación web.
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/firebase.png' alt='Firebase' />
+
+**Computer Vision Model:**
+
+El modelo de computer visión se entrenó desde ultralytics el mismo te brinda un endpoint de deploy con el cuál puedes hacer uso del modelo.
+
+<img src='assets/images/chapter_6/sprint_1/software_deployment_evidence/computer_vision.png' alt='Computer Vision Desplegado' />
+
+**Route 53:**
+
+<img src='assets/images/chapter_6/sprint_3/software_deployment_evidence/route53.png' alt='Route 53 Desplegado' />
+
+**Edge Desplegado:**
+
+Se desplegó un sistema Edge que permite procesar datos localmente en zonas donde la conectividad con la nube es limitada o intermitente. Este sistema actúa como intermediario entre los sensores, actuadores y la nube.
+
+<img src='assets/images/chapter_6/sprint_2/software_deployment_evidence/edge_deploy.png' alt='Edge Desplegado' />
+
+**Servidor de Actuadores:**
+
+Se implementó un servidor embebido para el control de actuadores, permitiendo ejecutar acciones en tiempo real desde el edge.
+
+<img src='assets/images/chapter_6/sprint_2/software_deployment_evidence/actuadores_server.png' alt='Servidor de Actuadores' />
+
+
+**Embebido de Actuadores:**
+
+Se configuró el sistema embebido encargado de recibir señales desde el edge y ejecutar comandos hacia los actuadores.
+
+<img src='assets/images/chapter_6/sprint_2/software_deployment_evidence/embebido_actuadores.png' alt='Embebido de Actuadores' />
+
+
+**Sensores:**
+
+Se integraron sensores ambientales al sistema edge para la recolección de datos. Estos dispositivos transmiten información de humedad, temperatura y otros parámetros clave.
+
+<img src='assets/images/chapter_6/sprint_2/software_deployment_evidence/sensores.png' alt='Sensores Conectados' />
+
+
+**Endpoint del Edge:**
+
+El endpoint que permite la comunicación directa con el sistema edge desplegado es:
+
+* [http://44.200.80.62](http://44.200.80.62)
+
+<img src='assets/images/chapter_6/sprint_2/software_deployment_evidence/edge_enpoint.png' alt='Endpoint del Edge' />
 
 <h4 id='6.2.3.9.'>6.2.3.9. Team Collaboration Insights during Sprint.</h4>
 
