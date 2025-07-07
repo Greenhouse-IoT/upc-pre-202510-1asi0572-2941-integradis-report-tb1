@@ -58,9 +58,9 @@
 | 1.8     | 25/04/2025 | Seminario Garbín, Carlo Luca <br> Espinoza Rodríguez Nicolas Antonio                                                                                                                       | Elaboración de software architechture diagrams y bounded context IoT                                                                                                   |
 | 1.9     | 26/04/2025 | Galavis Du Bois, Alan Enrique <br>                                                                                                                                                         | Redacción de Project Report Collaboration Insights, redacción de Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases, Context Mapping |
 | 2.0     | 15/05/2025 | Astuyauri Calderon, Jherson David <br/> Espinoza Rodríguez, Nicolás Antonio <br/> Galavis Du Bois, Alan Enrique <br/> Seminario Garbin, Carlo Luca <br/> Soto Kong Requena, Andrés Eduardo | Elaboración de wireflow diagrams y userflow diagrams, elaboración de Applications UX/UI Design, Redacción del capítulo 6.1 Sprint 1                                    |
-| 3.0     | 18/05/2025 | Astuyauri Calderon, Jherson David <br/> Espinoza Rodríguez, Nicolás Antonio <br/> Galavis Du Bois, Alan Enrique <br/> Seminario Garbin, Carlo Luca <br/> Soto Kong Requena, Andrés Eduardo | Redacción del capítulo 6.2 Sprint 2, desarrollo de la version final de la landing page, despliegue inicial de la web-app y mobile-app, y desarrollo del backend        |
-| 4.0     | 20/06/2025 | Astuyauri Calderon, Jherson David <br/> Espinoza Rodríguez, Nicolás Antonio <br/> Galavis Du Bois, Alan Enrique <br/> Seminario Garbin, Carlo Luca <br/> Soto Kong Requena, Andrés Eduardo | Finalizacion del capítulo 6.2 Sprint 2, despliegue de nueva version de la web-app y mobile-app, y cierre del desarrollo del backend        |
-| 5.0     | 04/07/2025 | Astuyauri Calderon, Jherson David <br/> Espinoza Rodríguez, Nicolás Antonio <br/> Galavis Du Bois, Alan Enrique <br/> Seminario Garbin, Carlo Luca <br/> Soto Kong Requena, Andrés Eduardo | Finalizacion del capítulo 6.2.3 Sprint 3, despliegue de última version de la edge y embedded applications, cierre del desarrollo de la aplicación IoT    |
+| 3.0     | 18/05/2025 | Astuyauri Calderon, Jherson David <br/> Espinoza Rodríguez, Nicolás Antonio <br/> Galavis Du Bois, Alan Enrique <br/> Seminario Garbin, Carlo Luca <br/> Soto Kong Requena, Andrés Eduardo | Redacción del capítulo 6.2.2 Sprint 2, desarrollo de la version final de la landing page, despliegue inicial de la web-app y mobile-app, y desarrollo del backend        |
+| 4.0     | 20/06/2025 | Astuyauri Calderon, Jherson David <br/> Espinoza Rodríguez, Nicolás Antonio <br/> Galavis Du Bois, Alan Enrique <br/> Seminario Garbin, Carlo Luca <br/> Soto Kong Requena, Andrés Eduardo | Finalizacion del capítulo 6.2.2 Sprint 2, despliegue de nueva version de la web-app y mobile-app, y cierre del desarrollo del backend        |
+| 5.0     | 04/07/2025 | Astuyauri Calderon, Jherson David <br/> Espinoza Rodríguez, Nicolás Antonio <br/> Galavis Du Bois, Alan Enrique <br/> Seminario Garbin, Carlo Luca <br/> Soto Kong Requena, Andrés Eduardo | Redacción del capítulo 6.2.3 Sprint 3. Despliegue de la edge app y desarrollo final de la embedded app. Ajustes adicionales a la mobile app |
 
 # Project Report Collaboration Insights
 
@@ -98,6 +98,17 @@ Link para acceder al repositorio en GitHub: [https://github.com/Greenhouse-IoT/u
 | Seminario Garbin, Carlo Luca        | Elaboracion del video About The Product, redacción del sprint planning 2 y sprint backlog 2                                              |
 | Soto Kong Requena, Andrés Eduardo   | Registro de Entrevistas, Evaluaciones segun heuristicas,                                                                                 |
 
+### TF1
+
+| Integrante                          | Tareas Asignadas                                                                                                                         |
+| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| Astuyauri Calderon, Jherson David   | Redacción de Aspect Leaders and Collaborators                                                                    |
+| Espinoza Rodríguez, Nicolás Antonio | Redacción de Development Evidence for Sprint Review, Testing Suite Evidence for Sprint Review, Team Collaboration Insights during Sprint |
+| Galavis Du Bois, Alan Enrique       | Redacción de execution evidence for sprint review                                                  |
+| Seminario Garbin, Carlo Luca        | Elaboración del video About The Team y deployment evidence for sprint review                                              |
+| Soto Kong Requena, Andrés Eduardo   | Redacción de Sprint Planning 3, y de Sprint Backlog 3                                                                                 |
+
+
 ## GitHub Collaboration Insights
 
 GitHub Collaboration proporciona analíticas de los commits realizados por las cuentas de los integrantes del equipo. Estas cuentas son:
@@ -128,6 +139,12 @@ A continuación, se presentan evidencias de la colaboración de los integrantes 
 
 <img src="assets/images/collaboration_insights/tb2/contributors_graph_tb2.png" alt="TB2 contributors graph" />
 
+**TF1:**
+
+<img src="assets/images/collaboration_insights/tf1/collaboration_graph_tf1.png" alt="TF1 collaboration graph" />
+
+<img src="assets/images/collaboration_insights/tf1/contributors_graph_tf1.png" alt="TF1 contributors graph" />
+
 Adicionalmente, GitHub presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las ramas se
 crearon tomando en cuenta el diseño de GitFlow para una buena organización cuando se usa un software de control de versiones. Se
 explican las ramas más prominentes:
@@ -152,6 +169,10 @@ explican las ramas más prominentes:
 **TB2:**
 
 <img src="assets/images/collaboration_insights/tb2/network_graph_tb2.png" alt="TB2 network graph" />
+
+**TF1:**
+
+<img src="assets/images/collaboration_insights/tf1/network_graph_tf1.png" alt="TF1 network graph" />
 
 # Contenido
 
@@ -300,10 +321,10 @@ explican las ramas más prominentes:
     - 6.2.2.7. [Services Documentation Evidence for Sprint Review.](#6.2.2.7.)<br>
     - 6.2.2.8. [Software Deployment Evidence for Sprint Review.](#6.2.2.8.)<br>
     - 6.2.2.9. [Team Collaboration Insights during Sprint.](#6.2.2.9.)<br>
-  -  6.2.3. [Sprint 3.](#6.2.3.)<br>
-    - 6.2.3.1. [Sprint Planning 2.](#6.2.3.1.)<br>
+  - 6.2.3. [Sprint 3.](#6.2.3.)<br>
+    - 6.2.3.1. [Sprint Planning 3.](#6.2.3.1.)<br>
     - 6.2.3.2. [Aspect Leaders and Collaborators.](#6.2.3.2.)<br>
-    - 6.2.3.3. [Sprint Backlog 2.](#6.2.3.3.)<br>
+    - 6.2.3.3. [Sprint Backlog 3.](#6.2.3.3.)<br>
     - 6.2.3.4. [Development Evidence for Sprint Review.](#6.2.3.4.)<br>
     - 6.2.3.5. [Testing Suite Evidence for Sprint Review.](#6.2.3.5.)<br>
     - 6.2.3.6. [Execution Evidence for Sprint Review.](#6.2.3.6.)<br>
@@ -314,6 +335,7 @@ explican las ramas más prominentes:
   - 6.3.1. [Diseño de Entrevistas.](#6.3.1.)<br>
   - 6.3.2. [Registro de Entrevistas.](#6.3.2.)<br>
   - 6.3.3. [Evaluaciones según heurísticas.](#6.3.3.)<br>
+
 
 [**Conclusiones.**](#conclusiones)<br>
 [**Bibliografía.**](#referencias)<br>
@@ -342,7 +364,13 @@ explican las ramas más prominentes:
        Apoyé en el diseño de los wireflows y userflows tanto de la aplicación web como móvil. Participé activamente en la organización de las ideas del equipo y en el levantamiento de flujos centrados en la experiencia de usuario.<br>
       <br/>
       <i>TB2</i><br/>
-      <b>Astuyauri Calderón, Jherson David: En el desarrollo del segundo entregable técnico (TB2), lideré la documentación de los servicios desarrollados, la planificación de roles (aspect leaders and collaborators), y la creación de la evidencia del testing suite y colaboración del equipo. También guié la sección de entrevistas de validación y redacté las conclusiones del capítulo final. </b>
+      <b>Astuyauri Calderón, Jherson David:</b> 
+      En el desarrollo del segundo entregable técnico (TB2), lideré la documentación de los servicios desarrollados, la planificación de roles (aspect leaders and collaborators), y la creación de la evidencia del testing suite y colaboración del equipo. También guié la sección de entrevistas de   validación y redacté las conclusiones del capítulo final.<br>
+      <br/>        
+      <i>TF1</i><br/>
+      <b>Astuyauri Calderón, Jherson David:</b>
+      Durante el Sprint 3, participé en la documentación de los roles, los servicios (que se mantuvieron sin cambios) y el testing suite. Estuve pendiente de los aportes del equipo en Embedded y Edge, y ayudé a que todo quede ordenado en el entregable.<br>
+      <br/>  
       <br>
       <br/>
       <i>TB1</i><br/>
@@ -364,7 +392,11 @@ explican las ramas más prominentes:
       <br/>
       <i>TB2</i><br/>
       <b>Galavis Du Bois, Alan Enrique:</b> 
-      Colabore durante el desarrollo de la mobile app, encargandome de las diferentes vistas, la integracion con la IA y la conexion con el backend para enviar y recibir los datos.
+      Colabore durante el desarrollo de la mobile app, encargandome de las diferentes vistas, la integracion con el Edge y la conexion con el backend para enviar y recibir los datos.<br/>
+      <br/>
+      <i>TF1</i><br/>
+      <b>Galavis Du Bois, Alan Enrique:</b> 
+      Durante el desarrollo del TF1, me aseguré de que el equipo mantenga una buena comunicación y colaboración, a su vez, de que se cumplan los objetivos del Sprint. Concretamente, demostré liderazgo al organizar reuniones para distribuir equitativamente el informe, y al validar que el proyecto final cumpla con las expectativas del cliente<br/>
       <br/>
       <br/>
       <i>TB1</i><br/>
@@ -377,6 +409,10 @@ explican las ramas más prominentes:
       <br/>
       <i>TB2</i><br/>
       <b>Seminario Garbín, Carlo Luca:</b> Me encargue de desarrollar el edge device e embedded applications para recibir la informacion desde un esp32 a nuestro back desplegado
+      <br/>
+      <br/>
+      <i>TF1</i><br/>
+      <b>Seminario Garbín, Carlo Luca:</b> Me encargue de desplegar y asegurar el correcto funcionamiento de la solución, comunicando aspectos a mejorar o escuchando bugs que se pueden haber encontrado en las pruebas de las funcionalidades.
       <br/>
       <br/>
       <i>TB1</i><br/>
@@ -405,7 +441,13 @@ explican las ramas más prominentes:
       Apoyé en la elaboración de los wireflows y userflows de ambas aplicaciones, organizando tareas por prioridad y asegurando entregables claros.<br>
       <br/>
         <i>TB2</i><br/>
-      <b>Astuyauri Calderón, Jherson David: Coordiné múltiples entregables clave como el Testing Suite, la documentación de servicios, y las evidencias de colaboración del equipo. Gestioné el contenido final del capítulo de conclusiones y validé la planificación de entrevistas. Aporté al entorno colaborativo al clarificar objetivos, planificar tareas técnicas y asegurar el cumplimiento de los entregables. </b>  
+      <b>Astuyauri Calderón, Jherson David:</b>
+       Coordiné múltiples entregables clave como el Testing Suite, la documentación de servicios, y las evidencias de colaboración del equipo. Gestioné el contenido final del capítulo de conclusiones y validé la planificación de entrevistas. Aporté al entorno colaborativo al clarificar objetivos, planificar tareas técnicas y asegurar el cumplimiento de los entregables. <br> 
+       <br/>
+        <i>TF</i><br/>
+      <b>Astuyauri Calderón, Jherson David:</b>
+      Apoyé en organizar los entregables como el testing suite, la parte de servicios y las evidencias de colaboración. También estuve atento a que se cumplan los objetivos del Sprint.<br>
+      <br/>  
       <i>TB1</i><br/>
       <b>Espinoza Rodríguez, Nicolás Antonio:</b>
       Se consideró como primer sprint del equipo el desarrollo de los artefactos de gestión y el planeamiento del proyecto. Se realizó el proceso del planning poker y se lograron estimar las historias de usuario que conforman nuestro backlog y alcance del proyecto. <br/><br/>
@@ -422,7 +464,11 @@ explican las ramas más prominentes:
       <br/>
       <i>TB2</i><br/>
       <b>Galavis Du Bois, Alan Enrique:</b>
-      Me encargue de realizar las entrevistas de usabilidad de las diferentes interfaces presentadas a cada uno de los usuarios establecidos que haran uso de las aplicaciones.<br/>
+      Me encargué de realizar las entrevistas de usabilidad de las diferentes interfaces presentadas a cada uno de los usuarios establecidos que haran uso de las aplicaciones.<br/>
+      <br/>
+      <i>TF1</i><br/>
+      <b>Galavis Du Bois, Alan Enrique:</b>
+      Para la entrega del trabajo final, establecí como meta colaborativa que cada integrante del equipo culmine con su parte del informe con 2 días de antelación a la fecha de entrega, para que nos de tiempo a realizar las revisiones necesarias, y a perfeccionar lo que resulte necesario para lograr alcanzar con los objetivos del curso. <br/>
       <br/>
       <i>TB1</i><br/>
       <b>Seminario Garbín, Carlo Luca:</b>
@@ -434,6 +480,9 @@ explican las ramas más prominentes:
       <br/>
       <i>TB2</i><br/>
       <b>Seminario Garbín, Carlo Luca:</b> Me encargue del despliegue en su totalidad de las diferentes aplicaciones desarrolladas configurando la plataforma de despliegue de amazon web services
+      <br/>
+      <i>TF1</i><br/>
+      <b>Seminario Garbín, Carlo Luca:</b> Se planificó los puntos a presentar en el trabajo final, se gestionó el orden de los commits para el documento del trabajo final, se realizó el despliegue y se hicieron las mejoras sobre el último sprint.
       <br/>
       <i>TB1</i><br/>
       <b>Soto Kong Requena, Andrés Eduardo</b>: Colabore para obtener un entorno colaborativo e inclusivo, asegurándose de que todas las metas fueran claras y alcanzables. Se encargó de coordinar tareas clave en el proceso de planificación, estableciendo un flujo de trabajo organizado y apoyando al equipo en el cumplimiento de los objetivos establecidos.<br/>
@@ -1564,7 +1613,7 @@ Después de obtener cuáles serían nuestros Bounded Contexts, se realizó la el
 
 El diagrama de landscape es útil para identificar los usuarios y sistemas que interactúan con el programa propuesto, además de proporcionar una visión general de los servicios involucrados. Sin embargo, debido a su enfoque en la arquitectura general, no muestra con detalle las diferencias específicas entre una arquitectura basada en microservicios y una arquitectura monolítica.
 
-<img src='assets/images/chapter_4/strategic_ddd/system_landscape_diagram.png' alt='Software Architecture System Landscape Diagram' />
+<img src='assets/images/chapter_4/strategic_ddd/system_landscape_diagram.jpg' alt='Software Architecture System Landscape Diagram' />
 
 <h4 id='4.1.3.2.'>4.1.3.2. Software Architecture Context Level Diagrams.</h4>
 
@@ -1576,11 +1625,11 @@ El diagrama de contexto es de utilidad para identificar los usuarios y sistemas 
 
 El diagrama de contenedores presentado a continuación representa cómo interactúan los usuarios y sistemas con los principales componentes del sistema “Greenhouse”, entre los cuales cabe destacar el API gateway, el Identity and Access Management, y los servicios de personas, cultivos, membresías y un servicio por separado para manejar la parte IoT. La separación de estos servicios, cada uno con sus bases de datos independientes, evidencian la intención de desarrollar un producto basado en microservicios.
 
-<img src='assets/images/chapter_4/strategic_ddd/container_diagram.png' alt='Software Architecture Context Level Diagrams' />
+<img src='assets/images/chapter_4/strategic_ddd/container_diagram.jpg' alt='Software Architecture Context Level Diagrams' />
 
 <h4 id='4.1.3.4.'>4.1.3.4. Software Architecture Deployment Diagrams.</h4>
 
-<img src='assets/images/chapter_4/strategic_ddd/deployment_diagram.png' alt='Software Architecture Context Level Diagrams' />
+<img src='assets/images/chapter_4/strategic_ddd/deployment_diagram.jpg' alt='Software Architecture Context Level Diagrams' />
 
 <h2 id='4.2.'>4.2. Tactical-Level Domain-Driven Design.</h2>
 <h3 id='4.2.1.'>4.2.1. Bounded Context: Crops</h3>
