@@ -1,4 +1,5 @@
 <h3 align="center">Universidad Peruana de Ciencias Aplicadas - Ingeniería de Software - 2025-10</h3>
+<br/><br/><br/><br/><br/>
 <div align="center">
   <img width=140 src="assets/images/icons/upclogo.png"/>
 </div>
@@ -42,6 +43,8 @@
 </table>
 
 <h3 align="center">Junio del 2025</h3>
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 # Registro de versiones del Informe
 
@@ -5225,3 +5228,9 @@ Kusuma, M., Rifani, A. H., & Sugiantoro, B. (2023). Comparison analysis of Jetpa
 Wangereka, H. (2024). Mastering Kotlin for Android 14: Build powerful Android apps from scratch using Jetpack libraries and Jetpack Compose. Packt Publishing. https://ieeexplore.ieee.org/document/10522576
 
 <h1 id='anexos'>Anexos</h1>
+
+Video about the product: [https://youtu.be/7NJkRybK3Hs](https://youtu.be/7NJkRybK3Hs)
+
+Video about the team: [https://youtu.be/fsg0XGDO0T0](https://youtu.be/fsg0XGDO0T0)
+
+Video exposición TF1: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116113_upc_edu_pe/EV2Q6fPI1fBCiUdJGBMZ_0IBPMnqVLzJKcAdytrQyiLV7g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=yOwmiz](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116113_upc_edu_pe/EV2Q6fPI1fBCiUdJGBMZ_0IBPMnqVLzJKcAdytrQyiLV7g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=yOwmiz)
