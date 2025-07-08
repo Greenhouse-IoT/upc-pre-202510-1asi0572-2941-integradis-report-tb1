@@ -4558,7 +4558,7 @@ A continuación se presentan las insights de la colaboración del equipo durante
   <tr>
     <th>Sprint 3 Goal</th>
     <td>
-      Durante este sprint se entregarán la version final de la Landing Page, los server-side services, la Web App desplegada, la Mobile App y las aplicaciones embebidas para dispositivos IoT, todos completamente funcionales e integrados en una arquitectura distribuida basada en Embedded Systems, Edge Computing y Cloud Computing
+      Durante este sprint se entregarán los server-side services y las aplicaciones embebidas para dispositivos IoT, todos completamente funcionales e integrados en una arquitectura distribuida basada en Embedded Systems, Edge Computing y Cloud Computing. Adicionalmente, se presentarán como parte de la entrega la mobile app y la web app, las cuales fueron desarrolladas en los anteriores sprint y que permitirán a los usuarios interactuar con el sistema de monitoreo y control de cultivos de champiñones.
     </td>
   </tr>
   <tr>
