@@ -127,6 +127,12 @@ A continuación, se presentan evidencias de la colaboración de los integrantes 
 
 <img src="assets/images/collaboration_insights/tb2/contributors_graph_tb2.png" alt="TB2 contributors graph" />
 
+**TF1:**
+
+<img src="assets/images/collaboration_insights/tf1/collaboration_graph_tf1.png" alt="TF1 collaboration graph" />
+
+<img src="assets/images/collaboration_insights/tf1/contributors_graph_tf1.png" alt="TF1 contributors graph" />
+
 Adicionalmente, GitHub presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las ramas se
 crearon tomando en cuenta el diseño de GitFlow para una buena organización cuando se usa un software de control de versiones. Se
 explican las ramas más prominentes:
@@ -151,6 +157,10 @@ explican las ramas más prominentes:
 **TB2:**
 
 <img src="assets/images/collaboration_insights/tb2/network_graph_tb2.png" alt="TB2 network graph" />
+
+**TF1:**
+
+<img src="assets/images/collaboration_insights/tf1/network_graph_tf1.png" alt="TF1 network graph" />
 
 # Contenido
 
