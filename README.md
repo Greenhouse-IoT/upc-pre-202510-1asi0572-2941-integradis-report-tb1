@@ -4978,6 +4978,8 @@ A continuación se presentan las insights de la colaboración del equipo durante
 | ----------------- | ---------------------- |
 | Carlo Seminario   |  ModestIoT refactoring  |
 
+Enlace para acceder al video ejecución de la aplicación móvil y embebida: [https://youtu.be/DG86e0dAkL8](https://youtu.be/DG86e0dAkL8)
+
 <h2 id='6.3.'>6.3. Validation Interviews.</h2>
 <h3 id='6.3.1.'>6.3.1. Diseño de Entrevistas.</h3>
 
