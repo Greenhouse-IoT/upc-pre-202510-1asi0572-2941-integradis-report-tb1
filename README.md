@@ -5199,7 +5199,7 @@ A continuacion se presenta el video about the team donde el team leader realiza 
 
 URL: [https://youtu.be/fsg0XGDO0T0](https://youtu.be/fsg0XGDO0T0)
 
-Timming: 0:00 - 9:05
+Timming: 0:00 - 10:54
 
 <h1 id='referencias'>Referencias Bibliográficas</h1>
 Cajo Hernandez, J. A., & Rosales Caururu, A. N. (2022). Sistema de control y gestión para los cultivos agrícolas aplicando tecnologías emergentes en el Perú. [Tesis de licenciatura, Universidad Peruana de Ciencias Aplicadas]. Repositorio Académico UPC. https://repositorioacademico.upc.edu.pe/bitstream/handle/10757/660718/Cajo_HJ.pdf?sequence=3
