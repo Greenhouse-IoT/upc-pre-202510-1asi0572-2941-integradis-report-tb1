@@ -5192,7 +5192,7 @@ Los hypotheses statements identificados en conjunto con los criterios de éxito 
 
 Consideramos fuertemente que las etapas más importantes de todo el proceso/roadmap de los productos digitales se encuentran en realizar buenas entrevistas para conocer a nuestros segmentos objetivos y para validar nuestro producto, Así como toda la parte que corresponde al diseño de la aplicación: mockups, wireframes, diagramas de clases y base de datos, etc. Ya que, estos forman parte del core del desarrollo del informe y proyecto para la parte de documentación e implementación correspondiente.
 
-Video about the team: https://youtu.be/Z9uFPMvtS-A
+Video about the team: https://youtu.be/recBZJRJ7Do
 
 <h1 id='referencias'>Referencias Bibliográficas</h1>
 Cajo Hernandez, J. A., & Rosales Caururu, A. N. (2022). Sistema de control y gestión para los cultivos agrícolas aplicando tecnologías emergentes en el Perú. [Tesis de licenciatura, Universidad Peruana de Ciencias Aplicadas]. Repositorio Académico UPC. https://repositorioacademico.upc.edu.pe/bitstream/handle/10757/660718/Cajo_HJ.pdf?sequence=3
